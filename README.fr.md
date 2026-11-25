@@ -14,6 +14,12 @@ DramaCanvas réunit la préparation d’histoires, un canevas infini et des comp
 
 **Il s’agit d’un aperçu du frontend, pas du service hébergé complet.** La version locale utilise des données de démonstration isolées. Elle ne fournit ni génération réelle par IA, ni comptes cloud, ni paiements, ni stockage serveur. Le produit complet est accessible sur [dramacanva.com](https://dramacanva.com/).
 
+## Que peut-on faire sur DramaCanvas ?
+
+Sur [dramacanva.com](https://dramacanva.com/), vous pouvez développer une histoire en projet de série courte, préparer les personnages et les plans du storyboard, générer des images et des séquences vidéo avec des modèles d’IA, puis organiser vos éléments sur un canevas infini. Les compétences créatives et les modèles vidéo permettent de réutiliser des méthodes de travail pour des séries courtes, des courts métrages, des clips musicaux et d’autres récits visuels. Les options de génération disponibles dépendent du modèle et de votre compte.
+
+**[Ouvrir l’espace de création en ligne →](https://dramacanva.com/)**
+
 ## À découvrir
 
 | Espace | Contenu disponible |

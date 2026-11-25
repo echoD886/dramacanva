@@ -14,6 +14,12 @@ DramaCanvas brings story planning, an infinite canvas and reusable creative skil
 
 **This is a frontend preview, not the complete hosted service.** The local version uses isolated demo data. AI generation, cloud accounts, payments and server-side storage are not included. To try the full product, visit [dramacanva.com](https://dramacanva.com/).
 
+## What can you do on DramaCanvas?
+
+On [dramacanva.com](https://dramacanva.com/), you can develop a story into a short-drama project, plan characters and storyboard shots, generate images and video clips with AI models, and organize your material on an infinite canvas. Creative skills and video templates help you reuse workflows for short dramas, short films, music videos and other visual stories. Available generation options depend on the model and your account.
+
+**[Open the online workspace →](https://dramacanva.com/)**
+
 ## Explore the workspace
 
 | Area | What you can explore |
