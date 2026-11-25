@@ -1,0 +1,71 @@
+import { skillListingText } from "@/pages/skills/skill-purpose";
+import { useI18n } from "@/i18n/use-i18n";
+import { useEffect, useMemo, useState } from "react";
+import { Select } from "antd";
+
+import { listAddedSkills, type Skill } from "@/services/api/skills";
+import { SKILL_RUNTIME_PROFILES, type SkillRuntimeProfile } from "@/services/skill-runtime";
+
+export function useSkillRuntimeCatalog() {
+    const [skills, setSkills] = useState<Skill[]>([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        let cancelled = false;
+        listAddedSkills()
+            .then((result) => {
+                if (!cancelled) setSkills(result.skills.filter((skill) => skill.isAdded));
+            })
+            .catch(() => {
+                if (!cancelled) setSkills([]);
+            })
+            .finally(() => {
+                if (!cancelled) setLoading(false);
+            });
+        return () => {
+            cancelled = true;
+        };
+    }, []);
+
+    return { skills, loading };
+}
+
+export function SkillRuntimePicker({
+    skills,
+    loading,
+    value,
+    onChange,
+    placeholder,
+    profile = "canvas",
+}: {
+    skills: Skill[];
+    loading?: boolean;
+    value: string[];
+    onChange: (skillIds: string[]) => void;
+    placeholder?: string;
+    profile?: SkillRuntimeProfile;
+}) {
+    const { t } = useI18n();
+    const options = useMemo(() => skills.map((skill) => ({ value: skill.skillId, label: skillListingText(skill, t).name, title: skillListingText(skill, t).description })), [skills, t]);
+    const maxSkills = SKILL_RUNTIME_PROFILES[profile].maxSkills;
+
+    return (
+        <Select
+            className="w-full"
+            style={{ width: "100%" }}
+            mode="multiple"
+            allowClear
+            showSearch
+            maxCount={maxSkills || undefined}
+            maxTagCount="responsive"
+            loading={loading}
+            value={value}
+            placeholder={placeholder ?? t("skillPicker.placeholder")}
+            optionFilterProp="label"
+            options={options}
+            onChange={onChange}
+            notFoundContent={loading ? t("skillPicker.loading") : t("skillPicker.empty")}
+            aria-label={t("skillPicker.label")}
+        />
+    );
+}

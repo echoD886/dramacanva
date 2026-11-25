@@ -1,0 +1,23 @@
+const messages = {
+    "systemUpdatePhase.idle": "Pendiente de comprobación",
+    "systemUpdatePhase.checking": "Comprobando",
+    "systemUpdatePhase.ready": "Actualización disponible",
+    "systemUpdatePhase.no_update": "Actualizado",
+    "systemUpdatePhase.preflight": "Comprobaciones previas",
+    "systemUpdatePhase.backing_up": "Creando copia de seguridad",
+    "systemUpdatePhase.pulling": "Descargando imagen",
+    "systemUpdatePhase.draining": "Deteniendo el servicio anterior",
+    "systemUpdatePhase.migrating": "Migrando la base de datos",
+    "systemUpdatePhase.switching": "Cambiando de versión",
+    "systemUpdatePhase.verifying": "Verificando el estado",
+    "systemUpdatePhase.succeeded": "Actualización completada",
+    "systemUpdatePhase.rolling_back": "Revirtiendo",
+    "systemUpdatePhase.rolled_back": "Revertido",
+    "systemUpdatePhase.failed": "Actualización fallida",
+    "systemUpdatePhase.manual_intervention": "Requiere intervención manual",
+    "systemUpdatePhase.waiting": "Pendiente de ejecución",
+    "systemUpdatePhase.passed": "Superada",
+    "systemUpdatePhase.checkFailed": "Fallida",
+    "systemUpdatePhase.pending": "Pendiente",
+} as const;
+export default messages;

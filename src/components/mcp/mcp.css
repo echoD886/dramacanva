@@ -1,0 +1,211 @@
+.mcp-command-card,
+.mcp-key-connection,
+.mcp-key-dialog {
+    min-width: 0;
+    color: var(--foreground);
+    font-size: var(--fs-body);
+}
+.mcp-command-card {
+    padding: var(--space-3);
+    border-radius: var(--r-xl);
+    background: var(--workspace-surface);
+}
+.mcp-command-card .mcp-command-heading h2 {
+    margin: 0;
+    font-size: var(--fs-body);
+}
+.mcp-command-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-2);
+}
+.mcp-command-heading h2 {
+    /* A readable minimum lets the client tabs wrap below instead of crushing the title word by word. */
+    flex: 1 1 14em;
+    min-width: 0;
+}
+.mcp-command-heading .mcp-tabs {
+    flex: none;
+}
+.mcp-tabs button:focus-visible {
+    outline-offset: -2px;
+}
+@media (max-width: 767px) {
+    .mcp-command-heading {
+        flex-wrap: wrap;
+    }
+    .mcp-command-heading h2 {
+        flex-basis: 100%;
+    }
+}
+.mcp-command-card p,
+.mcp-key-connection p {
+    margin: var(--space-2) 0;
+    color: var(--muted-foreground);
+    line-height: 1.6;
+}
+.mcp-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border: 1px solid var(--workspace-border);
+    border-radius: var(--r-md);
+    overflow: hidden;
+}
+.mcp-tabs button,
+.mcp-action {
+    border: 1px solid var(--workspace-border);
+    border-radius: var(--r-md);
+    background: var(--workspace-surface);
+    color: var(--foreground);
+    padding: var(--space-2) var(--space-3);
+    cursor: pointer;
+    font: inherit;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+}
+.mcp-tabs button[aria-selected="true"] {
+    background: var(--workspace-accent-soft);
+    border-color: var(--workspace-accent);
+}
+.mcp-tabs button {
+    border: 0;
+    border-radius: 0;
+    min-height: 24px;
+    line-height: 1.4;
+    padding: var(--space-1) var(--space-2);
+    font-size: var(--fs-caption);
+}
+.mcp-action:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
+.mcp-command-card :focus-visible,
+.mcp-copy-block :focus-visible,
+.mcp-key-connection :focus-visible {
+    outline: 2px solid var(--control-focus-ring);
+    outline-offset: 2px;
+}
+.mcp-copy-block {
+    min-width: 0;
+    max-width: 100%;
+}
+.mcp-code-label {
+    display: block;
+    margin-bottom: var(--space-2);
+}
+.mcp-code-row {
+    --mcp-code-bg: var(--color-neutral-950);
+    --mcp-code-text: var(--color-neutral-50);
+    display: flex;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: var(--r-md);
+    border: 1px solid var(--workspace-border);
+    background: var(--mcp-code-bg);
+    color: var(--mcp-code-text);
+}
+.mcp-code-row pre {
+    min-width: 0;
+    flex: 1;
+    overflow-x: auto;
+    margin: 0;
+    padding: var(--space-1) var(--space-2);
+    font-size: var(--fs-caption);
+    line-height: 1.6;
+    direction: ltr;
+    text-align: left;
+}
+.mcp-code-row.is-single-line pre {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    align-content: center;
+}
+.mcp-code-row.is-single-line button {
+    min-height: 36px;
+    white-space: nowrap;
+}
+.mcp-code-row button {
+    flex: none;
+    align-self: stretch;
+    border: 0;
+    border-inline-start: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    padding: var(--space-1) var(--space-2);
+    cursor: pointer;
+    font: inherit;
+}
+.mcp-copy-status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
+.mcp-connect-steps {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-1) var(--space-3);
+    padding: 0;
+    list-style: none;
+    margin: var(--space-2) 0 0;
+    font-size: var(--fs-caption);
+}
+.mcp-connect-steps li {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+}
+.mcp-connect-steps .mcp-action {
+    min-height: 24px;
+    line-height: 1.4;
+    padding: var(--space-1) var(--space-2);
+    font-size: inherit;
+}
+.mcp-billing-info {
+    color: var(--muted-foreground);
+}
+.mcp-cursor-help {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-top: var(--space-2);
+    font-size: var(--fs-caption);
+    color: var(--muted-foreground);
+}
+.mcp-cursor-help .mcp-action {
+    min-height: 28px;
+    padding: var(--space-1) var(--space-2);
+}
+.mcp-codex-approval {
+    margin-top: var(--space-2);
+    font-size: var(--fs-caption);
+}
+.mcp-codex-approval p {
+    margin: 0 0 var(--space-1);
+}
+.mcp-codex-approval summary {
+    cursor: pointer;
+    color: var(--muted-foreground);
+}
+.mcp-codex-approval[open] summary {
+    margin-bottom: var(--space-2);
+}
+.mcp-key-connection,
+.mcp-key-dialog {
+    display: grid;
+    gap: var(--space-3);
+}

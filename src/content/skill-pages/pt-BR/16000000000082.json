@@ -1,0 +1,67 @@
+{
+    "title": "Roteiro de sitcom e esquetes: conflitos e piadas",
+    "metaDescription": "Para esquetes cômicas ou sitcom familiar. Informe personagens e conflitos cotidianos; monte no canvas contrastes, gancho de abertura e roteiro com piadas.",
+    "oneLiner": "Insira personagens e conflitos cotidianos e gere no canvas um roteiro de sitcom com piadas.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda a criar histórias de esquetes cômicas. Ela não depende de juntar piadas da internet de qualquer jeito; usa o atrito entre as personalidades dos personagens e pequenos mal-entendidos do dia a dia para fazer o humor surgir naturalmente.",
+        "Você só precisa preparar algumas identidades de personagens (por exemplo, um pai que adora contar vantagem e uma criança sensata) e um pequeno acontecimento cotidiano que eles enfrentaram recentemente, e enviar diretamente para a IA no lado direito do canvas.",
+        "A IA gera cards de roteiro completos no canvas, incluindo gancho de abertura, conflitos em cada etapa e distribuição das piadas, para você consultar, editar falas ou copiar e usar diretamente."
+    ],
+    "example": {
+        "input": "Quero gravar uma esquete familiar de dois minutos: um pai pão-duro quer comprar uma vara de pescar escondido, mas é pego pelo filho que está no fundamental, e os dois começam a se acobertar.",
+        "output": "No canvas são gerados cards de roteiro em três atos: com falas de gancho na abertura, distribuição de piadas em que o pai inventa desculpas e passa vergonha, e um final caloroso de reconciliação familiar, prontos para copiar e editar."
+    },
+    "scenarios": [
+        "Quer escrever uma esquete cômica familiar ou de trabalho, mas sente que as piadas parecem muito remendadas e a história não flui.",
+        "Definiu dois personagens, mas o diálogo fica sem graça assim que eles começam a falar, e não sabe como deixar o contraste evidente.",
+        "Teme que o conflito do vídeo cômico fique agressivo demais, parecendo uma briga, e quer criar uma história engraçada com um final afetuoso.",
+        "Faz uma série de vídeos curtos e quer que os personagens tenham bordões fixos e traços de personalidade fáceis de lembrar."
+    ],
+    "problems": [
+        {
+            "pain": "Esquetes cômicas dependem só de memes batidos encontrados na internet, e a história fica fragmentada e desconexa.",
+            "solve": "Ajuda a organizar a estrutura completa da história, com começo, desenvolvimento e desfecho, colocando as piadas nas diferenças de personalidade e no atrito cotidiano, sem forçar piadas prontas."
+        },
+        {
+            "pain": "Os personagens têm personalidades comuns demais, o público não se lembra deles e a conversa perde o fôlego em poucas falas.",
+            "solve": "Organiza o contraste de personalidade entre os personagens e o modo de interação da dupla, cria bordões exclusivos e faz as falas se encaixarem naturalmente."
+        },
+        {
+            "pain": "O conflito do roteiro fica afiado demais, parece uma briga para descontar raiva, e o público se incomoda.",
+            "solve": "Usa pequenos mal-entendidos cotidianos e leves como ponto de conflito, mantendo o humor do atrito e retomando o carinho entre os companheiros no final."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e entre no canvas do {brand}.",
+        "Descreva a configuração dos seus personagens e o pequeno conflito cotidiano e envie ao assistente de IA.",
+        "Veja os cards gerados no canvas e confira o diálogo de abertura e a distribuição das piadas.",
+        "Peça ao assistente para ajustar detalhes das falas ou gerar de novo os trechos de que não gostou.",
+        "Copie ou baixe o texto do roteiro nos cards para usar nos ensaios e na gravação."
+    ],
+    "faq": [
+        {
+            "q": "Nunca escrevi um roteiro. Dá para criar uma esquete cômica com esta ferramenta?",
+            "a": "Dá, sim. Você não precisa conhecer o formato profissional de roteiro. Basta informar quem são os personagens e como eles costumam se desentender; a IA organiza no canvas um esboço na ordem de abertura, conflito e desfecho. Seguindo as ideias de piadas e falas indicadas, você consegue escrever uma história curta completa."
+        },
+        {
+            "q": "Como fazer o diálogo entre duas pessoas de uma esquete ficar mais engraçado e com contraste?",
+            "a": "O segredo é criar um descompasso de personalidade ou de status entre os dois, por exemplo: um fala muito e sempre erra, enquanto o outro parece obedecer, mas costuma revelar a verdade. A ferramenta ajuda a desenhar o modo de interação e os bordões exclusivos da dupla, para que eles consigam emendar e jogar as falas um para o outro com fluidez."
+        },
+        {
+            "q": "O roteiro gerado pode ser transformado diretamente em vídeo?",
+            "a": "Não é possível gerar o vídeo final diretamente; esta ferramenta entrega cards com o esboço do roteiro em texto. Depois de ajustar as falas no canvas até ficarem boas, você pode copiá-las para ensaiar com atores ou usá-las como prompts de cena em outras ferramentas de geração de vídeo."
+        },
+        {
+            "q": "Conflitos grandes podem parecer briga. Como escrever algo afetuoso e engraçado?",
+            "a": "Concentre o conflito em pequenos assuntos do dia a dia, não em uma rivalidade real por interesses. A ferramenta cria uma virada afetuosa no final do roteiro: os personagens podem discutir sem ceder, mas acabam entendendo um ao outro, e a comédia termina com humor e carinho."
+        }
+    ],
+    "keywords": [
+        "como escrever roteiro de sitcom",
+        "roteiro de esquete cômica",
+        "como escrever diálogos engraçados para vídeos",
+        "contraste entre personagens em esquetes",
+        "falas engraçadas para dupla de comédia",
+        "como criar piadas para esquetes curtas"
+    ]
+}

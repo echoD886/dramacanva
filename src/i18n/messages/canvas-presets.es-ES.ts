@@ -1,0 +1,22 @@
+const messages = {
+    "canvasPresets.characterName": "Hoja de personaje",
+    "canvasPresets.characterDescription": "Referencias de frente, perfil, espalda y expresiones para mantener la coherencia del personaje",
+    "canvasPresets.angleName": "Múltiples ángulos de cámara",
+    "canvasPresets.angleDescription": "Crea cambios continuos de cámara alrededor del mismo sujeto",
+    "canvasPresets.nextName": "Desarrollar el siguiente plano",
+    "canvasPresets.nextDescription": "Desarrolla acciones y transiciones a partir del fotograma actual",
+    "canvasPresets.beatsName": "Secuencia de planos",
+    "canvasPresets.beatsDescription": "Divide una historia breve en una secuencia de planos listos para generar",
+    "canvasPresets.lightName": "Iluminación cinematográfica",
+    "canvasPresets.lightDescription": "Conserva el contenido y mejora la iluminación realista, la profundidad y la integración",
+    "canvasPresets.videoName": "Mejorar prompt de vídeo",
+    "canvasPresets.videoDescription": "Organiza los planos en instrucciones cronológicas que el modelo pueda seguir",
+    "canvasPresets.added": "Habilidad añadida",
+    "canvasPresets.search": "Buscar preajustes o habilidades añadidas",
+    "canvasPresets.skill": "Habilidad",
+    "canvasPresets.preset": "Preajuste",
+    "canvasPresets.empty": "No hay preajustes coincidentes",
+    "canvasPresets.templates": "Plantillas de prompts",
+    "canvasPresets.open": "Abrir preajustes de prompts",
+} as const;
+export default messages;

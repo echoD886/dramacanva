@@ -1,0 +1,66 @@
+{
+    "title": "Modificación local: marca la zona y cambia solo ese detalle",
+    "metaDescription": "Retoca detalles concretos: marca la zona en el lienzo de {brand}, indica los cambios y se generará una imagen nueva con esos ajustes, sin tocar la original.",
+    "oneLiner": "Para quien quiera retocar solo una parte: marca la zona y lo que quieres cambiar para obtener una nueva imagen corregida.",
+    "intro": [
+        "Esta es una herramienta para modificar detalles concretos de una imagen. Si la acción de un personaje no es la correcta, quieres cambiar el color de una prenda o hay objetos sobrantes en el fondo, no necesitas rehacer la imagen entera: cambia solo lo necesario.",
+        "Solo tienes que preparar una imagen que quieras modificar. Ábrela en el lienzo, coloca puntos numerados en las zonas que quieras cambiar y escribe una indicación para cada punto, por ejemplo, «cambiar por una chaqueta negra».",
+        "Cuando lo confirmes, el lienzo generará una nueva imagen con los cambios. La nueva imagen no conservará los puntos de marcado, así que quedará limpia. La imagen original se conserva intacta para que puedas compararla o descargar la nueva."
+    ],
+    "example": {
+        "input": "Sube una imagen de una posada de estilo antiguo, coloca el punto 1 en la mesa y escribe «eliminar la botella de agua mineral moderna»; coloca el punto 2 en la pared y escribe «colgar una espada de madera».",
+        "output": "En el lienzo se genera una nueva imagen: la botella de agua de la mesa ha desaparecido, en la pared aparece una espada de madera y el resto de personajes y el fondo se mantienen todo lo posible como estaban; la imagen original sigue en el lienzo."
+    },
+    "scenarios": [
+        "Quieres ajustar ligeramente el color de la ropa o el peinado de un personaje ya dibujado, sin cambiar su cara ni el fondo.",
+        "En la escena hay objetos que no encajan y quieres cambiarlos por objetos de atrezo acordes con la época.",
+        "La acción de un personaje secundario no es la correcta y quieres modificar solo a esa persona sin rehacer toda la imagen.",
+        "Quieres añadir un objeto en la mano de un personaje o sustituir el texto de un cartel del fondo."
+    ],
+    "problems": [
+        {
+            "pain": "Si solo describes con texto dónde quieres cambiar la imagen, es fácil que la IA modifique la zona equivocada.",
+            "solve": "Marca puntos numerados directamente sobre la imagen y escribe tus indicaciones para decirle a la IA con precisión qué cambiar en cada zona."
+        },
+        {
+            "pain": "Quieres corregir dos o tres pequeños defectos y, al volver a generar, toda la imagen cambia.",
+            "solve": "Permite marcar varios puntos numerados y escribir una indicación para cada uno, de modo que se generen de una vez los cambios en varios detalles."
+        },
+        {
+            "pain": "Te preocupa que la imagen original se sobrescriba o que los puntos de marcado aparezcan dibujados en la nueva imagen.",
+            "solve": "La imagen original se conserva en el lienzo y la nueva imagen solo muestra los cambios, sin los puntos de marcado."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y sube o selecciona en el lienzo la imagen que quieras modificar.",
+        "Abre la interfaz de anotación de la imagen, coloca puntos numerados en las zonas que quieras cambiar y escribe claramente las indicaciones de modificación.",
+        "Confirma los puntos marcados y sus indicaciones para que el asistente empiece a generar la nueva imagen con los cambios.",
+        "Revisa en el lienzo la nueva imagen generada y, cuando el resultado te convenza, descárgala."
+    ],
+    "faq": [
+        {
+            "q": "¿Los números y puntos marcados en la imagen aparecerán dibujados en la nueva imagen?",
+            "a": "No aparecerán en la nueva imagen: el sistema elimina automáticamente los puntos de marcado, la numeración y las líneas auxiliares al generar, y solo muestra los cambios que hayas indicado. La nueva imagen queda limpia y sin rastro de marcas, así que puedes usarla con tranquilidad."
+        },
+        {
+            "q": "¿Se sobrescribirá la imagen original después de modificarla?",
+            "a": "No se sobrescribe: al terminar la modificación, el lienzo genera una imagen completamente nueva al lado y conserva intactas tanto la original como el registro de anotaciones. Puedes comparar en el lienzo los detalles de la nueva imagen con la original cuando quieras y descargar la nueva cuando te convenza."
+        },
+        {
+            "q": "¿Se pueden marcar varios cambios en una misma imagen a la vez?",
+            "a": "Sí, puedes modificar varios puntos a la vez: marca en la imagen varios puntos numerados en orden y escribe una indicación distinta para cada uno. Al confirmar, el sistema procesará todos los puntos de una vez y generará una nueva imagen, sin necesidad de enviarlos por separado varias veces."
+        },
+        {
+            "q": "¿Cómo usar la IA para modificar solo una parte de la imagen sin cambiar el resto?",
+            "a": "Coloca puntos numerados en las zonas que quieras cambiar y escribe indicaciones claras; el sistema regenerará solo las zonas marcadas y tratará de mantener el resto de la imagen sin cambios. Si algún detalle no te convence tras la generación, puedes ajustar el texto de ese punto y volver a generar."
+        }
+    ],
+    "keywords": [
+        "modificar parte de una imagen con IA",
+        "editar una imagen con marcas",
+        "cambiar una imagen con IA sin tocar el fondo",
+        "sustituir una parte de la imagen",
+        "modificar la imagen por zonas",
+        "eliminar objetos de una foto con IA"
+    ]
+}

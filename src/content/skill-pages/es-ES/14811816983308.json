@@ -1,0 +1,66 @@
+{
+    "title": "Crea guion y storyboard de una serie corta con una frase",
+    "metaDescription": "Para creadores de series cortas: con una idea y referencias, genera en el lienzo de {brand} el esquema de capítulos, guiones, storyboards y prompts.",
+    "oneLiner": "Para creadores de series cortas: crea guiones de varios capítulos y storyboards en el lienzo con una frase y referencias.",
+    "intro": [
+        "Es una herramienta de creación que te ayuda a idear series cortas de varios capítulos en el lienzo. Divide la historia en episodios consecutivos con altibajos y deja un gancho atractivo al final de cada uno para que la trama no resulte aburrida.",
+        "Solo necesitas una idea de historia en una frase, el número de capítulos que quieres y imágenes de referencia del protagonista o de las escenas. Si a mitad de camino quieres cambiar el aspecto o la ropa de un personaje, basta con enviar una nueva imagen para actualizarlo.",
+        "Al terminar, en el lienzo se generan el esquema por capítulos, el guion completo con diálogos y tarjetas de storyboard (una tabla dividida en planos individuales) y de prompts (texto para crear las imágenes)."
+    ],
+    "example": {
+        "input": "«Serie romántica urbana: una becaria salva por accidente a un multimillonario encubierto; 5 capítulos de 1 minuto cada uno», y sube imágenes de referencia de los protagonistas y de la oficina.",
+        "output": "En el lienzo se generarán tarjetas de perfil de personaje, el esquema de la trama de los 5 capítulos, el guion de cada capítulo con acciones y diálogos, y tarjetas de tabla de storyboard con tipos de plano y descripciones."
+    },
+    "scenarios": [
+        "Quieres rodar una serie corta de varios capítulos, pero no sabes cómo plantear giros atractivos en cada episodio.",
+        "Solo tienes una idea sencilla de historia y no consigues escribir un guion gráfico estándar con ángulos de cámara y diálogos.",
+        "Al crear vídeos en serie, te preocupa que la ropa o el aspecto del protagonista cambien entre capítulos y se note el fallo de continuidad.",
+        "Acabas de escribir la historia de una serie corta y no sabes cómo convertirla en prompts de storyboard para crear las imágenes."
+    ],
+    "problems": [
+        {
+            "pain": "Es fácil que una serie corta serializada pierda fuerza y que los últimos capítulos sean planos y sin gancho.",
+            "solve": "Divide la serie en tres fases —planteamiento, conflicto y desenlace— y planifica el conflicto y el suspense de cada capítulo para mantener el interés."
+        },
+        {
+            "pain": "En vídeos de varios capítulos, la ropa o el aspecto del protagonista no coinciden y se producen fallos de continuidad.",
+            "solve": "Registra la configuración de forma unificada a partir de tus imágenes de referencia y la comprueba automáticamente antes de generar cada nuevo capítulo; si detecta un conflicto, te avisa."
+        },
+        {
+            "pain": "Tienes ideas en la cabeza, pero no sabes dividir la historia en un storyboard profesional de rodaje.",
+            "solve": "Divide automáticamente la trama en una tabla de storyboard con tamaños de plano, acciones de los personajes y diálogos, y la muestra con claridad en el lienzo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el chat a la derecha del lienzo.",
+        "Escribe tu idea de historia y el número de capítulos, y sube imágenes de referencia del protagonista o de las escenas.",
+        "Revisa el esquema de la historia, los guiones por capítulo y la tabla de storyboard que se generan en el lienzo.",
+        "Copia o descarga las tarjetas de guion y prompts generadas para usarlas en la producción posterior."
+    ],
+    "faq": [
+        {
+            "q": "Al crear una serie corta de varios capítulos, ¿cómo mantengo la coherencia del aspecto y la ropa de los personajes?",
+            "a": "Sobre todo, subiendo imágenes de referencia de antemano para poder compararlas. Antes de generar cada capítulo, contrasta los personajes y la ropa con las imágenes que has proporcionado y, si detecta incoherencias, te pide que las confirmes. Si cambias una imagen de personaje a mitad de camino, también intentará actualizar los capítulos posteriores."
+        },
+        {
+            "q": "Si solo tengo una idea de historia en una frase, ¿cómo la amplío a un guion de varios capítulos?",
+            "a": "Envía directamente la idea en una frase y el número de capítulos objetivo al asistente de IA. Primero dividirá la historia en un esquema con altibajos y después añadirá acciones y diálogos concretos capítulo a capítulo. Todas las tarjetas de texto generadas se pueden consultar y modificar manualmente en el lienzo en cualquier momento."
+        },
+        {
+            "q": "¿Esta habilidad puede crear directamente un vídeo final de serie corta con voz?",
+            "a": "No. Genera sobre todo guiones, tablas de storyboard y descripciones visuales; no dobla por sí sola ni monta automáticamente un vídeo final. En las tarjetas se incluyen diálogos y sugerencias de efectos de sonido para que sirvan de referencia en la producción posterior. Puedes copiar o descargar el guion y los prompts generados para la producción y el montaje posteriores."
+        },
+        {
+            "q": "Si a mitad de camino quiero cambiar el aspecto o la ropa del protagonista, ¿tengo que reescribir el guion desde cero?",
+            "a": "No hace falta reescribirlo desde cero: basta con enviar una nueva imagen en el chat. Cuando el sistema reconoce la nueva imagen, actualiza la información del personaje y revisa automáticamente la configuración del contenido de los capítulos posteriores. Si encuentra contradicciones, te pide que las confirmes y, una vez confirmadas, sigue generando con el nuevo aspecto."
+        }
+    ],
+    "keywords": [
+        "escribir series cortas con IA",
+        "generador de guiones para series cortas",
+        "storyboard para series cortas",
+        "guion de serie corta con una idea",
+        "esquema de serie corta por capítulos",
+        "prompts visuales para series cortas"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Ritmo de guion para cómic animado: giros que enganchan",
+    "metaDescription": "Para creadores de cómic animado con historias planas: envía tu guion y genera en el lienzo giros, clímax y una lista de comprobación para reescribirlo.",
+    "oneLiner": "Introduce tu guion y genera propuestas de giros en el lienzo; ideal para creadores de cómic animado.",
+    "intro": [
+        "Esta es una herramienta de {brand} que ayuda a los creadores de cómic animado a mejorar sus guiones en el lienzo. Introduce el texto de tu historia y genera en el lienzo propuestas de giros y ritmo; ideal si sientes que la trama es plana.",
+        "Solo necesitas tener preparado el texto actual de tu historia. En el lado derecho del lienzo, dile a la IA los nombres de los personajes, dónde ocurre la historia, los detalles de la trama y cuántos minutos quieres que dure el vídeo.",
+        "La IA genera tarjetas de texto en el lienzo con sugerencias de ritmo precisas al segundo, propuestas de diseño para giros argumentales y una lista de comprobación, para que puedas revisar y modificar o copiar directamente."
+    ],
+    "example": {
+        "input": "Guion «Remontada», episodio 1, escenario en una oficina. Al protagonista, Xiao Li, su supervisor le roba el mérito y lo ridiculiza en público; quieres convertirlo en un vídeo de 3 minutos.",
+        "output": "Genera tarjetas de texto en el lienzo: sugiere mostrar los primeros 90 segundos como preparación de la injusticia y, de 90 a 120 segundos, que el protagonista saque una grabadora y contraataque para humillar a su rival; indica la intensidad de la acción visual e incluye una lista de comprobación."
+    },
+    "scenarios": [
+        "Has terminado el guion de una miniserie y sientes que es una simple sucesión de escenas; quieres añadir giros que atraigan.",
+        "El protagonista da la vuelta a la situación de golpe y resulta forzado; necesitas diseñar una preparación de contratiempos que haga la contraofensiva más satisfactoria.",
+        "Al hacer vídeos de 3 a 5 minutos, quieres comprobar si hay tramos aburridos de más de 60 segundos seguidos.",
+        "El guion solo muestra la victoria mediante diálogo; quieres diseñar detalles de acción y objetos que hagan la remontada más impactante."
+    ],
+    "problems": [
+        {
+            "pain": "La trama es sosa y el público quiere pasar de página a los pocos segundos.",
+            "solve": "Te ayuda a desglosar la historia y a colocar un pequeño contratiempo cada 45 segundos para evitar, en lo posible, tramos aburridos de más de 60 segundos."
+        },
+        {
+            "pain": "El protagonista remonta y gana de repente; suena falso y forzado, y no resulta suficientemente satisfactorio.",
+            "solve": "Sugiere preparar de 20 a 60 segundos de injusticia antes de la remontada para que la contraofensiva sea más coherente y gratificante."
+        },
+        {
+            "pain": "Hay peleas intensas de principio a fin y el público se cansa visualmente.",
+            "solve": "Propone 1 clímax central con 2 o 3 giros menores y dejar de 3 a 5 segundos de pausa tras el conflicto para que el público procese las emociones."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo de creación.",
+        "Envía a la IA tu guion, los perfiles de los personajes y la duración deseada.",
+        "Consulta en el lienzo el calendario de ritmo y la propuesta de cambios en la trama.",
+        "Copia o descarga las sugerencias de cambio, o pide a la IA que reajuste un fragmento concreto."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo controlar el ritmo de la trama en un cómic animado (vídeo manga)?",
+            "a": "La clave del ritmo es «primero contener, luego estallar»: en los primeros 90 segundos se prepara la injusticia contra el protagonista y, de 90 a 120 segundos, llega el clímax de la contraofensiva. Después de un conflicto intenso, puedes dejar de 3 a 5 segundos sin diálogo para que el público digiera las emociones."
+        },
+        {
+            "q": "¿Qué hago si el giro resulta demasiado brusco, como si el protagonista tuviera poderes de repente?",
+            "a": "Antes de la contraofensiva, muestra de 20 a 30 segundos la arrogancia del villano o el contratiempo del protagonista, y siembra antes detalles como una prueba clave. Así la remontada resultará lógica y más satisfactoria."
+        },
+        {
+            "q": "¿Cómo evitar que la trama sea aburrida y que el público se vaya a la mitad?",
+            "a": "Coloca un pequeño contratiempo o una discusión cada 45 segundos aproximadamente y evita, en lo posible, periodos planos de más de 60 segundos sin gancho. A lo largo del episodio también puedes alternar conflictos verbales, peleas y dudas internas para que la historia sea más rica y compacta."
+        },
+        {
+            "q": "En un vídeo de 3 a 5 minutos por episodio, ¿cuántos giros y clímax conviene incluir?",
+            "a": "Normalmente se recomienda 1 gran clímax central y 2 o 3 giros menores. Intenta que los clímax visuales intensos no superen los 3, para evitar sobreestimular y cansar al público. El giro central puede mostrarse con primeros planos y las subtramas menores con una acción moderada."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un guion de cómic animado",
+        "cómo controlar el ritmo de una historia",
+        "cómo diseñar giros en una miniserie",
+        "cómo crear momentos satisfactorios en cómic animado",
+        "qué hacer si mi guion es muy plano",
+        "cómo escribir un clímax"
+    ]
+}

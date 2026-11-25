@@ -1,0 +1,67 @@
+{
+    "title": "Anúncios de snacks e beleza com IA: 12s em 10 cenas",
+    "metaDescription": "Para snacks, beleza e bebidas: informe o produto ou envie foto; a IA planeja 10 cenas rápidas, gera clipes e você monta o anúncio de 12s.",
+    "oneLiner": "Informe dados de snacks e beleza e gere, para criadores, um plano de cenas e clipes de anúncio de 12s.",
+    "intro": [
+        "Uma ferramenta de anúncios para vendedores de snacks, beleza e bebidas: informe os diferenciais do produto e ela divide o anúncio em 10 cenas rápidas, com ações exageradas como rasgar e recheio explodindo, planejando visuais cartunescos e vibrantes.",
+        "No chat, você pode informar o nome do produto, os diferenciais e o estilo desejado, além de anexar uma foto do produto. Se não houver foto pronta, a IA também pode gerar primeiro uma imagem de referência com fundo branco no canvas.",
+        "Ao final, você recebe no canvas uma tabela de storyboard (que divide o vídeo em cenas, detalhando imagem e som) e 10 clipes de vídeo; basta ordená-los na linha do tempo de vídeo e exportar o anúncio final."
+    ],
+    "example": {
+        "input": "Bala de goma recheada de morango, destacando a sensação de suco explodindo ao morder, com cores vibrantes em rosa e verde e elementos de doodle americano, estilo alegre e leve, com uma foto da bala.",
+        "output": "No canvas, é gerada uma tabela com 10 cenas, detalhando enquadramentos em close e efeitos sonoros de explosão de recheio; após confirmar, são gerados 10 cards de clipes de vídeo correspondentes."
+    },
+    "scenarios": [
+        "Lançamento de um novo snack, com vontade de fazer um anúncio em vídeo curto com imagens fortes, como rasgar a embalagem e recheio explodindo.",
+        "Novidades em maquiagem e skincare, com vontade de criar um vídeo visual vibrante que una filmagem real e desenho 2D à mão.",
+        "Divulgação de bebidas geladas e sucos, com vontade de destacar cortes rápidos e refrescantes, como abrir a tampa com jato e gelo espirrando.",
+        "Ter apenas uma foto do produto e querer planejar rapidamente um anúncio de 10 cenas e gerar o vídeo."
+    ],
+    "problems": [
+        {
+            "pain": "Uma apresentação comum de produto é sem graça demais e não prende a atenção nas plataformas de vídeo curto.",
+            "solve": "Cria 10 cenas rápidas, com rasgos, recheio explodindo e doodles vibrantes, deixando as ações exageradas e chamativas."
+        },
+        {
+            "pain": "Querer fazer um anúncio que misture desenho à mão e filmagem real, mas não saber como organizar as cenas.",
+            "solve": "Divide 12 segundos em 10 cenas, indicando detalhes visuais e efeitos sonoros; após a confirmação, gera diretamente os clipes de vídeo correspondentes."
+        },
+        {
+            "pain": "Não ter uma boa foto do produto e recear que as imagens criadas pela IA não pareçam com o seu item.",
+            "solve": "Basta enviar uma foto comum para a IA identificar a aparência; se faltar uma imagem adequada, a IA também pode gerar antes uma referência com fundo branco."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de skills, clique em «Usar esta skill» e abra o chat no lado direito do canvas do {brand}.",
+        "Envie o nome do produto, os diferenciais e o estilo desejado, anexando uma foto do produto.",
+        "Confira a tabela de planejamento das 10 cenas gerada no canvas e valide a imagem e o design das ações.",
+        "Após confirmar, peça à IA para gerar os clipes de vídeo de cada cena; os clipes de que não gostar podem ser refeitos individualmente.",
+        "Ordene os clipes na linha do tempo de vídeo e exporte para concluir o anúncio em vídeo de 12 segundos."
+    ],
+    "faq": [
+        {
+            "q": "Como usar a IA para fazer um vídeo curto e vibrante de snacks e bebidas?",
+            "a": "No lado direito do canvas do {brand}, informe os diferenciais do produto e o estilo, e anexe uma foto. A IA vai gerar primeiro uma tabela de planejamento com 10 cenas e depois os clipes de vídeo correspondentes. Por fim, basta ordenar esses clipes na linha do tempo de vídeo para exportar o anúncio de 12 segundos."
+        },
+        {
+            "q": "Só tenho uma foto comum tirada com o celular; dá para fazer o vídeo?",
+            "a": "Dá. Basta enviar a foto do produto no chat: a IA identifica as características da embalagem e, com base nisso, planeja as 10 cenas e gera os clipes. Se o fundo da foto for complexo ou faltar uma imagem adequada, a IA também pode ajudar a gerar antes uma imagem com fundo branco no canvas como referência."
+        },
+        {
+            "q": "Os vídeos gerados já vêm com narração ou música de fundo?",
+            "a": "Não vêm com narração nem com música final; esta skill só gera os clipes de imagem, e a IA atualmente não oferece narração separada. Mas ela detalha, na tabela de storyboard, sugestões de efeitos sonoros e de ritmo musical para cada cena, para você adicionar o áudio depois de exportar o vídeo."
+        },
+        {
+            "q": "Posso usar esta função para eletrodomésticos, produtos digitais ou vídeos longos?",
+            "a": "Não é indicado. Esta skill foi criada especificamente para produtos de consumo rápido, como snacks, beleza e bebidas, e não trata outras categorias nem anúncios em vídeo longos. Ela se concentra em ações exageradas e rápidas de 12 segundos, como rasgar a embalagem e recheio explodindo; para itens que não sejam de consumo rápido, recomendamos usar o fluxo normal de criação no canvas."
+        }
+    ],
+    "keywords": [
+        "anúncio de snacks com IA",
+        "criação de anúncio em vídeo curto",
+        "storyboard para vídeo de snacks e beleza",
+        "como fazer anúncio de 12 segundos",
+        "gerar vídeo promocional de produto",
+        "tabela de storyboard para vídeo rápido"
+    ]
+}

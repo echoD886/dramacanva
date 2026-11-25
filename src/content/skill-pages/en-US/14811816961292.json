@@ -1,0 +1,66 @@
+{
+    "title": "Make green-screen cat dancing clips for easy editing",
+    "metaDescription": "For funny videos and memes: enter a cat breed and dance moves, and AI makes a green-screen dancing clip on the canvas for easy keying and editing.",
+    "oneLiner": "Give it a cat breed and moves, and it creates a green-screen dancing clip on the canvas that's easy to key.",
+    "intro": [
+        "A clip-making tool for comedy video creators: choose a cat breed and dance moves, and the canvas generates a locked-off, full-body dancing clip with a solid green background.",
+        "Just fill out a simple form to pick the cat breed, dance style, aspect ratio, and resolution. If there's a dance you want to imitate, you can also upload a reference video.",
+        "When it's done, a video card appears on the canvas. It's a solid-green-background dancing video up to 15 seconds long; you can download it directly or place it on the canvas timeline in order and export."
+    ],
+    "example": {
+        "input": "Choose an orange tabby, a funny side-to-side wiggle dance, 5 seconds, vertical, old blurry retro grain quality, no background music.",
+        "output": "A video card appears on the canvas: a full-body orange tabby centered and dancing side to side against a flat solid green screen, with retro noise for easy keying."
+    },
+    "scenarios": [
+        "When making a funny short video, you need a cat dancing shot with a clean background as a comedy insert.",
+        "You can't film a specific cat breed yourself and want to specify a British Shorthair or orange tabby to perform certain moves.",
+        "You have a viral funny dance video and want the cat to mimic the moves in it.",
+        "When making retro funny internet memes, you need cat clips with an old, blurry look and pixel grain."
+    ],
+    "problems": [
+        {
+            "pain": "Cat dancing videos online have messy backgrounds, making it hard to cut the cat out cleanly.",
+            "solve": "Generate a flat solid green background with no extra light or shadows, with the cat's full body centered, so keying is easier."
+        },
+        {
+            "pain": "You want to use a specific cat breed in a video, but filming it yourself is too hard and you can't find it online.",
+            "solve": "Pick the cat breed and dance moves directly in the form, and it automatically generates a matching single full-body clip."
+        },
+        {
+            "pain": "You found a viral funny dance but can't find ready-made footage of a cat doing those moves.",
+            "solve": "Upload that dance video, and AI will reference the body movements in the video to generate a cat dancing shot."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill\" to open the {brand} canvas page.",
+        "Fill out the parameter form that appears, choose a cat breed and moves, or upload a reference video.",
+        "After submitting, wait for the canvas to generate the green-screen cat dancing video card.",
+        "Download the video clip, or drag it onto the video timeline to arrange the order and then export."
+    ],
+    "faq": [
+        {
+            "q": "How do I make a cat dancing video with a solid green background that's easy to key?",
+            "a": "Choose a cat breed and dance in the form and submit; the system will automatically generate a fixed-camera dancing clip with a clean solid green-screen background and no messy light or shadows. The full-body cat stays centered, so after downloading and importing the video into editing software, you can use chroma keying to isolate the cat easily."
+        },
+        {
+            "q": "Can the cat imitate my own dance moves?",
+            "a": "Yes. Upload a dance video you want to reference in the form, and the system will try to imitate the body movements in the video to generate a cat dancing shot. We recommend uploading a single-person video with clear, full-body movements; if the reference video is longer than 15 seconds, trim it before uploading."
+        },
+        {
+            "q": "Does the generated cat dancing video include sound or music?",
+            "a": "You can choose. When filling out the parameter form, you can check whether you want background music, and the system will generate the video accordingly. If you choose no music, the video will stay silent so you can add your own sound effects and music in your editing software after downloading."
+        },
+        {
+            "q": "How do I get that old, blurry funny cat look?",
+            "a": "In the quality style section of the parameter form, select \"Vintage Blurry\" and the generated video will come with the high-compression noise and aged grain of early internet memes. This look is great for funny memes and retro internet jokes; if you want a normal clear image, just select \"Clear HD\" in the form."
+        }
+    ],
+    "keywords": [
+        "green screen cat dancing footage",
+        "how to make AI cat dancing video",
+        "cat dancing green screen video",
+        "make your own cat dancing video",
+        "AI cat dance imitation",
+        "funny cat green screen clip"
+    ]
+}

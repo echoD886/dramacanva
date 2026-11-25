@@ -1,0 +1,66 @@
+{
+    "title": "AI Video Model Guide: Pick Tools by Scene Needs + Prompts",
+    "metaDescription": "For beginners unsure which AI video tool to use. Enter a scene idea to get 2-3 picks, visual differences, and organized prompt cards on the canvas.",
+    "oneLiner": "Enter a scene idea, get suitable AI tool picks, clear differences, and prompt cards.",
+    "intro": [
+        "This assistant helps you choose AI generation tools. Different AI tools excel at different visuals, so it recommends the two or three best tool directions based on the characteristics of the scene you want to create.",
+        "Just describe the shot you want in plain language, such as character appearance, action intensity, or art style, or upload a reference image you like.",
+        "When it's done, you'll get cards on the canvas: they explain the recommendation and visual differences, and include prompts (the text description of the image you give the AI) that follow the chosen tool's rules."
+    ],
+    "example": {
+        "input": "“I want to make an ancient wuxia short film. I need a close-up shot of the main character quickly drawing a sword and fighting, and I don’t know which model would generate it best.”",
+        "output": "The AI creates text cards on the canvas, recommends two tools that excel at large movements and fight scenes, explains the visual differences, and includes finished, properly formatted prompts."
+    },
+    "scenarios": [
+        "Facing multiple AI tools, you don't know which to choose or what visual styles each excels at.",
+        "You want to generate specific actions, such as fast fighting or clear dialogue, but don't know which tool is better suited.",
+        "You've written scene prompts but don't know the official format requirements for a specific tool.",
+        "When a tool can't handle your scene request, you need clear replacement suggestions and fixes."
+    ],
+    "problems": [
+        {
+            "pain": "There are too many AI tools on the platform, their features aren't clear, and trial and error wastes time.",
+            "solve": "It recommends two or three suitable directions based on your scene needs and explains visual differences and reasons for choosing them in plain language."
+        },
+        {
+            "pain": "Different tools have different writing rules, and forcing templates onto them can easily break the visuals.",
+            "solve": "It organizes scene prompts according to the chosen tool's official rules and fills in required fields so the output better matches expectations."
+        },
+        {
+            "pain": "If the tool can't do your scene idea, you're stuck and don't know what to do next.",
+            "solve": "It clearly tells you where you're stuck and what's missing, then gives actionable revision suggestions and alternatives."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use This Skill,” then enter your scene idea in the chat box on the right.",
+        "Describe your shot requirements or upload a reference image, such as the action or visual style you want.",
+        "Review the tool recommendations and difference notes on the canvas, then choose your preferred option or use the default recommendation.",
+        "Copy or download the generated formatted prompt cards. If changes are needed, edit the content and generate again."
+    ],
+    "faq": [
+        {
+            "q": "When making an AI video, how do I know which tool to choose?",
+            "a": "Choosing a tool mainly depends on what your scene requires in terms of action, character look, or art style. After you enter your idea, the system recommends two or three suitable options and explains the differences. If you can't decide, it automatically uses the most reliable default tool to generate cards on the canvas."
+        },
+        {
+            "q": "Why does a prompt that worked before produce worse results when I switch tools?",
+            "a": "Because each tool has its own official formatting rules and required fields. Applying a generic template directly can miss key requirements and make the visuals unstable. This skill organizes prompts according to the chosen tool's official requirements and fills in required fields so the output better matches expectations."
+        },
+        {
+            "q": "The AI gave me multiple tool options, and I'm not sure which to pick. What should I do?",
+            "a": "You can tell the assistant your thoughts directly, or you can say nothing; the system will automatically choose the most reliable default tool and generate results on the canvas. When it generates, it will briefly explain which option it chose, so you don't need to worry about making the wrong decision."
+        },
+        {
+            "q": "What if the AI can't create the scene I want?",
+            "a": "The system will clearly tell you where you're stuck and what conditions are missing, and it will provide alternative suggestions on the canvas. You just need to revise the scene request based on the guidance. It will never blindly try or fail without notice—every step has clear guidance."
+        }
+    ],
+    "keywords": [
+        "how to choose an AI video model",
+        "which AI tool to use for video",
+        "best AI video model recommendations",
+        "AI image model differences",
+        "how to write AI video prompts",
+        "how to write AI visual prompts"
+    ]
+}

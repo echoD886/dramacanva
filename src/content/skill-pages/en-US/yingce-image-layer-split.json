@@ -1,0 +1,66 @@
+{
+    "title": "Image Cutout: Transparent Subject Extraction | {brand}",
+    "metaDescription": "For creators who need standalone assets. Upload an image, name the person or object, and AI creates a separate transparent image to download or reuse.",
+    "oneLiner": "Upload an image and specify the subject to generate transparent asset cards on the canvas—great for creators",
+    "intro": [
+        "This is a tool that helps you extract standalone assets from an image. It’s great for creators who need to separate people, props, or furniture on their own—no complicated photo-editing software required, and you can break out images right on the canvas.",
+        "All you need to do is upload a reference image to the canvas, then tell the assistant in text which character or object you want to cut out. You can also draw a box around the area you want to extract.",
+        "When it’s done, transparent-background image cards appear on the canvas. The original image stays fully intact, and you can download the cutout assets directly or leave them on the canvas to keep laying out your design."
+    ],
+    "example": {
+        "input": "Upload a photo of two people and enter this in the chat box on the right: “Cut out the woman on the left in the red jacket and make her a transparent-background image.”",
+        "output": "The original image stays on the canvas, and a transparent-background image card of the woman is created next to it, so you can download it separately or keep it on the canvas to continue laying out your design."
+    },
+    "scenarios": [
+        "In a group photo, you want to cut out one person as a character reference.",
+        "You see a nice table, chair, or prop in a scene image and want to extract it and put it into a new image.",
+        "The character and background in a concept image you generated are stuck together, and you need to separate the character.",
+        "You want to split a character’s clothes, jewelry, or weapon from an image into transparent cutouts to view separately."
+    ],
+    "problems": [
+        {
+            "pain": "The character and background in a reference image are stuck together, so you can’t use the character alone as a reference.",
+            "solve": "Tell the assistant which person you want to extract, and it will create a separate transparent-background character card on the canvas without changing the original image."
+        },
+        {
+            "pain": "An image has multiple characters or objects, and you only want one.",
+            "solve": "Describe or box the target, and the assistant will cut out only the object you want without affecting the rest."
+        },
+        {
+            "pain": "When splitting multiple objects at once, you worry that one failure means you’ll have to start over.",
+            "solve": "Cards that succeed stay on the canvas, and failures get a clear notice, so you only need to re-extract the failed items individually."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill,” and upload a reference image to the canvas.",
+        "Tell the assistant which person or object you want to cut out, or draw a box around it directly on the image.",
+        "Wait for the assistant to create separate transparent-background image cards on the canvas.",
+        "Review the generated images, and when you’re happy, download them directly from the canvas or keep using them."
+    ],
+    "faq": [
+        {
+            "q": "Will the cutout transparent images overwrite the original image?",
+            "a": "No, the original image will not be overwritten or deleted. Each extracted object becomes a separate new image on the canvas, and the original is kept intact beside it. That makes it easy to compare results or keep using the original at any time."
+        },
+        {
+            "q": "Can I cut out multiple people or objects from an image at the same time?",
+            "a": "Yes, you can extract them separately. You can list multiple targets you need to cut out in one message, and the assistant will create transparent-background images for each one. Each object is its own image card, so you can use them individually."
+        },
+        {
+            "q": "Can the edges of the cutout be very clean?",
+            "a": "We can’t guarantee perfectly clean edges, but the system will try to keep the subject’s outline clear and complete. Results depend mainly on the original image’s clarity and background complexity; if you’re not happy with the details in one image, you can ask the assistant to re-extract just that one."
+        },
+        {
+            "q": "If one object fails to cut out, do I need to redo everything?",
+            "a": "No, you don’t need to start over. Any image cards that were successfully cut out stay on the canvas, and only the failed parts get a text notice. You just need to describe or box the objects that didn’t work and extract them again."
+        }
+    ],
+    "keywords": [
+        "image cutout",
+        "transparent background",
+        "extract person from photo",
+        "photo cutout",
+        "separate subject from photo",
+        "remove image background"
+    ]
+}

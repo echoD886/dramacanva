@@ -1,0 +1,20 @@
+const protocolPicker = {
+    "protocolPicker.text": "文本",
+    "protocolPicker.textDescription": "对话与推理",
+    "protocolPicker.image": "图片",
+    "protocolPicker.imageDescription": "生成与编辑",
+    "protocolPicker.video": "视频",
+    "protocolPicker.videoDescription": "生成与续写",
+    "protocolPicker.audio": "音频",
+    "protocolPicker.audioDescription": "语音与音效",
+    "protocolPicker.capability": "模型能力",
+    "protocolPicker.requestProtocol": "模型请求协议",
+    "protocolPicker.async": "异步轮询",
+    "protocolPicker.sync": "同步响应",
+    "protocolPicker.configure": "配置模型能力与请求协议",
+    "protocolPicker.apply": "应用配置",
+    "protocolPicker.protocol": "请求协议",
+    "protocolPicker.missing": "未安装协议",
+    "protocolPicker.choice": "{capability} · {protocol}",
+} as const;
+export default protocolPicker;

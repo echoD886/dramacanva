@@ -1,0 +1,66 @@
+{
+    "title": "Gatos bailando con fondo verde chroma para recortar",
+    "metaDescription": "Para vídeos cómicos y memes: elige raza y baile, y la IA crea en el lienzo un vídeo de gato bailando con fondo verde, listo para recortar y editar.",
+    "oneLiner": "Dale la raza del gato y los movimientos, y la herramienta generará en el lienzo un vídeo de baile con fondo verde fácil de recortar.",
+    "intro": [
+        "Herramienta de recursos para creadores de vídeos cómicos: elige la raza del gato y los pasos de baile, y podrás generar en el lienzo un clip de baile con cámara fija, el cuerpo entero visible y un fondo totalmente verde.",
+        "Solo tienes que rellenar un formulario sencillo y elegir la raza del gato, el estilo de baile, la relación de aspecto y la resolución. Si quieres imitar un baile concreto, también puedes subir directamente un vídeo de referencia.",
+        "Cuando termines, aparecerá una tarjeta de vídeo en el lienzo. Es un vídeo de baile con fondo verde puro de no más de 15 segundos que puedes descargar directamente o colocar en la línea de tiempo del lienzo para ordenarlo y exportarlo."
+    ],
+    "example": {
+        "input": "Elige un gato naranja, un baile pegadizo que se mueva de lado a lado, 5 segundos, formato vertical, calidad vintage borrosa y granulada, sin música de fondo.",
+        "output": "Se genera una tarjeta de vídeo en el lienzo: un gato naranja de cuerpo entero y centrado baila moviéndose de lado a lado, sobre un fondo verde liso y uniforme, y la imagen presenta grano vintage, lo que facilita su uso directo para recortar."
+    },
+    "scenarios": [
+        "Al hacer vídeos cortos cómicos, necesitas una escena de un gato bailando con un fondo limpio para usarla como gag.",
+        "No puedes grabar tú mismo un gato de una raza concreta y quieres indicar un británico de pelo corto o un gato naranja para que haga ciertos movimientos.",
+        "Tienes un vídeo de un paso de baile viral y quieres que un gatito imite los movimientos del vídeo.",
+        "Al crear memes cómicos vintage, necesitas un clip de gato con aspecto antiguo, borroso y con grano de píxeles."
+    ],
+    "problems": [
+        {
+            "pain": "Los vídeos de gatos bailando que encuentras en internet tienen fondos desordenados y es muy difícil recortar al gato con limpieza.",
+            "solve": "Genera un fondo verde puro, plano y sin luces ni sombras sobrantes, con el gato de cuerpo entero centrado, para que el recorte sea mucho más sencillo."
+        },
+        {
+            "pain": "Quieres usar un gato de una raza concreta en tu vídeo, pero grabarlo tú mismo es muy difícil y en internet no lo encuentras.",
+            "solve": "Elige directamente la raza del gato y el baile en el formulario, y se generará automáticamente un vídeo de una sola toma con el cuerpo entero correspondiente."
+        },
+        {
+            "pain": "Te ha gustado un baile cómico viral, pero no encuentras material existente de un gato haciendo esos movimientos.",
+            "solve": "Puedes subir ese vídeo de baile y la IA usará los movimientos corporales del vídeo como referencia para generar una escena de un gato bailando."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en la página del lienzo de {brand}.",
+        "Rellena el formulario de parámetros que aparece y elige la raza del gato y el movimiento, o sube un vídeo de referencia.",
+        "Confirma el envío y espera a que se genere en el lienzo la tarjeta de vídeo del gato bailando con fondo verde.",
+        "Descarga el clip de vídeo o arrástralo a la línea de tiempo para ordenarlo y exportarlo."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo puedo crear un vídeo de un gato bailando con fondo verde puro y fácil de recortar?",
+            "a": "Elige la raza del gato y el baile en el formulario y envíalo; el sistema generará automáticamente un fondo verde puro, sin luces ni sombras desordenadas, y un clip de baile con cámara fija. El gato aparece siempre centrado y de cuerpo entero; cuando descargues el vídeo y lo importes en tu editor, podrás aislar al gato fácilmente usando croma."
+        },
+        {
+            "q": "¿Puedo hacer que el gato imite mis propios pasos de baile?",
+            "a": "Sí. Sube al formulario un vídeo de baile que quieras usar como referencia y el sistema intentará imitar los movimientos corporales del vídeo para generar una escena de un gato bailando. Te recomendamos subir un vídeo de una sola persona, con movimientos claros y el cuerpo entero visible; si el vídeo de referencia supera los 15 segundos, recórtalo antes de subirlo."
+        },
+        {
+            "q": "¿El vídeo de gato bailando generado incluye sonido o música?",
+            "a": "Puedes elegirlo tú: al rellenar el formulario de parámetros, marca si quieres música de fondo o no, y el sistema generará el vídeo según tu elección. Si eliges que no lleve música, el vídeo permanecerá silenciado para que puedas añadir después los efectos de sonido y la música que prefieras en tu propio editor."
+        },
+        {
+            "q": "¿Cómo consigo ese aspecto antiguo y borroso de los memes de gatos?",
+            "a": "En el estilo de calidad del formulario, marca «vintage desgastado y borroso» y el vídeo generado incluirá el ruido de alta compresión y el grano desgastado típicos de los primeros memes de internet. Esta calidad va muy bien para memes cómicos y chistes retro; si quieres una imagen nítida normal, solo tienes que elegir «nítida y en alta definición» en el formulario."
+        }
+    ],
+    "keywords": [
+        "gato bailando pantalla verde",
+        "cómo hacer un gato bailando con IA",
+        "vídeo de gato bailando croma",
+        "crear vídeo de gato bailando",
+        "IA gato imita baile",
+        "meme de gato pantalla verde"
+    ]
+}

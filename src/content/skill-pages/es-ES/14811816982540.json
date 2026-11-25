@@ -1,0 +1,66 @@
+{
+    "title": "{brand}: define el mundo y genera escenas",
+    "metaDescription": "Para creadores de historias o vídeos: define cómo funciona el mundo, detecta incoherencias y genera fichas de ambientación y referencias de escenas.",
+    "oneLiner": "Introduce tu idea de historia y genera en el lienzo fichas de ambientación y referencias visuales de escenas.",
+    "intro": [
+        "Esta es una herramienta de creación que ayuda a construir el trasfondo de una historia. Tanto si quieres escribir ciencia ficción como fantasía, parte de cómo vive la gente y de cómo funciona la sociedad para ayudarte a definir un mundo narrativo coherente.",
+        "Solo necesitas unas pocas ideas para la historia, un concepto central o imágenes de referencia. Si ya tienes una ambientación previa escrita, también puedes enviársela directamente para que te ayude a encontrar incoherencias.",
+        "Al terminar, en el lienzo aparecerá un conjunto de fichas de ambientación que detallan el entorno y las costumbres, además de referencias visuales de escenas para que puedas idear la trama o preparar las imágenes."
+    ],
+    "example": {
+        "input": "Quiero escribir sobre un pueblo de vapor donde llueve torrencialmente todo el año, la gente obtiene electricidad recogiendo agua de lluvia y hay una gran desigualdad entre ricos y pobres. Necesito una ambientación y una imagen de referencia de una calle.",
+        "output": "En el lienzo se generan varias fichas de texto que detallan el sistema de drenaje, las zonas residenciales y las costumbres cotidianas; también se genera una imagen de una calle lluviosa de noche, cubierta de tuberías oxidadas y con agua acumulada en el suelo."
+    },
+    "scenarios": [
+        "Al idear una historia de ficción, quieres fijar un conjunto coherente de reglas sociales y detalles de la vida cotidiana.",
+        "Al preparar imágenes, necesitas convertir ideas de ambientación difusas en referencias visuales concretas de escenas.",
+        "A mitad de la ambientación descubres contradicciones y quieres detectar fallos y completar las partes que faltan.",
+        "Ya tienes el esquema de la historia y necesitas material claro sobre el entorno y el trasfondo para que lo consulte el equipo."
+    ],
+    "problems": [
+        {
+            "pain": "Las ambientaciones ficticias quedan todas iguales y carecen de rasgos memorables.",
+            "solve": "Parte de una o dos reglas especiales básicas para deducir cómo comen, visten, viven y se desplazan, y así lograr que las costumbres y el entorno resulten vivos y originales."
+        },
+        {
+            "pain": "Solo se busca que la ambientación sea llamativa, y las conductas de los personajes y el entorno suelen contradecirse.",
+            "solve": "Comprueba la lógica según las necesidades de la vida cotidiana, detecta lo que no tiene sentido y propone cambios."
+        },
+        {
+            "pain": "La ambientación que tienes en mente es muy abstracta y no sabes cómo dibujar una escena concreta.",
+            "solve": "Convierte la ambientación abstracta en materiales de construcción, luz y sombras y huellas de la vida cotidiana, y dibuja referencias visuales de escenas en el lienzo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo de creación de {brand}.",
+        "Introduce tu idea de historia, tus reglas principales o sube imágenes de referencia.",
+        "Consulta en el lienzo las reglas sociales, los detalles del entorno y las referencias visuales de escenas generadas.",
+        "Revisa y modifica el contenido de las fichas; si una imagen de escena te convence, puedes descargarla directamente."
+    ],
+    "faq": [
+        {
+            "q": "Para crear la ambientación de una historia, ¿hay que inventar toda la historia del mundo?",
+            "a": "No, basta con definir el ámbito que abarca la historia. Si la historia transcurre solo en un pueblo, no hace falta inventar mil años de historia de todo un continente. Según la escala del relato, solo se ordenan las reglas de vida y los detalles del entorno necesarios."
+        },
+        {
+            "q": "¿Cómo hacer que el trasfondo de una historia ficticia resulte creíble?",
+            "a": "La clave está en ver cómo vive la gente corriente. Primero se fijan una o dos reglas fundamentales y luego se deduce cómo comen, se visten, ganan dinero y entran en conflicto. Cuando los detalles cotidianos son coherentes, el lector siente que ese mundo es real."
+        },
+        {
+            "q": "¿Cómo puedo comprobar si la ambientación que ya he escrito tiene fallos?",
+            "a": "Puedes enviársela directamente al asistente para que la revise. Comprobará si las distintas partes de la ambientación se contradicen y si los detalles cotidianos están completos. Si encuentra algo incoherente, señalará el problema en el lienzo y propondrá cambios."
+        },
+        {
+            "q": "¿Las imágenes de escenas generadas se pueden usar directamente para hacer vídeos?",
+            "a": "No genera vídeos directamente; lo que produce son imágenes de referencia estáticas de escenas. Estas imágenes muestran el estilo arquitectónico, la luz y la disposición del espacio, y te sirven como referencia visual al idear el storyboard o dibujar las imágenes."
+        }
+    ],
+    "keywords": [
+        "ambientación de una historia",
+        "cómo escribir un mundo ficticio para una novela",
+        "generar imágenes de referencia de escenas",
+        "diseño de reglas de un mundo ficticio",
+        "documento de ambientación de una historia",
+        "corregir incoherencias del mundo narrativo"
+    ]
+}

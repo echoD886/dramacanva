@@ -1,0 +1,329 @@
+Política de Privacidade do DramaCanvas
+
+Data de publicação: 2026-10-12
+
+Data de entrada em vigor: 2026-10-12
+
+Boas-vindas ao uso dos produtos e serviços do DramaCanvas!
+
+"DramaCanvas (anteriormente Say Action)" é um ambiente de trabalho open source de criação de filmes, séries e microdramas com IA. Nesta política, "nós" refere-se ao operador que efetivamente implanta e opera o site, os clientes, os kits de desenvolvimento de software (SDK), as interfaces de programação de aplicativos (API) do DramaCanvas ou os serviços relacionados que lhe são fornecidos; o escopo de responsabilidades dos contribuidores do código open source e do operador efetivo será determinado pelas leis aplicáveis, pelas instruções de implantação e pelos serviços que cada um efetivamente fornece.
+
+Levamos muito a sério a privacidade e a proteção de informações pessoais dos usuários (aquiina designados "você"). Quando você usa nossos produtos e/ou serviços, podemos coletar e usar suas informações pessoais relacionadas. Por meio desta Política de Privacidade, explicamos a você como o DramaCanvas coleta, usa, armazena, compartilha e transfere suas informações pessoais ao fornecer produtos e/ou serviços, quais direitos de usuário sobre informações pessoais você possui e como o DramaCanvas protege a segurança de suas informações pessoais.
+
+Esta Política de Privacidade está intimamente relacionada ao DramaCanvas que você utiliza e às diversas funcionalidades de negócio que esse serviço inclui (aquiina denominados coletivamente "nossos produtos e/ou serviços"). Esperamos que, antes de usar nossos produtos e/ou serviços, você leia atentamente e confirme que conhece plenamente e compreende o conteúdo declarado nesta política, de modo que você possa fazer as escolhas que considerar adequadas conforme as orientações desta Política de Privacidade. Assim que você começar a usar, ou continuar usando após atualizarmos esta Política de Privacidade, nossos produtos e/ou serviços, isso significará que você compreendeu plenamente e concordou com o conteúdo desta política (incluindo versões atualizadas) e concordou que coletemos, usemos, armazenemos e compartilhemos suas informações relacionadas conforme esta Política de Privacidade.
+
+Esta Política de Privacidade ajudará você a compreender o seguinte:
+
+1. Escopo de aplicação desta Política de Privacidade
+
+2. Como coletamos e usamos suas informações pessoais
+
+3. Como usamos Cookies e tecnologias semelhantes
+
+4. Como compartilhamos, transferimos e divulgamos publicamente suas informações pessoais
+
+5. Como protegemos e armazenamos suas informações pessoais
+
+6. Como você gerencia suas informações pessoais
+
+7. Proteção de informações de menores de idade
+
+8. Como esta política é atualizada
+
+9. Como entrar em contato conosco
+
+1. Escopo de aplicação desta Política de Privacidade
+
+1. Esta Política de Privacidade aplica-se quando você acessa e usa nossos produtos e serviços por meio do site das plataformas associadas do DramaCanvas, dos aplicativos clientes, e dos SDKs (kits de desenvolvimento de software) e APIs (interfaces de programação de aplicativos) do DramaCanvas destinados a sites e aplicativos de terceiros; porém, se o produto e/ou serviço em questão tiver termos de privacidade/contrato de privacidade próprios, esses termos/contratos de privacidade específicos prevalecerão, e quanto ao que não for mencionado nos termos/contratos de privacidade específicos, aplicar-se-á esta política.
+
+2. Esta política não se aplica às seguintes situações:
+
+(1) Informações e/ou serviços de terceiros incluídos em nossos produtos e/ou serviços ou vinculados a eles (incluindo quaisquer aplicativos, sites, produtos, serviços etc. de terceiros); essas informações e/ou serviços são operados sob responsabilidade de terceiros, e o uso que você faz deles está sujeito às regras de coleta e uso de informações pessoais que o terceiro lhe explicar separadamente.
+
+(2) Outros conteúdos de produtos e/ou serviços que não sejam fornecidos a você pelo DramaCanvas.
+
+2. Como coletamos e usamos suas informações pessoais
+
+Coletamos e usamos suas informações pessoais com base nos princípios da legalidade e legitimidade, do mínimo necessário e da abertura e transparência, e para os fins descritos nesta política. Se formos usar suas informações pessoais para outras finalidades não especificadas nesta política, ou coletar e usar suas informações pessoais com base em outras finalidades específicas, explicaremos separadamente, de maneira razoável (incluindo, mas não se limitando a, atualizar esta política, assinar novamente documentos, avisos na página, pop-ups, mensagens dentro do site, e-mails, anúncios no site ou outras formas que facilitem seu conhecimento), as regras correspondentes de coleta, finalidade de uso, método, escopo etc. dessas informações, e garantiremos que essas novas necessidades continuem em conformidade com os princípios de legalidade, legitimidade e necessidade, evitando exceder o escopo original, coletando e usando somente após obter sua autorização e consentimento.
+
+Permissões do sistema como câmera, microfone e álbum de fotos não são ativadas por padrão; só serão acessadas para a implementação de uma funcionalidade/serviço específico mediante sua autorização expressa, e você pode revogar a autorização a qualquer momento. É preciso destacar, em particular, que, mesmo com sua autorização para acessar as permissões correspondentes, nós só acessaremos dentro do escopo de sua autorização; e, se você se recusar a fornecê-las, isso apenas impedirá o uso da funcionalidade correspondente, sem afetar o uso normal das demais funcionalidades dos produtos e/ou serviços.
+
+Para fornecer-lhe serviços, coletamos e usamos suas informações pessoais das seguintes maneiras:
+
+(I) Funcionalidades necessárias ao uso dos produtos ou serviços do DramaCanvas
+
+1. Informações de registro de conta: ao registrar uma conta DramaCanvas pela primeira vez, você precisa registrar-se usando um número de telefone celular com certificação de identidade real (nome real) e criar uma senha de login. Alertamos explicitamente aqui que o número de telefone celular será usado para a certificação de nome real, e a senha de login deve atender aos requisitos de complexidade para garantir a segurança da conta. Essas informações são necessárias para o registro de sua conta DramaCanvas; se você se recusar a fornecê-las, não poderá registrar uma conta na plataforma DramaCanvas, e só poderá usar os serviços de navegação e pesquisa. Após registrar a conta com sucesso, você pode fazer login nos produtos ou serviços do DramaCanvas por meio do número de telefone celular e do código de verificação por SMS, ou por meio do número de telefone celular e da senha.
+
+2. Conta unificada e plataformas associadas: salvo indicação em contrário, todas as versões associadas do DramaCanvas usam o serviço unificado de contas DramaCanvas, incluindo entre outras "DramaCanvas", "DramaCanvas Exibição" e "DramaCanvas Criação", etc. Você pode usar sua conta DramaCanvas para fazer login e usar conveniently as diversas plataformas associadas do DramaCanvas, a fim de utilizar os serviços ou funcionalidades da plataforma correspondente. Para proporcionar uma experiência de serviço consistente nas diversas plataformas associadas do DramaCanvas, podemos usar SDKs ou tecnologias relacionadas para sincronizar contas e conteúdo entre as plataformas associadas, o que pode incluir: compartilhar apelido, avatar e outras informações de conta que você definiu como públicas; sincronizar os conteúdos que você curtiu, favoritou, gerou e publicou usando esta conta; sincronizar outras informações que você autorizou.
+
+3. Serviço de geração de conteúdo: com base em tecnologia de modelos de inteligência artificial (aquiina denominada "IA"), o DramaCanvas oferece a você serviços como geração de conteúdo por IA (imagens, áudio e vídeo, etc.). Para fornecer-lhe o serviço, nós **coletaremos os textos, imagens, áudios, vídeos e outros conteúdos e instruções que você escolher ou inserir ativamente.** Analisaremos essas informações para gerar melhor conteúdos que atendam às suas instruções e exigências. Ao mesmo tempo, desde que os dados tenham passado por processamento com tecnologia de criptografia de segurança, rigorosa desidentificação e impossibilidade de reidentificação de indivíduos específicos, podemos usar os dados coletados e os conteúdos correspondentes gerados pelo modelo para otimização do modelo, ajustando e aprimorando continuamente o desempenho do modelo.
+
+Para implementar funcionalidades relacionadas, podemos, por razões técnicas, enviar ao servidor para processamento os materiais originais que você escolher ou enviar ativamente. Entre eles, algumas funcionalidades podem exigir análise e processamento de materiais contendo rostos ou vozes. Mas fique tranquilo: esses conteúdos serão permitidos somente para implementar efeitos de geração relacionados a instruções de "processamento de retrato" ou funcionalidades e serviços como "avatar digital", e jamais serão usados para identificar indivíduos específicos, verificar identidade pessoal ou outras finalidades.
+
+Ao usar a geração de conteúdo por IA (incluindo, mas não se limitando a, importar materiais, exportar conteúdos gerados etc.), solicitaremos sua autorização para permissões de microfone, câmera, álbum de fotos ou armazenamento conforme o tipo de funcionalidade e serviço que você efetivamente utilizar. Se você recusar a autorização, não poderá usar funcionalidades como importar materiais e exportar conteúdos gerados, mas isso não afeta o uso das outras funcionalidades do DramaCanvas. (Explicação das permissões do aplicativo DramaCanvas)
+
+4. Navegação e pesquisa de conteúdo: durante sua navegação pelo conteúdo do DramaCanvas, registramos seu uso. Se você não estiver com a conta autenticada (logada), usaremos as informações de identificadores correspondentes ao dispositivo para registrar seus cliques, navegações, downloads, compartilhamentos e feedbacks. Se estiver autenticado, registraremos por meio de sua conta seus cliques, navegações, downloads, compartilhamentos, seguidas (follows), feedbacks, criação de versões semelhantes, publicações, curtidas, comentários etc. Ao usar o serviço de pesquisa, coletamos e analisamos suas palavras-chave de pesquisa e registros de log para apresentar resultados de pesquisa com maior grau de relevância. Alertamos explicitamente aqui que suas palavras-chave de pesquisa e informações de log serão usadas para fornecer resultados de pesquisa mais precisos. Também podemos registrar informações que você forneça, forme ou deixe registradas ao usar nossos serviços, como termos de consulta inseridos na pesquisa, cliques em termos do histórico, termos de sugestão e links clicados. Você tem o direito de se recusar a fornecer essas informações, mas isso pode impedir que você use determinados serviços ou funcionalidades, ou que se alcance o efeito pretendido pelo serviço correspondente.
+
+5. Publicação de modelos e informações: quando você envia (faz upload de) modelos ou conteúdos de imagens, áudio e vídeo, solicitaremos sua autorização para permissões de álbum de fotos, microfone, câmera etc., conforme a funcionalidade e o tipo de serviço utilizados. Se você recusar a autorização, não poderá usar a funcionalidade de publicação correspondente, mas isso não afeta o uso das outras funcionalidades do DramaCanvas.
+
+O conteúdo que você publicar exibirá seu apelido, avatar e outras informações.
+
+Para otimizar continuamente nossos produtos e serviços e melhorar constantemente nosso ecossistema de conteúdo, efeitos de interação e experiência de uso, realizamos estatísticas e análises de desempenho com base na duração dos modelos, imagens, vídeos e outras obras que você publicou publicamente, bem como nas visualizações, interações, usos etc. dessas obras, e exibimos publicamente ao exterior parte das estatísticas.
+
+6. Quando você compartilha ou recebe informações compartilhadas, participa de atividades etc., o cliente DramaCanvas acessará localmente sua área de transferência (clipboard), gravando códigos de acesso ou lendo códigos de acesso, códigos de compartilhamento e links nela contidos, para implementar funcionalidades ou serviços como redirecionamento, compartilhamento e integração de atividades. Não enviamos as informações de sua área de transferência para nossos servidores.
+
+(II) Fornecimento de produtos ou serviços a você
+
+Ao usar os serviços do DramaCanvas, para manter o funcionamento normal de nossos serviços, melhorar e otimizar a experiência de nossos serviços e garantir a segurança de sua conta, coletaremos as informações abaixo:
+
+Informações do dispositivo: conforme as permissões específicas concedidas por você na instalação e no uso do software, recebemos e registramos informações relacionadas ao dispositivo que você utiliza (incluindo modelo do dispositivo, versão do sistema operacional, endereço IP, número de versão do software e outras características de hardware e software); coletamos algumas permissões de dispositivo para fornecer serviços e experiências mais convenientes e melhores:
+
+Informações de log: coletamos detalhes do seu uso de nossos serviços, mantidos como logs correspondentes, incluindo forma, tipo e estado de acesso à rede, dados de qualidade de rede, logs de operação e informações de log de serviço.
+
+Informações pessoais que você envia por meio de nosso atendimento ao cliente ou ao participar de atividades que promovemos: você sabe e concorda que, em nossa operação, podemos usar os dados de contato que você forneceu ao usar os produtos ou serviços (por exemplo: número de telefone) para enviar-lhe simultaneamente um ou mais tipos de notificações, como avisos de mensagens, verificação de identidade, verificação de segurança e pesquisas de experiência de uso; além disso, também podemos, por SMS ou telefone, fornecer-lhe informações comerciais sobre serviços, funcionalidades ou atividades que possam lhe interessar. Se você não quiser receber essas informações, pode cancelar a inscrição pelo método de descadastro indicado no SMS, ou entrar em contato diretamente conosco para cancelar.
+
+(III) Operação e funcionamento seguro
+
+Para manter o funcionamento normal e estável dos produtos ou serviços relacionados e proteger a segurança e os interesses legítimos de você, de outros usuários ou do público, coletaremos as seguintes informações necessárias:
+
+(1) Para garantir o funcionamento seguro do software e dos serviços e a qualidade e eficiência da operação, coletaremos dados como seu modelo de hardware, número de versão do sistema operacional, identificadores de dispositivo (no Android, como AndroidID e OAID; no iOS, como IDFV e IDFA), identificador anônimo unificado da operadora, endereço de hardware do equipamento de rede (endereço MAC do dispositivo), endereço IP, pontos de acesso WLAN (como SSID e BSSID), Bluetooth, estações base, número de versão do software, forma/tipo/estado de acesso à rede, dados de qualidade de rede, logs de operação/uso/serviço e dados de sensores do dispositivo (como o sensor de aceleração).
+
+(2) Para prevenir programas maliciosos e garantir a qualidade e a eficiência da operação, coletaremos informações da lista de aplicativos instalados, listas de software ou de processos em execução, o funcionamento geral, o uso e a frequência dos aplicativos, ocorrências de falhas (crashes) de aplicativos, situação geral de instalação e uso, dados de desempenho e origem dos aplicativos.
+
+(3) Podemos coletar informações de conta, informações de dispositivo e informações de log de serviço geradas durante seu uso do DramaCanvas, e usar essas informações, bem como informações que nossos afiliados e parceiros obtiveram com sua autorização ou que possam nos fornecer legalmente, para avaliar a segurança de contas e de transações, realizar verificações de identidade, identificar violações de leis e regulamentos, detectar e prevenir incidentes de segurança, e tomar as medidas necessárias de registro, análise e tratamento conforme a lei.
+
+(IV) Outras finalidades
+
+Se coletarmos suas informações pessoais com base em outras finalidades específicas não especificadas nesta política, solicitaremos previamente sua autorização e consentimento. O objetivo de coletarmos e usarmos essas informações é operar melhor os produtos e serviços do DramaCanvas; havendo atualizações, notificaremos você por meios que incluem, mas não se limitam a, anúncios no site, mensagens dentro do site, telefone ou SMS.
+
+Se deixarmos de operar os produtos ou serviços do DramaCanvas, interromperemos oportunamente as atividades de coleta de suas informações pessoais, informaremos o encerramento da operação a você individualmente ou por meio de anúncio no prazo mínimo de 30 dias, e excluiremos ou anonimizaremos as informações pessoais que detivermos. No caso de envolver informações pessoais de crianças, notificaremos oportunamente os responsáveis legais das crianças sobre o encerramento da operação.
+
+(IV) Exceções à autorização e ao consentimento
+
+Você está plenamente ciente de que, conforme as exigências das leis e regulamentos pertinentes, nas seguintes situações podemos coletar e usar suas informações pessoais sem necessidade de sua autorização e consentimento:
+
+1. Quando relacionado ao cumprimento, pelo controlador de informações pessoais, de obrigações estabelecidas em leis e regulamentos;
+
+2. Quando diretamente relacionado à segurança nacional e à segurança de defesa;
+
+3. Quando diretamente relacionado à segurança pública, à saúde pública e a grandes interesses públicos;
+
+4. Quando diretamente relacionado à investigação criminal, ao procesamento, ao julgamento e à execução de sentenças;
+
+5. Quando for para proteger interesses legítimos maiores, como a vida e os bens, do titular das informações pessoais ou de outras pessoas, mas sendo muito difícil obter o consentimento do próprio titular;
+
+6. Quando as informações pessoais envolvidas forem divulgadas publicamente ao público pelo próprio titular das informações pessoais;
+
+7. Quando necessário para a celebração e a execução de contrato conforme exigência do titular das informações pessoais;
+
+8. Quando as informações pessoais forem coletadas de informações divulgadas publicamente de forma legal, como canais de notícias legítimas e divulgação de informações governamentais;
+
+9. Quando necessário para manter o funcionamento seguro e estável dos produtos ou serviços fornecidos, como a detecção e o tratamento de falhas dos produtos ou serviços;
+
+10. Quando o controlador de informações pessoais for um veículo de imprensa e isso for necessário para a realização de cobertura jornalística legítima;
+
+11. Quando o controlador de informações pessoais for uma instituição de pesquisa acadêmica, for necessário realizar estatísticas ou pesquisas acadêmicas em prol do interesse público, e, ao fornecer ao exterior os resultados da pesquisa acadêmica ou das descrições, realizar a desidentificação das informações pessoais contidas nos resultados.
+
+Ressaltamos sua atenção: se as informações não puderem identificar sua identidade pessoal sozinhas ou em combinação com outras informações, elas não constituem suas informações pessoais no sentido jurídico; quando suas informações puderem identificar sua identidade pessoal sozinhas ou combinadas com outras informações, ou quando combinarmos dados que não podemos vincular a nenhuma informação pessoal específica com outras suas informações pessoais, essas informações, durante o período de uso combinado, serão tratadas e protegidas como suas informações pessoais conforme esta política.
+
+3. Como usamos Cookies e tecnologias semelhantes
+
+Para proporcionar a você uma experiência de acesso mais fácil, quando você usa nossos produtos ou serviços, podemos usar diversas tecnologias para coletar e armazenar dados relacionados ao seu acesso aos serviços do DramaCanvas, incluindo, mas não se limitando a, suas informações de dispositivo, informações de login, histórico de navegação etc., de modo que, quando você acessar ou acessar novamente os serviços do DramaCanvas, possamos identificar sua identidade e, por meio da análise desses dados, fornecer-lhe melhores e mais numerosos serviços. Isso inclui usar pequenos arquivos de dados para identificar sua identidade, o que tem como fim compreender seus hábitos de uso, poupar-lhe a digitação repetida de informações de conta, ou ajudar a determinar seu estado de login e a segurança da conta. Esses arquivos de dados podem ser Cookies ou outros armazenamentos locais fornecidos por seu navegador ou aplicativos associados (denominados coletivamente "Cookies").
+
+Não usaremos os Cookies para nenhuma finalidade além daquelas descritas nesta Política de Privacidade. Você pode gerenciar ou excluir os Cookies conforme sua preferência. Você pode limpar todos os Cookies salvos em seu computador; a maioria dos navegadores web aceita Cookies automaticamente, mas você geralmente pode modificar as configurações do navegador conforme sua necessidade para recusar Cookies; além disso, você também pode limpar todos os Cookies salvos no software.
+
+Você compreende e sabe: algumas de nossas funcionalidades/serviços só podem ser implementadas por meio do uso de Cookies ou tecnologias semelhantes; se você recusar usá-los ou os excluir, poderá não obter a melhor experiência de serviço de nossos produtos e/ou serviços, e isso também pode causar certo impacto na proteção de suas informações e na segurança de sua conta.
+
+4. Como compartilhamos, transferimos e divulgamos publicamente suas informações pessoais
+
+(I) Compartilhamento
+
+Levamos muito a sério a proteção de suas informações pessoais. **Sem sua autorização e consentimento, não compartilharemos suas informações pessoais com outras empresas, organizações e indivíduos terceiros, exceto informações anonimizadas ou desidentificadas que não podem identificar ou vincular a você, e desde que o terceiro com quem se compartilha não possa reidentificar o indivíduo a que tais informações se referem.** Só compartilharemos suas informações pessoais com finalidades legítimas, legítimas, necessárias, específicas e claras, e apenas compartilharemos as informações pessoais necessárias. Se compartilharmos suas informações pessoais sensíveis, solicitaremos novamente sua autorização e consentimento. Se o terceiro usar suas informações pessoais além do escopo da autorização original, exigiremos que o terceiro solicite novamente sua autorização e consentimento. (Lista de compartilhamento de informações com terceiros)
+
+1. Compartilhamento necessário para a realização de nossos serviços/funcionalidades: em certas situações, para fornecer-lhe nossos serviços ou implementar as funcionalidades de negócio de nossos produtos e/ou serviços, precisamos compartilhar suas informações pessoais para implementar as funcionalidades centrais de nossos produtos e/ou serviços ou fornecer o serviço de que você precisa, por exemplo: provedores de serviços que dão suporte de funcionalidades a nossos produtos e/ou serviços, incluindo: fornecer às instituições de pagamento que prestam serviços de pagamento as informações relacionadas ao pagamento de seus pedidos; quando formos submetidos a due diligence ou auditorias, compartilhar suas informações relacionadas com instituições externas de supervisão e consultoria profissional (como auditores). Todos os provedores de serviços terceiros devem cumprir a Lei de Proteção de Informações Pessoais da República Popular da China e outras leis e regulamentos pertinentes, garantir a segurança das informações pessoais dos usuários e assinar acordos de confidencialidade. Exigimos que todos os provedores de serviços terceiros cumpram medidas de segurança e exigências de conformidade rigorosas, garantindo a segurança e a privacidade das informações dos usuários.
+
+2. Compartilhamento necessário e razoável dentro da empresa DramaCanvas: para facilitar o fornecimento, com base em um sistema unificado de contas, de serviços consistentes a você, identificar anomalias de conta, proteger a segurança pessoal e patrimonial dos usuários ou do público contra agressões e facilitar sua gestão unificada, você sabe e concorda que **suas informações pessoais relacionadas podem ser objeto de compartilhamento necessário dentro de nossos produtos.** Exigimos que todos os departamentos e equipes que realizem compartilhamento interno cumpram medidas de segurança e exigências de conformidade rigorosas, garantindo a segurança e a privacidade das informações dos usuários.
+
+3. Informações compartilhadas para segurança e análises estatísticas
+
+(1) Garantia da segurança de uso: levamos muito a sério a segurança das contas e dos serviços; para garantir a segurança das contas e dos bens de você e de outros usuários, e para que os interesses legítimos de você e nossos não sofram agressões ilícitas, nós e empresas afiliadas ou provedores de serviços podemos compartilhar informações necessárias de dispositivo, conta e logs. Exigimos que todas as empresas afiliadas e provedores de serviços cumpram medidas de segurança e exigências de conformidade rigorosas, garantindo a segurança e a privacidade das informações dos usuários.
+
+(2) Análise do uso do produto: para analisar o uso de nossos serviços e melhorar a experiência dos usuários, podemos compartilhar com afiliados ou terceiros dados estatísticos sobre o uso do produto (falhas, encerramentos abruptos), dados estes que dificilmente podem ser combinados com outras informações para identificar sua identidade pessoal.
+
+4. Ajudá-lo a participar de atividades de marketing e promoção: quando você optar por participar de atividades de marketing realizadas por nós, por nossos afiliados ou por terceiros, pode ser necessário que você forneça nome, dados de contato e informações de conta bancária. Essas são informações pessoais sensíveis; recusar-se a fornecê-las pode afetar sua participação nas atividades correspondentes, mas não afetará as demais funcionalidades. Somente com seu consentimento compartilharemos essas informações com afiliados ou terceiros, para garantir que você receba um serviço de experiência consistente nas atividades conjuntas, ou para delegar a terceiros a entrega oportuna de suas recompensas. Comprometemo-nos: sem sua autorização e consentimento separados, não compartilharemos com eles informações pessoais que possam identificar sua identidade.
+
+5. Outras situações
+
+(1) Compartilhamento com terceiros para proteger você, nossos outros usuários ou funcionários, o DramaCanvas, ou o interesse público, bens ou segurança (por exemplo: fraude ou risco de crédito etc.) contra danos;
+
+(2) Compartilhamento com base em acordos (por exemplo: contrato de serviço etc.) ou documentos jurídicos assinados entre você e nós;
+
+(3) Compartilhamento conforme os entendimentos estabelecidos entre você e outro terceiro.
+
+(II) Transferência
+
+Não transferiremos suas informações pessoais a nenhuma empresa, organização ou indivíduo, exceto nas seguintes situações:
+
+1. Transferência com consentimento explícito: após obter seu consentimento explícito, transferiremos suas informações pessoais a outras partes.
+
+2. No caso de fusão, aquisição ou liquidação por falência do provedor dos serviços DramaCanvas, ou outras situações envolvendo fusão, aquisição ou liquidação por falência, se houver transferência de informações pessoais, exigiremos que a nova empresa ou organização que passar a deter suas informações pessoais continue vinculada a esta política; caso contrário, exigiremos que essa empresa, organização ou indivíduo solicite novamente sua autorização e consentimento.
+
+(III) Divulgação pública
+
+1. Exceto quando a divulgação pública estiver em conformidade com leis e regulamentos ou houver sua autorização e consentimento, não divulgaremos publicamente suas informações, e a divulgação pública de suas informações pessoais adotará medidas de proteção de segurança em conformidade com os padrões do setor.
+
+2. Ao publicar anúncios de punição de contas irregulares e de comportamentos fraudulentos, podemos divulgar publicamente as informações das contas correspondentes; ou, se você violar leis e regulamentos ou violar os contratos e regras da plataforma DramaCanvas, ou para proteger a segurança pessoal e patrimonial da plataforma DramaCanvas ou do público contra agressões, podemos divulgar publicamente suas informações de conta com base em leis e regulamentos, nos contratos da plataforma ou mediante seu consentimento.
+
+(IV) Exceções à obtenção prévia de autorização e consentimento ao compartilhar, transferir e divulgar publicamente informações pessoais
+
+Nas seguintes situações, podemos compartilhar, transferir e divulgar publicamente suas informações pessoais sem necessidade de autorização e consentimento prévios:
+
+1. Quando relacionado ao cumprimento, pelo controlador de informações pessoais, de obrigações estabelecidas em leis e regulamentos;
+
+2. Quando diretamente relacionado à segurança nacional e à segurança de defesa;
+
+3. Quando diretamente relacionado à segurança pública, à saúde pública e a grandes interesses públicos;
+
+4. Quando diretamente relacionado à investigação criminal, ao procesamento, ao julgamento e à execução de sentenças;
+
+5. Quando for para proteger interesses legítimos maiores, como a vida e os bens, de você ou de outras pessoas, mas sendo muito difícil obter o consentimento do próprio titular;
+
+6. Informações pessoais que você mesmo divulgou publicamente ao público;
+
+7. Quando as informações pessoais forem coletadas de informações divulgadas publicamente de forma legal, como canais de notícias legítimas e divulgação de informações governamentais.
+
+5. Como protegemos e armazenamos suas informações pessoais
+
+(I) Armazenamento de suas informações pessoais
+
+1. Local de armazenamento: as informações coletadas e geradas em nossa operação dos serviços DramaCanvas dentro do território da República Popular da China são armazenadas exclusivamente dentro do território da República Popular da China.
+
+2. Prazo de armazenamento: as informações que você nos forneceu podem ser arquivadas ou armazenadas por nós periodicamente conforme nossos processos de backup, pelo tempo exigido para a finalidade da coleta dessas informações, para fornecer-lhe nossos produtos e serviços, resolver disputas, constituir defesas jurídicas, realizar auditorias, buscar legítimos objetivos comerciais, executar nossos contratos e cumprir as leis aplicáveis. Por exemplo, a Lei de Comércio Eletrônico da República Popular da China exige que as informações de produtos e serviços e as informações de transações sejam conservadas por no mínimo três anos a contar da conclusão da transação.
+
+Os critérios pelos quais determinamos principalmente o prazo de armazenamento das informações pessoais são:
+
+(1) Concluir as finalidades de transação relacionadas a você e manter os registros de transações e de negócios correspondentes, para atender a possíveis consultas ou reclamações suas;
+
+(2) Garantir a segurança e a qualidade dos serviços que lhe prestamos;
+
+(3) Se você concordou com um prazo de conservação mais longo;
+
+(4) Se existirem outros acordos especiais ou disposições de leis e regulamentos sobre o prazo de conservação.
+
+Após o término do período de retenção, excluiremos ou anonimizaremos suas informações pessoais conforme exigido pelas leis aplicáveis. Quanto às informações de menores, independentemente de o período de retenção ter sido atingido, desde que o usuário solicite a exclusão ou que o período de retenção seja atingido, realizaremos prontamente a exclusão ou a anonimização.
+
+(II) Adotaremos as seguintes medidas para proteger suas informações
+
+1. Sempre atribuímos extrema importância à proteção da segurança das informações pessoais dos usuários. Para isso, adotamos medidas de segurança técnica em conformidade com os padrões do setor, bem como medidas organizacionais e de gestão, entre outras medidas de proteção, a fim de minimizar ao máximo o risco de vazamento, dano, uso indevido, acesso não autorizado, divulgação não autorizada e alteração das suas informações.
+
+2. Adotaremos medidas de segurança razoáveis e exequíveis, bem como recursos técnicos em conformidade com os padrões do setor, para armazenar e proteger suas informações pessoais, a fim de evitar a perda das suas informações, bem como acesso não autorizado, divulgação pública, uso, modificação, dano, perda ou vazamento. Ao mesmo tempo, avaliaremos e atualizaremos periodicamente as medidas de proteção de informações pessoais para garantir sua eficácia e reduzir os riscos de segurança. Adotaremos todas as medidas razoáveis e exequíveis para proteger suas informações pessoais. Utilizaremos tecnologia de criptografia para garantir a confidencialidade dos dados; utilizaremos mecanismos de proteção confiáveis para impedir que os dados sofram ataques maliciosos.
+
+3. Realizamos periodicamente treinamentos de conscientização sobre segurança de dados e de capacitação em segurança para os funcionários, reforçando a percepção deles sobre a importância de proteger informações pessoais. Firmamos acordos de confidencialidade com os funcionários e parceiros que tenham acesso às suas informações pessoais, definindo claramente as responsabilidades dos cargos e os códigos de conduta, e estabelecemos controles rigorosos de permissões de acesso e processos de aprovação de permissões, garantindo que apenas pessoas autorizadas possam acessar informações pessoais. Havendo violação do acordo de confidencialidade, as responsabilidades correspondentes serão exigidas.
+
+4. Temos a responsabilidade e a obrigação de lembrá-lo de que a Internet não é um ambiente absolutamente seguro. Recomendamos que você use senhas complexas conforme solicitado, não divulgue sua senha/código de verificação, não empreste sua conta e seus dispositivos a outras pessoas de forma indiscriminada e proteja a segurança do seu dispositivo e das suas informações pessoais. Ao acessar os serviços do DramaCanvas em dispositivos públicos, jamais memorize a senha e, após o uso, faça logout prontamente para evitar que outras pessoas se passem por você. Se você perceber anomalias na sua conta ou que ela foi roubada, altere sua senha imediatamente e, se necessário, entre em contato conosco pelos meios indicados nesta Política para solicitar ajuda.
+
+5. Se nossas salvaguardas físicas, técnicas ou administrativas forem danificadas, resultando em acesso não autorizado, divulgação pública, adulteração ou destruição de informações e causando prejuízos aos seus direitos e interesses legítimos, ativaremos nosso plano de contingência dentro de 24 horas após a descoberta e adotaremos medidas de reparação razoáveis, a fim de reduzir tanto quanto possível o impacto sobre suas informações pessoais e demais direitos e interesses.
+
+(III) Tratamento de incidentes de vazamento de dados de privacidade pessoal
+
+Caso, infelizmente, ocorra um incidente de vazamento de dados de privacidade pessoal, informaremos você oportunamente conforme exigido pelas leis e regulamentos pertinentes: a situação básica do vazamento de dados de privacidade pessoal e seus possíveis impactos, as medidas de tratamento que adotamos ou adotaremos, as recomendações para que você possa se proteger e reduzir os riscos por conta própria, e as medidas de reparação disponíveis para você. Simultaneamente, comunicaremos a você oportunamente as informações relacionadas ao incidente por e-mail, carta, telefone, notificação push e outros meios; quando for difícil notificar individualmente cada titular das informações, publicaremos um anúncio de forma razoável e eficaz. Além disso, reportaremos proativamente às autoridades reguladoras a situação do tratamento do incidente de vazamento de dados de privacidade pessoal, conforme suas exigências.
+
+6. Como você gerencia suas informações pessoais
+
+Atribuímos grande importância à sua atenção em relação às informações pessoais e envidamos todos os esforços para proteger seus direitos de acesso, correção e exclusão das suas informações pessoais, de modo a proporcionar a você plena capacidade de garantir sua privacidade e segurança. Seus direitos incluem:
+
+(I) Acesso e correção
+
+Incentivamos você a atualizar e modificar suas informações para torná-las mais precisas e eficazes. Você pode consultar, acessar e gerenciar as informações da sua conta pessoal. Você pode tocar em "Meu perfil", acessar e gerenciar suas informações pessoais e, conforme o método de gestão de cada informação, concluir por conta própria ou solicitar que façamos a modificação ou o complemento. Você pode alterar sua senha na interface de Configurações do Centro Pessoal, e também pode entrar em contato com nosso atendimento humano ou acessar o canal de feedback do projeto: support@dramacanva.com para solicitar a correção das suas informações. Comprometemo-nos a concluir a verificação e o tratamento em 15 dias úteis.
+
+Antes do acesso, correção e exclusão das informações acima, podemos solicitar que você realize uma verificação de identidade para garantir a segurança da sua conta.
+
+(II) Exclusão
+
+Nas seguintes situações, você pode nos apresentar uma solicitação de exclusão de informações pessoais, exceto se os dados já tiverem sido anonimizados ou se as leis e regulamentos dispuserem de outra forma.
+
+1. A finalidade do tratamento foi alcançada, tornou-se inviável, ou deixou de ser necessária para alcançar a finalidade do tratamento;
+
+2. Deixamos de oferecer o produto ou serviço, ou o período de retenção já expirou;
+
+3. O titular revogou o consentimento.
+
+4. Se nosso tratamento de informações pessoais violar leis, regulamentos administrativos ou o acordo firmado com você;
+
+5. Outras situações previstas em leis e regulamentos administrativos.
+
+Exclusão de informações pessoais: significa a remoção de informações pessoais dos sistemas envolvidos nas funções operacionais do dia a dia, deixando-as em estado de não poderem ser pesquisadas nem acessadas. Após você excluir as informações pertinentes, ou após ajudá-lo a fazê-lo, trataremos conforme o seguinte fluxo:
+
+Excluir imediatamente suas informações pessoais do banco de dados principal;
+
+Marcar as informações pessoais nos sistemas de backup, garantindo sua exclusão definitiva ao término do ciclo de backup;
+
+Anonimizar as informações pessoais, garantindo que não seja possível identificá-lo por meio dos dados tratados.
+
+Armazenaremos suas informações pessoais de forma segura e restringiremos qualquer tratamento adicional delas, até que os backups possam ser eliminados ou a anonimização seja realizada.
+
+(III) Recusa, devolução, transferência e solicitação de cópia dos dados
+
+Você pode entrar em contato conosco pelos meios fornecidos ao final desta Política para nos apresentar solicitações de recusa, devolução, transferência ou de obtenção de uma cópia das suas informações pessoais. Comprometemo-nos a concluir a verificação e o tratamento em 15 dias úteis.
+
+(IV) Alteração do escopo do seu consentimento autorizado
+
+Se você deseja alterar a autorização de determinadas permissões (por exemplo: armazenamento de dados etc.), pode fazer a modificação por meio do seu dispositivo de hardware.
+
+Se você deseja controlar o mecanismo de recebimento de notificações de mensagens, pode realizar a operação na interface de configurações das funcionalidades correspondentes no produto ou serviço.
+
+Você também pode entrar em contato conosco pelos meios fornecidos ao final desta Política para retirar seu consentimento autorizado. Após a retirada do consentimento, deixaremos de tratar as informações pessoais correspondentes. Contudo, sua decisão de retirar o consentimento não afetará o tratamento de informações pessoais realizado anteriormente com base na sua autorização. Você também pode, por meio do cancelamento da conta, revogar permanentemente toda a autorização para que continuemos a coletar suas informações pessoais.
+
+Pedimos sua compreensão: cada funcionalidade exige algumas informações pessoais básicas para ser realizada. Após a retirada do seu consentimento ou autorização, não poderemos continuar fornecendo os serviços correspondentes a essa retirada e deixaremos de tratar as informações pessoais correspondentes. Contudo, sua decisão de retirar o consentimento ou a autorização não afetará o tratamento de informações pessoais realizado anteriormente com base na sua autorização.
+
+(V) Apresentação de objeção
+
+Se você considerar que nosso tratamento das suas informações pessoais viola esta Política ou as exigências das leis e regulamentos pertinentes, poderá apresentar sua objeção por e-mail (canal de feedback do projeto: support@dramacanva.com). Comprometemo-nos a responder e tratar cada valiosa sugestão sua em 15 dias úteis.
+
+(VI) Cancelamento de conta
+
+Quando precisar encerrar o uso dos nossos serviços, você pode solicitar o cancelamento da sua conta, entrando em contato com nosso atendimento humano para solicitar o cancelamento. Comprometemo-nos a concluir a verificação e o tratamento em 15 dias úteis.
+
+Após o cancelamento da sua conta, você não poderá mais usar essa conta para acessar e utilizar nossos produtos e serviços, nem os produtos e serviços de terceiros para os quais usava essa conta para login; todos os direitos e interesses — os já gerados durante o uso da conta em nossos produtos e serviços, mas ainda não consumidos, bem como os benefícios futuros esperados — serão eliminados; os conteúdos, informações, dados e registros vinculados à conta serão excluídos ou anonimizados (exceto nos casos em que leis e regulamentos disponham de outra forma ou as autoridades reguladoras exijam de outra forma); além disso, uma vez concluído o cancelamento, a conta não poderá ser restaurada.
+
+7. Proteção das informações de menores
+
+Atribuímos extrema importância à proteção das informações pessoais de menores. O DramaCanvas destina-se principalmente a adultos. Se você é um menor de 18 anos, antes de usar este produto deve, sob a tutela e a orientação dos seus pais ou de outro responsável legal, ler e concordar em conjunto com esta Política de Privacidade. Adotamos as seguintes medidas para proteger as informações pessoais de menores:
+
+1. Criptografia de dados: utilizamos tecnologia de criptografia em conformidade com os padrões do setor para proteger as informações pessoais de menores.
+
+2. Controle de acesso: implementamos medidas rigorosas de controle de acesso, garantindo que apenas pessoas autorizadas possam acessar as informações pessoais de menores.
+
+3. Auditoria de segurança: realizamos auditorias de segurança periodicamente para garantir a segurança das informações pessoais de menores.
+
+Se você é o responsável legal por um menor de 16 anos, antes de usar o DramaCanvas e os serviços relacionados, deve ler e concordar com esta Política de Privacidade em nome do tutelado.
+
+Protegemos as informações pessoais de menores conforme o disposto nas leis e regulamentos nacionais pertinentes, coletando, usando ou divulgando informações pessoais de menores apenas quando permitido por lei, com o consentimento expresso dos pais ou de outro responsável legal, ou quando necessário para proteger o menor; se descobrirmos que coletamos informações pessoais de menores sem obter previamente consentimento verificável do responsável legal, envidaremos esforços para excluir as informações pertinentes o mais rápido possível.
+
+Se você é o responsável legal por um menor e tem outras dúvidas sobre as informações pessoais do menor sob sua tutela, entre em contato conosco pelos meios de contato divulgados nesta Política de Privacidade.
+
+8. Como esta Política é atualizada
+
+(I) Para oferecer a você serviços melhores, esta Política de Privacidade também será atualizada em decorrência disso. Publicaremos a versão atualizada nos sites das plataformas associadas do DramaCanvas e em dispositivos móveis, e, antes de sua entrada em vigor, lembretaremos você sobre as atualizações do conteúdo por meio de anúncios no site ou de outras formas apropriadas. Pedimos também que você visite e acompanhe o DramaCanvas para conhecer oportunamente a Política de Privacidade mais recente.
+
+(II) Em caso de alterações relevantes, também forneceremos um aviso mais destacado (informaremos o conteúdo específico das alterações da Política de Privacidade por meio de, entre outros, e-mail, SMS ou aviso especial na página de navegação).
+
+As alterações relevantes referidas nesta Política incluem, entre outras:
+
+(1) Mudanças relevantes no nosso modelo de serviços, como a finalidade do tratamento de informações pessoais, os tipos de informações pessoais tratadas, a forma de uso das informações pessoais etc.;
+
+(2) Mudanças relevantes na nossa estrutura de propriedade ou organizacional, como alterações de propriedade decorrentes de reestruturações de negócios, falência, fusões e aquisições etc.;
+
+(3) Mudanças nas principais partes envolvidas no compartilhamento, na transferência ou na divulgação pública de informações pessoais;
+
+(4) Mudanças nas colaborações com fornecedores terceirizados;
+
+(5) Mudanças no departamento responsável pelo tratamento da segurança das informações pessoais, nos meios de contato e nos canais de reclamação;
+
+(6) Quando o relatório de avaliação de impacto sobre a segurança das informações pessoais indicar a existência de alto risco.
+
+Após a atualização desta Política de Privacidade, publicaremos a versão atualizada no DramaCanvas e, antes da entrada em vigor dos termos atualizados, lembretaremos você sobre o conteúdo da atualização por meio de anúncio no site oficial (https://dramacanva.com) ou de outras formas apropriadas, para que você conheça oportunamente a versão mais recente desta Política de Privacidade.
+
+9. Como entrar em contato conosco
+
+Se você tiver qualquer dúvida, comentário ou sugestão sobre esta Política de Privacidade, ou precisar apresentar reclamações ou denúncias relativas à segurança de informações pessoais, envie um e-mail para support@dramacanva.com para entrar em contato conosco; responderemos em 15 dias úteis.

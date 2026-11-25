@@ -1,0 +1,66 @@
+{
+    "title": "Perfis de motion comic: {brand}, ações e conceitos",
+    "metaDescription": "Para criadores de motion comics (quadrinhos animados). Informe nome, visual e personalidade e gere no canvas um card com hábitos, microexpressões e fundo.",
+    "oneLiner": "Informe a ficha do personagem e gere no canvas um perfil com ações; ideal para iniciantes em motion comic.",
+    "intro": [
+        "É uma ferramenta de escrita que ajuda a organizar as fichas de personagens de motion comic (vídeos curtos que dão vida aos quadrinhos). Ela transforma descrições abstratas de personalidade em hábitos de ação e modos de falar concretos.",
+        "Basta informar, na caixa de diálogo à direita do canvas, o nome, a idade, as características físicas e a personalidade do personagem, além de dizer se ele é protagonista ou coadjuvante na história. Se houver um item exclusivo, você também pode incluí-lo.",
+        "Depois de concluir, um card de texto aparece no canvas, listando com clareza as experiências-chave do personagem, os gestos marcantes, as microexpressões e as características da voz. Você pode editar o conteúdo diretamente ou copiar e salvar."
+    ],
+    "example": {
+        "input": "Lin Mo, 22 anos, protagonista masculino. Cabelo curto preto, jaqueta utilitária, cachecol vermelho e uma cicatriz no osso da sobrancelha esquerda. Personalidade calma e mordaz, frio por fora e caloroso por dentro. Leva sempre uma faca de defesa.",
+        "output": "O canvas gera um card de texto: inclui os gestos de pensamento de Lin Mo (tocar lentamente o cachecol vermelho), sinais de nervosismo (segurar o cabo da faca, respiração acelerada), características do ritmo da fala (fala rápido no dia a dia / desacelera quando nervoso) e as experiências centrais."
+    },
+    "scenarios": [
+        "Está se preparando para criar um short de motion comic, tem apenas uma ideia vaga de personagem e quer esclarecer o histórico e o objetivo central dele.",
+        "Quer definir os movimentos de um personagem de anime e transformar uma personalidade abstrata em gestos habituais e expressões concretas.",
+        "Vai adaptar um romance para vídeo, o histórico original é longo demais e você quer destacar alguns acontecimentos-chave que influenciam as ações do personagem.",
+        "A história tem muitos personagens e você precisa organizar as funções de cada um no grupo e como eles interagem entre si."
+    ],
+    "problems": [
+        {
+            "pain": "Você só escreveu que o personagem é ‘introvertido’ e, na hora de fazer o vídeo ou desenhar, não sabe como ele deve se mover.",
+            "solve": "Transforma a personalidade abstrata em ações visíveis, como falar devagar, baixar a cabeça com frequência ou apertar a barra da roupa."
+        },
+        {
+            "pain": "Você escreveu milhares de palavras sobre o passado do personagem, mas na hora do vídeo não consegue encontrar a motivação central.",
+            "solve": "Ajuda a selecionar de 1 a 3 experiências-chave que influenciam o comportamento e a deduzir diretamente o verdadeiro objetivo das ações do personagem."
+        },
+        {
+            "pain": "As ações do personagem ficam inconsistentes em planos diferentes e ele parece outra pessoa.",
+            "solve": "Fixa de 1 a 2 gestos marcantes e detalhes de olhar para o personagem ao longo de todo o vídeo, deixando a imagem mais coerente."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas e a caixa de diálogo à direita.",
+        "Informe as configurações básicas do personagem, como nome, idade, características físicas e personalidade.",
+        "Envie para o assistente de IA e aguarde o canvas gerar um card de perfil com ações e contexto.",
+        "Visualize ou dê um duplo clique no card para editar o texto; quando estiver satisfeito, copie ou baixe o resultado para usar depois."
+    ],
+    "faq": [
+        {
+            "q": "Qual é a diferença entre um perfil de personagem de motion comic e uma ficha comum de romance?",
+            "a": "A principal diferença é que o perfil de motion comic dá mais atenção às ações visuais e à voz. Ele transforma a personalidade abstrata em ações concretas, como ritmo da fala e hábito de virar a cabeça. Também remove contextos irrelevantes e mantém apenas de uma a três experiências-chave que influenciam as ações do personagem."
+        },
+        {
+            "q": "É possível editar o perfil gerado diretamente no canvas?",
+            "a": "Sim, você pode editar a qualquer momento. Pode reescrever detalhes diretamente no card de texto do canvas ou pedir ao assistente, na caixa de diálogo, para gerar novamente. Quando estiver satisfeito com os ajustes, basta copiar ou salvar o texto do card."
+        },
+        {
+            "q": "Só tenho algumas ideias simples de personagem. Posso usar esta ferramenta?",
+            "a": "Pode sim. Basta informar na caixa de diálogo o nome, a aparência geral e a personalidade do personagem; o assistente complementa os hábitos de ação e os detalhes de contexto conforme o padrão. Se o resultado não atender às expectativas, você pode avisar o assistente a qualquer momento para adicionar novas ideias e ajustar de novo."
+        },
+        {
+            "q": "Como evitar inconsistências entre a personalidade e as ações do personagem ao fazer o vídeo?",
+            "a": "O método central é fixar no perfil de uma a duas ações marcantes e microexpressões, por exemplo, definir que o personagem toca o cachecol quando pensa e aperta o cabo da faca quando fica nervoso. Ao produzir os planos seguintes, consulte essas referências de ação sempre que possível; isso ajuda a manter o comportamento do personagem coerente em diferentes cenas."
+        }
+    ],
+    "keywords": [
+        "perfil de personagem de motion comic",
+        "ficha de personagem de motion comic",
+        "como escrever perfil de personagem de anime",
+        "definir hábitos e ações do personagem",
+        "detalhar personagem de motion comic",
+        "adaptar romance para motion comic"
+    ]
+}

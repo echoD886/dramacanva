@@ -1,0 +1,66 @@
+{
+    "title": "Nome e posicionamento: escolha nome, diferencial e slogan",
+    "metaDescription": "Para novos perfis ou produtos: no {brand}, conte sua ideia ao assistente e gere no canvas análise de posicionamento, 3 nomes e cartões de slogan.",
+    "oneLiner": "Para novos criadores: diga sua ideia e gere no canvas cartões de nome, posicionamento e slogan.",
+    "intro": [
+        "Esta é a ferramenta de posicionamento e escolha de nome do {brand}: conte sua ideia ao assistente e ele gerará no canvas uma análise de posicionamento, nomes candidatos e cartões de slogan para ajudar seu novo perfil ou produto a encontrar a direção certa.",
+        "Você só precisa preparar algumas frases: diga o que quer fazer, para quem pretende criar ou liste alguns concorrentes que considera fortes. Mesmo que a ideia ainda esteja vaga, pode enviá-la diretamente ao assistente.",
+        "O assistente vai gerar cartões de texto no canvas para você, com 3 nomes fáceis de lembrar e os motivos da escolha, uma análise de posicionamento clara e um slogan fácil de memorizar."
+    ],
+    "example": {
+        "input": "Quero criar um perfil de vídeos que ensine trabalhadores a preparar marmitas fit rápidas para emagrecer, mas não sei que nome usar nem como competir com os grandes criadores que já existem.",
+        "output": "Vários cartões de texto são gerados no canvas: 3 nomes candidatos, como “Marmita em 10 Minutos”, com os respectivos motivos; uma análise que destaca “preparo rápido no micro-ondas, sem acender o fogão” para evitar a complexidade de chef; e o slogan “Cozinhar para o trabalho sem esforço”."
+    },
+    "scenarios": [
+        "Quer abrir um novo perfil de vídeos ou uma nova loja, mas não sabe qual nome seria fácil de lembrar.",
+        "Percebe que todo mundo faz conteúdos parecidos e quer encontrar seu diferencial, evitando a concorrência direta.",
+        "Tem várias qualidades em mente, mas na hora de escrever a bio fica prolixo demais e as pessoas não conseguem memorizar.",
+        "Vê que uma área está em alta, mas não tem certeza se agora é uma boa oportunidade ou se já é tarde para entrar."
+    ],
+    "problems": [
+        {
+            "pain": "Quer criar um nome novo, mas as opções que surgem são comuns ou fáceis de confundir com as de outras pessoas.",
+            "solve": "Com base em critérios de pronúncia fácil e boa memorização, oferece 3 nomes candidatos e explica os motivos de cada escolha para você selecionar."
+        },
+        {
+            "pain": "Já existem muitos criadores grandes no mesmo nicho, e você não sabe como se destacar.",
+            "solve": "Ajuda a organizar o público-alvo e seus pontos fortes, compara com os pontos fortes dos concorrentes e identifica características complementares para evitar uma disputa direta."
+        },
+        {
+            "pain": "Quer apresentar seu produto ou conteúdo, mas fala muito e as pessoas não conseguem captar o ponto principal.",
+            "solve": "Ajuda a cortar frases desnecessárias e resume o diferencial central em um slogan claro e fácil de lembrar, gerado diretamente no canvas."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas de criação.",
+        "Envie a ideia do seu projeto, o público que você quer atingir ou concorrentes que deseja usar como referência.",
+        "Veja a análise de posicionamento, os nomes candidatos e os cartões de slogan gerados pelo assistente no canvas.",
+        "Edite ou peça ao assistente para ajustar o conteúdo novamente e, quando estiver satisfeito, copie ou baixe o resultado."
+    ],
+    "faq": [
+        {
+            "q": "Como escolher um nome para um novo perfil que seja fácil de lembrar e não pareça genérico?",
+            "a": "A chave de um bom nome é ter pronúncia fluida e significado concreto, evitando palavras usadas em todo lugar. Conte sua ideia central ao assistente e ele oferecerá 3 nomes fáceis de lembrar, com os motivos por trás de cada um. Você pode escolher com calma no canvas e, se não gostar, pedir novos ajustes ao assistente a qualquer momento."
+        },
+        {
+            "q": "Já existem grandes criadores no mesmo nicho. O que devo fazer para não competir de frente com eles?",
+            "a": "Você não precisa competir diretamente com grandes criadores existentes; procure necessidades de nicho que eles não atendem. Por exemplo, se eles priorizam algo complexo e especializado, você pode apostar no simples e prático, criando uma complementaridade. Envie sua direção ao assistente e ele ajudará a esclarecer no canvas a diferença em relação aos concorrentes."
+        },
+        {
+            "q": "Como escrever um slogan que as pessoas memorizem em uma frase?",
+            "a": "Ao escrever um slogan, corte adjetivos complexos e deixe claro qual problema você ajuda a resolver. Explique um benefício concreto em linguagem simples para que as pessoas memorizem com facilidade. O assistente ajuda a resumir os pontos principais e gera cartões de slogan curtos e fáceis de lembrar no canvas."
+        },
+        {
+            "q": "Posso usar diretamente o posicionamento e os nomes gerados pela IA?",
+            "a": "Podem servir como referência de ideação, mas não substituem a verificação formal de marca nem decisões comerciais. Se pretender usá-los em registro comercial, recomenda-se verificar por conta própria a situação da marca antes de definir o nome oficialmente. Todos os cartões de texto no canvas podem ser editados, copiados ou baixados e salvos a qualquer momento."
+        }
+    ],
+    "keywords": [
+        "nome para perfil",
+        "como escolher um nome",
+        "nome para produto",
+        "posicionamento de perfil",
+        "como escrever um slogan",
+        "como criar slogan publicitário"
+    ]
+}

@@ -1,0 +1,20 @@
+const announcements = {
+    "announcements.title": "系统公告",
+    "announcements.loadFailure": "读取公告失败",
+    "announcements.unread": "系统公告，{count} 条未读",
+    "announcements.info": "平台通知",
+    "announcements.success": "状态恢复",
+    "announcements.warning": "服务提醒",
+    "announcements.critical": "重要通知",
+    "announcements.currentCount": "{count} 条当前公告",
+    "announcements.noCurrent": "当前没有进行中的公告",
+    "announcements.loading": "正在读取公告",
+    "announcements.errorTitle": "公告读取失败",
+    "announcements.empty": "暂无系统公告",
+    "announcements.emptyHint": "有新的服务动态时会在这里展示",
+    "announcements.pinned": "置顶",
+    "announcements.imageAlt": "{title} 配图",
+    "announcements.justNow": "刚刚",
+    "announcements.publishedTime": "{relative} · {date}",
+} as const;
+export default announcements;

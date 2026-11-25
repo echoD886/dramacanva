@@ -1,0 +1,67 @@
+{
+    "title": "Novela a serie corta: guion, personajes y vídeo por planos",
+    "metaDescription": "Ideal para principiantes: introduce una historia o fragmento de novela y la IA creará en el lienzo guion, imágenes de personajes y clips de 15 s.",
+    "oneLiner": "Convierte una novela o una idea en guion, imágenes de personajes y clips de vídeo por planos, paso a paso.",
+    "intro": [
+        "Es un asistente de creación de series cortas. Solo tienes que darle una historia o una novela y, en el lienzo, convertirá el texto paso a paso en un guion, imágenes y clips de vídeo cortos que podrás ver directamente.",
+        "No necesitas saber maquetar guiones profesionales. Basta con preparar el texto de la historia que quieres contar, un fragmento de novela o incluso una idea simple de unas pocas frases y enviarla a la IA para empezar.",
+        "Al terminar, tendrás en el lienzo un guion estándar, imágenes de referencia de los personajes, una tabla de planos (un plan de rodaje desglosado por planos) y varios vídeos de 15 segundos, que podrás ordenar y exportar como pieza final."
+    ],
+    "example": {
+        "input": "Introduce un relato de investigación de la antigüedad de 300 palabras: un joven alguacil vestido de azul verdoso examina por la noche unas huellas sospechosas en un templo en ruinas.",
+        "output": "En el lienzo obtendrás un guion estándar, una imagen de cuerpo entero del alguacil, una lista detallada de planos de 15 segundos y varios clips de vídeo en los que busca huellas con una antorcha."
+    },
+    "scenarios": [
+        "Tienes un fragmento de novela o una idea y quieres organizarla rápidamente en un guion de serie corta con formato estándar.",
+        "Quieres dividir la historia en planos, pero no sabes cuánto debe durar cada plano ni cuántas frases de diálogo incluir.",
+        "Al hacer vídeo te preocupa que el personaje cambie de aspecto en cada toma y quieres fijar su apariencia antes de generar las imágenes.",
+        "Quieres asignar a cada plano la acción visual adecuada y generar directamente varios clips de vídeo de 15 segundos encadenados."
+    ],
+    "problems": [
+        {
+            "pain": "Pasar una novela directamente a vídeo puede hacer que se pierdan partes de la trama, y los diálogos originales pueden acabar modificados sin criterio.",
+            "solve": "Intentará conservar los diálogos originales y la trama principal; tras dividir el guion, te pedirá confirmación antes de continuar."
+        },
+        {
+            "pain": "El mismo personaje cambia a menudo entre planos y la imagen resulta incoherente.",
+            "solve": "Primero se generan imágenes de referencia del personaje desde varios ángulos y, al crear el vídeo, se vinculan a la referencia para reducir las desviaciones del personaje."
+        },
+        {
+            "pain": "Si se genera todo el vídeo de una vez y alguna parte intermedia no te convence, corregirla es muy complicado.",
+            "solve": "Se divide en tarjetas de clips de 15 segundos que se generan por pasos; la parte que no te convenza se puede volver a generar por separado."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y envía el texto de tu historia o tu idea en el cuadro de diálogo de la derecha.",
+        "Revisa la tarjeta del guion en el lienzo, edita los diálogos en línea y elige el estilo visual que quieres para las imágenes.",
+        "Comprueba las imágenes de referencia de personajes y escenarios generadas; si alguna no te convence, pide al asistente que la vuelva a generar por separado.",
+        "Confirma la tabla de planos y la descripción de las acciones de cada plano para que la IA genere por lotes varios clips de vídeo de 15 segundos.",
+        "Ordena los vídeos en la línea de tiempo y expórtalos; también puedes descargar por separado las tarjetas de vídeo que te gusten."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo convertir una novela en una serie corta con IA?",
+            "a": "Después de enviar la novela al asistente, se generarán de forma sucesiva un guion estándar, imágenes de referencia de los personajes y vídeos por planos; al final solo tendrás que ordenarlos en la línea de tiempo para exportar la pieza. En el lienzo de {brand}, puedes modificar los diálogos y el estilo en cualquier momento, y volver a generar por separado las tarjetas que no te convenzan."
+        },
+        {
+            "q": "¿Qué hago si el aspecto de los personajes no es coherente al crear una serie corta con IA?",
+            "a": "Antes de crear el vídeo, pide a la IA que genere imágenes de referencia del aspecto de los personajes; al generar los vídeos por planos se vincularán prioritariamente a la referencia para mantener la coherencia física en lo posible. Si en algún plano el personaje se desvía, cambia la imagen de referencia o pide al asistente que vuelva a generar solo ese plano."
+        },
+        {
+            "q": "¿Por qué se recomienda que los diálogos de cada plano no superen los 40 caracteres?",
+            "a": "Es para ajustarse a la duración de un clip de vídeo de unos 15 segundos y evitar que la imagen termine antes de que se acabe de decir el diálogo. Si mantienes el diálogo de un plano entre 30 y 40 caracteres, el ritmo entre la acción visual y el habla del personaje será más natural. Cuando haya diálogos largos, se dividirán automáticamente en varios planos consecutivos."
+        },
+        {
+            "q": "Si un vídeo generado no me convence, ¿tengo que rehacerlo todo?",
+            "a": "No hace falta rehacerlo todo: el guion, las imágenes y cada vídeo del lienzo son tarjetas independientes, así que solo tienes que volver a generar por separado el fragmento que no te convenza. El resto del contenido ya creado se conserva intacto y no se ve afectado."
+        }
+    ],
+    "keywords": [
+        "IA para convertir novelas en series cortas",
+        "cómo adaptar una novela a serie corta",
+        "storyboard para series cortas",
+        "proceso para crear series cortas con IA",
+        "generador de guiones para series cortas",
+        "coherencia de personajes en vídeo con IA"
+    ]
+}

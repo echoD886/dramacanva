@@ -1,0 +1,22 @@
+const modelDefaults = {
+    "modelDefaults.imageTitle": "Default image model",
+    "modelDefaults.imageDescription": "Image generation, editing, and visual exploration",
+    "modelDefaults.videoTitle": "Default video model",
+    "modelDefaults.videoDescription": "Text-to-video, image-to-video, and shot extension",
+    "modelDefaults.textTitle": "Default text model",
+    "modelDefaults.textDescription": "Prompt rewriting, scripts, and structured text",
+    "modelDefaults.audioTitle": "Default audio model",
+    "modelDefaults.audioDescription": "Voice, sound effects, and music generation",
+    "modelDefaults.available": "{count} available",
+    "modelDefaults.unnamedChannel": "Unnamed channel",
+    "modelDefaults.system": "System",
+    "modelDefaults.custom": "Custom",
+    "modelDefaults.tokenPrice": "{price} / 1M tokens",
+    "modelDefaults.secondPrice": "{price} / s",
+    "modelDefaults.requestPrice": "{price} / request",
+    "modelDefaults.noImage": "No image models available",
+    "modelDefaults.noVideo": "No video models available",
+    "modelDefaults.noText": "No text models available",
+    "modelDefaults.noAudio": "No audio models available",
+} as const;
+export default modelDefaults;

@@ -1,0 +1,67 @@
+{
+    "title": "Unify AI Video Look: Set Color, Light, and Camera Moves",
+    "metaDescription": "For short-drama/video creators with inconsistent visuals. On the {brand} canvas, set three main colors, light direction, and camera moves, plus prompt text.",
+    "oneLiner": "Enter a story or reference image, and the canvas creates text cards that help beginners keep a consistent visual style.",
+    "intro": [
+        "This is a tool to help unify the look of your video. Many people make videos where two images end up with very different styles. It sets the rules in advance so the visuals stay as consistent as possible and feel like they come from the same film.",
+        "You don’t need to know professional photography. Just type your story idea to the AI, or upload an image you like and describe the mood you want.",
+        "The AI generates text cards on the canvas listing the three main colors for the whole video, the direction of the light, and the camera movement, along with description text you can use directly to generate images."
+    ],
+    "example": {
+        "input": "I'm working on a suspense short drama. The main character discovers a hidden truth in a dim rental apartment, and I want an oppressive, cold, dark feeling. I don't know how to decide on the colors and lighting.",
+        "output": "Text cards will appear on the canvas: it sets cold blue, dark gray, and warm yellow as the three main colors, specifies a single side light source, recommends a slow push-in camera move, and provides specific image description text."
+    },
+    "scenarios": [
+        "You've just finished writing a video or short-drama story and want to lock in the colors and lighting for the whole video before making visuals.",
+        "The visuals you generate end up looking very different, one like a photo and one like an illustration, so you need a consistent style.",
+        "You have a reference image you're happy with and want to extract its appealing colors and lighting for reuse.",
+        "You have a mood in mind but don't know how to describe it, and the text you write doesn't produce the cinematic feel you want."
+    ],
+    "problems": [
+        {
+            "pain": "The visuals generated one after another don't match in style—some look like comics, some like live-action footage.",
+            "solve": "List consistent color, material, and composition rules on the canvas so you have a clear basis for every image you generate."
+        },
+        {
+            "pain": "The image looks gray and flat, with the character blending into the background, and it lacks a cinematic quality.",
+            "solve": "Help you plan a clear main light direction and warm/cool light-dark contrast so the character naturally stands out from the background."
+        },
+        {
+            "pain": "You have the camera mood in mind but don't know what words to use, and the images you get don't feel right.",
+            "solve": "Translate professional lighting and camera feel into plain-language description text that you can copy directly to generate images."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to open the project canvas.",
+        "Send your story idea, or upload a style reference image you like.",
+        "Review the text cards generated on the canvas and confirm the main colors, lighting direction, and camera movement suggestions.",
+        "Fine-tune the text in the cards and change any colors or details you don't like as needed.",
+        "Copy or download the text results from the cards and use them in subsequent image generation."
+    ],
+    "faq": [
+        {
+            "q": "What should I do if AI video visuals keep changing from scene to scene?",
+            "a": "Before you start, set the three main colors and light direction for the whole video, and include the same instructions every time you generate a visual to minimize style drift. The AI will organize these rules into consistent text cards on the canvas. You can copy the description text from the cards directly to generate images and fine-tune the details manually at any time."
+        },
+        {
+            "q": "How can I make AI-generated visuals feel more cinematic?",
+            "a": "Set a clear main light direction and warm/cool light-dark contrast for the image, and avoid lighting the whole image evenly. On the canvas, you can have the AI plan the main light angle and warm/cool color pairing. Add these clear lighting descriptions to the image description text so the character can emerge more naturally from the background."
+        },
+        {
+            "q": "How should I write camera movement description text?",
+            "a": "Clearly describe the camera's start and end positions, whether it pushes in or pans, and how it changes position relative to the character; avoid empty photography jargon. The AI will recommend movement description text based on your scene's mood. You can copy it directly from the canvas card or fine-tune it as needed."
+        },
+        {
+            "q": "If I have a reference image I like, how can I extract its style for reuse?",
+            "a": "Just send the reference image to the chat box on the right side of the canvas. The AI will analyze the image, extract its three main colors, lighting angle, and visual texture, and generate text cards. You can use this text directly when generating images later, or edit it manually in the cards at any time."
+        }
+    ],
+    "keywords": [
+        "AI video style consistency",
+        "inconsistent AI video visuals",
+        "make AI video look cinematic",
+        "AI video lighting tips",
+        "camera movement prompt for video",
+        "extract color palette from reference image"
+    ]
+}

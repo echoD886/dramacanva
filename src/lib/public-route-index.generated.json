@@ -1,0 +1,19 @@
+{
+  "models": [
+    "kling-4",
+    "seedance-2-0",
+    "seedance-2-5",
+    "sora-2",
+    "veo-3-1",
+    "kling-3-0",
+    "minimax-h3",
+    "wan-3-0",
+    "grok-imagine",
+    "nano-banana",
+    "gpt-image-2",
+    "midjourney-v7"
+  ],
+  "templates": [],
+  "workSlugs": [],
+  "workPaths": {}
+}

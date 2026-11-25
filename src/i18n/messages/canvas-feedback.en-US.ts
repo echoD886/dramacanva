@@ -1,0 +1,26 @@
+const messages = {
+    "canvasFeedback.loading": "Loading video tools",
+    "canvasFeedback.reading": "Reading selected videos",
+    "canvasFeedback.encoding": "Encoding merged video",
+    "canvasFeedback.merge": "Merge into video",
+    "canvasFeedback.agentSaved": "Agent updated the canvas",
+    "canvasFeedback.undoCount": "{summary} · Last {count} batches can be undone",
+    "canvasFeedback.close": "Close",
+    "canvasFeedback.view": "View these changes",
+    "canvasFeedback.undo": "Undo this operation",
+    "canvasFeedback.partialRestore": "Some assistant media could not be restored. The canvas has opened using the saved project.",
+    "canvasFeedback.loadFailed": "Could not load the canvas. Please try again.",
+    "canvasFeedback.newCanvasName": "Untitled canvas {count}",
+    "canvasFeedback.createFailed": "Could not create the canvas. Please try again.",
+    "canvasFeedback.createdLocal": "Canvas created locally, but cloud sync failed.",
+    "canvasFeedback.createdLocalDetail": "Canvas created locally, but cloud sync failed: {detail}",
+    "canvasFeedback.deleteFailed": "Could not delete the canvas. Please try again.",
+    "canvasFeedback.deleteFailedDetail": "Could not delete the canvas: {detail}",
+    "canvasFeedback.cleanupFailed": "The project was deleted, but some local drawing files could not be removed.",
+    "canvasFeedback.saveFailed": "Could not save the canvas. Please try again.",
+    "canvasFeedback.saved": "Canvas layout saved",
+    "canvasFeedback.saveSyncFailed": "Canvas layout saved locally, but cloud sync failed: {detail}",
+    "canvasFeedback.unknownError": "Unknown error",
+} as const;
+
+export default messages;

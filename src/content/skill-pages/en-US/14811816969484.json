@@ -1,0 +1,66 @@
+{
+    "title": "Batch-design jewelry from text or sketches on a canvas",
+    "metaDescription": "For jewelry designers and hobbyists. Upload sketches, gem photos, or prompts to create single or batch rings and necklaces with settings on canvas.",
+    "oneLiner": "Type text or upload sketches to batch-create wearable jewelry designs on canvas.",
+    "intro": [
+        "This is the jewelry design workflow on the {brand} canvas: enter a text idea, sketch, or gem photo to create jewelry designs with realistic wearable structures such as prong settings and ring mounts.",
+        "You only need to provide the jewelry category, materials, or design requirements. If you have hand-drawn sketches, stone photos, or reference styles you like, you can also send them directly to the AI assistant.",
+        "The AI lays out a design plan table on the canvas and generates each piece one by one as a single jewelry image with a white-background photography look, plus design notes. You can pick your favorite images and download them at any time."
+    ],
+    "example": {
+        "input": "Make 5 vintage-style emerald-cut rings. Use emeralds for the center stones, 18K yellow gold for the bands, and include detailed setting structures.",
+        "output": "The canvas will generate a design table with 5 numbered styles and materials, plus 5 high-resolution ring images with a white-background studio photography look. Each image will be labeled with prong-setting structure and metalwork notes."
+    },
+    "scenarios": [
+        "When preparing for order season or launching new products, you need to brainstorm multiple ring or necklace designs at once.",
+        "You have gem photos or pencil sketches on hand and want to quickly refine them into realistic wearable renderings.",
+        "You want to extend an old style into a collection while keeping the original center stone but changing the metal and accent stones.",
+        "When making a custom proposal for a client, you need a full set of white-background jewelry display images and craft notes."
+    ],
+    "problems": [
+        {
+            "pain": "AI-generated jewelry often has floating gemstones or no ring mount, making it impossible to wear.",
+            "solve": "The AI proactively adds fixing structures such as prongs, clasps, and ear posts so the jewelry it draws makes sense for real production."
+        },
+        {
+            "pain": "When you want dozens of design options at once, thinking through every detail and typing it out takes too much time.",
+            "solve": "The AI first organizes a design list with categories and materials on the canvas, then generates images one by one from that list."
+        },
+        {
+            "pain": "When you upload a reference image for a redesign, the AI often removes the gemstone you wanted to keep.",
+            "solve": "By default, the AI keeps the center stone's color and shape and only makes new changes to the surrounding accent stone layout and metal lines."
+        }
+    ],
+    "steps": [
+        "In the skills library, click \"Use this skill\" to open the dialog box on the right side of the canvas.",
+        "Upload a sketch or stone photo, and enter the category, material, and number of designs you want.",
+        "Review the design list table and white-background jewelry renderings generated on the canvas.",
+        "Tell the assistant which cards you're not happy with to revise and regenerate them. Once you're satisfied, download the images directly."
+    ],
+    "faq": [
+        {
+            "q": "How do I turn a hand-drawn sketch into a realistic jewelry rendering?",
+            "a": "Upload the sketch in the dialog box and describe the jewelry category and materials. The AI will preserve the sketch's composition, add structures such as prongs and ring mounts, and generate a jewelry image with a white-background photography look. If you're not satisfied with the generated details, you can tell the assistant what to change and regenerate at any time."
+        },
+        {
+            "q": "Do the drawn jewelry pieces follow realistic wearable structures?",
+            "a": "Yes, as much as possible. When creating images, the AI proactively adds fixing structures such as prongs, ear posts, and clasps to avoid floating gemstones or missing support. If you have specific setting techniques or wearing requirements, you can also tell the assistant in the dialog box in advance."
+        },
+        {
+            "q": "How can I batch-design multiple rings or necklaces at once?",
+            "a": "Just tell the AI in the dialog box how many designs and what style you want. It will first list a plan table on the canvas, then generate individual images and notes for each item on the list. All generated styles will be laid out on the canvas so you can compare them at any time and pick the designs you like to download."
+        },
+        {
+            "q": "When redesigning based on existing jewelry, how do I keep the center stone and only change the style?",
+            "a": "Upload the image and tell the AI to keep the center stone's color and cut. It will try to keep the core gemstone's appearance and only change the surrounding metal lines and accent stone layout. The new designs will be laid out directly on the canvas so you can compare details and download the images you like."
+        }
+    ],
+    "keywords": [
+        "AI jewelry design",
+        "jewelry design generator",
+        "jewelry sketch to render",
+        "ring design",
+        "batch jewelry designs",
+        "necklace design"
+    ]
+}

@@ -1,0 +1,275 @@
+.canvas-celebration-container {
+    position: relative;
+    padding: 24px 28px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: var(--color-text, #111827);
+    box-sizing: border-box;
+}
+.canvas-celebration-drag-handle { display: none; }
+
+.canvas-celebration-modal.is-dark .canvas-celebration-container {
+    color: #f3f4f6;
+}
+
+.canvas-celebration-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    color: var(--color-text-secondary, #6b7280);
+    cursor: pointer;
+    transition:
+        background-color 150ms ease,
+        color 150ms ease;
+    z-index: 2;
+}
+
+.canvas-celebration-close:hover {
+    background: rgba(0, 0, 0, 0.06);
+    color: var(--color-text, #111827);
+}
+
+.canvas-celebration-modal.is-dark .canvas-celebration-close:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+}
+
+.canvas-celebration-head {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.canvas-celebration-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #d97706;
+    letter-spacing: 0.02em;
+}
+
+.canvas-celebration-modal.is-dark .canvas-celebration-badge {
+    color: #fbbf24;
+}
+
+.canvas-celebration-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--color-text, #111827);
+}
+
+.canvas-celebration-modal.is-dark .canvas-celebration-title {
+    color: #ffffff;
+}
+
+.canvas-celebration-cost {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--color-text-secondary, #4b5563);
+}
+
+.canvas-celebration-modal.is-dark .canvas-celebration-cost {
+    color: #9ca3af;
+}
+
+.canvas-celebration-video-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #000000;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.canvas-celebration-video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.canvas-celebration-primary-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.canvas-celebration-btn-next-shot {
+    width: 100%;
+    height: 42px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    white-space: nowrap;
+}
+
+.canvas-celebration-secondary-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.canvas-celebration-btn-secondary {
+    flex: 1 0 auto;
+    min-height: var(--space-10);
+    height: 38px !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    border-radius: 8px !important;
+    white-space: nowrap;
+}
+
+.canvas-celebration-bottom-row {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 4px;
+}
+
+.canvas-celebration-offer-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(234, 88, 12, 0.04) 100%);
+    border: 1px solid rgba(245, 158, 11, 0.25);
+    cursor: pointer;
+    transition:
+        transform 150ms ease,
+        border-color 150ms ease,
+        box-shadow 150ms ease;
+}
+
+.canvas-celebration-offer-banner:hover {
+    transform: translateY(-1px);
+    border-color: rgba(245, 158, 11, 0.45);
+    box-shadow: 0 4px 14px rgba(245, 158, 11, 0.12);
+}
+
+.canvas-celebration-modal.is-dark .canvas-celebration-offer-banner {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.12) 0%, rgba(234, 88, 12, 0.06) 100%);
+    border-color: rgba(245, 158, 11, 0.3);
+}
+
+.canvas-celebration-offer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+}
+
+.canvas-celebration-offer-tag {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    color: var(--color-text, #111827);
+    white-space: nowrap;
+}
+
+.canvas-celebration-modal.is-dark .canvas-celebration-offer-tag {
+    color: #ffffff;
+}
+
+.canvas-celebration-offer-info span {
+    font-size: 12px;
+    color: var(--color-text-secondary, #6b7280);
+    line-height: 1.4;
+}
+
+.canvas-celebration-modal.is-dark .canvas-celebration-offer-info span {
+    color: #9ca3af;
+}
+
+.canvas-celebration-offer-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.canvas-celebration-invite-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas-celebration-invite-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    border: none;
+    background: transparent;
+    padding: 4px 8px;
+    font-size: 13px;
+    color: var(--color-text-secondary, #6b7280);
+    cursor: pointer;
+    border-radius: 6px;
+    transition:
+        color 150ms ease,
+        background-color 150ms ease;
+    white-space: nowrap;
+}
+
+.canvas-celebration-invite-link:hover {
+    color: var(--color-primary, #2563eb);
+    background: rgba(37, 99, 235, 0.06);
+}
+
+.canvas-celebration-modal.is-dark .canvas-celebration-invite-link {
+    color: #9ca3af;
+}
+
+.canvas-celebration-modal.is-dark .canvas-celebration-invite-link:hover {
+    color: #60a5fa;
+    background: rgba(96, 165, 250, 0.1);
+}
+
+@media (max-width: 640px) {
+    .canvas-celebration-wrap { display: flex; align-items: flex-end; }
+    .canvas-celebration-wrap::before { display: none; }
+    .canvas-celebration-wrap .canvas-celebration-modal {
+        --celebration-radius: var(--r-3xl) var(--r-3xl) 0 0;
+        width: 100% !important;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        top: auto;
+        transform: translateY(var(--celebration-drag-y, 0));
+    }
+    .canvas-celebration-container {
+        padding: 8px 16px max(24px, env(safe-area-inset-bottom));
+        max-height: 90dvh;
+        overflow-y: auto;
+        gap: 12px;
+    }
+    .canvas-celebration-drag-handle { display: grid; place-items: center; align-self: center; width: 64px; height: 20px; padding: 0; background: transparent; border: 0; touch-action: none; cursor: grab; }
+    .canvas-celebration-drag-handle span { width: 32px; height: 4px; border-radius: var(--r-full); background: var(--muted-foreground); opacity: .4; }
+
+    .canvas-celebration-secondary-btns {
+        flex-direction: column;
+    }
+
+    .canvas-celebration-offer-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .canvas-celebration-offer-btn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Divida roteiro de série curta em planos coerentes sem furos",
+    "metaDescription": "Para criadores de séries curtas e iniciantes: envie um roteiro e receba uma tabela de planos com ações, falas e início/fim, reduzindo erros de continuidade.",
+    "oneLiner": "Envie um roteiro e gere no canvas uma tabela de planos que organiza as ações para criadores de vídeo.",
+    "intro": [
+        "É uma ferramenta de criação que ajuda a organizar os planos de séries curtas. Em vídeos, é comum um plano não continuar o anterior — por exemplo, a pessoa está com um copo em uma cena e, na seguinte, aparece com as mãos vazias. Esta ferramenta ajuda a esclarecer esses detalhes.",
+        "Basta preparar o roteiro da série curta ou a história por episódio. Se tiver requisitos de formato horizontal/vertical ou duração por episódio, você também pode informar diretamente na conversa.",
+        "Ao terminar, o canvas gera um cartão de tabela de planos com a fala, a ação, a duração estimada em segundos e o estado inicial e final dos personagens de cada plano, para você editar ou copiar quando quiser."
+    ],
+    "example": {
+        "input": "Envie o roteiro: “Li Ming abre a porta, entra no escritório com a pasta na mão direita. O diretor Wang olha para ele e pergunta: ‘Trouxe a coisa?’”",
+        "output": "O canvas gera uma tabela de planos com duas linhas: o plano 1 indica Li Ming entrando com a pasta na mão direita e sua posição final; o plano 2 indica o olhar do diretor Wang para Li Ming e a fala correspondente, com a continuidade das ações bem clara."
+    },
+    "scenarios": [
+        "Quando você tem um roteiro de série curta pronto e quer dividi-lo em planos claros para preparar o vídeo.",
+        "Quando duas pessoas conversam de forma alternada ou várias pessoas discutem, e é preciso definir quem fala primeiro e para quem a câmera deve apontar.",
+        "Quando há uma entrega de objeto ou uma cena de luta e você quer que as ações se conectem entre planos consecutivos.",
+        "Quando você já tem uma tabela de planos e quer alterar apenas alguns planos, sem reescrever o vídeo inteiro."
+    ],
+    "problems": [
+        {
+            "pain": "No vídeo final, os planos não se conectam e o objeto na mão do personagem muda de mão ou some de repente.",
+            "solve": "Registrar o estado inicial e final de cada plano faz o plano seguinte continuar as ações e os objetos do anterior, reduzindo erros de continuidade."
+        },
+        {
+            "pain": "Quando há muitas falas, fica difícil saber como dividir os planos, com medo de esquecer falas ou bagunçar a ordem.",
+            "solve": "Divide os planos conforme o que acontece na imagem e distribui cada fala na ordem original, sem cortar nem trocar a ordem sem necessidade."
+        },
+        {
+            "pain": "Alguns pontos do roteiro não estão claros, e existe o receio de que a IA invente detalhes e quebre a premissa original.",
+            "solve": "Quando percebe que o enredo não está claro, lista dúvidas específicas e sugere como resolver; só age depois que você decide."
+        }
+    ],
+    "steps": [
+        "No banco de habilidades, clique em “Usar esta habilidade” para entrar na interface de criação no canvas do {brand}.",
+        "Envie o texto do seu roteiro de série curta; você pode indicar formato horizontal/vertical e duração desejada.",
+        "Confira o cartão de tabela de planos gerado no canvas e verifique as ações dos personagens e as falas correspondentes.",
+        "Edite os planos que precisam de ajuste e, após confirmar, copie ou baixe o resultado."
+    ],
+    "faq": [
+        {
+            "q": "O que é uma tabela de planos de série curta?",
+            "a": "A tabela de planos é uma lista que divide o roteiro da série curta em imagens concretas, especificando quem fala e qual ação acontece em cada plano. Ela ajuda a organizar a continuidade antes de gerar as imagens de fato, evitando que as ações dos personagens se desconectem de repente."
+        },
+        {
+            "q": "Por que as ações dos personagens costumam falhar na continuidade entre planos ao gerar vídeos?",
+            "a": "Uma causa comum é que a ação e a posição no fim do plano anterior não são passadas para o plano seguinte. Esta ferramenta registra a postura dos personagens e os objetos no início e no fim de cada plano, para que planos adjacentes se conectem naturalmente e o risco de erros diminua."
+        },
+        {
+            "q": "As falas do roteiro original serão apagadas, alteradas ou embaralhadas?",
+            "a": "Por padrão, não corta nem embaralha as falas originais. A ferramenta distribui cada fala no plano correspondente, seguindo a ordem original. Se não couber no plano ou houver conflito com a imagem, ela propõe uma alteração e pergunta antes; não reescreve por conta própria."
+        },
+        {
+            "q": "Se alguns detalhes do roteiro não estiverem claros, a IA vai inventar uma história?",
+            "a": "Não inventa fatos do enredo por conta própria. Quando os detalhes do roteiro não bastam para sustentar a imagem, ela aponta dúvidas específicas e oferece sugestões. Até você decidir, mantém marcações para que você complemente manualmente."
+        }
+    ],
+    "keywords": [
+        "dividir roteiro de série curta em planos",
+        "como fazer storyboard de série curta",
+        "transformar roteiro em tabela de planos",
+        "storyboard com IA sem erros de continuidade",
+        "continuidade entre planos série curta",
+        "alinhar falas e storyboard série curta"
+    ]
+}

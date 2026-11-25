@@ -1,0 +1,66 @@
+{
+    "title": "Vídeo de lanzamiento: storyboard, versiones y formatos",
+    "metaDescription": "En el lienzo de {brand}, crea storyboards rítmicos, cortes musicales, versiones que solo cambian el inicio y consejos para horizontal y vertical.",
+    "oneLiner": "Introduce los argumentos de venta del producto y genera en el lienzo un storyboard, una tabla de cortes musicales y varias opciones de formato.",
+    "intro": [
+        "Este es un proceso que ayuda a planificar vídeos de lanzamiento de productos. Puede diseñar todo el vídeo en varias fases con un ritmo claro, incluyendo una apertura que atraiga, la presentación de los puntos fuertes y una llamada a seguir.",
+        "No necesitas saber de producción audiovisual profesional. Solo tienes que introducir en el lado derecho del lienzo de {brand} el nombre del producto y sus principales argumentos de venta, y explicar cuánto quieres que dure el vídeo.",
+        "La IA generará en el lienzo un storyboard (dividiendo el vídeo en planos y describiendo cada imagen), una tabla de tiempos para los cortes musicales, 3 propuestas comparativas que solo cambian el inicio y recomendaciones de composición para horizontal y vertical."
+    ],
+    "example": {
+        "input": "Hemos lanzado una silla de camping plegable y ligera y queremos hacer un vídeo promocional de producto de 30 segundos, con ritmo, para publicarlo en plataformas horizontales y verticales.",
+        "output": "Genera en el lienzo tarjetas de storyboard de 30 segundos en cinco partes, con los tiempos de corte de la música indicados; ofrece 3 propuestas comparativas que solo cambian el inicio e indica una composición centrada válida tanto para horizontal como para vertical."
+    },
+    "scenarios": [
+        "Lanzar un producto nuevo y hacer un vídeo promocional que no sea un simple relato plano, sino que tenga un ritmo con altibajos que atraiga.",
+        "Para probar anuncios con varias versiones de material, quieres cambiar solo el inicio o el final y ver qué versión atrae más al público.",
+        "Quieres hacer un vídeo promocional de montaje rápido al ritmo de la música, pero no sabes en qué segundo debería cambiar cada plano para que encaje.",
+        "El mismo vídeo debe publicarse en plataformas horizontales y verticales, y te preocupa que en vertical se recorten las imágenes clave."
+    ],
+    "problems": [
+        {
+            "pain": "El vídeo es plano y no tiene altibajos; los cambios de plano no siguen el ritmo de la música de fondo.",
+            "solve": "Divide el storyboard en cinco fases rítmicas y marca los tiempos de los golpes fuertes de la música para que los cambios de plano tengan más ritmo."
+        },
+        {
+            "pain": "Al probar varias versiones del vídeo haces demasiados cambios y no sabes qué plano fue el que funcionó.",
+            "solve": "Cambia solo una cosa cada vez: sustituye únicamente la imagen de apertura o la acción final y genera propuestas comparativas claras."
+        },
+        {
+            "pain": "Al pasar un vídeo horizontal a vertical, el producto queda cortado por la mitad y el texto queda tapado por los iconos de la plataforma.",
+            "solve": "Concentra el sujeto y el texto en el centro de la imagen y deja un margen de seguridad alrededor para que no se recorten al mostrarlos en horizontal o vertical."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» e introduce a la derecha los argumentos de venta del producto y la duración deseada.",
+        "Revisa el storyboard, la tabla de cortes musicales y las tarjetas comparativas de varias versiones generadas en el lienzo.",
+        "Indica al asistente qué planos o qué ritmo quieres ajustar y modifica el storyboard y los cortes musicales.",
+        "Copia o descarga el resultado de la planificación del lienzo para usarlo directamente en la producción posterior del vídeo."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo usar la IA para organizar el ritmo de los planos de un vídeo de producto?",
+            "a": "Envía al asistente los argumentos de venta del producto y organizará el storyboard en cinco fases: apertura que atrae, creación de expectación, presentación principal, cortes rápidos de ventajas y acción final. Cada fase indicará la imagen del plano y la distribución de duración, para ayudarte a que un vídeo de lanzamiento de, por ejemplo, 30 segundos tenga un ritmo claro con altibajos. Si no te convence el ritmo de algunos planos, dilo directamente al asistente en el panel derecho para modificarlo."
+        },
+        {
+            "q": "¿Cómo hacer que un vídeo siga con precisión el ritmo de la música?",
+            "a": "Usa la tabla de tiempos de corte para planificar los puntos de cambio con antelación, entra en los golpes fuertes de la música con las imágenes clave y cambia los argumentos de venta del producto al ritmo de un corte cada 0,6 a 1 segundo. La IA marcará en el storyboard los momentos clave de los golpes fuertes y los picos de ritmo de la música, y especificará los segundos de inicio y fin de cada plano de argumento de venta. Al editar después, sigue esta tabla para colocar las imágenes y los planos encajarán de forma natural con el ritmo."
+        },
+        {
+            "q": "¿Cómo comparar versiones para probar el efecto de distintos vídeos?",
+            "a": "Usa una comparación de una sola variable: mantén el contenido principal igual y sustituye cada vez solo los primeros segundos de apertura o la llamada a la acción final. La IA generará, a partir del mismo guion de storyboard, 3 tarjetas de propuestas comparativas que solo cambian un elemento. Al comparar después los datos de reproducción de las distintas versiones, será más fácil ver qué cambio de imagen produjo el efecto."
+        },
+        {
+            "q": "¿Cómo publicar un mismo vídeo en plataformas horizontales y verticales a la vez?",
+            "a": "Usa una composición con zona segura central: concentra el producto principal y el texto clave en la zona cuadrada central y deja un margen de seguridad alrededor. Al planificar el storyboard, la IA partirá de una base horizontal y la adaptará a vertical, reservando espacio para evitar que los iconos y los subtítulos de cada plataforma tapen el contenido. Así, al publicar el mismo storyboard en plataformas horizontales, verticales y cuadradas, será menos probable que se recorte la imagen principal."
+        }
+    ],
+    "keywords": [
+        "creación de vídeos de producto",
+        "storyboard para vídeo promocional",
+        "edición de vídeo al ritmo de la música",
+        "adaptar vídeo horizontal a vertical",
+        "test de versiones de vídeo corto",
+        "vídeo de lanzamiento de producto"
+    ]
+}

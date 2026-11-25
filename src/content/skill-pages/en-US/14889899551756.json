@@ -1,0 +1,66 @@
+{
+    "title": "Short Drama Hero Entrance: Fix First 30 Seconds, 2 Rewrites",
+    "metaDescription": "For short-drama writers: diagnose why the hero’s first 30 seconds fall flat and get two 150-character rewrites plus visual descriptions on the canvas.",
+    "oneLiner": "For short-drama writers: enter an entrance scene to diagnose and generate two rewritten scripts on the canvas.",
+    "intro": [
+        "This is a creative workflow for short-drama writers revising the hero's entrance scene. Many scripts spend too long setting things up, so the first few dozen seconds fail to hold viewers. It helps you find why the character isn't vivid enough.",
+        "You only need a character profile or a draft of the first 30 seconds. Even a few lines can be sent directly to the AI assistant on the right.",
+        "The AI generates a diagnostic card on the canvas, points out script issues, and provides two rewrites under 150 Chinese characters each plus visual descriptions for you to copy and use."
+    ],
+    "example": {
+        "input": "The male lead is a cold-hearted killer. He walks into a building in a black trench coat, his men bow to him, and he's about to go into a gunfight. Help me make it more compelling.",
+        "output": "A card appears on the canvas: it points out that the original scene lacks contrast; it gives two rewrites under 150 Chinese characters (for example, before entering the building, he moves a snail from the sidewalk into the grass, then draws his gun); and includes a one-line video visual description."
+    },
+    "scenarios": [
+        "You've written a short-drama hero's entrance and feel it's flat and reads like a bland chronological account, and you're worried viewers will swipe away after a few seconds.",
+        "You want to create a villain or a cold character but can't think of contrast details that would quickly win viewers over.",
+        "The hero's setup is very strong or very tragic, but in the first 30 seconds of the script they feel thin and lack conflict.",
+        "After the script is revised, you don't know how to distill the climactic action into text to generate video visuals."
+    ],
+    "problems": [
+        {
+            "pain": "The short-drama hero's entrance is flat, and viewers want to swipe away after a few seconds.",
+            "solve": "Analyze the first 30 seconds, point out why the character feels two-dimensional, and recommend suitable personality trait combinations for the rewrite."
+        },
+        {
+            "pain": "You know the hero needs contrast, but can't think of specific action details.",
+            "solve": "Generate two rewrites under 150 Chinese characters directly on the canvas, using specific actions to quickly establish the character."
+        },
+        {
+            "pain": "The story setup is too long, and the first few dozen seconds don't make the hero's traits clear.",
+            "solve": "Help you cut unnecessary dialogue and messy exposition, focus on the key conflict, and make the hero grab attention the moment they appear."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use This Skill\" to enter the creative canvas.",
+        "Enter the character profile or entrance draft and send it to the AI assistant on the right side of the canvas.",
+        "Review the diagnostic analysis and two rewritten script cards the AI generates on the canvas.",
+        "Copy or download the script and visual descriptions you like, or edit the text directly on the canvas."
+    ],
+    "faq": [
+        {
+            "q": "How can I make a short-drama hero attract viewers as soon as they appear?",
+            "a": "The most direct way is to have the hero perform contrasting actions in the first 30 seconds that show strong personality traits. Simply explaining the background rarely holds viewers; sudden conflict and small gestures are more likely to win them over. You can send your draft to the AI assistant, and it will help you find the flat parts and rewrite the actions."
+        },
+        {
+            "q": "Can this skill write the script for an entire short drama?",
+            "a": "No. It specifically diagnoses and polishes the character's entrance in the first 30 seconds and does not write long-form plot. It focuses on the opening action scene within 150 Chinese characters to help you quickly establish the hero. If you need a full-length drama, you can continue writing the rest manually on the canvas."
+        },
+        {
+            "q": "What if I'm not satisfied with the rewritten script it generates?",
+            "a": "You can edit the text directly on the canvas or keep asking the AI assistant for adjustments. Each time, the AI provides two options with different emphases for you to choose from. If you want to try other personality contrasts, you can ask the assistant to regenerate at any time."
+        },
+        {
+            "q": "Does this skill directly generate a finished video?",
+            "a": "No, it doesn't generate video. It generates rewritten script text and visual descriptions. You can copy these visual descriptions to generate visuals, or use them directly as a shooting script. All text results can be freely copied or downloaded from the canvas."
+        }
+    ],
+    "keywords": [
+        "how to write a short drama script",
+        "short drama hero entrance ideas",
+        "how to make a micro drama opening engaging",
+        "short drama script rewrite",
+        "short video character persona",
+        "how to write the first 30 seconds of a short drama"
+    ]
+}

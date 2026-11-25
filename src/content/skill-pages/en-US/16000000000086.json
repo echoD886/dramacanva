@@ -1,0 +1,66 @@
+{
+    "title": "Natural AI character micro-expressions in close-ups",
+    "metaDescription": "AI video creators: input emotion and context to turn expressions into eye, brow, and body micro-actions, with parameters, action lists, close-up prompts.",
+    "oneLiner": "Enter a character's emotion and situation to generate a micro-expression action table and close-up prompts on the canvas.",
+    "intro": [
+        "This is a tool built to help AI characters get their expressions right. It breaks stiff one-note emotions into detailed blinks, lip bites, and eye movements so characters look more vivid and natural in close-ups.",
+        "Just describe the character's mood and what is happening in plain language in the chat box on the right. If you already have a photo of the character's face, you can upload it as a look reference.",
+        "When it's done, the AI generates a micro-expression action table, a head-and-body coordination list, and ready-to-use close-up prompts (text descriptions for AI-generated images) on the canvas. You can view or copy them right away."
+    ],
+    "example": {
+        "input": "The heroine learns she has been deceived and holds back tears; her eyes shift from shock to disappointment, and the corners of her mouth tremble slightly. Uploaded a front-facing reference image of the heroine.",
+        "output": "Generates an action breakdown table on the canvas (including notes on tightened brow center and lowered gaze), a body coordination list, and a facial close-up prompt with details like teary eyes and tension."
+    },
+    "scenarios": [
+        "When writing sad or angry scenes, the AI character's expression is too exaggerated and distorted, or completely blank.",
+        "In close-ups, the AI character's eyes look spaced out, and you can't tell where they're looking.",
+        "The character's facial features often change between shots, or the skin looks like a plastic mannequin and lacks realistic texture.",
+        "The character's emotion jumps from calm to sudden outburst without natural transitions or body coordination."
+    ],
+    "problems": [
+        {
+            "pain": "You only write emotion words, so AI-generated character expressions are either overdone or show no reaction.",
+            "solve": "It breaks emotions down on the canvas into specific brow, eye, and mouth actions and generates detailed descriptions."
+        },
+        {
+            "pain": "In close-ups, the character's eyes look blank and you can't tell what they're thinking.",
+            "solve": "It assigns specific gaze targets and head-turn actions so the eyes have a focal point and convey a thinking process."
+        },
+        {
+            "pain": "The character's skin is too smooth and looks like a plastic mannequin, and the face shape changes between shots.",
+            "solve": "It adds realistic physiological details like tears and jaw tension, and uses reference images to lock facial features and reduce drift."
+        }
+    ],
+    "steps": [
+        "In the skill library, click 'Use this skill.'",
+        "Enter the character's situation and emotional changes, or upload a reference image of the character's face.",
+        "Review the micro-expression breakdown table, body action list, and close-up prompts generated on the canvas.",
+        "Copy or download the text and table results generated on the card."
+    ],
+    "faq": [
+        {
+            "q": "How can I make AI character expressions look more natural?",
+            "a": "Break general emotions into specific brow, eye, and mouth actions instead of only entering 'angry' or 'sad.' In {brand}, you can first generate a micro-expression parameter table to set the expression, then generate a close-up key image to confirm the gaze. This helps reduce facial distortion and makes expression transitions more vivid."
+        },
+        {
+            "q": "What should I do if AI-generated characters always look blank in the eyes?",
+            "a": "Clearly state what the character is looking at or the direction of their gaze so the eyes have a clear focal point. For example, write 'looking down at the desk to the lower right' or 'looking into the other person's eyes,' and the character will look more thoughtful. You can first generate a close-up key image on the canvas to confirm the gaze, then continue creating."
+        },
+        {
+            "q": "Why do faces in AI videos look like plastic mannequins?",
+            "a": "This happens because the image lacks realistic skin texture and physiological details. You can add subtle changes such as tears welling in the eyes, tightened jaw muscles, or fine lip lines to the prompt so the lighting and shadows match real skin. The final texture depends on the capabilities of the model you choose; realistic models usually perform better."
+        },
+        {
+            "q": "What should I do if the AI character's face changes after switching shots?",
+            "a": "Before generating, upload a photo of the fixed character as a look reference and keep the core facial features in each description. When adjusting the shot, try to only make small changes to expression and gaze, and avoid major changes to hairstyle or facial bone structure. You can keep the best character image card on the canvas for easy reference and comparison."
+        }
+    ],
+    "keywords": [
+        "AI character expressions",
+        "AI character blank stare",
+        "remove plastic look from AI video characters",
+        "AI micro-expression prompts",
+        "AI short drama actor expressions",
+        "AI character face close-up"
+    ]
+}

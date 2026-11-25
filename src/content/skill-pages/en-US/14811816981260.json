@@ -1,0 +1,67 @@
+{
+    "title": "Turn everyday moments into 15-second comedic twist shorts",
+    "metaDescription": "For comedy short creators. Enter everyday moments like splitting the bill, and get 15-second exaggerated twist scene cards and video clips on the canvas.",
+    "oneLiner": "Enter everyday moments to create 15-second exaggerated twist video cards for comedy creators.",
+    "intro": [
+        "This is a comedy video creation workflow. It treats everyday trivialities like earth-shattering events: quiet for the first 4 seconds, wildly exaggerated in the middle, then a funny little truth revealed at the end, creating 15 seconds of strong contrast.",
+        "In the chat box on the right side of the canvas, send the AI assistant a small everyday scene—like fighting over the bill with a friend, typing at the office, or confessing love in the rain—no long script needed.",
+        "The AI will generate 15-second scene description cards on the canvas, with actions and sound effects written out second by second; you can also have it generate corresponding video clip cards to view, edit, or download directly on the canvas."
+    ],
+    "example": {
+        "input": "Two friends finish dinner at a restaurant and fight over the bill at the cashier.",
+        "output": "A 15-second scene description card appears on the canvas: for the first 4 seconds, the two smile and pull out their phones; for the next 7 seconds, the mood shifts like masters dueling; in the final 3 seconds, they realize they're fighting to scan each other's payment codes. A 15-second video card can also be generated."
+    },
+    "scenarios": [
+        "You want to film everyday moments like friends fighting over the bill or squeezing into an elevator, and need a comedic twist to grab viewers.",
+        "You're brainstorming a 15-second humorous short but get stuck because the story feels too ordinary and you can't think of a funny ending.",
+        "You have only a small everyday idea in your head and don't know how to expand it into concrete video scenes.",
+        "You want to make exaggerated comedy short clips and need to turn trivial moments into earth-shattering contrast."
+    ],
+    "problems": [
+        {
+            "pain": "Everyday moments look too bland on camera, and viewers scroll away within seconds.",
+            "solve": "Split the moment into a setup, an earth-shattering middle, and a twist ending, using exaggerated contrast to keep people watching."
+        },
+        {
+            "pain": "You want to make comedy videos, but the endings are always plain facial expressions with no punchline.",
+            "solve": "The ending sets up an unexpected little truth that undercuts the grand scene, creating humor naturally instead of relying on empty expressions."
+        },
+        {
+            "pain": "You don't know how to describe scenes to AI, and the generated videos come out flat and straightforward.",
+            "solve": "Break down the visuals, actions, and sound effects second by second so the AI better understands the shift from quiet to explosive."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to enter the {brand} canvas.",
+        "Enter the everyday scene you want to shoot and send it to the AI assistant in the chat box on the right.",
+        "Review the 15-second scene description card on the canvas and adjust the text details as needed.",
+        "Generate the corresponding 15-second video clip card and preview or adjust it on the canvas.",
+        "Arrange the video clips you're happy with in order on the video timeline, then export."
+    ],
+    "faq": [
+        {
+            "q": "How do I turn everyday moments into comedy twist videos?",
+            "a": "Send a small everyday scene to the AI assistant in the chat box. It will generate a 15-second scene description card with a setup, an extremely exaggerated middle, and a twist ending. If you need video, you can also have it generate video clip cards and arrange them on the timeline for export."
+        },
+        {
+            "q": "What if the generated video scenes aren't exaggerated enough?",
+            "a": "You can edit the action descriptions directly in the text card on the canvas, or ask the AI assistant to regenerate. Write more specific physical actions—for example, change “angry” to “pounding the keyboard so hard the water glass shatters”—and the AI can create more accurate exaggerated scenes."
+        },
+        {
+            "q": "How do I write a comedy video twist ending that isn't awkward?",
+            "a": "The ending should reveal a small truth that explains the exaggerated behavior, not just show a surprised expression. For example, if the setup is an epic battle over the bill, end with them realizing they scanned each other's payment codes; a real-life detail that breaks the tension will be funny."
+        },
+        {
+            "q": "Can this skill directly generate a fully edited long video?",
+            "a": "No. It mainly generates individual 15-second video clips. If you want a longer finished video, place multiple generated clips on the canvas timeline, arrange them in your preferred order, and then export."
+        }
+    ],
+    "keywords": [
+        "15-second comedy videos",
+        "funny short video twists",
+        "everyday moments comedy videos",
+        "short video plot twists",
+        "AI comedy video generator",
+        "exaggerated short video scripts"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "Envie foto da roupa e crie 5 estilos de modelo",
+    "metaDescription": "Para lojas de roupas: envie uma foto; a IA cria no canvas 5 fotos de modelo em estúdio, com estilos, cabelos e acessórios diferentes, prontas para baixar.",
+    "oneLiner": "Envie uma foto da roupa e crie no canvas 5 imagens de modelo com looks diferentes para vendedores de roupas.",
+    "intro": [
+        "Esta é uma ferramenta para vendedores de roupas criarem imagens de exibição. Com base na peça que você vende, ela desenha 5 combinações de looks e propostas de ensaio em estúdio para públicos diferentes, fazendo a mesma peça mostrar 5 efeitos diferentes quando vestida.",
+        "Você só precisa preparar uma foto nítida da roupa estendida ou uma foto real da peça. Se não tiver imagem, também pode digitar diretamente no chat, explicando o modelo, a cor e o tecido da roupa.",
+        "Ao terminar, você receberá no canvas 5 fotos de modelo na proporção vertical 3:4 com fundo limpo, já com cabelo e acessórios combinando. Você pode ajustar pontos específicos que não gostou e gerar novamente, ou baixar direto para usar."
+    ],
+    "example": {
+        "input": "Envie uma foto de uma camisa de linho branca larga estendida e escreva: quero ver combinações diferentes para trabalho, casual francês e estilo férias.",
+        "output": "No canvas, primeiro serão listadas 5 propostas de combinação de looks para você confirmar; após a confirmação, serão geradas 5 fotos verticais 3:4 do modelo vestindo a peça, mostrando estilos diferentes como calça social e acessórios para o trabalho, chapéu de palha para férias etc., prontas para baixar."
+    },
+    "scenarios": [
+        "Quando você só tem a foto da roupa estendida ou pendurada e quer criar imagens de modelo vestindo a peça para e-commerce com baixo custo.",
+        "Quando o lançamento de uma nova coleção está apertado e não dá tempo de agendar estúdio e modelo, sendo preciso gerar imagens rápido para testar o produto.",
+        "Quando você quer vender a mesma peça para compradores com preferências diferentes e precisa mostrar vários estilos de look.",
+        "Quando falta orçamento para fotografia comercial e você quer criar um conjunto de fotos de estúdio com iluminação limpa e textura de tecido realista."
+    ],
+    "problems": [
+        {
+            "pain": "Contratar modelo comercial e estúdio custa caro e leva tempo; a peça nova não fica pronta para as fotos a tempo.",
+            "solve": "Envie a foto da roupa e gere diretamente 5 fotos verticais 3:4 de modelo em estúdio, reduzindo gastos com modelo e aluguel de estúdio."
+        },
+        {
+            "pain": "As imagens de modelo feitas por IA facilmente parecem manequins falsos, e a textura do tecido não parece real.",
+            "solve": "Simula a iluminação de um estúdio profissional e preserva os detalhes reais do tecido, buscando ao máximo reproduzir a textura de uma foto real e reduzir a aparência de manequim de plástico."
+        },
+        {
+            "pain": "A roupa tem só um jeito de vestir e fica monótona; não sei como combinar acessórios e cabelo.",
+            "solve": "A IA analisa o estilo da peça e combina cabelo e acessórios exclusivos para 5 tipos de público, listando primeiro as propostas para sua confirmação."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em \"Usar esta habilidade\" e inicie a criação no chat à direita do canvas.",
+        "Envie uma foto da roupa estendida ou digite uma descrição da cor e das características do tecido.",
+        "Veja as 5 propostas de looks listadas pela IA e confirme ou peça ajustes.",
+        "Confira as 5 imagens de modelo geradas no canvas e informe ao assistente o que deseja mudar para gerar novamente.",
+        "Escolha as imagens de modelo que gostou, clique para ver os detalhes e baixe as imagens."
+    ],
+    "faq": [
+        {
+            "q": "Como usar a IA para transformar a foto de uma roupa estendida em imagem de modelo vestindo a peça?",
+            "a": "No canvas do {brand}, envie a foto da roupa estendida e, após confirmar a combinação com o assistente, você poderá gerar 5 fotos de modelo em estúdio. O sistema analisa automaticamente o estilo e o tecido da peça e combina cabelo e acessórios para você. Se não gostar de algum detalhe, basta pedir ao assistente para alterar e gerar novamente."
+        },
+        {
+            "q": "Só tenho uma descrição em texto, sem foto real da roupa. Posso usar?",
+            "a": "É possível gerar diretamente a partir de uma descrição em texto. No chat, escreva com clareza a categoria, a cor, o caimento e as características do tecido da roupa, e também será possível criar 5 imagens de looks de modelo. Porém, fornecer uma imagem de referência nítida da peça real deixa os detalhes mais próximos do original."
+        },
+        {
+            "q": "Se eu não gostar do rosto, do cabelo ou da pose do modelo gerado, posso modificar?",
+            "a": "Você pode modificar e gerar novamente a qualquer momento. Antes de gerar as imagens, pode ajustar as propostas de look e pose apresentadas. Depois de gerar, também pode dizer ao assistente o que deseja mudar e gerar novamente apenas a imagem que não gostou."
+        },
+        {
+            "q": "As imagens de modelo geradas podem ser usadas diretamente como imagem principal do e-commerce?",
+            "a": "Podem ser usadas diretamente como imagem principal ou imagens da página de detalhes do e-commerce. Por padrão, as imagens usam a proporção vertical 3:4 comum no e-commerce e um fundo de estúdio limpo, com o assunto centralizado e detalhes nítidos. Após a geração, basta escolher as imagens de que gostou e baixá-las."
+        }
+    ],
+    "keywords": [
+        "transformar foto de roupa em modelo",
+        "gerador de modelo de roupa com IA",
+        "criar foto de modelo para loja online",
+        "experimentar roupa em modelo virtual",
+        "foto de estúdio para roupas online",
+        "imagem de modelo para e-commerce com IA"
+    ]
+}

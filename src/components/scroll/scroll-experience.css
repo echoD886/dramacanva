@@ -1,0 +1,20 @@
+[data-scroll-reveal][data-reveal-state="pending"] { opacity: 0; transform: translateY(14px); pointer-events: none; }
+[data-scroll-reveal="image"][data-reveal-state="pending"], [data-scroll-image][data-reveal-state="pending"] { transform: translateY(14px) scale(.96); }
+[data-scroll-reveal][data-reveal-state="revealed"] { animation: content-reveal 500ms cubic-bezier(.16,1,.3,1) var(--reveal-delay, 0ms) backwards; }
+[data-scroll-image][data-reveal-state="revealed"] { animation-name: content-image-reveal; }
+@keyframes content-reveal { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes content-image-reveal { from { opacity: 0; transform: translateY(14px) scale(.96); } to { opacity: 1; transform: none; } }
+html[data-content-transition]::view-transition-group(root), html[data-content-transition]::view-transition-old(root), html[data-content-transition]::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+html[data-content-transition]::view-transition-group(content-results) { animation: none; }
+html[data-content-transition]::view-transition-old(content-results) { animation: content-filter-out 120ms ease both; }
+html[data-content-transition]::view-transition-new(content-results) { animation: content-reveal 240ms cubic-bezier(.16,1,.3,1) both; }
+@keyframes content-filter-out { to { opacity: 0; } }
+.content-back-to-top { position: fixed; z-index: var(--z-toolbar); right: max(20px, env(safe-area-inset-right)); bottom: max(var(--scroll-top-bottom, 112px), env(safe-area-inset-bottom)); display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 1px solid var(--border); border-radius: var(--r-full); color: var(--foreground); background: var(--background); box-shadow: var(--shadow-md); cursor: pointer; animation: content-reveal 220ms ease both; transition: transform 180ms ease; }
+.content-back-to-top[hidden] { display: none; }
+.content-back-to-top svg { width: 19px; height: 19px; }
+.content-back-to-top:active { transform: scale(.98); }
+.content-back-to-top:focus-visible { outline: 2px solid var(--ring); outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) {
+    [data-scroll-reveal], [data-scroll-parallax], [data-scroll-fade], .content-back-to-top { animation: none !important; transition: none !important; transform: none !important; opacity: 1 !important; }
+    html[data-content-transition]::view-transition-group(*), html[data-content-transition]::view-transition-old(*), html[data-content-transition]::view-transition-new(*) { animation: none !important; }
+}

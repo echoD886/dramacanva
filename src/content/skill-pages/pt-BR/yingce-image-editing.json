@@ -1,0 +1,66 @@
+{
+    "title": "{brand}: edite detalhes da imagem digitando ou marcando",
+    "metaDescription": "Para editar imagens sem complicação: no canvas do {brand}, digite ou marque um local para trocar o fundo ou remover objetos, preservando a original.",
+    "oneLiner": "Para quem não sabe editar: envie a imagem original, digite ou marque e gere uma nova versão corrigida.",
+    "intro": [
+        "Esta é uma ferramenta para modificar partes de uma imagem no canvas: coloque a imagem original e digite ou marque uma posição; ela ajuda a alterar detalhes específicos sem refazer a imagem inteira.",
+        "Você só precisa preparar uma imagem para editar e colocá-la no canvas. Defina o que quer mudar, como trocar o fundo, apagar pessoas que aparecem ou alterar o tecido da roupa; você pode digitar uma descrição ou marcar a posição na imagem.",
+        "Depois da edição, uma nova imagem modificada aparece no canvas. A imagem original não é substituída e permanece intacta no canvas, para você comparar as duas lado a lado; se gostar, é só baixar e salvar."
+    ],
+    "example": {
+        "input": "Selecione a foto da pessoa no canvas, use a ferramenta de marcação para circular o quarto bagunçado ao fundo e digite: “Troque o fundo por um gramado ensolarado e mantenha a pessoa e as roupas iguais, se possível.”",
+        "output": "Uma nova imagem será gerada no canvas, preservando ao máximo o rosto e as roupas da pessoa, com o fundo transformado em um gramado ensolarado. A imagem original continua ao lado, conectada por uma linha, para você comparar e baixar."
+    },
+    "scenarios": [
+        "O sujeito ou objeto principal está bom, mas você quer trocar o fundo interno por uma rua chuvosa.",
+        "Há pessoas ou lixo extras na imagem e você quer removê-los para deixar tudo limpo.",
+        "Você quer manter o contorno do objeto e trocar apenas o tecido da roupa ou do móvel por couro.",
+        "O ângulo da foto está um pouco diferente e você quer ajustar levemente o ponto de vista, mantendo o assunto principal."
+    ],
+    "problems": [
+        {
+            "pain": "Você só quer mudar um pequeno detalhe da imagem, mas refazer a imagem inteira faz a pessoa e o assunto principal ficarem diferentes.",
+            "solve": "A ferramenta usa a imagem original como referência, tenta manter o assunto principal igual e gera novamente apenas a parte que precisa ser ajustada."
+        },
+        {
+            "pain": "Só digitando, é difícil explicar qual canto específico da imagem você quer alterar.",
+            "solve": "Você pode usar a ferramenta de marcação para indicar a posição diretamente na imagem; a IA altera a parte conforme os pontos marcados."
+        },
+        {
+            "pain": "Você tem medo de que a imagem original seja substituída depois da edição e não consiga recuperá-la se não gostar do resultado.",
+            "solve": "Cada edição gera uma nova imagem no canvas; a original não é substituída, então você pode comparar sempre que quiser."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e selecione no chat a imagem que deseja editar.",
+        "Explique o que quer mudar digitando uma descrição ou usando a ferramenta de marcação para indicar a posição.",
+        "Aguarde o assistente de IA processar seu pedido e gerar uma nova imagem no canvas.",
+        "Veja a nova imagem gerada e compare com a original; se gostar, baixe a imagem diretamente do canvas."
+    ],
+    "faq": [
+        {
+            "q": "Como editar só o fundo com IA sem mudar o rosto da pessoa?",
+            "a": "No chat, diga claramente à IA para manter o assunto principal e substituir apenas o fundo. A IA usa a imagem original como referência, tenta preservar o rosto e o corpo da pessoa e gera novamente só o ambiente do fundo. A nova imagem fica no canvas, e você pode compará-la com a original quando quiser."
+        },
+        {
+            "q": "Como usar IA para alterar com precisão detalhes específicos de uma imagem?",
+            "a": "Use a ferramenta de marcação no canvas para indicar o local que deseja mudar e explique o que quer. A IA altera a área marcada conforme os pontos indicados, tentando não mexer no restante da imagem. Depois da edição, uma nova imagem é gerada no canvas para você conferir os detalhes."
+        },
+        {
+            "q": "A imagem original é substituída depois da edição?",
+            "a": "Não. Cada edição gera uma nova imagem independente no canvas, e a original permanece intacta. As duas imagens ficam conectadas por uma linha, para você comparar o resultado novo com o antigo."
+        },
+        {
+            "q": "Se a geração da imagem editada falhar, serão cobrados créditos?",
+            "a": "Não serão descontados créditos. Quando a geração falha, a plataforma não cobra novamente, e o assistente de IA explica o motivo no chat. Você pode ajustar o pedido conforme a mensagem e tentar gerar de novo."
+        }
+    ],
+    "keywords": [
+        "edição local de imagem com IA",
+        "IA trocar fundo mantendo o sujeito",
+        "IA editar imagem sem mudar o rosto",
+        "retocar parte da imagem com seleção",
+        "IA remover objetos da foto",
+        "trocar fundo de foto com IA"
+    ]
+}

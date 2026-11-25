@@ -1,0 +1,66 @@
+{
+    "title": "Turn a Novel Story into a Short Drama Script and Storyboard",
+    "metaDescription": "For beginners adapting stories into short dramas. Send AI a novel or story; it builds episode scripts, character look cards, and text storyboard cards.",
+    "oneLiner": "Give it a story, and it organizes a short drama script and storyboard for you on the canvas.",
+    "intro": [
+        "This is a tool that helps you organize a short drama production plan on the {brand} canvas. It can break a story into episode-by-episode plots and turn what each shot needs to show into text cards.",
+        "You only need to prepare a novel excerpt, an existing script, or a story synopsis. If you have ideas about the number of episodes, episode length, or horizontal/vertical format, you can also tell the AI assistant on the right.",
+        "When it's done, the canvas will show episode-by-episode scripts, character costume settings, a storyboard (with visuals and actions described shot by shot), and visual description prompts for you to copy or download."
+    ],
+    "example": {
+        "input": "Send a 300-character novel excerpt: a down-and-out protagonist meets a mysterious old man on a rainy night, receives a wordless heavenly book, and wants to make it into a 3-episode vertical short drama.",
+        "output": "The canvas generates a 3-episode plot plan, including dialogue for each episode, appearance cards for the old man and the protagonist, and text cards for each shot that has been broken down."
+    },
+    "scenarios": [
+        "You have a novel or story on hand and want to break it into a short drama outline where every episode has conflict.",
+        "You've written a short drama script and need to organize the characters' appearance traits and costume settings.",
+        "You're getting ready to hire someone to draw images or make videos and need to break the plot down into individual shot descriptions.",
+        "You've made a last-minute change to the protagonist's injuries or clothing and want to quickly find which shots need to be updated."
+    ],
+    "problems": [
+        {
+            "pain": "When adapting a novel into a short drama, the plot feels too scattered, and you don't know where each episode should stop to leave a cliffhanger.",
+            "solve": "It sorts out the main conflict and ending cliffhanger for each episode, clarifies the transitions between episodes, and generates episode cards."
+        },
+        {
+            "pain": "You change a character's costume or a prop midway, and later shots are often missed, so they don't match.",
+            "solve": "It checks the script against the character settings, automatically flags the affected shot cards, and makes it easy for you to make targeted edits."
+        },
+        {
+            "pain": "You want to use AI to generate visuals but don't know how to turn the storyboard into suitable prompts.",
+            "solve": "For each shot's visuals and actions, it organizes corresponding image and video prompt cards for you to use."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill,” then send your story or novel in the chat box on the right.",
+        "Review the episode script cards generated on the canvas and confirm the episode plots and character settings.",
+        "Refine the shots for each episode and generate the corresponding storyboard descriptions and visual production prompts.",
+        "Check and edit the card content, then copy or download the results directly for later production."
+    ],
+    "faq": [
+        {
+            "q": "How do I use AI to turn a novel into a short drama storyboard?",
+            "a": "Send the novel directly in the chat box on the right side of the canvas, and the AI will organize the plot by episode and generate storyboard cards. The cards clearly state character dialogue and what each shot needs to capture, so you can edit them directly on the canvas. Once you're satisfied, copy or download the text results."
+        },
+        {
+            "q": "If I change a character's costume in the script, how do I update the later shots to match?",
+            "a": "After you adjust a character's costume or condition in the script, the system will flag the affected shot cards, and you only need to edit those cards. Other unaffected shots stay the same, so you don't have to check and rewrite every shot from the beginning."
+        },
+        {
+            "q": "Can it generate a finished short drama video directly?",
+            "a": "No, it can't generate a finished video directly. It mainly helps you organize text-based scripts, storyboards, and visual description prompts on the canvas. If you need to generate video, you can confirm the text content, then use the image or video features on the canvas to continue creating."
+        },
+        {
+            "q": "Will the AI change my original novel content arbitrarily?",
+            "a": "It won't make arbitrary changes. It will try to preserve the original dialogue and key events you provide, and it won't delete or reorder them on its own. If the length needs to be adjusted, it will first list suggested options for you, and you decide whether to make changes."
+        }
+    ],
+    "keywords": [
+        "novel to short drama",
+        "how to write a short drama script",
+        "short drama storyboard",
+        "short drama episode outline",
+        "AI short drama script",
+        "short drama production process"
+    ]
+}

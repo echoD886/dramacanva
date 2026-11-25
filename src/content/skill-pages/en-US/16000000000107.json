@@ -1,0 +1,66 @@
+{
+    "title": "AI Skills: 3 Questions to Choose the Right Video Tool",
+    "metaDescription": "For beginners overwhelmed by many skills. Share your idea or bottleneck, and it recommends suitable creative skills on the canvas with reasons and outputs.",
+    "oneLiner": "Tell it your creative idea, and it picks suitable AI skills for you on the canvas.",
+    "intro": [
+        "This is a guide assistant that helps you choose AI skills. When you face dozens of creative skills and don't know which to use, or only have a vague idea, it can help you sort things out.",
+        "You don't need to understand any technical terms. Just chat with it about what content you want to make (such as short dramas or ads), or whether you're stuck on the script, visuals, or another step.",
+        "It generates a text card on the canvas, recommends suitable skill names, and clearly explains the reasons and what they can produce, so you can find and use them directly in the skill library."
+    ],
+    "example": {
+        "input": "I want to make a short drama, but I only have a rough story idea and don't know which skill to use first to write the script.",
+        "output": "Generates a text card on the canvas recommending the primary skill “Story Structure Engine” to clarify the outline and turning points, with “One-Take Short Drama Pipeline” as an alternative, and clearly states the reasons and output description."
+    },
+    "scenarios": [
+        "You want to make a short drama or promo video, but there are dozens of options in the skill library and you don't know which to choose.",
+        "You only have a vague creative idea and don't know whether to start with the story or the visuals.",
+        "Generated visuals often go wrong or don't match what you want, and you want a skill specifically for fixing visual issues.",
+        "After finishing the script and before making the video, you want a skill to do a full check of the content."
+    ],
+    "problems": [
+        {
+            "pain": "There are too many options in the skill library, and you don't know which one actually fits your production needs.",
+            "solve": "By asking about the type of content you want to make and where you're stuck, it recommends suitable skills and explains the reasons and outputs."
+        },
+        {
+            "pain": "Your idea is too vague, and the answers you get after asking AI are too broad to use.",
+            "solve": "It uses simple questions to clarify your production bottleneck and guides you in choosing the key skill to start with."
+        },
+        {
+            "pain": "You worry AI will change settings on its own or replace content you've already built on the canvas.",
+            "solve": "It only lists text suggestions on the canvas for reference and does not make decisions for you; the choice is always yours."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use This Skill” and tell the assistant your creative idea in the chat box on the right.",
+        "Answer questions about the type of video you want to make and your production bottleneck so the assistant can help clarify your direction.",
+        "View the text card generated on the canvas and read the reasons for the recommended skills and their output descriptions.",
+        "Copy or download the result, and use the suggestions to search for and use the corresponding skills in the skill library."
+    ],
+    "faq": [
+        {
+            "q": "I'm new to making videos and don't know which AI skill to choose. What should I do?",
+            "a": "Tell the assistant in the chat box on the right what kind of video you want to make or where you're stuck, and it will recommend suitable skills on the canvas. If you need a complete workflow, it will recommend a bundled workflow skill; if you only have a specific issue such as dialogue or visuals, it will recommend a targeted lightweight skill. You can read the reasons and output descriptions first, then decide which one to use in the skill library."
+        },
+        {
+            "q": "What should I do if the AI's answer is too broad after I enter a vague idea?",
+            "a": "Tell the assistant directly the specific type of content you want to make and your current bottleneck, and it can quickly narrow the scope and give a precise recommendation. For example, add whether it is a short drama or an ad, and whether you lack a story outline or the generated visuals keep missing the mark. Once you break a big request into specific smaller questions, the skill recommendations will better fit your actual production needs."
+        },
+        {
+            "q": "What skill should I use if the AI-generated visuals are unsatisfactory or keep failing?",
+            "a": "We recommend using the “Storyboard Grammar” or “Visual Tone Design” skill first to standardize descriptions of camera position, shot size, and lighting. You can describe the specific visual issue in the chat box, and the assistant will recommend a visual skill suited to solving it. Adjusting your descriptions based on the generated standard prompts can help keep visuals more consistent and reduce generation errors."
+        },
+        {
+            "q": "Will this skill automatically turn on or change my existing settings?",
+            "a": "No. It only provides suggestions throughout and will not make decisions for you; it will never automatically enable skills or change your existing settings. It only generates a text card on the canvas containing skill names, recommendation reasons, and output descriptions, and you manually decide whether to use it. Your project content and existing canvas settings always remain fully under your control."
+        }
+    ],
+    "keywords": [
+        "how to choose AI skills",
+        "where to start with AI video creation",
+        "AI tools for short dramas",
+        "AI video creation beginner tutorial",
+        "AI video skill recommendations",
+        "AI short drama script writing"
+    ]
+}

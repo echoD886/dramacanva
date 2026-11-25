@@ -1,0 +1,66 @@
+{
+    "title": "Canvas: One sentence to multi-episode scripts & storyboards",
+    "metaDescription": "For multi-episode short dramas. Add a story idea and reference images to generate outlines, scripts, storyboards, and visual prompts on the {brand} canvas.",
+    "oneLiner": "For short drama creators: turn one sentence and reference images into multi-episode scripts and storyboards on a canvas.",
+    "intro": [
+        "This is a creative tool that helps you plan multi-episode short dramas on a canvas. It breaks the story into a continuous series of episodes with ups and downs, leaving an engaging cliffhanger at the end of each episode to keep the plot from getting boring.",
+        "You only need a one-sentence story idea, the number of episodes you want, and reference images of the main characters or scenes. If you want to change a character's appearance or outfit midway, just send a new image at any time to update it.",
+        "When it's done, the canvas will generate an episode outline, a full dialogue script, storyboard tables (tables broken into individual shots), and prompt cards (text used to create visuals)."
+    ],
+    "example": {
+        "input": "“Urban romance drama: an intern accidentally saves a secret billionaire; 5 episodes, 1 minute each,” plus uploaded reference images of the male and female leads and the office.",
+        "output": "The canvas will generate character profile cards, a 5-episode plot outline, a script for each episode with action and dialogue, and storyboard table cards labeled with shot sizes and descriptive prompts."
+    },
+    "scenarios": [
+        "You want to make a multi-episode serialized short drama but don’t know how to plan engaging plot twists for each episode.",
+        "You only have a simple story idea and can’t write a standard storyboard script with camera angles and dialogue.",
+        "When creating a video series, you worry that the lead’s outfit or appearance may change between episodes and cause continuity errors.",
+        "You’ve just written a short drama story but don’t know how to turn it into storyboard prompts for creating visuals."
+    ],
+    "problems": [
+        {
+            "pain": "Serialized short dramas are easy to fizzle out, with later episodes becoming flat and uneventful.",
+            "solve": "Split the whole series into three stages—beginning, conflict, and ending—and plan each episode’s conflicts and cliffhangers to keep the story engaging."
+        },
+        {
+            "pain": "In multi-episode videos, the lead’s outfit and appearance don’t match from scene to scene, causing continuity errors.",
+            "solve": "It records the settings consistently based on your reference images, automatically checks before generating each new episode, and alerts you if it finds a conflict."
+        },
+        {
+            "pain": "You have ideas in your head but don’t know how to break the story into professional shooting storyboards.",
+            "solve": "It automatically breaks the plot into storyboard tables with shot framing, character actions, and dialogue, clearly presented on the canvas."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use This Skill” to open the chat on the right side of the canvas.",
+        "Enter your story idea and number of episodes, and upload reference images of the main characters or scenes.",
+        "Review the story outline, episode scripts, and storyboard tables generated on the canvas.",
+        "Copy or download the generated scripts and prompt cards for later production."
+    ],
+    "faq": [
+        {
+            "q": "When making a multi-episode short drama, how do I keep characters’ appearance and outfits consistent?",
+            "a": "Mainly by uploading reference images in advance for comparison. Before generating each episode, it checks the characters and outfits against the images you provided and alerts you to confirm if it finds a mismatch. If you change a character image midway, later episodes will also be updated to stay in sync as much as possible."
+        },
+        {
+            "q": "How do I expand a one-sentence story idea into a multi-episode short drama script?",
+            "a": "Just send the one-sentence idea and target episode count to the AI assistant. It will first break the story into an outline with ups and downs, then add specific actions and dialogue episode by episode. All generated text cards can be viewed and edited manually on the canvas at any time."
+        },
+        {
+            "q": "Can this skill directly create a finished short drama with voiceover?",
+            "a": "No. It mainly generates scripts, storyboard tables, and visual descriptions; it cannot add voiceover on its own or automatically assemble a finished video. The cards include dialogue and sound effect suggestions for your later production reference. You can copy or download the generated scripts and prompts for later production and editing."
+        },
+        {
+            "q": "If I want to change the lead’s appearance or outfit midway, do I need to rewrite the script from scratch?",
+            "a": "No, you don’t need to rewrite from scratch—just send a new image in the chat. After recognizing the new image, the system updates the character information and automatically checks the settings for later episodes. If it finds a contradiction, it will prompt you to confirm; once confirmed, it will continue generating with the new appearance."
+        }
+    ],
+    "keywords": [
+        "AI short drama writing",
+        "short drama script generator",
+        "short drama storyboard",
+        "one-sentence short drama",
+        "multi-episode short drama outline",
+        "short drama visual prompts"
+    ]
+}

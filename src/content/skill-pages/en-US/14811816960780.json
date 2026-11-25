@@ -1,0 +1,66 @@
+{
+    "title": "One jewelry photo into product images, copy, and demo videos",
+    "metaDescription": "For jewelry sellers: use one photo or description to generate white-background hero images, macro details, on-model shots, copy, and videos on {brand}.",
+    "oneLiner": "Helps jewelry sellers turn one image into a full set of ecommerce hero images, copy, and demo videos.",
+    "intro": [
+        "This is an ecommerce asset workflow built for jewelry such as rings and necklaces. Based on your jewelry design, it creates a full set of product images, listing copy, and motion demo videos on the canvas.",
+        "You only need one real photo of the jewelry, or a few sentences describing its material, gemstone color, and appearance. If you don't have a product photo, you can also type out the design details.",
+        "When it's done, the canvas will show pure white-background hero images, macro detail shots, on-model shots, selling-point copy in Chinese and English, and several demo videos. Each card can be adjusted or downloaded separately."
+    ],
+    "example": {
+        "input": "Upload a photo of an 18K gold emerald ring and write: Create a set of product images, English selling-point copy, and a 10-second demo video for an Amazon listing.",
+        "output": "The canvas generates pure white-background hero images, macro gemstone shots, hand-on-model shots, gift-box packaging images, English titles and selling points, and a 10-second video clip showing the ring's shine."
+    },
+    "scenarios": [
+        "Launching a new ring or necklace on an ecommerce platform and needing a full set of white-background images, on-model images, and product copy.",
+        "You only have one smartphone photo of the jewelry and want to quickly create realistic on-model and lifestyle images.",
+        "The store is running a holiday gift campaign and needs premium gift-box packaging images and short motion demo videos for promotion.",
+        "Launching several new jewelry products at once and needing to quickly compare each product's images and video results on the canvas."
+    ],
+    "problems": [
+        {
+            "pain": "Jewelry is prone to reflections and color shifts, and hiring a professional photographer for white-background and detail shots is too expensive.",
+            "solve": "It can identify jewelry materials and gemstone features and generate pure white-background hero images and high-resolution macro detail shots directly on the canvas."
+        },
+        {
+            "pain": "When using software to generate on-model images, the gemstone design on rings or necklaces often gets distorted.",
+            "solve": "During generation, it fixes and locks gemstone and metal details, repeatedly aligns design features, and minimizes visual drift as much as possible."
+        },
+        {
+            "pain": "There are too many listing assets, so creating images, writing selling-point copy, and making videos require switching back and forth between multiple tools.",
+            "solve": "Create hero images, on-model images, copy, and demo videos all at once on the same canvas, making it easy to review and edit in one place."
+        }
+    ],
+    "steps": [
+        "In the skill library, click 'Use this skill,' then upload a jewelry photo or describe the appearance and design in the chat box.",
+        "Confirm the jewelry material and platform specs, then start generating the full set of asset cards on the canvas.",
+        "Review the generated white-background images, macro shots, on-model images, copy, and short video cards.",
+        "Download the images and copy you're happy with. Video clips can be arranged in order on the video timeline and then exported."
+    ],
+    "faq": [
+        {
+            "q": "How do I use AI to create a full set of jewelry ecommerce images and copy?",
+            "a": "Open this skill on the {brand} canvas, upload a jewelry photo or describe the appearance, and it will generate a full set of white-background hero images, macro shots, on-model images, and copy. After generation, you can review each one; tell the assistant what to adjust if you're not satisfied, and download the assets you like."
+        },
+        {
+            "q": "How can I keep the gemstone design from getting distorted when AI generates jewelry images?",
+            "a": "The system can't guarantee zero distortion, but it locks the jewelry material, gemstone cut, and structure before generation to keep appearance features as consistent as possible. If the gemstone details in a particular shot are off, tell the assistant in the chat what to change and regenerate that card."
+        },
+        {
+            "q": "Can I generate ecommerce images directly if I only have a design idea and no actual jewelry photo?",
+            "a": "Yes, you can generate directly. Describe the jewelry type, metal material, and gemstone appearance in the chat box, and the system will first generate a basic design image for you to confirm. Once you confirm the appearance meets expectations, the platform will then generate the full set of white-background hero images, on-model scene images, and product copy."
+        },
+        {
+            "q": "Will the generated jewelry demo short videos be automatically voiced and edited into a final video?",
+            "a": "No, it won't automatically add voiceover or directly combine them into a final video. {brand} generates multiple separate motion demo video clips on the canvas. You can drag these clips into the canvas video timeline, arrange them in order, and then export. If you need background music, you can add it with a video editing tool after exporting."
+        }
+    ],
+    "keywords": [
+        "jewelry ecommerce image generator",
+        "jewelry white background product images",
+        "AI jewelry on-model images",
+        "jewelry product photography",
+        "jewelry listing copy generator",
+        "jewelry demo videos"
+    ]
+}

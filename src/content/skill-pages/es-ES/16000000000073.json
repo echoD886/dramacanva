@@ -1,0 +1,66 @@
+{
+    "title": "Diseño de personajes: personalidad y relaciones | {brand}",
+    "metaDescription": "Creadores de series cortas, novelas o vídeos: describe tu personaje y la IA creará en el lienzo de {brand} tarjetas de personalidad, habla y relaciones.",
+    "oneLiner": "Introduce tu idea de personaje y organiza en el lienzo tarjetas de texto sobre personajes para quienes escriben historias.",
+    "intro": [
+        "Esta es una herramienta de creación que te ayuda a diseñar personajes de historia. Mucha gente, al escribir, crea personajes planos y hace que todos hablen igual; esta herramienta te ayuda a ordenar la personalidad de los personajes y a que cobren vida.",
+        "Solo necesitas preparar una idea inicial del personaje. Por ejemplo, qué tipo de persona es, qué le ha pasado, o también puedes usar tu esquema actual de la historia o borradores de personajes que no te convencen.",
+        "Cuando termines, la IA generará en el lienzo de {brand} tarjetas de texto con una ficha detallada del personaje, su red de relaciones y sus puntos de cambio psicológico. Puedes leerlas, modificarlas o copiarlas directamente."
+    ],
+    "example": {
+        "input": "Quiero escribir sobre un joven cocinero cobarde pero que quiere proteger a su hermana; el villano es un gerente de restaurante esnob. Ayúdame a darles más profundidad a sus personajes.",
+        "output": "En el lienzo se generan tarjetas de texto del protagonista y del antagonista: se detallan los deseos y puntos débiles internos del cocinero, su forma de hablar propia y el proceso de cambio mental, de la resignación a la rebeldía, cuando se enfrenta a las provocaciones del gerente."
+    },
+    "scenarios": [
+        "Al escribir el comienzo de una historia, la personalidad del protagonista es demasiado vaga y no sabes por qué se empeña en hacer eso.",
+        "Los personajes secundarios parecen de paso; si los eliminas, la trama no cambia, y no sabes cómo hacer que sean más importantes.",
+        "Después de escribir varios diálogos, descubres que todos hablan con el mismo tono; si tapas los nombres, no sabes quién es quién.",
+        "El protagonista de repente comprende algo y mejora, pero el cambio parece poco realista; no sabes cómo plantear una transición coherente."
+    ],
+    "problems": [
+        {
+            "pain": "El personaje parece de cartón: solo tiene profesión y aspecto, le falta alma.",
+            "solve": "Se aclara qué desea de verdad y qué teme, y se generan en el lienzo tarjetas de ficha del personaje que explican su motivación y sus conflictos."
+        },
+        {
+            "pain": "Todos los personajes hablan con un tono parecido y no se distinguen.",
+            "solve": "A partir de la experiencia de cada personaje, se ordenan su forma de hablar y sus hábitos de vocabulario, y se indican claramente en las tarjetas las características de sus diálogos."
+        },
+        {
+            "pain": "El paso del protagonista de la inmadurez a la madurez es demasiado brusco y poco convincente.",
+            "solve": "Se diseñan dilemas y puntos clave de tropiezo, y se muestra en el lienzo el proceso psicológico del personaje mientras cambia paso a paso."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el cuadro de diálogo del lienzo de {brand}.",
+        "Introduce tu idea de personaje, el esquema de la historia o el problema de personaje que quieres resolver.",
+        "Consulta las tarjetas de ficha de personaje, red de relaciones y cambios psicológicos que la IA genera en el lienzo.",
+        "Modifica el contenido de las tarjetas en el lienzo y, cuando estés satisfecho, copia o descarga el resultado."
+    ],
+    "faq": [
+        {
+            "q": "Al escribir una novela o un guion, ¿cómo hacer que los personajes sean más tridimensionales?",
+            "a": "La clave es descubrir qué quiere de verdad el personaje y qué precio está dispuesto a pagar por ello. Esta habilidad te ayuda a ordenar sus motivaciones y conflictos internos, y a organizarlos en el lienzo en tarjetas claras de ficha de personaje."
+        },
+        {
+            "q": "¿Cómo evitar que todos los personajes hablen con el mismo tono?",
+            "a": "Hay que dar a cada personaje hábitos de lenguaje acordes con su identidad y su carácter. La IA ordenará, según la experiencia del personaje, un estilo de habla propio y te ayudará a distinguir los rasgos de los diálogos de cada uno."
+        },
+        {
+            "q": "¿Qué hago si los secundarios siempre parecen personajes de relleno prescindibles?",
+            "a": "Haz que los secundarios tengan sus propios objetivos y que choquen o se equilibren con los del protagonista. Esta habilidad ordena en el lienzo la red de relaciones entre personajes para que dejen de ser un simple acompañamiento y contribuyan de verdad al avance de la historia."
+        },
+        {
+            "q": "¿Sirve la evolución del personaje si escribo historias de forma amateur?",
+            "a": "Sí. La evolución del personaje es el proceso de crecimiento psicológico tras sufrir contratiempos. La habilidad te ayuda a enumerar los puntos clave del cambio del personaje para que su crecimiento resulte más natural y no parezca que de repente lo entiende todo."
+        }
+    ],
+    "keywords": [
+        "diseño de personajes",
+        "cómo crear un personaje",
+        "personalidad de personajes guion",
+        "mapa de relaciones entre personajes",
+        "evolución psicológica del personaje",
+        "ficha de personaje novela"
+    ]
+}

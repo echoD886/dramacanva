@@ -1,0 +1,66 @@
+{
+    "title": "Idea to Short Drama Outline, Opening & Character Sheet",
+    "metaDescription": "Short drama creators: send a one-line idea on the {brand} canvas for episode outlines, first 30 seconds of dialogue and visuals & detailed character cards.",
+    "oneLiner": "Turn a one-line story idea into a short drama episode outline, opening dialogue, and character sheet.",
+    "intro": [
+        "This is a writing skill in {brand} for short drama creators. Send a one-line story idea to the assistant, and it will lay out episode outlines, first-30-second opening dialogue, and character sheet cards on the canvas.",
+        "You only need a story idea, a rough sense of who the protagonist is, or an ordinary life experience you have on hand. If you have episode count or per-episode runtime requirements, you can send those too.",
+        "When it's done, tidy text and table cards will appear on the canvas, including a story outline for each episode, the first attention-grabbing line and visual of the first 30 seconds, and a character sheet with distinct personalities."
+    ],
+    "example": {
+        "input": "I want to write an urban short drama: an honest auto mechanic accidentally discovers that the luxury car owner who often comes to his shop is actually his long-lost younger brother. I plan to shoot 20 episodes, 2 minutes each.",
+        "output": "The canvas generates an episode table and text cards: including the shot and dialogue in the first 30 seconds where the protagonist wipes the car and finds the keepsake, character setups for the mechanic and his brother, a 20-episode plot synopsis, and suggested paywall pause points."
+    },
+    "scenarios": [
+        "You have a great story idea in your head but don't know how to break it into outlines for one- to two-minute episodes.",
+        "Your script opening always wants to explain the background, and you don't know how to make the first shot and line of the first 30 seconds grab attention.",
+        "Your characters lack distinct personalities, their lines sound like they come from the same person, and they have no memorable traits.",
+        "You don't know at which suspense point to stop the story so viewers will pay to watch the next episode."
+    ],
+    "problems": [
+        {
+            "pain": "Openings often spend time explaining the background, and viewers lose patience and swipe away after a few seconds.",
+            "solve": "Give the first shot and first line of dialogue for the first 30 seconds upfront, putting the conflict in front of viewers to hook them."
+        },
+        {
+            "pain": "Characters have vague, flat personalities, their dialogue is formulaic, and viewers can't remember who's who.",
+            "solve": "Give each character a distinctive nickname, signature gesture, and representative line, using small everyday details to bring them to life."
+        },
+        {
+            "pain": "You don't know where to end each episode, and the endings are as bland as plain water and don't hold viewers.",
+            "solve": "Put the pause point at the peak of emotion, right when the answer is about to be revealed, so viewers can't help but keep watching."
+        }
+    ],
+    "steps": [
+        "In the skill library, click 'Use this skill' to open the chat box on the right side of the canvas.",
+        "Send your story idea, planned episode count, or any material you already have.",
+        "Review the episode outline table, opening dialogue, and character cards generated on the canvas.",
+        "Adjust any text details you're not happy with, then copy or download the results directly."
+    ],
+    "faq": [
+        {
+            "q": "How do I write a short drama opening that grabs attention in the first few seconds?",
+            "a": "Reveal the conflict and crisis right away instead of slowly explaining the background. The assistant will design the first shot and first line of dialogue for the first 30 seconds, so the character enters with a crisis from the start. Save the background reasons to reveal gradually in later episodes."
+        },
+        {
+            "q": "Where should each short drama episode stop to make viewers most likely to watch the next one?",
+            "a": "Stop right when the suspense reaches its peak and the answer is about to be revealed. For example, end suddenly at the moment a secret is discovered; don't wait for the emotion to settle before cutting. This creates a strong urge to find out what happens and makes viewers keep watching."
+        },
+        {
+            "q": "How do I write short drama characters with distinct personalities and memorable traits?",
+            "a": "The most practical approach is to give each character a nickname, a signature gesture, and a line they often say. For example, use a specific everyday habit instead of long abstract personality descriptions. When a character speaks or moves, viewers can more easily remember who they are."
+        },
+        {
+            "q": "I only have an ordinary life experience on hand. Can I turn it into a short drama?",
+            "a": "Yes. The assistant can help you extract a story idea with conflict from it. It will identify the emotional gap in the small everyday event and design it into a plot with a twist. You just provide the real details, and it will expand them into an episode framework."
+        }
+    ],
+    "keywords": [
+        "how to write a short drama script",
+        "short drama episode outline",
+        "how to write a short drama opening",
+        "short drama character setup",
+        "short drama story ideas",
+        "short drama outline template"
+    ]
+}

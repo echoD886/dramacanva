@@ -1,0 +1,66 @@
+{
+    "title": "Piadas e diálogos para vídeos curtos com crosstalk",
+    "metaDescription": "Para vídeos curtos de humor ou reclamações: digite uma situação ou personagem; a IA monta a preparação e a reviravolta e gera cards de diálogo com piadas.",
+    "oneLiner": "Digite uma situação cotidiana ou uma reclamação e deixe a IA gerar, no canvas, cards de diálogos bem-humorados para criadores de vídeos curtos.",
+    "intro": [
+        "Digite a situação do dia a dia sobre a qual você quer reclamar; a IA usa técnicas de preparação e reviravolta do crosstalk para gerar, no canvas, cards de diálogo com piadas para criadores de vídeos curtos, transformando histórias comuns em esquetes divertidas.",
+        "Você não precisa entender de crosstalk. Basta escrever, na caixa de diálogo à direita do canvas, o que quer criticar, uma experiência engraçada sua ou as características de um personagem e enviar diretamente ao assistente de IA.",
+        "Ao terminar, você recebe um conjunto de cards de texto no canvas. Eles incluem o ritmo organizado da piada, os diálogos dos personagens e um final com reviravolta inesperada; você pode copiar e usar diretamente ou editar como quiser."
+    ],
+    "example": {
+        "input": "Sou desastrado com as mãos e quero gravar um vídeo engraçado sobre meu fracasso aprendendo confeitaria; escreva um diálogo em estilo autodepreciativo para mim.",
+        "output": "Gera cards de texto no canvas com as três primeiras frases se vangloriando com toda a seriedade, uma última fala de reviravolta com o bolo queimado e marcações de onde estão as piadas."
+    },
+    "scenarios": [
+        "Ter medo de ninguém assistir ao início do vídeo curto e querer usar uma verdade fora do comum para despertar a curiosidade do público.",
+        "Gravar reclamações do cotidiano, mas evitar que vire uma lista monótona, e querer uma reviravolta na última frase.",
+        "Ao escrever um texto de recomendação de produto, não querer elogiar de forma forçada e preferir usar a autodepreciação para apresentar o produto naturalmente.",
+        "Ao criar uma esquete cômica, querer desenhar várias camadas de preparação que progridem e soltar a piada no final."
+    ],
+    "problems": [
+        {
+            "pain": "Você acha uma piada engraçada, mas quando publica, ninguém ri depois de assistir.",
+            "solve": "Ajuda a verificar se a preparação antes da piada é suficiente e coloca o arremate (ponto de humor) no lugar certo do fechamento."
+        },
+        {
+            "pain": "A primeira frase do vídeo curto é sem graça, e o público passa o dedo depois de um ou dois segundos.",
+            "solve": "Cria para você uma frase de abertura com uma verdade fora do comum ou uma autodepreciação séria, capaz de atrair sem precisar gritar."
+        },
+        {
+            "pain": "As reclamações ou o texto falado ficam formais demais, soam secos e artificiais, sem jeito de conversa do dia a dia.",
+            "solve": "Troca por uma fala solta e coloquial, como uma conversa de vizinhos, acrescenta detalhes da vida real e fecha com uma frase de humor no final."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para entrar no canvas de criação.",
+        "Digite o tema engraçado que quer gravar, as características dos personagens ou uma situação cotidiana.",
+        "Veja no canvas os cards com o ritmo da piada, os diálogos de preparação e os pontos de humor gerados.",
+        "Copie ou baixe o resultado; se algum card não agradar, diga ao assistente como deseja alterá-lo."
+    ],
+    "faq": [
+        {
+            "q": "Por que uma piada que eu acho engraçada não faz os outros rirem?",
+            "a": "Na maioria das vezes, é porque a preparação anterior não é suficiente ou a piada é revelada cedo demais. No crosstalk, costuma-se falar em “três quebras e um arremate” (quebrar a expectativa em três preparações seguidas e soltar a piada na quarta); sem esse contraste psicológico, fica difícil fazer o público rir. No {brand}, a IA ajuda a organizar as camadas de preparação e deixa o ponto de humor no lugar certo."
+        },
+        {
+            "q": "Como usar técnicas de crosstalk para escrever a abertura de um vídeo curto?",
+            "a": "Você pode dizer uma verdade fora do comum com uma atitude séria, quebrando rapidamente a expectativa do público. Por exemplo, admitir pequenos defeitos seus com autodepreciação atrai a curiosidade sem precisar gritar. Basta digitar seu perfil de personagem no canvas do {brand} e a IA ajuda a criar esse tipo de diálogo de abertura fora do padrão."
+        },
+        {
+            "q": "O que fazer se as falas do vídeo de humor soarem falsas, como se fossem escritas por uma máquina?",
+            "a": "Troque os grandes discursos formais por uma fala solta e coloquial, como uma conversa de vizinhos. Acrescente detalhes concretos da vida, como fazer compras, cozinhar ou trabalhar até mais tarde, e encerre com uma reviravolta bem-humorada. No canvas, envie o texto atual à IA e peça para reorganizá-lo em linguagem coloquial do dia a dia."
+        },
+        {
+            "q": "Você pode editar o vídeo final ou fazer uma dublagem separada para mim?",
+            "a": "Não. Ele serve principalmente para gerar roteiros de esquetes e cards de texto com diálogos. A IA não edita vídeos finais automaticamente, não faz dublagem separada, não pesquisa na internet nem publica em plataformas. Você pode copiar as falas dos cards do canvas e usá-las como roteiro de gravação ou texto para narração."
+        }
+    ],
+    "keywords": [
+        "como escrever roteiro de vídeo curto de humor",
+        "textos de piadas engraçadas",
+        "como fazer abertura engraçada para vídeo curto",
+        "criação de diálogos para esquetes",
+        "piadas autodepreciativas",
+        "textos de reclamação engraçados para vídeo curto"
+    ]
+}

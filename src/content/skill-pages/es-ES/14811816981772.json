@@ -1,0 +1,66 @@
+{
+    "title": "Sube una imagen y crea un storyboard y vídeos en el lienzo",
+    "metaDescription": "Para principiantes que quieren hacer un corto con una foto. Sube una imagen: la IA organiza los planos y crea en el lienzo un guion gráfico y varios clips.",
+    "oneLiner": "Dale una imagen y generará en el lienzo un guion gráfico y vídeos por segmentos; ideal para principiantes en cortometrajes.",
+    "intro": [
+        "Este es un flujo de creación que te ayuda a convertir una imagen fija en un vídeo continuo. Analiza el color y la iluminación de la imagen, y planifica varios planos consecutivos para intentar evitar que el estilo visual cambie de un plano a otro.",
+        "Solo tienes que preparar una imagen nítida, como una foto de producto, un paisaje o un póster de una persona. Envíala a la IA desde el panel derecho y elige el tipo y el estilo de vídeo que quieras siguiendo las indicaciones.",
+        "Cuando termine, en el lienzo aparecerán un guion gráfico y varios clips de vídeo de 15 segundos. Puedes modificar un plano concreto y volver a generarlo, o ordenar los clips en la línea de tiempo de vídeo y exportar el montaje final."
+    ],
+    "example": {
+        "input": "Sube una foto de bodegón de una taza de café de cerámica y dile a la IA que quieres hacer un anuncio de producto de 15 segundos con un estilo de luz matinal cálida.",
+        "output": "En el lienzo se genera una tarjeta de guion gráfico con 8 planos y las tarjetas correspondientes de clips de vídeo de 15 segundos, que mantienen la textura cerámica y la luz suave de la imagen original."
+    },
+    "scenarios": [
+        "Solo tienes una foto real de un producto y quieres crear un vídeo corto de comercio electrónico con varios ángulos.",
+        "Has dibujado la ilustración de un personaje o un juguete y quieres hacerle un tráiler dinámico.",
+        "Has hecho con el móvil una foto bonita de un paisaje y quieres ampliarla a un corto de paisajes con ambiente emocional.",
+        "Tienes un póster conceptual con estética cinematográfica y necesitas planificar cómo grabar los planos y generar una muestra."
+    ],
+    "problems": [
+        {
+            "pain": "Solo tienes una imagen estática y no sabes cómo plantear los cambios de plano ni el contenido visual.",
+            "solve": "La IA analiza las características de la imagen original y enumera en el lienzo una lista de cómo grabar cada plano para que confirmes el planteamiento."
+        },
+        {
+            "pain": "Los planos del vídeo resultante tienen estilos distintos y el conjunto parece hecho de piezas sueltas.",
+            "solve": "Diseña los nuevos planos tomando como referencia los materiales, los colores principales y la iluminación de la imagen original para intentar mantener un estilo visual coherente."
+        },
+        {
+            "pain": "Un plano generado no te convence y temes tener que rehacerlo todo desde cero.",
+            "solve": "Tanto el guion gráfico como los vídeos son tarjetas independientes en el lienzo, así que puedes modificar el texto de un segmento concreto y volver a generarlo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, haz clic en «Usar esta habilidad» y sube la imagen de referencia en el cuadro de diálogo del lado derecho del lienzo.",
+        "Elige el tipo y el estilo de vídeo para que la IA organice en el lienzo las tarjetas del guion gráfico.",
+        "Revisa el contenido del guion gráfico y, cuando te convenza, pide a la IA que genere las tarjetas de vídeo de 15 segundos correspondientes.",
+        "Revisa los clips, ordénalos en la línea de tiempo de vídeo y exporta el montaje final."
+    ],
+    "faq": [
+        {
+            "q": "¿Puedo generar un vídeo sin subir ninguna imagen?",
+            "a": "No, esta habilidad requiere subir al menos una imagen. La IA usará la iluminación, los colores y el sujeto de esa imagen como base de referencia; sin imagen no puede empezar a crear el guion gráfico ni el vídeo."
+        },
+        {
+            "q": "¿La IA puede doblar la voz o montar automáticamente el vídeo final?",
+            "a": "No, la IA no puede doblar la voz por sí sola ni combinar automáticamente el montaje final. Generará varios clips de vídeo independientes en el lienzo; tú podrás ordenarlos en la línea de tiempo de vídeo del lienzo y exportarlos."
+        },
+        {
+            "q": "Si un plano generado no me convence, ¿tengo que rehacerlo todo?",
+            "a": "No, puedes volver a generar solo ese plano. Cada guion y cada clip de vídeo del lienzo son tarjetas independientes. Solo tienes que modificar la descripción de texto de ese plano y volver a generarlo, sin rehacerlo todo."
+        },
+        {
+            "q": "¿Por qué el vídeo resultante son varios clips cortos separados?",
+            "a": "Porque esta habilidad planifica y genera por planos, lo que facilita revisarlos y modificarlos por separado. Cada tarjeta de guion gráfico genera un clip de vídeo de 15 segundos, lo que ayuda a evitar que el estilo visual se desvirtúe. Cuando estén todos los clips, podrás ordenarlos en la línea de tiempo de vídeo del lienzo y exportarlos juntos."
+        }
+    ],
+    "keywords": [
+        "imagen a vídeo",
+        "generar vídeo desde una imagen",
+        "vídeo promocional con imagen de referencia",
+        "storyboard con IA",
+        "vídeo de producto con IA",
+        "cómo hacer un storyboard"
+    ]
+}

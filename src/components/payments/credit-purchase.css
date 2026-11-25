@@ -1,0 +1,70 @@
+.sa-credit-purchase { --sa-credit-surface: var(--card); --sa-credit-text: var(--foreground); --sa-credit-muted: var(--muted-foreground); --sa-credit-border: var(--border); color: var(--sa-credit-text); width: 100%; margin: 24px 0 40px; }
+.libtv-pricing-page .sa-credit-purchase { --sa-credit-surface: var(--libtv-panel); --sa-credit-text: var(--libtv-paper); --sa-credit-muted: var(--libtv-muted); --sa-credit-border: var(--libtv-line); }
+.sa-credit-purchase h2 { font-size: 24px; margin: 0 0 8px; }
+.sa-credit-purchase h3 { font-size: 18px; margin: 0 0 12px; }
+.sa-credit-purchase p, .sa-credit-purchase small { color: var(--sa-credit-muted); line-height: 1.6; overflow-wrap: anywhere; }
+.sa-credit-pack-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 16px; margin: 24px 0; }
+.sa-credit-pack, .sa-credit-custom { min-width: 0; padding: 24px; border: 1px solid var(--sa-credit-border); border-radius: 16px; background: var(--sa-credit-surface); }
+.sa-credit-pack { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+.sa-credit-pack p { margin: 0; }
+.sa-credit-price { font-size: clamp(24px,2.3vw,36px); line-height: 1.25; }
+.sa-credit-pack s { color: var(--sa-credit-muted); }
+.sa-credit-buy { margin-top: auto; width: 100%; min-height: 42px; padding: 10px 18px; border: 0; border-radius: 10px; background: var(--sa-credit-text); color: var(--sa-credit-surface) !important; cursor: pointer; font-weight: 650; }
+.sa-credit-buy:disabled { opacity: .5; cursor: not-allowed; }
+.sa-credit-custom { display: grid; grid-template-columns: minmax(0,1.1fr) minmax(0,1fr); gap: 36px; }
+.sa-credit-quantity { display: grid; gap: 10px; margin: 16px 0 10px; }
+.sa-credit-quantity input { width: 100%; min-width: 0; min-height: 48px; padding: 8px 12px; border: 1px solid var(--sa-credit-border); border-radius: 10px; color: var(--sa-credit-text); background: var(--sa-credit-surface); font-size: 22px; }
+.sa-credit-presets { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.sa-credit-presets button { border: 1px solid var(--sa-credit-border); border-radius: 999px; padding: 8px 14px; background: transparent; color: inherit; cursor: pointer; }
+.sa-credit-presets button[aria-pressed="true"] { background: var(--sa-credit-text); color: var(--sa-credit-surface); }
+.sa-credit-custom-total dl { display: grid; gap: 16px; margin: 0 0 24px; }
+.sa-credit-custom-total dl > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+.sa-credit-custom-total dt { color: var(--sa-credit-muted); }
+.sa-credit-custom-total dd { margin: 0; font-weight: 650; }
+.sa-credit-payable { padding-top: 16px; border-top: 1px solid var(--sa-credit-border); font-size: 22px; }
+.sa-credit-tiers { display: grid; gap: 4px; }
+.sa-credit-preview-note { padding: 10px 12px; border: 1px dashed var(--sa-credit-border); border-radius: 10px; }
+.sa-credit-purchase :focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+@media (max-width: 760px) { .sa-credit-pack-grid, .sa-credit-custom { grid-template-columns: minmax(0,1fr); } .sa-credit-custom { gap: 22px; } .sa-credit-pack, .sa-credit-custom { padding: 20px; } }
+
+.sa-credit-slider { display: block; width: 100%; min-height: 34px; margin: 12px 0 4px; accent-color: var(--sa-credit-text); cursor: pointer; }
+.sa-credit-next-tier { font-size: 12px; }
+.sa-offer-summary dl { display: grid; gap: 14px; margin: 20px 0; }
+.sa-offer-summary dl > div { display: flex; justify-content: space-between; gap: 14px; }
+.sa-offer-summary dd { margin: 0; font-size: 19px; font-weight: 650; }
+.sa-offer-summary p { line-height: 1.7; }
+.sa-summary-checkout { width: 100%; min-height: 44px; border-radius: 12px; border: 1px solid var(--border); background: var(--foreground); color: var(--background); padding: 10px 16px; font-weight: 600; cursor: pointer; }
+.sa-summary-checkout:disabled { opacity: .5; cursor: not-allowed; }
+
+.sa-credit-heading p { max-width: 76ch; }
+.sa-credit-purchase .sa-credit-pack { gap: 12px; }
+.sa-credit-purchase .sa-credit-pack.is-featured { border-color: var(--sa-credit-text); }
+.sa-credit-pack-badge { display: inline-flex; min-height: 28px; align-items: center; font-size: 11px; color: var(--sa-credit-muted); }
+.sa-credit-pack.is-featured .sa-credit-pack-badge { padding: 4px 10px; border-radius: 6px; background: var(--sa-credit-text); color: var(--sa-credit-surface); }
+.sa-credit-pack-price-row { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.sa-credit-discount { display: grid; gap: 6px; padding-bottom: 12px; border-bottom: 1px solid var(--sa-credit-border); width: 100%; }
+.sa-credit-discount > span { font-size: 12px; font-weight: 600; }
+.sa-credit-discount small { font-size: 10px; }
+.sa-credit-purchase .sa-credit-pack-quantity { color: var(--sa-credit-text); }
+.sa-credit-output-estimate { display: grid; gap: 6px; margin: 12px 0 20px; padding-top: 14px; border-top: 1px solid var(--sa-credit-border); font-size: 12px; width: 100%; }
+.sa-credit-output-estimate > span { color: var(--sa-credit-muted); }
+.sa-credit-output-estimate small { font-size: 10px; }
+.sa-credit-purchase .sa-credit-custom { background: var(--sa-credit-surface); border-radius: 18px; }
+.sa-credit-custom-total { padding: 24px; background: color-mix(in srgb, var(--sa-credit-text) 4%, transparent); border: 1px solid var(--sa-credit-border); border-radius: 12px; min-width: 0; }
+.sa-credit-custom-total h3 { font-size: 16px; margin-bottom: 18px; }
+.sa-credit-custom-total dt { max-width: 66%; font-size: 12px; }
+.sa-credit-receipt-quantity { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 24px; }
+.sa-credit-receipt-quantity strong { color: var(--sa-credit-text); font-size: 24px; }
+.sa-credit-purchase .sa-credit-presets button { border: 1px solid var(--sa-credit-border); }
+.sa-credit-output-controls { font-size: 12px; margin: 18px 0; }
+.sa-credit-output-controls summary { cursor: pointer; padding: 12px 0; color: var(--sa-credit-text); }
+.sa-credit-output-controls .sa-value-controls { margin: 8px 0; }
+.sa-credit-output-controls > p { font-size: 11px; }
+.sa-credit-purchase s, .sa-offer-summary s { color: #71717a; text-decoration: line-through; text-decoration-thickness: 1px; text-decoration-color: currentColor; background: none; }
+@media (max-width: 760px) { .sa-credit-custom-total { padding: 18px; } .sa-credit-purchase .sa-credit-pack-grid { gap: 20px; } }
+
+/* Shared wallet usage must not depend on loading the separate pricing route CSS. */
+.sa-credit-output-controls .sa-value-controls { display: grid; gap: 12px; padding: 16px; border: 1px solid var(--sa-credit-border); border-radius: 12px; }
+.sa-credit-output-controls .sa-value-selectors { display: flex; flex-wrap: wrap; gap: 12px; }
+.sa-credit-output-controls .sa-value-selectors label { display: grid; gap: 6px; flex: 1 1 140px; min-width: 0; }
+.sa-credit-output-controls .sa-value-selectors select { min-width: 0; max-width: 100%; padding: 9px 12px; border: 1px solid var(--sa-credit-border); border-radius: 8px; background: var(--sa-credit-surface); color: var(--sa-credit-text); }

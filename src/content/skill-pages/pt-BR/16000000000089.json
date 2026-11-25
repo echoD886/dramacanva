@@ -1,0 +1,66 @@
+{
+    "title": "Escolha o estilo e organize prompts de imagem com IA",
+    "metaDescription": "Para quem erra no estilo com IA e não sabe escrever requisitos. No chat, diga a ideia; o canvas {brand} sugere estilos e organiza requisitos com alertas.",
+    "oneLiner": "Dê sua ideia; o canvas organiza estilo e cards de requisitos, ideal para quem erra sempre nas imagens de IA.",
+    "intro": [
+        "Esta é uma ferramenta de apoio para organizar seus requisitos de desenho. Muitas pessoas erram ao usar IA para gerar imagens porque os pedidos enviados à IA são simples demais e deixam de fora detalhes de layout, estilo ou composição.",
+        "Você não precisa entender termos complexos. Basta, no lado direito do canvas {brand}, dizer com suas próprias palavras qual tema quer desenhar e onde a imagem será usada; também pode anexar imagens de referência.",
+        "Ao terminar, o canvas mostra estilos recomendados e cards de prompt (requisitos de desenho para a IA) divididos em seis blocos, como assunto principal, composição e estilo visual, além de uma lista de verificação para evitar textos embaralhados."
+    ],
+    "example": {
+        "input": "Quero criar um infográfico educativo sobre café em 16:9, com grãos de café à esquerda e etapas de preparo à direita; a imagem deve ser limpa e profissional.",
+        "output": "O canvas gera de dois a três estilos recomendados, cards de requisitos em seis blocos já organizados (com orientações de espaço em branco e de proteção contra sobreposição de texto) e uma lista de verificação para detectar sobreposição de texto e layout apertado."
+    },
+    "scenarios": [
+        "Quando você usa um estilo e as imagens sempre saem diferentes do esperado, e precisa complementar requisitos detalhados de composição e iluminação.",
+        "Quando quer desenhar vários objetos diferentes em uma mesma imagem e teme que cores e características se misturem.",
+        "Ao criar pôsteres educativos ou gráficos, quando teme texto ilegível ou conteúdo amontoado.",
+        "Quando você só tem uma ideia vaga de imagem e não sabe qual estilo visual escolher."
+    ],
+    "problems": [
+        {
+            "pain": "Ao escrever seus próprios requisitos, é fácil esquecer pontos importantes, e a IA acaba criando uma imagem que não corresponde ao que você queria.",
+            "solve": "Divide os requisitos em seis blocos — assunto principal, composição, estilo, texto, proporção e restrições — e completa os detalhes essenciais de uma vez."
+        },
+        {
+            "pain": "Ao criar pôsteres educativos ou gráficos, o texto gerado costuma ficar sobreposto ou ilegível, e o layout fica apertado demais.",
+            "solve": "Inclui nos cards orientações de espaço reservado e de desvio de texto, além de uma lista de verificação específica para evitar falhas comuns."
+        },
+        {
+            "pain": "Ao querer desenhar vários objetos diferentes em uma imagem, as cores podem se misturar ou tudo pode virar uma confusão.",
+            "solve": "Ajuda a definir um único estilo principal e descreve posição e características de cada objeto separadamente, reduzindo a interferência entre elementos."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie sua ideia de desenho na caixa de diálogo à direita.",
+        "Veja as duas ou três opções de estilo recomendadas no canvas e escolha a mais adequada.",
+        "Confira os cards de requisitos em seis blocos gerados no canvas e ajuste os textos de detalhe conforme necessário.",
+        "Confirme se os requisitos organizados e a lista de verificação estão corretos; quando estiver satisfeito, copie ou baixe o resultado."
+    ],
+    "faq": [
+        {
+            "q": "Não sei que estilo escolher para a imagem. O que fazer?",
+            "a": "Descreva no chat a finalidade e a ideia da imagem para que ele recomende primeiro dois ou três estilos próximos. Você não precisa definir todos os detalhes visuais desde o início: compare no canvas as cores e a composição geral e escolha a que mais gostar."
+        },
+        {
+            "q": "As imagens geradas por IA sempre saem diferentes do esperado e erram com facilidade. O que fazer?",
+            "a": "Use esta habilidade para dividir a ideia em seis blocos e completar detalhes de assunto, layout e estilo, reduzindo desvios. Imagens costumam sair do esperado quando os requisitos enviados à IA não têm limites claros de composição, cor ou iluminação. No canvas {brand}, revise e ajuste os cards de requisitos gerados; quando estiver satisfeito, copie o resultado completo para gerar a imagem."
+        },
+        {
+            "q": "Ao gerar pôsteres ou gráficos, o texto na imagem fica ilegível. O que fazer?",
+            "a": "Recomenda-se reduzir a quantidade de blocos de informação em uma única imagem e indicar nos cards áreas em branco reservadas e a proibição de texto cobrindo o assunto principal. Isso costuma acontecer porque há conteúdo demais em uma só imagem ou porque a área de texto fica perto demais do assunto principal. No canvas {brand}, edite os cards de texto correspondentes e ajuste o resultado aos poucos."
+        },
+        {
+            "q": "Quero desenhar vários objetos diferentes em uma imagem. Como evitar que as cores se misturem?",
+            "a": "O essencial é manter apenas um estilo principal nos requisitos e escrever separadamente a posição e as características de cada objeto. Não misture descrições de vários objetos na mesma frase e deixe os limites de cada um bem claros. Esta habilidade ajuda a organizar no canvas os requisitos de diferentes assuntos, evitando interferência mútua."
+        }
+    ],
+    "keywords": [
+        "prompts de IA para criar imagens",
+        "imagem de IA fora do estilo",
+        "estilos de imagem com IA",
+        "texto ilegível em imagem de IA",
+        "como escrever prompt de imagem",
+        "prompt de layout para pôster"
+    ]
+}

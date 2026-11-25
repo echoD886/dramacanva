@@ -1,0 +1,22 @@
+const messages = {
+    "connectionMenu.next": "次のステップを作成",
+    "connectionMenu.selected": "選択した {count} 個のノードを参照",
+    "connectionMenu.current": "現在のノードを参照",
+    "connectionMenu.close": "接続ノード作成メニューを閉じる",
+    "connectionMenu.textHelp": "現在の内容を参照してテキストを生成・書き換え",
+    "connectionMenu.scriptHelp": "ストーリーをショットに分解し、絵コンテを構成",
+    "connectionMenu.batchTable": "バッチ作成テーブル",
+    "connectionMenu.batchTableHelp": "複数の画像をまとめて、着せ替えや創作生成を一括実行",
+    "connectionMenu.image": "画像生成",
+    "connectionMenu.imageHelp": "プロンプトと参照画像を組み合わせて新しい画像を生成",
+    "connectionMenu.drawingHelp": "参照画像を下地に自由に描画・注釈",
+    "connectionMenu.videoHelp": "プロンプトと参照素材を組み合わせて動的な動画を生成",
+    "connectionMenu.audioHelp": "テキストまたはキャラクターカードを接続して音声生成ノードを作成",
+    "connectionMenu.convertHelp": "画像や動画をローカルで処理",
+    "connectionMenu.configHelp": "モデルを選択するか、有効なワークフロープラグインを使用",
+    "connectionMenu.video": "動画生成",
+    "connectionMenu.audio": "音声参照",
+    "connectionMenu.uploadAsset": "素材をアップロード",
+    "connectionMenu.uploadAssetHelp": "画像、動画、または音声素材をアップロードして現在のノードの参照入力にする",
+} as const;
+export default messages;

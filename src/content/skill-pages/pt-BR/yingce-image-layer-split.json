@@ -1,0 +1,66 @@
+{
+    "title": "Recorte de pessoa ou objeto com fundo transparente | {brand}",
+    "metaDescription": "Envie uma imagem e indique a pessoa ou objeto. A IA gera uma imagem independente com fundo transparente, pronta para baixar ou reutilizar.",
+    "oneLiner": "Envie uma imagem, indique o elemento principal e gere cards de material transparente no canvas; ideal para criadores",
+    "intro": [
+        "Esta é uma ferramenta para extrair elementos isolados de imagens. Ideal para criadores que precisam separar pessoas, adereços ou móveis, sem software complexo de edição, e podem fazer a separação no canvas.",
+        "Basta enviar uma imagem de referência no canvas e dizer ao assistente qual personagem ou objeto deseja recortar; você também pode marcar a área que quer extrair na imagem.",
+        "Ao terminar, aparecem cards de imagem com fundo transparente no canvas. A imagem original é preservada por completo; você pode baixar o material recortado ou mantê-lo no canvas para continuar a diagramação."
+    ],
+    "example": {
+        "input": "Envie uma foto de duas pessoas e, na caixa de diálogo à direita, digite: “Recorte separadamente a mulher de casaco vermelho à esquerda e crie uma imagem com fundo transparente.”",
+        "output": "O canvas mantém a imagem original e gera ao lado um card da imagem da mulher com fundo transparente, para você baixar separadamente ou deixar no canvas e continuar a diagramação."
+    },
+    "scenarios": [
+        "Em uma foto com várias pessoas, querer recortar uma delas separadamente como referência de personagem.",
+        "Em uma imagem de cena, ver uma mesa, cadeira ou adereço interessante e querer extraí-lo para colocar em uma nova composição.",
+        "Em uma imagem conceitual gerada por você, o personagem e o fundo estão grudados e você precisa separar o personagem.",
+        "Querer separar em imagens transparentes pequenas as roupas, joias ou armas de um personagem para vê-las individualmente."
+    ],
+    "problems": [
+        {
+            "pain": "Na imagem de referência, o personagem está grudado no fundo e não dá para usá-lo separadamente como referência de personagem.",
+            "solve": "Diga ao assistente qual personagem deseja extrair; ele gera no canvas um card separado do personagem com fundo transparente, sem alterar a imagem original."
+        },
+        {
+            "pain": "Há vários personagens ou objetos em uma imagem, mas você quer extrair apenas um.",
+            "solve": "Descreva o alvo ou selecione com uma caixa; o assistente recorta apenas o objeto que você quer, sem afetar as outras partes."
+        },
+        {
+            "pain": "Ao separar vários objetos de uma vez, você teme que, se um falhar, precise refazer tudo do zero.",
+            "solve": "Os cards separados com sucesso permanecem no canvas; os que falharem exibem um aviso claro, e você só precisa extrair novamente os itens que falharam."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie a imagem de referência no canvas.",
+        "Diga ao assistente qual pessoa ou objeto deseja recortar; você também pode selecionar diretamente na imagem.",
+        "Aguarde o assistente gerar no canvas cards de imagens independentes com fundo transparente.",
+        "Confira as imagens geradas e, se estiver satisfeito, baixe-as diretamente no canvas ou continue usando."
+    ],
+    "faq": [
+        {
+            "q": "A imagem transparente recortada substitui a imagem original?",
+            "a": "Não substitui nem apaga a imagem original. Cada objeto separado gera uma nova imagem independente no canvas, e a imagem original fica preservada ao lado. Assim, você pode comparar os resultados ou continuar usando a imagem original quando quiser."
+        },
+        {
+            "q": "É possível recortar várias pessoas ou objetos da mesma imagem de uma só vez?",
+            "a": "Você pode extrair cada um separadamente. Pode informar de uma vez, na conversa, vários alvos que deseja separar, e o assistente gerará uma imagem com fundo transparente para cada um. Cada objeto é um card de imagem independente, fácil de usar separadamente."
+        },
+        {
+            "q": "As bordas da imagem recortada ficam bem limpas?",
+            "a": "Não é possível garantir bordas absolutamente limpas, mas o sistema tenta manter o contorno do elemento claro e completo. O resultado depende principalmente da nitidez da imagem original e da complexidade do fundo; se não gostar de algum detalhe, peça ao assistente para extrair novamente apenas aquela imagem."
+        },
+        {
+            "q": "Se um dos objetos falhar no recorte, preciso refazer tudo?",
+            "a": "Não precisa refazer tudo. Os cards já recortados com sucesso permanecem no canvas, e apenas as partes que falharam recebem um aviso em texto. Basta descrever ou selecionar novamente o item que não deu certo e extraí-lo outra vez."
+        }
+    ],
+    "keywords": [
+        "recortar imagem",
+        "imagem com fundo transparente",
+        "extrair pessoa de foto",
+        "recorte de foto",
+        "separar objeto da foto",
+        "remover fundo de imagem"
+    ]
+}

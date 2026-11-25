@@ -1,0 +1,66 @@
+{
+    "title": "Craft AI video prompts that keep shots and action on track",
+    "metaDescription": "For AI beginners unsure how to describe a scene. Type your idea, and the assistant organizes subject, camera moves, and action into a clear prompt card.",
+    "oneLiner": "Type a rough visual idea and get a polished prompt card on the canvas.",
+    "intro": [
+        "This is a prompt-organizing skill for video creators—a prompt being the text that tells AI how to generate a scene. Enter a rough visual idea, and it creates a text card on the canvas that lays out subject, camera moves, and action.",
+        "All you need is a quick visual idea, like a person running in the rain. If you have a reference photo of a person or composition, you can also send it in the chat and explain what it’s for.",
+        "When it’s done, the canvas shows a clearly formatted text card. It includes segmented action and standard camera terms, and you can copy it directly or edit it by hand anytime."
+    ],
+    "example": {
+        "input": "I want to make a cyberpunk city night scene, with the camera slowly pushing in from high above toward a girl in a raincoat holding a glowing umbrella.",
+        "output": "Generates a prompt text card on the canvas that clearly breaks down the main character, rainy-night street, push-in camera move, and lighting atmosphere in order, with suitable shot-size terms labeled."
+    },
+    "scenarios": [
+        "You have an image in your head but don’t know how to write it, and want to turn plain language into a proper AI prompt.",
+        "You want the camera to push in, pull back, or orbit, but don’t know the right camera terms to tell the AI.",
+        "You uploaded a reference image but it wasn’t used, so you need to tell the AI clearly that the image is only a reference for appearance.",
+        "Videos longer than 10 seconds tend to drift off track in the middle, so you need to break down action and camera moves by the second."
+    ],
+    "problems": [
+        {
+            "pain": "You write a long paragraph to the AI, but the generated video has messy action and the visuals easily drift off track.",
+            "solve": "Breaks the description into subject, action, camera, and other modules, ordered by importance so the logic is clearer."
+        },
+        {
+            "pain": "You want a push-in or orbit camera move, but the AI can’t understand the everyday phrasing you wrote.",
+            "solve": "Provides a library of common camera-move terms, replacing everyday language with standard cinematography terms to minimize shaky or random camera movement."
+        },
+        {
+            "pain": "You upload reference images, but the AI tends to ignore them or use them in the wrong place when generating video.",
+            "solve": "Helps you state each image’s purpose in the description, such as controlling only a person’s appearance or serving only as a composition reference."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use this skill,” then enter your visual idea in the chat panel on the right.",
+        "Upload reference images (if any) and say whether they’re for appearance or composition.",
+        "Review the text card generated on the canvas and manually fine-tune details as needed.",
+        "Copy or download the organized prompt text for later video generation."
+    ],
+    "faq": [
+        {
+            "q": "How do I write an AI video prompt so the visuals don’t get messy?",
+            "a": "It’s best to break the subject, action, scene, and camera move into separate sections. Put the main character first in order of importance, then the environment and camera direction; this makes it easier for the AI to avoid confusion. This skill organizes your idea into that format for you."
+        },
+        {
+            "q": "Why does the AI keep using my reference image incorrectly?",
+            "a": "Because you haven’t clearly limited its purpose, the AI can easily mix everything in the reference image into the scene. You need to state clearly whether it’s only for controlling a person’s appearance or only as a reference for composition or the first frame. The skill helps you spell out each image’s purpose to avoid AI confusion."
+        },
+        {
+            "q": "How should I tell the AI to push in or pull back the camera?",
+            "a": "Use standard terms like push-in, pull-back, or orbit shot. Avoid vague everyday language; this keeps camera movement steadier. The skill includes common camera-move terms and replaces your wording automatically."
+        },
+        {
+            "q": "What should I do when longer videos drift off track midway?",
+            "a": "Use a second-by-second segmented approach to write the prompt. Break the video into the first few seconds, the middle, and the ending, and describe the action and camera changes for each section. These segment constraints make transitions more natural and help prevent drift midway."
+        }
+    ],
+    "keywords": [
+        "AI video prompts",
+        "how to write AI video camera moves",
+        "video generation prompt template",
+        "AI video visuals drift",
+        "how to use reference images in AI video",
+        "long video segmented prompts"
+    ]
+}

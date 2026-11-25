@@ -1,0 +1,66 @@
+{
+    "title": "Curta em plano-sequência no {brand}: blocking e economia",
+    "metaDescription": "Para curtas em plano-sequência: organize o blocking no canvas, fixe personagens e composição com imagens e receba custos por etapa e clipes contínuos.",
+    "oneLiner": "Insira a ideia da história, organize o blocking no canvas e receba storyboards e vídeos contínuos do curta.",
+    "intro": [
+        "É uma ferramenta de planejamento para curtas contínuos. Muitas pessoas geram o vídeo diretamente, o que custa caro e ainda faz os personagens mudarem de rosto; ela ajuda a organizar ações e blocking antes, evitando desperdiçar gerações.",
+        "Você só precisa ter uma ideia de história ou um roteiro curto e também pode enviar uma foto de referência do protagonista. Se ainda não definiu quantos segundos cada trecho deve ter, ela planeja com base em um curta comum de 15 segundos.",
+        "Ao final, você recebe no canvas uma tabela de custos por etapa, uma tabela de storyboard (que divide o vídeo em planos e descreve o que cada plano mostra), imagens de primeiro frame que fixam a composição e clipes de vídeo."
+    ],
+    "example": {
+        "input": "Quero fazer um curta de 15 segundos em plano-sequência: um detetive empurra a porta de um velho escritório escuro, caminha rápido até a escrivaninha e pega um envelope com sangue. O protagonista é um homem de meia-idade, de cabelo curto, com um sobretudo cinza.",
+        "output": "No canvas, são gerados uma estimativa de custos por etapa, instruções de blocking para 3 planos contínuos (abrir a porta, aproximar-se, close no envelope) e cartões de imagens de referência para cada plano, com os cartões de clipes de vídeo correspondentes."
+    },
+    "scenarios": [
+        "Quer criar cenas contínuas sem cortes; gerar o vídeo direto é caro demais, então é preciso validar a composição primeiro com imagens.",
+        "Todos os planos têm a mesma duração e a imagem parece monótona e mecânica; quer desenhar um ritmo com momentos rápidos e lentos.",
+        "O mesmo protagonista muda de rosto e de roupa em cada plano; quer manter ao máximo a continuidade da aparência do personagem.",
+        "A geração de vídeo falha repetidamente com erro, e você não sabe se é excesso de caracteres na descrição ou uma palavra sensível."
+    ],
+    "problems": [
+        {
+            "pain": "Gerar vídeo direto a partir de texto custa caro, e não dá para corrigir quando a imagem não agrada",
+            "solve": "Primeiro ajuda a organizar o blocking e gerar imagens estáticas; depois de confirmar que o visual está bom, faça o vídeo, reduzindo o custo de novas tentativas."
+        },
+        {
+            "pain": "Todos os planos têm a mesma duração, o ritmo é monótono e entediante, dando vontade de pular",
+            "solve": "Distribui durações diferentes conforme a história, como corte rápido de 4 segundos e movimento lento de aproximação de 6 segundos, e coloca um conflito na abertura para dar altos e baixos ao ritmo."
+        },
+        {
+            "pain": "O protagonista muda de aparência de um plano para outro, e os rostos ficam fáceis de confundir quando duas pessoas aparecem juntas",
+            "solve": "Coloca as principais características faciais do protagonista no início da descrição e padroniza a referência de imagens, minimizando troca de rosto e confusão em cena com duas pessoas."
+        }
+    ],
+    "steps": [
+        "Clique em “Usar esta habilidade” na biblioteca de habilidades e insira a ideia da história ou envie uma imagem no painel de chat à direita.",
+        "Veja o blocking dos planos e a tabela de custos no canvas; se quiser ajustar algo, diga ao assistente como mudar.",
+        "Gere as imagens do primeiro frame de cada plano para fixar o visual e os personagens; depois de confirmar que está bom, gere os vídeos correspondentes.",
+        "Ordene os clipes na linha do tempo do vídeo antes de exportar e combine vários clipes em um curta contínuo."
+    ],
+    "faq": [
+        {
+            "q": "Como fazer um curta sem estourar o orçamento e gastar menos à toa?",
+            "a": "O essencial é avançar em três etapas: primeiro fixe o blocking e os personagens com imagens estáticas, confirme que está bom e só então gere o vídeo, evitando desperdiçar gerações diretas. Alterar composição e falas na etapa de imagem custa pouco e ajuda a economizar o alto custo de regenerar vídeos repetidamente."
+        },
+        {
+            "q": "Por que o rosto e a roupa do protagonista mudam entre planos?",
+            "a": "O sistema, por padrão, recompõe cada plano na geração; você pode colocar a aparência do protagonista no início da descrição e anexar imagens de referência para manter a continuidade ao máximo. Em cenas com duas pessoas no mesmo enquadramento, descreva separadamente cabelo, traços faciais e roupa de cada personagem para reduzir troca de rosto e confusão."
+        },
+        {
+            "q": "O curta ficou monótono e sonolento; como melhorar?",
+            "a": "Alterne planos longos e curtos e insira um conflito nos primeiros 3 segundos para quebrar a monotonia, por exemplo, 4 segundos de corte rápido para ação e 6 segundos de movimento lento para emoção. Evite duração uniforme em todos os planos e combine com um conflito ou suspense claro no início para o ritmo ficar mais tenso e envolvente."
+        },
+        {
+            "q": "Como investigar erros quando a geração da imagem falha?",
+            "a": "Verifique em etapas: limite de caracteres, bloqueio por palavras sensíveis e conflito entre texto e imagem; primeiro confirme se a descrição não passa do limite de 1500 caracteres. Depois veja se há termos bloqueados como luta ou teor sensual, por exemplo trocando dark, que indica tom escuro, por deep; se o erro continuar, confira se o texto conflita com a imagem de referência."
+        }
+    ],
+    "keywords": [
+        "produção de curtas com IA",
+        "curta em plano-sequência",
+        "storyboard de vídeo com IA",
+        "curta com IA econômico",
+        "consistência de personagem com IA",
+        "blocking para curtas"
+    ]
+}

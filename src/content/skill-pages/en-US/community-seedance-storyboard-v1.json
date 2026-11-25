@@ -1,0 +1,66 @@
+{
+    "title": "Turn Stories Into AI Video Storyboards by the Second",
+    "metaDescription": "New to AI video and can't write shots? Share a story idea or reference image, and get second-by-second storyboard cards with visuals, actions, and sound.",
+    "oneLiner": "Break your story down by the second, with camera movement, character action, and sound for each shot.",
+    "intro": [
+        "This is a canvas-based tool that helps you plan video shots. It breaks your story idea into a second-by-second storyboard (splitting the video into individual shots and spelling out what each shot shows and how it moves).",
+        "Just tell it your story the way you'd normally speak. If you have character images, scene images, or reference videos you like, you can send those too as visual references.",
+        "It generates text cards on the canvas that spell out what to shoot in each 4–15-second segment, how the camera moves, and what sound to use. You can edit the text anytime, then copy or download it when you're happy."
+    ],
+    "example": {
+        "input": "I want to make a 15-second coffee ad with shots of hot coffee pouring into a cup and close-ups of coffee beans, with a relaxed, warm mood.",
+        "output": "The canvas will generate 15-second storyboard cards: a macro shot of coffee pouring from 0–3 seconds, the camera circling the cup from 3–6 seconds, and a push-in toward the coffee beans from 6–10 seconds, with warm lighting and relaxed jazz music spelled out."
+    },
+    "scenarios": [
+        "When you've written a short story or script but don't know how to break the text into individual video shots.",
+        "When you want to make a product showcase video and need to plan close-ups of product details and camera moves from different angles.",
+        "When you've generated a video you're happy with and want to continue from its action and visual style.",
+        "When you already have character or landscape images and want the AI to design shots based on how they look."
+    ],
+    "problems": [
+        {
+            "pain": "You have a story in your head but don't know how to turn it into shot instructions for video.",
+            "solve": "It breaks the story down by the second and writes the shot size, camera movement, and sound for each shot for you."
+        },
+        {
+            "pain": "When making a video, you worry that a character won't look consistent across shots.",
+            "solve": "You can send it reference images of the character, and it will attach those images to the shot descriptions to keep the appearance as consistent as possible."
+        },
+        {
+            "pain": "After getting a great-looking clip, you don't know how to continue from the previous segment.",
+            "solve": "Give it the existing video, and it can carry over the original color tone and main character's actions to write descriptions for the next segment that connect smoothly."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use This Skill\" to open the chat on the right side of the canvas.",
+        "Send your story idea, along with any reference images or videos you have.",
+        "Review the second-by-second shot cards on the canvas and edit the text descriptions as needed.",
+        "Copy or download the storyboard text once you're happy with it."
+    ],
+    "faq": [
+        {
+            "q": "I don't know professional filming terms. Can I still use this skill?",
+            "a": "Yes. Just describe your story idea and the visual mood in plain language, and it will organize them into shot descriptions that include shot size, camera movement, and action. You can edit the text cards anytime and copy or download them when you're happy."
+        },
+        {
+            "q": "How can I keep a character's appearance consistent in the video?",
+            "a": "Upload reference images of the character's appearance in the chat, and it will reference those images in the storyboard descriptions to keep the character's look consistent across shots. If a particular shot looks off, edit the description and regenerate it. Note that realistic human face assets are not supported yet."
+        },
+        {
+            "q": "I have a finished video clip and want to continue it. What should I do?",
+            "a": "Send the previous video to the assistant and describe what happens next. It will carry over the original color tone and character actions to write follow-up shot descriptions that connect smoothly. You can also ask for specific changes, and it will adjust the follow-up descriptions while keeping the visuals coherent."
+        },
+        {
+            "q": "I want to reference the camera moves in someone else's video. Can I do that directly?",
+            "a": "Yes. You can upload a reference video up to 15 seconds long and send it to the assistant. It will extract the camera moves and action pacing and write them into new storyboard descriptions. This lets you reuse the camera movements from the reference video without having to figure out complex filming terms yourself."
+        }
+    ],
+    "keywords": [
+        "how to write AI video storyboards",
+        "how to make a video storyboard",
+        "AI video shot prompts",
+        "video storyboard generator",
+        "turn a story into a short video",
+        "AI video continuation"
+    ]
+}

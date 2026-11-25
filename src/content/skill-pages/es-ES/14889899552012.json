@@ -1,0 +1,67 @@
+{
+    "title": "Miradas y microexpresiones en vídeos de primer plano",
+    "metaDescription": "Para creadores de miniseries y principiantes: obtén microgestos faciales por segundos con rasgos y una frase; sube una imagen y genera un clip en el lienzo.",
+    "oneLiner": "Para miniseries: introduce el personaje y una frase, y genera en el lienzo un vídeo de primer plano con microexpresiones.",
+    "intro": [
+        "Esta herramienta te ayuda a diseñar la actuación facial de un personaje. Convierte su estado de ánimo en movimientos de mirada, comisuras de los labios y respiración de 2 a 3 segundos, para que los primeros planos faciales creados por IA resulten más naturales.",
+        "Solo tienes que rellenar en el formulario la apariencia y la personalidad del personaje, además de una frase de diálogo de 15 segundos o menos. Si tienes una imagen de referencia del personaje, prepárala con antelación.",
+        "Primero recibirás varias opciones de interpretación con emociones distintas; al elegir una, obtendrás una descripción detallada de los movimientos. Si subes una imagen, también podrás generar en el lienzo un clip de vídeo con microexpresiones."
+    ],
+    "example": {
+        "input": "El personaje es la protagonista de una serie de época, de carácter reservado y contenido; debe decir la frase «Lárgate» en 15 segundos y se sube una foto de medio cuerpo de la protagonista con vestuario de época.",
+        "output": "En el lienzo se generarán varios estilos de actuación para que los marques; al elegir uno, se ofrecerá una descripción de miradas y respiración dividida en intervalos de 2 a 3 segundos, y se generará un clip de vídeo de 15 segundos del personaje con microexpresiones."
+    },
+    "scenarios": [
+        "Al escribir una frase clave de una miniserie, necesitas un primer plano en el que la mirada del personaje pase poco a poco de sonriente a triste.",
+        "El personaje siente injusticia o indecisión por dentro y quieres comparar varias formas de interpretarlo antes de decidir.",
+        "Al crear vídeos de primeros planos de personajes, la imagen tiende a deformarse o a tener espasmos; necesitas movimientos faciales lentos y estables.",
+        "No sabes cómo convertir el conflicto interno del personaje en acciones visuales y necesitas indicaciones concretas de actuación."
+    ],
+    "problems": [
+        {
+            "pain": "Escribes «sus ojos rebosan cálculo», pero el vídeo generado no muestra ninguna expresión o incluso la imagen se rompe.",
+            "solve": "Descompone la intención interna en movimientos faciales visibles, como microgestos de la mirada o tensión en la mandíbula, para que la IA lo entienda mejor."
+        },
+        {
+            "pain": "En el vídeo, los movimientos del personaje son demasiado amplios y a menudo aparecen extremidades deformadas o sale del encuadre.",
+            "solve": "Evita los desplazamientos corporales amplios y concentra el movimiento en la mirada, las comisuras de los labios y el ascenso y descenso de la respiración para mantener la imagen estable."
+        },
+        {
+            "pain": "Se escriben demasiadas indicaciones de movimiento a la vez y el personaje generado sufre espasmos y deformaciones con frecuencia.",
+            "solve": "Divide el tiempo en intervalos de 2 a 3 segundos y mantén solo 1 o 2 microacciones lentas en cada intervalo; así el movimiento será más coherente."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, haz clic en «Usar esta habilidad» para abrir el formulario de conversación a la derecha del lienzo.",
+        "Rellena la apariencia y la personalidad del personaje, así como el diálogo o la trama de 15 segundos o menos.",
+        "Marca el estilo de actuación que te convenza y obtén la descripción de los microgestos faciales dividida por segundos.",
+        "Sube una imagen de referencia del personaje y genera una tarjeta de vídeo con microexpresiones en el lienzo.",
+        "Ordena las tarjetas en la línea de tiempo del vídeo y exporta, o descarga directamente la tarjeta de vídeo."
+    ],
+    "faq": [
+        {
+            "q": "¿Por qué las expresiones en los primeros planos de personajes creados por IA suelen ser tan rígidas?",
+            "a": "Porque la IA no entiende directamente palabras de estado de ánimo como «muy triste». Esta habilidad traduce la emoción en acciones concretas, como «la mirada baja despacio y los labios se aprietan». Añadiendo pequeños cambios cada 2 o 3 segundos, la expresión gana mucha viveza."
+        },
+        {
+            "q": "¿Por qué el vídeo del personaje generado tiende a mostrar tics faciales o deformaciones?",
+            "a": "Normalmente se debe a que se acumulan demasiadas acciones en una sola frase o a que los movimientos son demasiado amplios. Esta habilidad limita las acciones a microgestos faciales y conserva solo 1 o 2 movimientos muy lentos en cada intervalo. Así se reducen al mínimo las roturas y deformaciones de la imagen."
+        },
+        {
+            "q": "Al escribir acciones de personaje para la IA, ¿cómo evitar errores en la imagen?",
+            "a": "Escribe solo acciones concretas que se puedan ver con los ojos, no lo que piensa por dentro. No describas interacciones físicas con otros personajes; en su lugar, indica que mira a cámara o hacia los lados. Así evitas que aparezcan extremidades extrañas de la nada."
+        },
+        {
+            "q": "¿El vídeo de microexpresiones generado incluye la voz del diálogo?",
+            "a": "No se dobla automáticamente. Esta habilidad se encarga principalmente de generar las expresiones faciales y los movimientos visuales del personaje. Si necesitas la voz del diálogo, puedes añadir el doblaje tú mismo después de exportar el vídeo."
+        }
+    ],
+    "keywords": [
+        "expresiones faciales rígidas IA vídeo",
+        "cómo escribir la mirada de un personaje",
+        "deformación facial en vídeos IA",
+        "vídeo de microexpresiones en primer plano",
+        "expresiones y gestos de actor IA",
+        "crear primeros planos para miniseries"
+    ]
+}

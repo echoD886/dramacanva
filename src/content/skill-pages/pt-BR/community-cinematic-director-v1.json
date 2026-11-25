@@ -1,0 +1,66 @@
+{
+    "title": "Transforme sua história em cenas e crie vídeos com IA",
+    "metaDescription": "Para iniciantes em curtas e vídeos. Envie uma história e a IA monta um roteiro de planos claro, com descrições, gerando imagens e clipes no canvas.",
+    "oneLiner": "Envie uma história, organize planos coerentes no canvas e gere clipes de vídeo. Ideal para iniciantes.",
+    "intro": [
+        "É como um assistente que entende de fotografia. Ao enviar uma história em texto, ele divide tudo em uma lista de planos coerente no canvas, explicando como filmar cada plano e anotando a descrição visual.",
+        "Você só precisa preparar um texto, como um trecho de romance, um roteiro ou algumas linhas de enredo; se tiver imagens de referência de personagens, também pode enviá-las junto.",
+        "No final, você recebe no canvas uma tabela de organização dos planos, uma imagem de referência para cada cena e cards de vídeo gerados, que podem ser baixados diretamente ou organizados e exportados."
+    ],
+    "example": {
+        "input": "Uma história de detetive: em uma noite de chuva, o detetive abre a porta de um sebo e encontra no chão uma carta aberta; atrás da cortina, uma sombra passa de repente.",
+        "output": "No canvas serão gerados cards com a lista de planos já dividida, indicando close da porta sendo aberta, close da carta e plano aberto da sombra, com a descrição visual de cada plano e cards de vídeos curtos gerados."
+    },
+    "scenarios": [
+        "Você tem um romance ou uma história e não sabe como dividir em imagens concretas para fazer um vídeo.",
+        "Nos vídeos de IA, os movimentos ficam confusos e você quer que a ação principal de cada plano fique mais clara e limpa.",
+        "Ao juntar vários planos, o brilho varia e o estilo se rompe; você quer unificar o tom e a estética.",
+        "Você já tem algumas imagens de personagem de que gostou e quer seguir a partir delas para organizar os próximos planos."
+    ],
+    "problems": [
+        {
+            "pain": "A história tem milhares de palavras e você não sabe como transformá-la em cenas adequadas para vídeos curtos.",
+            "solve": "Ajuda a organizar uma lista de planos no canvas, indicando se cada cena é plano aberto ou close, como os personagens se movem e como a câmera se desloca."
+        },
+        {
+            "pain": "Você quer que o personagem faça ações demais em uma única frase, e o vídeo gerado pela IA costuma ficar desajeitado.",
+            "solve": "Divide as ações complexas em planos curtos, cada um focado em uma única ação principal, o que torna a geração das imagens mais estável."
+        },
+        {
+            "pain": "Ao emendar vários planos, o rosto dos personagens e a iluminação mudam de repente e parece tudo desconexo.",
+            "solve": "Primeiro define no canvas a iluminação e o estilo visual de todo o conjunto de planos, mantendo ao máximo a mesma configuração visual em cada plano."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em \"Usar esta habilidade\" e envie sua história ou imagens de referência no chat à direita.",
+        "Consulte os cards da lista de planos gerados no canvas e confirme o enquadramento e a ação de cada plano.",
+        "Diga ao assistente como alterar as descrições de que não gostou e peça para gerar uma imagem ou um clipe de vídeo.",
+        "Arraste os clipes de que gostou para a linha do tempo do canvas, organize a ordem e exporte o vídeo final."
+    ],
+    "faq": [
+        {
+            "q": "Como dividir um romance ou uma história em planos de vídeo?",
+            "a": "Envie o texto ao assistente de IA e ele divide a trama em uma lista de planos (transformando o vídeo em planos individuais, explicando o que cada um mostra), indicando enquadramento e ação. Você pode ver no canvas a descrição visual de cada plano e pedir ajustes ao assistente sempre que algo não agradar."
+        },
+        {
+            "q": "Por que as ações nos vídeos feitos por IA costumam ficar confusas ou quebradas?",
+            "a": "Principalmente porque se colocam instruções de ação demais de uma vez para a IA. Esta habilidade tenta separar as ações, deixando cada plano com apenas uma ação principal, o que geralmente deixa a imagem bem mais estável. Se algum plano não agradar, basta pedir ao assistente para ajustar a descrição e gerar de novo."
+        },
+        {
+            "q": "Como manter o mesmo rosto entre planos de vídeo consecutivos?",
+            "a": "Não é possível garantir que fiquem absolutamente iguais, mas enviar antes uma imagem de referência do personagem ajuda a manter a aparência coerente. Ao organizar os planos, a IA prioriza a aparência e o figurino dessa referência. Se o personagem sair diferente em algum plano, peça ao assistente para alterar a descrição desse plano e gerar novamente."
+        },
+        {
+            "q": "A IA monta automaticamente todos os planos em um vídeo completo?",
+            "a": "Ela não faz a montagem automática; gera clipes de vídeo independentes no canvas. Você pode arrastar os clipes de que gostou para a linha do tempo, organizar a ordem, conferir e depois exportar o vídeo final. Assim você ajusta livremente a sequência de cada cena."
+        }
+    ],
+    "keywords": [
+        "storyboard com IA",
+        "transformar história em roteiro de vídeo",
+        "vídeo de IA com movimentos confusos",
+        "como fazer storyboard de série curta",
+        "criar vídeo coerente com IA",
+        "IA para fazer vídeo iniciante"
+    ]
+}

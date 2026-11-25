@@ -1,0 +1,67 @@
+{
+    "title": "Genera vídeos de prueba de ropa con fotos de modelo",
+    "metaDescription": "Para tiendas de ropa y creadores de moda. En {brand}, sube fotos de la prenda y del modelo y crea un vídeo vertical de prueba de 15 s para descargar.",
+    "oneLiner": "Con fotos de la prenda y del modelo, crea en el lienzo un vídeo de prueba de 15 s.",
+    "intro": [
+        "Este es un flujo para crear vídeos de prueba de ropa en el lienzo. No necesitas rodar con personas reales ni montar un plató: la IA simula el proceso real de una creadora que coge una prenda en su habitación, se la pone y muestra su corte.",
+        "Solo tienes que preparar una imagen de referencia de la modelo y una foto de la prenda extendida o colgada. Envíalas al asistente de IA en el lado derecho del lienzo y, si quieres, indica también la escena que deseas.",
+        "La IA primero escribirá una descripción de los movimientos para que la confirmes. Cuando te convenza, generará en el lienzo una tarjeta de vídeo vertical de prueba de 15 s. Puedes descargarla directamente o colocarla en la línea de tiempo de vídeo y exportarla."
+    ],
+    "example": {
+        "input": "Sube una foto de un jersey extendido sobre fondo blanco y una foto de una modelo asiática de pie, y envía: «Haz un vídeo de prueba de 15 s que muestre el corte del jersey en un dormitorio con luz natural»",
+        "output": "En el lienzo aparecen primero tarjetas con 5 fases de movimiento; al confirmar, se genera una tarjeta de vídeo vertical de 15 s en la que la modelo sostiene el jersey, se lo pone y lo muestra sonriendo mientras se arregla la ropa."
+    },
+    "scenarios": [
+        "Lanzar ropa nueva en una tienda online, tener solo la foto extendida y querer ver rápido cómo queda puesta en una modelo.",
+        "Una creadora de contenido de moda prepara combinaciones nuevas y quiere mostrar varios looks sin montar un plató para cada vídeo.",
+        "Para mostrar ropa en comercio electrónico transfronterizo y necesitar vídeos verticales con un aire natural y cotidiano para publicar en redes sociales.",
+        "Tener solo fotos estáticas de la prenda de muestra y querer ver antes cómo se mueve y posa puesta."
+    ],
+    "problems": [
+        {
+            "pain": "Contratar modelos y alquilar un plató es caro; fotografiar una colección de muestras lleva casi un día entero.",
+            "solve": "Sube la foto de la modelo y la de la prenda extendida, confirma los movimientos y genera un vídeo de prueba: podrás ver cómo queda puesta sin buscar local ni modelo."
+        },
+        {
+            "pain": "Escribir tú mismo la descripción de la producción no suele salir bien y el corte de la prenda puede deformarse.",
+            "solve": "La IA divide automáticamente los pasos, desde coger la prenda y ponérsela hasta posar, y te los muestra para que los confirmes antes de generar."
+        },
+        {
+            "pain": "Muchos vídeos de IA parecen anuncios rígidos y pierden la naturalidad de una prueba de ropa real de una creadora.",
+            "solve": "Usa un punto de vista de móvil en mano y luz natural para simular una prueba de ropa real, con un resultado más cercano y natural."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo y el cuadro de diálogo.",
+        "Sube la foto de la modelo y la de la prenda extendida, y envía tu idea de escena o combinación.",
+        "Revisa y confirma la descripción de los movimientos en el lienzo; si hace falta cambiarla, ajústala directamente.",
+        "Espera a que la IA genere la tarjeta de vídeo en el lienzo y pulsa para previsualizar cómo queda la prueba en la modelo.",
+        "Ordena los vídeos en la línea de tiempo y expórtalos, o descarga directamente cada vídeo por separado."
+    ],
+    "faq": [
+        {
+            "q": "¿Qué hace falta para crear un vídeo de prueba de ropa?",
+            "a": "Hace falta una foto de la modelo y una foto de la prenda extendida o colgada. La IA leerá las características de ambas imágenes y simulará la secuencia de movimientos de una prueba de ropa. Si falta alguna imagen, la IA también te avisará en el cuadro de diálogo para que la añadas."
+        },
+        {
+            "q": "¿Cuánto dura normalmente el vídeo de prueba generado?",
+            "a": "Por defecto se genera un vídeo vertical de 15 s. La imagen muestra en orden cómo se coge la prenda, se pone, se ajusta el corte y se posa al final. Si necesitas una presentación más larga, puedes colocar varios vídeos en la línea de tiempo del lienzo, ordenarlos y exportarlos."
+        },
+        {
+            "q": "¿Cómo puedo cambiar la prueba si el resultado no me convence?",
+            "a": "Puedes modificar la descripción de los movimientos y volver a generar cuando quieras. Antes de crear el vídeo, la IA te muestra los pasos y puedes ajustar los detalles directamente. Cada vídeo generado se guarda en el lienzo para que compares y elijas la versión que te guste."
+        },
+        {
+            "q": "¿Puede montar automáticamente varios vídeos de prueba en una pieza final y añadir voz en off?",
+            "a": "No puede montar automáticamente una pieza final ni añadir una voz en off por separado. La IA generará tarjetas de vídeos de prueba verticales de 15 s. Puedes ordenarlas tú mismo en la línea de tiempo de vídeo del lienzo y exportar la pieza final."
+        }
+    ],
+    "keywords": [
+        "vídeo de prueba de ropa con IA",
+        "cómo hacer un vídeo de modelo probándose ropa",
+        "generar vídeo de ropa puesta",
+        "vídeos de moda para ecommerce",
+        "vídeo de cambio de ropa con IA",
+        "crear vídeo de prueba desde foto de prenda"
+    ]
+}

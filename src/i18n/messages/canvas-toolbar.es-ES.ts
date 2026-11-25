@@ -1,0 +1,23 @@
+const messages = {
+    "canvasToolbar.move": "Herramienta de mano",
+    "canvasToolbar.select": "Selección de área",
+    "canvasToolbar.add": "Añadir nodo",
+    "canvasToolbar.assets": "Biblioteca de recursos",
+    "canvasToolbar.appearance": "Apariencia del lienzo",
+    "canvasToolbar.settings": "Configuración de la barra",
+    "canvasToolbar.deleteCount": "Eliminar {count} nodos",
+    "canvasToolbar.delete": "Eliminar nodo seleccionado",
+    "canvasToolbar.clear": "Vaciar lienzo",
+    "canvasToolbar.appearanceHelp": "Ajusta todo el espacio creativo",
+    "canvasToolbar.imageInfo": "Información de la imagen",
+    "canvasToolbar.settingsHelp": "Arrastra para reordenar y oculta las herramientas que uses poco",
+    "canvasToolbar.closeSettings": "Cerrar configuración de la barra",
+    "canvasToolbar.visible": "Se muestran {visible}/{total}",
+    "canvasToolbar.resetAria": "Restaurar configuración predeterminada",
+    "canvasToolbar.reset": "Restaurar valores predeterminados",
+    "canvasToolbar.order": "Orden de la barra principal",
+    "canvasToolbar.drag": "Arrastra para reordenar {label}",
+    "canvasToolbar.hide": "Ocultar {label}",
+    "canvasToolbar.show": "Mostrar {label}",
+} as const;
+export default messages;

@@ -1,0 +1,66 @@
+{
+    "title": "Topic & Plan Decision Analysis: Clarify Logic, Spot Gaps",
+    "metaDescription": "For creators stuck choosing a topic or plan. Enter ideas and concerns, and AI maps out your reasoning, the strongest counterargument, and failure conditions on the canvas as decision cards.",
+    "oneLiner": "A text tool that takes your plan or topic and generates analysis and counterarguments on the canvas.",
+    "intro": [
+        "This is a tool to help you clarify your thinking before making a decision. When you're unsure whether a topic or plan is any good, it helps you reason from multiple angles so you don't jump to conclusions based on gut feeling alone.",
+        "Just write your planned topic, core idea, and the actual situation you know about in the chat box on the right. If your team disagrees, you can also include the points of contention.",
+        "AI will generate several text cards on the canvas with the reasoning analysis, the strongest counterargument, and the conditions under which the conclusion would no longer hold. You can copy or download them directly."
+    ],
+    "example": {
+        "input": "I want to make a series of workplace comedy short videos aimed at recent college graduates, but I'm worried there's too much similar content and no one will watch it, so I don't know if I should do it.",
+        "output": "The canvas will generate several text cards: it lists helpful angles to consider and walks through the reasoning, points out the strongest counterargument about lookalike competition, and states when the conclusion would no longer hold."
+    },
+    "scenarios": [
+        "When you've thought of several video topics but can't decide and need to validate which one is more reliable from different angles.",
+        "When your creative team is stuck in a meeting with everyone arguing their own view, and you need to objectively lay out each side's reasoning.",
+        "When you're especially happy with your idea—maybe even a little blind to its flaws—and want to actively look for potential gaps and counterarguments.",
+        "When your content hasn't taken off after a long time and you want to break out of old patterns and find a new angle that sets you apart."
+    ],
+    "problems": [
+        {
+            "pain": "You pick topics on gut feel, and only after posting and getting no traction do you realize the idea had gaps from the start.",
+            "solve": "It generates multi-angle analysis cards on the canvas and walks through the reasoning, helping you spot what you missed ahead of time."
+        },
+        {
+            "pain": "In team discussions, everyone sticks to their subjective opinion, and it easily turns into whoever is loudest wins.",
+            "solve": "It breaks each side's input into text cards, listing their evidence and inferences separately so everyone can discuss rationally based on the written points."
+        },
+        {
+            "pain": "You always feel your plan has no flaws, and no one around you dares to raise counterpoints.",
+            "solve": "It proactively lists one strongest counterargument and the conditions under which the plan would fail, helping you objectively see potential risks."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use This Skill” to open the canvas creation interface.",
+        "Send your topic idea, core concerns, or team disagreement, and add any known facts.",
+        "Review the analysis cards generated on the canvas and read the reasoning process and strongest counterargument.",
+        "Copy or download the results. You can also edit the text on the canvas or tell the assistant to redo the analysis."
+    ],
+    "faq": [
+        {
+            "q": "How can I use this skill to check whether a video topic is worth pursuing?",
+            "a": "Send your topic and concerns in the chat box on the right. AI will work through the reasoning on the canvas and list the strongest counterargument to help you check for logical gaps. You can use the generated text cards to assess risk, edit the text directly on the canvas, or tell the assistant to adjust the direction and redo the analysis."
+        },
+        {
+            "q": "Why does the analysis always include a dedicated “counterargument”?",
+            "a": "This is to prevent blind optimism and blind spots in your thinking. By default, the skill finds one strongest counterargument and the conditions under which it fails, so you can see potential risks ahead of time. Knowing when a plan would no longer hold helps you prepare before committing to production or adjust direction in time."
+        },
+        {
+            "q": "How can this tool help us when the team disagrees on a plan?",
+            "a": "It breaks the viewpoints, known facts, and reasoning behind each side of the debate into clear text cards, so the team can discuss rationally based on objective facts. On the {brand} canvas, you can directly compare the reasoning and counterarguments, making it easier to reach consensus without arguing based on emotions."
+        },
+        {
+            "q": "Can we just copy the decision recommendations on the canvas as-is?",
+            "a": "No, you can't just copy them as-is. It's mainly meant to help you clarify logic and self-check for gaps; the analysis and reasoning it provides can't replace real-world testing and experience. We recommend combining it with your actual resources, production costs, and team feedback, editing and refining it on the canvas, and then making your final creative decision."
+        }
+    ],
+    "keywords": [
+        "topic assessment",
+        "creative plan analysis",
+        "video topic selection logic",
+        "plan feasibility check",
+        "team plan disagreement",
+        "find gaps in topic ideas"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Prompts de IA por finalidade e estilos variados",
+    "metaDescription": "Para criadores de fotos de produto, pôsteres ou ilustrações: diga o que quer; {brand} organiza detalhes, estilo e gera prompts e imagens de referência.",
+    "oneLiner": "Diga o que precisa para a imagem e gere no canvas do {brand} imagens em vários estilos e textos.",
+    "intro": [
+        "Este é um assistente que ajuda a organizar os requisitos da imagem. Conforme você queira criar um produto, um pôster ou uma ilustração, ele ajuda a combinar composição e iluminação adequadas, evitando que todas as imagens fiquem com aquele visual escuro de cinema.",
+        "Você só precisa explicar na caixa de diálogo o que quer desenhar e para que será usado. Se a imagem precisar ter texto, você também pode listá-lo diretamente ou enviar uma imagem de referência de que goste.",
+        "Ao terminar, você receberá no canvas do {brand} cartões de texto de prompt organizados e imagens de referência geradas diretamente. Pode escolher os cartões de que gostar para editar o texto ou baixar as imagens para usar."
+    ],
+    "example": {
+        "input": "Quero criar uma imagem principal de e-commerce de uma caneca de cerâmica, fundo branco puro, luz natural, com as palavras em inglês ‘Good Day’ claramente escritas no corpo da caneca.",
+        "output": "No canvas aparecerão cartões de descrição especificando material do produto, iluminação e posição do texto, além de cartões com imagens geradas do produto, tentando exibir os dizeres em inglês com clareza no corpo da caneca."
+    },
+    "scenarios": [
+        "Criar imagens de produto para loja virtual ou pôsteres de produto, destacando materiais e iluminação reais, sem o estilo escuro de cinema.",
+        "Criar personagens de história ou quadros de storyboard, definindo composição e ação e mantendo ao máximo a coerência das características do assunto.",
+        "Criar capas ou imagens promocionais que precisam ter texto, com a expectativa de que as palavras na imagem fiquem nítidas e sem erros.",
+        "Quando não souber qual estilo escolher, ver de duas a três direções visuais claramente diferentes em material e composição."
+    ],
+    "problems": [
+        {
+            "pain": "Não importa o que seja gerado, a IA aplica automaticamente um tom cinematográfico sombrio, e tudo parece igual.",
+            "solve": "Escolha combinações diferentes de materiais e iluminação conforme o uso específico, como produto ou pôster, para criar diferenças visuais."
+        },
+        {
+            "pain": "Quero adicionar texto às imagens geradas, mas as letras que a IA desenha costumam vir com traços faltando ou viram caracteres sem sentido.",
+            "solve": "Liste o texto a exibir palavra por palavra, separadamente, e reserve espaço para a diagramação. Se o modelo atual não conseguir escrever, será oferecida uma alternativa."
+        },
+        {
+            "pain": "Ao editar uma imagem existente, a IA muda completamente o visual do personagem ou o layout que já estava bom.",
+            "solve": "Na descrição, deixe claro quais aparência, pose ou layout devem permanecer inalterados para reduzir desvios e distorções na edição."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas do {brand}.",
+        "Descreva a finalidade da imagem, o assunto principal e o texto obrigatório; você também pode enviar uma imagem de referência.",
+        "Veja no canvas os cartões de descrição da imagem gerados e os cartões de imagem criados em conjunto.",
+        "Escolha os cartões de que gostar e baixe as imagens, ou edite os cartões de texto e peça ao assistente para gerar novamente."
+    ],
+    "faq": [
+        {
+            "q": "Como devo escrever os requisitos de imagem para a IA?",
+            "a": "Recomenda-se escrever na ordem: finalidade, assunto principal, cenário, enquadramento e câmera, material e iluminação, e texto obrigatório. Escreva palavra por palavra o texto que deve aparecer e prefira nomes concretos de materiais a termos vagos como “sofisticado”. Assim, a IA entende melhor o foco da imagem e gera no canvas do {brand} imagens dentro do esperado."
+        },
+        {
+            "q": "Por que as imagens geradas pela IA sempre parecem aquele visual escuro de cinema?",
+            "a": "Normalmente isso acontece porque os requisitos dados à IA não especificam mídia e iluminação, e o sistema acaba aplicando um efeito de luz escuro por padrão. Você pode indicar no prompt formas específicas como fotografia comercial, ilustração ou 3D, e explicitar o tipo de iluminação desejado. O assistente oferece opções de descrição com composição e materiais claramente diferentes conforme o uso, para você escolher."
+        },
+        {
+            "q": "Como fazer a IA exibir o texto corretamente nas imagens geradas?",
+            "a": "A forma mais eficaz é colocar entre aspas, palavra por palavra, o texto que deve aparecer e indicar onde há espaço livre na imagem para ele. Se o texto aparecerá completo depende da ferramenta de imagem usada no momento. Se a ferramenta atual tiver pouca capacidade de escrever, você também pode gerar no canvas uma imagem com espaço reservado para a diagramação e adicionar o texto manualmente depois."
+        },
+        {
+            "q": "Ao editar uma imagem existente, como evitar que o personagem ou o assunto saia do padrão?",
+            "a": "Na descrição da edição, liste claramente as características de aparência, a pose ou ação, ou o layout que devem permanecer iguais e altere apenas detalhes locais. Evite reescrever todo o texto do zero; assim você reduz ao máximo as mudanças no assunto. Depois de ajustar o cartão de texto no canvas do {brand}, basta pedir ao assistente para gerar novamente."
+        }
+    ],
+    "keywords": [
+        "como escrever prompts de IA para imagens",
+        "estilos de imagem de IA",
+        "criar imagem de produto com IA",
+        "gerar pôster com IA",
+        "como adicionar texto em imagem de IA",
+        "IA gerar imagem mantendo rosto"
+    ]
+}

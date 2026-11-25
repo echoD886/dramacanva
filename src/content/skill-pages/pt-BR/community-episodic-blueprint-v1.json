@@ -1,0 +1,66 @@
+{
+    "title": "Transforme histórias em roteiro e storyboard de série curta",
+    "metaDescription": "Para iniciantes: envie um trecho de história ao AI e receba no canvas roteiros por episódio, perfis dos personagens e cards de storyboard.",
+    "oneLiner": "Envie uma história e receba no canvas o roteiro e o storyboard da série curta.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda você a organizar o plano de produção de uma série curta no canvas do {brand}. Ela divide uma história em episódios e escreve em cards de texto o que deve ser filmado em cada plano.",
+        "Você só precisa preparar um trecho de romance, um roteiro pronto ou uma sinopse da história. Se tiver ideias sobre o número de episódios, a duração de cada episódio ou o formato vertical/horizontal, também pode informar ao assistente de AI à direita.",
+        "Ao terminar, o canvas mostrará o roteiro episódio por episódio, as definições de figurino dos personagens, o storyboard (com imagem e ação indicadas por plano) e as descrições visuais, para você copiar ou baixar."
+    ],
+    "example": {
+        "input": "Envie um trecho de romance de 300 caracteres: o protagonista decadente encontra por acaso um velho misterioso numa noite chuvosa e recebe um livro sem palavras; ele quer transformar isso em uma série curta vertical de 3 episódios.",
+        "output": "No canvas são gerados o planejamento de 3 episódios, com diálogos de cada episódio, cards de aparência do velho e do protagonista, e cards de texto de cada plano já dividido."
+    },
+    "scenarios": [
+        "Tem um romance ou uma história em mãos e quer dividir em um esboço de série curta em que cada episódio tenha conflito.",
+        "Já escreveu o roteiro da série curta e precisa organizar as características físicas e o figurino dos personagens.",
+        "Vai pedir para alguém criar imagens ou vídeos e precisa detalhar a trama em descrições de planos.",
+        "Mudou às pressas um ferimento ou a roupa do protagonista e quer encontrar rapidamente quais planos precisam ser alterados também."
+    ],
+    "problems": [
+        {
+            "pain": "Ao adaptar um romance para série curta, a trama fica dispersa e você não sabe onde cada episódio deve parar para criar suspense.",
+            "solve": "Organiza o conflito principal e o gancho final de cada episódio, esclarece a ligação entre os episódios e gera cards de episódios."
+        },
+        {
+            "pain": "Mudou o figurino ou um objeto de cena no meio do processo, e os planos seguintes muitas vezes ficam desatualizados e não batem.",
+            "solve": "Confere o roteiro com as definições dos personagens e destaca automaticamente os cards de planos afetados, para você fazer ajustes específicos."
+        },
+        {
+            "pain": "Quer usar AI para gerar imagens, mas não sabe como transformar o storyboard em descrições adequadas.",
+            "solve": "Com base na imagem e na ação de cada plano, organiza cards de descrição para imagem e vídeo para você usar."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em «Usar esta habilidade» e envie sua história ou romance na caixa de diálogo à direita.",
+        "Veja os cards de roteiro de cada episódio gerados no canvas e confirme a trama por episódio e as definições dos personagens.",
+        "Detalhe os planos de cada episódio e gere as descrições de storyboard e as instruções de produção visual correspondentes.",
+        "Revise e edite o conteúdo dos cards; copie ou baixe o resultado para usar na produção seguinte."
+    ],
+    "faq": [
+        {
+            "q": "Como usar AI para transformar um romance em storyboard de série curta?",
+            "a": "Basta enviar o romance na caixa de diálogo à direita do canvas; a AI organiza a trama por episódio e gera cards de storyboard. Nos cards ficam claros os diálogos dos personagens e o que deve ser filmado em cada plano, para você editar diretamente no canvas. Quando estiver satisfeito, copie ou baixe o resultado em texto."
+        },
+        {
+            "q": "Mudei o figurino dos personagens no roteiro; como atualizar os planos seguintes?",
+            "a": "Depois de ajustar o figurino ou o estado dos personagens no roteiro, o sistema destaca os cards de planos afetados; você só precisa editar esses cards. Os outros planos não afetados permanecem iguais, sem precisar revisar e reescrever tudo do zero."
+        },
+        {
+            "q": "É possível gerar diretamente o vídeo final da série curta?",
+            "a": "Não é possível gerar diretamente o vídeo final. A ferramenta ajuda principalmente a organizar no canvas o roteiro em texto, o storyboard e as descrições visuais. Se precisar gerar vídeo, depois de confirmar o conteúdo em texto, use os recursos de imagem ou vídeo no canvas para continuar a produção."
+        },
+        {
+            "q": "A AI altera arbitrariamente o conteúdo do meu romance original?",
+            "a": "Não altera arbitrariamente. Ela procura preservar ao máximo os diálogos e eventos principais do texto que você forneceu, sem cortar nem mudar a ordem por conta própria. Se for necessário ajustar o tamanho, ela primeiro apresenta sugestões para você decidir se quer modificar."
+        }
+    ],
+    "keywords": [
+        "adaptar romance para série curta",
+        "como escrever roteiro de série curta",
+        "storyboard de série curta",
+        "esboço de episódios de série curta",
+        "roteiro de série curta com IA",
+        "processo de produção de série curta"
+    ]
+}

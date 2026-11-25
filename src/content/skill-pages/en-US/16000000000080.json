@@ -1,0 +1,66 @@
+{
+    "title": "Five-part storyboards with locked characters and style",
+    "metaDescription": "For short-film beginners: share a story idea and AI creates a five-stage story structure, character list, and shot-by-shot storyboard on the canvas.",
+    "oneLiner": "Input a story idea to build a five-part plot and shot-by-shot list on the canvas—great for short-film beginners.",
+    "intro": [
+        "This tool helps you organize a short-film plot. It breaks your story into five stages following a narrative arc and writes a shot-by-shot storyboard (dividing the video into individual shots and describing what happens in each).",
+        "You don’t need to know complex professional terms. Just use the chat box on the right side of the canvas to send your story idea, approximate duration, or characters you want to film to the AI assistant in plain language.",
+        "When it’s done, the canvas shows five-stage story cards, a checklist card that locks characters’ appearance and color palette, and storyboard cards with written shot visuals. You can view, edit, or copy them for use."
+    ],
+    "example": {
+        "input": "I want to make a 2-minute sci-fi short: an astronaut finds a glowing flower on a barren planet and wants to bring it back to the ship, but it triggers ground tremors.",
+        "output": "The canvas will generate a five-stage story structure table, an astronaut appearance and space color palette lock table, and storyboard cards that clearly describe each shot’s action and visual in order for you to review and copy."
+    },
+    "scenarios": [
+        "When you have a good idea but don’t know how to shape it into a story with ups and downs.",
+        "When you want to make a 1–3 minute short film and worry there isn’t enough time to tell a complete plot.",
+        "When you need multiple continuous shots and worry the character’s face or clothes will change in later shots.",
+        "When you worry the lighting and color tone will be inconsistent across shots, making the final cut look disjointed."
+    ],
+    "problems": [
+        {
+            "pain": "The opening doesn’t hold viewers, and the rest of the plot feels flat, like a mundane recap.",
+            "solve": "Split the story into five stages that build progressively, with the opening focused on a compelling hook so the plot has ups and downs."
+        },
+        {
+            "pain": "By the later shots, the protagonist’s face or clothes often change.",
+            "solve": "Before writing the storyboard, organize a character feature list and carry fixed appearance and clothing into every shot to minimize changes."
+        },
+        {
+            "pain": "Lighting and color tone vary from shot to shot, making the edit look jarring.",
+            "solve": "Lock the visual color and lighting tone on the canvas in advance so every shot keeps a consistent atmosphere."
+        }
+    ],
+    "steps": [
+        "In the skill library, click 'Use this skill' and enter your story idea in the chat box.",
+        "Review the five-stage plot outline generated on the canvas and confirm the story direction.",
+        "Check the character appearance and visual color palette list, then have AI generate a shot-by-shot storyboard.",
+        "Copy or download the results and save the organized storyboard and shot descriptions."
+    ],
+    "faq": [
+        {
+            "q": "How do I turn a story idea in my head into a short-film storyboard?",
+            "a": "First use the five stages to clarify the story’s setup, development, turn, and resolution, then break it into visual descriptions for each shot. On the right side of the {brand} canvas, send your story idea to the AI assistant, and it will progressively generate a story outline, character settings, and shot-by-shot storyboard cards on the canvas. Once you confirm everything looks right, you can copy or download the card content."
+        },
+        {
+            "q": "When generating multiple shots, how can I keep the character’s appearance from changing?",
+            "a": "Before writing specific shots, lock in the character’s appearance, hairstyle, and clothing list. In {brand}, the AI assistant will first organize a character feature table on the canvas and include the same feature terms in each shot’s visual description. This helps keep character features as consistent as possible and reduces the character’s face changing between shots."
+        },
+        {
+            "q": "How can a short video opening keep people watching?",
+            "a": "The key is to introduce a conflict or unusual phenomenon in the first few seconds to spark curiosity. When organizing the five-stage plot, this tool prioritizes placing the strongest hook or conflict in the first stage. This helps you grab viewers’ attention quickly and avoid a flat, mundane opening."
+        },
+        {
+            "q": "How can I keep the color tone and visual style consistent across shots in a short film?",
+            "a": "You need to set a unified color palette, lighting type, and visual texture for the entire short film before you start. In {brand}, the AI assistant will create a dedicated atmosphere lock card and add the unified visual style requirements to each shot’s description. This way, when the shots are edited together, the color and lighting will look natural and consistent."
+        }
+    ],
+    "keywords": [
+        "short film storyboard",
+        "story to storyboard",
+        "short video script outline",
+        "short drama plot design",
+        "AI storyboard generator",
+        "five-part short film structure"
+    ]
+}

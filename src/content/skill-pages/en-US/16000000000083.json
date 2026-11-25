@@ -1,0 +1,67 @@
+{
+    "title": "Write stand-up bits and openers, sharpen punchlines, perform",
+    "metaDescription": "For new stand-ups or funny talks: send daily mishaps to AI on the {brand} canvas to get a 1-minute bit draft, opener, and bombing recovery checklist.",
+    "oneLiner": "Enter a bad-luck story to generate a stand-up draft and stage checklist on the canvas—great for beginners.",
+    "intro": [
+        "This is a creative assistant that helps turn everyday moments into funny stand-up material. Even if you've never written comedy, it walks you through making plain speech funnier step by step.",
+        "You don't need to know how to write a professional script. Just bring a cringey or unlucky experience you've had—or a chunk of plain speech you want to say—and send it to the AI assistant in the chat box on the right.",
+        "When it's done, text cards appear on the canvas with a 1-minute bit script, an opening line for the stage, and a polish checklist that teaches you how to ease nerves and handle a silent room."
+    ],
+    "example": {
+        "input": "I just started learning to drive and failed the skills section of the driving test three times. Every failure was for a ridiculous reason. I want to write a one-minute bit to make fun of myself.",
+        "output": "Three text cards are generated on the canvas: a 1-minute bit script that sorts out the unlucky details, a self-deprecating opener that works as an icebreaker, and a stage tip sheet reminding you to slow down and leave time for laughs."
+    },
+    "scenarios": [
+        "You have a few scattered jokes and want to string them into one smooth stand-up set.",
+        "Something bad happened and you want to make fun of yourself, but it's so messy you don't know where to start.",
+        "Your funny story reads flat and you want to make the punchlines hit harder and get bigger laughs.",
+        "You're getting ready for an open mic (a practice stage for new stand-ups) and are afraid of freezing up or bombing."
+    ],
+    "problems": [
+        {
+            "pain": "You want to talk about the unlucky things in your life, but the details are too messy and you don't know how to turn them into a bit.",
+            "solve": "It helps you find the most specific, unusual details and organize them into content cards that set up the context first and land the punchline after."
+        },
+        {
+            "pain": "Your written bit doesn't get laughs when you read it aloud; it sounds flat, like a boring recap.",
+            "solve": "It cuts the wordy filler and moves the most surprising twist to the end of each line."
+        },
+        {
+            "pain": "You've memorized the script, but your heart races as soon as you get onstage, and you don't know what to do if no one laughs.",
+            "solve": "It gives you rehearsal methods for slowing down and leaving pauses, plus a few lines to joke your way through a silent room."
+        }
+    ],
+    "steps": [
+        "Click 'Use This Skill' in the skills library to enter the creation screen.",
+        "Enter your bad-luck story, an everyday moment, or a draft you've already written.",
+        "Review the bit structure draft, opener options, and tip cards generated on the canvas.",
+        "Edit the text in the cards so it matches the way you actually talk.",
+        "Copy or download the results to use for rehearsal or a live performance."
+    ],
+    "faq": [
+        {
+            "q": "What should I do if I can't write stand-up material?",
+            "a": "Start with the smallest embarrassing moment or mistake from your own life, not big ideas. Write down one specific unlucky thing that happened, find the moment that made you feel embarrassed or surprised, and build out from there to find the punchline."
+        },
+        {
+            "q": "How do I turn everyday moments into funny bits?",
+            "a": "Set up the context clearly first, and save the most surprising punchline for the last line. During rehearsal, cut the extra filler so the audience knows what to expect—then use an unexpected twist to get the laugh."
+        },
+        {
+            "q": "How do I connect scattered jokes into a complete stand-up set?",
+            "a": "Sort the bits by theme, then order them by emotional ups and downs. Open with a gentle, safe joke to connect with the audience, use natural transitions between stories, and don't lead with your strongest punchline right away."
+        },
+        {
+            "q": "What if I get nervous and forget my lines onstage?",
+            "a": "If you blank onstage, pause and admit it with a self-deprecating joke, or just jump to the next bit and keep going. In rehearsal, remember story scenes and emotions rather than memorizing word for word, so you can keep going in your own words even if you forget a line."
+        }
+    ],
+    "keywords": [
+        "how to write stand-up jokes",
+        "stand-up comedy for beginners",
+        "how to be funny when speaking",
+        "what to do when you can't write jokes",
+        "stand-up comedy opener",
+        "stand-up stage fright and forgetting lines"
+    ]
+}

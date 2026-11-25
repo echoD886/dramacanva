@@ -1,0 +1,67 @@
+{
+    "title": "Convierte tu anuncio en historia de marca (8 etapas)",
+    "metaDescription": "Para creadores que solo saben elogiar el producto. Con producto y audiencia, la IA crea una historia, plan de 8 etapas y una lista de contenidos como guion.",
+    "oneLiner": "Introduce los datos del producto y genera en el lienzo un guion de historia de marca con conflicto, sin resultar forzado.",
+    "intro": [
+        "Este es un recurso de planificación que te ayuda a escribir historias de marca. En lugar de alabanzas forzadas, convierte los argumentos de venta del producto en una historia real con giros que resuelve las dificultades del usuario.",
+        "Solo necesitas una breve presentación del producto, a quién quieres vendérselo y qué problemas suele tener el usuario. Aunque nunca hayas escrito un guion narrativo, puedes usarlo directamente.",
+        "La IA genera en el lienzo tres grupos de tarjetas de texto: la línea argumental completa de la historia de marca, un plan de avance en ocho etapas y una lista de contenidos de necesidades que ayuda a resolver los problemas del usuario."
+    ],
+    "example": {
+        "input": "Hacemos teclados mecánicos silenciosos para oficina y queremos crear una historia promocional para programadores que hacen horas extra; no queremos que todo sean especificaciones técnicas.",
+        "output": "En el lienzo se generan tres tarjetas de texto: parte del conflicto de un protagonista que teclea de madrugada y molesta a su familia, desarrolla el giro de la historia en ocho etapas y enumera una lista de contenidos de necesidades que resuelve los puntos de dolor."
+    },
+    "scenarios": [
+        "Al promocionar un producto nuevo, solo sabes enumerar sus argumentos de venta en el vídeo y la audiencia pasa de largo.",
+        "Al escribir el guion de un vídeo promocional, la trama es demasiado plana y parece una lista de hechos; no deja ningún recuerdo.",
+        "Repetir la misma función en el anuncio resulta pesado y no sabes cómo introducir giros.",
+        "No tienes claro si conviene vender el producto desde el principio o resolver primero las dudas reales del usuario."
+    ],
+    "problems": [
+        {
+            "pain": "El anuncio parece un manual de producto: solo recita especificaciones y el público se aburre y pasa de largo.",
+            "solve": "Te ayuda a reescribir el autoelogio como una historia que resuelve dificultades, para que el público conecte primero y luego vea el valor del producto con naturalidad."
+        },
+        {
+            "pain": "La historia promocional es demasiado plana: al protagonista todo le sale bien y el público no la recuerda.",
+            "solve": "Ordena las relaciones causa-efecto según las ocho etapas e incorpora obstáculos reales y puntos de giro para dar más altibajos a la trama."
+        },
+        {
+            "pain": "No sabes si vender desde el primer momento o aportar primero contenido útil al público.",
+            "solve": "Genera una lista de contenidos de necesidades que te ayuda a explicar primero los puntos de dolor del usuario y ofrecer ideas, para luego impulsar la acción de forma natural."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo de {brand}.",
+        "Introduce la información de tu producto, el público objetivo y los argumentos de venta que quieres transmitir.",
+        "Revisa las tarjetas del lienzo con la línea argumental, el plan de avance y la lista de contenidos de necesidades.",
+        "Haz clic en las tarjetas para editar el texto o indica al asistente en el chat cómo ajustar los detalles.",
+        "Copia o descarga las tarjetas de resultados y úsalas directamente como guion para tu próximo vídeo promocional."
+    ],
+    "faq": [
+        {
+            "q": "¿Por qué a los demás les parece un anuncio forzado el que hago?",
+            "a": "Sobre todo porque solo presume de los argumentos de venta. Conviene adoptar el punto de vista del usuario: mostrar primero las dificultades reales y los giros y, después, presentar el producto. La habilidad te ayuda a ordenar la lista de contenidos de necesidades y la línea argumental para que el público conecte primero y sienta menos rechazo."
+        },
+        {
+            "q": "¿Cómo se desarrollan exactamente las ocho etapas del marketing narrativo?",
+            "a": "Siguen el orden de crear una necesidad en el público, añadir obstáculos reales y giros y, por último, impulsar la acción, pasando de forma natural de la dificultad del usuario al producto. La IA genera en el lienzo tarjetas con el plan de avance y la línea argumental, ordena la lógica causal y te permite ajustar las tarjetas con un clic."
+        },
+        {
+            "q": "¿Qué hago si la historia es demasiado plana y parece una lista de hechos?",
+            "a": "La solución es añadir obstáculos reales y puntos de giro al protagonista, romper una causalidad demasiado favorable y dar altibajos a la trama. La habilidad te ayuda a diagnosticar la trama actual y a añadir resistencias externas y conflictos internos para que el público conecte emocionalmente con más facilidad."
+        },
+        {
+            "q": "Al promocionar un producto nuevo, ¿debo presentar primero las funciones o contar primero la historia?",
+            "a": "Se recomienda usar primero la historia para mostrar los problemas del usuario y crear necesidad, evitar que pasen de largo por una venta directa y, cuando haya conexión, presentar las funciones del producto. La habilidad genera primero una lista de contenidos de necesidades que responde a las dudas, ayuda al usuario a formarse una idea y luego impulsa la acción de forma natural."
+        }
+    ],
+    "keywords": [
+        "cómo escribir una historia de marca",
+        "qué hacer si el anuncio suena forzado",
+        "esquema de historia para vídeo promocional",
+        "pasos del marketing narrativo",
+        "cómo escribir un guion de vídeo entretenido",
+        "cómo convertir un anuncio en historia"
+    ]
+}

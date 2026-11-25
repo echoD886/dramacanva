@@ -1,0 +1,66 @@
+{
+    "title": "Roteiros de minissérie com falas e ritmo revisados",
+    "metaDescription": "Para criadores de minisséries: crie no canvas do {brand} roteiros com vários episódios, limites de palavras e diálogos naturais, checando furos na trama.",
+    "oneLiner": "Dê uma ideia de história e gere no canvas um roteiro de minissérie dividido em episódios, ideal para iniciantes.",
+    "intro": [
+        "Esta é uma ferramenta de criação que ajuda você a escrever minisséries no canvas. Ela divide a escrita complexa de roteiro em etapas fixas, ajuda a controlar o ritmo de cada episódio e faz as falas soarem como pessoas reais falando.",
+        "Você só precisa ter uma breve ideia de história. Pode indicar quem é o protagonista, quantos episódios deseja ou pedir um estilo específico de diálogo; o que ainda não estiver definido, a ferramenta estabelece antes conforme padrões do setor.",
+        "No final, você recebe no canvas um conjunto de cartões de texto, incluindo o esboço da história completa, padrões de tamanho e ritmo por episódio, o roteiro com diálogos coloquiais e uma ficha de continuidade para evitar inconsistências na trama."
+    ],
+    "example": {
+        "input": "Quero escrever uma minissérie urbana de vingança no ambiente de trabalho, em que a protagonista volta à empresa como supervisora. Preciso do esboço de 20 episódios e do roteiro dos 3 primeiros, com diálogos que soem como pessoas discutindo de verdade.",
+        "output": "Gera vários cartões de texto no canvas: esboço de 20 episódios, planejamento de tamanho para episódios de 90 a 120 segundos, diálogos coloquiais dos 3 primeiros episódios e uma ficha de continuidade registrando relações entre personagens e objetos de cena."
+    },
+    "scenarios": [
+        "Ter apenas uma ideia de história e querer planejá-la como um esboço completo de minissérie com 20 a 30 episódios.",
+        "As falas escritas soam como leitura de texto; é preciso transformá-las em diálogos naturais de pessoas, com idas e vindas.",
+        "Ao escrever vários episódios seguidos, é fácil confundir detalhes e temer contradições posteriores no estado dos personagens e nos objetos.",
+        "Não ter certeza da duração de cada episódio e precisar conferir palavras e pontos de corte conforme o padrão de 90 a 120 segundos."
+    ],
+    "problems": [
+        {
+            "pain": "A história trava depois de vinte e poucos episódios e o enredo fica arrastado e sem graça.",
+            "solve": "Ajuda a dividir a trama em etapas, resolver um conflito principal em 20 a 30 episódios e fazer a transição para uma nova crise com fluidez."
+        },
+        {
+            "pain": "As falas dos personagens soam artificiais, como leitura em voz alta, e todos falam com o mesmo tom.",
+            "solve": "Remove explicações artificiais, divide frases longas e formais em falas curtas de ida e volta e acrescenta pequenos hábitos de fala a cada personagem."
+        },
+        {
+            "pain": "Mais adiante, é comum esquecer detalhes anteriores, o que gera inconsistências em objetos e personagens.",
+            "solve": "Cria no canvas uma ficha de continuidade; antes de escrever conteúdo novo, confira objetos e estados dos personagens no texto anterior e atualize a ficha depois de escrever."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir a caixa de diálogo do canvas do {brand}.",
+        "Envie sua ideia de história; se quiser, inclua o total de episódios desejado, preferências de estilo ou a duração por episódio.",
+        "Veja no canvas os cartões de texto com o esboço completo, as especificações por episódio e o roteiro, e edite diretamente online.",
+        "Peça para regenerar as partes que precisam de ajuste e, quando estiver satisfeito, copie ou baixe o resultado do roteiro."
+    ],
+    "faq": [
+        {
+            "q": "Como fazer as falas de um roteiro de minissérie soarem como pessoas reais falando?",
+            "a": "O principal é remover explicações didáticas desnecessárias, dividir frases longas e formais em falas curtas de ida e volta e acrescentar ações e hábitos de fala naturais aos personagens. Ao gerar o roteiro, a IA diagnostica os diálogos segundo essas regras, encurta ao máximo as frases e marca ações, reduzindo a sensação mecânica de leitura em voz alta."
+        },
+        {
+            "q": "Quantas palavras por episódio e qual duração final são ideais para uma minissérie?",
+            "a": "Normalmente, recomenda-se que cada episódio dure de 90 a 120 segundos. Para minisséries live-action, sugere-se de 350 a 500 palavras por episódio; para animações em estilo quadrinhos, de 260 a 400 palavras. Ao planejar as especificações dos episódios, esta habilidade aplica esses padrões para ajustar palavras e pontos de corte, evitando conteúdo longo demais ou ritmo arrastado."
+        },
+        {
+            "q": "Como evitar inconsistências de trama ao escrever dezenas de episódios seguidos?",
+            "a": "O método principal é, antes de escrever novos episódios, conferir na ficha de continuidade o estado dos personagens, os objetos e as pistas plantadas; só comece a escrever após confirmar que não há conflitos e atualize a ficha ao terminar. No canvas, a IA mantém essa ficha de referência para você e verifica as informações anteriores a cada episódio, evitando ao máximo contradições e furos com objetos."
+        },
+        {
+            "q": "Depois de vinte ou trinta episódios, o público tende a abandonar a minissérie; como manter a audiência?",
+            "a": "O ponto-chave é resolver completamente um conflito principal dentro de 20 a 30 episódios e imediatamente introduzir uma nova crise, mantendo uma oscilação emocional a cada 30 segundos por episódio. Na etapa de esboço, esta habilidade já planeja esse ritmo de avanço por fases, evitando que a trama fique monótona e arrastada no meio e no fim."
+        }
+    ],
+    "keywords": [
+        "roteiro de minissérie",
+        "quantas palavras por episódio de série curta",
+        "roteiro de série curta sem cara de IA",
+        "formato de roteiro de minissérie",
+        "outline de minissérie",
+        "como escrever diálogos para série curta"
+    ]
+}

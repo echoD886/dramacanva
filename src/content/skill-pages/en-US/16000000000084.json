@@ -1,0 +1,66 @@
+{
+    "title": "Turn scattered ideas into a full outline with plot twists",
+    "metaDescription": "For story and short-drama creators. Share loose ideas, confirm the direction, and let AI build canvas outline cards with a beginning, twists, and ending.",
+    "oneLiner": "Enter scattered inspiration and map out a complete story outline on the canvas with a beginning, turning point, and ending.",
+    "intro": [
+        "This is a tool that helps you organize your story framework. When you only have fragmented ideas in your head and don't know how to connect them into a complete story, it helps you clarify the plot from start to finish.",
+        "You only need to prepare your initial idea, rough character ideas, or a draft you're stuck on halfway through, and send it directly to the AI assistant in the chat box on the right side of the canvas.",
+        "AI will generate text outline cards on the canvas, clearly listing the story's inciting incident, key turning points, climax choices, and ending. You can view, edit, or copy them directly."
+    ],
+    "example": {
+        "input": "I want to write a short film: a delivery driver finds a backpack full of cash, the owner is a suspicious person, he wants to return the money but his family urgently needs money, and I don't know how to develop it next.",
+        "output": "AI will generate a story outline card on the canvas, dividing the plot into the opening disruption of daily life, the mid-story crisis over returning the money and multiple choices, and a believable climax and ending."
+    },
+    "scenarios": [
+        "You only have one fun character or opening idea and don't know how to develop it.",
+        "Your story gets stuck halfway, and the plot feels flat, like a list of events, so you don't know what happens next.",
+        "You reach the ending but can't wrap it up, or the final twist feels too abrupt and unreasonable.",
+        "The draft is done but feels like it's missing something, and you want to check whether the key plot points make sense."
+    ],
+    "problems": [
+        {
+            "pain": "You only have an opening idea and don't know how to expand it into a complete story.",
+            "solve": "It helps you sort out the incident that disrupts the protagonist's quiet life and lays out a causally connected story outline on the canvas."
+        },
+        {
+            "pain": "The plot gets flatter in the middle, and the protagonist just drifts from scene to scene like a day-to-day log.",
+            "solve": "It finds the conflicts and designs key turning points that change the protagonist's situation, filling in the middle on the canvas."
+        },
+        {
+            "pain": "The ending feels bland, or the twist is too forced and confusing.",
+            "solve": "It derives the climax conflict from earlier cause and effect, checks for setup and payoff, and offers reasonable ending revision suggestions."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill\" to start creating in the {brand} canvas.",
+        "Send your existing story inspiration, character setup, or half-finished draft.",
+        "Review the inciting incident, turning point, and ending outline cards AI generates on the canvas.",
+        "Adjust plot details you don't like, then copy the text or download the outline result."
+    ],
+    "faq": [
+        {
+            "q": "What should I do if I get stuck halfway through a story and don't know how to continue?",
+            "a": "You can create an unavoidable problem for the protagonist and force them to make an active choice. Many stories feel flat in the middle because the protagonist never faces real obstacles. Try figuring out what the protagonist fears most, and make each decision lead to new trouble; the story will then move forward naturally."
+        },
+        {
+            "q": "How can I make the ending feel reasonable and not abrupt?",
+            "a": "The final twist should be set up in the first half of the story, not come out of nowhere. Check whether the ending results from the protagonist's personality and earlier choices, rather than relying on coincidence or a sudden accident. Once cause and effect are clear, the audience will feel it is surprising yet plausible."
+        },
+        {
+            "q": "I only have a vague idea. Can AI help me turn it into an outline?",
+            "a": "Yes. Just explain who the protagonist is and what happened to them. AI will use classic story patterns to fill in the opening event, middle development, and climax/ending on the canvas. You can keep choosing and revising the direction you like on the generated outline cards."
+        },
+        {
+            "q": "How can I tell whether my story idea is worth developing?",
+            "a": "Mainly check whether the opening incident disrupts the protagonist's normal life and cannot easily be undone. If the protagonist can return to normal at any time after trouble arises, the story is often hard to sustain. As long as the protagonist has to keep going and the costs keep rising, the idea is worth writing."
+        }
+    ],
+    "keywords": [
+        "how to write a story outline",
+        "story stuck in the middle",
+        "script outline development",
+        "plot twist ideas",
+        "how to write a script ending",
+        "short drama story ideas"
+    ]
+}

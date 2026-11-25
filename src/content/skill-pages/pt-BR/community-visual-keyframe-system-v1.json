@@ -1,0 +1,66 @@
+{
+    "title": "Unifique o estilo visual e o storyboard do microdrama",
+    "metaDescription": "Para criadores de microdramas e vídeos: envie o roteiro; ele define no canvas regras de cor e aparência e gera prompts por cena e imagens de referência.",
+    "oneLiner": "Envie o roteiro, defina no canvas o estilo do microdrama e a aparência dos personagens e gere os requisitos das imagens.",
+    "intro": [
+        "Ideal para criadores de microdramas: envie a história do roteiro e ele ajuda a unificar, no canvas, a paleta de cores e a iluminação, buscando manter a aparência dos personagens consistente e evitar quebra de estilo entre planos consecutivos.",
+        "Você só precisa preparar o roteiro da história ou a ficha dos personagens. Se não tiver imagens prontas, pode enviar apenas a história em texto; ele primeiro sugere algumas direções visuais diferentes para você escolher.",
+        "Ao final, você recebe no canvas o conjunto completo de regras de estilo, a tabela de regras de aparência dos personagens, os prompts de geração de imagem para cada plano (as instruções enviadas à IA para gerar a cena) e uma checklist para conferir os detalhes visuais."
+    ],
+    "example": {
+        "input": "Envie um roteiro de microdrama ambientado em um escritório moderno, informando que a protagonista é uma funcionária de escritório de cabelo curto e óculos de armação preta, e que o visual geral deve puxar para tons frios, limpo e claro.",
+        "output": "No canvas, serão gerados a tabela de regras de aparência dos personagens, um cartão de definição visual em tons frios e os requisitos de imagem dos 3 primeiros planos; também será destacado o detalhe de que a protagonista troca de roupa no 2º plano."
+    },
+    "scenarios": [
+        "O roteiro acabou de ficar pronto e ainda não está definido se o visual será de live-action, anime 2D ou estilo de pintura a tinta.",
+        "Ao gerar várias imagens, o rosto, o cabelo ou a roupa do mesmo protagonista mudam com frequência de um plano para outro.",
+        "Não saber como escrever os requisitos de imagem de cada plano nem como descrever a cena para a IA.",
+        "Depois de gerar as imagens dos planos, é preciso verificar se iluminação, clima e detalhes dos personagens estão consistentes entre elas e se não há erros visíveis."
+    ],
+    "problems": [
+        {
+            "pain": "O estilo visual quebra entre planos: um é realista e o seguinte vira anime.",
+            "solve": "Defina primeiro no canvas as regras de cor, composição e iluminação para que todas as imagens dos planos sigam o mesmo padrão."
+        },
+        {
+            "pain": "O mesmo personagem muda de rosto a cada plano, e roupa e cabelo costumam não bater.",
+            "solve": "Monte uma tabela de regras de aparência do personagem, especificando cabelo, figurino e objetos, e busque manter os traços consistentes ao gerar as imagens."
+        },
+        {
+            "pain": "Não saber como escrever a descrição da imagem; os termos que você escreve sozinho geram resultados instáveis.",
+            "solve": "Divida a cena em sujeito, cenário, composição e iluminação e gere no canvas prompts padronizados (instruções de geração de imagem)."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de skills, clique em “Usar esta skill” e envie seu roteiro ou história no chat à direita.",
+        "Confira o cartão de regras de estilo visual e a tabela de regras de aparência dos personagens gerados no canvas.",
+        "Gere prompts de imagem plano a plano (as instruções enviadas à IA) e imagens de referência visual.",
+        "Use a checklist para dizer ao assistente o que deseja ajustar; quando estiver satisfeito, baixe as imagens no canvas."
+    ],
+    "faq": [
+        {
+            "q": "Como manter a aparência dos personagens consistente entre planos gerados por IA?",
+            "a": "Não dá para garantir consistência absoluta, mas definir as características físicas antes de gerar ajuda a manter a continuidade o máximo possível. A ferramenta lista primeiro cabelo, figurino e acessórios do personagem, e cada plano altera apenas ação e ângulo. Se algum plano sair diferente, use a checklist para pedir ao assistente que ajuste a descrição e gere novamente esse plano."
+        },
+        {
+            "q": "Posso usar esta skill sem ter imagens prontas dos personagens ou imagens de referência?",
+            "a": "Sim; dá para usar enviando apenas a história em texto. A ferramenta recomenda primeiro de duas a três opções de estilo visual conforme o tipo de história e organiza as regras em texto no canvas. Quando tiver imagens de que goste, você pode enviá-las depois a qualquer momento."
+        },
+        {
+            "q": "Esta skill consegue criar diretamente um vídeo completo já editado?",
+            "a": "Não. Ela serve principalmente para planejar o estilo visual e gerar imagens de storyboard. Não edita automaticamente o vídeo final nem faz dublagem ou narração separada. Se você precisar transformar em vídeo, organize você mesmo os planos na linha do tempo de vídeo do canvas e depois exporte."
+        },
+        {
+            "q": "É preciso gerar imagens para todos os planos de um microdrama?",
+            "a": "Não é preciso gerar imagem para cada plano. Normalmente basta criar imagens representativas para o plano geral que apresenta o ambiente, as viradas-chave da trama e as ações importantes; os demais planos de transição podem ser planejados só em texto. Isso economiza bastante tempo de testes de geração de imagem."
+        }
+    ],
+    "keywords": [
+        "como fazer storyboard de microdrama",
+        "consistência de personagem com IA",
+        "estilo visual consistente em microdrama",
+        "prompts para imagens de storyboard",
+        "personagem inconsistente em microdrama com IA",
+        "criação de keyframes para microdrama"
+    ]
+}

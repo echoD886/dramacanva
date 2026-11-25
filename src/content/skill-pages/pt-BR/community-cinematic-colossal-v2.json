@@ -1,0 +1,66 @@
+{
+    "title": "Digite palavras e receba prompts de imagens cinematográficas",
+    "metaDescription": "Para iniciantes em vídeo: digite uma ideia curta e a IA cria no canvas cartões de texto com detalhes de fotografia e clima de cinema, prontos para copiar.",
+    "oneLiner": "Dê algumas palavras e crie cartões de descrição de cenas cinematográficas no canvas, ideal para iniciantes.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda iniciantes a escrever prompts (instruções enviadas à IA para desenhar ou criar vídeos). Ela expande algumas palavras que você pensou em uma descrição de cena com textura cinematográfica realista.",
+        "Você não precisa entender de fotografia complexa. Basta ter uma palavra ou frase simples, como “dragão chinês”, “deus antigo” ou “besta do deserto”, e enviar diretamente ao assistente de IA.",
+        "Depois de concluir, você receberá no canvas um cartão de texto detalhado. Ele especifica ângulo de câmera, iluminação e detalhes do ambiente; basta copiar e usar para gerar imagens com clima de cinema."
+    ],
+    "example": {
+        "input": "No campo de diálogo, digite “dragão chinês”.",
+        "output": "No canvas, será gerado um cartão de texto especificando pedestres olhando para cima na rua em primeiro plano, prédios altos no plano médio, um dragão oriental com vapor d'água atravessando as nuvens ao fundo, e detalhes de iluminação dos relâmpagos iluminando as escamas do dragão."
+    },
+    "scenarios": [
+        "Quero desenhar um dragão chinês ou uma criatura mítica do Shanhaijing e espero que a forma siga a mitologia oriental tradicional, sem parecer um dragão alado ocidental.",
+        "Quero criar uma cena da chegada de um deus antigo ou de um monstro gigantesco, e espero que o monstro pareça realmente enorme e com sensação de opressão.",
+        "Criar uma cena pós-apocalíptica ou de desastre e usar as multidões e os edifícios no chão para dar escala a uma criatura colossal desconhecida.",
+        "Quero criar um clipe de vídeo com IA e não sei como descrever o movimento da câmera, os movimentos da criatura gigante e as mudanças de vento e chuva."
+    ],
+    "problems": [
+        {
+            "pain": "O monstro gigante gerado parece um desenho colado no fundo, parece pequeno e não tem a sensação de opressão do cinema.",
+            "solve": "Adiciona automaticamente multidões olhando para cima e prédios altos no chão como referência, deixando o monstro aparecer apenas em parte para reforçar a escala colossal."
+        },
+        {
+            "pain": "Quero desenhar um dragão chinês, mas a IA sempre desenha um grande lagarto ocidental com asas enormes que cospe fogo.",
+            "solve": "Adiciona automaticamente características tradicionais, como corpo longo de serpente, chifres de cervo e escamas finas, além de detalhes de deslocamento na chuva e no vento, evitando o dragão alado ocidental."
+        },
+        {
+            "pain": "Ao escrever comandos de vídeo, descrevi apenas a imagem; o vídeo gerado ficou rígido e com movimentos não naturais.",
+            "solve": "Descreve em sequência como a câmera se move, como a criatura gigante se move lentamente e as reações ao redor sob vento e chuva."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o campo de diálogo à direita do canvas.",
+        "Digite as palavras curtas que deseja trabalhar, como “dragão chinês” ou “a chegada de um deus antigo”.",
+        "Veja o cartão de texto gerado no canvas e use o campo de diálogo para dizer ao assistente como quer modificar.",
+        "Copie ou baixe o resultado e envie diretamente à IA para gerar imagens ou vídeos com clima de cinema."
+    ],
+    "faq": [
+        {
+            "q": "Como criar imagens com IA que tenham clima de cinema?",
+            "a": "O essencial é especificar fontes de luz concretas, condições climáticas e ambiente, além de pessoas e edifícios no chão como referência de escala, em vez de apenas acumular frases vazias como “clima de cinema”. No canvas do {brand}, digite palavras curtas e o assistente de IA completa automaticamente esses detalhes de fotografia, gerando um cartão de descrição completo."
+        },
+        {
+            "q": "Como a IA consegue desenhar monstros ou criaturas míticas como realmente gigantescos?",
+            "a": "O ponto central é incluir humanos ou prédios altos na imagem como referência de escala e usar um ângulo de baixo para cima a partir do chão, deixando o monstro aparecer só em parte. Evite mostrar o monstro inteiro centralizado; deixar parte dele escondida em nuvens ou sombras traz uma sensação de escala mais real. No canvas do {brand}, o assistente de IA adiciona automaticamente esses elementos de referência e gera um cartão de texto."
+        },
+        {
+            "q": "Como evitar que a IA desenhe um dragão chinês como um grande lagarto ocidental?",
+            "a": "É preciso especificar na descrição características tradicionais como corpo longo de serpente, chifres de cervo e escamas finas, e também excluir claramente as asas grandes e o ato de cuspir fogo do dragão alado ocidental. Você pode fazer o dragão atravessar nuvens de tempestade ou vapor d'água de rios, aumentando a atmosfera solene da mitologia oriental. Ao usar esta habilidade, o assistente de IA gera automaticamente um cartão de descrição com as características tradicionais do dragão oriental."
+        },
+        {
+            "q": "Em vídeos com IA, como fazer os movimentos parecerem naturais e não rígidos?",
+            "a": "É preciso descrever em etapas o movimento da câmera e as ações do sujeito, além de acrescentar reações físicas do ambiente, como vento movendo a vegetação ou poeira sendo levantada. Em especial, os movimentos de objetos enormes devem ser descritos como lentos e pesados; quanto maior o sujeito, mais evidentes devem ser as reações ao redor. No canvas do {brand}, o assistente de IA organiza automaticamente as descrições de movimento segundo essa lógica e gera um cartão de texto padronizado."
+        }
+    ],
+    "keywords": [
+        "imagens cinematográficas com IA",
+        "gerar dragão chinês com IA",
+        "prompts cinematográficos",
+        "imagens de criaturas mitológicas com IA",
+        "como escrever prompts para vídeo com IA",
+        "descrição de cena cinematográfica"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "Crea vídeos con una imagen de referencia: acción en 15 s",
+    "metaDescription": "Para quien quiere un corto y no sabe describir imágenes: sube una referencia y una acción; la IA extrae luz y color, genera tres clips y los une en 15 s.",
+    "oneLiner": "Sube una imagen de referencia y escribe una acción para crear un corto de quince segundos con el mismo estilo.",
+    "intro": [
+        "Esta es una herramienta que te ayuda a crear vídeos siguiendo el estilo de una imagen. Si te gustan la luz y el color de una imagen, puede llevar esa textura visual a tus vídeos.",
+        "Solo necesitas dos cosas: una imagen de referencia cuyo aspecto visual te guste y una frase que indique claramente qué quieres que hagan las personas u objetos de la escena.",
+        "La IA creará en el lienzo una tabla de planos (indicaciones que dividen la acción en tres pasos) y generará los tres clips correspondientes para que puedas montar un corto de quince segundos."
+    ],
+    "example": {
+        "input": "Sube un fotograma de una escena callejera nocturna con neones bajo la lluvia y escribe: «Un detective con gabardina se enciende un cigarrillo bajo una farola y alza la vista hacia la lluvia».",
+        "output": "En el lienzo se generará una tarjeta de paleta fría y cálida en azul y amarillo extraída de la imagen, las descripciones de texto de tres planos (primer plano, encender el cigarrillo y alzar la vista) y tres clips cortos generados a partir de esas descripciones."
+    },
+    "scenarios": [
+        "Ver un fotograma de película con un color muy bonito y querer hacer un vídeo corto con el mismo aspecto visual.",
+        "Al escribir tus propias descripciones de vídeo sientes que la imagen queda gris y sin textura, y quieres añadir detalles realistas de luz y sombra.",
+        "Solo tienes una idea sencilla de acción y no sabes cómo dividirla en planos coherentes y atractivos.",
+        "Necesitas hacer un corto con varios planos seguidos y quieres que el color y la luz se mantengan consistentes de principio a fin."
+    ],
+    "problems": [
+        {
+            "pain": "Te gusta la textura cinematográfica de la imagen de referencia, pero no consigues escribir ese efecto de luz y color.",
+            "solve": "La IA analiza la luz y el estilo de color de la imagen de referencia y lo resume automáticamente en una descripción de estilo que incluye en los planos."
+        },
+        {
+            "pain": "Los vídeos generados por IA suelen tener movimientos rígidos y un aspecto falso, como un modelo de plástico de baja calidad.",
+            "solve": "Añade de forma activa detalles como gotas de agua, reflejos y polvo fino en la descripción de la imagen para que parezca real y natural."
+        },
+        {
+            "pain": "Solo tienes una idea sencilla de acción y no sabes cómo dividirla en un vídeo corto coherente y agradable de ver.",
+            "solve": "Divide automáticamente la acción en tres partes: un plano cercano inicial, la acción principal y una mirada final sostenida, y las convierte en planos coherentes."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir la interfaz de chat a la derecha del lienzo.",
+        "Sube una imagen de referencia del estilo que te guste y escribe una frase que describa la acción.",
+        "Consulta el análisis de estilo y el texto de los tres planos generados en el lienzo; puedes modificarlos sobre la marcha.",
+        "Pide al asistente que genere las tarjetas de los tres clips de vídeo correspondientes; si no te convencen, puedes volver a generarlas.",
+        "Ordena los clips en la línea de tiempo del vídeo y exporta el vídeo completo de quince segundos."
+    ],
+    "faq": [
+        {
+            "q": "¿Puedo introducir solo texto y generar este tipo de vídeo con aspecto cinematográfico sin una imagen de referencia?",
+            "a": "No, esta función necesita una imagen de referencia para extraer el estilo. Si no tienes una imagen ya preparada, te recomendamos elegir o generar primero en el lienzo una imagen que te guste y usarla después como referencia."
+        },
+        {
+            "q": "¿Cómo puedo hacer tres clips con el mismo estilo a partir de una sola imagen?",
+            "a": "Sube la imagen de referencia y escribe la acción; la IA analizará automáticamente la luz y el color de la imagen y los incluirá en los tres planos para mantener la coherencia de estilo todo lo posible. Si la calidad de algún plano no encaja, puedes ajustar en el lienzo la descripción de texto de ese plano y volver a generarlo."
+        },
+        {
+            "q": "¿Cómo conviene escribir una petición de acción de una sola frase para obtener un buen resultado?",
+            "a": "Basta con indicar claramente quién hace qué acción y en qué lugar, por ejemplo: «Un boxeador practica puñetazos en un callejón durante una noche de lluvia». La IA añadirá automáticamente primeros planos de detalle, el desarrollo de la acción y un plano final, sin que tengas que idear antes una división compleja de planos."
+        },
+        {
+            "q": "¿Qué hago si el vídeo generado parece falso o de plástico?",
+            "a": "Puedes modificar directamente en el lienzo la descripción de texto de ese plano, añadir detalles de luz, sombra o materiales y volver a generarlo. El sistema ya incluye por defecto detalles como polvo fino y gotas de agua para reducir en lo posible el aspecto de plástico; si aun así no te convence, también puedes probar con otra imagen de referencia con una iluminación más clara."
+        }
+    ],
+    "keywords": [
+        "vídeo con imagen de referencia",
+        "vídeo IA aspecto cinematográfico",
+        "crear vídeo con estilo de imagen",
+        "vídeo corto de 15 segundos",
+        "storyboard de vídeo",
+        "vídeo IA sin aspecto plástico"
+    ]
+}

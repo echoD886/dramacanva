@@ -1,0 +1,66 @@
+{
+    "title": "Write motion comic bios with {brand}; actions and traits",
+    "metaDescription": "Motion comic creators: enter a character’s name, look, and personality to generate a canvas bio card with action habits, micro-expressions, and background.",
+    "oneLiner": "Enter a character setup to generate an action-focused bio card on the canvas—great for motion comic beginners.",
+    "intro": [
+        "This is a writing tool that helps you organize character setups for motion comics (short videos that make comics move). It turns abstract personality descriptions into concrete action habits and ways of speaking.",
+        "In the chat box on the right side of the canvas, just tell the AI the character’s name, age, appearance, and personality, plus whether they are the lead or a supporting character in the story. If they have a signature prop, include that too.",
+        "When it’s done, a text card appears on the canvas listing the character’s key experiences, signature little movements, micro-expressions, and vocal traits. You can edit the content directly or copy and save it."
+    ],
+    "example": {
+        "input": "Lin Mo, 22, male lead. Short black hair, work jacket, red scarf, scar on his left brow. Calm and sharp-tongued, cold on the outside but warm inside. Carries a self-defense dagger.",
+        "output": "A text card is generated on the canvas: it includes Lin Mo’s thinking action (slowly touching his red scarf), nervous tells (gripping the dagger handle, breathing faster), speech pace (fast in daily conversation/slower when nervous), and core experiences."
+    },
+    "scenarios": [
+        "You’re preparing a motion comic short video and only have a vague character idea; you want to clarify the character’s background and core goals.",
+        "You’re assigning actions to an anime character and want to turn abstract personality into specific habitual movements and expressions.",
+        "You’re adapting a novel into video, but the original backstory is too long; you want to pick out the few key experiences that affect the character’s actions.",
+        "The story has many characters, and you need to sort out each person’s role in the group and how they interact with one another."
+    ],
+    "problems": [
+        {
+            "pain": "You only wrote that the character is ‘introverted,’ so when making videos or drawing, you don’t know how they should move.",
+            "solve": "Break abstract personality into visible actions, such as speaking slowly, tending to look down, or clutching the hem of their clothes."
+        },
+        {
+            "pain": "You’ve written thousands of words of character backstory, but when making the video you can’t find the core motivation.",
+            "solve": "Help you pick 1 to 3 key experiences that shape behavior and directly infer the character’s true purpose in acting."
+        },
+        {
+            "pain": "The character’s actions are inconsistent across different shots, so it easily looks like a different person.",
+            "solve": "Lock in 1 to 2 signature actions and eye-detail cues that run through the whole piece, making the character image more consistent."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to open the canvas and the chat box on the right.",
+        "Enter the character’s basic setup, such as name, age, appearance, and personality.",
+        "Send it to the AI assistant and wait for the canvas to generate a bio card with actions and background.",
+        "View the card or double-click it to edit the text. When you’re satisfied, copy or download the result for later use."
+    ],
+    "faq": [
+        {
+            "q": "What’s the difference between a motion comic character bio and a regular novel character profile?",
+            "a": "The main difference is that a motion comic bio focuses more on visual actions and voice. It turns abstract personality into concrete actions such as speaking pace and head-turning habits. It also removes irrelevant backstory and keeps only one to three key experiences that affect the character’s actions."
+        },
+        {
+            "q": "Can I edit the generated character bio directly on the canvas?",
+            "a": "You can edit it at any time. You can rewrite details directly on the text card in the canvas or tell the assistant in the chat box to regenerate it. Once you’re happy with the adjustments, just copy or save the card text."
+        },
+        {
+            "q": "I only have a few simple character ideas. Can I use this tool?",
+            "a": "Yes. Just provide the character’s name, general appearance, and personality in the chat box, and the assistant will help fill in action habits and background details according to the guidelines. If the result doesn’t meet expectations, you can tell the assistant new ideas and adjust it again at any time."
+        },
+        {
+            "q": "How can I avoid inconsistent character personality and actions when making videos?",
+            "a": "The key is to lock in one or two signature actions and micro-expressions in the bio—for example, specifying that the character touches their scarf when thinking and grips the dagger handle when nervous. When making each shot later, refer back to these action references as much as possible to help keep the character’s behavior coherent across different scenes."
+        }
+    ],
+    "keywords": [
+        "motion comic character bio",
+        "motion comic character design",
+        "how to write an anime character bio",
+        "character action habit design",
+        "motion comic character breakdown",
+        "novel to motion comic character design"
+    ]
+}

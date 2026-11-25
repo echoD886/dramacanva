@@ -1,0 +1,15 @@
+{
+  "id": "boc-display-20260917",
+  "asOf": "2026-09-17",
+  "source": "Bank of China middle rates, CNY per 100 currency units",
+  "sourceUrl": "https://www.boc.cn/sourcedb/whpj/enindex_1619.html",
+  "cnyPer100": {
+    "USD": 676.28,
+    "CNY": 100,
+    "HKD": 86.21,
+    "TWD": 21.07,
+    "JPY": 4.3419,
+    "KRW": 0.4914,
+    "EUR": 777.62
+  }
+}

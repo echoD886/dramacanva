@@ -1,0 +1,67 @@
+{
+    "title": "Script to Motion Comic Storyboard: Turn Story Into Shot List",
+    "metaDescription": "For motion comic beginners. Enter a story or dialogue in {brand}; AI creates numbered storyboard labeling each shot's visuals, action, lines, and shot size.",
+    "oneLiner": "Give it story text, and it generates a shot-labeled storyboard on the canvas for video beginners.",
+    "intro": [
+        "This is a tool that helps you create storyboards. A storyboard breaks a story into individual shots and spells out what to draw in each one. It's for people new to motion comics who aren't sure how to break a story into shots.",
+        "All you need is ordinary story text, dialogue, or a rough draft, plus the title, episode number, and character names. Even if the writing is rough, you can send it as is.",
+        "AI generates text cards on the canvas. It arranges the storyboard by number and notes shot size, character actions, short lines, and sound effects. You can read it, edit the text, or copy it for use."
+    ],
+    "example": {
+        "input": "Series title: The Cultivation Chronicles, Episode 1. Character: Li Qing. Setting: A dilapidated bamboo hut. Plot: On a stormy night, Li Qing opens the door and finds a glowing letter on the table. Surprised, he walks closer.",
+        "output": "Neat text cards appear on the canvas: first it lists the character and setting info; then it generates a numbered storyboard that specifies shot size, the door-opening and letter-reading actions, thunderstorm sound effects, and action intensity labels."
+    },
+    "scenarios": [
+        "You only have a novel or rough story draft and want to make a video but don't know which image to draw first.",
+        "You've written the story and dialogue but don't know how to arrange camera distance and cuts.",
+        "Your lines are too long and wordy, and you don't know how to trim them into short sentences that work for video.",
+        "Before making your own images or hiring an artist, you want to clarify the characters, visuals, and sound for each scene."
+    ],
+    "problems": [
+        {
+            "pain": "You've written a long stretch of story but don't know whether the camera should be close or far, or how to tell a wide shot from a close-up.",
+            "solve": "AI breaks it into individual shots in order and labels the shot size (camera distance from the subject) and specific action descriptions."
+        },
+        {
+            "pain": "The dialogue in your story is too long, so on screen it looks like a huge essay and viewers won't finish it.",
+            "solve": "It trims each line to 20 characters or fewer and notes the character's emotion and tone when speaking."
+        },
+        {
+            "pain": "You don't know what kind of visuals will make the scene feel animated, or how to tell subtle motion from big effects.",
+            "solve": "It labels the intensity of motion for each shot, distinguishing between hair moving slightly, characters walking, and complex effects."
+        }
+    ],
+    "steps": [
+        "In the Skill Library, click 'Use this skill' to enter the project canvas.",
+        "Send the series title, episode number, character names, and the story content you want to produce to the chat box.",
+        "Wait for the AI to generate character profiles and numbered storyboard text cards on the canvas.",
+        "Review the cards on the canvas. You can edit the text directly or tell the assistant to fine-tune the details.",
+        "Copy or download the results to use as a text reference for preparing images later."
+    ],
+    "faq": [
+        {
+            "q": "Can this skill directly create a video that can be played?",
+            "a": "It cannot generate video directly. It mainly turns your written story into a standard storyboard script so you can clearly see what to draw for each scene. After you have the storyboard, you can go on to make images or video clips."
+        },
+        {
+            "q": "I've never written a script. Can I use an ordinary story or novel?",
+            "a": "Yes, you can use it directly. Just send a slice of everyday story, a novel excerpt, or dialogue, and include the character names. AI will try to keep the original meaning and break it into shots in order."
+        },
+        {
+            "q": "Will long dialogue in the story be deleted?",
+            "a": "It won't delete it outright; it will automatically shorten overly long sentences. To keep the video's visual pace faster, AI compresses lines to 20 characters or fewer while preserving the core emotion. If more background needs to be explained, it will turn it into narration on screen."
+        },
+        {
+            "q": "Can I edit each generated shot if I'm not satisfied?",
+            "a": "You can edit at any time. You can change the text cards directly on the canvas or tell the assistant in the chat box to readjust a specific shot. Changing one card won't affect other content you've already approved."
+        }
+    ],
+    "keywords": [
+        "how to storyboard a motion comic",
+        "script to storyboard",
+        "novel to motion comic",
+        "motion comic storyboard template",
+        "how to break a story into shots",
+        "AI storyboard script writing"
+    ]
+}

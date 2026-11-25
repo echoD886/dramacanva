@@ -1,0 +1,66 @@
+{
+    "title": "Short drama scripts: multi-episode ideas, dialogue checks",
+    "metaDescription": "Enter a story idea to generate multi-episode scripts, episode word limits, conversational dialogue, and plot-hole checks on the {brand} canvas.",
+    "oneLiner": "Give it a story idea to generate structured, multi-episode short drama scripts on the canvas—ideal for beginners.",
+    "intro": [
+        "This is a creation tool that helps you write short dramas on a canvas. It breaks complex scriptwriting into fixed steps, helps you control the pacing of each episode, and makes dialogue sound like real people talking.",
+        "You only need to prepare a short story idea. You can specify who the protagonist is, how many episodes you want, or special dialogue style requirements; for anything you haven't decided, it will set it according to industry standards first.",
+        "When done, you'll get a set of text cards on the canvas, including a full-series story outline, per-episode word-count and pacing standards, conversational script text, and a story setup tracker to prevent continuity errors."
+    ],
+    "example": {
+        "input": "I want to write an urban workplace revenge short drama. The female lead returns to the company as a supervisor. I need a 20-episode outline and scripts for the first 3 episodes, and the dialogue should sound like real people bickering.",
+        "output": "Generate several text cards on the canvas: a 20-episode plot outline, a 90-120-second per-episode word-count plan, conversational dialogue for the first 3 episodes, and a plot tracker recording character relationships and personal props."
+    },
+    "scenarios": [
+        "Only have a story idea and want to plan it into a complete 20- to 30-episode short drama outline.",
+        "Dialogue reads too much like something being read aloud from a page, and needs to be changed into more natural, back-and-forth real-life conversation.",
+        "When writing many episodes in a row, it's easy to mix up setup details and worry that character states and props will contradict earlier episodes later on.",
+        "Can't accurately judge single-episode length and need to check word counts and plot breakpoints against a 90- to 120-second standard."
+    ],
+    "problems": [
+        {
+            "pain": "After about 20-plus episodes, the story becomes hard to continue; the plot drags and feels flat.",
+            "solve": "It breaks the plot into stages for you, resolves one main conflict within 20 to 30 episodes, and then transitions smoothly into a new crisis."
+        },
+        {
+            "pain": "Character dialogue is stiff and sounds like reciting a textbook, and everyone speaks in a similar tone.",
+            "solve": "It removes stiff explanations, splits long written sentences into back-and-forth short lines, and adds small speech habits for different characters."
+        },
+        {
+            "pain": "Later episodes often miss earlier setup details, causing props and characters to contradict what came before.",
+            "solve": "It creates a plot tracker on the canvas; before writing new content, compare it with earlier props and character states, and update it after writing."
+        }
+    ],
+    "steps": [
+        "Click 'Use this skill' in the skill library to enter the {brand} canvas chat.",
+        "Send your story idea, and you can include your desired total episode count, style preferences, or per-episode length requirements.",
+        "Review the full-series outline, episode specs, and script text cards generated on the canvas, and edit them directly online.",
+        "Ask it to regenerate the parts that need adjustment, and once you're satisfied, copy or download the script results."
+    ],
+    "faq": [
+        {
+            "q": "How can I make the dialogue in a short drama script sound like real people talking?",
+            "a": "The key is to remove unnecessary explanatory lectures, split long written sentences into back-and-forth short lines, and add natural actions and speech habits for characters. When generating scripts, the AI automatically diagnoses dialogue using these rules, keeping individual lines short and adding action notes to reduce the mechanical feel of reading from a textbook."
+        },
+        {
+            "q": "How many words should one short drama episode have, and how long should it be when filmed?",
+            "a": "Short drama episodes are usually recommended to be 90 to 120 seconds. For live-action short dramas, 350 to 500 characters per episode is recommended; for motion comic dramas, 260 to 400 characters. This skill automatically applies these standards when planning episode specs to keep character counts and breakpoints on target and avoid overly long content or slow pacing."
+        },
+        {
+            "q": "When writing dozens of episodes in a row, how can I prevent continuity errors?",
+            "a": "The key method is to check the tracker's character states, props, and setup or foreshadowing before writing a new episode, confirm there are no conflicts, then write, and update it afterward. The AI maintains this continuity tracker on the canvas for you and checks previous setup before each episode to avoid contradictions and prop continuity errors."
+        },
+        {
+            "q": "After 20 or 30 episodes, viewers tend to swipe away. How can I keep them watching?",
+            "a": "The key is to fully resolve one main conflict within 20 to 30 episodes and immediately introduce a new crisis, while keeping an emotional beat every 30 seconds in each episode. This skill plans that staged pacing for you during the outline stage to keep the story from becoming flat and slow in the middle and later episodes."
+        }
+    ],
+    "keywords": [
+        "short drama script writing",
+        "how many words per short drama episode",
+        "make short drama scripts sound human",
+        "short drama script format",
+        "short drama script outline",
+        "how to write short drama dialogue"
+    ]
+}

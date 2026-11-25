@@ -1,0 +1,66 @@
+{
+    "title": "Vídeo de lançamento: storyboard, versões e formatos",
+    "metaDescription": "Para criadores de vídeo de lançamento: no canvas {brand}, planeje storyboard ritmado, batidas musicais, versões com abertura alterada e adaptação de tela.",
+    "oneLiner": "Insira os pontos de venda do produto e gere no canvas storyboard de lançamento, tabela de batidas musicais e opções em vários formatos.",
+    "intro": [
+        "Este é um fluxo para planejar vídeos de lançamento de produto. Ele organiza o vídeo inteiro em etapas com ritmo claro, incluindo abertura que atrai, demonstração dos destaques e chamada para seguir.",
+        "Você não precisa saber produção de vídeo profissional. Basta inserir no lado direito do canvas {brand} o nome do produto, os principais pontos de venda e a duração desejada do vídeo.",
+        "A IA gera no canvas um storyboard (dividindo o vídeo em cenas e descrevendo as imagens), uma linha do tempo de batidas musicais, 3 grupos de versões comparativas que mudam só a abertura e recomendações de layout horizontal/vertical."
+    ],
+    "example": {
+        "input": "Lançamos uma cadeira de camping dobrável e leve e queremos um vídeo de lançamento de 30 segundos, com ritmo, para publicar em plataformas horizontais e verticais.",
+        "output": "Gere no canvas cards de storyboard em cinco partes para 30 segundos, com marcação dos tempos das batidas da trilha; apresente 3 grupos de versões comparativas que mudam só a abertura e indique uma composição centralizada que funcione tanto no horizontal quanto no vertical."
+    },
+    "scenarios": [
+        "Lançar um produto novo e precisar de um vídeo de divulgação sem ficar arrastado, com altos e baixos que prendam a atenção.",
+        "Para veicular anúncios e testar vários materiais, querer trocar só a abertura ou o encerramento e ver qual versão atrai mais o público.",
+        "Querer fazer um vídeo promocional com cortes no ritmo da música, mas não saber em que segundo trocar as imagens para combinar com a batida.",
+        "Precisar publicar o mesmo vídeo em várias plataformas horizontais e verticais e recear que imagens-chave sejam cortadas no vertical."
+    ],
+    "problems": [
+        {
+            "pain": "O vídeo é linear e sem altos e baixos, e os cortes das imagens não acompanham a batida da música.",
+            "solve": "Dividir o storyboard em cinco etapas de ritmo e marcar os tempos das batidas fortes da música, deixando as trocas de imagem mais ritmadas."
+        },
+        {
+            "pain": "Ao testar várias versões do vídeo, fazer mudanças demais e não conseguir identificar qual imagem gerou efeito.",
+            "solve": "Manter uma única alteração por vez, trocando apenas a cena de abertura ou a ação final, e gerar comparações claras."
+        },
+        {
+            "pain": "Depois de converter um vídeo horizontal para vertical, o produto fica cortado pela metade e os textos são cobertos por ícones da plataforma.",
+            "solve": "Concentrar o elemento principal e o texto no centro da imagem, deixando margem de segurança ao redor para que não sejam cortados nem no horizontal nem no vertical."
+        }
+    ],
+    "steps": [
+        "No repositório de habilidades, clique em “Usar esta habilidade” e insira à direita os pontos de venda do produto e a duração desejada.",
+        "Confira no canvas o storyboard gerado, a linha do tempo de batidas e os cards de comparação entre versões.",
+        "Diga ao assistente quais cenas ou ritmos precisam de ajuste e altere o storyboard e as marcações de batida.",
+        "Copie ou baixe o planejamento do canvas para usar diretamente na produção do vídeo."
+    ],
+    "faq": [
+        {
+            "q": "Como usar a IA para definir o ritmo das cenas de um vídeo de lançamento?",
+            "a": "Envie os pontos de venda do produto ao assistente; ele organizará o storyboard em cinco etapas: abertura que atrai, criação de suspense, apresentação principal, cortes rápidos dos pontos de venda e chamada para ação no final. Cada etapa indicará a cena e a distribuição de duração, ajudando a dar altos e baixos claros ao ritmo de um vídeo de lançamento de 30 segundos. Se não gostar do ritmo de algumas cenas, basta pedir alterações ao assistente no lado direito."
+        },
+        {
+            "q": "Como fazer os cortes do vídeo caírem exatamente no ritmo da música?",
+            "a": "Use a linha do tempo de batidas para planejar os pontos de troca com antecedência, entrando com imagens-chave nas batidas fortes e trocando os pontos de venda a cada 0,6 a 1 segundo. A IA marcará no storyboard os momentos-chave das batidas fortes e das explosões de ritmo da música, especificando os segundos de início e fim de cada cena de ponto de venda. Na edição, siga essa linha do tempo para os cortes acompanharem naturalmente a batida."
+        },
+        {
+            "q": "Quero testar o desempenho de vídeos diferentes; como comparar versões?",
+            "a": "Use o método de comparação com uma única variável: mantenha o conteúdo principal igual e troque apenas os primeiros segundos da abertura ou a chamada final. A IA criará, a partir do mesmo roteiro de storyboard, 3 grupos de cards de comparação com apenas uma alteração. Ao comparar depois os dados de reprodução das diferentes versões, fica mais fácil ver qual mudança de cena trouxe resultado."
+        },
+        {
+            "q": "Como publicar o mesmo vídeo em plataformas horizontais e verticais?",
+            "a": "Use uma composição com área segura central: concentre o produto principal e os textos-chave no quadrado central e deixe margem de segurança ao redor. Ao planejar o storyboard, a IA usa o formato horizontal como base e faz a adaptação para o vertical, reservando espaço para evitar que ícones e legendas das plataformas cubram o conteúdo. Assim, o mesmo storyboard tem menos chance de ter a imagem principal cortada ao ser publicado em plataformas horizontais, verticais e quadradas."
+        }
+    ],
+    "keywords": [
+        "criação de vídeo de lançamento",
+        "roteiro de storyboard para propaganda",
+        "edição de vídeo no ritmo da música",
+        "adaptação de horizontal para vertical",
+        "teste de versões de vídeos curtos",
+        "vídeo de lançamento de produto"
+    ]
+}

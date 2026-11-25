@@ -1,0 +1,67 @@
+{
+    "title": "História em roteiro de mangá animado: ações e falas",
+    "metaDescription": "Para autores e iniciantes em vídeo. Envie o resumo e os personagens e gere no canvas um roteiro detalhado com ações, falas, sincronia labial e luz da cena.",
+    "oneLiner": "Digite o resumo e gere no canvas um roteiro de mangá animado com ações e falas para iniciantes.",
+    "intro": [
+        "Este é um assistente de roteiro. Ele expande o resumo da sua história em um roteiro de texto adequado para mangá animado (vídeo de quadrinhos em movimento), sem você precisar quebrar a cabeça pensando em como dividir os planos.",
+        "Você só precisa preparar o enredo ou um trecho do romance, preencher os nomes dos personagens, uma aparência simples e o local onde a história acontece. Se tiver em mente o número de episódios ou a duração desejada, também pode enviar junto.",
+        "Ao terminar, você receberá no canvas cards detalhados com o texto do roteiro. Eles indicam as ações dos personagens, os movimentos labiais ao falar, a iluminação da cena e as dicas de efeitos sonoros, facilitando a ilustração e a produção depois."
+    ],
+    "example": {
+        "input": "Roteiro de “Noite de Névoa”, episódio 1: o protagonista Lin Che, 22 anos, camisa branca e óculos de armação preta, encontra a protagonista à noite, à beira do rio sob a luz de postes, e os dois discutem; duração de cerca de 3 minutos.",
+        "output": "No canvas, são gerados cards de texto: cabeçalho de cena 【Exterior — margem do rio — noite avançada (luz quente do poste)】, ações de Lin Che cerrando os punhos e andando rápido, diálogos em frases curtas com boca média e uma indicação de vento ao longe."
+    },
+    "scenarios": [
+        "Tem um conto ou resumo de história em mãos e quer transformá-lo em um vídeo curto de mangá animado de 3 a 5 minutos.",
+        "Ao escrever o romance, há muita descrição psicológica e você não sabe como transformá-la em ações visíveis na tela.",
+        "Os diálogos que você escreveu são longos e formais demais, soam estranhos quando o personagem fala e não encaixam na sincronia labial.",
+        "Vai produzir um vídeo de mangá animado, mas não sabe como indicar claramente no roteiro a iluminação da cena e os efeitos sonoros."
+    ],
+    "problems": [
+        {
+            "pain": "O romance é cheio de monólogos internos, e você não sabe como mostrá-los na tela.",
+            "solve": "Transforme a atividade psicológica em expressões e microações concretas; por exemplo, em vez de “tristeza”, escreva olhos vermelhos e cantos da boca caídos."
+        },
+        {
+            "pain": "Há muitos efeitos de luta no roteiro, e o custo de produzir as imagens depois pode sair do controle.",
+            "solve": "Ajuda a diferenciar microações de efeitos intensos, limitando as lutas a no máximo 3 por episódio para controlar o orçamento de produção."
+        },
+        {
+            "pain": "As falas dos personagens são longas e formais demais; parecem leitura de texto e dificultam a sincronia labial.",
+            "solve": "Transforma frases longas em falas curtas e coloquiais, mantendo cada frase, sempre que possível, em até 10 caracteres, e marca boca pequena, média ou grande para facilitar a referência."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir a interface de criação de roteiro.",
+        "Envie o resumo da história, as características principais dos personagens e as informações de cena deste episódio.",
+        "Veja os cards de roteiro gerados no canvas e confira cena, ações e falas.",
+        "Clique nos cards para editar diretamente os detalhes do texto ou peça ao assistente para reescrever os trechos de que não gostou.",
+        "Copie ou baixe o resultado em texto do roteiro para usar na produção visual posterior."
+    ],
+    "faq": [
+        {
+            "q": "O que é um roteiro de mangá animado? Qual é a diferença em relação a um roteiro comum?",
+            "a": "O roteiro de mangá animado é um script feito especialmente para vídeos de quadrinhos. Em comparação com um roteiro comum, ele indica em detalhes a intensidade dos movimentos, as expressões dos personagens e a iluminação. O roteiro comum foca no diálogo, enquanto o de mangá animado especifica níveis de movimento, como microações ou grandes efeitos, para que o ilustrador ou a pós-produção entenda de imediato como animar."
+        },
+        {
+            "q": "Tenho apenas um trecho curto de romance, com algumas centenas de caracteres. Ainda é possível gerar um roteiro?",
+            "a": "Sim. Envie o trecho e as informações dos personagens ao assistente, e ele poderá expandir o enredo em um roteiro com cenas, ações e falas. Se faltarem dados essenciais, como perfil dos personagens ou local, o assistente avisará antes de começar para você completar."
+        },
+        {
+            "q": "O que significam os níveis de ação e as indicações de boca no roteiro?",
+            "a": "Os níveis de ação servem para diferenciar microações de grandes efeitos e controlar o custo de produção; as indicações de boca mostram a abertura da boca ao falar para alinhar a dublagem. Por exemplo, cabelo se movendo levemente é microação, luta é ação forte; as falas recebem marcação de boca pequena, média ou grande conforme o número de caracteres para facilitar a gravação."
+        },
+        {
+            "q": "Qual é o comprimento médio do roteiro gerado? Para vídeos de quantos minutos ele serve?",
+            "a": "Por padrão, cada episódio serve para um vídeo curto de 3 a 5 minutos, e o roteiro gerado costuma ter entre 800 e 1.200 caracteres, com ritmo compacto. A cada meio minuto, mais ou menos, o enredo inclui uma mudança de emoção ou um ponto de ação; após gerar, você também pode editar livremente a quantidade de texto nos cards do canvas."
+        }
+    ],
+    "keywords": [
+        "como escrever roteiro de mangá animado",
+        "como adaptar romance para mangá animado",
+        "criação de roteiro de mangá animado",
+        "roteiro de mangá animado com IA",
+        "como escrever diálogos e storyboard de mangá animado",
+        "como marcar ações no roteiro de mangá animado"
+    ]
+}

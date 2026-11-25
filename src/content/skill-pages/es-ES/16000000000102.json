@@ -1,0 +1,66 @@
+{
+    "title": "Nombres y posicionamiento: elige nombre, propuesta y eslogan",
+    "metaDescription": "Para nuevos creadores o productos: cuenta tu idea al asistente en {brand} y genera en el lienzo posicionamiento, 3 nombres y eslogan.",
+    "oneLiner": "Para nuevos creadores: cuenta tu idea y genera en el lienzo nombres, posicionamiento y tarjetas de eslogan.",
+    "intro": [
+        "Esta es la herramienta de posicionamiento y nombres de {brand}: cuéntale tu idea al asistente y generará en el lienzo un análisis de posicionamiento, nombres candidatos y tarjetas de eslogan para ayudar a una nueva cuenta o producto a encontrar su rumbo.",
+        "Solo necesitas preparar unas frases sobre lo que quieres hacer, para quién lo haces o algunos competidores que te parezcan destacados. Aunque tengas una idea vaga, puedes enviársela directamente al asistente.",
+        "El asistente generará en el lienzo tarjetas de texto con 3 nombres fáciles de recordar y sus motivos, un análisis de posicionamiento claro y un eslogan fácil de memorizar."
+    ],
+    "example": {
+        "input": "Quiero crear una cuenta de vídeos que enseñe a oficinistas a preparar táperes rápidos para adelgazar; no sé qué nombre ponerle ni cómo competir con los grandes creadores que ya existen.",
+        "output": "En el lienzo se generan varias tarjetas de texto: ofrece 3 nombres candidatos como «Diez minutos de táper» y sus motivos, analiza cómo centrarse en «sin cocinar, listo en el microondas» para evitar competir con chefs complicados y extrae el eslogan «Cocinar para el trabajo sin esfuerzo»."
+    },
+    "scenarios": [
+        "Quieres abrir una nueva cuenta de vídeos o una tienda nueva y no sabes qué nombre elegir para que sea fácil de recordar.",
+        "Ves que todo el mundo hace contenido similar y quieres encontrar tu punto diferencial sin competir de frente.",
+        "Tienes muchas ventajas en mente, pero al escribir tu biografía te explicas demasiado y los demás no lo recuerdan.",
+        "Un nicho está muy de moda y no sabes si sumarte ahora es una buena oportunidad o llega tarde."
+    ],
+    "problems": [
+        {
+            "pain": "Quieres ponerle un nombre nuevo, pero los que se te ocurren son sosos o fáciles de confundir con los de otros.",
+            "solve": "Te ofrece 3 nombres candidatos fáciles de pronunciar y recordar, con el motivo de cada propuesta para que elijas."
+        },
+        {
+            "pain": "Ya hay muchos creadores grandes en tu sector y no sabes cómo hacer para diferenciarte.",
+            "solve": "Te ayuda a ordenar tu público objetivo y tus puntos fuertes, y a compararlos con los de la competencia para encontrar tus rasgos complementarios sin competir de frente."
+        },
+        {
+            "pain": "Quieres presentar tu producto o contenido, pero hablas mucho y los demás no se quedan con lo esencial.",
+            "solve": "Te ayuda a eliminar frases sobrantes y a condensar lo esencial en un eslogan claro y fácil de recordar, generado directamente en el lienzo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo de creación.",
+        "Envía la idea de tu proyecto, el público al que te diriges o los creadores de referencia que quieras tomar como ejemplo.",
+        "Revisa el análisis de posicionamiento, los nombres candidatos y las tarjetas de eslogan que el asistente genere en el lienzo.",
+        "Modifica el contenido o pide al asistente que lo ajuste; cuando estés conforme, copia o descarga el resultado."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo puedo elegir un nombre fácil de recordar y no cursi para una cuenta nueva?",
+            "a": "La clave de un buen nombre es que suene bien, tenga un significado concreto y evite palabras que todo el mundo usa. Cuéntale tu idea principal al asistente y te propondrá 3 nombres fáciles de recordar con el razonamiento de cada uno. Puedes elegir con calma en el lienzo y pedirle que los ajuste si no te convencen."
+        },
+        {
+            "q": "Ya hay grandes creadores en mi sector, ¿cómo hago para no chocar con ellos?",
+            "a": "No necesitas competir de frente con los grandes creadores que ya existen; busca necesidades concretas que no cubran. Por ejemplo, si ellos apuestan por lo complejo y profesional, tú puedes hacer algo sencillo y práctico que complemente su oferta. Envía al asistente la dirección que quieres tomar y te ayudará a aclarar en el lienzo en qué te diferencias de la competencia."
+        },
+        {
+            "q": "¿Cómo escribir un eslogan que se recuerde con una sola frase?",
+            "a": "Para escribir un eslogan, quita los adjetivos complicados y explica con claridad qué problema puedes resolver. Si describes con palabras sencillas un beneficio concreto, será más fácil recordarlo. El asistente te ayudará a resumir lo esencial y generará en el lienzo una tarjeta de eslogan breve y fácil de recordar."
+        },
+        {
+            "q": "¿Puedo usar directamente el posicionamiento y los nombres que genera la IA?",
+            "a": "Puedes usarlos como referencia para idear, pero no sustituyen la comprobación oficial de marcas ni las decisiones comerciales. Si piensas usarlos para un registro comercial, conviene que compruebes por tu cuenta la situación de la marca antes de decidir el nombre definitivo. Todas las tarjetas de texto del lienzo se pueden modificar, copiar o descargar cuando quieras."
+        }
+    ],
+    "keywords": [
+        "nombre para cuenta",
+        "cómo elegir nombre para una cuenta",
+        "nombre para producto",
+        "posicionamiento para redes sociales",
+        "cómo escribir un eslogan",
+        "cómo escribir un eslogan publicitario"
+    ]
+}

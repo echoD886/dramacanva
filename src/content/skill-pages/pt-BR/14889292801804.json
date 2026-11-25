@@ -1,0 +1,67 @@
+{
+    "title": "Vídeo de transformação 3D estilo donghua com uma imagem",
+    "metaDescription": "Para criadores de animação de transformação donghua. Envie uma imagem e escolha um tema; a IA lista a ficha de cada personagem e gera clipes com giro 360°.",
+    "oneLiner": "Com uma imagem de personagem e um tema, crie em lote vídeos de transformação 3D estilo donghua com giro de 360°.",
+    "intro": [
+        "Esta é uma habilidade para criar animações de transformação de personagens. Você não precisa desenhar movimentos complexos: a IA faz seu personagem trocar de roupa durante um giro rápido de 360°, criando cenas de transformação no estilo donghua 3D.",
+        "Você só precisa preparar uma imagem nítida do personagem e escolher um tema (como os doze signos ou os cinco elementos). Se não tiver uma imagem pronta, também pode descrever a aparência em texto e pedir que a IA desenhe uma imagem-base no canvas primeiro.",
+        "Ao terminar, você recebe primeiro no canvas uma ficha detalhada de transformação; depois de confirmar que está satisfeito, a IA gera uma a uma as fichas de vídeo de transformação com rotação e close congelado, para você visualizar e baixar."
+    ],
+    "example": {
+        "input": "Envie uma imagem de um espadachim antigo, escolha a facção “Cinco Elementos do Oriente”, o tema “Abrigo” e a personalidade “Calmo e decidido”.",
+        "output": "No canvas, aparecem primeiro as fichas de transformação dos 5 membros de Metal, Madeira, Água, Fogo e Terra; após a confirmação, são gerados 5 clipes independentes mostrando o espadachim lançando um artefato, vestindo uma armadura mecha dos Cinco Elementos durante um giro de 360° e uma fala em close congelado."
+    },
+    "scenarios": [
+        "Quando você quer criar uma série de vídeos curtos de transformação donghua com os doze signos ou o zodíaco chinês para personagens de anime originais.",
+        "Ao produzir uma série de curtas, quando precisa criar em lote momentos de destaque com troca de roupa estilosa para personagens de personalidades diferentes.",
+        "Para personagens de jogo em atualizações de feriado, quando quer criar um clipe de animação em que a roupa antiga se reorganiza em uma nova armadura durante a rotação.",
+        "Quando você tem apenas uma ilustração de personagem e quer testar, com baixo custo, o personagem em movimento e um efeito de transformação com giro de 360°."
+    ],
+    "problems": [
+        {
+            "pain": "Ao escrever a descrição da transformação por conta própria, o vídeo costuma mostrar só uma troca de roupa rígida, sem rotação nem efeitos de luz dinâmicos.",
+            "solve": "Divida em três movimentos de câmera: primeiro o artefato é lançado e explode; depois, uma troca de roupa em rotação rápida de 360°; por fim, um close congelado mostra o novo visual."
+        },
+        {
+            "pain": "Gerar personagens em vídeo apenas com texto costuma deformar o rosto, e as feições antes e depois da transformação muitas vezes não batem.",
+            "solve": "Use a imagem de personagem que você forneceu como base do vídeo e, durante a troca de roupa com rotação, preserve ao máximo as feições do personagem original."
+        },
+        {
+            "pain": "Criar uma série completa de transformações dos doze signos, pensando um por um no visual de cada personagem, consome muito tempo.",
+            "solve": "Liste de uma vez, no canvas, as fichas de transformação de cada membro do grupo; depois que você confirmar e ajustar, gere os vídeos um a um."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e entre no canvas para começar.",
+        "Envie uma imagem de personagem e escolha a facção e o estilo de tema que deseja criar.",
+        "Confira no canvas as fichas de configuração de todos os membros e ajuste os detalhes do texto conforme necessário.",
+        "Peça à IA para começar a gerar os vídeos e revise ou gere novamente os clipes, um a um, no canvas.",
+        "Arraste os clipes prontos para a linha do tempo, organize a ordem e exporte depois de confirmar."
+    ],
+    "faq": [
+        {
+            "q": "Sem uma imagem de personagem pronta, dá para criar o vídeo de transformação diretamente?",
+            "a": "Não diretamente, mas você pode pedir que a IA desenhe uma imagem-base primeiro. Descreva a aparência em texto na conversa para a IA desenhar o personagem no canvas; quando estiver satisfeito, use essa imagem como base para gerar o vídeo de transformação."
+        },
+        {
+            "q": "As feições do personagem se mantêm iguais antes e depois da transformação?",
+            "a": "Não há garantia de consistência absoluta, mas o sistema tenta manter as feições faciais coerentes. A IA usa a imagem fornecida como referência e troca apenas roupas e acessórios durante a rotação; se não gostar de um clipe, pode gerá-lo novamente de forma individual."
+        },
+        {
+            "q": "Os vídeos de transformação gerados já vêm com música de fundo e dublagem?",
+            "a": "Não, eles não vêm com música de fundo nem dublagem. A habilidade gera clipes de vídeo apenas com imagem, sem áudio nem legendas. Você pode organizar os clipes na linha do tempo do canvas, exportar e depois adicionar a música e a dublagem que preferir."
+        },
+        {
+            "q": "É possível gerar de uma vez as transformações dos doze signos ou do zodíaco chinês completo?",
+            "a": "Sim, dá para produzir em lote. Depois de escolher os doze signos ou o zodíaco, a IA lista no canvas as fichas de transformação de cada membro do grupo. Quando você confirmar os detalhes, a IA gera um clipe de transformação independente para cada membro."
+        }
+    ],
+    "keywords": [
+        "vídeo de transformação com IA",
+        "efeito de transformação 3D estilo donghua",
+        "transformação de personagem com rotação",
+        "vídeo de transformação com uma imagem",
+        "vídeo de transformação dos signos",
+        "vídeo com efeito de troca de roupa de personagem"
+    ]
+}

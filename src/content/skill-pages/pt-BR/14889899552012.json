@@ -1,0 +1,67 @@
+{
+    "title": "Crie olhares e microexpressões em close-ups de séries curtas",
+    "metaDescription": "Para criadores de séries curtas e novatos: insira personagem e fala para receber microexpressões faciais por segundo; envie imagem e gere clipes no canvas.",
+    "oneLiner": "Ideal para séries curtas: insira o personagem e a fala e gere vídeos de close de microexpressões no canvas.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda a criar a atuação facial do personagem. Ela transforma o estado emocional em movimentos de olhar, canto da boca e respiração em trechos de 2 a 3 segundos, deixando os close-ups faciais gerados por IA mais naturais.",
+        "Basta preencher no formulário a aparência e a personalidade do personagem e uma fala de até 15 segundos. Se tiver uma imagem de referência do personagem, também pode prepará-la com antecedência.",
+        "Você primeiro recebe várias opções de atuação com emoções diferentes; depois de escolher, recebe descrições detalhadas dos movimentos. Ao enviar uma imagem, também pode gerar clipes de microexpressões no canvas."
+    ],
+    "example": {
+        "input": "A personagem é uma protagonista de época, contida e reservada, precisa dizer a fala “Saia!” em 15 segundos e enviar uma foto de meio corpo da personagem em traje de época.",
+        "output": "O canvas gera vários estilos de atuação para você selecionar; após escolher, ele fornece movimentos de olhar e respiração divididos em trechos de 2 a 3 segundos e gera um clipe de 15 segundos com microexpressões do personagem."
+    },
+    "scenarios": [
+        "Ao escrever uma fala importante de uma série curta, é preciso um close em que o olhar do personagem passe lentamente de sorridente a triste.",
+        "O personagem está magoado ou dividido por dentro, e você quer comparar diferentes formas de atuação antes de decidir.",
+        "Ao fazer vídeos de close de personagens, é comum a imagem distorcer ou tremer; são necessários movimentos faciais lentos e estáveis.",
+        "Você não sabe como transformar o conflito interno do personagem em movimentos na tela e precisa de orientação concreta de atuação."
+    ],
+    "problems": [
+        {
+            "pain": "Você escreve “os olhos cheios de cálculo”, mas o vídeo gerado não tem expressão ou até apresenta falhas na imagem.",
+            "solve": "Divida a intenção em movimentos faciais visíveis, como olhos que se movem sutilmente e mandíbula tensa, para a IA entender melhor."
+        },
+        {
+            "pain": "No vídeo, os movimentos do personagem são grandes demais e costumam causar distorção dos membros ou sair do enquadramento.",
+            "solve": "Evite deslocamentos corporais amplos e concentre os movimentos nos olhos, nos cantos da boca e na respiração, mantendo a imagem estável."
+        },
+        {
+            "pain": "Você escreve muitas instruções de movimento de uma vez, e o personagem gerado apresenta tremores e deformações com frequência.",
+            "solve": "Divida o tempo em trechos de 2 a 3 segundos e mantenha apenas 1 ou 2 micro-movimentos lentos por trecho, para que a ação fique mais contínua."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o formulário de conversa no lado direito do canvas.",
+        "Preencha a aparência e a personalidade do personagem, além de uma fala ou trecho de enredo de até 15 segundos.",
+        "Marque o estilo de atuação que você preferir e receba descrições de micro-movimentos faciais divididas por segundo.",
+        "Envie uma imagem de referência do personagem e gere um cartão de vídeo de microexpressões no canvas.",
+        "Organize a ordem na linha do tempo do vídeo e exporte, ou baixe diretamente o cartão de vídeo."
+    ],
+    "faq": [
+        {
+            "q": "Por que as expressões em close-ups de personagens feitos por IA costumam ficar rígidas?",
+            "a": "Porque a IA não entende diretamente palavras de emoção como “muito triste”. Esta habilidade traduz a emoção em ações concretas, como “o olhar desce lentamente” e “os cantos da boca se fecham com força”. Com pequenas mudanças a cada 2 ou 3 segundos, a expressão fica muito mais viva."
+        },
+        {
+            "q": "Por que os vídeos de personagens gerados costumam apresentar tremores ou deformações no rosto?",
+            "a": "Normalmente porque há movimentos demais em uma única instrução, ou porque a amplitude dos movimentos é grande. Esta habilidade limita as ações a micro-movimentos faciais e mantém apenas 1 ou 2 movimentos extremamente lentos por trecho. Assim, é possível reduzir ao máximo falhas na imagem e deformações."
+        },
+        {
+            "q": "Como escrever movimentos de personagem para a IA sem causar erros na imagem?",
+            "a": "Tente escrever apenas ações concretas que possam ser vistas, sem descrever o que o personagem sente por dentro. Não escreva interações corporais com outros personagens; em vez disso, indique que ele olha para a câmera ou para os lados. Isso evita que membros estranhos apareçam do nada na imagem."
+        },
+        {
+            "q": "Os vídeos de microexpressões gerados têm áudio com a fala?",
+            "a": "Não há dublagem automática. Esta habilidade gera principalmente as expressões faciais e os movimentos do personagem na imagem. Se precisar do áudio da fala, você pode adicioná-lo depois de exportar o vídeo."
+        }
+    ],
+    "keywords": [
+        "expressões faciais rígidas em vídeos de IA",
+        "como escrever o olhar de personagens de séries curtas",
+        "rosto deformado em vídeos de IA",
+        "vídeo de close com microexpressões",
+        "expressões e movimentos de atores de IA",
+        "como fazer close-ups para séries curtas"
+    ]
+}

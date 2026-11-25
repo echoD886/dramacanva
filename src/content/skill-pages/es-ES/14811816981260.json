@@ -1,0 +1,67 @@
+{
+    "title": "Convierte lo cotidiano en vídeos cómicos de 15 s con giros",
+    "metaDescription": "Para creadores de vídeos cómicos. Escribe en el chat una situación cotidiana y la plataforma crea tarjetas de 15 s con giros exagerados y clips.",
+    "oneLiner": "Introduce una anécdota cotidiana y crea tarjetas de vídeo de 15 s con giros exagerados para creadores de vídeos cómicos.",
+    "intro": [
+        "Este es un flujo de creación de vídeos cómicos. Convierte las pequeñas cosas del día a día en asuntos de enorme importancia: los primeros 4 segundos son tranquilos, la parte central es muy exagerada y al final se revela una pequeña verdad divertida, creando contenido de 15 segundos con un gran contraste.",
+        "En el cuadro de diálogo de la derecha del lienzo, envía al asistente de IA una escena cotidiana, como discutir con un amigo por pagar la cuenta, teclear en la oficina o confesarte un día de lluvia; no hace falta escribir un guion largo.",
+        "La IA generará en el lienzo tarjetas de descripción visual de 15 segundos, con las acciones y los efectos de sonido detallados segundo a segundo; también puedes pedirle que genere las tarjetas de clips de vídeo correspondientes y verlas, modificarlas o descargarlas directamente en el lienzo."
+    ],
+    "example": {
+        "input": "Dos amigos terminan de comer en un restaurante y discuten por pagar la cuenta en la caja.",
+        "output": "En el lienzo se generará una tarjeta de descripción visual de 15 segundos: los primeros 4 segundos, ambos sonríen y sacan el móvil; durante los 7 segundos centrales, el ambiente cambia como si dos maestros se enfrentaran; en los últimos 3 segundos, descubren que el código QR que intentan escanear es el de pago del otro. También puede generar una tarjeta de vídeo de 15 segundos."
+    },
+    "scenarios": [
+        "Quieres grabar pequeñas escenas cotidianas, como amigos discutiendo por pagar la cuenta o apretujados en un ascensor, y necesitas un giro cómico que atraiga al público.",
+        "Al idear un vídeo humorístico de 15 segundos, te bloqueas porque la historia es demasiado normal y no se te ocurre un final divertido.",
+        "Solo tienes una pequeña idea cotidiana en la cabeza y no sabes cómo ampliarla hasta convertirla en imágenes concretas de vídeo.",
+        "Quieres crear clips de vídeo exagerados y cómicos, y necesitas convertir los pequeños detalles cotidianos en un contraste enorme y desmesurado."
+    ],
+    "problems": [
+        {
+            "pain": "Las pequeñas cosas cotidianas quedan demasiado sosas en vídeo y el público pasa de largo a los pocos segundos.",
+            "solve": "Divide la anécdota en una introducción, una parte central desmesurada y un giro final, y usa el contraste exagerado para mantener el interés."
+        },
+        {
+            "pain": "Quieres hacer un vídeo cómico, pero el final siempre acaba con una expresión normal y carece de gracia.",
+            "solve": "El final plantea una pequeña verdad inesperada que rompe la escena grandiosa; no recurre a expresiones vacías y consigue el humor de forma natural."
+        },
+        {
+            "pain": "No sabes describir las imágenes a la IA y el vídeo generado resulta plano y sin gracia.",
+            "solve": "Desglosa por segundos las imágenes, las acciones y los efectos de sonido para que la IA entienda mejor el paso de la calma a la explosión de la escena."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el lienzo de {brand}.",
+        "Introduce la pequeña escena cotidiana que quieres grabar y envíala al asistente de IA en el cuadro de diálogo de la derecha.",
+        "Consulta la tarjeta de descripción visual de 15 segundos en el lienzo y ajusta los detalles del texto según necesites.",
+        "Genera la tarjeta de clip de vídeo de 15 segundos correspondiente y previsualízala o ajústala en el lienzo.",
+        "Ordena en la línea de tiempo de vídeo los clips que te convenzan y expórtalos."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo convertir una pequeña anécdota cotidiana en un vídeo cómico con giro?",
+            "a": "Envía la escena cotidiana al asistente de IA en el chat; generará una tarjeta de descripción visual de 15 segundos con una introducción, una parte central muy exagerada y un giro final. Si necesitas vídeo, puedes pedirle que genere tarjetas de clips y ordenarlas en la línea de tiempo para exportarlas."
+        },
+        {
+            "q": "¿Qué hago si las imágenes del vídeo generado no son lo bastante exageradas?",
+            "a": "Puedes modificar la descripción de las acciones directamente en la tarjeta de texto del lienzo o pedir al asistente de IA que vuelva a generarla. Describe acciones físicas concretas; por ejemplo, cambia «enfadado» por «golpea el teclado y hace añicos un vaso», y la IA podrá crear imágenes exageradas con más precisión."
+        },
+        {
+            "q": "¿Cómo escribir el giro final de un vídeo cómico sin que resulte forzado?",
+            "a": "El final debe aportar una pequeña verdad que explique el comportamiento exagerado anterior, no limitarse a mostrar una cara de sorpresa. Por ejemplo, al principio compiten por pagar como si fueran dioses luchando y al final descubren que han escaneado el código de pago del otro; romper la tensión con un detalle real de la vida cotidiana resulta muy divertido."
+        },
+        {
+            "q": "¿Esta habilidad puede generar directamente un vídeo largo completo y editado?",
+            "a": "No; principalmente genera clips de vídeo de 15 segundos. Si quieres una pieza más larga, puedes colocar varios clips generados en la línea de tiempo del lienzo, ordenarlos y exportarlos."
+        }
+    ],
+    "keywords": [
+        "vídeo cómico de 15 segundos",
+        "giro cómico vídeo corto",
+        "vídeos cómicos situaciones cotidianas",
+        "giro argumental vídeo corto",
+        "vídeos cómicos con IA",
+        "guion exagerado vídeo corto"
+    ]
+}

@@ -1,0 +1,320 @@
+.director-starter-entry {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    border: 1px solid #474747;
+    border-radius: 8px;
+    background: #202020;
+    color: #b5b5b5;
+}
+.director-starter-entry button {
+    background: #343434;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+
+/* 节点样式随面板加载，不依赖工作台的懒加载样式。 */
+.director-node-card {
+    container-type: inline-size;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-3);
+    overflow: auto;
+    background: var(--surface);
+}
+.director-node-card-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-2);
+    min-height: 28px;
+    flex-shrink: 0;
+    cursor: grab;
+}
+.director-node-card-title {
+    margin: 0;
+    overflow: hidden;
+    color: currentColor;
+    font-size: 16px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.director-node-more {
+    display: grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: var(--r-md);
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.director-node-preview {
+    position: relative;
+    display: flex;
+    width: 100%;
+    aspect-ratio: var(--director-shot-aspect, 1.77778);
+    flex: 0 0 auto;
+    overflow: hidden;
+    border: 1px solid var(--director-card-border, var(--border));
+    border-radius: var(--r-lg);
+    text-align: left;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.director-node-preview-image,
+.director-node-preview > .cached-resource-image-shell,
+.director-card-player video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.director-mini-viewport {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+    background: radial-gradient(ellipse at 50% 40%, color-mix(in srgb, currentColor 5%, transparent), transparent);
+}
+.director-mini-schematic {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.director-mini-label {
+    fill: currentColor;
+    font-size: 9px;
+    font-weight: 500;
+}
+.director-mini-camera {
+    color: currentColor;
+}
+.director-mini-heading,
+.director-mini-shot {
+    position: absolute;
+    top: 10px;
+    font-size: 9px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+.director-mini-heading {
+    left: 12px;
+    letter-spacing: 0.12em;
+}
+.director-mini-shot {
+    right: 12px;
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.director-card-player {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    width: 100%;
+}
+.director-card-render {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: var(--director-shot-aspect, 1.77778);
+    overflow: hidden;
+    pointer-events: none;
+}
+.director-card-frame {
+    position: relative;
+    overflow: hidden;
+}
+.director-card-frame .director-viewport-shell {
+    width: 100%;
+    height: 100%;
+}
+.director-card-frame > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.director-node-card .director-card-cast {
+    display: none;
+}
+.director-card-loading {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    font-size: var(--fs-tiny);
+    color: var(--director-card-muted, var(--muted-fg));
+}
+.director-card-timeline {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: var(--r-md);
+    background: color-mix(in srgb, currentColor 4%, transparent);
+    touch-action: none;
+}
+.director-card-segment {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font-size: var(--fs-tiny);
+    font-variant-numeric: tabular-nums;
+    cursor: ew-resize;
+}
+.director-card-segment + .director-card-segment {
+    box-shadow: inset 1px 0 var(--director-card-border, var(--border));
+}
+.director-card-segment:first-child {
+    border-radius: var(--r-md) 0 0 var(--r-md);
+}
+.director-card-segment:last-of-type {
+    border-radius: 0 var(--r-md) var(--r-md) 0;
+}
+.director-card-segment[aria-pressed="true"] {
+    background: var(--director-card-selected, var(--control-selected-bg));
+}
+.director-card-segment span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.director-card-playhead {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: currentColor;
+    pointer-events: none;
+    transform: translateX(-1px);
+}
+.director-card-playhead::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 8px;
+    height: 8px;
+    border-radius: var(--r-full);
+    background: currentColor;
+}
+.director-playback-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+}
+.director-playback-controls button,
+.director-node-menu button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-1);
+    min-width: 28px;
+    min-height: 28px;
+    flex-shrink: 0;
+    border-radius: var(--r-md);
+    border: 1px solid var(--director-card-border, var(--border));
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+.director-playback-controls button[aria-pressed="true"],
+.director-node-menu button[aria-pressed="true"],
+.director-node-more:hover {
+    background: var(--director-card-selected, var(--control-selected-bg));
+}
+.director-card-frame-count {
+    margin-left: auto;
+    white-space: nowrap;
+}
+.director-card-status {
+    color: var(--director-card-muted, var(--muted-fg));
+    font-size: 9px;
+}
+.director-playback-controls .director-node-open {
+    min-height: 32px;
+    padding: 0 var(--space-3);
+    margin-left: auto;
+    background: var(--director-card-primary);
+    color: var(--director-card-on-primary);
+    border-color: transparent;
+    font-weight: 600;
+}
+.director-node-card button:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+.director-node-card button:focus-visible,
+.director-node-card [role="slider"]:focus-visible,
+.director-node-menu button:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+.director-card-compact-play {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: var(--r-full);
+    background: var(--director-card-primary);
+    color: var(--director-card-on-primary);
+    cursor: pointer;
+}
+.director-node-menu {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    width: 260px;
+}
+.director-card-stages,
+.director-card-views {
+    display: flex;
+    gap: var(--space-1);
+    font-size: var(--fs-tiny);
+}
+.director-card-stages button,
+.director-card-views button {
+    flex: 1;
+    padding: var(--space-1) var(--space-2);
+}
+@container (max-width: 320px) {
+    .director-card-segment {
+        flex-direction: column;
+        gap: 0;
+        font-size: 10px;
+    }
+}

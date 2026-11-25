@@ -1,0 +1,66 @@
+{
+    "title": "Vídeo IA sem trocar de rosto: fixe o personagem nos planos",
+    "metaDescription": "Para vídeos IA com vários planos. No {brand}, envie ideia e referências; o assistente fixa o personagem no canvas e gera tabela de fixação e descrições.",
+    "oneLiner": "Envie imagens de referência e sua necessidade; ele gera no canvas uma tabela de fixação de personagem para ajudar a fixar o rosto.",
+    "intro": [
+        "Esta é a ferramenta de fixação de personagem do {brand}: envie a ideia da história e imagens de referência, e ela gera no canvas uma tabela de fixação de personagem para fixar o rosto e as roupas e organizar o ritmo da narrativa.",
+        "Você só precisa preparar a ideia da história, as cenas que quer criar e imagens de referência dos personagens. Se tiver um vídeo pronto que queira estender ou modificar, também pode enviá-lo diretamente.",
+        "Ao terminar, você recebe no canvas uma tabela de fixação de personagem, sugestões de descrições adequadas à cena e um planejamento de duração das ações. Pode copiar diretamente ou ajustar antes de gerar o vídeo."
+    ],
+    "example": {
+        "input": "Quero fazer um curta de dois espadachins duelando numa estalagem. Enviei fotos do protagonista e do coadjuvante, preciso trocar dois planos, mas sem mudar o rosto deles.",
+        "output": "No canvas, é gerado um card em formato de tabela: ele fixa separadamente o rosto e as características de roupa dos dois personagens, fornece descrições visuais para cada plano e organiza a duração das ações, pronto para você copiar e usar."
+    },
+    "scenarios": [
+        "Ao criar vídeos com vários planos, o mesmo personagem muda de rosto ou de roupa depois da troca de plano.",
+        "Você envia várias imagens de referência de personagens e objetos, e na geração elas interferem entre si, misturando características.",
+        "As ações ficam espremidas na cena e pouco naturais, e o plano muda antes de a fala terminar.",
+        "Quer estender o vídeo ou modificar uma parte da cena, mas teme que os planos não se conectem ou que o original seja danificado."
+    ],
+    "problems": [
+        {
+            "pain": "Depois de trocar de plano, o rosto, o cabelo ou a roupa do protagonista mudam e deixam de combinar com o que veio antes.",
+            "solve": "Gere no canvas uma tabela de fixação que define rosto, roupa e outros traços, reduzindo erros de continuidade nas trocas de plano."
+        },
+        {
+            "pain": "Você envia várias imagens de referência e, na geração, características de personagens e objetos se misturam e interferem entre si.",
+            "solve": "Vincule uma identidade separada a cada personagem e objeto, deixando claro quais características devem ser mantidas e quais não devem ser herdadas."
+        },
+        {
+            "pain": "No vídeo gerado, as ações ficam espremidas e pouco naturais, as falas não terminam e a ordem temporal se embaralha.",
+            "solve": "Ajuda a calcular o tempo necessário para as ações e o número de caracteres das falas, organizando a ordem para um ritmo mais tranquilo e natural."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade”, descreva a necessidade no painel à direita e envie imagens de referência.",
+        "Confira no canvas a tabela de fixação de personagem, o planejamento de sequência e os cards de descrições visuais gerados.",
+        "Edite o texto dos cards e ajuste, conforme sua ideia, as características físicas dos personagens ou a duração das ações.",
+        "Copie ou baixe o resultado e use a tabela de fixação e as descrições aprovadas na geração do vídeo seguinte."
+    ],
+    "faq": [
+        {
+            "q": "Como evitar que os personagens mudem de rosto com frequência em vídeos IA com vários planos?",
+            "a": "Criar uma tabela de fixação de personagem e fixar as características principais reduz eficazmente as mudanças de rosto nas trocas de plano. Esta habilidade organiza em uma tabela detalhes-chave como cabelo e vestuário, fazendo com que cada personagem seja vinculado a apenas uma imagem de referência para evitar interferência entre imagens diferentes. Você pode ver e editar essas características diretamente no canvas e só depois criar o vídeo."
+        },
+        {
+            "q": "São muitos modos de vídeo com IA e não sei como escolher; o que fazer?",
+            "a": "Diga a ele sua ideia específica de criação, e ele recomendará o modo adequado conforme a complexidade da tarefa. Também fornecerá uma estrutura de prompt (texto de descrição visual enviado à IA) compatível com esse modo, poupando você de procurar regras por toda parte. Você pode editar essas sugestões diretamente nos cards do canvas e copiar quando estiver satisfeito."
+        },
+        {
+            "q": "Como resolver ações apressadas e falas que não terminam em vídeos com IA?",
+            "a": "Calcular antes da produção o tempo necessário para as ações e o número de caracteres das falas ajuda a organizar o ritmo. Ele divide o vídeo em intervalos no canvas e verifica se cada ação tem tempo suficiente e se as falas conseguem terminar, evitando planos que passam rápido demais. Com base na tabela de sequência gerada, você pode ajustar levemente as ações ou encurtar falas para que a história flua com mais naturalidade."
+        },
+        {
+            "q": "Quero estender ou modificar um vídeo IA existente; como evitar danificar o original?",
+            "a": "Definir a direção da extensão e listar o que não deve ser alterado protege bem o conteúdo principal do original. Ele perguntará se você quer continuar para frente ou para trás e indicará claramente quais planos devem permanecer intactos e quais pontos específicos serão modificados. Assim, o conteúdo original é preservado ao máximo e evita-se que a IA invente mudanças onde nada deveria ser alterado."
+        }
+    ],
+    "keywords": [
+        "consistência de personagem em vídeo IA",
+        "evitar troca de rosto em vídeo IA",
+        "personagem consistente em vídeos IA com vários planos",
+        "ritmo de ações e falas em vídeo IA",
+        "estender vídeo IA",
+        "editar parte de vídeo IA"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "Romance em roteiro, storyboard e vídeo de microdrama",
+    "metaDescription": "Transforme romances em microdramas: envie o texto e receba roteiro, storyboards com personagens consistentes e clipes de vídeo, monte no canvas e exporte.",
+    "oneLiner": "Transforme sua história em roteiro de microdrama, visual dos personagens e vários clipes de vídeo.",
+    "intro": [
+        "Esta é uma ferramenta de adaptação para criadores de microdramas: você insere o texto do romance no canvas do {brand} e ele ajuda a organizar a história longa, dividindo-a em falas do roteiro, imagens de storyboard e clipes de vídeo.",
+        "Você só precisa preparar capítulos do romance, um esboço da história ou um trecho de texto. Depois de enviar na janela de conversa, basta informar o estilo visual desejado (por exemplo, live-action ou anime) e o formato da tela.",
+        "Você recebe o roteiro do microdrama, cartões de personagem com aparência consistente, uma tabela de storyboard (que divide o vídeo em planos e descreve o que filmar em cada um) e clipes de vídeo. Pode editar tudo no canvas e organizar na linha do tempo para exportar."
+    ],
+    "example": {
+        "input": "Envie o primeiro capítulo de um romance de suspense e escreva: “Me ajude a adaptar para um microdrama vertical 9:16, em estilo live-action realista, e gere os clipes de vídeo dos três primeiros planos.”",
+        "output": "No canvas são gerados o roteiro desse capítulo, a ficha de aparência do protagonista, 3 cartões de plano com ações e falas indicadas e os 3 vídeos curtos correspondentes, para você assistir e ajustar."
+    },
+    "scenarios": [
+        "Você tem uma webnovel em andamento ou um conto e quer testar a produção de um vídeo de microdrama.",
+        "Você quer dividir um romance longo em roteiro, mas não sabe como descrever planos e ações.",
+        "Ao fazer vários vídeos, você teme que o rosto do protagonista fique diferente e quer fixar a aparência do personagem antes.",
+        "Você já tem uma ideia de história e quer gerar rapidamente imagens de storyboard e clipes curtos de vídeo."
+    ],
+    "problems": [
+        {
+            "pain": "O romance tem texto demais e diálogos muito densos, e você não sabe como transformar isso em roteiro para gravação.",
+            "solve": "A ferramenta organiza personagens e acontecimentos e divide tudo em um roteiro de storyboard com falas, ações e posições de câmera indicadas."
+        },
+        {
+            "pain": "Ao fazer vários vídeos, o rosto e a roupa do protagonista mudam de um plano para outro.",
+            "solve": "Antes da produção, ela gera e fixa referências do personagem em vários ângulos, usadas de forma unificada nos planos seguintes, para manter o rosto o mais coerente possível."
+        },
+        {
+            "pain": "Você teme que, na adaptação, pistas sejam cortadas ou tramas inventadas e a história perca o sentido.",
+            "solve": "A ferramenta procura preservar ao máximo a trama e os diálogos originais; quando for preciso resumir ou houver contradições, ela lista os pontos e confirma com você antes."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em «Usar esta habilidade» e envie o texto do seu romance ou um trecho da história.",
+        "Revise o roteiro e os cartões de personagem gerados, ajuste o texto e confirme a aparência dos personagens.",
+        "Peça ao assistente para gerar a tabela de storyboard e os cartões de imagem, e confirme a ordem dos planos e os detalhes de ação.",
+        "Gere os clipes de vídeo de cada plano e assista ou gere novamente no canvas sempre que quiser.",
+        "Na linha do tempo de vídeo, organize os clipes que você gostou e exporte o vídeo final na ordem."
+    ],
+    "faq": [
+        {
+            "q": "Como transformar um romance em vídeo de microdrama?",
+            "a": "Envie o romance na janela de conversa e confirme o estilo visual; a ferramenta gera automaticamente o roteiro, as imagens de storyboard e os clipes de vídeo. Depois de aprovar, basta organizar os trechos de vídeo na linha do tempo e exportar."
+        },
+        {
+            "q": "O rosto do protagonista muda de um vídeo para outro?",
+            "a": "Não é possível garantir que fique sempre idêntico, mas o sistema procura manter o rosto do personagem coerente. Antes da geração, ele fixa imagens de referência do personagem usadas nos planos seguintes; se algum plano sair diferente, basta alterar o prompt e gerar de novo."
+        },
+        {
+            "q": "As pistas importantes e as falas clássicas do original são cortadas ou alteradas?",
+            "a": "Nada é alterado sem autorização. A ferramenta procura preservar os diálogos e os acontecimentos importantes; se o texto for longo demais e precisar de cortes, ela apresenta sugestões de mudança e pede sua opinião primeiro."
+        },
+        {
+            "q": "O vídeo pronto pode ser exportado já com dublagem?",
+            "a": "No momento, não é possível gerar um vídeo final com dublagem completa. A ferramenta gera os clipes de cada cena; você precisa organizá-los na linha do tempo, adicionar a dublagem por conta própria e então exportar."
+        }
+    ],
+    "keywords": [
+        "romance em microdrama",
+        "criar microdrama com IA",
+        "storyboard para microdrama",
+        "transformar livro em vídeo",
+        "adaptar roteiro de microdrama",
+        "gerar vídeo de microdrama"
+    ]
+}

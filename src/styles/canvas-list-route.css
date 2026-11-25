@@ -1,0 +1,323 @@
+/* Route-owned rules, in their original globals.css order and cascade layers. */
+
+@layer utilities {
+    .canvas-library-discovery {
+        display: grid;
+        min-height: 58px;
+        grid-template-columns: minmax(240px, 1fr) auto auto;
+        align-items: center;
+        gap: 20px;
+        margin-top: 10px;
+        padding: 10px 0 14px;
+    }
+
+    .canvas-library-search {
+        display: flex;
+        min-width: 0;
+        height: 38px;
+        align-items: center;
+        gap: 10px;
+        border-radius: var(--r-lg);
+        background: color-mix(in srgb, var(--foreground) 5%, transparent);
+        padding: 0 14px;
+        color: color-mix(in srgb, var(--foreground) 48%, transparent);
+        transition:
+            background-color 220ms ease-out,
+            color 220ms ease-out,
+            box-shadow 220ms ease-out;
+    }
+
+    .canvas-library-search:focus-within {
+        background: color-mix(in srgb, var(--foreground) 9%, transparent);
+        color: var(--workspace-accent);
+        box-shadow: 0 0 0 3px color-mix(in srgb, var(--workspace-accent) 10%, transparent);
+    }
+
+    .canvas-library-search > svg {
+        width: 17px;
+        height: 17px;
+        flex: 0 0 auto;
+    }
+    .canvas-library-search input {
+        width: 100%;
+        min-width: 0;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        color: var(--foreground);
+        font-size: var(--fs-label);
+    }
+    .canvas-library-search input::placeholder {
+        color: color-mix(in srgb, var(--foreground) 42%, transparent);
+    }
+    .canvas-library-search > button {
+        display: grid;
+        width: 26px;
+        height: 26px;
+        flex: 0 0 auto;
+        place-items: center;
+        border: 0;
+        border-radius: 50%;
+        background: transparent;
+        color: color-mix(in srgb, var(--foreground) 46%, transparent);
+    }
+    .canvas-library-search > button:hover {
+        background: color-mix(in srgb, var(--foreground) 8%, transparent);
+        color: var(--foreground);
+    }
+    .canvas-library-search > button svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .canvas-library-filters {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+    .canvas-library-filter {
+        display: inline-flex;
+        min-height: 34px;
+        align-items: center;
+        gap: 8px;
+        border: 1px solid transparent;
+        border-radius: var(--r-sm);
+        background: transparent;
+        padding: 0 9px;
+        color: color-mix(in srgb, var(--foreground) 58%, transparent);
+        font-size: var(--fs-label);
+        white-space: nowrap;
+        transition:
+            background-color var(--motion-instant) ease-out,
+            color var(--motion-instant) ease-out;
+    }
+    .canvas-library-filter > svg {
+        width: 15px;
+        height: 15px;
+        color: color-mix(in srgb, var(--foreground) 44%, transparent);
+    }
+    .canvas-library-filter:hover,
+    .canvas-library-filter.is-active {
+        background: color-mix(in srgb, var(--foreground) 7%, transparent);
+        color: var(--foreground);
+    }
+    .canvas-library-filter.is-active > svg {
+        color: var(--workspace-accent);
+    }
+    .canvas-library-reset {
+        min-height: 30px;
+        border: 0;
+        background: transparent;
+        padding: 0 8px;
+        color: color-mix(in srgb, var(--foreground) 42%, transparent);
+        font-size: var(--fs-micro);
+    }
+    .canvas-library-reset:hover {
+        color: var(--foreground);
+    }
+    .canvas-library-count {
+        display: flex;
+        align-items: baseline;
+        gap: 6px;
+        justify-self: end;
+        color: color-mix(in srgb, var(--foreground) 38%, transparent);
+        font-size: var(--fs-micro);
+        white-space: nowrap;
+    }
+    .canvas-library-count strong {
+        color: var(--foreground);
+        font-size: var(--fs-heading-lg);
+        font-variant-numeric: tabular-nums;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+    }
+
+    /* 画布库使用稳定的最小列宽；卡片不靠负边距或溢出制造层叠。 */
+    .canvas-library-grid {
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        align-items: stretch;
+        gap: var(--space-6) var(--space-5);
+    }
+    .canvas-library-grid .app-canvas-create-preview {
+        aspect-ratio: 16 / 10;
+    }
+
+    .canvas-library-page .studio-band .canvas-library-discovery {
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+        margin-top: var(--space-2);
+    }
+
+    .canvas-library-page .canvas-library-discovery {
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+        padding: 8px 0 12px;
+    }
+
+    .canvas-library-page .canvas-library-grid {
+        flex: 1;
+        gap: var(--space-5);
+    }
+
+    .canvas-library-page .canvas-library-search {
+        border-radius: var(--r-md);
+        background: color-mix(in srgb, var(--foreground) 4%, transparent);
+        box-shadow: none;
+    }
+
+    .canvas-library-page .canvas-library-search:focus-within {
+        box-shadow: 0 0 0 3px color-mix(in srgb, var(--workspace-accent) 10%, transparent);
+    }
+
+    /* 画布库页头操作：沿用现有配色，只统一几何比例与触感反馈。 */
+    .canvas-library-header-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: var(--space-2);
+    }
+
+    html .canvas-library-page .app-page-header .canvas-library-header-action.ant-btn {
+        height: var(--space-10);
+        border-radius: var(--r-md) !important;
+        padding-inline: var(--space-3-half);
+        column-gap: var(--space-2);
+        box-shadow: none !important;
+        transform: translateY(0) scale(1);
+        transform-origin: center;
+        transition: transform var(--motion-state) var(--motion-ease-out) !important;
+    }
+
+    html .canvas-library-page .app-page-header .canvas-library-header-action.is-primary.ant-btn {
+        min-width: 116px;
+        justify-content: center;
+    }
+
+    html .canvas-library-page .app-page-header .canvas-library-header-action.is-icon.ant-btn {
+        width: var(--space-10);
+        padding-inline: 0;
+    }
+
+    html .canvas-library-page .app-page-header .canvas-library-header-action.ant-btn:not(:disabled):hover {
+        box-shadow: none !important;
+        transform: translateY(-1px);
+    }
+
+    html .canvas-library-page .app-page-header .canvas-library-header-action.ant-btn:not(:disabled):active {
+        transform: translateY(0) scale(0.97);
+        transition-duration: var(--motion-instant) !important;
+    }
+
+    html .canvas-library-page .app-page-header .canvas-library-header-action.is-icon.is-open.ant-btn {
+        transform: translateY(0) scale(0.97);
+    }
+
+    .canvas-library-header-action.ant-btn .ant-btn-icon {
+        display: inline-flex;
+        transition: transform var(--motion-state) var(--motion-ease-out);
+    }
+
+    .canvas-library-header-action.ant-btn:not(:disabled):hover .ant-btn-icon {
+        transform: translateY(-1px) scale(1.04);
+    }
+
+    .canvas-library-header-action.is-icon.ant-btn:not(:disabled):hover .ant-btn-icon {
+        transform: scale(1.08);
+    }
+
+    .canvas-library-header-action.is-icon.is-open.ant-btn .ant-btn-icon {
+        transform: scale(1.08);
+    }
+
+    .canvas-library-header-action.ant-btn:not(:disabled):active .ant-btn-icon {
+        transform: scale(0.94);
+    }
+
+    .canvas-library-actions-menu.ant-dropdown-menu {
+        min-width: 176px;
+        padding: var(--space-1-half) !important;
+        border-radius: var(--r-lg) !important;
+    }
+
+    .canvas-library-actions-menu-item.ant-dropdown-menu-item {
+        min-height: 38px;
+        gap: var(--space-2);
+        border-radius: var(--r-md) !important;
+        padding-inline: var(--space-3) !important;
+        transition: transform var(--motion-instant) var(--motion-ease-out);
+    }
+
+    .canvas-library-actions-menu-item.ant-dropdown-menu-item:active {
+        transform: scale(0.985);
+    }
+
+    @media (max-width: 639px) {
+        .canvas-library-header-actions {
+            width: 100%;
+            justify-content: flex-start;
+        }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        html .canvas-library-page .app-page-header .canvas-library-header-action.ant-btn,
+        .canvas-library-header-action.ant-btn .ant-btn-icon,
+        .canvas-library-actions-menu-item.ant-dropdown-menu-item {
+            transition: none !important;
+        }
+
+        html .canvas-library-page .app-page-header .canvas-library-header-action.ant-btn:not(:disabled):hover,
+        html .canvas-library-page .app-page-header .canvas-library-header-action.ant-btn:not(:disabled):active,
+        html .canvas-library-page .app-page-header .canvas-library-header-action.is-icon.is-open.ant-btn,
+        .canvas-library-header-action.ant-btn:not(:disabled):hover .ant-btn-icon,
+        .canvas-library-header-action.ant-btn:not(:disabled):active .ant-btn-icon,
+        .canvas-library-header-action.is-icon.is-open.ant-btn .ant-btn-icon,
+        .canvas-library-actions-menu-item.ant-dropdown-menu-item:active {
+            transform: none;
+        }
+    }
+
+    @media (max-width: 760px) {
+        .canvas-library-discovery {
+            grid-template-columns: 1fr auto;
+            gap: 10px 14px;
+        }
+        .canvas-library-search {
+            grid-column: 1 / -1;
+        }
+        .canvas-library-count {
+            grid-column: 2;
+            grid-row: 2;
+        }
+        .canvas-library-filters {
+            grid-column: 1;
+            grid-row: 2;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media (max-width: 639px) {
+        .canvas-library-grid {
+            grid-template-columns: 1fr;
+            gap: var(--space-5);
+        }
+        .canvas-library-discovery {
+            padding-inline: 0;
+        }
+        .canvas-library-filters {
+            min-width: 0;
+        }
+        .canvas-library-filter {
+            max-width: 150px;
+            padding-inline: 6px;
+        }
+        .canvas-library-filter span {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}

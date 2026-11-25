@@ -1,0 +1,20 @@
+const announcements = {
+    "announcements.title": "システムのお知らせ",
+    "announcements.loadFailure": "お知らせを読み込めませんでした",
+    "announcements.unread": "システムのお知らせ、未読 {count} 件",
+    "announcements.info": "プラットフォーム通知",
+    "announcements.success": "サービス復旧",
+    "announcements.warning": "サービスのお知らせ",
+    "announcements.critical": "重要なお知らせ",
+    "announcements.currentCount": "現在のお知らせ：{count} 件",
+    "announcements.noCurrent": "現在有効なお知らせはありません",
+    "announcements.loading": "お知らせを読み込み中",
+    "announcements.errorTitle": "お知らせの読み込みに失敗しました",
+    "announcements.empty": "システムのお知らせはありません",
+    "announcements.emptyHint": "サービスの最新情報がここに表示されます",
+    "announcements.pinned": "固定",
+    "announcements.imageAlt": "{title} の画像",
+    "announcements.justNow": "たった今",
+    "announcements.publishedTime": "{relative} · {date}",
+} as const;
+export default announcements;

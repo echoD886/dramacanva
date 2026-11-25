@@ -1,0 +1,66 @@
+{
+    "title": "Escolha a habilidade de IA certa para vídeo com 3 perguntas",
+    "metaDescription": "Para iniciantes diante de muitas habilidades. Diga sua ideia ou bloqueio e ele recomenda no canvas a habilidade de criação ideal, com motivos e resultados.",
+    "oneLiner": "Diga sua ideia de criação e ele escolhe no canvas a habilidade de IA certa para você.",
+    "intro": [
+        "Este é um guia que ajuda você a escolher habilidades de IA. Quando você tem dezenas de habilidades de criação e não sabe qual usar, ou só tem uma ideia vaga, ele ajuda a organizar as ideias.",
+        "Você não precisa entender termos técnicos. Basta conversar com ele sobre o tipo de conteúdo que quer criar (como uma série curta ou um anúncio) ou dizer se está travado no roteiro, nas imagens ou em outra etapa.",
+        "Ele gera um cartão de texto no canvas, recomenda o nome da habilidade adequada e explica o motivo da recomendação e o que ela pode produzir, para você procurar e usar diretamente na biblioteca de habilidades."
+    ],
+    "example": {
+        "input": "Quero fazer uma série curta, mas por enquanto só tenho uma ideia geral da história e não sei qual habilidade usar no primeiro passo para escrever o roteiro.",
+        "output": "Gera um cartão de texto no canvas, recomenda a habilidade principal «Motor de Estrutura de História» para esclarecer os pontos de virada do esboço e a alternativa «Pipeline de Série Curta em Plano-Sequência», além de explicar os motivos da recomendação e a descrição do resultado."
+    },
+    "scenarios": [
+        "Quer criar uma série curta ou um vídeo promocional e não sabe qual escolher entre dezenas de opções da biblioteca de habilidades.",
+        "Só tem uma ideia vaga de criação e não sabe se o primeiro passo é escrever a história ou montar as imagens.",
+        "A geração de imagens costuma dar erro ou não sai como você quer, e você procura uma habilidade específica para resolver problemas de imagem.",
+        "Depois de terminar o roteiro e antes de produzir o vídeo, quer uma habilidade para fazer uma revisão completa do conteúdo."
+    ],
+    "problems": [
+        {
+            "pain": "Há opções demais na biblioteca de habilidades e não sei qual realmente atende à minha necessidade de produção.",
+            "solve": "Ao perguntar o tipo de conteúdo que você quer fazer e onde está travado, ele recomenda habilidades adequadas e explica os motivos e os resultados."
+        },
+        {
+            "pain": "A ideia na cabeça é vaga demais; depois de pedir algo à IA, a resposta fica ampla demais e não serve.",
+            "solve": "Com perguntas simples, ele esclarece seus pontos de bloqueio na produção e orienta a escolher as habilidades essenciais para começar."
+        },
+        {
+            "pain": "Preocupa-me que a IA altere configurações por conta própria ou substitua conteúdos que você já criou no canvas.",
+            "solve": "Ele apenas lista sugestões de texto no canvas para sua referência, não decide por você; a escolha continua sempre com você."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em «Usar esta habilidade» e conte ao assistente, no painel de conversa à direita, sua ideia de criação.",
+        "Responda qual tipo de vídeo quer fazer e onde está o bloqueio de produção, para o assistente organizar a direção.",
+        "Veja o cartão de texto gerado no canvas e leia os motivos da recomendação das habilidades e a descrição dos resultados.",
+        "Copie ou baixe o resultado e, conforme a sugestão, vá à biblioteca de habilidades para buscar e usar a habilidade correspondente."
+    ],
+    "faq": [
+        {
+            "q": "Sou iniciante em vídeos e não sei qual habilidade de IA escolher. O que faço?",
+            "a": "No painel de conversa à direita, diga ao assistente que tipo de vídeo quer fazer ou em que etapa está travado; ele recomenda habilidades adequadas no canvas. Se você precisar de um fluxo completo, ele recomenda habilidades de processo em conjunto; se for só uma questão específica, como diálogos ou imagens, ele recomenda habilidades leves e direcionadas. Leia os motivos e a descrição dos resultados antes de decidir qual usar na biblioteca de habilidades."
+        },
+        {
+            "q": "Depois de inserir uma ideia vaga, a resposta da IA fica ampla demais. Como lidar?",
+            "a": "Diga diretamente ao assistente o tipo específico de conteúdo que quer fazer e o ponto em que está travado; assim ele reduz rapidamente o escopo e faz uma recomendação precisa. Por exemplo, explique se é uma série curta ou um anúncio e se falta um esboço de história ou se as imagens geradas nunca saem como você quer. Ao dividir a necessidade grande em perguntas pequenas e específicas, a recomendação de habilidades fica mais adequada à sua necessidade real de produção."
+        },
+        {
+            "q": "As imagens geradas pela IA não me agradam ou dão erro com frequência. Qual habilidade usar?",
+            "a": "Recomenda-se priorizar as habilidades «Gramática de Storyboard» ou «Design de Tom Visual» para padronizar a descrição de enquadramento, plano e iluminação das imagens. No painel de conversa, explique o problema específico da imagem e o assistente recomendará uma habilidade visual adequada para resolvê-lo. Use os prompts padronizados gerados como referência para ajustar a descrição; assim fica mais fácil manter a estabilidade das imagens e reduzir falhas de geração."
+        },
+        {
+            "q": "Essa habilidade ativa ou altera automaticamente configurações existentes para mim?",
+            "a": "Não. Ele só oferece sugestões durante todo o processo e não toma decisões por você; nunca ativa habilidades automaticamente nem altera suas configurações existentes. Ele apenas gera no canvas um cartão de texto com o nome da habilidade, o motivo da recomendação e a descrição do resultado, e você decide manualmente se quer usar. O conteúdo do seu projeto e as configurações já existentes no canvas permanecem sempre totalmente sob seu controle."
+        }
+    ],
+    "keywords": [
+        "como escolher habilidade de IA",
+        "como começar a criar vídeos com IA",
+        "ferramentas de IA para séries curtas",
+        "tutorial de IA para iniciantes em vídeo",
+        "recomendação de habilidades de IA para vídeo",
+        "roteiro de série curta com IA"
+    ]
+}

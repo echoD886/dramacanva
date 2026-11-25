@@ -1,0 +1,20 @@
+const protocolPicker = {
+    "protocolPicker.text": "Text",
+    "protocolPicker.textDescription": "Chat and reasoning",
+    "protocolPicker.image": "Image",
+    "protocolPicker.imageDescription": "Generation and editing",
+    "protocolPicker.video": "Video",
+    "protocolPicker.videoDescription": "Generation and shot extension",
+    "protocolPicker.audio": "Audio",
+    "protocolPicker.audioDescription": "Voice and sound effects",
+    "protocolPicker.capability": "Model capability",
+    "protocolPicker.requestProtocol": "Request protocol",
+    "protocolPicker.async": "Async polling",
+    "protocolPicker.sync": "Sync response",
+    "protocolPicker.configure": "Configure capability and protocol",
+    "protocolPicker.apply": "Apply",
+    "protocolPicker.protocol": "Protocol",
+    "protocolPicker.missing": "Protocol not installed",
+    "protocolPicker.choice": "{capability} · {protocol}",
+} as const;
+export default protocolPicker;

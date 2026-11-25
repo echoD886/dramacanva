@@ -1,0 +1,429 @@
+/* 空画布引导：居中输入框 + 背景涟漪。整层不拦截画布指针，只有卡片本身可交互。 */
+.canvas-story-entry-stage {
+    --canvas-story-entry-hairline: color-mix(in srgb, var(--canvas-story-entry-text) 10%, transparent);
+    --canvas-story-entry-chip: color-mix(in srgb, var(--canvas-story-entry-text) 5%, transparent);
+    --canvas-story-entry-chip-hover: color-mix(in srgb, var(--canvas-story-entry-text) 10%, transparent);
+    --canvas-story-entry-wave: color-mix(in srgb, var(--canvas-story-entry-text) 22%, transparent);
+    position: absolute;
+    inset: 0;
+    z-index: var(--z-node-active);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    padding: var(--space-20) var(--space-6);
+    color: var(--canvas-story-entry-text);
+    pointer-events: none;
+}
+
+/* ---------- 背景涟漪 ---------- */
+.canvas-story-entry-ripple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+.canvas-story-entry-ripple::before {
+    content: "";
+    position: absolute;
+    width: 720px;
+    height: 720px;
+    border-radius: var(--r-full);
+    background: radial-gradient(circle, color-mix(in srgb, var(--canvas-story-entry-text) 7%, transparent) 0%, transparent 62%);
+    transform: translate(-50%, -50%);
+}
+
+.canvas-story-entry-ripple > span {
+    position: absolute;
+    width: 920px;
+    height: 920px;
+    border: 1px solid var(--canvas-story-entry-wave);
+    border-radius: var(--r-full);
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.16);
+    animation: canvas-story-entry-ripple 9.6s cubic-bezier(0.2, 0.6, 0.35, 1) infinite;
+    will-change: transform, opacity;
+}
+
+.canvas-story-entry-ripple > span:nth-child(2) {
+    animation-delay: 2.4s;
+}
+.canvas-story-entry-ripple > span:nth-child(3) {
+    animation-delay: 4.8s;
+}
+.canvas-story-entry-ripple > span:nth-child(4) {
+    animation-delay: 7.2s;
+}
+
+@keyframes canvas-story-entry-ripple {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.16);
+    }
+    12% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+.canvas-story-entry-click-ripple {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    margin: -180px 0 0 -180px;
+    border: 1.5px solid var(--canvas-story-entry-wave);
+    border-radius: var(--r-full);
+    pointer-events: none;
+    opacity: 0;
+    animation: canvas-story-entry-click-ripple 1.1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes canvas-story-entry-click-ripple {
+    0% {
+        opacity: 1;
+        transform: scale(0.04);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+/* 交互期暂停涟漪，不和画布平移/缩放争抢合成。 */
+[data-canvas-viewport-interacting="true"] .canvas-story-entry-ripple > span {
+    animation-play-state: paused;
+}
+
+/* ---------- 卡片 ---------- */
+.canvas-story-entry-shell {
+    position: relative;
+    display: flex;
+    width: min(100%, 600px);
+    max-height: 100%;
+    min-height: 0;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: var(--space-2);
+    text-align: center;
+    pointer-events: auto;
+    scrollbar-width: none;
+}
+
+.canvas-story-entry-shell::-webkit-scrollbar {
+    display: none;
+}
+
+.canvas-story-entry-shell button {
+    font: inherit;
+    cursor: pointer;
+}
+
+.canvas-story-entry-shell button:focus-visible,
+.canvas-story-entry-composer:focus-within {
+    outline: none;
+}
+
+.canvas-story-entry-shell button:focus-visible {
+    outline: var(--focus-ring-width, 2px) solid var(--ring);
+    outline-offset: 2px;
+}
+
+.canvas-story-entry-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    height: var(--space-6);
+    padding: 0 var(--space-2);
+    border: 1px solid var(--canvas-story-entry-hairline);
+    border-radius: var(--r-full);
+    background: var(--canvas-story-entry-chip);
+    color: var(--canvas-story-entry-muted);
+    font-size: var(--fs-label);
+    letter-spacing: 0.04em;
+}
+
+.canvas-story-entry-eyebrow svg {
+    width: 12px;
+    height: 12px;
+}
+
+.canvas-story-entry-title {
+    margin: var(--space-4) 0 0;
+    color: var(--canvas-story-entry-muted);
+    font-size: var(--typ-display-md, 32px);
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    line-height: 1.25;
+}
+
+.canvas-story-entry-title strong {
+    color: var(--canvas-story-entry-text);
+    font-weight: 600;
+}
+
+.canvas-story-entry-subtitle {
+    margin: var(--space-2) 0 0;
+    color: var(--canvas-story-entry-muted);
+    font-size: var(--fs-caption);
+    line-height: 1.7;
+    text-wrap: balance;
+}
+
+/* ---------- 输入框 ---------- */
+.canvas-story-entry-composer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: var(--space-6);
+    border: 1px solid var(--canvas-story-entry-border);
+    border-radius: var(--r-3xl);
+    background: var(--canvas-story-entry-surface);
+    box-shadow:
+        0 1px 2px color-mix(in srgb, black 6%, transparent),
+        0 18px 48px var(--canvas-story-entry-shadow);
+    text-align: left;
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    transition:
+        border-color var(--motion-state) ease,
+        box-shadow var(--motion-state) ease;
+}
+
+.canvas-story-entry-composer:focus-within {
+    border-color: color-mix(in srgb, var(--canvas-story-entry-text) 28%, transparent);
+    box-shadow:
+        0 0 0 4px color-mix(in srgb, var(--canvas-story-entry-text) 6%, transparent),
+        0 18px 48px var(--canvas-story-entry-shadow);
+}
+
+.canvas-story-entry-composer textarea {
+    width: 100%;
+    min-height: 64px;
+    max-height: 180px;
+    padding: var(--space-4) var(--space-4) var(--space-1);
+    border: 0;
+    background: transparent;
+    color: var(--canvas-story-entry-text);
+    font: inherit;
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    resize: none;
+    outline: none;
+    field-sizing: content;
+}
+
+.canvas-story-entry-composer textarea::placeholder {
+    color: color-mix(in srgb, var(--canvas-story-entry-muted) 75%, transparent);
+}
+
+.canvas-story-entry-composer-bar {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-2) var(--space-2) var(--space-3);
+}
+
+/* 输入框内的命令与发送键沿用统一按钮几何（8px 圆角），标签与灵感示例 chip 仍保留胶囊。 */
+.canvas-story-entry-ghost {
+    display: inline-flex;
+    height: var(--space-8);
+    align-items: center;
+    gap: var(--space-2);
+    padding: 0 var(--space-2);
+    border: 1px solid var(--canvas-story-entry-hairline);
+    border-radius: var(--button-radius, var(--r-lg));
+    background: transparent;
+    color: var(--canvas-story-entry-muted);
+    font-size: var(--fs-caption);
+    transition:
+        background-color var(--motion-state) ease,
+        color var(--motion-state) ease;
+}
+
+.canvas-story-entry-ghost svg {
+    width: 14px;
+    height: 14px;
+}
+.canvas-story-entry-ghost:hover {
+    background: var(--canvas-story-entry-chip);
+    color: var(--canvas-story-entry-text);
+}
+
+.canvas-story-entry-hint {
+    margin-left: auto;
+    color: color-mix(in srgb, var(--canvas-story-entry-muted) 70%, transparent);
+    font-size: var(--fs-label);
+    white-space: nowrap;
+}
+
+.canvas-story-entry-send {
+    display: grid;
+    width: var(--space-8);
+    height: var(--space-8);
+    flex-shrink: 0;
+    place-items: center;
+    border: 0;
+    border-radius: var(--button-radius, var(--r-lg));
+    background: var(--canvas-story-entry-accent);
+    color: var(--canvas-story-entry-on-accent);
+    box-shadow: var(--button-primary-shadow);
+    transition:
+        opacity var(--motion-state) ease,
+        filter var(--motion-state) ease;
+}
+
+.canvas-story-entry-send svg {
+    width: 16px;
+    height: 16px;
+    stroke-width: 2.2;
+}
+.canvas-story-entry-send:not(:disabled):hover {
+    filter: brightness(1.08);
+}
+.canvas-story-entry-send:not(:disabled):active {
+    box-shadow: var(--button-primary-active-shadow);
+}
+.canvas-story-entry-shell .canvas-story-entry-send:disabled {
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: var(--button-disabled-opacity, 0.45);
+}
+
+/* ---------- 灵感示例 ---------- */
+.canvas-story-entry-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-2);
+    margin-top: var(--space-4);
+}
+
+.canvas-story-entry-suggestions button {
+    height: 28px;
+    padding: 0 var(--space-3);
+    border: 1px solid var(--canvas-story-entry-hairline);
+    border-radius: var(--r-full);
+    background: var(--canvas-story-entry-chip);
+    color: var(--canvas-story-entry-muted);
+    font-size: var(--fs-label);
+    white-space: nowrap;
+    transition:
+        background-color var(--motion-state) ease,
+        color var(--motion-state) ease;
+}
+
+.canvas-story-entry-suggestions button:hover {
+    background: var(--canvas-story-entry-chip-hover);
+    color: var(--canvas-story-entry-text);
+}
+
+/* ---------- 其他起点 ---------- */
+.canvas-story-entry-paths {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: var(--space-2);
+    margin-top: var(--space-8);
+}
+
+.canvas-story-entry-paths button {
+    display: flex;
+    min-width: 0;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-3);
+    border: 1px solid var(--canvas-story-entry-hairline);
+    border-radius: var(--r-xl);
+    background: color-mix(in srgb, var(--canvas-story-entry-surface) 60%, transparent);
+    color: var(--canvas-story-entry-text);
+    text-align: left;
+    transition:
+        background-color var(--motion-state) ease,
+        border-color var(--motion-state) ease,
+        transform var(--motion-state) var(--motion-ease-out);
+}
+
+.canvas-story-entry-paths button:hover {
+    border-color: color-mix(in srgb, var(--canvas-story-entry-text) 20%, transparent);
+    background: var(--canvas-story-entry-surface);
+}
+
+.canvas-story-entry-paths svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    color: var(--canvas-story-entry-muted);
+    stroke-width: 1.7;
+}
+
+.canvas-story-entry-paths span {
+    display: grid;
+    min-width: 0;
+    gap: 2px;
+}
+.canvas-story-entry-paths strong {
+    overflow: hidden;
+    font-size: var(--fs-caption);
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.canvas-story-entry-paths small {
+    overflow: hidden;
+    color: var(--canvas-story-entry-muted);
+    font-size: var(--fs-tiny);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+    .canvas-story-entry-stage {
+        padding-inline: var(--space-4);
+    }
+    .canvas-story-entry-title {
+        font-size: var(--typ-display-sm, 24px);
+    }
+    .canvas-story-entry-paths {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .canvas-story-entry-hint {
+        display: none;
+    }
+    .canvas-story-entry-ghost {
+        margin-right: auto;
+    }
+}
+
+@media (max-height: 620px) {
+    .canvas-story-entry-stage {
+        padding-block: var(--space-4);
+    }
+    .canvas-story-entry-composer {
+        margin-top: var(--space-4);
+    }
+    .canvas-story-entry-paths {
+        margin-top: var(--space-4);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .canvas-story-entry-ripple > span,
+    .canvas-story-entry-click-ripple {
+        display: none;
+    }
+    .canvas-story-entry-shell button,
+    .canvas-story-entry-composer {
+        transition: none;
+    }
+    .canvas-story-entry-paths button:hover,
+    .canvas-story-entry-send:not(:disabled):hover {
+        transform: none;
+    }
+}

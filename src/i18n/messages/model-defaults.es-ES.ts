@@ -1,0 +1,22 @@
+const modelDefaults = {
+    "modelDefaults.imageTitle": "Modelo de imagen predeterminado",
+    "modelDefaults.imageDescription": "Generación, edición de imágenes y exploración visual",
+    "modelDefaults.videoTitle": "Modelo de vídeo predeterminado",
+    "modelDefaults.videoDescription": "Texto a vídeo, imagen a vídeo y extensión de planos",
+    "modelDefaults.textTitle": "Modelo de texto predeterminado",
+    "modelDefaults.textDescription": "Reescritura de prompts, guiones y texto estructurado",
+    "modelDefaults.audioTitle": "Modelo de audio predeterminado",
+    "modelDefaults.audioDescription": "Generación de voz, efectos de sonido y música",
+    "modelDefaults.available": "Disponibles: {count}",
+    "modelDefaults.unnamedChannel": "Canal sin nombre",
+    "modelDefaults.system": "Sistema",
+    "modelDefaults.custom": "Personalizado",
+    "modelDefaults.tokenPrice": "{price} / 1 M de tokens",
+    "modelDefaults.secondPrice": "{price} / s",
+    "modelDefaults.requestPrice": "{price} / solicitud",
+    "modelDefaults.noImage": "No hay modelos de imagen disponibles",
+    "modelDefaults.noVideo": "No hay modelos de vídeo disponibles",
+    "modelDefaults.noText": "No hay modelos de texto disponibles",
+    "modelDefaults.noAudio": "No hay modelos de audio disponibles",
+} as const;
+export default modelDefaults;

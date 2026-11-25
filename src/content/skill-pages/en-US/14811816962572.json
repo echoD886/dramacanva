@@ -1,0 +1,67 @@
+{
+    "title": "Upload a clothing photo to create 5 styled model shots",
+    "metaDescription": "For clothing sellers: upload a garment photo; AI styles hair and accessories on canvas to create 5 studio model shots in different looks. Download anytime.",
+    "oneLiner": "Upload one garment photo and create 5 model shots with different outfits for clothing sellers on the canvas.",
+    "intro": [
+        "This is a tool that helps clothing sellers create display images. Based on the clothes you sell, it designs 5 outfits and studio shooting plans for different customer groups, so the same garment can show 5 different looks when worn.",
+        "All you need is a clear flat-lay or real-life photo of the garment. If you don't have an image, you can also type in the chat box and describe the style, color, and fabric material.",
+        "When it's done, you'll get 5 vertical 3:4 model images with clean backgrounds on the canvas, complete with hairstyles and accessories. You can adjust or regenerate any part you're not happy with, or download the images directly."
+    ],
+    "example": {
+        "input": "Upload a flat-lay photo of a loose white linen shirt and add: I'd like to see different pairings for office commuting, French casual, and vacation style.",
+        "output": "The canvas will first list 5 outfit styling plans for you to confirm. After confirmation, it generates 5 vertical 3:4 model try-on images showing different styles, such as commuting dress pants with accessories and a vacation straw hat, ready to download."
+    },
+    "scenarios": [
+        "When you only have flat-lay or hanging garment photos and want to create ecommerce model try-on images at low cost.",
+        "When a new clothing product needs to launch soon and you don't have time to book a studio and model, and need images quickly for product testing.",
+        "When you want to sell the same garment to buyers with different tastes and need to show multiple outfit styles.",
+        "When you lack a commercial photography budget but want a set of studio shots with clean lighting and realistic fabric texture."
+    ],
+    "problems": [
+        {
+            "pain": "Booking commercial models and photo studios is expensive and slow, so new products can't get images in time.",
+            "solve": "Upload a garment photo to directly generate 5 vertical 3:4 studio model images, reducing the upfront cost of finding models and renting a studio."
+        },
+        {
+            "pain": "AI model images often look like mannequins, and fabric texture looks unrealistic.",
+            "solve": "Simulates professional studio lighting and preserves real fabric details to approximate real-photo texture and reduce the plastic mannequin look."
+        },
+        {
+            "pain": "A garment with only one way to wear it feels too plain, and you don't know how to pair accessories and hairstyles.",
+            "solve": "AI analyzes the garment style and creates dedicated hairstyles and accessories for 5 customer groups, then lists the plans for your confirmation first."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill\" and start creating in the chat box on the right side of the canvas.",
+        "Upload a flat-lay garment photo or enter a text description of the garment's color and fabric features.",
+        "Review the 5 outfit styling plans listed by AI, confirm they're correct, or suggest adjustments.",
+        "Check the 5 model images generated on the canvas and tell the assistant to regenerate anything you're not satisfied with.",
+        "Choose the model display images you like, click to view details, and download the images."
+    ],
+    "faq": [
+        {
+            "q": "How do I use AI to turn a flat-lay garment photo into model try-on images?",
+            "a": "Upload a flat-lay garment photo on the {brand} canvas, confirm the styling plan with the assistant, and then generate 5 studio model images. The system automatically analyzes the garment style and fabric and pairs hairstyles and accessories for you. If you're not satisfied with details, just tell the assistant what to change and regenerate."
+        },
+        {
+            "q": "Can I use it if I only have a text description and no actual garment photo?",
+            "a": "Yes, you can generate directly from a text description. Clearly describe the garment category, color, fit, and fabric features in the chat box, and you can still create 5 model outfit images. However, providing a clear real-life reference photo will make the details closer to the original."
+        },
+        {
+            "q": "Can I modify the generated model's face, hairstyle, or pose if I'm not satisfied?",
+            "a": "You can modify and regenerate at any time. Before the images are generated, you can first adjust the outfit and pose plans provided. After the images are generated, you can also directly tell the assistant what to change and regenerate the one you're not happy with."
+        },
+        {
+            "q": "Can the generated model images be used directly as ecommerce main images?",
+            "a": "Yes, they can be used directly as ecommerce main images or detail page images. The images default to the common ecommerce 3:4 vertical ratio and a clean studio background, with the subject centered and details clear. Once generation is complete, choose the images you're satisfied with and download them."
+        }
+    ],
+    "keywords": [
+        "flat lay to model image",
+        "AI fashion model generator",
+        "ecommerce model photo maker",
+        "virtual clothing try-on",
+        "AI studio product photos for clothing",
+        "AI apparel model images"
+    ]
+}

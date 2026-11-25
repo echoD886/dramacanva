@@ -1,0 +1,277 @@
+.agent-panel-header {
+    min-height: 68px;
+    padding: var(--space-3) var(--space-4) var(--space-2) var(--space-5);
+}
+
+.agent-panel-title {
+    font-size: var(--fs-heading);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.agent-panel-context {
+    margin-top: var(--space-1);
+    color: var(--agent-caption);
+    font-size: var(--fs-label);
+}
+
+.agent-panel-status {
+    font-size: var(--fs-label);
+}
+
+.agent-header-actions .ant-btn {
+    color: inherit;
+}
+
+.agent-conversation {
+    padding: 10px var(--space-4) var(--space-4);
+    scroll-padding-block: var(--space-4);
+}
+
+.agent-conversation-messages {
+    min-width: 0;
+}
+
+.agent-conversation-messages > * + * {
+    margin-top: 9px;
+}
+
+/* 状态行的图标只是语义标记，不应把正文向右推成另一条内容轴。 */
+.agent-status-message {
+    min-width: 0;
+    line-height: 1.45;
+}
+
+.agent-status-message--system {
+    opacity: 0.78;
+}
+
+.agent-status-message--warning {
+    --agent-error-accent: var(--palette-status-warning);
+}
+
+.agent-status-message--error {
+    --agent-error-accent: var(--palette-status-error);
+}
+
+.agent-error-message {
+    --agent-error-caption: color-mix(in srgb, var(--agent-ink) 72%, var(--agent-surface-base));
+    --agent-error-accent: color-mix(in srgb, var(--palette-status-warning) 60%, var(--agent-ink));
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-2);
+    padding: var(--space-4);
+    border-radius: var(--agent-radius-surface);
+    background: var(--agent-surface-soft);
+    color: var(--agent-ink);
+    animation: agent-error-appear 180ms ease-out;
+}
+
+.agent-error-icon {
+    display: grid;
+    flex: 0 0 var(--space-6);
+    width: var(--space-6);
+    height: var(--space-6);
+    place-items: center;
+    border-radius: var(--r-full);
+    background: color-mix(in srgb, var(--agent-error-accent) 10%, transparent);
+    color: var(--agent-error-accent);
+}
+
+.agent-error-title {
+    font-size: var(--fs-body);
+    font-weight: 600;
+    line-height: var(--space-6);
+}
+
+.agent-error-detail {
+    margin: var(--space-1) 0 0;
+    color: color-mix(in srgb, var(--agent-ink) 78%, var(--agent-surface-base));
+    font-size: var(--fs-caption);
+    line-height: 1.6;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.agent-error-amounts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-4);
+    margin-block: var(--space-3);
+    font-size: var(--fs-caption);
+    line-height: 1.6;
+    color: var(--agent-error-caption);
+}
+
+.agent-error-amounts > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--space-1);
+    overflow-wrap: anywhere;
+}
+
+.agent-error-amounts strong {
+    display: block;
+    color: var(--agent-ink);
+    font-size: var(--fs-heading-lg);
+    line-height: 1.5;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+}
+
+.agent-error-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-block: var(--space-3);
+}
+
+.agent-error-actions .ant-btn-primary {
+    font-weight: 600;
+}
+
+.agent-error-message .ant-btn {
+    min-height: 44px;
+    height: auto;
+    padding: var(--space-2) var(--space-3);
+    white-space: normal;
+    transition:
+        background-color 180ms ease,
+        color 180ms ease,
+        border-color 180ms ease;
+}
+
+.agent-error-message .ant-btn:focus-visible {
+    outline: 2px solid var(--agent-focus-ring);
+    outline-offset: 3px;
+}
+
+.agent-error-disclosure summary:hover {
+    color: var(--agent-ink);
+}
+.agent-error-disclosure summary:active {
+    color: var(--agent-error-accent);
+}
+
+.agent-error-login {
+    margin-top: var(--space-3);
+}
+
+.agent-error-disclosure {
+    color: var(--agent-error-caption);
+    font-size: var(--fs-caption);
+    margin-top: var(--space-2);
+}
+
+.agent-error-disclosure summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 44px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.agent-error-disclosure summary::-webkit-details-marker {
+    display: none;
+}
+.agent-error-disclosure summary svg {
+    transition: transform 180ms ease;
+}
+.agent-error-disclosure p {
+    line-height: 1.6;
+    margin: var(--space-2) 0;
+}
+.agent-error-disclosure[open] p {
+    animation: agent-error-appear 180ms ease-out;
+}
+.agent-error-disclosure[open] summary svg {
+    transform: rotate(180deg);
+}
+.agent-error-disclosure summary:focus-visible {
+    outline: 2px solid var(--agent-focus-ring);
+    outline-offset: 2px;
+    border-radius: var(--r-sm);
+}
+
+@keyframes agent-error-appear {
+    from {
+        opacity: 0;
+        transform: translateY(var(--space-1));
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .agent-error-message,
+    .agent-error-disclosure[open] p,
+    .agent-error-retry svg {
+        animation: none;
+    }
+    .agent-error-disclosure summary svg,
+    .agent-error-message .ant-btn {
+        transition: none;
+    }
+}
+
+.agent-error-meta {
+    margin: var(--space-1) 0 0;
+    color: var(--agent-caption);
+    font-size: var(--fs-label);
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.agent-message-user {
+    border-radius: var(--agent-radius-surface) var(--agent-radius-surface) var(--space-2) var(--agent-radius-surface);
+    background: var(--agent-surface-hover, color-mix(in srgb, var(--foreground) 7%, transparent));
+}
+
+.agent-message-body .ai-message-markdown-paragraph {
+    margin: 0.32em 0;
+}
+
+.agent-message-body .ai-message-markdown-list {
+    margin-top: 0.35em;
+    margin-bottom: 0.35em;
+}
+
+.agent-scene-tray {
+    flex-shrink: 0;
+    padding: var(--space-2) var(--space-4);
+}
+.agent-scene-tray .agent-scene-capsules {
+    padding-top: 0;
+}
+.agent-connectors-restore {
+    display: block;
+    margin: var(--space-2) var(--space-3);
+    color: var(--agent-caption);
+    font-size: var(--fs-label);
+}
+.agent-connectors-restore:focus-visible {
+    outline: 2px solid var(--agent-focus-ring);
+    outline-offset: 2px;
+}
+@container (max-width: 400px) {
+    .agent-panel-header {
+        gap: var(--space-2);
+        padding-inline: var(--space-4);
+    }
+    .agent-panel-status {
+        white-space: nowrap;
+    }
+    .agent-conversation {
+        padding-inline: var(--space-4);
+    }
+}
+@media (max-width: 639px) {
+    .canvas-agent-panel {
+        border-end-start-radius: 0;
+        border-end-end-radius: 0;
+    }
+}

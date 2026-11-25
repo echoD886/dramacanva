@@ -1,0 +1,66 @@
+{
+    "title": "Guion de serie corta en planos coherentes sin fallos",
+    "metaDescription": "Para creadores de series cortas y novatos en vídeo. Envía un guion y obtén una tabla de planos con acciones, diálogos y continuidad.",
+    "oneLiner": "Dale un guion de serie corta y genera en el lienzo una tabla de planos que ordena las acciones para creadores de vídeo.",
+    "intro": [
+        "Es una herramienta de creación que ayuda a ordenar los planos de una serie corta. Al hacer vídeo, es fácil que los planos no sean coherentes: por ejemplo, en el plano anterior alguien sostiene un vaso de agua y en el siguiente aparece con las manos vacías. Esta herramienta te ayuda a aclarar esos detalles.",
+        "Solo tienes que preparar el guion de la serie corta o la historia por episodios. Si tienes requisitos de horizontal o vertical y de duración por episodio, también puedes indicárselos directamente en el chat.",
+        "Cuando termine, en el lienzo se generará una tarjeta de tabla de planos que indicará los diálogos, las acciones, los segundos estimados y los estados inicial y final de los personajes de cada plano, para que puedas modificarla o copiarla cuando quieras."
+    ],
+    "example": {
+        "input": "Envía el guion: «Li Ming abre la puerta y entra en la oficina con un maletín en la mano derecha. El señor Wang levanta la vista, lo mira y le pregunta: “¿Has traído lo que te pedí?”»",
+        "output": "En el lienzo se generan dos filas de la tabla de planos: el plano 1 indica que Li Ming entra con el maletín en la mano derecha y su posición final; el plano 2 indica que el señor Wang mira a Li Ming y enlaza con su diálogo, dejando clara la continuidad de las acciones."
+    },
+    "scenarios": [
+        "Cuando tienes el guion de una serie corta ya escrito y quieres dividirlo en planos claros para preparar el vídeo.",
+        "Cuando dos personas conversan de ida y vuelta o varias discuten y necesitas distinguir quién habla primero y a quién debe enfocar cada plano.",
+        "Cuando en la imagen se pasa un objeto o hay una pelea y quieres que las acciones de un plano conecten con el siguiente.",
+        "Cuando ya tienes una tabla de planos y solo quieres modificar algunos planos sin reescribir toda la pieza."
+    ],
+    "problems": [
+        {
+            "pain": "Los planos del vídeo no conectan entre sí y el objeto que lleva un personaje cambia de mano o desaparece de repente.",
+            "solve": "Registra el estado inicial y final de cada plano para que el siguiente continúe con la acción y los objetos del anterior y se reduzcan los fallos de continuidad."
+        },
+        {
+            "pain": "Cuando hay muchos diálogos, no sabes cómo dividir los planos y temes que se pierda alguna frase o se altere el orden.",
+            "solve": "Divide los planos según lo que ocurre en la imagen y asigna cada frase en el orden original, sin eliminar ni cambiar el orden a la ligera."
+        },
+        {
+            "pain": "Hay partes del guion que no están claras y temes que la IA invente y rompa la premisa original.",
+            "solve": "Cuando detecta que la trama no está bien explicada, enumera dudas concretas y propone soluciones; espera a que decidas antes de continuar."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en la interfaz de creación del lienzo de {brand}.",
+        "Envía el texto del guion de tu serie corta; puedes indicar si es horizontal o vertical y la duración objetivo.",
+        "Consulta la tarjeta de tabla de planos generada en el lienzo y revisa las acciones de los personajes y sus diálogos correspondientes.",
+        "Modifica los planos que necesites y, cuando todo esté correcto, copia o descarga el resultado."
+    ],
+    "faq": [
+        {
+            "q": "¿Qué es una tabla de planos para una serie corta?",
+            "a": "Una tabla de planos es una lista que divide el guion de una serie corta en imágenes concretas y especifica quién habla y qué hace en cada plano. Te ayuda a ordenar la continuidad antes de generar las imágenes reales y a evitar que las acciones de los personajes dejen de encajar de repente."
+        },
+        {
+            "q": "¿Por qué es fácil que las acciones de los personajes fallen de continuidad entre planos al generar un vídeo?",
+            "a": "La causa habitual es que la acción y la posición con las que termina un plano no se indican al siguiente. Esta herramienta registra la postura y los objetos de los personajes al inicio y al final de cada plano para que los planos contiguos continúen de forma natural y se reduzca el riesgo de fallos de continuidad."
+        },
+        {
+            "q": "¿Se eliminan, modifican o desordenan los diálogos del guion original?",
+            "a": "Por defecto, no se eliminan ni se desordenan los diálogos originales. La herramienta asigna cada frase al plano correspondiente manteniendo el orden original. Si un plano no admite una frase o hay un conflicto visual, propone cambios y te pregunta primero; no reescribe por su cuenta."
+        },
+        {
+            "q": "Si faltan detalles en el guion, ¿la IA inventará una historia por su cuenta?",
+            "a": "No inventa hechos de la trama por su cuenta. Cuando detecta que los detalles del guion no bastan para sustentar la imagen, señala dudas concretas y ofrece sugerencias. Hasta que tomes una decisión, deja marcas para que las completes manualmente."
+        }
+    ],
+    "keywords": [
+        "dividir guion de serie corta en planos",
+        "cómo hacer un storyboard para serie corta",
+        "convertir guion en tabla de planos",
+        "storyboard con IA evitar fallos de continuidad",
+        "continuidad entre planos de serie corta",
+        "storyboard de serie corta con diálogos alineados"
+    ]
+}

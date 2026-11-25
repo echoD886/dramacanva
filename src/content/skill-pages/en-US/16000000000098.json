@@ -1,0 +1,66 @@
+{
+    "title": "Write sales video scripts with price comparisons & CTAs",
+    "metaDescription": "For hosts and video creators: enter selling points and prices to get price comparisons, bundles, and order prompts on canvas, plus a ready-to-use script.",
+    "oneLiner": "Give it product selling points, and it builds price comparisons and order copy for sellers on the canvas.",
+    "intro": [
+        "This is a tool that helps you design sales scripts. It turns product advantages into language audiences can easily accept and teaches you how to talk about price and compare with similar products so viewers stop hesitating.",
+        "All you need is the product's features, price, and the bundle you want to push. If you're not sure how to say it, you can also send it your usual product intro.",
+        "AI generates a set of copy cards on the canvas, including an attention-grabbing opening, a reasonable price comparison, bundle recommendations, and specific closing lines that guide viewers to order."
+    ],
+    "example": {
+        "input": "I sell handmade insulated bottles at 129 yuan each. People always think they're expensive and often search for cheap versions that cost a few dozen yuan to compare prices. How should I talk about it in my spoken script?",
+        "output": "The canvas generates a set of text cards: first compare high-spec craftsmanship to explain the cost, then provide option designs for the main product and a comparison product, and finally give clear order guidance lines."
+    },
+    "scenarios": [
+        "When viewers think the product is too expensive and keep searching for cheaper equivalents to compare prices.",
+        "When you've set up multiple bundles, but almost every buyer picks only the cheapest option.",
+        "When your spoken pitch lists a bunch of selling points, but buyers still hesitate and won't order.",
+        "When people finish watching the video but no one buys, and you don't know how to guide them to order at the end."
+    ],
+    "problems": [
+        {
+            "pain": "Viewers finish watching your sales video but still feel the price is high and go search for low-priced equivalents.",
+            "solve": "It teaches you to compare against high-standard peers and explain the cost details of the production process, reducing price shopping."
+        },
+        {
+            "pain": "Your store offers several bundle tiers, but customers almost always pick only the cheapest one.",
+            "solve": "Design three bundle options, using one slightly weaker option as a foil to help customers choose the main offer more easily."
+        },
+        {
+            "pain": "You introduce many product selling points in the video, but buyers don't trust you and keep putting off the purchase.",
+            "solve": "It teaches you to first honestly mention a small drawback or production difficulty to build real trust and ease buyers' guard."
+        }
+    ],
+    "steps": [
+        "Click “Use this skill” in the skills library, then enter product information in the canvas chat box.",
+        "Review the copy cards generated on the canvas, including the price comparison and order guidance.",
+        "Edit anything you're not happy with, or ask AI in the chat box to regenerate a specific part.",
+        "Copy or download the final copy and use it directly in your spoken video script."
+    ],
+    "faq": [
+        {
+            "q": "How do I write a sales video script that makes it easier to get orders?",
+            "a": "Start by giving viewers a credible price comparison, and end with one clear order instruction. Don't pile on every benefit at once; instead, use a high-quality reference point people already know to highlight the product's value. At the end, ask viewers to do only one specific thing, which can reduce abandoned purchases caused by indecision."
+        },
+        {
+            "q": "When setting up product bundles, how can I get more people to buy the main offer?",
+            "a": "Set up three options and include one slightly weaker option as a foil. For example, offer a basic option, a main offer, and a higher-priced option that costs about the same but includes fewer benefits. This comparison makes the main offer look like a better deal and helps buyers decide faster."
+        },
+        {
+            "q": "How can I talk about price in a video without making viewers feel it's expensive?",
+            "a": "You can first use high-quality comparable products that the market recognizes as a reference, and don't make up the original price. Honestly explaining your product's real workmanship and process costs can also make the price more convincing. As long as you clearly explain the irreplaceable value, viewers will be less likely to search for low-priced equivalents."
+        },
+        {
+            "q": "Can the spoken script generated in {brand} be turned directly into a video?",
+            "a": "It can't be made directly into a video, but you can continue in the canvas by adding images to the text or generating video clips. The generated clips are saved as cards on the canvas, and you can arrange them on a video timeline and export them. Please note that AI won't automatically edit multiple video clips into a finished video; you need to arrange the order yourself on the timeline."
+        }
+    ],
+    "keywords": [
+        "how to write a sales video script",
+        "how to talk about price in a short video",
+        "sales video script",
+        "product bundle pricing",
+        "how to drive sales with product videos",
+        "what to do when no one buys from my product videos"
+    ]
+}

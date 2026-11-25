@@ -1,0 +1,67 @@
+{
+    "title": "Turn Product Features into Sales Copy + Buyer Benefits",
+    "metaDescription": "For e-commerce sellers and creators: enter specs and selling points; the assistant creates a 3-second hook, body copy, and buyer-benefits table to copy.",
+    "oneLiner": "Enter product specs and selling points to generate ad openers, body copy, and a buyer-benefits table on the canvas.",
+    "intro": [
+        "This is the {brand} ad copy skill. It turns stiff product specs on the canvas into everyday benefits buyers can understand at a glance.",
+        "Just prepare the product’s basic functions, technical specs, and target audience—or upload a product spec image—and send it to the assistant on the right side of the canvas.",
+        "When it’s done, the canvas shows a 3-second attention-grabbing opener, a buyer-benefits comparison table, and a complete body copy card; you can copy the text and use it in your ad right away."
+    ],
+    "example": {
+        "input": "I sell a non-stick frying pan with a premium ceramic coating and a 1.2 kg body. I want copy for a mom audience.",
+        "output": "The canvas generates cards with a 3-second opener that appeals to moms, a benefits table that translates the coating specs into “cook with one hand and rinse clean with water,” and full body copy."
+    },
+    "scenarios": [
+        "When you only have a product manual or spec sheet and don’t know how to write the first line of the ad.",
+        "When your product video gets views but no sales, and you need to check whether the copy is persuasive.",
+        "When competitors’ features are similar to yours and you need a differentiated angle buyers will remember.",
+        "When a higher price makes buyers hesitate and you need to break down the daily cost of use for them."
+    ],
+    "problems": [
+        {
+            "pain": "Your video gets views, but almost no one places an order.",
+            "solve": "Translate dry specs into benefits that matter to buyers and end the copy with clear purchase instructions."
+        },
+        {
+            "pain": "The ad opener is too ordinary, and viewers scroll away after two seconds.",
+            "solve": "Get multiple 3-second attention-grabbing openers on the canvas to choose from and capture viewers’ attention fast."
+        },
+        {
+            "pain": "The product performs well but is expensive, and customers feel it’s not worth it.",
+            "solve": "Use a cost-breakdown approach to show daily expenses, so buyers see it’s not expensive per day and are less hesitant to order."
+        }
+    ],
+    "steps": [
+        "Click 'Use This Skill' in the skill library to open the creation canvas.",
+        "Enter the product’s basic specs and selling points, or upload product images.",
+        "Review the generated opener copy and buyer-benefits comparison table on the canvas.",
+        "Pick the cards you like and edit them directly on the canvas, or ask the assistant to regenerate them.",
+        "Copy or download the results and use them directly in ads or promotions."
+    ],
+    "faq": [
+        {
+            "q": "Why does my ad video get views but no orders?",
+            "a": "The main reason is that the copy only lists technical specs and doesn’t explain buyer benefits. Turn specs into real-life benefits and add clear purchase instructions to effectively improve conversion. Send your product selling points to the assistant on the right side of the canvas, and it will list a buyer-benefits table on the canvas and add a clear call-to-action card."
+        },
+        {
+            "q": "I only have a product spec sheet—how do I write an ad that attracts people?",
+            "a": "The key is to translate each technical spec into a real benefit buyers get. For example, describe the pan’s weight as “you can stir-fry with one hand without getting tired.” Send the specs to the assistant on the right side of the canvas, and it will automatically create a feature-to-buyer-benefit comparison table on the canvas for you to pick from and use."
+        },
+        {
+            "q": "How do I make the first 3 seconds of a short video ad grab attention?",
+            "a": "In the first 3 seconds, directly call out the buyer’s everyday pain point or make a promise to save money or effort. Grab attention first and avoid a long background intro at the start. Tell the assistant on the right side of the canvas about your product and target audience, and it will generate multiple 3-second opener scripts on the canvas for you to choose from."
+        },
+        {
+            "q": "My product is similar to competitors—how do I make my copy stand out?",
+            "a": "The key is to tie it to a specific use case and target audience, and turn shared features into dedicated benefits for that specific group to build preference. Tell the assistant on the right side of the canvas about your strengths and the competitor situation, and it will map out differentiated comparison angles and copy on the canvas."
+        }
+    ],
+    "keywords": [
+        "how to write ad copy",
+        "product selling points",
+        "how to write sales copy",
+        "short video ad hooks",
+        "ecommerce sales copy",
+        "turn product specs into benefits"
+    ]
+}

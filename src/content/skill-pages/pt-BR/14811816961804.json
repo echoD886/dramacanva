@@ -1,0 +1,67 @@
+{
+    "title": "ASMR de unboxing de colecionáveis com IA: close de mãos",
+    "metaDescription": "Crie vídeos de unboxing sem mostrar o rosto. No {brand}, informe o brinquedo e confirme a descrição para gerar um clipe de 10 s em plano superior com sons.",
+    "oneLiner": "Informe os dados do brinquedo e gere no canvas um clipe de unboxing de 10 s sem mostrar o rosto.",
+    "intro": [
+        "Esta é uma ferramenta de criação dedicada a vídeos curtos de unboxing. Ela gera principalmente closes de mãos e imagens em plano superior, ideal para quem não quer mostrar o rosto e deseja exibir detalhes do colecionável.",
+        "Você fornece o nome ou as características visuais do brinquedo e também pode enviar imagens, se tiver. A ferramenta ainda ajuda a combinar um fundo de mesa e uma cor de manga adequados.",
+        "Ao final, você recebe no canvas um vídeo vertical de 10 segundos. A cena tem movimentos lentos e organizados de abertura da caixa, detalhes sonoros como o de rasgar adesivos e, no fim, uma exibição do brinquedo."
+    ],
+    "example": {
+        "input": "Quero fazer o unboxing de um blind box de gato espacial, com embalagem externa prateada e reflexiva, e uma mesa com estilo de madeira natural.",
+        "output": "O canvas vai gerar um conjunto de indicações de cores e uma descrição visual. Após a confirmação, será gerado um cartão de vídeo vertical de 10 segundos, com abertura da caixa em plano superior, ação de rasgar adesivos e uma pose final do gato."
+    },
+    "scenarios": [
+        "Você tem um colecionável recém-adquirido ou recém-criado e quer gravar um vídeo curto de unboxing para mostrar os detalhes.",
+        "Não quer mostrar o rosto nem aparecer em cena, apenas exibir uma mesa limpa e organizada e as ações das mãos.",
+        "Não sabe como dividir o processo de abertura da caixa em planos e quer que a IA organize a sequência de ações.",
+        "Quer deixar as imagens de unboxing mais agradáveis e precisa combinar o fundo da mesa e a cor da roupa com uma paleta consistente."
+    ],
+    "problems": [
+        {
+            "pain": "Fazer vídeos de unboxing sem mostrar o rosto é o objetivo, mas é difícil capturar apenas closes de mãos só com o celular.",
+            "solve": "Usa plano superior e closes de mãos, com a câmera focada apenas na abertura da caixa sobre a mesa, evitando o rosto."
+        },
+        {
+            "pain": "As ações de unboxing facilmente ficam desorganizadas, e o vídeo parece fragmentado e sem ritmo.",
+            "solve": "Divide o processo de 10 segundos em três etapas claras, desacelera o ritmo das ações e reserva uma pose final no encerramento."
+        },
+        {
+            "pain": "Não sabe como descrever detalhes sonoros, como o som de rasgar papel e de batidas leves na caixa.",
+            "solve": "Gera descrições sonoras que incluem ações como rasgar adesivos e bater levemente na caixa, deixando o unboxing mais rico em detalhes."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas do {brand}.",
+        "Envie o nome do brinquedo ou uma foto da aparência e diga ao assistente qual estilo de mesa você quer.",
+        "Revise a paleta de cores e a descrição por etapas preparadas pelo assistente e, depois de confirmar, peça para ele iniciar a geração.",
+        "Pré-visualize o cartão de vídeo no canvas; se não gostar, ajuste a descrição e gere novamente.",
+        "Baixe o vídeo aprovado ou organize os clipes na linha do tempo do canvas e exporte."
+    ],
+    "faq": [
+        {
+            "q": "O vídeo de unboxing gerado já vem com som?",
+            "a": "Não necessariamente. Isso depende de o modelo de vídeo escolhido oferecer suporte à geração de áudio. Se o modelo suportar, o vídeo terá efeitos sonoros como rasgar adesivos e batidas leves na caixa; se não suportar, a imagem ficará sem som, e você poderá adicionar áudio depois no canvas."
+        },
+        {
+            "q": "O vídeo de unboxing gerado mostra o rosto de alguém?",
+            "a": "Não. A habilidade usa plano superior ou closes de mãos. A imagem foca apenas nas ações de abertura da caixa sobre a mesa e nos detalhes do brinquedo, evitando ao máximo rostos; se o enquadramento sair do esperado, basta ajustar a descrição e gerar novamente."
+        },
+        {
+            "q": "As imagens do vídeo gerado não saíram como esperado. Como corrijo?",
+            "a": "Você pode editar diretamente a descrição visual no canvas e gerar novamente. Também pode informar ao assistente, na caixa de diálogo, o que deseja mudar, como trocar o estilo do fundo da mesa ou incluir uma ação de bater levemente na caixa."
+        },
+        {
+            "q": "Qual é a duração do vídeo de unboxing?",
+            "a": "Cada clipe gerado tem 10 segundos. O vídeo é dividido no tempo em três etapas claras e termina com uma pose final, ideal para publicar diretamente como vídeo curto ou combinar na linha do tempo."
+        }
+    ],
+    "keywords": [
+        "vídeo de unboxing de colecionáveis com IA",
+        "como fazer vídeo de unboxing ASMR",
+        "vídeo de unboxing sem mostrar o rosto",
+        "gerar vídeo de abertura de colecionável",
+        "vídeo de unboxing com close das mãos",
+        "tutorial de unboxing de brinquedo com IA"
+    ]
+}

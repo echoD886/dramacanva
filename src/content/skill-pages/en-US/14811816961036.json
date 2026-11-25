@@ -1,0 +1,66 @@
+{
+    "title": "Make TikTok sales videos and scripts from product and talent",
+    "metaDescription": "E-commerce creators and beginners: enter product selling points and talent traits to generate a 15–30 sec shot list and phone-style sales clips on canvas.",
+    "oneLiner": "For e-commerce sellers: enter a product and on-camera talent to make natural-looking sales short videos on the canvas.",
+    "intro": [
+        "This is a creation tool that helps you make 15–30 second sales short videos on the {brand} canvas. The content feels like an everyday clip someone casually shot on a phone, not a stiff sales ad.",
+        "Just describe the product features, the model’s appearance, and styling in the chat box, and upload relevant product or people images. If you have ideas for the video’s vibe, you can tell it those too.",
+        "When it’s done, you’ll get a timed shot list on the canvas (the video broken into individual shots, with what each shot shows), plus generated video clip cards, so you can revise anytime."
+    ],
+    "example": {
+        "input": "A young woman trying on a white star T-shirt with red fuzzy boots in a bedroom, lively personality, wants a slice-of-life goofy vibe like a friend barging in to interrupt, with a photo of the clothes attached.",
+        "output": "On the canvas, it generates storyboard cards with timing, lines, and actions (e.g., the woman talking to the front camera, a friend entering frame and being pushed away), plus corresponding generated short video clip cards."
+    },
+    "scenarios": [
+        "For fashion or beauty brands going global that need everyday outfit videos that feel like a friend chatting or a casual selfie.",
+        "Promoting practical products that solve clear pain points, where you need a high-energy speaking style to hook viewers fast.",
+        "Selling novelty goods or distinctive toys, where you need tight close-ups to show materials and details.",
+        "You have product images and an idea for the person on camera and want to quickly lay out shots on the canvas and generate a sample video."
+    ],
+    "problems": [
+        {
+            "pain": "The video script sounds too much like a sales ad, so viewers scroll away after two seconds.",
+            "solve": "It designs casual, slice-of-life openings and everyday dialogue, turning features into usage actions to reduce the stiff, salesy feel."
+        },
+        {
+            "pain": "You don’t know how to shoot different products, and every script you write ends up with a similar structure.",
+            "solve": "It matches approaches to different categories—practical features, fashion and beauty, novelty toys, and more—and designs tailored actions and shots."
+        },
+        {
+            "pain": "You’ve written the script but don’t know how to break it into visuals or write prompts for video generation.",
+            "solve": "It breaks the script into shots with timestamps, camera positions, and actions; once you confirm, it can generate the corresponding video clips on the canvas."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to open the chat box on the right side of the canvas.",
+        "Send the product selling points and on-camera model traits, and upload reference images of the product or person.",
+        "Review the 15–30 second storyboard cards generated on the canvas, and edit lines or actions as needed.",
+        "After confirming the storyboard, generate video cards, arrange them in order on the video timeline, and export."
+    ],
+    "faq": [
+        {
+            "q": "How do I make TikTok sales short videos with AI?",
+            "a": "Enter the product selling points and on-camera model traits in the chat box and upload reference images. The system will break them into a storyboard script and generate video clip cards. Once you’re happy with the storyboard, drag the generated video segments onto the video timeline, put them in order, and export the full short video directly."
+        },
+        {
+            "q": "Will the generated sales videos feel too much like a sales ad?",
+            "a": "Usually not. It specifically uses a casual, phone-shot lifestyle perspective for storyboards, turning product selling points into everyday dialogue and usage actions. After generation, you can edit lines and actions on the canvas anytime, and if a particular shot isn’t ideal, just regenerate that shot."
+        },
+        {
+            "q": "I only have product images. Can I still make a sales video?",
+            "a": "Yes. Just upload product images and add selling points and the person’s appearance, and the system can break down the storyboard and generate corresponding video clips. After generation, if you’re unhappy with some visuals, you can edit that shot’s description separately on the canvas and regenerate it."
+        },
+        {
+            "q": "Does AI automatically edit the generated video segments into a finished video?",
+            "a": "It won’t automatically edit or combine them. The system generates separate video clip cards on the canvas, and you need to arrange them in order on the video timeline before exporting the final video. This design lets you replace shots you’re unhappy with or adjust the order anytime, giving you more flexible control over the overall pacing."
+        }
+    ],
+    "keywords": [
+        "TikTok sales video creation",
+        "AI sales short video generator",
+        "how to write a sales short video script",
+        "e-commerce short video storyboard generator",
+        "cross-border e-commerce sales video creation",
+        "casual phone-shot sales videos"
+    ]
+}

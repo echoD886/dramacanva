@@ -1,0 +1,66 @@
+{
+    "title": "Short-drama shot lists that catch continuity errors",
+    "metaDescription": "For short-drama creators: send a script to align shots, reduce continuity errors, and get shot cards with actions, dialogue, and start/end states.",
+    "oneLiner": "Give it a script and it generates a shot list on the canvas that keeps actions coherent for video creators.",
+    "intro": [
+        "It’s a creation tool that helps short dramas organize shots. When making videos, consecutive shots can easily become inconsistent—for example, a character holds a water cup in one shot and suddenly has empty hands in the next. This tool helps you sort out these details.",
+        "Just prepare a short-drama script or episodic story. If you have requirements for landscape or portrait orientation or episode length, you can tell it directly in the chat box.",
+        "When it’s done, a shot-list table card is generated on the canvas, specifying each shot’s dialogue, actions, estimated seconds, and characters’ start and end states, so you can edit or copy it anytime."
+    ],
+    "example": {
+        "input": "Send a script: “Li Ming pushes open the door and walks into the office with a briefcase in his right hand. Mr. Wang looks up at him and asks, ‘Did you bring it?’”",
+        "output": "The canvas generates a two-row shot table: Shot 1 notes Li Ming entering with the briefcase in his right hand and his ending position; Shot 2 notes Mr. Wang looking at Li Ming and includes the dialogue, making the action continuity clear."
+    },
+    "scenarios": [
+        "When you have a finished short-drama script and want to break it into clear shots before making a video.",
+        "When two people are going back and forth or several people are arguing, and you need to clarify who speaks first and who the camera should be on.",
+        "When the scene includes handing something over or fight actions, and you want actions to connect across consecutive shots.",
+        "When you already have a shot list and only want to revise a few shots without rewriting the whole piece."
+    ],
+    "problems": [
+        {
+            "pain": "The video’s shots don’t connect, and an object in a character’s hand suddenly switches hands or disappears.",
+            "solve": "Record the start and end state of each shot so the next shot continues the previous action and props, reducing continuity errors."
+        },
+        {
+            "pain": "When there’s a lot of dialogue, you don’t know how to divide the shots, and you worry dialogue will be missed or out of order.",
+            "solve": "Cut shots based on what happens on screen, assign each line of dialogue in its original order, and don’t arbitrarily delete or reorder it."
+        },
+        {
+            "pain": "Some parts of the script aren’t clear, and you worry the AI will make things up and break the original setup.",
+            "solve": "When it finds unclear plot points, it lists specific questions and suggested fixes, and waits for your decision before proceeding."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to enter the {brand} canvas creation interface.",
+        "Send your short-drama script text; you can note landscape or portrait orientation and target duration requirements.",
+        "Review the shot-list table card generated on the canvas and check character actions against the corresponding dialogue.",
+        "Revise any shots that need adjustment, then copy or download the result once confirmed."
+    ],
+    "faq": [
+        {
+            "q": "What is a short-drama shot list?",
+            "a": "A shot list is a checklist that breaks a short-drama script into specific visual shots, clearly stating who is speaking and what action is happening in each shot. It helps you straighten out transitions before actually generating visuals and avoid sudden action mismatches."
+        },
+        {
+            "q": "Why do character actions in consecutive shots often have continuity errors when generating video?",
+            "a": "A common reason is that the action and position at the end of one shot aren’t passed on to the next. This tool records each shot’s character poses and props at the start and end, so adjacent shots connect naturally and continuity risks are reduced."
+        },
+        {
+            "q": "Will dialogue in the original script be deleted, changed, or scrambled?",
+            "a": "By default, it won’t arbitrarily delete or scramble the original dialogue. The tool assigns each line to the corresponding shot in the original order. If a shot can’t fit it or there’s a visual conflict, it will suggest changes and ask you first—it won’t rewrite on its own."
+        },
+        {
+            "q": "If some details in the script aren’t clear, will the AI make up a story?",
+            "a": "It won’t invent plot facts on its own. When it finds that script details aren’t enough to support the visuals, it will flag specific questions and offer suggested fixes. Until you decide, it will keep markers for you to fill in manually."
+        }
+    ],
+    "keywords": [
+        "short-drama script shot breakdown",
+        "how to make a short-drama storyboard",
+        "how to turn a script into a shot list",
+        "AI video storyboard continuity",
+        "short-drama shot continuity",
+        "short-drama storyboard dialogue alignment"
+    ]
+}

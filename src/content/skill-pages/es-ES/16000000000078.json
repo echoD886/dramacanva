@@ -1,0 +1,67 @@
+{
+    "title": "Pulir prosa: del borrador a la vida | {brand}",
+    "metaDescription": "¿Prosa vacía? Envía tu borrador a {brand}: cambia las palabras abstractas por detalles cotidianos y exporta una versión con marcas y lista de mejora.",
+    "oneLiner": "Introduce un borrador y genera en el lienzo una nueva versión de tu prosa con detalles cotidianos y una lista de mejora.",
+    "intro": [
+        "Esta es una herramienta de escritura que te ayuda a revisar tus textos. Cuando sientes que tu prosa o tus textos personales son demasiado vagos o están llenos de grandilocuencia, te ayuda a sustituir las palabras abstractas por detalles reales y concretos de la vida cotidiana.",
+        "Solo tienes que preparar un borrador de un texto ya escrito o fragmentos cotidianos donde hayas anotado ideas e inspiración. Si tienes una perspectiva que quieres conservar o un límite de palabras, también puedes decírselo directamente al asistente.",
+        "Cuando termine la revisión, recibirás tres cosas en el lienzo: una nueva versión de la prosa con los cambios señalados, una explicación de la estructura del texto y una lista concreta para pulir el vocabulario."
+    ],
+    "example": {
+        "input": "Ayúdame a reescribir este texto breve: «Mi abuelo era una persona muy ahorradora, llevaba una vida muy sencilla y sufrió muchas penurias durante toda su vida, pero conservó un carácter optimista y afable.»",
+        "output": "Genera en el lienzo una versión revisada que cambie «muy ahorrador» por «siempre guardaba viejos cupones de racionamiento de grano y zapatillas de tela con la suela gastada»; además, genera una explicación de la estructura del texto y una lista para pulir el vocabulario."
+    },
+    "scenarios": [
+        "Al escribir prosa o textos personales, sientes que todo son palabras grandilocuentes y faltan detalles reales de la vida cotidiana.",
+        "Los diálogos de los personajes son demasiado directos y parecen explicar la trama; se leen planos, rígidos y sin textura.",
+        "Describir escenas cotidianas se convierte en un simple listado de hechos; no logras captar los detalles que generan empatía.",
+        "Al describir paisajes o entornos acumulas demasiados adjetivos y quieres simplificar el texto y dejar algo que perdure."
+    ],
+    "problems": [
+        {
+            "pain": "El texto está lleno de adjetivos y, al leerlo, resulta falso y sin imágenes mentales.",
+            "solve": "Te ayuda a detectar adjetivos vacíos, sustituirlos por huellas concretas de la vida cotidiana y señalar el motivo de cada cambio."
+        },
+        {
+            "pain": "Los diálogos de los personajes son demasiado directos; cada frase explica la trama y suenan rígidos.",
+            "solve": "Reduce las frases que sacan conclusiones directas y las cambia por diálogos con dudas y acciones, para que los personajes resulten más vivos."
+        },
+        {
+            "pain": "Escribir pequeñas escenas cotidianas parece un simple listado de hechos y no capta los detalles que conmueven.",
+            "solve": "Selecciona detalles con textura cotidiana, te ayuda a ordenar lo importante y lo secundario y a marcar un ritmo con altibajos."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el cuadro de diálogo del lienzo.",
+        "Envía el borrador de tu texto; también puedes añadir requisitos de extensión o de punto de vista narrativo.",
+        "Consulta la nueva versión revisada, la explicación de la estructura y la lista de mejora que se generan en el lienzo.",
+        "Edita el texto de la tarjeta o pide al asistente que vuelva a pulir las partes que no te convenzan.",
+        "Copia o descarga el texto revisado y úsalo directamente en tus obras."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo evitar que la prosa resulte falsa y grandilocuente?",
+            "a": "Sustituye las palabras abstractas por detalles visibles de la vida cotidiana: elimina primero los adjetivos sobrantes y añade después huellas reales. Por ejemplo, cambia «estaba muy triste» por un gesto de bajar la cabeza y quedarse en silencio; el asistente te ayudará a detectar en el lienzo las palabras vacías y a sustituirlas."
+        },
+        {
+            "q": "¿Qué hago si los diálogos de los personajes son rígidos y parecen explicar la trama?",
+            "a": "Reduce las conclusiones que explican la trama directamente y cámbialas por intercambios con acciones y subtexto. Envía el borrador del diálogo al asistente; eliminará las frases explicativas y rígidas para que los personajes expresen sus emociones con naturalidad mediante la interacción."
+        },
+        {
+            "q": "¿Cómo corrijo un texto personal que parece un simple listado de hechos?",
+            "a": "Aprende a dejar espacios en blanco y a elegir los detalles clave: conserva solo aquello que muestre huellas de la vida y no narres todos los pasos de forma plana. Envía el texto al asistente; ordenará la estructura y marcará un ritmo de lectura con altibajos."
+        },
+        {
+            "q": "¿Qué materiales debo preparar antes de usarlo?",
+            "a": "Basta con un borrador de un texto ya escrito o varios fragmentos cotidianos donde hayas anotado ideas. Si tienes un punto de vista narrativo o una extensión concretos, también puedes decírselo directamente al asistente en el cuadro de diálogo."
+        }
+    ],
+    "keywords": [
+        "pulir prosa",
+        "corrección de textos",
+        "quitar tono de IA al escribir",
+        "textos personales con detalles",
+        "pulir diálogos de personajes",
+        "cómo crear imágenes al escribir"
+    ]
+}

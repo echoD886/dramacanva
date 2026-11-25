@@ -1,0 +1,66 @@
+{
+    "title": "Texto o imagen: genera un clip de efectos coherente de 15 s",
+    "metaDescription": "Para creadores de cortos y vídeo: con una idea o imagen de referencia, diseña una escena sin cortes y genera en el lienzo un vídeo de efectos de 15 s.",
+    "oneLiner": "Dale una idea o una imagen y generará en el lienzo un clip de efectos de 15 s para creadores de vídeo.",
+    "intro": [
+        "Esta es una herramienta que te ayuda a crear vídeos de efectos de 15 segundos. Normalmente, cuando se genera vídeo con IA, la cámara se mueve y corta sin control. Esta herramienta fija un plano para que la imagen evolucione de forma continua durante 15 segundos.",
+        "Solo necesitas una frase con la idea visual (por ejemplo, una gota de agua que se funde en una flor) o subir una imagen inicial; también puedes aportar varias imágenes de referencia. No necesitas conocer términos de rodaje complejos.",
+        "La IA primero muestra en el lienzo una tarjeta de texto que explica la acción de la escena. Cuando la confirmas, se genera en el lienzo una tarjeta de vídeo de efectos de 15 segundos, que puedes descargar directamente o añadir a la línea de tiempo."
+    ],
+    "example": {
+        "input": "Escribe una frase: una rosa esculpida en hielo se derrite poco a poco bajo el sol y el agua se disipa en puntos de luz dorados flotantes.",
+        "output": "En el lienzo se genera primero una tarjeta de texto que detalla la transformación del sujeto y los detalles de luz y sombra; al confirmarla, se crea una tarjeta de vídeo de 15 s con un único plano que avanza y muestra por completo la evolución de la rosa al fundirse."
+    },
+    "scenarios": [
+        "Al crear la apertura de una serie corta o un cortometraje, necesitas un plano continuo de 15 s que atraiga al público.",
+        "Solo tienes una o dos frases con una idea visual y no sabes cómo describirla en detalle para que la IA haga el vídeo.",
+        "Tienes una imagen estática y quieres convertirla en un vídeo de efectos de 15 s con cambios continuos.",
+        "Al editar vídeo necesitas una transición y quieres una imagen de efectos en la que los objetos se fundan o fluya la luz."
+    ],
+    "problems": [
+        {
+            "pain": "Escribes tú mismo unas frases y el vídeo que genera la IA queda rígido, vacío y sin textura.",
+            "solve": "Descompone tu idea en el sujeto, la luz y la sombra y los cambios sutiles, para que la imagen tenga más matices."
+        },
+        {
+            "pain": "Los vídeos generados por IA cambian de plano a mitad de camino y la imagen salta sin continuidad.",
+            "solve": "Mantiene los 15 segundos en un único plano que avanza sin cortes para evitar saltos de plano a mitad de la escena."
+        },
+        {
+            "pain": "Te preocupa que el vídeo de la IA no te convenza y perder tiempo probando una y otra vez.",
+            "solve": "Primero genera una tarjeta de texto con la secuencia de acciones; puedes modificarla hasta que te convenza y luego crear el vídeo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y escribe tu idea o sube una imagen en el chat de la derecha.",
+        "Consulta la tarjeta de texto generada en el lienzo y lee la secuencia detallada de acciones de los 15 segundos.",
+        "Confirma o modifica el texto y envía un mensaje en el chat para que la IA empiece a crear el vídeo.",
+        "Descarga la tarjeta de vídeo de 15 segundos ya creada o colócala en orden en la línea de tiempo del lienzo y exporta."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo evito que los planos se corten y salten sin control al hacer vídeos con IA?",
+            "a": "Puedes evitarlo con un diseño de plano único: esta habilidad fija los 15 segundos en una sola trayectoria de movimiento, sin dividir el plano, para que la imagen avance de forma fluida. La IA describe en detalle, en torno a tu sujeto, la evolución de la luz, la sombra y la acción para que las transiciones sean más continuas y naturales."
+        },
+        {
+            "q": "¿Cómo genero un vídeo de efectos a partir de mis propias fotos?",
+            "a": "Sube una o varias imágenes de referencia directamente en el chat del lienzo y describe lo que necesitas. La IA tomará las imágenes como punto de partida y diseñará un vídeo de efectos de 15 segundos con un único plano y cambios continuos. Primero generará una tarjeta de texto con la dinámica y la iluminación previstas; cuando la confirmes, envía un mensaje para que cree la tarjeta de vídeo."
+        },
+        {
+            "q": "¿Puedo modificar detalles concretos de la imagen antes de generar el vídeo?",
+            "a": "Sí. Antes de generar el vídeo, la IA muestra en el lienzo una tarjeta de texto con el movimiento de cámara y los detalles; puedes ajustar la descripción y empezar la creación cuando estés conforme. Si algo no te convence, dilo al asistente en el chat de la derecha y, cuando la tarjeta de texto esté corregida, pídele que genere el vídeo."
+        },
+        {
+            "q": "¿Se pueden unir varios vídeos de 15 segundos para formar una pieza completa?",
+            "a": "La IA no monta el vídeo final automáticamente, pero puedes colocar las tarjetas de vídeo generadas en la línea de tiempo del lienzo, ordenarlas y exportar el vídeo completo. Cada tarjeta de vídeo de 15 segundos se puede descargar por separado para que las combines libremente o las importes en otro programa de edición."
+        }
+    ],
+    "keywords": [
+        "crear vídeos con IA de 15 segundos",
+        "vídeos de efectos generados con IA",
+        "vídeo de efectos desde una foto",
+        "plano secuencia con IA",
+        "efectos para la intro de una serie corta",
+        "evitar saltos de plano en vídeos con IA"
+    ]
+}

@@ -1,0 +1,21 @@
+const messages = {
+    "creationHistory.history": "会話履歴",
+    "creationHistory.count": "{count} 件の会話",
+    "creationHistory.search": "会話のタイトルや内容を検索",
+    "creationHistory.searchAria": "会話履歴を検索",
+    "creationHistory.listAria": "会話履歴、更新が新しい順",
+    "creationHistory.creation": "制作",
+    "creationHistory.new": "新しい制作",
+    "creationHistory.notStarted": "まだ制作を開始していません",
+    "creationHistory.delete": "会話を削除",
+    "creationHistory.deleteName": "会話を削除：{name}",
+    "creationHistory.noMatch": "一致する会話がありません",
+    "creationHistory.empty": "会話履歴はまだありません",
+    "creationHistory.timeUnknown": "日時不明",
+    "creationHistory.view": "制作ビュー",
+    "creationHistory.chat": "会話",
+    "creationHistory.storyboard": "ショット制作",
+    "creationHistory.newAction": "新しい制作を開始",
+    "creationHistory.open": "会話履歴を表示",
+} as const;
+export default messages;

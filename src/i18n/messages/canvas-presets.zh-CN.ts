@@ -1,0 +1,22 @@
+const messages = {
+    "canvasPresets.characterName": "角色设定图",
+    "canvasPresets.characterDescription": "正面、侧面、背面与表情参考，锁定角色一致性",
+    "canvasPresets.angleName": "多机位视角",
+    "canvasPresets.angleDescription": "围绕同一主体生成连续、可衔接的机位变化",
+    "canvasPresets.nextName": "画面推演",
+    "canvasPresets.nextDescription": "推演当前画面的前后动作与镜头衔接",
+    "canvasPresets.beatsName": "连续镜头",
+    "canvasPresets.beatsDescription": "将短剧情拆成可生成的连续镜头节拍",
+    "canvasPresets.lightName": "电影光影优化",
+    "canvasPresets.lightDescription": "保留内容，优化真实光线、层次和融合感",
+    "canvasPresets.videoName": "视频提示词优化",
+    "canvasPresets.videoDescription": "整理为模型更容易执行的时序化镜头指令",
+    "canvasPresets.added": "已加入技能",
+    "canvasPresets.search": "搜索预设或已加入技能",
+    "canvasPresets.skill": "技能",
+    "canvasPresets.preset": "预设",
+    "canvasPresets.empty": "没有匹配的预设",
+    "canvasPresets.templates": "提示词模板",
+    "canvasPresets.open": "打开提示词预设",
+} as const;
+export default messages;

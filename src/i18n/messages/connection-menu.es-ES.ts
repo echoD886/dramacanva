@@ -1,0 +1,22 @@
+const messages = {
+    "connectionMenu.next": "Crear siguiente paso",
+    "connectionMenu.selected": "Referenciar {count} nodos seleccionados",
+    "connectionMenu.current": "Referenciar el nodo actual",
+    "connectionMenu.close": "Cerrar menú de creación de nodos conectados",
+    "connectionMenu.textHelp": "Referencia el contenido actual para generar o reescribir texto",
+    "connectionMenu.scriptHelp": "Descompón la historia en planos y compón un guion de storyboard",
+    "connectionMenu.batchTable": "Tabla de creación por lotes",
+    "connectionMenu.batchTableHelp": "Agrupa varias imágenes para ejecutar en lote cambios de vestuario o generación creativa",
+    "connectionMenu.image": "Generación de imágenes",
+    "connectionMenu.imageHelp": "Combina prompts e imágenes de referencia para generar nuevas imágenes",
+    "connectionMenu.drawingHelp": "Dibuja y anota libremente sobre una imagen de referencia",
+    "connectionMenu.videoHelp": "Combina prompts y material de referencia para generar vídeo dinámico",
+    "connectionMenu.audioHelp": "Conecta texto o una tarjeta de personaje para crear un nodo de generación de audio",
+    "connectionMenu.convertHelp": "Procesa imágenes o vídeos localmente",
+    "connectionMenu.configHelp": "Elige un modelo o usa un plugin de flujo de trabajo habilitado",
+    "connectionMenu.video": "Generación de vídeos",
+    "connectionMenu.audio": "Referencia de audio",
+    "connectionMenu.uploadAsset": "Subir material",
+    "connectionMenu.uploadAssetHelp": "Sube materiales de imagen, video o audio y conéctalos como entrada de referencia del nodo actual",
+} as const;
+export default messages;

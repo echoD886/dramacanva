@@ -1,0 +1,67 @@
+{
+    "title": "Uniformize o visual do vídeo com IA: cores, luz e câmera",
+    "metaDescription": "Defina no canvas do {brand} as três cores principais, a direção da luz e o movimento de câmera. Gere descrições prontas para manter o visual consistente.",
+    "oneLiner": "Envie uma história ou imagem de referência e gere no canvas cartões de texto com estilo unificado para iniciantes.",
+    "intro": [
+        "É uma ferramenta que ajuda a unificar a aparência dos seus vídeos. Muitas pessoas, ao fazer vídeos, têm imagens com estilos muito diferentes entre o começo e o fim. Ela define regras com antecedência para manter o estilo visual o mais uniforme possível, como se fosse a mesma produção.",
+        "Você não precisa entender de fotografia profissional. Basta enviar por texto sua ideia de história para a IA ou fazer upload de uma imagem de que goste e explicar o clima que deseja.",
+        "A IA gera cartões de texto no canvas, listando as três cores principais do vídeo, a direção da incidência da luz e o modo de movimento da câmera, além de fornecer descrições que podem ser usadas diretamente para gerar imagens."
+    ],
+    "example": {
+        "input": "Estou fazendo uma minissérie de suspense em que o protagonista descobre um segredo em um apartamento alugado mal iluminado. Quero uma sensação opressiva, fria e escura, mas não sei como definir as cores e a luz.",
+        "output": "No canvas, serão gerados cartões de texto: definição de três cores principais — azul frio, cinza escuro e amarelo quente —, regra de uma única fonte de luz lateral, sugestão de movimento lento de aproximação da câmera e descrições visuais específicas."
+    },
+    "scenarios": [
+        "Acabou de escrever a história de um vídeo ou minissérie e quer definir as cores e a iluminação de toda a produção antes de criar as imagens.",
+        "As imagens feitas antes e depois têm estilos muito diferentes — uma parece foto e a outra parece ilustração — e você precisa unificar o visual.",
+        "Você tem uma imagem de referência de que gosta e quer extrair as cores e a luz bonitas dela para reutilizar.",
+        "Você tem o clima visual em mente, mas não sabe como descrevê-lo, e os textos que escreve não produzem a sensação cinematográfica desejada."
+    ],
+    "problems": [
+        {
+            "pain": "As imagens geradas em sequência não combinam em estilo; algumas parecem quadrinhos e outras parecem filmagem real.",
+            "solve": "Liste no canvas regras unificadas de cor, material e composição para que você tenha uma referência ao gerar cada imagem."
+        },
+        {
+            "pain": "A imagem fica muito cinzenta e plana, e personagens se misturam ao fundo, sem textura cinematográfica.",
+            "solve": "Ajuda a planejar uma direção clara para a fonte de luz principal e um contraste entre quente/frio e claro/escuro, para que os personagens se destaquem naturalmente do fundo."
+        },
+        {
+            "pain": "Você imagina o clima da cena, mas não sabe que palavras usar para descrevê-lo, e as imagens saem com a sensação errada.",
+            "solve": "Traduza sensações profissionais de luz e câmera em descrições em linguagem simples, que você pode copiar diretamente para gerar imagens."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em «Usar esta habilidade» para abrir o canvas do projeto.",
+        "Envie sua ideia de história ou faça upload de uma imagem de referência de estilo de que goste.",
+        "Veja os cartões de texto gerados no canvas e confirme as cores principais, a direção da luz e as sugestões de movimento de câmera.",
+        "Ajuste o texto dos cartões e modifique as cores ou detalhes que não gostar, conforme necessário.",
+        "Copie ou baixe o texto dos cartões e use-o nas próximas gerações de imagem."
+    ],
+    "faq": [
+        {
+            "q": "O estilo visual das imagens geradas por IA muda entre o começo e o fim do vídeo. O que fazer?",
+            "a": "Antes de produzir, defina as três cores principais e a direção da luz de toda a produção e inclua a mesma descrição em cada geração de imagem para reduzir ao máximo a variação de estilo. A IA organiza essas regras em cartões de texto unificados no canvas. Você pode copiar as descrições dos cartões para gerar imagens e ajustar detalhes manualmente quando quiser."
+        },
+        {
+            "q": "Como deixar as imagens geradas por IA com mais cara de cinema?",
+            "a": "Defina uma direção clara para a fonte de luz principal e um contraste entre tons quentes e frios e entre claro e escuro, evitando que a imagem inteira seja iluminada de forma uniforme. No canvas, você pode pedir à IA para planejar o ângulo de incidência da luz principal e a combinação de tons quentes e frios. Inclua essas descrições de luz no texto que descreve a imagem para que os personagens se destaquem mais naturalmente do fundo."
+        },
+        {
+            "q": "Como escrever a descrição do movimento de câmera?",
+            "a": "Especifique o ponto inicial e final do movimento, se é aproximação ou deslocamento lateral, e a mudança de posição em relação ao personagem, evitando apenas termos técnicos vazios de fotografia. A IA recomenda uma descrição de movimento de acordo com a emoção da sua cena. Você pode copiá-la diretamente do cartão no canvas ou ajustá-la conforme necessário."
+        },
+        {
+            "q": "Tenho uma imagem de referência de que gosto. Como extrair o estilo dela para reutilizar?",
+            "a": "Basta enviar a imagem de referência para a caixa de diálogo à direita do canvas. A IA analisa a imagem, extrai as três cores principais, o ângulo da luz e a textura visual, e gera cartões de texto. Você pode usar esse texto diretamente nas próximas gerações de imagem ou modificá-lo manualmente nos cartões quando quiser."
+        }
+    ],
+    "keywords": [
+        "estilo visual consistente em vídeos de IA",
+        "estilo inconsistente em vídeos de IA",
+        "como deixar vídeo com cara de cinema",
+        "ajustar iluminação em vídeo de IA",
+        "como descrever movimento de câmera em vídeo",
+        "extrair paleta de cores de imagem de referência"
+    ]
+}

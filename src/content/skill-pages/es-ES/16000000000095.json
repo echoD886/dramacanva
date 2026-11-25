@@ -1,0 +1,67 @@
+{
+    "title": "Prompts de imagen y vídeo con IA y storyboard",
+    "metaDescription": "Para principiantes en IA: escribe una idea o sube una referencia en {brand} y el asistente crea en el lienzo prompts y un storyboard.",
+    "oneLiner": "Tú das una idea o una imagen y en el lienzo se generan prompts descriptivos y un storyboard; ideal para principiantes.",
+    "intro": [
+        "Escribe una idea visual o sube una imagen de referencia y el asistente te ayudará en el lienzo a redactar descripciones fáciles de entender y a ordenar el storyboard, reduciendo el aspecto artificial de las imágenes. No genera directamente el vídeo final.",
+        "No necesitas dominar términos profesionales de fotografía. Basta con tener una idea sencilla de lo que quieres dibujar o subir directamente una imagen de referencia que te guste, o un vídeo de referencia, para empezar.",
+        "Al terminar, obtendrás en el lienzo tarjetas de texto organizadas, con prompts listos para generar imágenes (instrucciones de descripción para la IA) y un storyboard que detalla qué se muestra en cada plano."
+    ],
+    "example": {
+        "input": "Quiero generar un plano de la puerta de una cafetería en una noche lluviosa, con un personaje desanimado y sin ese aspecto plástico de figura artificial.",
+        "output": "En el lienzo aparecerá una tarjeta con prompts de imagen organizados por iluminación, entorno y acciones del sujeto, e indicará el ángulo de cámara y los detalles de los reflejos de la lluvia; podrás copiarla directamente para generar la imagen."
+    },
+    "scenarios": [
+        "Al dibujar personas o escenas con IA, la imagen siempre parece un muñeco de plástico y quieres que resulte más realista.",
+        "Has visto una imagen o un fragmento de vídeo de referencia que te gusta y quieres crear algo nuevo siguiendo su estilo de rodaje y sus movimientos de cámara.",
+        "Quieres hacer un vídeo, pero no sabes cómo diseñar los planos; las imágenes que escribes quedan rígidas y sin acciones de los personajes.",
+        "Has escrito un storyboard demasiado largo y desordenado, y no distingues qué planos sobran y cuáles deberías eliminar."
+    ],
+    "problems": [
+        {
+            "pain": "Al escribir descripciones para imágenes acumulas adjetivos rimbombantes, pero la imagen sigue pareciendo falsa, como de plástico.",
+            "solve": "Sustituye los adjetivos inútiles por detalles concretos de entorno, iluminación y vida cotidiana para que la escena parezca más natural y real."
+        },
+        {
+            "pain": "Los planos de vídeo que escribes son demasiado rígidos, como un fondo estático, y carecen de tensión dramática.",
+            "solve": "Te ayuda a aclarar el objetivo del personaje, los obstáculos a los que se enfrenta y sus microgestos para que el personaje realmente se mueva en el plano."
+        },
+        {
+            "pain": "El storyboard te queda largo y pesado, y no sabes distinguir qué planos aportan algo y cuáles sobran.",
+            "solve": "Te ayuda a revisar cada plano según tres criterios —emoción, acción y tensión— y a eliminar los planos sobrantes que no aportan nada."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo.",
+        "Describe el contenido visual que quieres crear o sube directamente imágenes o vídeos de referencia.",
+        "Espera a que la IA genere en el lienzo las tarjetas de prompts y el storyboard.",
+        "Revisa las tarjetas de texto generadas y ajusta el contenido si es necesario.",
+        "Copia o descarga el resultado para usarlo en la generación de imágenes posterior."
+    ],
+    "faq": [
+        {
+            "q": "Las imágenes que genera la IA siempre tienen un aspecto plástico y de muñeco. ¿Cómo se soluciona?",
+            "a": "Cambia la costumbre de acumular adjetivos rimbombantes por detalles concretos de entorno e iluminación. Esta habilidad te ayuda a descomponer la escena en sujeto, entorno y detalles clave, y además añade imperfecciones cotidianas verosímiles. Así las imágenes resultantes serán más naturales y reducirán el efecto de muñeco y de pintura al óleo."
+        },
+        {
+            "q": "Si veo una imagen o un vídeo corto que me gusta, ¿puedo escribir prompts inspirándome en ellos?",
+            "a": "Sí, solo tienes que enviarle la imagen o el vídeo de referencia. Analizará la luz, los movimientos de los personajes y la forma de acercar o alejar la cámara, y extraerá los prompts correspondientes. Puedes conservar ese método de rodaje y cambiar los personajes o el producto para generar imágenes nuevas."
+        },
+        {
+            "q": "Al escribir descripciones de vídeo, ¿cómo evito que las imágenes parezcan un fondo estático y sin acción?",
+            "a": "Al escribir el prompt, especifica el objetivo del personaje, los obstáculos y sus acciones corporales concretas, en lugar de describir solo el paisaje. Describir únicamente un entorno bonito solo produce planos vacíos y estáticos. Con acciones y conflicto, los fragmentos de vídeo generados por la IA tendrán movimiento."
+        },
+        {
+            "q": "Mi storyboard es demasiado largo. ¿Cómo sé qué planos debo eliminar?",
+            "a": "Comprueba si cada plano cambia la emoción, impulsa la acción o aumenta la tensión; si no cumple ninguno de los tres criterios, es un plano sobrante que puedes eliminar. El asistente revisará cada plano contigo según estos tres criterios para reducir el número de planos y evitar que el vídeo resulte lento y pesado."
+        }
+    ],
+    "keywords": [
+        "quitar aspecto plástico imágenes IA",
+        "cómo escribir prompts para vídeos con IA",
+        "prompts a partir de una imagen",
+        "cómo hacer un storyboard para vídeo",
+        "plantilla de prompts para generar imágenes con IA",
+        "diseño de planos de vídeo"
+    ]
+}

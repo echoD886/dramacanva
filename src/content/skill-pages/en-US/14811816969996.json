@@ -1,0 +1,66 @@
+{
+    "title": "Game character action videos: moves/effects stay in frame",
+    "metaDescription": "For game character animators. Send an image or appearance description to make 4–6 second idle, run, or action videos with moves and effects kept in frame.",
+    "oneLiner": "Help game creators turn character images or descriptions into action videos that stay in frame on the canvas.",
+    "intro": [
+        "This is a tool dedicated to game character action videos. It keeps the character in a small area at the center of the frame with plenty of empty space around it, so hands, feet, and light effects are less likely to be cut off by the screen edges when swinging a sword or jumping.",
+        "All you need is an existing character image, or you can type a description of the character's appearance and action. Even if you don't have an image on hand, the AI will first draw a full-body character image on the canvas for you to approve.",
+        "Once done, you'll get a 4–6 second action video card with a solid-color background on the canvas. You can download the video directly or arrange multiple action clips on the video timeline and export them."
+    ],
+    "example": {
+        "input": "Send an image of a white-haired swordsman and write: \"Make a double-jump action: jump up first, pause briefly in the air, jump a second time to go higher, then land smoothly.\"",
+        "output": "After confirming the character's scale, a roughly 5-second action video card with a white background is generated on the canvas; the swordsman jumps a second time in midair without leaving the frame."
+    },
+    "scenarios": [
+        "You have an existing character image and want short idle, run, or basic attack actions.",
+        "When making a game demo, you need character video clips with clear action beats such as double jumps and dash slashes.",
+        "You only have a text idea and no character image, and want the AI to draw the character first, then make the action video.",
+        "When creating ultimate moves or large-scale attack actions and need enough space in the frame so the move effects aren't cut off."
+    ],
+    "problems": [
+        {
+            "pain": "When the character's action gets large or they use an ultimate move, light effects and weapons get cut off by the frame edges.",
+            "solve": "Make the character occupy only about 20% of the frame height, specify a central active area in the prompt, and keep the action and effects within the frame as much as possible."
+        },
+        {
+            "pain": "When you ask for a double jump, the AI often makes the character bounce twice on the ground.",
+            "solve": "Break the action into jumping up, a brief pause in the air, pushing off again in midair to go higher, and landing to reproduce a real jump."
+        },
+        {
+            "pain": "You only have a text description of the character in mind, no ready image, and don't know how to proceed.",
+            "solve": "It helps fill in details such as body type and clothing, first generates a character image with plenty of empty space around it on the canvas, and then makes the action after you confirm you're happy with it."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill\" and send a character image along with the action you want.",
+        "Confirm that the character occupies only about 20% of the frame height; if you don't have an image, one will first be generated on the canvas for you to review.",
+        "Wait for the AI to generate a 4–6 second action video card on the canvas; click it to play a preview.",
+        "Check the action result, and once satisfied, arrange the clips in order on the video timeline and export, or download them individually."
+    ],
+    "faq": [
+        {
+            "q": "When making character animations, what should I do if hands, feet, or move effects keep getting cut off by the frame?",
+            "a": "First shrink the character to about 20% of the frame and leave enough empty space around it. When generating the action, the AI will keep swings and light effects within the central active area as much as possible. This helps prevent limbs from going out of frame and effects from being cropped at the edges."
+        },
+        {
+            "q": "Why does the AI's double jump often look like two bounces in place?",
+            "a": "This happens because the description doesn't clearly specify the pause and push-off rhythm in the air. Write \"one jump, a brief pause in the air, a second push-off in midair to go higher, and a smooth landing,\" and the AI will try to generate it in that order. This lets the character jump again in midair instead of bouncing twice on the ground."
+        },
+        {
+            "q": "If I don't have a character image, can I just type text and have the AI make the action video?",
+            "a": "Yes. In {brand}, just type a description of the character's appearance and action. The AI will first draw a full-body character image on the canvas based on your description so you can confirm the size and appearance. Once you approve it, the AI will start generating the action video; if you're not satisfied, you can revise the description and regenerate at any time."
+        },
+        {
+            "q": "How can I turn the generated video into character action images or GIFs with a transparent background?",
+            "a": "Download the generated video locally, use common tools to split it into a sequence of images and remove the white background. The canvas generates video cards with a solid white background and doesn't directly export transparent images. If you just want to preview the action, click play on the canvas."
+        }
+    ],
+    "keywords": [
+        "game character action generation",
+        "character action video maker",
+        "AI character animation",
+        "character double jump animation",
+        "game character action video",
+        "uncropped character animation"
+    ]
+}

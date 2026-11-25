@@ -1,0 +1,66 @@
+{
+    "title": "Envie uma imagem e gere storyboard e vídeos no canvas",
+    "metaDescription": "Para iniciantes em curtas com imagem estática. Envie uma imagem; a IA organiza os planos e gera storyboard com instruções e clipes de vídeo no canvas.",
+    "oneLiner": "Envie uma imagem e ele gera storyboard e vídeos em segmentos no canvas, ideal para iniciantes em curtas.",
+    "intro": [
+        "Este é um fluxo criativo que ajuda a transformar imagens estáticas em vídeos contínuos. Ele analisa as cores e a iluminação da imagem e planeja vários planos contínuos para evitar ao máximo que o estilo visual fique inconsistente entre as cenas.",
+        "Você só precisa preparar uma imagem nítida, como foto de produto, paisagem ou pôster de personagem. Envie-a à IA no painel à direita e depois escolha o tipo e o estilo de vídeo que deseja conforme as instruções.",
+        "Ao terminar, o canvas exibirá um storyboard e vários trechos de vídeo de 15 segundos. Você pode modificar um plano individualmente e gerá-lo de novo, ou organizar a ordem na linha do tempo do vídeo e exportar o filme final."
+    ],
+    "example": {
+        "input": "Envie uma foto estática de uma xícara de café de cerâmica e diga à IA que você quer criar um anúncio de produto de 15 segundos com estilo de luz matinal acolhedora.",
+        "output": "O canvas gera um cartão de storyboard com 8 planos e cartões de trechos de vídeo de 15 segundos correspondentes, mantendo a textura cerâmica e a iluminação suave da imagem original."
+    },
+    "scenarios": [
+        "Você tem apenas uma foto real de produto e quer criar um vídeo curto de e-commerce com troca de ângulos.",
+        "Você desenhou uma ilustração de personagem ou brinquedo e quer criar um teaser animado para ela.",
+        "Você tirou uma bela foto de paisagem com o celular e quer expandi-la em um curta de paisagem com atmosfera emocional.",
+        "Você tem um pôster conceitual com cara de cinema e precisa planejar como filmar os planos e gerar um vídeo de amostra."
+    ],
+    "problems": [
+        {
+            "pain": "Você tem apenas uma imagem estática e não sabe como conceber a troca de planos e o conteúdo das cenas.",
+            "solve": "A IA analisa as características da imagem original e lista no canvas o roteiro de filmagem de cada plano para você confirmar a proposta primeiro."
+        },
+        {
+            "pain": "Os planos do vídeo gerado ficam com estilos diferentes, e as cenas parecem montadas sem continuidade.",
+            "solve": "Ela usa como referência os materiais, as cores principais e a iluminação da imagem original para criar os novos planos e manter ao máximo a consistência visual."
+        },
+        {
+            "pain": "Você não gostou de um plano gerado e teme precisar recomeçar tudo do zero.",
+            "solve": "O storyboard e os vídeos são cartões independentes no canvas; você pode alterar o texto de um trecho específico e gerá-lo novamente."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie a imagem de referência na caixa de diálogo à direita do canvas.",
+        "Escolha o tipo e o estilo do vídeo e deixe a IA montar os cartões de storyboard no canvas.",
+        "Confirme o conteúdo do storyboard e, quando estiver satisfeito, peça à IA para gerar os cartões de vídeo de 15 segundos correspondentes.",
+        "Revise os trechos de vídeo, organize a ordem na linha do tempo do vídeo e exporte o filme final."
+    ],
+    "faq": [
+        {
+            "q": "Dá para gerar um vídeo sem enviar imagem?",
+            "a": "Não. Esta habilidade exige o envio de pelo menos uma imagem. A IA usa a iluminação, as cores e o assunto principal dessa imagem como base de referência; sem imagem, não é possível começar a criar o storyboard e o vídeo."
+        },
+        {
+            "q": "A IA pode dublar ou editar automaticamente e montar o filme final para mim?",
+            "a": "Não. A IA não faz dublagem sozinha nem monta o filme final automaticamente. Ela gera vários trechos de vídeo independentes no canvas; você pode organizá-los na linha do tempo do vídeo e então exportar."
+        },
+        {
+            "q": "Se eu não gostar de um plano gerado, preciso refazer tudo?",
+            "a": "Não. Você pode gerar novamente apenas o plano de que não gostou. Cada storyboard e trecho de vídeo no canvas é um cartão independente. Basta alterar a descrição de texto desse plano e gerar de novo, sem refazer tudo."
+        },
+        {
+            "q": "Por que o vídeo final é dividido em vários trechos curtos?",
+            "a": "Porque esta habilidade planeja e gera o vídeo em segmentos por plano, para facilitar a revisão e a alteração individual. Cada storyboard corresponde a um trecho de vídeo de 15 segundos, o que ajuda a evitar ao máximo desvios no estilo visual. Depois de gerar todos os trechos, você pode organizá-los na linha do tempo do vídeo do canvas e exportar tudo de uma vez."
+        }
+    ],
+    "keywords": [
+        "fazer vídeo com uma imagem",
+        "imagem para vídeo",
+        "criar vídeo promocional com imagem de referência",
+        "criar storyboard com IA",
+        "gerar vídeo de produto para e-commerce",
+        "como fazer storyboard para curta"
+    ]
+}

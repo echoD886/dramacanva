@@ -1,0 +1,112 @@
+Política de reembolso de DramaCanvas
+
+Última actualización: 30 de octubre de 2026
+Fecha de entrada en vigor: 30 de octubre de 2026
+
+1. Aspectos clave
+Durante los 14 días naturales siguientes a la fecha del pago, si los créditos de la plataforma incluidos en dicho pago no se han utilizado en su totalidad, puede solicitar un reembolso proporcional a los créditos no utilizados. Del importe del reembolso se deducirá una comisión de gestión del 6 % para cubrir las comisiones de los canales de pago y los costes de tramitación.
+
+2. ¿Es posible solicitar un reembolso?
+Cada pago (incluidas las compras iniciales, renovaciones automáticas, recargas puntuales y pagos de la diferencia por cambio a un plan superior) cuenta con un periodo independiente de 14 días naturales para solicitar el reembolso. A continuación, se detallan los casos más habituales:
+
+- No se ha utilizado ningún crédito: reembolsable. Se reembolsará a través del método de pago original el importe abonado tras deducir la comisión de gestión del 6 %.
+- Se ha utilizado parte de los créditos: reembolsable. Se calculará de forma proporcional a los créditos no utilizados en dicho pago y se devolverá a través del método de pago original tras deducir la comisión de gestión del 6 %.
+- Se han agotado todos los créditos: no reembolsable. Los pagos cuyos créditos se hayan consumido por completo no son reembolsables.
+- Han transcurrido más de 14 días naturales desde el pago: no reembolsable. No se admitirán solicitudes fuera de plazo.
+- Cargos por renovación automática de la suscripción: reembolsables. La renovación se considera un pago independiente y, si no se han consumido todos los créditos, se puede solicitar un reembolso proporcional.
+- Recarga puntual de créditos (compra única): reembolsable. Si los créditos no se han consumido en su totalidad, se puede solicitar un reembolso proporcional a los créditos no utilizados.
+- Pago por diferencia al mejorar de plan: reembolsable. El reembolso se calculará de forma proporcional a los créditos no utilizados de entre los añadidos con dicho pago de mejora.
+- Compras con cupones o descuentos: reembolsables. El reembolso se calculará sobre el importe abonado realmente; la parte bonificada o descontada no es reembolsable en efectivo.
+- Créditos de cortesía o regalo (como recompensas por invitación o por promociones): no reembolsables. Al no haberse adquirido con dinero en efectivo, no pueden ser objeto de reembolso, canje por efectivo ni transferencia.
+- Créditos deducidos por errores de generación: no es necesario solicitarlo. El sistema devolverá automáticamente a su cuenta los créditos de la plataforma deducidos.
+
+3. Cómo se calcula el importe del reembolso
+Calculamos el reembolso en función del importe abonado realmente y de la proporción de créditos no utilizados.
+
+3.1 Fórmula de cálculo
+Importe del reembolso = Importe abonado de dicho pago × (Créditos no utilizados incluidos en dicho pago ÷ Créditos totales incluidos en dicho pago) − Comisión de gestión
+
+3.2 Explicación de los elementos del cálculo
+- Importe abonado: se calcula sobre la cantidad que usted haya pagado realmente. Si utilizó cupones, descuentos promocionales o deducciones por cambio de plan al efectuar el pago, tomaremos como base el importe final efectivamente satisfecho tras aplicar dichas deducciones, no el precio original.
+- Proporción de créditos: el denominador corresponde a la totalidad de créditos incluidos en dicho pago y el numerador, a los créditos no utilizados actualmente de ese mismo pago. En los pagos por diferencia al mejorar de plan, el denominador será el número de nuevos créditos incorporados mediante esa mejora, no el total de créditos del nuevo plan tras la mejora.
+- Método de cálculo para suscripciones anuales: en los planes de suscripción anual, la totalidad de los créditos correspondientes a todo el año incluidos en dicha cuota anual (incluidos los créditos de meses posteriores aún no acreditados en la cuenta) se computarán en el denominador; todos los créditos de meses aún no acreditados se considerarán íntegramente «créditos no utilizados».
+- Momento del cálculo: el importe del reembolso se calcula según el estado de uso de los créditos de dicho pago en el momento en que tramitamos la solicitud; únicamente se retirarán los créditos no utilizados vinculados a ese pago, sin que en ningún caso el saldo de la cuenta pase a ser negativo.
+- Registro de deducción de créditos: cuando existan varias compras registradas en la cuenta, el orden de consumo de los créditos se regirá por los registros de nuestro sistema. Al tramitar el reembolso, le detallaremos los registros de consumo aplicados y el desglose del cálculo.
+- Comisión de gestión: se deducirá un 6 % del importe del reembolso para cubrir las comisiones de las pasarelas de pago y los costes de tramitación. Le informaremos del importe exacto de la comisión deducida durante la tramitación del reembolso.
+
+3.3 Ejemplo de cálculo
+A continuación, se ilustra la lógica de cálculo mediante importes enteros ficticios:
+Supongamos que contrata un plan o realiza una recarga puntual con un pago efectivo de US$100, que incluye 1000 créditos de la plataforma.
+En el 5.º día natural posterior al pago, ha consumido un total de 300 créditos y le quedan 700 créditos sin utilizar. En ese momento, solicita un reembolso:
+- Proporción de créditos no utilizados: 700 ÷ 1000 = 70 %
+- Base de reembolso correspondiente: US$100 × 70 % = US$70
+- Comisión de gestión aplicable (6 %): US$70 × 6 % = US$4.20
+- Importe final a reembolsar: US$70 − US$4.20 = US$65.80
+Si no se hubiera utilizado ninguno de los 1000 créditos en el momento de la solicitud, el importe final a reembolsar sería: US$100 − (US$100 × 6 %) = US$94.
+
+4. Cómo solicitar un reembolso
+Todas las solicitudes de reembolso de DramaCanvas se reciben y verifican de forma centralizada por correo electrónico.
+
+4.1 Método de solicitud
+Envíe un correo electrónico a nuestra dirección de soporte oficial support@dramacanva.com desde la dirección de correo asociada a su cuenta de DramaCanvas, indicando en el asunto «Solicitud de reembolso».
+
+4.2 Información requerida
+Facilítenos con claridad los 4 datos siguientes en su correo electrónico para que podamos verificar y tramitar la solicitud con rapidez:
+1. Correo electrónico de la cuenta: la dirección de correo electrónico vinculada a su cuenta de DramaCanvas con la que inicia sesión.
+2. Número de pedido o fecha de pago: el número de referencia del pedido correspondiente o la fecha exacta en la que se efectuó el pago.
+3. Importe del pago: la cantidad exacta que abonó en dicho pago.
+4. Motivo del reembolso: una breve explicación de la razón de su solicitud, que nos ayudará a seguir mejorando nuestro producto.
+
+4.3 Consideraciones importantes
+Actualmente, las solicitudes de reembolso solo se gestionan por correo electrónico. Por motivos de seguridad de la cuenta, asegúrese de enviar la solicitud desde la dirección vinculada a su cuenta; si se envía desde otra dirección, es posible que le solicitemos información adicional para verificar la titularidad de la cuenta.
+
+5. Plazos de recepción del reembolso
+El proceso de reembolso consta de dos fases: la revisión manual y el abono por parte del canal de pago.
+
+5.1 Plazo de revisión
+Una vez recibido el correo con los 4 datos completos requeridos, le responderemos en un plazo de 3 días laborables informándole del resultado de la revisión y del desglose del cálculo del reembolso.
+
+5.2 Plazo de ingreso según el canal de pago
+Tras la aprobación, el reembolso se emitirá a través de su método de pago original. Una vez emitido, el tiempo real de recepción dependerá de los procedimientos de procesamiento de la entidad bancaria y del canal de pago:
+- Alipay: habitualmente de 1 a 3 días laborables.
+- WeChat Pay: habitualmente de 1 a 3 días laborables.
+- Tarjeta bancaria (procesada a través de Stripe): habitualmente de 5 a 10 días laborables.
+El tiempo real de abono está sujeto a los plazos de tramitación del banco emisor y de las entidades de pago correspondientes.
+
+6. Qué ocurre después de realizarse el reembolso
+Una vez completado el reembolso, el estado de su cuenta experimentará las siguientes modificaciones:
+
+6.1 Deducción de créditos
+Los créditos de la plataforma no utilizados correspondientes a dicho pago se deducirán de su cuenta. Los créditos de la plataforma solo pueden utilizarse dentro de DramaCanvas y no pueden retirarse, canjearse por dinero en efectivo ni transferirse a otras cuentas.
+
+6.2 Cancelación de la suscripción y cambios en la cuenta
+Si solicita el reembolso de un plan de suscripción, los beneficios asociados a dicho plan cesarán de inmediato una vez efectuado el reembolso, y su cuenta volverá al plan gratuito.
+
+6.3 Diferencia entre cancelar la renovación automática y solicitar un reembolso
+- Cancelar la renovación automática: si no desea seguir disfrutando de su plan en el futuro, puede cancelar la renovación automática en cualquier momento desde la página de suscripción del centro de cuentas. Tras la cancelación, podrá continuar utilizando su ciclo de facturación abonado con total normalidad hasta el término de su vigencia y conservar los créditos de su cuenta; la cancelación en sí misma no da derecho a reembolso.
+- Solicitud de reembolso: el reembolso supone la finalización anticipada del servicio correspondiente al pago ya efectuado, liquidando y devolviendo el importe proporcional a la parte no utilizada.
+
+7. Condiciones de reembolso para espacios de equipo
+Dado que los espacios de equipo implican la colaboración de varios usuarios, se aplican las siguientes condiciones de reembolso:
+- Permisos de solicitud: únicamente el administrador del equipo que haya realizado el pago puede presentar una solicitud de reembolso; los demás miembros del equipo no están autorizados a solicitarlo.
+- Cómputo del consumo de créditos: todos los créditos de la plataforma que hayan consumido los miembros del equipo se contabilizarán como «créditos utilizados» al calcular el reembolso.
+- Deducción de créditos restantes: una vez aprobado el reembolso, se deducirán de forma unificada de la cuenta los créditos no utilizados vinculados a dicho pago (incluidos aquellos asignados a miembros del equipo pero aún no consumidos).
+
+8. Casos en los que no procede el reembolso
+No se concederán reembolsos en los siguientes casos, y nos reservamos el derecho a reclamar o revertir cualquier reembolso ya emitido:
+- Uso abusivo de los reembolsos: conductas abusivas como realizar compras reiteradas, consumir los créditos y solicitar posteriormente el reembolso.
+- Incumplimiento de las normas de la cuenta: cuentas restringidas o suspendidas por haber infringido el «Acuerdo de usuario».
+- Pagos fraudulentos: pagos efectuados mediante tarjetas bancarias sustraídas, métodos fraudulentos o canales no autorizados.
+- Contracargo bancario iniciado: si ya ha iniciado una disputa o contracargo (chargeback) ante su banco emisor, la transacción se gestionará a través del procedimiento formal de disputas de la entidad bancaria y no tramitaremos un reembolso por separado.
+
+9. Legislación local y derechos legales
+Respetamos y garantizamos plenamente los derechos legales que le asisten conforme a la legislación local.
+- Prevalencia de los derechos reconocidos por ley: si la legislación imperativa de su país o región le otorga mayores derechos (por ejemplo, las normativas de protección al consumidor de China continental o el derecho de desistimiento de 14 días para consumidores de la Unión Europea y el Reino Unido), actuaremos de conformidad con la ley; esta política no menoscaba en ningún caso sus derechos legales.
+- Aviso específico para consumidores de la Unión Europea y el Reino Unido: si al momento de la compra prestó su consentimiento expreso previo para el suministro inmediato de contenido digital y reconoció que perdería el derecho de desistimiento una vez comenzada su utilización, este se regulará con arreglo a lo dispuesto en la legislación aplicable.
+
+10. Modificaciones de la política y contacto
+10.1 Actualizaciones de la política
+Es posible que actualicemos la presente Política de reembolso oportunamente. El contenido aplicable se regirá por la «Última actualización» que figura al principio de esta página. Las solicitudes de reembolso enviadas con anterioridad a cualquier actualización se tramitarán con arreglo a la versión de la política vigente en el momento de su presentación.
+
+10.2 Contacto
+Si tiene alguna duda relativa a esta Política de reembolso, puede remitirnos un correo electrónico a support@dramacanva.com.

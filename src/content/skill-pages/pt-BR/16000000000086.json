@@ -1,0 +1,66 @@
+{
+    "title": "Microexpressões naturais de personagens de IA em close-ups",
+    "metaDescription": "Para criadores de vídeo com IA: informe emoção e situação e gere microgestos de olhos, sobrancelhas e corpo, com tabela, ações e descrições de close-up.",
+    "oneLiner": "Informe a emoção e a situação do personagem e gere, na tela, uma tabela de microexpressões e ações e descrições para close-ups.",
+    "intro": [
+        "Esta é uma ferramenta dedicada a ajustar as expressões de personagens de IA. Ela decompõe reações engessadas de alegria, raiva, tristeza e outras emoções em piscadas, mordidas nos lábios e movimentos oculares detalhados, tornando a expressão do personagem em close-up mais vívida e natural.",
+        "Basta descrever, em linguagem simples, no painel de chat à direita, o estado emocional do personagem e o que está acontecendo; se já houver uma foto do personagem com a aparência definida, você também pode enviá-la como referência facial.",
+        "Depois, a IA gera na tela uma tabela de microexpressões e ações, uma lista de coordenação entre cabeça e corpo e prompts de close-up prontos (descrições textuais usadas para a IA gerar imagens), que você pode visualizar ou copiar para usar."
+    ],
+    "example": {
+        "input": "A protagonista segura as lágrimas ao descobrir que foi enganada; o olhar passa de choque a decepção e o canto da boca treme levemente. Enviou uma imagem de referência frontal da protagonista.",
+        "output": "Gera na tela uma tabela de decomposição de ações (com indicações de tensão entre as sobrancelhas e olhar baixo), uma lista de coordenação corporal e um prompt de close-up facial com detalhes de olhos marejados e tensão."
+    },
+    "scenarios": [
+        "Ao escrever cenas tristes ou de raiva, as expressões dos personagens de IA ficam exageradas e distorcidas, ou completamente vazias.",
+        "Em close-ups, o olhar dos personagens de IA parece vago, sem dar para perceber para onde ele está olhando.",
+        "Depois de trocar de enquadramento, as feições do personagem mudam com frequência, ou a pele parece de boneco de plástico, sem textura realista.",
+        "Quando a emoção do personagem passa da calma para uma explosão repentina, faltam transições naturais e coordenação corporal."
+    ],
+    "problems": [
+        {
+            "pain": "Ao escrever apenas palavras de emoção, as expressões geradas pela IA ficam exageradas demais ou não reagem.",
+            "solve": "Ajuda você a decompor a emoção na tela em ações específicas de sobrancelhas, olhar e cantos da boca, gerando descrições detalhadas."
+        },
+        {
+            "pain": "Em close-ups, o olhar do personagem fica vago e não dá para ver o que ele está sentindo ou pensando.",
+            "solve": "Define para o personagem um alvo de olhar e um movimento de cabeça específicos, dando um ponto de foco ao olhar e encenando o processo de pensamento."
+        },
+        {
+            "pain": "A pele do personagem fica lisa demais, como a de um boneco de plástico, e o formato do rosto se altera quando o enquadramento muda.",
+            "solve": "Adiciona detalhes fisiológicos reais, como brilho de lágrimas e músculos da mandíbula, e usa imagens de referência para fixar as feições, reduzindo variações."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em «Usar esta habilidade».",
+        "Informe a situação e as mudanças emocionais do personagem; você também pode enviar uma imagem de referência da aparência dele.",
+        "Confira na tela a tabela de decomposição de microexpressões, a lista de ações corporais e as descrições de close-up geradas.",
+        "Copie ou baixe os textos e as tabelas gerados nos cartões."
+    ],
+    "faq": [
+        {
+            "q": "Como fazer as expressões de personagens de IA parecerem mais naturais?",
+            "a": "Decomponha emoções gerais em movimentos específicos de sobrancelhas, olhos e cantos da boca; não insira apenas “raiva” ou “tristeza”. No {brand}, você pode primeiro gerar uma tabela de parâmetros de microexpressões para definir a expressão e depois gerar uma imagem inicial de close-up para confirmar o olhar. Isso reduz distorções faciais e deixa as transições de expressão mais naturais."
+        },
+        {
+            "q": "O que fazer se o olhar dos personagens gerados por IA parecer sempre vago?",
+            "a": "Especifique o alvo que o personagem está olhando ou a direção do olhar, para que ele tenha um ponto de foco claro. Por exemplo, escreva claramente “olhar para a mesa à direita e abaixo” ou “olhar nos olhos da outra pessoa”, e o personagem transmitirá a sensação de estar pensando. Você pode gerar primeiro uma imagem inicial de close-up na tela para confirmar o ponto de foco do olhar e depois seguir com a criação."
+        },
+        {
+            "q": "Por que o rosto dos personagens em vídeos de IA parece de boneco de plástico?",
+            "a": "Isso acontece porque a imagem não tem textura de pele e detalhes fisiológicos reais. Você pode incluir nas descrições mudanças sutis como olhos marejados, músculos da mandíbula tensos ou linhas finas nos lábios, para que a luz e a sombra se ajustem à pele real. A imagem apresentará a textura conforme a capacidade do modelo escolhido; modelos realistas costumam ter melhor desempenho."
+        },
+        {
+            "q": "O que fazer se a aparência do personagem de IA mudar em enquadramentos diferentes?",
+            "a": "Antes de gerar, envie uma foto do personagem fixo como referência de aparência e mantenha as características faciais principais em cada descrição. Ao ajustar o enquadramento, procure alterar apenas levemente a expressão e o olhar, sem mudar muito o penteado e a estrutura óssea do rosto. Você pode manter na tela o cartão de imagem do personagem com o melhor resultado, para consultar e comparar a qualquer momento."
+        }
+    ],
+    "keywords": [
+        "expressões de personagens de IA",
+        "olhar vago em personagens de IA",
+        "remover aspecto plástico de vídeos com IA",
+        "prompts de microexpressões com IA",
+        "expressões de atores em vídeos curtos com IA",
+        "close-up facial de personagem de IA"
+    ]
+}

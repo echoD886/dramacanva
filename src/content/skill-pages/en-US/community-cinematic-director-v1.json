@@ -1,0 +1,66 @@
+{
+    "title": "Break your story into shots for a coherent AI video",
+    "metaDescription": "For beginners in short dramas and videos. Send a story, and AI will outline a clear shot list and visuals, then generate matching images and video clips.",
+    "oneLiner": "Enter a story, arrange coherent shots on a canvas, and generate video clips. Great for beginners.",
+    "intro": [
+        "It works like an assistant who understands cinematography. Send a text story, and it will break it into a coherent shot list on the canvas, explain how each shot should be filmed, and add visual descriptions.",
+        "You only need some text, such as a novel excerpt, story outline, or a few plot lines. If you have reference images of characters you like, you can send those too.",
+        "When it's done, you'll get a shot plan, reference images for each frame, and generated video cards on the canvas that you can download directly or arrange and export."
+    ],
+    "example": {
+        "input": "A detective story: On a rainy night, the detective pushes open the door of an old bookstore and finds an opened letter on the floor. Suddenly, a figure flashes behind the curtain.",
+        "output": "It will create broken-down shot-list cards on the canvas, labeled door-push close-up, letter close-up, and shadow figure wide shot, with visual descriptions for each shot and generated short video cards."
+    },
+    "scenarios": [
+        "You have a novel or story but don't know how to break it into specific visuals for a video.",
+        "The motion in your AI videos gets messy, and you want each shot's main action to be clearer and cleaner.",
+        "Several video shots cut together look too bright/dark or inconsistent in style, and you want to unify the color tone and visual feel.",
+        "You already have several character images you like and want to plan the next shots around the visuals you have."
+    ],
+    "problems": [
+        {
+            "pain": "Your story is thousands of words long, and you don't know how to turn it into visuals suitable for a short video.",
+            "solve": "It helps you organize a shot list on the canvas, specifying whether each frame is a wide shot or close-up, how characters move, and how the camera moves."
+        },
+        {
+            "pain": "You want characters to do too many actions in one passage, so the AI video often looks chaotic.",
+            "solve": "It breaks complex actions into short shots, with each shot focusing on one main action, which makes generation more stable."
+        },
+        {
+            "pain": "When several shots are cut together, character faces and lighting change suddenly and look mismatched.",
+            "solve": "It first sets the lighting and art style for the whole set of shots on the canvas and tries to keep the same visual settings in each shot."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill,” then send your story or reference images in the chat box on the right.",
+        "Review the shot-list cards generated on the canvas and confirm each shot's framing and action.",
+        "Tell the assistant how to revise any text descriptions you're unhappy with, then have it generate a single image or video clip.",
+        "Drag the video clips you like onto the canvas timeline, put them in order, and export the final video."
+    ],
+    "faq": [
+        {
+            "q": "How do I break a novel or story into video shots?",
+            "a": "Send the text to the AI assistant, and it will break it into a storyboard by plot, explaining what each shot shows and labeling shot size and action. You can review each shot's visual description on the canvas and tell the assistant to revise anything you don't like."
+        },
+        {
+            "q": "Why does the motion in AI videos often look chaotic or broken?",
+            "a": "It's mainly because too many action instructions are given to the AI at once. This skill tries to split actions apart so each shot has only one main action, which usually makes the visuals much more stable. If you're unhappy with a shot, tell the assistant to adjust the description and regenerate it."
+        },
+        {
+            "q": "How can I make characters look the same across several video shots?",
+            "a": "Absolute consistency can't be guaranteed, but uploading a character reference image in advance can help keep the character's appearance consistent. When arranging shots, the AI will prioritize that reference image's appearance and clothing settings. If a character looks off in a shot, tell the assistant to revise that shot's description and regenerate it."
+        },
+        {
+            "q": "Will the AI automatically edit all the shots into one complete video?",
+            "a": "It won't stitch them together automatically; it creates separate video clips on the canvas. You can drag the clips you like onto the video timeline, put them in order, confirm everything looks right, and then export the final video. This lets you freely change the order of each frame."
+        }
+    ],
+    "keywords": [
+        "AI video storyboard",
+        "turn story into video shots",
+        "AI video motion messy",
+        "short drama shot list",
+        "coherent AI video",
+        "AI video for beginners"
+    ]
+}

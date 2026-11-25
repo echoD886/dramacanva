@@ -1,0 +1,20 @@
+const announcements = {
+    "announcements.title": "시스템 공지",
+    "announcements.loadFailure": "공지를 불러오지 못했습니다",
+    "announcements.unread": "시스템 공지, 읽지 않음 {count}개",
+    "announcements.info": "플랫폼 알림",
+    "announcements.success": "서비스 복구",
+    "announcements.warning": "서비스 안내",
+    "announcements.critical": "중요 공지",
+    "announcements.currentCount": "현재 공지: {count}개",
+    "announcements.noCurrent": "현재 진행 중인 공지가 없습니다",
+    "announcements.loading": "공지 불러오는 중",
+    "announcements.errorTitle": "공지를 불러오지 못했습니다",
+    "announcements.empty": "시스템 공지가 없습니다",
+    "announcements.emptyHint": "새로운 서비스 소식이 여기에 표시됩니다",
+    "announcements.pinned": "고정됨",
+    "announcements.imageAlt": "{title} 이미지",
+    "announcements.justNow": "방금",
+    "announcements.publishedTime": "{relative} · {date}",
+} as const;
+export default announcements;

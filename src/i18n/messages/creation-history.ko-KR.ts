@@ -1,0 +1,21 @@
+const messages = {
+    "creationHistory.history": "대화 기록",
+    "creationHistory.count": "대화 {count}개",
+    "creationHistory.search": "대화 제목 또는 내용 검색",
+    "creationHistory.searchAria": "대화 기록 검색",
+    "creationHistory.listAria": "최근 업데이트순 대화 기록",
+    "creationHistory.creation": "창작",
+    "creationHistory.new": "새 창작",
+    "creationHistory.notStarted": "아직 창작을 시작하지 않았습니다",
+    "creationHistory.delete": "대화 삭제",
+    "creationHistory.deleteName": "대화 삭제: {name}",
+    "creationHistory.noMatch": "일치하는 대화가 없습니다",
+    "creationHistory.empty": "아직 대화 기록이 없습니다",
+    "creationHistory.timeUnknown": "시간 알 수 없음",
+    "creationHistory.view": "창작 보기",
+    "creationHistory.chat": "대화",
+    "creationHistory.storyboard": "샷 창작",
+    "creationHistory.newAction": "새 창작 시작",
+    "creationHistory.open": "대화 기록 보기",
+} as const;
+export default messages;

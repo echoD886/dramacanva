@@ -1,0 +1,177 @@
+.canvas-inline-auth-content {
+    position: relative;
+    padding: 28px 24px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: var(--foreground, #111827);
+}
+
+.canvas-inline-auth-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    color: var(--muted-foreground, #6b7280);
+    cursor: pointer;
+    transition:
+        background-color 150ms ease,
+        color 150ms ease;
+}
+
+.canvas-inline-auth-close:hover {
+    background: rgba(0, 0, 0, 0.06);
+    color: var(--foreground, #111827);
+}
+
+.is-dark .canvas-inline-auth-close:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.canvas-inline-auth-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.canvas-inline-auth-icon-wrap {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(245, 158, 11, 0.12);
+    display: grid;
+    place-items: center;
+    margin-bottom: 4px;
+}
+
+.canvas-inline-auth-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: inherit;
+}
+
+.canvas-inline-auth-desc {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--muted-foreground, #6b7280);
+    max-width: 360px;
+}
+
+.is-dark .canvas-inline-auth-desc {
+    color: #9ca3af;
+}
+
+.canvas-inline-auth-perks {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    font-size: 12.5px;
+    line-height: 1.45;
+}
+
+.is-dark .canvas-inline-auth-perks {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.canvas-inline-auth-perk-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.canvas-inline-auth-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #10b981;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.canvas-inline-auth-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+.canvas-inline-auth-btn-cancel,
+.canvas-inline-auth-btn-confirm {
+    height: 36px !important;
+    border-radius: 9px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+}
+
+.canvas-inline-auth-modal {
+    z-index: 2500 !important;
+}
+
+.canvas-inline-auth-modal .ant-modal-container,
+.canvas-inline-auth-modal .ant-modal-content {
+    padding: 0 !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    background: #ffffff !important;
+    border: 1px solid rgba(0, 0, 0, 0.08) !important;
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.12) !important;
+}
+
+.canvas-inline-auth-modal.is-dark .ant-modal-container,
+.canvas-inline-auth-modal.is-dark .ant-modal-content,
+.dark .canvas-inline-auth-modal .ant-modal-container,
+.dark .canvas-inline-auth-modal .ant-modal-content {
+    background: #1a1d24 !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.6) !important;
+}
+
+.canvas-inline-auth-modal .ant-modal-body {
+    padding: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+.canvas-inline-auth-btn-confirm {
+    background: var(--btn-solid-bg) !important;
+    color: var(--btn-solid-fg) !important;
+    border: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) !important;
+    cursor: pointer;
+    transition:
+        background-color 150ms ease,
+        opacity 150ms ease;
+}
+
+.canvas-inline-auth-btn-confirm:hover:not(:disabled) {
+    background: var(--btn-solid-hover-bg) !important;
+    color: var(--btn-solid-fg) !important;
+    opacity: 1;
+}
+
+.canvas-inline-auth-btn-confirm:active:not(:disabled) {
+    background: var(--btn-solid-active-bg) !important;
+    color: var(--btn-solid-fg) !important;
+}

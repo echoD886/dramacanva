@@ -1,0 +1,66 @@
+{
+    "title": "Video Audio/Visual Pairing & Editing Rhythm: Voice/SFX Tips",
+    "metaDescription": "For creators unsure how to add voiceover, SFX, or cut shots. Describe the visuals and get canvas text tips to clarify sound priority and shot rhythm.",
+    "oneLiner": "For video beginners: enter a visual description and get sound pairing and editing tips on the canvas.",
+    "intro": [
+        "This is a helper skill that helps creators clarify audio-visual pairing. When you don't know what sound a scene needs, or feel that your cuts are stiff, it helps you find the cause.",
+        "Just send the AI a storyboard description (break the video into shots and note what each shot shows), or simply explain what confuses you about the sound in the current shot.",
+        "The AI generates text cards on the canvas, lists the sounds for you, marks the order of dialogue, ambient sound, and sound effects, and suggests where to cut at emotional turns."
+    ],
+    "example": {
+        "input": "The main character walks alone down an empty hallway late at night. I want to create a tense, scared mood, but I don't know what sounds to use, and the cuts feel stiff.",
+        "output": "Generates text cards on the canvas: start with footsteps from an unseen source to build suspense and keep the environment quiet; mark sound priority and suggest cutting when the main character turns and pauses."
+    },
+    "scenarios": [
+        "The visuals and voiceover sound messy together, and I want to tell which sounds to keep and which to cut.",
+        "My cuts feel like mechanically timed beats, and the transitions look stiff and unnatural.",
+        "When creating suspense or tense scenes, I want to use sounds from unseen sources to build the audience's emotions first.",
+        "After writing the storyboard, I want to plan the layering of dialogue, ambient sound, and sound effects in advance."
+    ],
+    "problems": [
+        {
+            "pain": "Background music, dialogue, and sound effects are packed too densely, making the video sound noisy.",
+            "solve": "Streamline the sound with dialogue first, mark what's primary vs. secondary and when to leave silence, so the audio can breathe."
+        },
+        {
+            "pain": "Cuts are based only on gut feeling or mechanical timing, and the transitions look very stiff.",
+            "solve": "Helps you find moments when a character's action pauses or the emotion shifts, and gives natural cut suggestions on the canvas."
+        },
+        {
+            "pain": "I want to create a mysterious or suspenseful, tense mood, but the visuals feel flat and unengaging.",
+            "solve": "Guides you to hide the sound source and bring key sounds in off-screen early to spark the audience's imagination and curiosity."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use This Skill” to open the chat panel on the right.",
+        "Send a shot description or dialogue, and explain the sound or rhythm issue you want to fix.",
+        "Review the text cards generated on the canvas to get sound priorities and shot-cutting points.",
+        "Copy or download the text suggestions from the cards to guide your voiceover and editing."
+    ],
+    "faq": [
+        {
+            "q": "Can this skill directly voice a video or generate sound effects?",
+            "a": "No. It doesn't generate audio files. It creates text suggestions and lists on the canvas that tell you what sounds to choose and what order they should be in. You can follow the suggestions to add voiceover to your video."
+        },
+        {
+            "q": "The background sound and voiceover in my video are messy. How do I simplify them?",
+            "a": "Make dialogue clear first, then consider ambient sound and sound effects. If a sound doesn't help tell the story, cut it or lower its volume as much as possible. The skill lists sound priorities for you and tells you where to leave silence."
+        },
+        {
+            "q": "When editing a video, how do I decide when to cut?",
+            "a": "Cut when a character's action pauses or the emotion shifts, not at fixed intervals. Just as people naturally blink after finishing a thought, cutting during those gaps looks more natural. The skill analyzes your footage and suggests where to cut."
+        },
+        {
+            "q": "What sound techniques can I use to create a tense, suspenseful mood?",
+            "a": "You can let people hear a sound without showing where it comes from. For example, show only an empty room and play footsteps or a door opening off-screen first to grab the audience's attention quickly. The skill teaches you how to use this technique in key shots."
+        }
+    ],
+    "keywords": [
+        "video audio pairing",
+        "video voiceover tips",
+        "how to add sound effects to video",
+        "video cut points",
+        "video audio too noisy",
+        "video editing pacing"
+    ]
+}

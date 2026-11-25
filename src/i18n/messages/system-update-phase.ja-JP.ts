@@ -1,0 +1,23 @@
+const messages = {
+    "systemUpdatePhase.idle": "確認待ち",
+    "systemUpdatePhase.checking": "確認中",
+    "systemUpdatePhase.ready": "更新可能",
+    "systemUpdatePhase.no_update": "最新です",
+    "systemUpdatePhase.preflight": "事前確認",
+    "systemUpdatePhase.backing_up": "バックアップ中",
+    "systemUpdatePhase.pulling": "イメージを取得中",
+    "systemUpdatePhase.draining": "旧サービスを停止中",
+    "systemUpdatePhase.migrating": "データベースを移行中",
+    "systemUpdatePhase.switching": "バージョンを切り替え中",
+    "systemUpdatePhase.verifying": "正常性を検証中",
+    "systemUpdatePhase.succeeded": "更新成功",
+    "systemUpdatePhase.rolling_back": "ロールバック中",
+    "systemUpdatePhase.rolled_back": "ロールバック済み",
+    "systemUpdatePhase.failed": "更新失敗",
+    "systemUpdatePhase.manual_intervention": "手動対応が必要",
+    "systemUpdatePhase.waiting": "実行待ち",
+    "systemUpdatePhase.passed": "成功",
+    "systemUpdatePhase.checkFailed": "失敗",
+    "systemUpdatePhase.pending": "待機中",
+} as const;
+export default messages;

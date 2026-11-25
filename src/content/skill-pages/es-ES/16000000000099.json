@@ -1,0 +1,66 @@
+{
+    "title": "Temas y propuestas: aclara criterios y detecta fallos",
+    "metaDescription": "Para creadores indecisos con temas y propuestas. La IA analiza en el lienzo criterios, la objeción más fuerte y cuándo falla, y genera tarjetas de texto.",
+    "oneLiner": "Herramienta de texto que, al introducir una propuesta o tema, genera en el lienzo el análisis y los argumentos en contra.",
+    "intro": [
+        "Es una herramienta que te ayuda a ordenar las ideas antes de tomar una decisión. Cuando no tienes claro si un tema o una propuesta es buena idea, te ayuda a razonarla desde varios ángulos para que no decidas solo por intuición.",
+        "Basta con que escribas en el cuadro de diálogo de la derecha el tema que quieres abordar, la idea central y la información real de la que dispones. Si el equipo tiene opiniones distintas, también puedes incluir los puntos de debate.",
+        "La IA generará en el lienzo varias tarjetas de texto con el análisis razonado, la objeción más fuerte y las circunstancias en las que esa conclusión dejaría de ser válida. Puedes copiarlas o descargarlas directamente."
+    ],
+    "example": {
+        "input": "Quiero grabar una serie de vídeos cortos humorísticos sobre el mundo laboral, dirigidos a universitarios recién graduados, pero me preocupa que haya demasiado contenido similar y nadie los vea; no sé si debería hacerlo.",
+        "output": "En el lienzo se generarán varias tarjetas de texto: enumerarán los enfoques de reflexión adecuados y el análisis razonado, señalarán la objeción más fuerte frente a la competencia por similitud y especificarán en qué casos la conclusión dejaría de ser válida."
+    },
+    "scenarios": [
+        "Cuando has pensado varios temas para vídeos pero no te decides y necesitas comprobar desde distintos ángulos cuál es más fiable.",
+        "Cuando el equipo creativo discute en una reunión y nadie cede, y hace falta ordenar de forma objetiva los argumentos de cada parte.",
+        "Cuando estás muy satisfecho con tu idea, incluso algo cegado, y quieres buscar de forma activa posibles fallos y argumentos en contra.",
+        "Cuando llevas mucho tiempo creando contenido sin ver mejoras y quieres salir de las fórmulas de siempre y buscar un enfoque diferenciador."
+    ],
+    "problems": [
+        {
+            "pain": "Elegir temas por sensación y descubrir, solo cuando no tienen repercusión, que el enfoque ya tenía fallos desde el principio.",
+            "solve": "Generar en el lienzo tarjetas de análisis desde varios ángulos y desarrollar el proceso de decisión para ayudarte a ver antes qué se te ha pasado por alto."
+        },
+        {
+            "pain": "En las reuniones de equipo cada uno defiende su opinión subjetiva y acaba imponiéndose quien más levanta la voz.",
+            "solve": "Desglosar las opiniones de cada parte en tarjetas de texto, con sus criterios e inferencias por separado, para que todos debatan con base en lo escrito y de forma racional."
+        },
+        {
+            "pain": "Pensar siempre que tu propuesta no tiene ningún defecto y que nadie cercano se atreve a plantear objeciones.",
+            "solve": "Incluir de forma activa una objeción principal y las condiciones en que fallaría, para ayudarte a ver los riesgos potenciales con objetividad."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir la interfaz de creación del lienzo.",
+        "Envía tu idea de tema, tus principales dudas o la disputa del equipo, y añade los hechos que ya conoces.",
+        "Consulta las tarjetas de análisis generadas en el lienzo y lee el proceso de razonamiento y la objeción más fuerte.",
+        "Copia o descarga el resultado; también puedes editar el texto en el lienzo o pedir al asistente que vuelva a razonar."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo puedo usar esta habilidad para comprobar si un tema para vídeo es fiable?",
+            "a": "Envía el tema y tus dudas en el cuadro de diálogo de la derecha. La IA razonará en el lienzo los criterios de decisión y enumerará la objeción más fuerte para ayudarte a detectar fallos lógicos. Puedes evaluar el riesgo con las tarjetas de texto generadas, editar el texto directamente en el lienzo o pedir al asistente que ajuste el enfoque y vuelva a razonar."
+        },
+        {
+            "q": "¿Por qué el análisis incluye siempre una «objeción» específica?",
+            "a": "Es para evitar el optimismo ciego y los puntos ciegos de pensamiento. Por defecto, la habilidad busca la objeción más fuerte y las condiciones en las que el planteamiento dejaría de ser válido para ayudarte a ver de antemano los riesgos potenciales. Saber en qué casos una propuesta no se sostiene te ayuda a preparar una respuesta antes de invertir en la producción o a rectificar el enfoque a tiempo."
+        },
+        {
+            "q": "Si el equipo no se pone de acuerdo sobre una propuesta, ¿cómo nos puede ayudar esta herramienta?",
+            "a": "Puede dividir en tarjetas de texto claras los puntos de vista de cada parte en la discusión, los hechos conocidos y los criterios de razonamiento, para que el equipo debata de forma racional basándose en hechos objetivos. Al comparar visualmente en el lienzo de {brand} el proceso de razonamiento y los argumentos en contra, no hace falta discutir por emociones y es más fácil llegar a un consenso sobre la propuesta."
+        },
+        {
+            "q": "¿Se pueden copiar tal cual las recomendaciones de decisión que aparecen en el lienzo?",
+            "a": "No se deben copiar tal cual. La herramienta sirve principalmente para ordenar la lógica y revisar fallos por tu cuenta; el análisis y el razonamiento que ofrece no sustituyen las pruebas reales ni la experiencia. Te recomendamos combinarlo con los recursos reales de los que dispones, el coste de producción y los comentarios del equipo, editarlo y mejorarlo en el lienzo y, después, tomar la decisión final de creación."
+        }
+    ],
+    "keywords": [
+        "evaluación de temas",
+        "análisis de propuestas creativas",
+        "elegir tema para vídeos",
+        "viabilidad de una propuesta",
+        "debate de propuestas en equipo",
+        "detectar fallos en una idea"
+    ]
+}

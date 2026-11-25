@@ -1,0 +1,66 @@
+{
+    "title": "Envie foto do produto e crie vídeo publicitário tech com IA",
+    "metaDescription": "Divulgue eletrônicos: envie foto do produto e confira os ângulos; gere um vídeo publicitário sem fundo poluído, com luz e textura do aparelho em destaque.",
+    "oneLiner": "Envie uma foto do produto e crie um vídeo tech no canvas, ideal para vendedores de eletrônicos.",
+    "intro": [
+        "Envie uma foto de um produto eletrônico ao assistente e crie um vídeo publicitário com visual tech no canvas, ideal para vendedores de eletrônicos. A cena mantém apenas o produto em si, destacando o acabamento com luzes em movimento e closes.",
+        "Você só precisa de uma foto nítida do produto eletrônico. Depois de enviá-la ao assistente, ele primeiro gera imagens em vários ângulos para você conferir se botões e contornos correspondem ao original.",
+        "Depois de confirmar que a aparência está correta, você recebe no canvas um vídeo padrão de 15 segundos apenas com o produto em movimento. Pode baixá-lo diretamente ou organizar na linha do tempo de vídeo e exportar."
+    ],
+    "example": {
+        "input": "Envie uma foto de um fone de ouvido sem fio com cancelamento de ruído na cor preta e diga: faça um vídeo publicitário com visual tech para mim.",
+        "output": "No canvas, primeiro aparecem uma imagem do fone em fundo branco e três imagens de ângulos para você conferir; após a confirmação, é gerado um card de vídeo publicitário de 15 segundos com o fone girando em macro entre luzes e sombras escuras."
+    },
+    "scenarios": [
+        "Um lançamento de eletrônico acabou de ficar pronto e precisa de um vídeo curto de apresentação que destaque o visual e o lado tech do produto.",
+        "Uma loja de e-commerce vai cadastrar um eletrônico e precisa de um vídeo de capa sem fundo poluído para mostrar o acabamento do aparelho.",
+        "Um projeto de hardware vai ser apresentado em uma reunião ou demonstração e querem criar rapidamente uma demonstração dinâmica do produto com aparência sofisticada.",
+        "Para produzir um vídeo promocional de um produto digital, faltam tomadas limpas de luz passando e closes do produto."
+    ],
+    "problems": [
+        {
+            "pain": "A IA que faz vídeos tende a alterar a aparência do produto; botões e portas costumam ficar deformados.",
+            "solve": "Antes de fazer o vídeo, ela gera fotos em vários ângulos para você conferir e só gera o vídeo depois que a aparência estiver fiel ao original."
+        },
+        {
+            "pain": "Sempre há uma mesa bagunçada ou uma pessoa estranha na cena, desviando a atenção do produto.",
+            "solve": "Mantém apenas o produto, usando um fundo escuro ou um espaço de luz e sombra, sem adicionar pessoas nem objetos extras."
+        },
+        {
+            "pain": "É difícil iluminar o produto para gravar sozinho e não se consegue aquele visual tech sofisticado.",
+            "solve": "A IA simula aproximação de câmera, rotação e luz passando para mostrar os reflexos do material na superfície do aparelho."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie a foto do seu produto eletrônico na caixa de diálogo à direita.",
+        "Veja as imagens do produto em vários ângulos geradas no canvas e confira se os detalhes da aparência correspondem ao original.",
+        "Quando estiver satisfeito, avise o assistente para continuar; se não estiver, envie uma mensagem pedindo que ele ajuste as imagens.",
+        "Pré-visualize o clipe do vídeo publicitário gerado, organize a ordem na linha do tempo de vídeo e exporte o vídeo final."
+    ],
+    "faq": [
+        {
+            "q": "Como criar um vídeo publicitário de produto com visual tech usando IA?",
+            "a": "Envie uma foto nítida do produto eletrônico, confira primeiro as imagens geradas em vários ângulos e, após confirmar que está tudo certo, o sistema gera um vídeo de apresentação com luzes e sombras tech. O card do vídeo pronto pode ser baixado diretamente ou organizado na linha do tempo de vídeo do canvas e exportado como vídeo final."
+        },
+        {
+            "q": "Como evitar que a aparência do produto e os botões se deformem quando a IA cria o vídeo?",
+            "a": "O essencial é conferir as imagens em vários ângulos antes de gerar o vídeo: o sistema primeiro cria uma imagem em fundo branco e três vistas para você verificar os detalhes, e só gera o vídeo depois que a aparência estiver fiel ao original. Se notar diferenças em botões ou detalhes, peça ao assistente para ajustar apenas essa imagem; depois de confirmar que está satisfeito, gere o card de vídeo para minimizar deformações."
+        },
+        {
+            "q": "É possível incluir modelos humanos ou cenários de ambientes reais no vídeo?",
+            "a": "Não. Esta habilidade faz apenas a apresentação do produto, sem qualquer modelo humano, objeto cotidiano ou cenário de ambiente real na cena. O fundo do vídeo usa sempre um espaço abstrato de luz e sombra tech; se precisar de pessoas em cena, use outras habilidades do canvas específicas para gerar cenários."
+        },
+        {
+            "q": "Se eu não gostar das imagens ou do vídeo gerados, posso modificá-los?",
+            "a": "Sim. No canvas, você pode enviar mensagens a qualquer momento para o assistente modificar e gerar novamente. Se houver diferenças nas imagens em vários ângulos, basta dizer ao assistente qual ângulo quer ajustar, sem refazer tudo. Se não gostar do card de vídeo pronto, também pode informar diretamente ao assistente o que quer mudar para que ele gere novamente o clipe."
+        }
+    ],
+    "keywords": [
+        "criação de vídeo publicitário de produto",
+        "IA para fazer vídeo de produto",
+        "geração de vídeo de eletrônicos",
+        "vídeo só com o produto",
+        "IA para anúncio de eletrônicos",
+        "criação de vídeo com visual tech"
+    ]
+}

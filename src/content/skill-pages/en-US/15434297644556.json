@@ -1,0 +1,66 @@
+{
+    "title": "Turn Ordinary Clothing Photos Into Magazine Fashion Shots",
+    "metaDescription": "For clothing shops and designers: upload or describe a garment; AI keeps cut and fabric, adds a supermodel and outdoor scene, creates magazine-style images.",
+    "oneLiner": "Upload a clothing photo and AI keeps the style, swaps in a supermodel on location, and creates magazine-worthy shots for apparel sellers.",
+    "intro": [
+        "This is a commercial photography tool for clothing store owners and fashion creators: upload an ordinary flat-lay or hanging clothing photo, swap in a supermodel and a real outdoor location on the canvas, and create magazine-style fashion commercial shots.",
+        "You only need one clear clothing photo—flat lay or hanging shot both work. If you don’t have a photo, just describe the color, fabric, and style of the garment in the chat box.",
+        "AI will preserve the garment’s neckline, cut, and fabric as much as possible, swap in a cool, aloof supermodel, pair it with real settings such as a seaside estate or city street, and generate downloadable commercial photography image cards on the canvas."
+    ],
+    "example": {
+        "input": "Upload a hanging photo of an off-white wool coat and choose a Paris street scene with a 4:3 aspect ratio.",
+        "output": "The canvas generates a commercial photography image card: a cool, aloof supermodel wearing the coat stands in front of a vintage café, with the neckline cut and wool texture preserved, plus film grain and natural lighting."
+    },
+    "scenarios": [
+        "A clothing online store is launching new items and only has hanging shots; they want a set of high-end model display images.",
+        "An independent designer is preparing a new product lookbook or social media cover and wants magazine-style visuals.",
+        "They don’t want to spend a lot hiring models for outdoor shoots and want to pair the same garment with different outdoor scenes.",
+        "They only have a style idea or simple text and want to preview how it looks on a model first."
+    ],
+    "problems": [
+        {
+            "pain": "Studio shoots cost a lot, and the model poses look stiff and lack a high-end feel.",
+            "solve": "AI pairs the garment with real outdoor settings such as the beach or a city street, combining candid angles and a cool, aloof supermodel to create magazine-style shots."
+        },
+        {
+            "pain": "Worried that AI image generation will change the garment’s original color, neckline, and cut details.",
+            "solve": "Before generating, it extracts the garment’s structure and fabric features and preserves them as much as possible, changing only the model and background to reduce distortion."
+        },
+        {
+            "pain": "They don’t know how to write image prompts, and the people in the results just stand there like tourists taking a photo.",
+            "solve": "It has built-in photography composition and vintage film lighting, so the person blends naturally into the environment instead of standing stiffly in the center."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use This Skill,” then upload a clothing image or describe the style in the chat box.",
+        "Review the garment features, recommended scenes, and model styling options organized by AI.",
+        "Fill out the confirmation form and choose the number of images, aspect ratio, and scene you want.",
+        "Review the commercial fashion shot cards generated on the canvas and download the ones you like."
+    ],
+    "faq": [
+        {
+            "q": "How do I generate model commercial photos from my own clothing images?",
+            "a": "Upload clothing photos directly in the chat box, confirm the detail plan and scene form, and then generate model commercial photography images on the canvas. The process preserves the garment’s original cut and fabric as much as possible and automatically swaps in a cool, aloof supermodel and real outdoor settings. Download the cards you like, and if you’re not satisfied, you can modify and regenerate at any time."
+        },
+        {
+            "q": "Will AI commercial photos distort the clothing details?",
+            "a": "It won’t distort them at will. Before generating, the system extracts the garment’s cut and fabric features and preserves them as much as possible, replacing only the model and background. This helps retain the garment’s original look and avoid changes to key tailoring and patterns. If some local details don’t meet expectations, you can adjust the requirements and regenerate that image."
+        },
+        {
+            "q": "Can I use it if I don’t have a clothing photo and only have an idea?",
+            "a": "Yes. Just describe the garment category, color, fabric, and style in the chat box, and the platform can generate commercial fashion shots based on the description. The system will match your idea with suitable real outdoor settings and a cool, aloof supermodel and arrange image cards on the canvas. After generation, you can download the images directly, and if you’re not satisfied, you can edit the text description and regenerate."
+        },
+        {
+            "q": "Can this skill create ordinary white-background product images?",
+            "a": "No, this skill only creates avant-garde magazine-style outdoor fashion editorials and does not generate ordinary e-commerce display images or white-background studio shots. Its specialty is pairing clothing with a cool, aloof supermodel and placing them in real settings such as seaside estates or Paris streets for visual contrast. If you need pure white-background flat lays for e-commerce display, use standard photo editing tools."
+        }
+    ],
+    "keywords": [
+        "AI fashion product photography",
+        "swap model in clothing photo",
+        "fashion editorial generator",
+        "apparel product photo background",
+        "AI model try-on",
+        "new clothing launch images"
+    ]
+}

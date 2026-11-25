@@ -1,0 +1,67 @@
+{
+    "title": "Unifica color, luz y cámara en tus vídeos con IA",
+    "metaDescription": "Para vídeos o microdramas con estilo cambiante: en el lienzo de {brand} defines tres colores, luz y cámara, y obtienes textos listos para generar imágenes.",
+    "oneLiner": "Con una historia o una imagen de referencia, genera en el lienzo tarjetas de texto con un estilo uniforme para principiantes.",
+    "intro": [
+        "Es una herramienta que ayuda a dar coherencia visual a tus vídeos. Mucha gente, al crear vídeos, obtiene imágenes con estilos muy distintos entre sí. Esta herramienta fija reglas de antemano para que el estilo visual sea lo más uniforme posible y parezca parte de la misma obra.",
+        "No necesitas saber fotografía profesional. Basta con escribir tu idea de historia y enviarla a la IA, o subir una imagen que te guste e indicar qué ambiente quieres.",
+        "La IA genera tarjetas de texto en el lienzo con los tres colores principales de toda la pieza, la dirección de la luz y el movimiento de cámara, además de textos descriptivos que puedes usar directamente para generar imágenes."
+    ],
+    "example": {
+        "input": "Estoy haciendo una miniserie de suspense; el protagonista descubre un secreto en un piso de alquiler con poca luz. Quiero una sensación opresiva, fría y oscura, pero no sé cómo definir los colores y la luz.",
+        "output": "En el lienzo se generará una tarjeta de texto: define tres colores principales —azul frío, gris oscuro y amarillo cálido—, establece una única fuente de luz lateral y sugiere un acercamiento lento de cámara, además del texto descriptivo concreto para la imagen."
+    },
+    "scenarios": [
+        "Acabas de escribir la historia de un vídeo o una miniserie y quieres definir el color y la iluminación de toda la pieza antes de crear las imágenes.",
+        "Las imágenes que generas tienen estilos muy distintos: una parece una foto y otra una ilustración, y necesitas unificar el estilo visual.",
+        "Tienes una imagen de referencia que te gusta y quieres extraer sus colores y su iluminación para reutilizarlos.",
+        "Tienes en mente la atmósfera de una escena, pero no sabes cómo describirla y lo que escribes no logra el aire cinematográfico que buscas."
+    ],
+    "problems": [
+        {
+            "pain": "Las imágenes generadas no encajan entre sí: unas parecen cómic y otras, imagen real.",
+            "solve": "En el lienzo se establecen reglas comunes de color, material y composición para que tengas una referencia al generar cada imagen."
+        },
+        {
+            "pain": "La imagen se ve gris y plana, el personaje se confunde con el fondo y falta la textura cinematográfica.",
+            "solve": "Te ayuda a definir una dirección clara para la fuente de luz principal y un contraste cálido-frío y de luces y sombras para que el personaje destaque de forma natural del fondo."
+        },
+        {
+            "pain": "Tienes clara la atmósfera de la toma, pero no sabes con qué palabras describirla y el resultado no transmite lo que buscas.",
+            "solve": "Traduce sensaciones profesionales de luz y cámara a descripciones sencillas que puedes copiar directamente para generar imágenes."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo del proyecto.",
+        "Envía tu idea de historia o sube una imagen de referencia del estilo que te guste.",
+        "Revisa la tarjeta de texto generada en el lienzo y confirma los colores principales, la dirección de la luz y la sugerencia de movimiento de cámara.",
+        "Ajusta el texto de la tarjeta y modifica los colores o detalles que no te convenzan.",
+        "Copia o descarga el texto de la tarjeta y úsalo en las siguientes generaciones de imágenes."
+    ],
+    "faq": [
+        {
+            "q": "¿Qué hago si el estilo de las imágenes cambia entre una parte y otra al crear un vídeo con IA?",
+            "a": "Define antes de empezar los tres colores principales y la dirección de la luz de toda la pieza, e incluye la misma indicación cada vez que generes una imagen para reducir al máximo los cambios de estilo. La IA reúne estas reglas en una tarjeta de texto unificada dentro del lienzo. Puedes copiar directamente el texto de la tarjeta para generar imágenes y ajustar los detalles a mano cuando quieras."
+        },
+        {
+            "q": "¿Cómo consigo que las imágenes creadas con IA tengan un aire más cinematográfico?",
+            "a": "Define una dirección clara para la fuente de luz principal y un contraste cálido-frío y de luces y sombras, y evita que toda la imagen esté iluminada de forma uniforme. En el lienzo, puedes pedir a la IA que planifique el ángulo de la luz principal y la combinación de tonos cálidos y fríos. Si incluyes esas indicaciones concretas de luz en el texto descriptivo, el personaje destacará con más naturalidad del fondo."
+        },
+        {
+            "q": "¿Cómo se escribe el texto que describe el movimiento de cámara?",
+            "a": "Indica con claridad desde dónde y hasta dónde se mueve la cámara, si se acerca o se desplaza lateralmente y cómo cambia su posición respecto al personaje; evita limitarte a términos fotográficos vacíos. La IA te propondrá un texto de movimiento según la emoción de la escena. Puedes copiarlo directamente desde la tarjeta del lienzo o ajustarlo según tus necesidades."
+        },
+        {
+            "q": "Si tengo una imagen de referencia que me gusta, ¿cómo extraigo su estilo para reutilizarlo?",
+            "a": "Basta con enviar la imagen de referencia al cuadro de diálogo situado a la derecha del lienzo. La IA analizará la imagen, extraerá sus tres colores principales, el ángulo de la luz y la textura visual, y generará una tarjeta de texto. Puedes usar ese texto directamente al generar imágenes posteriores o modificarlo a mano en la tarjeta cuando quieras."
+        }
+    ],
+    "keywords": [
+        "unificar estilo visual vídeos IA",
+        "estilo visual inconsistente vídeos IA",
+        "aspecto cinematográfico vídeos IA",
+        "iluminación vídeos IA",
+        "movimiento de cámara prompt vídeo",
+        "extraer paleta de imagen de referencia"
+    ]
+}

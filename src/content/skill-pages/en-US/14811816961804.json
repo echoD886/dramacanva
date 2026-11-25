@@ -1,0 +1,67 @@
+{
+    "title": "AI Designer Toy ASMR Unboxing: Overhead Hand Clips",
+    "metaDescription": "For faceless unboxing videos: enter toy details in {brand}, confirm the description, and generate a 10-second overhead clip with sound details.",
+    "oneLiner": "Enter toy details and generate a 10-second faceless unboxing clip on the canvas.",
+    "intro": [
+        "This is a creation tool built for short unboxing videos. It mainly generates hand close-ups and top-down shots, making it ideal for people who don't want to show their face and want to show off toy details.",
+        "You provide the toy's name or visual characteristics, and you can send photos if you have them. It also helps match a suitable desktop background and sleeve color.",
+        "When it's done, you'll get a 10-second vertical video on the canvas. It includes slow, neat unboxing movements, sound details like sticker peeling, and a toy showcase at the end."
+    ],
+    "example": {
+        "input": "I want to make an unboxing for a space cat blind box. The outer packaging is a silver reflective box, and I want a natural wood-style tabletop.",
+        "output": "The canvas will generate a set of color notes and visual descriptions. After you confirm, it will create a 10-second vertical video card featuring a top-down unboxing, sticker peeling, and a freeze-frame showcase of the cat."
+    },
+    "scenarios": [
+        "You just got or just designed a new designer toy and want to shoot a short unboxing video to show the details.",
+        "You don't want to appear on camera and only want to show a clean, tidy tabletop and hand movements.",
+        "You're not sure how to break the unboxing process into shots and want AI to help arrange the action sequence.",
+        "You want the unboxing footage to look better and need a matching tabletop background and clothing colors."
+    ],
+    "problems": [
+        {
+            "pain": "I don't want to show my face in an unboxing video, but it's hard to capture pure hand close-ups with just a phone.",
+            "solve": "Use a straight top-down and hand close-up angle, shooting only the unboxing on the tabletop to avoid faces."
+        },
+        {
+            "pain": "Unboxing actions can easily look messy, making the video feel choppy and lacking rhythm.",
+            "solve": "Break the 10-second unboxing process into three clear stages, slow down the action rhythm, and end with a freeze-frame showcase."
+        },
+        {
+            "pain": "I don't know how to describe details like paper-tearing and tapping sounds during unboxing.",
+            "solve": "Generate sound descriptions for actions such as peeling stickers and lightly tapping the box, making the unboxing details richer."
+        }
+    ],
+    "steps": [
+        "In the Skills library, click “Use this skill” to open the {brand} canvas.",
+        "Send the toy name or appearance photo and tell the assistant the tabletop style you want.",
+        "Review the color scheme and segmented descriptions prepared by the assistant, then ask it to start generating once everything looks right.",
+        "Preview the video card on the canvas; if you're not satisfied, edit the description and regenerate.",
+        "Download a video you like, or arrange the clips on the canvas video timeline and export them in order."
+    ],
+    "faq": [
+        {
+            "q": "Will the generated unboxing video have sound?",
+            "a": "Not necessarily—it depends on whether the video model you choose supports audio generation. If it does, the video will include foley such as sticker peeling and light tapping on the box; if not, the clip will be silent, and you can add audio on the canvas afterward."
+        },
+        {
+            "q": "Will the generated unboxing video show a face?",
+            "a": "No face will appear; the skill uses a straight top-down or hand close-up angle. The frame focuses only on the tabletop unboxing movements and toy details, avoiding faces as much as possible. If the frame occasionally drifts, edit the description and regenerate."
+        },
+        {
+            "q": "What should I do if the generated video doesn't match what I expected?",
+            "a": "You can edit the visual description directly on the canvas and regenerate. You can also tell the assistant in the chat what you want to change, such as switching to a different tabletop background style or adding a light box-tapping action."
+        },
+        {
+            "q": "How long is the unboxing video?",
+            "a": "Each generated video clip is 10 seconds long. The video is divided into three clear stages over time, with a freeze-frame showcase at the end, making it suitable for publishing directly as a short video or stitching together on the timeline."
+        }
+    ],
+    "keywords": [
+        "AI designer toy unboxing video",
+        "how to make ASMR unboxing videos",
+        "faceless unboxing video creation",
+        "designer toy unboxing video generator",
+        "hands-only unboxing video",
+        "AI toy unboxing tutorial"
+    ]
+}

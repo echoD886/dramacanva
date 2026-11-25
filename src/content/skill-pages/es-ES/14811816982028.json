@@ -1,0 +1,66 @@
+{
+    "title": "AI: genera series de imágenes con el mismo estilo",
+    "metaDescription": "Para creadores o vendedores online: sube una imagen o describe tu idea y la IA creará una serie de estilo uniforme con acciones o escenas distintas.",
+    "oneLiner": "Sube una imagen o escribe tus requisitos y crea en el lienzo una serie de imágenes con estilo uniforme.",
+    "intro": [
+        "Esta es una herramienta que te ayuda a crear conjuntos de imágenes con el mismo estilo. Primero analiza y fija el estilo visual y la paleta de tu imagen de referencia, para que cada imagen resultante parezca parte de la misma serie.",
+        "Solo necesitas preparar una imagen de referencia que te guste o describir claramente la idea visual. Indícale qué estilo quieres conservar y qué cambios de acción o escena deseas.",
+        "Tras confirmar, la IA generará varias tarjetas de imagen en el lienzo. Puedes elegir las que te gusten y descargarlas por separado; si alguna no te convence, también puedes modificar esa imagen y volver a generarla."
+    ],
+    "example": {
+        "input": "Sube una ilustración de un gatito con bufanda roja y escribe: «Haz 4 ilustraciones del gatito con el mismo estilo, en las que esté leyendo, bebiendo chocolate caliente, haciendo un muñeco de nieve y esquiando».",
+        "output": "En el lienzo se generan 4 tarjetas, cada una con el mismo estilo y paleta del gatito, realizando acciones distintas como leer o beber chocolate caliente, y se pueden descargar por separado."
+    },
+    "scenarios": [
+        "Crear un conjunto de ilustraciones de un mismo personaje de anime o álbum ilustrado con distintas expresiones, acciones y escenas cotidianas.",
+        "Subir una imagen principal de producto y ampliarla a un conjunto de imágenes de comercio electrónico con la misma paleta y textura, pero con ángulos de colocación diferentes.",
+        "A partir de un estilo visual que te guste, crear una serie de ilustraciones de escenas consecutivas con estilo uniforme para un álbum de cuentos.",
+        "Diseñar una serie de carteles promocionales para una festividad o evento con el mismo estilo visual principal y fondos diferenciados."
+    ],
+    "problems": [
+        {
+            "pain": "Cada vez que genero una imagen cambia el estilo, y al juntar varias parecen de autores distintos.",
+            "solve": "Primero se extraen y fijan la iluminación y los colores de tu imagen de referencia, y al generar nuevas imágenes se intenta mantener el mismo estilo."
+        },
+        {
+            "pain": "Quieres cambiar una acción o el fondo, pero al modificar la descripción cambia por completo el estilo artístico de toda la imagen.",
+            "solve": "Se tratan por separado la descripción del estilo y la de la acción, de modo que solo se ajustan la acción o la escena sin cambiar el estilo principal."
+        },
+        {
+            "pain": "Las series generadas solo cambian de color y apenas varían las acciones y los puntos de vista.",
+            "solve": "Antes de generar, se planifican el punto de vista y la acción de cada imagen para que todas mantengan un estilo uniforme y presenten cambios claros."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y escribe tu idea o sube una imagen de referencia en el cuadro de diálogo de la derecha.",
+        "Confirma el estilo visual que ha organizado la IA y elige las acciones de los personajes o las escenas que quieres cambiar.",
+        "Revisa el plan de generación de cada imagen y, cuando lo confirmes, indica al asistente que empiece a generar las imágenes.",
+        "Descarga las imágenes que te gusten del lienzo; las que no te convenzan se pueden modificar y volver a generar por separado."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo puedo hacer con IA un conjunto de imágenes con el mismo estilo?",
+            "a": "Sube una imagen de referencia o introduce los requisitos visuales y deja que la habilidad fije primero las reglas de iluminación y color; después podrá generar por separado distintas acciones o fondos. Al generar, el sistema intentará mantener las mismas características de estilo para que puedas lograr cambios visuales claros sin perder la coherencia del conjunto."
+        },
+        {
+            "q": "Si solo doy una imagen de referencia, ¿puedo crear imágenes con ese mismo estilo?",
+            "a": "Sí. Al subir una imagen de referencia, el sistema extraerá automáticamente sus características de color e iluminación e intentará mantener ese estilo al generar la serie. Solo tienes que indicar en el cuadro de diálogo qué acciones, escenas o temas quieres cambiar para obtener un conjunto de imágenes coherente."
+        },
+        {
+            "q": "¿Qué hago si no me gusta una de las imágenes generadas del conjunto?",
+            "a": "No hace falta rehacer todo el conjunto: puedes modificar la descripción de esa imagen directamente en el lienzo y volver a generarla; las imágenes que te gusten se conservarán intactas. Cada tarjeta de imagen del lienzo es independiente, así que reintentar una sola no afecta al resto del conjunto."
+        },
+        {
+            "q": "¿Puedes solo escribir la descripción de las imágenes sin generarlas realmente?",
+            "a": "Sí. Si solo necesitas los prompts (las indicaciones de dibujo para la IA), basta con decir en la conversación «solo quiero los prompts». La habilidad organizará para ti las palabras de bloqueo de estilo y las descripciones detalladas de cada imagen, y solo mostrará el plan de texto en el lienzo para que lo copies, sin usar la herramienta de generación de imágenes."
+        }
+    ],
+    "keywords": [
+        "IA series de imágenes con el mismo estilo",
+        "generar series de imágenes con IA",
+        "ilustraciones mismo estilo a partir de referencia",
+        "IA mantener estilo uniforme en imágenes",
+        "generar imágenes mismo estilo",
+        "IA personaje varias acciones"
+    ]
+}

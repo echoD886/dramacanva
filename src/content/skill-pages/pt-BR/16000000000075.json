@@ -1,0 +1,66 @@
+{
+    "title": "Reescrever diálogos: fala artificial para fala natural",
+    "metaDescription": "Para criadores de séries curtas, vídeos e histórias: revise falas artificiais e gere no canvas diálogos reescritos, lista de problemas e exemplos de fala.",
+    "oneLiner": "Para quem escreve séries curtas: envie o rascunho das falas e receba no canvas diálogos vivos e naturais.",
+    "intro": [
+        "Este é um assistente de texto para ajudar a lapidar falas. Quando o diálogo dos seus personagens está seco demais e soa como leitura de manual, ele ajuda você a entender o que o personagem realmente quer fazer, deixando as falas mais naturais.",
+        "Basta preparar um rascunho de diálogo já escrito e explicar brevemente o contexto da história, que tipo de personalidade têm as pessoas que falam e o que elas querem alcançar naquele momento.",
+        "Depois, o canvas mostrará as novas falas reescritas, indicará o subtexto (o que realmente se quer dizer por trás das palavras) e trará uma análise dos problemas e exemplos de fala de cada personagem para você escolher."
+    ],
+    "example": {
+        "input": "Envie um rascunho de diálogo: a esposa diz “Você trabalha até tarde todos os dias e não liga para a família; a geladeira está vazia e você nem se importa”, e o marido diz “Estou ganhando dinheiro para sustentar a casa, por que você não me entende?”, querendo deixar mais natural.",
+        "output": "O canvas gera cartões de reescrita: a esposa questiona usando a embalagem de delivery, o marido desvia o olhar e dá a desculpa do trabalho; cada fala indica o pensamento real e vem acompanhada de uma lista de problemas das falas originais e de exemplos de tom por personagem."
+    },
+    "scenarios": [
+        "Ao escrever diálogos, os personagens sempre explicam o contexto e soam como se estivessem lendo um manual.",
+        "No roteiro, vários personagens falam com o mesmo tom; se escondermos os nomes, não dá para saber quem é quem.",
+        "Nas cenas de discussão entre dois personagens, as falas ficam diretas e rígidas demais; você quer transformar o que é dito abertamente em um embate mais sutil.",
+        "Dois personagens conversam por um bom tempo, mas a história não avança; o enredo fica girando em círculos sem progresso."
+    ],
+    "problems": [
+        {
+            "pain": "As falas só explicam causas e consequências, e os personagens soam como se estivessem lendo um manual.",
+            "solve": "Identifica explicações desnecessárias, transforma as falas em diálogos com objetivos e ações concretas dos personagens e gera cartões de reescrita no canvas."
+        },
+        {
+            "pain": "Vários personagens falam com o mesmo tom; escondendo os nomes, não dá para saber quem é quem.",
+            "solve": "Com base na personalidade de cada personagem, extrai hábitos de fala e preferências de vocabulário, gera no canvas exemplos de diálogo exclusivos para distinguir as diferentes figuras."
+        },
+        {
+            "pain": "Depois de escrever um diálogo, você acha tudo sem graça, mas não sabe onde está o problema.",
+            "solve": "Aponta frase por frase os pontos artificiais ou fora de personagem, indica a intenção real por trás de cada fala e oferece uma lista de referência para revisão."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para entrar no canvas de criação.",
+        "Envie seu rascunho de diálogo e explique brevemente a personalidade dos personagens e o contexto da história.",
+        "Veja no canvas os cartões de diálogo reescritos, a lista de problemas e os exemplos de hábitos de fala.",
+        "Escolha as frases que gostou, edite diretamente nos cartões e depois copie ou baixe o resultado."
+    ],
+    "faq": [
+        {
+            "q": "Como fazer as falas dos personagens não soarem como leitura de manual?",
+            "a": "O ponto principal é transformar a explicação do contexto em ação imediata do personagem, fazendo com que ele fale com um objetivo claro. Não deixe o personagem expor longos blocos de contexto; esconda a informação na discussão ou na sondagem entre os dois lados. Envie as falas no canvas do {brand} e o assistente de IA vai ajudar a reescrevê-las em cartões de diálogo com ações e pensamentos internos."
+        },
+        {
+            "q": "Se vários personagens do roteiro falam com o mesmo tom, como diferenciá-los?",
+            "a": "O foco é extrair, a partir da identidade e da personalidade de cada personagem, estruturas de frase e tons diferentes. Evite que todos falem em linguagem escrita padrão; os hábitos de fala devem corresponder ao contexto de cada um. No canvas do {brand}, o assistente de IA gera exemplos de fala exclusivos para cada personagem, para você comparar e escolher."
+        },
+        {
+            "q": "Como revisar falas rígidas demais ao escrever uma cena de discussão entre dois personagens?",
+            "a": "Você pode fazer os personagens extravasarem a insatisfação por meio de outro assunto, evitando que os dois digam tudo de forma direta e óbvia. Por exemplo, um deles critica uma pequena coisa na superfície, mas, no fundo, está reagindo a outra questão; assim o diálogo ganha mais sabor. No canvas do {brand}, o assistente de IA ajuda a marcar o que realmente está por trás das falas superficiais e oferece opções de reescrita mais sutis."
+        },
+        {
+            "q": "Por que dois personagens conversam por muito tempo e a história parece não avançar?",
+            "a": "Isso acontece porque as falas não têm conflito nem objetivo reais, e os personagens apenas repetem emoções no mesmo lugar. Cada fala deveria mudar a relação entre os dois ou quebrar uma expectativa, empurrando a ação para frente. No canvas do {brand}, o assistente de IA organiza uma lista dos pontos de travamento do diálogo, identifica as frases que não fazem a história avançar e sugere como seguir adiante."
+        }
+    ],
+    "keywords": [
+        "reescrita de falas",
+        "revisão de diálogos de roteiro",
+        "editar falas de séries curtas",
+        "como deixar falas mais naturais",
+        "como escrever diálogos de roteiro",
+        "como diferenciar as vozes dos personagens"
+    ]
+}

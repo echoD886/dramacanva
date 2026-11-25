@@ -1,0 +1,66 @@
+{
+    "title": "Monte storyboard em 5 partes com personagens e estilo fixos",
+    "metaDescription": "Para iniciantes em curtas: envie a ideia e a IA gera na tela de criação a estrutura em 5 etapas, a ficha de personagens e o storyboard cena a cena.",
+    "oneLiner": "Envie uma ideia de história e crie na tela de criação um enredo em cinco partes e uma lista cena a cena, ideal para iniciantes em curtas.",
+    "intro": [
+        "Esta é uma ferramenta para organizar a trama de um curta. Ela divide sua história em cinco etapas de progressão narrativa e monta um storyboard (dividindo o vídeo em planos e descrevendo o que cada plano mostra).",
+        "Você não precisa entender de termos técnicos complicados. Basta enviar ao assistente de IA, na caixa de diálogo à direita da tela de criação, as ideias da sua história em linguagem simples, a duração aproximada ou os personagens que deseja filmar.",
+        "Ao terminar, aparecerão na tela de criação cartões das cinco etapas da história, um cartão de lista que fixa a aparência e a paleta dos personagens, e cartões de storyboard com os planos e as imagens descritos. Você pode visualizar, editar ou copiar para usar."
+    ],
+    "example": {
+        "input": "Quero fazer um curta de ficção científica de 2 minutos: um astronauta encontra uma pequena flor brilhante em um planeta desolado e quer levá-la para a nave, mas isso provoca tremores no solo.",
+        "output": "Na tela de criação serão gerados uma tabela da estrutura da história em cinco etapas, uma tabela que fixa a aparência do astronauta e a paleta espacial, e cartões de storyboard descrevendo em ordem a ação e a imagem de cada plano, para você visualizar e copiar."
+    },
+    "scenarios": [
+        "Quando você tem uma boa ideia na cabeça, mas não sabe como organizar a trama em uma história com altos e baixos.",
+        "Quando quer fazer um curta de 1 a 3 minutos e teme que o tempo seja curto demais para contar uma trama completa.",
+        "Quando precisa criar vários planos em sequência e teme que a aparência ou a roupa do personagem mude nos planos seguintes.",
+        "Quando teme que a luz e a paleta dos planos não sejam consistentes e que, ao montar tudo, o estilo pareça fragmentado."
+    ],
+    "problems": [
+        {
+            "pain": "O início do vídeo não prende o espectador e o restante da trama é morno, como uma lista de acontecimentos.",
+            "solve": "Divida a história em cinco etapas que avançam gradualmente, com foco em apresentar no início um suspense atraente para que a trama tenha altos e baixos."
+        },
+        {
+            "pain": "Ao chegar aos planos finais, o rosto ou a roupa do protagonista costumam mudar.",
+            "solve": "Antes de escrever o storyboard, organize uma ficha de características do personagem e leve a aparência e as roupas fixas para cada plano, reduzindo ao máximo as variações."
+        },
+        {
+            "pain": "A luz e a paleta mudam de forma abrupta entre os planos, e a montagem fica estranha.",
+            "solve": "Fixe antes, na tela de criação, a paleta de cores e a base de iluminação da imagem para manter a atmosfera de cada plano coerente e consistente."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e digite sua ideia de história na caixa de diálogo.",
+        "Confira o esboço da trama em cinco etapas gerado na tela de criação e valide a direção da história.",
+        "Revise a lista de aparência dos personagens e de paleta visual e peça à IA para gerar o storyboard plano a plano.",
+        "Copie ou baixe o resultado e salve o storyboard e as descrições dos planos já organizados."
+    ],
+    "faq": [
+        {
+            "q": "Como transformar a ideia de história que está na minha cabeça em um storyboard de curta?",
+            "a": "Você pode primeiro organizar a história em cinco etapas de progressão narrativa e depois dividi-la em descrições visuais de cada plano. Na tela de criação do {brand}, envie a ideia da história ao assistente de IA pelo lado direito; ele vai gerar na tela, passo a passo, o esboço da história, a configuração dos personagens e os cartões de storyboard plano a plano. Depois de confirmar que está tudo certo, basta copiar ou baixar o conteúdo dos cartões."
+        },
+        {
+            "q": "Ao gerar vários planos, como evitar que a aparência do personagem mude?",
+            "a": "Antes de escrever os planos específicos, você pode fixar uma lista com a aparência, o penteado e as roupas do personagem. No {brand}, o assistente de IA primeiro organiza na tela de criação uma ficha de características do personagem e inclui os mesmos termos de característica na descrição de cada plano. Assim, é possível manter ao máximo os traços do personagem uniformes e reduzir as mudanças de aparência ao trocar de plano."
+        },
+        {
+            "q": "Como fazer o início de um vídeo curto prender a atenção e fazer as pessoas continuarem assistindo?",
+            "a": "O essencial é apresentar nos primeiros segundos um conflito ou fenômeno fora do comum que desperte a curiosidade do público. Ao organizar a trama em cinco etapas, esta ferramenta prioriza colocar o suspense ou conflito mais forte na primeira etapa, no início. Isso ajuda a capturar rapidamente a atenção do espectador e evita um começo morno, como uma lista de acontecimentos."
+        },
+        {
+            "q": "Como manter a paleta e o estilo visual consistentes entre os planos de um curta?",
+            "a": "É preciso definir de antemão, antes de começar, a paleta de cores, o tipo de iluminação e a textura visual de todo o curta. No {brand}, o assistente de IA gera especialmente um cartão de fixação de atmosfera e inclui os requisitos de estilo visual uniforme na descrição de cada plano. Assim, ao juntar os planos, as cores e a luz parecerão naturais e harmoniosas."
+        }
+    ],
+    "keywords": [
+        "storyboard para curta",
+        "transformar história em storyboard",
+        "roteiro de curta-metragem",
+        "roteiro de microdrama",
+        "storyboard com IA",
+        "estrutura em cinco etapas para curta"
+    ]
+}

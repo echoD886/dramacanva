@@ -1,0 +1,23 @@
+const messages = {
+    "assetTray.toggle": "收起素材空间",
+    "assetTray.open": "打开素材空间，共 {count} 项",
+    "assetTray.resize": "从顶部调整素材托盘高度",
+    "assetTray.dragHeight": "拖动调整高度",
+    "assetTray.title": "素材空间",
+    "assetTray.subtitle": "拖入画布，或定位已经使用的图片",
+    "assetTray.library": "素材库",
+    "assetTray.currentCanvas": "当前画布",
+    "assetTray.searchPlaceholder": "搜索图片素材...",
+    "assetTray.search": "搜索图片素材",
+    "assetTray.clearSearch": "清空搜索",
+    "assetTray.noMatchLibrary": "没有匹配的图片素材",
+    "assetTray.noMatchCanvas": "当前画布没有匹配图片",
+    "assetTray.libraryHint": "点击插入 · 拖拽定位",
+    "assetTray.canvasHint": "点击回到节点",
+    "assetTray.itemCount": "{count} 项",
+    "assetTray.selected": "当前已选择",
+    "assetTray.dragToInsert": "拖入画布或点击插入",
+    "assetTray.clickToLocate": "点击定位到画布",
+    "assetTray.imageNode": "图片节点",
+} as const;
+export default messages;

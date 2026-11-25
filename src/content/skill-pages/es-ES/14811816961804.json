@@ -1,0 +1,67 @@
+{
+    "title": "ASMR de unboxing de juguetes de diseño con IA: manos y clips",
+    "metaDescription": "Para creadores que quieren unboxings sin mostrar la cara. En {brand}, describe el juguete y genera un clip cenital de 10 s abriendo la caja con sonido.",
+    "oneLiner": "Introduce la información del juguete y genera en el lienzo un clip de 10 segundos abriendo la caja sin mostrar la cara.",
+    "intro": [
+        "Esta es una herramienta de creación pensada para hacer vídeos cortos de unboxing. Genera principalmente primeros planos de manos y tomas cenitales, ideal para quien no quiere mostrar la cara y quiere enseñar los detalles del juguete.",
+        "Tú aportas el nombre del juguete o sus características visuales; si tienes imágenes, también puedes enviarlas. Además, te ayuda a combinar un fondo de mesa y un color de manga adecuados.",
+        "Cuando termines, tendrás en el lienzo un vídeo vertical de 10 segundos. Incluye movimientos de apertura de caja lentos y ordenados, detalles sonoros como despegar pegatinas y, al final, una presentación del juguete."
+    ],
+    "example": {
+        "input": "Quiero hacer el unboxing de una caja sorpresa de gatos espaciales; la caja exterior es plateada y reflectante y quiero un fondo de mesa estilo madera natural.",
+        "output": "En el lienzo se generará una propuesta de paleta de colores y una descripción visual. Al confirmarla, se creará una tarjeta de vídeo vertical de 10 segundos que incluye la toma cenital del unboxing, el despegado de pegatinas y una presentación fija del gato."
+    },
+    "scenarios": [
+        "Tienes un juguete de diseño recién recibido o recién diseñado y quieres grabar un vídeo corto de unboxing para mostrar sus detalles.",
+        "No quieres salir en cámara y prefieres mostrar solo una mesa limpia y ordenada y la manipulación con las manos.",
+        "No sabes cómo dividir el proceso de abrir la caja en planos y quieres que la IA te ayude a organizar el orden de las acciones.",
+        "Quieres que las imágenes del unboxing sean más agradables de ver y necesitas un fondo de mesa y un color de ropa que combinen con la misma gama cromática."
+    ],
+    "problems": [
+        {
+            "pain": "Hacer vídeos de unboxing sin mostrar la cara, pero cuesta mucho grabar solo primeros planos de manos con el móvil.",
+            "solve": "Se usan tomas cenitales y primeros planos de manos; la cámara solo enfoca la mesa donde se abre la caja para evitar que salga la cara."
+        },
+        {
+            "pain": "Los movimientos al abrir la caja suelen quedar desordenados y el vídeo parece fragmentado y sin ritmo.",
+            "solve": "El proceso de unboxing de 10 segundos se divide en tres fases claras, se ralentiza el ritmo de los movimientos y se reserva una presentación fija para el final."
+        },
+        {
+            "pain": "No sabes cómo describir detalles como el sonido de romper el papel o los golpecitos al abrir la caja.",
+            "solve": "Se generan descripciones de sonido que incluyen acciones como despegar pegatinas o dar golpecitos a la caja de cartón, para que el proceso de unboxing tenga más detalles."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo de {brand}.",
+        "Envía el nombre del juguete o una foto de su aspecto y dile al asistente qué estilo de fondo de mesa quieres.",
+        "Revisa la combinación de colores y la descripción por fases que ha preparado el asistente y, si todo está correcto, pídele que empiece a generar.",
+        "Previsualiza la tarjeta de vídeo en el lienzo; si no te convence, puedes modificar la descripción y volver a generarla.",
+        "Descarga el vídeo que te guste o colócalo en orden en la línea de tiempo de vídeo del lienzo y expórtalo."
+    ],
+    "faq": [
+        {
+            "q": "¿El vídeo de unboxing generado incluye sonido?",
+            "a": "No necesariamente incluye sonido; depende de si el modelo de vídeo que elijas permite generar audio. Si el modelo lo permite, el vídeo tendrá efectos de sonido como despegar pegatinas o dar golpecitos a la caja de cartón; si no, las imágenes no tendrán sonido y podrás añadir audio después en el lienzo."
+        },
+        {
+            "q": "¿Aparecerá una cara en el vídeo de unboxing generado?",
+            "a": "No aparecerá ninguna cara, ya que la habilidad utiliza tomas cenitales o primeros planos de manos. La imagen se centra solo en la mesa donde se abre la caja y en los detalles del juguete, y se evita en la medida de lo posible que salga la cara; si en alguna ocasión se desvía, basta con modificar la descripción y volver a generar."
+        },
+        {
+            "q": "¿Qué hago si la imagen del vídeo generado no es la esperada?",
+            "a": "Puedes modificar directamente la descripción de la imagen en el lienzo y volver a generar. También puedes indicarle al asistente en el chat los cambios que quieres, por ejemplo, cambiar el estilo del fondo de mesa o añadir el gesto de dar golpecitos a la caja."
+        },
+        {
+            "q": "¿Cuánto dura el vídeo de unboxing resultante?",
+            "a": "Cada clip de vídeo generado dura 10 segundos. El vídeo se divide temporalmente en tres fases claras y termina con una presentación fija, por lo que se puede publicar directamente como vídeo corto o unir en la línea de tiempo."
+        }
+    ],
+    "keywords": [
+        "vídeo ASMR de unboxing de juguetes con IA",
+        "cómo hacer un unboxing ASMR",
+        "crear vídeo de unboxing sin mostrar la cara",
+        "generar vídeo de abrir cajas sorpresa",
+        "vídeo de unboxing con primer plano de manos",
+        "tutorial de unboxing de juguetes con IA"
+    ]
+}

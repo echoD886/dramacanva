@@ -1,0 +1,26 @@
+const messages = {
+    "canvasFeedback.loading": "加载视频工具",
+    "canvasFeedback.reading": "读取选中视频",
+    "canvasFeedback.encoding": "正在编码合并成片",
+    "canvasFeedback.merge": "合并成片",
+    "canvasFeedback.agentSaved": "Agent 已写回画布",
+    "canvasFeedback.undoCount": "{summary} · 可撤销最近 {count} 批",
+    "canvasFeedback.close": "关闭",
+    "canvasFeedback.view": "查看本次改动",
+    "canvasFeedback.undo": "撤销本次操作",
+    "canvasFeedback.partialRestore": "部分助手会话素材恢复失败，已使用项目记录继续打开",
+    "canvasFeedback.loadFailed": "读取画布失败，请重试",
+    "canvasFeedback.newCanvasName": "自由画布 {count}",
+    "canvasFeedback.createFailed": "创建画布失败，请稍后重试",
+    "canvasFeedback.createdLocal": "画布已在本地创建，云端同步失败",
+    "canvasFeedback.createdLocalDetail": "画布已在本地创建，云端同步失败：{detail}",
+    "canvasFeedback.deleteFailed": "删除画布失败，请稍后重试",
+    "canvasFeedback.deleteFailedDetail": "删除画布失败：{detail}",
+    "canvasFeedback.cleanupFailed": "项目已删除，但部分本地绘图缓存清理失败",
+    "canvasFeedback.saveFailed": "画布保存失败，请稍后重试",
+    "canvasFeedback.saved": "画布布局和位置已保存",
+    "canvasFeedback.saveSyncFailed": "本地画布布局已保存，云端同步失败：{detail}",
+    "canvasFeedback.unknownError": "未知错误",
+} as const;
+
+export default messages;

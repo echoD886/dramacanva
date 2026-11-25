@@ -1,0 +1,67 @@
+{
+    "title": "Map Out a Full-Season Short Drama Outline and Episode 1 Arc",
+    "metaDescription": "For serial short-drama creators: enter story ideas on the canvas to generate a full-season outline, Episode 1 opening, and per-episode character arc table.",
+    "oneLiner": "Turns scattered ideas into a full-season short drama outline and an Episode 1 story plan.",
+    "intro": [
+        "This is a writing tool that helps you plan a multi-episode story on the {brand} canvas. It connects scattered ideas into a complete long-form story and helps prevent you from getting stuck halfway through or letting the plot drift.",
+        "All you need is the core story idea, protagonist setup, or a few scenes you've already written, and you can send them directly to the AI assistant in the chat panel on the right.",
+        "The AI generates full-season story outline cards, an Episode 1 opening design plan, and a table card that tracks how characters grow across episodes on the canvas, so you can compare and revise them anytime."
+    ],
+    "example": {
+        "input": "I want to write a 20-episode urban workplace short drama about an intern who gets wrongfully accused and then turns things around. The protagonist should be strong-willed, and I don't know how to build up the conflict in the first few episodes.",
+        "output": "Three cards will be generated on the canvas: a full-season outline with the main plot turns, a detailed Episode 1 design with opening conflict, and a character table tracking the protagonist's state of mind in each episode."
+    },
+    "scenarios": [
+        "You've written the first few episodes of a short drama but don't know how the story should develop next, so it's easy to get stuck.",
+        "The Episode 1 opening is flat and doesn't hold viewers, so you need to design an engaging opening conflict.",
+        "There are too many storylines, and as you write, you forget about a subplot or supporting character.",
+        "You're worried the protagonist's behavior later on won't match earlier episodes, with words and actions that don't line up."
+    ],
+    "problems": [
+        {
+            "pain": "The story gets flatter and flatter in the middle, and you don't know what should happen next.",
+            "solve": "Break down the core crises and turning points episode by episode on the canvas to keep the plot moving and reduce mid-story drag."
+        },
+        {
+            "pain": "You don't know how to open Episode 1, and viewers swipe away before they finish.",
+            "solve": "First clarify what the protagonist is trying to achieve, design the core conflict in Episode 1, and end with a hook that makes viewers want more."
+        },
+        {
+            "pain": "The character behaves inconsistently in later episodes, and their personality falls apart.",
+            "solve": "Generate a per-episode character change table listing each character's thoughts and motivations in every episode, so you can check against it anytime."
+        }
+    ],
+    "steps": [
+        "Click \"Use This Skill\" in the Skills library to open the creative canvas.",
+        "Enter your story setup, protagonist background, or plot fragments you've already thought of.",
+        "Review the full-season outline plan and character change table cards generated on the canvas.",
+        "Edit the text on the cards, or tell the assistant in the chat panel which sections you want adjusted.",
+        "Copy or download the results to guide the detailed writing of each subsequent episode."
+    ],
+    "faq": [
+        {
+            "q": "What should I do if I keep getting stuck halfway through writing a multi-episode short drama?",
+            "a": "Before you start writing, lay out the main and subplots for the full season and the turning points for each episode on the canvas to make sure every episode has a core conflict to resolve; this helps prevent getting stuck midway. The AI assistant will generate a full-season outline card with key beats based on your ideas, aiming to keep every episode moving the plot forward. When you write the actual script later, follow the card so the story is less likely to drag or drift in the middle."
+        },
+        {
+            "q": "How can I write Episode 1 of a short drama so that it hooks viewers?",
+            "a": "Episode 1 needs to establish the protagonist's motivation quickly and introduce the core conflict fast, while ending with a hook that makes viewers want to keep watching. The AI assistant will generate an Episode 1 plan that includes the opening conflict and ending hook, clarifying what the protagonist wants to do and what obstacles they face. You can use this design as a reference and start writing the specific plot directly, grabbing viewers in the first few minutes and prompting them to keep watching."
+        },
+        {
+            "q": "How can I avoid the character's personality becoming inconsistent later in the story?",
+            "a": "Use a per-episode character table to record the character's core personality and state-of-mind changes in each episode, and check it while writing to prevent inconsistencies. The AI assistant will generate a character portrayal table based on your setup, clearly listing the protagonist's motivations and emotional ups and downs in each episode. When writing later episodes, check this table on the canvas at any time so the character's words and actions are less likely to contradict earlier episodes."
+        },
+        {
+            "q": "How can I keep the story from getting messy when it has both a main plot and subplots?",
+            "a": "When planning the outline, clearly mark the pacing of the main plot and subplots in each episode, and keep subplots to two or fewer to prevent the story from getting messy. The AI assistant will help clarify the progression points of each storyline in every episode and reduce the risk of subplots being forgotten or dropped later. You can view distribution cards for each storyline directly on the canvas to make sure at least one storyline advances in every episode."
+        }
+    ],
+    "keywords": [
+        "how to write a short drama outline",
+        "short drama writing inspiration",
+        "how to start episode 1 of a short drama",
+        "story outline template",
+        "script character profile sheet",
+        "serial short drama plot design"
+    ]
+}

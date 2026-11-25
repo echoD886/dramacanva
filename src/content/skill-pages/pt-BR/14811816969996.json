@@ -1,0 +1,66 @@
+{
+    "title": "Vídeo de ações de personagem de jogo sem cortes nas bordas",
+    "metaDescription": "Para animar personagens de jogos. Envie uma imagem ou descrição e crie vídeos de ações de 4 a 6 s, como idle e corrida, com ações e efeitos dentro do quadro.",
+    "oneLiner": "Ajuda criadores de jogos a transformar a imagem ou descrição do personagem em um vídeo de ações sem cortes nas bordas, direto na tela",
+    "intro": [
+        "Esta é uma ferramenta específica para criar vídeos de ações de personagens de jogos. Ela mantém o personagem ocupando apenas uma pequena parte do centro do quadro, com bastante espaço ao redor, para que mãos, pés e efeitos de luz não sejam cortados pelas bordas da tela ao golpear ou saltar.",
+        "Você só precisa de uma imagem de personagem pronta ou pode digitar uma descrição da aparência e das ações. Mesmo sem ter uma imagem, a IA primeiro desenha uma imagem de corpo inteiro do personagem na tela para você confirmar.",
+        "Ao final, você recebe na tela um card de vídeo de ação de 4 a 6 segundos com fundo de cor sólida. Você pode baixar o vídeo diretamente ou organizar vários trechos de ação na linha do tempo do vídeo e exportar."
+    ],
+    "example": {
+        "input": "Envie uma imagem de um espadachim de cabelos brancos e escreva: “Crie um movimento de salto duplo: primeiro salte, faça uma breve pausa no ar, salte uma segunda vez para ganhar altura e, por fim, aterrisse suavemente”.",
+        "output": "Depois de confirmar a proporção do personagem, um card de vídeo de ação de cerca de 5 segundos com fundo branco é gerado na tela, com o espadachim fazendo o segundo salto no ar sem sair do quadro."
+    },
+    "scenarios": [
+        "Ter uma imagem de personagem pronta e querer criar ações curtas, como idle, corrida ou ataque básico.",
+        "Ao criar uma demonstração de jogo, precisar de trechos de vídeo do personagem com ritmo bem definido, como salto duplo ou avanço com golpe.",
+        "Ter apenas uma ideia em texto, sem imagem do personagem, e querer que a IA desenhe o personagem primeiro e depois faça o vídeo de ação.",
+        "Criar movimentos de ultimate ou golpes amplos e precisar de espaço suficiente no quadro para que os efeitos não sejam cortados."
+    ],
+    "problems": [
+        {
+            "pain": "Quando o movimento do personagem é amplo ou ele usa uma habilidade ultimate, os efeitos de luz e a arma são cortados pelas bordas do quadro.",
+            "solve": "Faça o personagem ocupar cerca de 20% da altura do quadro e indique na instrução a área central de movimentação, mantendo as ações e os efeitos dentro do quadro tanto quanto possível."
+        },
+        {
+            "pain": "Ao pedir um salto duplo, a IA muitas vezes faz o personagem quicar duas vezes seguidas no chão.",
+            "solve": "Divida a ação em salto, breve pausa no ar, novo impulso no meio do ar para ganhar altura e aterrissagem, recriando o processo real do salto."
+        },
+        {
+            "pain": "Ter apenas a descrição textual do personagem na cabeça, sem uma imagem pronta, e não saber como fazer.",
+            "solve": "A ferramenta ajuda a completar detalhes como tipo físico e roupas e primeiro gera na tela uma imagem do personagem com bastante espaço em branco ao redor; depois de confirmar que está satisfatório, cria a ação."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie a imagem do personagem e a ação que você quer criar.",
+        "Confirme que o personagem ocupa cerca de 20% da altura do quadro; se não houver imagem, uma será gerada primeiro na tela para você conferir.",
+        "Aguarde a IA gerar na tela um card de vídeo de ação de 4 a 6 segundos e clique nele para reproduzir a prévia diretamente.",
+        "Verifique o resultado da ação e, se estiver satisfatório, organize a ordem na linha do tempo do vídeo e exporte; você também pode baixar o vídeo separadamente."
+    ],
+    "faq": [
+        {
+            "q": "Ao fazer animação de personagem, mãos, pés ou efeitos de golpe são sempre cortados pelo quadro. O que fazer?",
+            "a": "Primeiro reduza a proporção do personagem no quadro para cerca de 20% e deixe espaço em branco suficiente ao redor. Ao gerar a ação, a IA tenta limitar os movimentos e os efeitos de luz à área central de movimentação do quadro. Assim, é mais fácil evitar que membros saiam do quadro e que os efeitos sejam cortados pelas bordas."
+        },
+        {
+            "q": "Por que a IA sempre faz o personagem quicar duas vezes no mesmo lugar quando pedimos um salto duplo?",
+            "a": "Isso acontece porque a descrição não deixa claros a pausa no ar e o ritmo do impulso. Descreva “um salto, uma breve pausa no ar, um segundo impulso no meio do ar para ganhar altura e uma aterrissagem suave”, e a IA tentará gerar nessa ordem. Assim, o personagem salta novamente no ar, em vez de pular duas vezes seguidas no chão."
+        },
+        {
+            "q": "Não tenho uma imagem do personagem. Posso digitar e pedir para a IA criar um vídeo de ação diretamente?",
+            "a": "Sim. No {brand}, basta digitar a descrição da aparência e das ações do personagem. A IA primeiro desenha na tela uma imagem de corpo inteiro do personagem com base na sua descrição, para você confirmar o tamanho e a aparência. Só depois de confirmar que está adequado ela começa a gerar o vídeo de ação; se não gostar, você pode alterar a descrição e gerar novamente a qualquer momento."
+        },
+        {
+            "q": "Como transformar o vídeo gerado em imagens ou GIFs de ação de personagem com fundo transparente?",
+            "a": "Baixe o vídeo gerado no seu dispositivo, divida-o em uma sequência de imagens com ferramentas comuns e remova o fundo branco. O que é gerado na tela é um card de vídeo com fundo branco sólido e não exporta diretamente imagens transparentes. Se você só quer pré-visualizar o efeito da ação, basta clicar para reproduzir na tela."
+        }
+    ],
+    "keywords": [
+        "geração de ações de personagem de jogo",
+        "criação de vídeo de ação de personagem",
+        "animação de personagem com IA",
+        "animação de salto duplo de personagem",
+        "vídeo de ação de personagem de jogo",
+        "ação de personagem sem cortes"
+    ]
+}

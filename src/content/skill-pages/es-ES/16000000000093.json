@@ -1,0 +1,66 @@
+{
+    "title": "Prompts de vídeo con IA: cámara y acción bajo control",
+    "metaDescription": "Ideal si no sabes describir escenas a la IA. Escribe tu idea en el chat y el asistente ordena sujeto, cámara y acción en una tarjeta de prompt.",
+    "oneLiner": "Introduce una idea de escena improvisada y genera en el lienzo una tarjeta de prompt estructurada.",
+    "intro": [
+        "Esta es una habilidad de organización de prompts (el texto que indica a la IA cómo generar una imagen) para creadores de vídeo. Introduce una idea de escena aproximada y generará en el lienzo una tarjeta de texto con el sujeto, el movimiento de cámara y la acción ordenados.",
+        "Solo tienes que preparar una idea de escena escrita al vuelo, por ejemplo, una persona corriendo bajo la lluvia. Si tienes una foto de una persona o una composición que quieras usar como referencia, también puedes enviarla al chat e indicar para qué sirve.",
+        "Cuando termines, en el lienzo se generará una tarjeta de texto con una maquetación clara. Incluirá la acción dividida en partes y términos de cámara normalizados; puedes copiarla directamente o modificarla manualmente cuando quieras."
+    ],
+    "example": {
+        "input": "Quiero hacer una escena nocturna de una ciudad ciberpunk, con la cámara avanzando lentamente desde las alturas hacia una chica con impermeable que lleva un paraguas luminoso.",
+        "output": "Genera en el lienzo una tarjeta de texto de prompt que describa por bloques y en orden el personaje principal, la calle de noche bajo la lluvia, el movimiento de acercamiento de cámara y la atmósfera de luz y sombra, e indica los términos de plano adecuados."
+    },
+    "scenarios": [
+        "Tienes una imagen en la cabeza pero no sabes cómo escribirla y quieres convertir el lenguaje coloquial en un prompt de IA normalizado.",
+        "Quieres que la cámara se acerque, se aleje o haga un movimiento circular, pero no sabes cómo indicárselo a la IA con términos de cámara precisos.",
+        "Has subido una imagen de referencia y no se ha usado; necesitas indicar claramente a la IA que la imagen solo sirve como referencia del aspecto físico.",
+        "En vídeos de más de 10 segundos, la parte central tiende a desviarse; necesitas desglosar la acción y el movimiento de cámara por segundos."
+    ],
+    "problems": [
+        {
+            "pain": "Escribes un párrafo largo para la IA y el vídeo generado tiene acciones confusas y la escena se desvía con facilidad.",
+            "solve": "Divide la descripción en módulos como sujeto, acción y cámara, y ordénalos por importancia para que la lógica sea más clara."
+        },
+        {
+            "pain": "Quieres un movimiento de acercamiento o circular, pero la IA no entiende el lenguaje coloquial que escribes.",
+            "solve": "Ofrece un repertorio de términos habituales de movimiento de cámara y sustituye el lenguaje coloquial por terminología estándar para reducir al máximo la inestabilidad de la cámara."
+        },
+        {
+            "pain": "Has subido imágenes de referencia, pero la IA tiende a ignorarlas o a usarlas mal al generar el vídeo.",
+            "solve": "Te ayuda a indicar en la descripción para qué sirve cada imagen, por ejemplo, para controlar exclusivamente el aspecto físico del personaje o solo como referencia de composición."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» e introduce la idea de escena en el chat de la derecha.",
+        "Sube imágenes de referencia (si las tienes) e indica si son referencia del aspecto físico o de la composición.",
+        "Revisa la tarjeta de texto generada en el lienzo y ajusta manualmente los detalles que necesites.",
+        "Copia o descarga el texto del prompt organizado para usarlo en la generación del vídeo."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo escribir un prompt de vídeo con IA para que la escena no se descontrole?",
+            "a": "Lo mejor es separar el sujeto, la acción, la escena y el movimiento de cámara en bloques. Escribe primero al personaje principal, luego el entorno y después el movimiento de cámara, por orden de importancia; así a la IA le resulta más difícil confundirse. Esta habilidad te lo organiza directamente en ese formato."
+        },
+        {
+            "q": "He subido una imagen de referencia, ¿por qué la IA no la usa bien?",
+            "a": "Como no se especifica claramente para qué sirve, la IA tiende a mezclar en la escena todo el contenido de la imagen de referencia. Al introducirla, debes indicar si solo sirve para controlar el aspecto físico del personaje o si solo se usa como referencia de composición o del primer fotograma. La habilidad te ayuda a dejar por escrito el uso de cada imagen para evitar confusiones de la IA."
+        },
+        {
+            "q": "Si quiero que la cámara se acerque o se aleje, ¿cómo se lo digo a la IA?",
+            "a": "Usa directamente términos normalizados como «travelling de acercamiento», «travelling de alejamiento» o «travelling circular». Evita el lenguaje coloquial ambiguo; así el movimiento de cámara será más estable. La habilidad incluye términos habituales de movimiento de cámara y los sustituye automáticamente."
+        },
+        {
+            "q": "Al crear vídeos más largos, ¿qué hago si la escena se desvía a mitad de camino?",
+            "a": "Puedes escribir el prompt dividiéndolo por segundos. Divide el vídeo en los primeros segundos, la parte central y el final, y describe en cada tramo la acción y los cambios de cámara. Estas restricciones por tramos hacen que las transiciones sean más naturales y reducen las desviaciones a mitad del vídeo."
+        }
+    ],
+    "keywords": [
+        "prompts de vídeo con IA",
+        "cómo escribir movimiento de cámara en IA",
+        "plantilla de prompt para vídeo con IA",
+        "escena inconsistente en vídeo con IA",
+        "cómo usar imágenes de referencia en vídeo con IA",
+        "prompt por segmentos para vídeos largos con IA"
+    ]
+}

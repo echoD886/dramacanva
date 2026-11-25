@@ -1,0 +1,66 @@
+{
+    "title": "AI Video Character Design: Personas & Turnarounds",
+    "metaDescription": "Video creators who can't draw: enter a character idea, and AI maps out personality and generates front/side/back turnarounds plus expressions to keep looks consistent.",
+    "oneLiner": "Enter a character idea, generate personality analysis and turnarounds on the canvas—great for video beginners.",
+    "intro": [
+        "This is the character design workflow on the {brand} canvas. It works like a professional art director, turning a vague character idea into a specific character with personality and a distinct look.",
+        "You only need a simple concept for the character, such as a profession, temperament, or a bit of plot. Even if you only have a rough idea, you can send it directly to the AI in the chat box on the right.",
+        "The AI will generate a written profile on the canvas, along with front/side/back turnarounds (full-body views from front, side, and back) and expression sheets. All are shown on a white background, so you can review or download them anytime."
+    ],
+    "example": {
+        "input": "I want to design an ancient Chinese constable who is usually serious and quiet, but actually has an injured right arm, is soft-hearted in private, and carries a worn old saber.",
+        "output": "On the canvas, it generates text cards describing personality and actions, plus multiple white-background images: a full-body standing shot, front/side/back turnarounds, and expression sheets for joy, anger, sadness, and more."
+    },
+    "scenarios": [
+        "You're preparing to write a story or make a video and need to define the temperaments and looks of the male and female leads.",
+        "You only have a vague feeling about the character and want to see different appearance variations to pick the right one.",
+        "The character keeps changing faces, so you need front/side/back turnarounds and expression sheets as reference for later production.",
+        "An existing character feels flat and unconvincing, and you want AI to identify problems and suggest revisions."
+    ],
+    "problems": [
+        {
+            "pain": "You have a pile of adjectives for the character, but the result looks like a background extra and viewers can't remember them.",
+            "solve": "AI distills two or three unique signature actions or trademark outfits, turning personality into visible details."
+        },
+        {
+            "pain": "The AI-generated character keeps changing faces across different images, with inconsistent clothes and looks.",
+            "solve": "Generate white-background front/side/back turnarounds on the canvas, clearly defining hairstyle and outfit details as a reference baseline for later consistency."
+        },
+        {
+            "pain": "The character's expressions are stiff and wooden, and AI defaults to drawing the same fake smile every time.",
+            "solve": "Generate multi-panel expression sheets based on the character's personality to show subtle emotional shifts and avoid identical faces."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use this skill” and send your character idea in the chat box on the right.",
+        "Review the text cards on the canvas and confirm the character's personality, habitual actions, and appearance details.",
+        "Generate a white-background full-body image, front/side/back turnarounds, and emotional expression sheets for joy, anger, sadness, and more.",
+        "Choose the settings you like, regenerate anytime on the canvas, and download the images directly when satisfied."
+    ],
+    "faq": [
+        {
+            "q": "How can I make the AI-generated character less generic and more recognizable?",
+            "a": "The key is to lock in two or three visible unique traits for the character instead of just writing “pretty” or “handsome.” AI will help you design signature habits, personal items, or special small marks. Once you fix these details, the character won't easily look the same as everyone else when you generate images."
+        },
+        {
+            "q": "Why does the AI-generated character change faces when the image changes?",
+            "a": "This happens because there is no fixed set of appearance reference images. You can first generate front, side, and back turnarounds on the canvas to lock in the hairstyle, facial features, and outfit. When you generate new images later, compare them with this set, and the character's look will be much more stable."
+        },
+        {
+            "q": "Why are character design images always on a white background? Can't they have backgrounds?",
+            "a": "They can't have backgrounds because the white background is meant to remove environmental distractions and clearly show the character's hairstyle, outfit, and prop details. A pure white background makes it easy to carefully check each appearance feature; once the look is finalized, it's more appropriate to add backgrounds when creating images for specific scenes."
+        },
+        {
+            "q": "If I can't draw, can I still make front/side/back turnarounds for a character?",
+            "a": "Yes, you don't need any drawing foundation. Just describe the character's profession and appearance in plain language, and AI will draw white-background reference images from three angles on the canvas. If some details aren't to your liking, tell the assistant how to change them and regenerate; when satisfied, download the images directly."
+        }
+    ],
+    "keywords": [
+        "AI character design",
+        "character turnaround sheet",
+        "character design sheet",
+        "AI character consistency",
+        "character expression sheet",
+        "novel character concept art"
+    ]
+}

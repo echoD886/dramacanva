@@ -1,0 +1,67 @@
+{
+    "title": "Write AI Image & Video Prompts, Organize Storyboards",
+    "metaDescription": "For AI image/video beginners. Enter ideas or upload references in {brand}; the assistant turns canvas descriptions and a storyboard into usable prompts.",
+    "oneLiner": "You give an idea or image; it creates image descriptions and a storyboard on the canvas, great for beginners.",
+    "intro": [
+        "Enter a visual idea or upload a reference image, and the assistant helps you write easy-to-understand descriptions and lay out a storyboard on the canvas, reducing fake-looking images. It does not directly generate finished videos.",
+        "You don’t need to know professional photography terms. Just prepare a simple idea of what you want to draw, or upload a reference image or reference video you like, and you can start.",
+        "When done, you’ll get organized text cards on the canvas, including prompts you can use directly for image generation (descriptive instructions for AI) and a storyboard that specifies what each shot shows."
+    ],
+    "example": {
+        "input": "I want to generate a shot of a café entrance on a rainy night, with the character feeling down, and no fake plastic-person look.",
+        "output": "A card appears on the canvas with image prompts organized by lighting, environment, and subject action, noting the camera angle and raindrop reflection details, ready to copy for image generation."
+    },
+    "scenarios": [
+        "When using AI to draw people or scenes, the images always look like fake plastic people, and you want them to look more realistic.",
+        "You see a reference image or video clip you like and want to make a new one following its shooting style and camera movement.",
+        "You want to make a video but don’t know how to design the shots, and the scenes you write come out stiff and lack character action.",
+        "You’ve written a storyboard that’s too long and messy, and you can’t tell which shots are unnecessary or should be cut."
+    ],
+    "problems": [
+        {
+            "pain": "When writing image descriptions, you pile on fancy adjectives, but the resulting image still looks fake and plastic.",
+            "solve": "Replace useless adjectives with specific environment, lighting, and everyday details to make the image look more natural and real."
+        },
+        {
+            "pain": "The video shots you write are too stiff, like static landscape wallpaper, with no dramatic tension.",
+            "solve": "It helps clarify the character’s goals, obstacles, and subtle body movements so the people in the shot actually move."
+        },
+        {
+            "pain": "The storyboard is long and dragging, and you can’t tell which shots are useful or should be cut.",
+            "solve": "Check each shot against three criteria—emotion, action, and tension—and remove unnecessary shots that serve no purpose."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use this skill” to open the canvas.",
+        "Describe the visual content you want to create, or upload reference images or videos directly.",
+        "Wait for AI to generate the written prompt cards and storyboard on the canvas.",
+        "Review the generated text cards and fine-tune the content as needed.",
+        "Copy or download the results for later image generation."
+    ],
+    "faq": [
+        {
+            "q": "AI-generated images always have a plastic, fake-person look. How do I fix that?",
+            "a": "Stop piling on fancy adjectives and replace them with specific environment and lighting details. This skill helps break the image down into subject, scene, and key details, and proactively adds realistic everyday imperfections. The resulting images look more natural, with less of a fake-person or oil-painting feel."
+        },
+        {
+            "q": "If I see a good-looking image or short video, can it write prompts based on it?",
+            "a": "Yes, just send it the reference image or video directly. It will analyze the lighting, character actions, and camera push/pull in the image and break them down into corresponding descriptions. You can keep that shooting approach and swap in your own character or product to generate new images."
+        },
+        {
+            "q": "When writing video descriptions, how do I avoid scenes that look like static wallpaper with no action?",
+            "a": "When writing descriptions, specify the character’s goals, obstacles, and concrete body movements instead of only describing the scenery. Describing beautiful scenery alone will only get you static empty shots. With character action and conflict, the AI-generated video clips will have a sense of motion."
+        },
+        {
+            "q": "My storyboard is too long. How do I know which shots to cut?",
+            "a": "Check whether a shot changes the emotion, advances the action, or increases tension. If it meets none of these three, it’s an unnecessary shot and can be cut. The assistant will check each shot against these three criteria to streamline the number of shots and keep the video from dragging."
+        }
+    ],
+    "keywords": [
+        "AI image realistic prompts",
+        "how to write AI video prompts",
+        "image to prompt",
+        "how to make a video storyboard",
+        "AI image prompt template",
+        "video shot design"
+    ]
+}

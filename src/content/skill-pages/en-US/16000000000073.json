@@ -1,0 +1,66 @@
+{
+    "title": "Character Design: Personality & Relationships | {brand}",
+    "metaDescription": "Enter character ideas; AI creates text cards on the {brand} canvas covering personality, voice, and relationships for short drama, novel, or video writers.",
+    "oneLiner": "Enter character ideas, and the canvas organizes text cards for the people in your story.",
+    "intro": [
+        "This is a creative tool that helps you design story characters. Many people end up with thin characters who all sound like the same person; this tool helps you clarify their personalities and bring them to life.",
+        "You only need some initial ideas about the character. For example, what kind of person they are, what happened to them, or you can use an existing story outline or a character draft you're not happy with.",
+        "When you're done, AI will generate detailed character profiles, relationship maps, and psychological turning-point text cards on the {brand} canvas. You can read, edit, or copy them directly."
+    ],
+    "example": {
+        "input": "I want to write a timid young chef who wants to protect his little sister. The villain is a snobbish restaurant boss. Please help me flesh out their characters.",
+        "output": "Text cards for the protagonist and villain are generated on the canvas: clearly laying out the chef's inner desires and vulnerabilities, his unique way of speaking, and how his mindset shifts from holding back to fighting back when the boss gives him trouble."
+    },
+    "scenarios": [
+        "When you're writing the opening of a story, the protagonist's personality is too vague, and you don't know why they insist on doing this.",
+        "Supporting characters feel like they're just passing through, and cutting them wouldn't affect the plot; you don't know how to make them more important.",
+        "After writing a few lines of dialogue, you realize everyone speaks in the same tone, and you can't tell who is talking if you cover the names.",
+        "The protagonist suddenly has an epiphany and becomes better, but the change feels unrealistic, and you don't know how to arrange a believable turning point."
+    ],
+    "problems": [
+        {
+            "pain": "Characters feel like paper cutouts—they have only a job and appearance, with no soul.",
+            "solve": "Sort out what the character wants most and fears most, and generate character profile cards on the canvas that explain their motivations and conflicts."
+        },
+        {
+            "pain": "All characters speak in a similar tone, so none of them stand out.",
+            "solve": "Based on each character's backstory, organize their speaking tone and word choices, and clearly list dialogue traits on the cards."
+        },
+        {
+            "pain": "The protagonist's transition from immature to mature is too abrupt and unconvincing.",
+            "solve": "Design key moments involving difficult choices and setbacks, and show the character's step-by-step psychological change on the canvas."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill\" to open the {brand} canvas chat box.",
+        "Enter your character concept, story outline, or the character problem you want to solve.",
+        "Review the character profile, relationship map, and psychological change cards AI generates on the canvas.",
+        "Edit the card content on the canvas, and when you're satisfied, copy or download the results."
+    ],
+    "faq": [
+        {
+            "q": "When writing a novel or script, how can I make characters more three-dimensional?",
+            "a": "The key is to identify what the character truly wants and what they're willing to pay for it. This skill helps you sort out the character's motivations and inner conflicts and organize them into clear character profile cards on the canvas."
+        },
+        {
+            "q": "How can I avoid having all my characters speak in the same tone?",
+            "a": "You need to give each character language habits that fit their identity and personality. AI will sort out a unique speaking style based on each character's backstory, helping you distinguish their dialogue traits."
+        },
+        {
+            "q": "What should I do if supporting characters always feel like disposable plot devices?",
+            "a": "Give supporting characters their own goals and let them clash with or balance the protagonist's goals. This skill maps out the character relationships on the canvas, so supporting characters are no longer just background—they actually move the story forward."
+        },
+        {
+            "q": "Can ordinary people use character arcs when writing stories?",
+            "a": "Yes. A character arc is the psychological growth a character goes through after setbacks. The skill lists key turning points in the character's change, making their growth feel more natural and avoiding sudden epiphanies."
+        }
+    ],
+    "keywords": [
+        "character design",
+        "how to write character profiles",
+        "screenplay character personality",
+        "character relationship map",
+        "character psychological growth",
+        "novel character profile"
+    ]
+}

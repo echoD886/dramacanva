@@ -1,0 +1,66 @@
+{
+    "title": "Sonido e imagen en vídeo: ritmo de montaje y diseño de audio",
+    "metaDescription": "Para creadores que dudan con la voz, los efectos o el montaje. Describes la escena y genera consejos en el lienzo para ordenar sonidos y ritmo de corte.",
+    "oneLiner": "Para principiantes en vídeo: describe la escena y genera en el lienzo consejos de sonido y montaje.",
+    "intro": [
+        "Es una habilidad auxiliar que ayuda a los creadores a ordenar la combinación de imagen y sonido. Si no sabes qué sonido poner a una escena o notas los cortes de montaje muy bruscos, te ayuda a encontrar el motivo.",
+        "Solo tienes que enviar a la IA la descripción del storyboard (dividir el vídeo en planos y detallar qué se graba en cada uno) o explicar directamente tus dudas sobre el sonido del plano actual.",
+        "La IA generará tarjetas de texto en el lienzo, con una lista de sonidos que indica el orden de diálogos, sonido ambiente y efectos, y te sugerirá en qué punto de giro emocional cortar el plano."
+    ],
+    "example": {
+        "input": "El protagonista camina solo de noche por un pasillo vacío y quiere mostrar una atmósfera de tensión y miedo; no sabe qué sonido poner y los cambios de plano resultan muy bruscos.",
+        "output": "Genera tarjetas de texto en el lienzo: sugiere empezar con pasos de origen invisible para crear suspense y mantener el ambiente en silencio; indica la jerarquía de sonidos y recomienda cortar el plano cuando el protagonista se gira y se detiene."
+    },
+    "scenarios": [
+        "La imagen y la voz se mezclan y todo suena confuso; quieres distinguir qué sonidos conservar y cuáles eliminar.",
+        "Al montar, sientes que los cortes siguen un conteo mecánico de segundos y que el cambio de imagen resulta brusco y poco natural.",
+        "Para crear suspense o tensión, quieres usar sonidos de origen invisible para activar primero las emociones del público.",
+        "Después de escribir el storyboard, quieres planificar de antemano la combinación de voces, sonido ambiente y efectos."
+    ],
+    "problems": [
+        {
+            "pain": "La música de fondo, las voces y los efectos se acumulan demasiado y el vídeo suena muy cargado.",
+            "solve": "Simplifica el sonido dando prioridad a la voz, señala qué es principal y secundario y cuándo dejar silencio para que el audio respire."
+        },
+        {
+            "pain": "Cortas los planos solo por intuición o siguiendo segundos mecánicos, y las transiciones se ven muy bruscas.",
+            "solve": "Te ayuda a localizar pausas en la acción de los personajes o giros emocionales y ofrece en el lienzo sugerencias naturales de corte."
+        },
+        {
+            "pain": "Quieres crear una atmósfera misteriosa o de suspense, pero la imagen resulta plana y poco atractiva.",
+            "solve": "Te guía para ocultar el origen del sonido y hacer que los sonidos clave aparezcan antes fuera de campo, despertando la imaginación y curiosidad del público."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el cuadro de diálogo de la derecha.",
+        "Envía la descripción del plano o el diálogo y explica tus dudas sobre el sonido o el ritmo que quieres ajustar.",
+        "Consulta las tarjetas de texto generadas en el lienzo para ver la prioridad de los sonidos y los puntos de corte.",
+        "Copia o descarga las sugerencias de texto de las tarjetas para guiar la locución y el montaje posteriores."
+    ],
+    "faq": [
+        {
+            "q": "¿Esta habilidad puede hacer la locución del vídeo o generar efectos de sonido directamente?",
+            "a": "No, no genera archivos de audio. Crea en el lienzo sugerencias y listas de texto que te indican qué sonidos elegir y cuál es su orden de prioridad. Puedes seguir esas sugerencias para locutar el vídeo."
+        },
+        {
+            "q": "El sonido de fondo y la voz del vídeo suenan desordenados; ¿cómo puedo simplificarlos?",
+            "a": "Primero haz que las voces se oigan claras y después valora el sonido ambiente y los efectos. Si un sonido no ayuda a contar la historia, elimínalo o baja su volumen siempre que puedas. La habilidad te mostrará una lista de prioridades y dónde dejar silencio."
+        },
+        {
+            "q": "Al montar un vídeo, ¿cómo sé cuándo debo cortar el plano?",
+            "a": "Conviene cortar en una pausa de la acción del personaje o en un cambio emocional, no de forma mecánica cada cierto número de segundos. Igual que una persona parpadea de forma natural al terminar una idea al hablar, cambiar de imagen en esos intervalos resulta más natural. La habilidad analizará tus imágenes y te dará sugerencias de corte."
+        },
+        {
+            "q": "¿Qué trucos de sonido hay para crear una atmósfera de tensión y suspense?",
+            "a": "Puedes hacer que se oiga un sonido sin mostrar de dónde viene. Por ejemplo, si el plano solo muestra una habitación vacía, unos pasos o una puerta que se abre fuera de campo captan enseguida la atención del público. La habilidad te enseñará a aplicar este recurso en los planos clave."
+        }
+    ],
+    "keywords": [
+        "combinar sonido e imagen en vídeo",
+        "cómo poner voz a un vídeo",
+        "qué efectos de sonido usar en un vídeo",
+        "cuándo cortar un plano al editar",
+        "vídeo con audio saturado qué hacer",
+        "ritmo de montaje de vídeo"
+    ]
+}

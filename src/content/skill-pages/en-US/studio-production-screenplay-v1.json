@@ -1,0 +1,67 @@
+{
+    "title": "Turn Stories into Motion Comic Scripts: Actions & Dialogue",
+    "metaDescription": "For novelists and video beginners making motion comics. Send a story summary and character settings to get a script with actions, mouth shapes, and lighting.",
+    "oneLiner": "For beginners, enter a story summary to generate a motion comic script on the canvas with actions and dialogue marked.",
+    "intro": [
+        "This is a scriptwriting assistant. It can expand your story summary into a text script suitable for motion comics (animated comic videos), so you don't have to figure out how to break down shots yourself.",
+        "Just prepare a story outline or novel excerpt, and fill in character names, brief appearance descriptions, and locations. If you have a target episode count or length, you can send that too.",
+        "When done, you'll get detailed script text cards on the canvas. They clearly mark character actions, speaking mouth shapes, scene lighting, and sound effect cues for later drawing or production."
+    ],
+    "example": {
+        "input": "Script 'Night of Fog' Episode 1: male lead Lin Che, 22, white shirt and black-framed glasses, meets the female lead at night by the river under a streetlight; they argue; about 3 minutes.",
+        "output": "Text cards generated on the canvas: scene heading [EXT. RIVERSIDE - LATE NIGHT (warm streetlight)], Lin Che clenching his fists and walking quickly, short dialogue lines with medium mouth shapes, and a distant wind sound cue."
+    },
+    "scenarios": [
+        "You have a short story or story summary and want to make a 3-5 minute motion comic short video.",
+        "Your novel has too much inner description, and you don't know how to turn it into actions visible on screen.",
+        "Your dialogue is too long and bookish, sounds awkward when performed, and doesn't match mouth shapes.",
+        "You're preparing to make a motion comic video but don't know how to mark scene lighting and sound effects clearly in the script."
+    ],
+    "problems": [
+        {
+            "pain": "The novel is full of inner monologue, and you don't know how to show it visually.",
+            "solve": "Convert inner thoughts into concrete expressions and micro-actions—for example, show sadness as reddened eyes and downturned mouth corners."
+        },
+        {
+            "pain": "The script has too many fight effects, making later visual production costs easy to spiral.",
+            "solve": "Help you distinguish small movements from intense effects, keep fights to no more than 3 per episode where possible, and help control production budget."
+        },
+        {
+            "pain": "Character dialogue is too long and bookish; it sounds like reading a textbook and is hard to lip-sync.",
+            "solve": "Turn long sentences into short conversational lines, aim for 10 characters or fewer per line where possible, and mark small, medium, and large mouth shapes for easy reference."
+        }
+    ],
+    "steps": [
+        "In the skills library, click 'Use this skill' to open the script creation interface.",
+        "Send the story summary, main character traits, and scene information for this episode.",
+        "Review the script cards generated on the canvas, and check the scenes, actions, and dialogue.",
+        "Click a card to edit text details directly, or tell the assistant to rewrite sections you're not happy with.",
+        "Copy or download the script text result for later visual production."
+    ],
+    "faq": [
+        {
+            "q": "What is a motion comic script? How is it different from a regular script?",
+            "a": "A motion comic script is a script made specifically for comic videos. Compared with a regular script, it specifies action intensity, character expressions, and lighting in detail. Regular scripts focus on dialogue, while motion comic scripts break down motion levels such as micro-movements or large effects, so artists or post-production can see at a glance how things should move."
+        },
+        {
+            "q": "I only have a few hundred words of a novel. Can it still generate a script?",
+            "a": "Yes. Send the novel excerpt and character information to the assistant, and it can expand the plot into a script with scenes, actions, and dialogue. If the story lacks necessary character settings or locations, the assistant will remind you to fill them in before generating."
+        },
+        {
+            "q": "What do the action levels and mouth shapes marked in the script mean?",
+            "a": "Action levels distinguish small movements from large effects to control production costs, while mouth shapes indicate how wide the mouth opens when speaking so dubbing can be aligned. For example, slightly moving hair is marked as a micro-action, fighting is marked as a strong action; dialogue is marked with small, medium, or large mouth shapes based on character count to help with recording."
+        },
+        {
+            "q": "How long is the generated script? What video length is it suited for?",
+            "a": "By default, a single episode is suited for a 3-5 minute short video. The generated script is usually 800 to 1,200 characters, with a tight pace. About every half minute, the plot includes an emotional change or action highlight, and after generation you can freely edit the length on the canvas cards."
+        }
+    ],
+    "keywords": [
+        "how to write a motion comic script",
+        "how to adapt a novel into a motion comic",
+        "motion comic script production",
+        "AI motion comic script writing",
+        "how to write motion comic storyboard dialogue",
+        "how to mark actions in a motion comic script"
+    ]
+}

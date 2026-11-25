@@ -1,0 +1,73 @@
+import type { BlogLocale } from "../content/blog-locales";
+
+const labels = {
+    "zh-CN": ["技能指南", "适用场景", "能解决的问题", "怎么用", "常见问答", "使用此技能", "相关技能", "暂无此语言的技能指南", "查看指南", "这是什么", "举个例子", "你输入", "你会得到"],
+    "zh-HK": ["技能指南", "適用場景", "解決哪些問題", "使用方法", "常見問題", "使用此技能", "相關技能", "此語言暫未有技能指南", "查看指南", "這是甚麼", "舉個例子", "你輸入", "你會得到"],
+    "zh-TW": ["技能指南", "適用情境", "能解決的問題", "使用步驟", "常見問題", "使用此技能", "相關技能", "此語言尚無技能指南", "查看指南", "這是什麼", "舉個例子", "你輸入", "你會得到"],
+    "en-US": [
+        "Skill guides",
+        "When to use it",
+        "Problems it solves",
+        "How to use it",
+        "Frequently asked questions",
+        "Use this skill",
+        "Related skills",
+        "No skill guide in this language yet",
+        "Read the guide",
+        "What it is",
+        "An example",
+        "You type",
+        "You get",
+    ],
+    "ja-JP": ["スキルガイド", "活用シーン", "解決できる課題", "使い方", "よくある質問", "このスキルを使う", "関連スキル", "この言語のガイドはまだありません", "ガイドを見る", "どんなスキル？", "使ってみた例", "入力する内容", "できあがるもの"],
+    "ko-KR": [
+        "스킬 가이드",
+        "활용 상황",
+        "해결할 수 있는 문제",
+        "사용 방법",
+        "자주 묻는 질문",
+        "이 스킬 사용하기",
+        "관련 스킬",
+        "이 언어로 된 가이드가 아직 없습니다",
+        "가이드 보기",
+        "어떤 스킬인가요",
+        "사용 예시",
+        "이렇게 입력하면",
+        "이런 결과가 나와요",
+    ],
+    "es-ES": [
+        "Guías de habilidades",
+        "Cuándo usarla",
+        "Problemas que resuelve",
+        "Cómo usarla",
+        "Preguntas frecuentes",
+        "Usar esta habilidad",
+        "Habilidades relacionadas",
+        "Todavía no hay una guía en este idioma",
+        "Ver la guía",
+        "Qué es",
+        "Un ejemplo",
+        "Escribes",
+        "Obtienes",
+    ],
+    "pt-BR": [
+        "Guias de habilidades",
+        "Quando usar",
+        "Problemas que resolve",
+        "Como usar",
+        "Perguntas frequentes",
+        "Usar esta habilidade",
+        "Habilidades relacionadas",
+        "Ainda não há um guia neste idioma",
+        "Ver o guia",
+        "O que é",
+        "Um exemplo",
+        "Você digita",
+        "Você recebe",
+    ],
+} satisfies Record<BlogLocale, string[]>;
+
+export function skillPageCopy(locale: BlogLocale) {
+    const [library, scenarios, problems, steps, faq, use, related, unavailable, read, about, example, input, output] = labels[locale];
+    return { library, scenarios, problems, steps, faq, use, related, unavailable, read, about, example, input, output };
+}

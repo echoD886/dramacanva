@@ -1,0 +1,66 @@
+{
+    "title": "Dialogue Fix: Make Stiff Script Lines Sound Real",
+    "metaDescription": "For story and short-drama creators: checks stiff, recited lines and creates rewritten dialogue, issue lists, and character speech examples on the canvas.",
+    "oneLiner": "For short-drama writers: send a dialogue draft and get natural, lively lines rewritten on the canvas.",
+    "intro": [
+        "This is a writing assistant that helps you polish script dialogue. When your characters sound too dry, like they're reading a manual, it helps you figure out what they actually want so their lines feel more natural.",
+        "All you need is a draft of your dialogue plus a brief note on the story context, each character's personality, and what they're trying to achieve in the scene.",
+        "When it's done, the canvas shows rewritten lines, highlights the subtext (what the character really means), and includes an issue analysis plus speech examples for each character that you can use."
+    ],
+    "example": {
+        "input": "Send a dialogue draft: the wife says, “You work late every day and ignore the family—you don’t even care that the fridge is empty,” and the husband says, “I’m earning money to support us—why don’t you understand me?” Make it sound more natural.",
+        "output": "The canvas generates rewrite cards: the wife questions him through takeout containers, while the husband avoids eye contact and uses work as an excuse; each line is labeled with its true meaning, along with a list of issues in the original dialogue and examples of each character’s tone."
+    },
+    "scenarios": [
+        "When writing dialogue, your characters keep explaining the backstory and sound like they're reading a manual.",
+        "Several characters in the script speak in the same tone, and if you cover the names, you can't tell who is talking.",
+        "When writing a confrontation scene, the argument is too direct and stiff, and you want to turn blunt statements into subtle sparring.",
+        "Two people talk for ages but the plot doesn't move; the story spins in place with no progress."
+    ],
+    "problems": [
+        {
+            "pain": "The dialogue is all explanation of causes and consequences, and the characters sound like they're reading a manual.",
+            "solve": "Find unnecessary explanations, turn the lines into dialogue driven by each character's goal and concrete actions, and generate rewrite cards on the canvas."
+        },
+        {
+            "pain": "Several characters speak in almost the same voice, and with the names covered you can't tell who's who.",
+            "solve": "Extract speech habits and word preferences from each character's personality, generate tailored dialogue examples on the canvas, and distinguish the characters."
+        },
+        {
+            "pain": "After finishing a dialogue scene, it feels flat, but you don't know what's wrong.",
+            "solve": "Point out stiff or out-of-character spots line by line, identify the real thought hidden behind each line, and provide a revision checklist."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use This Skill” to enter the creation canvas.",
+        "Send your dialogue draft and briefly explain the characters' personalities and story context.",
+        "Review the rewritten dialogue cards, issue checklist, and speech-habit examples generated on the canvas.",
+        "Pick the lines you like and edit them directly on the cards, then copy or download the results."
+    ],
+    "faq": [
+        {
+            "q": "How can I make character dialogue sound less like someone reading a manual?",
+            "a": "The key is to turn exposition into concrete actions in the moment, so characters speak with clear goals. Don't have characters directly recite large chunks of setup; hide the information inside conflict or probing. Send your lines on the {brand} canvas, and the AI assistant will help rewrite them into dialogue cards with actions and inner thoughts."
+        },
+        {
+            "q": "Several characters in my script have similar speaking styles. How do I make them distinct?",
+            "a": "Focus on each character's identity and personality, and extract different common sentence patterns and tones. Avoid having everyone speak in standard written language; make each speech habit fit their background. In the {brand} canvas, the AI assistant generates tailored speech examples for different characters so you can compare and choose."
+        },
+        {
+            "q": "When I write a two-person argument scene, the lines feel too stiff. How should I revise them?",
+            "a": "Let characters vent their dissatisfaction through another topic instead of having them say exactly what they mean. For example, they criticize a small thing on the surface while actually being angry about something else, which makes the dialogue richer. In the {brand} canvas, the AI assistant will mark the true feelings behind the surface lines and offer subtler rewrite options."
+        },
+        {
+            "q": "Why does it feel like the plot isn't moving even after two people talk for a long time?",
+            "a": "That's because the dialogue lacks real conflict and goals, and the characters are just repeating emotions in place. Every line should change the relationship or break an expectation and push the story forward. On the {brand} canvas, the AI assistant will help organize a list of dialogue sticking points, find lines that stall, and suggest ways to move forward."
+        }
+    ],
+    "keywords": [
+        "dialogue rewrite",
+        "script dialogue polish",
+        "short drama dialogue editing",
+        "why dialogue sounds unnatural",
+        "how to write script dialogue",
+        "how to differentiate character voices"
+    ]
+}

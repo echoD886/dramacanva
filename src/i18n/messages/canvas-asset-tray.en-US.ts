@@ -1,0 +1,23 @@
+const messages = {
+    "assetTray.toggle": "Collapse asset space",
+    "assetTray.open": "Open asset space, {count} items in total",
+    "assetTray.resize": "Resize asset tray from the top",
+    "assetTray.dragHeight": "Drag to adjust height",
+    "assetTray.title": "Asset space",
+    "assetTray.subtitle": "Drag into the canvas, or locate images already in use",
+    "assetTray.library": "Asset library",
+    "assetTray.currentCanvas": "Current canvas",
+    "assetTray.searchPlaceholder": "Search image assets...",
+    "assetTray.search": "Search image assets",
+    "assetTray.clearSearch": "Clear search",
+    "assetTray.noMatchLibrary": "No matching image assets",
+    "assetTray.noMatchCanvas": "No matching images on the current canvas",
+    "assetTray.libraryHint": "Click to insert · Drag to locate",
+    "assetTray.canvasHint": "Click to return to node",
+    "assetTray.itemCount": "{count} items",
+    "assetTray.selected": "Currently selected",
+    "assetTray.dragToInsert": "Drag into canvas or click to insert",
+    "assetTray.clickToLocate": "Click to locate on canvas",
+    "assetTray.imageNode": "Image node",
+} as const;
+export default messages;

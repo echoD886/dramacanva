@@ -1,0 +1,54 @@
+.sa-campaign-backdrop { position: fixed; inset: 0; z-index: 1200; display: grid; place-items: center; padding: 16px; background: rgba(3, 6, 10, .74); backdrop-filter: blur(8px); animation: sa-campaign-fade .24s ease-out; }
+.sa-campaign-dialog { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); width: min(900px, 100%); max-height: calc(100dvh - 32px); overflow: hidden; border: 1px solid rgba(255, 255, 255, .09); border-radius: 24px; background: #0f141b; color: #f4f7fa; box-shadow: 0 30px 100px rgba(0, 0, 0, .6), 0 0 0 1px rgba(255, 170, 110, .06); animation: sa-campaign-rise .34s cubic-bezier(.2, .8, .2, 1); }
+
+.sa-campaign-close { position: absolute; top: 14px; right: 14px; z-index: 3; display: grid; place-items: center; width: 34px; height: 34px; border: 0; border-radius: 50%; background: rgba(15, 20, 27, .72); color: #e6ecf1; cursor: pointer; backdrop-filter: blur(6px); transition: background .15s ease; }
+.sa-campaign-close:hover, .sa-campaign-close:focus-visible { background: #263240; }
+.sa-campaign-close svg { width: 18px; height: 18px; }
+
+.sa-campaign-media { position: relative; min-height: 520px; overflow: hidden; background: #0a0e13; }
+.sa-campaign-media video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.sa-campaign-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(15, 20, 27, 0) 55%, #0f141b 100%), linear-gradient(0deg, rgba(15, 20, 27, .55) 0%, rgba(15, 20, 27, 0) 35%); pointer-events: none; }
+.sa-campaign-media-badge { position: absolute; left: 18px; bottom: 18px; z-index: 1; padding: 6px 11px; border: 1px solid rgba(255, 255, 255, .14); border-radius: 999px; background: rgba(8, 12, 16, .6); color: #dbe5ec; font-size: 11px; font-weight: 600; letter-spacing: .04em; backdrop-filter: blur(6px); }
+
+.sa-campaign-body { display: flex; flex-direction: column; gap: 16px; min-width: 0; padding: 34px 32px 26px; overflow-y: auto; }
+.sa-campaign-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-right: 36px; }
+.sa-campaign-eyebrow { padding: 5px 10px; border-radius: 999px; background: rgba(255, 168, 96, .14); color: #ffb26e; font-size: 12px; font-weight: 700; letter-spacing: .04em; }
+.sa-campaign-countdown { display: inline-flex; align-items: center; gap: 5px; color: #9fb0bf; font-size: 12px; font-weight: 600; }
+.sa-campaign-countdown svg { width: 13px; height: 13px; }
+.sa-campaign-body h2 { margin: 0; font-size: clamp(22px, 2.6vw, 28px); line-height: 1.2; letter-spacing: -.02em; }
+
+.sa-campaign-hero { display: flex; align-items: center; gap: 18px; padding: 18px 20px; border: 1px solid rgba(255, 168, 96, .35); border-radius: 18px; background: radial-gradient(120% 140% at 0% 0%, rgba(255, 150, 90, .2), rgba(255, 150, 90, 0) 60%), #151b23; }
+.sa-campaign-hero-price { flex: none; font-size: clamp(40px, 5vw, 52px); font-weight: 800; line-height: 1; letter-spacing: -.04em; background: linear-gradient(135deg, #ffd29a, #ff8a5c); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.sa-campaign-hero-detail { display: grid; gap: 4px; min-width: 0; }
+.sa-campaign-hero-detail b { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; font-size: 18px; }
+.sa-campaign-hero-detail span { color: #b5c2cd; font-size: 12.5px; line-height: 1.45; }
+.sa-campaign-body s { color: #7d8b98; font-size: .78em; font-weight: 500; }
+
+.sa-campaign-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.sa-campaign-tile { display: grid; gap: 3px; padding: 12px 14px; border: 1px solid rgba(255, 255, 255, .1); border-radius: 14px; background: #141a22; color: inherit; text-decoration: none; transition: border-color .15s ease, background .15s ease; }
+.sa-campaign-tile:hover, .sa-campaign-tile:focus-visible { border-color: rgba(115, 216, 239, .55); background: #17202a; }
+.sa-campaign-tile span { color: #9fb0bf; font-size: 12px; }
+.sa-campaign-tile b { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; font-size: 20px; letter-spacing: -.02em; }
+.sa-campaign-tile small { color: #c7d2db; font-size: 12px; }
+
+.sa-campaign-primary { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 18px; border-radius: 13px; background: linear-gradient(135deg, #ffbf7a, #ff7f57); color: #1d0f05; font-size: 15px; font-weight: 800; text-decoration: none; box-shadow: 0 10px 30px rgba(255, 127, 87, .28); transition: transform .15s ease, box-shadow .15s ease; }
+.sa-campaign-primary:hover, .sa-campaign-primary:focus-visible { transform: translateY(-1px); box-shadow: 0 14px 36px rgba(255, 127, 87, .38); }
+.sa-campaign-primary svg { width: 17px; height: 17px; }
+.sa-campaign-link { align-self: center; margin-top: -4px; color: #b9c6d1; font-size: 13px; text-decoration: none; }
+.sa-campaign-link:hover, .sa-campaign-link:focus-visible { color: #fff; text-decoration: underline; }
+.sa-campaign-fine { margin: 0; color: #7f8d9a; font-size: 11px; line-height: 1.6; text-align: center; }
+
+@keyframes sa-campaign-fade { from { opacity: 0; } }
+@keyframes sa-campaign-rise { from { opacity: 0; transform: translateY(14px) scale(.98); } }
+@media (prefers-reduced-motion: reduce) { .sa-campaign-backdrop, .sa-campaign-dialog { animation: none; } .sa-campaign-primary:hover { transform: none; } }
+
+@media (max-width: 720px) {
+    .sa-campaign-backdrop { padding: 12px; }
+    .sa-campaign-dialog { grid-template-columns: 1fr; grid-template-rows: auto minmax(0, 1fr); border-radius: 20px; }
+    .sa-campaign-media { min-height: 0; height: min(30dvh, 210px); }
+    .sa-campaign-media::after { background: linear-gradient(180deg, rgba(15, 20, 27, 0) 50%, #0f141b 100%); }
+    .sa-campaign-body { gap: 13px; padding: 4px 18px 18px; }
+    .sa-campaign-hero { padding: 14px 16px; gap: 14px; }
+    .sa-campaign-hero-price { font-size: 38px; }
+    .sa-campaign-tile b { font-size: 18px; }
+}

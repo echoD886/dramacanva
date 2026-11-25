@@ -1,0 +1,66 @@
+{
+    "title": "Con unas palabras, crea prompts de imagen cinematográfica",
+    "metaDescription": "Para principiantes: escribe una idea breve y la IA creará tarjetas de texto de cine con detalles fotográficos para copiar y generar imágenes y vídeos.",
+    "oneLiner": "Dale unas palabras y crea en el lienzo tarjetas de descripción de escenas cinematográficas; ideal para principiantes.",
+    "intro": [
+        "Esta es una herramienta que ayuda a los principiantes a escribir prompts (las instrucciones que se envían a la IA para dibujar o crear vídeos). Amplía las pocas palabras que se te ocurran en una descripción visual con auténtica calidad cinematográfica.",
+        "No necesitas saber fotografía complicada. Basta con preparar una palabra o frase sencilla, como “dragón chino”, “deidad antigua” o “bestia del desierto”, y enviarla directamente al asistente de IA.",
+        "Al terminar, recibirás en el lienzo una tarjeta de texto detallada. En ella se especifican el ángulo de cámara, la iluminación y los detalles del entorno, y podrás copiarla directamente para generar imágenes con aire cinematográfico."
+    ],
+    "example": {
+        "input": "Escribe «dragón chino» en el cuadro de diálogo.",
+        "output": "En el lienzo se generará una tarjeta de texto que detalla a los viandantes que miran hacia arriba desde la calle en primer plano, los edificios altos en el plano medio, un dragón oriental que atraviesa las nubes al fondo con vapor de agua, y los detalles de luz con los que un relámpago ilumina sus escamas."
+    },
+    "scenarios": [
+        "Quieres dibujar un dragón chino o una bestia mítica del clásico Shanhaijing y que su forma respete la mitología tradicional oriental, sin parecer un dragón alado occidental.",
+        "Quieres crear la llegada de una deidad antigua o de un monstruo colosal y que el monstruo parezca de verdad enorme e imponente.",
+        "Estás creando una escena apocalíptica o de catástrofe y quieres que las multitudes y los edificios del suelo sirvan para sugerir la presencia de una mole desconocida.",
+        "Quieres crear un clip de vídeo con IA y no sabes cómo describir el movimiento de cámara, los movimientos de una criatura gigantesca o los cambios de viento y lluvia."
+    ],
+    "problems": [
+        {
+            "pain": "La bestia gigante generada parece un dibujo pegado al fondo: se ve pequeña y no transmite la sensación de opresión del cine.",
+            "solve": "Añade automáticamente multitudes que miran hacia arriba y edificios altos como referencia en el suelo, y hace que el monstruo solo muestre una parte para reforzar su tamaño colosal."
+        },
+        {
+            "pain": "Quieres dibujar un dragón chino, pero la IA siempre lo dibuja como un gran lagarto occidental con alas enormes que escupe fuego.",
+            "solve": "Completa automáticamente rasgos tradicionales como el cuerpo largo de serpiente, los cuernos de ciervo y las escamas finas, y añade detalles de su avance entre viento y lluvia para evitar el dragón alado occidental."
+        },
+        {
+            "pain": "Al escribir instrucciones para vídeo solo describes la imagen, y el vídeo generado queda rígido y con movimientos poco naturales.",
+            "solve": "Especifica en orden cómo se mueve la cámara, cómo se mueve lentamente la criatura colosal y cómo reacciona el entorno con el viento y la lluvia."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el cuadro de diálogo a la derecha del lienzo.",
+        "Escribe la palabra o frase breve que quieras desarrollar, por ejemplo “dragón chino” o “la llegada de una deidad antigua”.",
+        "Consulta la tarjeta de texto generada en el lienzo; si quieres cambiarla, díselo al asistente en el cuadro de diálogo.",
+        "Copia o descarga el resultado y úsalo directamente para pedir a la IA imágenes o vídeos con aire cinematográfico."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo se consigue un aspecto cinematográfico en las imágenes generadas por IA?",
+            "a": "La clave está en especificar fuentes de luz concretas, el entorno meteorológico y personas o edificios en el suelo como referencia de escala, en lugar de limitarse a acumular frases vacías como «aspecto cinematográfico». En el lienzo de {brand}, escribe unas palabras breves y el asistente de IA completará automáticamente esos detalles fotográficos para generar una tarjeta de descripción completa."
+        },
+        {
+            "q": "¿Cómo hace la IA para que un monstruo o una bestia mítica parezca gigantesco?",
+            "a": "Lo esencial es incluir personas o edificios altos como referencia de escala y combinar un ángulo de contrapicado desde el suelo para que el monstruo solo muestre una parte. Evita mostrarlo entero y centrado; si una parte queda oculta entre nubes o sombras, la sensación de tamaño resulta más real. En el lienzo de {brand}, el asistente de IA añadirá automáticamente esos elementos de referencia y generará la tarjeta de texto."
+        },
+        {
+            "q": "¿Cómo evitar que la IA dibuje un dragón chino como un gran lagarto occidental?",
+            "a": "Hay que indicar de forma explícita rasgos tradicionales como el cuerpo largo de serpiente, los cuernos de ciervo y las escamas finas, y dejar claro que no debe tener las alas enormes ni escupir fuego propios del dragón occidental. También puedes hacer que el dragón avance entre nubes de tormenta o vapor de ríos para reforzar el aire solemne de la mitología oriental. Al usar esta habilidad, el asistente de IA generará la tarjeta de descripción con los rasgos del dragón oriental tradicional."
+        },
+        {
+            "q": "Al crear vídeos con IA, ¿cómo se consigue que el movimiento parezca natural y no rígido?",
+            "a": "Es necesario detallar por pasos el movimiento de la cámara y el del sujeto, además de añadir respuestas físicas del entorno, como hierba que se mueve con el viento o polvo que se levanta. En especial, el movimiento de los objetos enormes debe describirse como lento y pesado: cuanto mayor sea el sujeto, más evidente debe ser la reacción del entorno. En el lienzo de {brand}, el asistente de IA organiza automáticamente las descripciones dinámicas con esta lógica y genera una tarjeta de texto bien estructurada."
+        }
+    ],
+    "keywords": [
+        "imágenes cinematográficas con IA",
+        "dragón chino con IA",
+        "prompts cinematográficos",
+        "bestias míticas generadas por IA",
+        "cómo escribir prompts para vídeos con IA",
+        "descripciones de escenas cinematográficas"
+    ]
+}

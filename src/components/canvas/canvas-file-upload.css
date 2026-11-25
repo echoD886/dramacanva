@@ -1,0 +1,39 @@
+.canvas-file-upload[data-preview] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: inherit;
+    background: var(--upload-surface);
+    color: var(--upload-text);
+}
+.canvas-file-upload-preview {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+    transition: filter 480ms var(--motion-ease-out);
+}
+.canvas-file-upload[data-preview] .canvas-file-upload-copy {
+    position: absolute;
+    right: var(--space-2);
+    bottom: var(--space-2);
+    padding: var(--space-2);
+    border-radius: var(--r-md);
+    background: var(--upload-surface);
+    font-size: var(--fs-tiny);
+}
+.canvas-file-upload[data-preview] .canvas-file-upload-copy > svg,
+.canvas-file-upload[data-preview] .canvas-file-upload-label {
+    display: none;
+}
+.canvas-file-upload[data-static] .canvas-file-upload-preview {
+    transition: none;
+}
+@media (prefers-reduced-motion: reduce) {
+    .canvas-file-upload-preview {
+        transition: none;
+    }
+}

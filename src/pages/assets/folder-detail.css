@@ -1,0 +1,183 @@
+/* ==========================================================
+   Folder Detail Page v2 Styles
+   Follows Apple & Linear design standards:
+   - Real frosted glass (backdrop-filter)
+   - Saturated blurred cover & colorful theme gradient hero
+   - 3:4 portrait cinematic media grid
+   - Respects prefers-reduced-motion
+   ========================================================== */
+
+/* Ambient Glow Hero Banner */
+.folder-detail-hero {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.25rem;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (max-width: 639px) {
+    .folder-detail-hero {
+        max-height: 220px;
+    }
+}
+
+.folder-detail-ambient-glow {
+    position: absolute;
+    inset: -20%;
+    filter: blur(32px) saturate(180%) contrast(105%);
+    opacity: 0.82;
+    pointer-events: none;
+    z-index: 0;
+    transform: scale(1.15);
+    background-size: cover;
+    background-position: center;
+}
+
+.dark .folder-detail-ambient-glow {
+    filter: blur(36px) saturate(190%) contrast(110%);
+    opacity: 0.75;
+}
+
+.folder-detail-hero-scrim {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    background: linear-gradient(
+        to top,
+        rgba(255, 255, 255, 0.92) 0%,
+        rgba(255, 255, 255, 0.55) 55%,
+        rgba(255, 255, 255, 0.15) 100%
+    );
+}
+
+.dark .folder-detail-hero-scrim {
+    background: linear-gradient(
+        to top,
+        rgba(13, 14, 18, 0.94) 0%,
+        rgba(13, 14, 18, 0.58) 55%,
+        rgba(13, 14, 18, 0.15) 100%
+    );
+}
+
+.folder-detail-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+/* Metadata text with guaranteed >= 4.5:1 contrast against scrim */
+.folder-detail-meta-text {
+    color: #374151; /* gray-700 in light mode (contrast > 6:1 against light scrim) */
+    font-weight: 500;
+}
+
+.dark .folder-detail-meta-text {
+    color: #e4e4e7; /* zinc-200 in dark mode (contrast > 9:1 against dark scrim) */
+    font-weight: 500;
+}
+
+/* Glass Front Panel (Strict frosted glass with text shadow protection, never opaque) */
+.folder-detail-glass-panel {
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(26px) saturate(135%);
+    -webkit-backdrop-filter: blur(26px) saturate(135%);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px -4px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.dark .folder-detail-glass-panel {
+    background: rgba(24, 24, 27, 0.55);
+    backdrop-filter: blur(26px) saturate(135%);
+    -webkit-backdrop-filter: blur(26px) saturate(135%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px -4px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.folder-detail-text-protected {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.dark .folder-detail-text-protected {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.65);
+}
+
+/* 3:4 Media Card */
+.asset-card-3x4 {
+    transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.asset-card-3x4:hover {
+    transform: translateY(-2px);
+}
+
+.asset-card-3x4:active {
+    transform: scale(0.98);
+}
+
+/* Skeleton Shimmer Loading (105deg sweep) */
+@keyframes shimmer-sweep {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.folder-detail-shimmer {
+    background: linear-gradient(
+        105deg,
+        rgba(0, 0, 0, 0.04) 25%,
+        rgba(0, 0, 0, 0.08) 50%,
+        rgba(0, 0, 0, 0.04) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer-sweep 1.6s infinite ease-in-out;
+}
+
+.dark .folder-detail-shimmer {
+    background: linear-gradient(
+        105deg,
+        rgba(255, 255, 255, 0.04) 25%,
+        rgba(255, 255, 255, 0.09) 50%,
+        rgba(255, 255, 255, 0.04) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer-sweep 1.6s infinite ease-in-out;
+}
+
+/* Floating Command Dock */
+.folder-detail-floating-dock {
+    backdrop-filter: blur(24px) saturate(160%);
+    -webkit-backdrop-filter: blur(24px) saturate(160%);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.12);
+    animation: dock-slide-up 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes dock-slide-up {
+    from {
+        opacity: 0;
+        transform: translate(-50%, 20px) scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, 0) scale(1);
+    }
+}
+
+/* View Transitions & Reduced Motion support */
+@media (prefers-reduced-motion: reduce) {
+    .folder-detail-ambient-glow,
+    .asset-card-3x4,
+    .folder-detail-floating-dock,
+    .folder-detail-shimmer {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    ::view-transition-group(*),
+    ::view-transition-old(*),
+    ::view-transition-new(*) {
+        animation-duration: 0.15s !important;
+    }
+}

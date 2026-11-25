@@ -1,0 +1,67 @@
+{
+    "title": "Prose Polishing: Turn Drafts Into Everyday Details | {brand}",
+    "metaDescription": "Fix empty prose: send a draft in {brand}; swap abstract words for real-life details and get a marked-up revision plus a polishing checklist.",
+    "oneLiner": "Enter a draft and generate a new prose draft with everyday details and a polishing checklist on the canvas.",
+    "intro": [
+        "This is a writing tool that helps you revise articles. When you feel your prose or essays are too vague and full of big claims, it helps replace abstract buzzwords with real, concrete details from everyday life.",
+        "You only need a finished draft, or a slice-of-life fragment where you recorded an essay idea. If you have a point of view or word count you want to keep, you can tell the assistant directly.",
+        "When the revision is done, you’ll get three things on the canvas: a new prose draft with edit details marked, an explanation of the article structure, and a concrete word-polishing checklist."
+    ],
+    "example": {
+        "input": "Help me revise this essay: “My grandpa was a very frugal man, lived very simply, suffered hardship all his life, but remained optimistic and gentle.”",
+        "output": "Generate a revised draft on the canvas, changing “very frugal” to “always kept old grain ration coupons and cloth shoes with worn-through soles”; also generate an article structure explanation and a word-polishing checklist."
+    },
+    "scenarios": [
+        "When writing prose or essays, you feel the whole piece is full of big words and lacks real-life details.",
+        "When character dialogue is too direct and sounds like explaining the plot, it reads flat and stiff, without texture.",
+        "When describing everyday scenes feels like keeping a running log, and you can't capture the details that create resonance.",
+        "When writing scenery or settings, you pile on too many adjectives and want to tighten the language while leaving something to linger."
+    ],
+    "problems": [
+        {
+            "pain": "The writing is all adjectives, and readers finish feeling it's fake and without imagery.",
+            "solve": "Helps you pick out vague adjectives, replace them with concrete traces of everyday life, and mark why each change was made."
+        },
+        {
+            "pain": "Character dialogue is too direct; every line explains the plot and feels stiff.",
+            "solve": "Cuts lines that jump straight to conclusions and replaces them with dialogue that includes hesitation and action, making characters more vivid."
+        },
+        {
+            "pain": "Writing about everyday chores reads like a running log and misses the life details that move people.",
+            "solve": "Picks out details with everyday texture, helps you sort out what matters most, and builds a rhythm with rises and falls."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use This Skill” to open the canvas chat.",
+        "Send your article draft; you can also add requirements for word count or point of view.",
+        "Review the revised draft, structure explanation, and polishing checklist generated on the canvas.",
+        "Edit the text on the card, or tell the assistant to re-polish the parts you're not happy with.",
+        "Copy or download the revised manuscript and use it directly in your work."
+    ],
+    "faq": [
+        {
+            "q": "How do I keep my prose from sounding fake and empty?",
+            "a": "Replace abstract buzzwords with concrete, visible details from everyday life. First cut unnecessary adjectives, then add real traces of life. For example, replace “very sad” with the action of lowering your head and staying silent. The assistant will help you pick out vague words and replace them on the canvas."
+        },
+        {
+            "q": "What should I do if character dialogue is too stiff and sounds like explaining the plot?",
+            "a": "Cut conclusions that directly explain the plot and replace them with exchanges that include action and subtext. Send your dialogue draft to the assistant; it will help remove stiff explanatory sentences so characters reveal emotions naturally through interaction."
+        },
+        {
+            "q": "How do I revise life essays that always read like a running log?",
+            "a": "Learn to leave space in the writing and choose key details; keep only things that show traces of life, and don't record every process in a flat, straightforward way. Send the essay to the assistant, and it will help organize the structure and set a reading rhythm with rises and falls."
+        },
+        {
+            "q": "What materials do I need to prepare before using it?",
+            "a": "Just prepare a finished article draft or a few slice-of-life fragments where you recorded inspiration. If you have a specified point of view or length requirement, you can tell the assistant directly in the chat."
+        }
+    ],
+    "keywords": [
+        "prose polishing",
+        "article editing",
+        "remove AI tone from writing",
+        "how to add details to essays",
+        "dialogue polishing",
+        "how to write vivid imagery"
+    ]
+}

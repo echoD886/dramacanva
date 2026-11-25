@@ -1,0 +1,23 @@
+DramaCanvas public frontend
+Copyright (c) 2026 DramaCanvas contributors
+
+This release includes code derived from Open AI Canvas and Infinite Canvas.
+
+Open AI Canvas
+Copyright (c) 2026 ddcat and Open AI Canvas contributors
+https://github.com/ddcat-ai/open-ai-canvas
+
+Infinite Canvas
+Copyright (c) 2026 basketikun
+https://github.com/basketikun/infinite-canvas
+
+Their MIT copyright and permission notices are preserved in LICENSE.
+Changes in this distribution include a selected route set, an isolated demo
+transport, replacement example data, and public documentation.
+
+Third-party packages remain subject to their own licenses. Some optional
+editor libraries may impose additional licensing requirements for production
+use; review the packages you retain before publishing a derivative.
+
+The supplied DramaCanvas logo and the generated README cover are project
+branding assets. The name and mark do not imply endorsement of derivatives.

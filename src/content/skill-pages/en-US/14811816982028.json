@@ -1,0 +1,66 @@
+{
+    "title": "AI Same-Style Series From One Reference Image",
+    "metaDescription": "For creators and ecommerce sellers: turn one reference or brief into a consistent-style image series with varied poses or scenes.",
+    "oneLiner": "Upload a reference image or write a brief, and AI will create a consistent-style series on the canvas.",
+    "intro": [
+        "This is a tool for making matching image sets in the same style. It first analyzes the style and color palette of your reference and locks them in, so every image looks like part of the same series.",
+        "All you need is one reference image you like, or a clear description of the image idea. Tell it which style to keep and which different poses or scenes you want.",
+        "After you confirm, AI generates multiple image cards on the canvas. You can download the ones you like individually, and if something is off, you can edit and regenerate a single image."
+    ],
+    "example": {
+        "input": "Upload an illustration of a kitten wearing a red scarf, and enter: \"Make 4 kitten illustrations in the same style, reading, drinking hot cocoa, building a snowman, and skiing.\"",
+        "output": "The canvas generates 4 cards, each showing a kitten in the same style and color palette but doing a different action such as reading or drinking hot cocoa. You can download each one separately."
+    },
+    "scenarios": [
+        "Create a set of matching illustrations for the same anime or picture-book character with different expressions, poses, and everyday scenes.",
+        "Upload a product hero image and extend it into a set of ecommerce images with the same color palette and texture but different angles.",
+        "Use a style you like to create a cohesive set of sequential scene illustrations for a children's picture book.",
+        "Design a series of promotional posters for a holiday or event with the same key visual style but different specific backgrounds."
+    ],
+    "problems": [
+        {
+            "pain": "Every time I make an image, the style changes, and several images put together look like they came from different artists.",
+            "solve": "It first extracts and locks in the lighting and colors from your reference, then reuses the same style as much as possible when generating new images."
+        },
+        {
+            "pain": "When I want to change a pose or background, changing the description changes the whole art style.",
+            "solve": "It handles style descriptions and action descriptions separately, so you can adjust only the pose or scene without changing the core style."
+        },
+        {
+            "pain": "The generated series only changes colors, with almost no variation in action or viewpoint.",
+            "solve": "Before generating, it plans the viewpoint and action for each image so the set stays stylistically consistent while each image changes clearly."
+        }
+    ],
+    "steps": [
+        "In the Skill Library, click \"Use this skill,\" then write your idea or upload a reference image in the chat box on the right.",
+        "Review the visual style that AI has organized, and choose the character poses or scenes you want to change.",
+        "Check the generation plan for each image, then tell the assistant to start generating images.",
+        "Download the images you like from the canvas; if you're not happy with one, edit and regenerate that single image."
+    ],
+    "faq": [
+        {
+            "q": "How do I use AI to make a set of images in the same style?",
+            "a": "Upload a reference image or enter a description, have the skill first lock in the lighting and color rules, then generate different poses or backgrounds separately. During generation, the system tries to reuse the same style traits so you can keep the whole set consistent while still making clear visual changes."
+        },
+        {
+            "q": "Can I make images in the same style with just one reference image?",
+            "a": "Yes. After you upload a reference image, the system automatically extracts its color palette and lighting traits and tries to reuse that style to generate a series. Just describe the character poses, scenes, or themes you want to change in the chat box, and you'll get a cohesive set of images."
+        },
+        {
+            "q": "What if I'm not happy with one image in a generated set?",
+            "a": "You don't need to redo the whole set. You can edit that image's description directly on the canvas and regenerate it, and the images you like will be kept intact. Each image card on the canvas is independent, so retrying one image won't affect the rest of the set."
+        },
+        {
+            "q": "Can you just write the image descriptions for me without actually generating images?",
+            "a": "Yes. If you only need prompts (the drawing instructions you send to AI), just say \"prompts only\" in the chat. The skill will organize the style-lock terms and detailed descriptions for each image and output only the text plan on the canvas for you to copy, without calling the image generation tool."
+        }
+    ],
+    "keywords": [
+        "AI same-style image set",
+        "AI generate image series",
+        "same style illustrations from reference image",
+        "AI consistent style image generation",
+        "same style series image generator",
+        "AI character pose variation set"
+    ]
+}

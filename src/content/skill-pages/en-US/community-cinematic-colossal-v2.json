@@ -1,0 +1,66 @@
+{
+    "title": "Type a few words to get cinematic image prompts",
+    "metaDescription": "For video beginners. Enter a short idea and the AI assistant makes a canvas text card with photo details you can copy to generate images and videos.",
+    "oneLiner": "Give it a few words to create a cinematic scene description card on the canvas—great for beginners.",
+    "intro": [
+        "This tool helps beginners write prompts (instructions you send to an AI to draw or make videos). It expands a few words you come up with into scene descriptions with a realistic cinematic feel.",
+        "You don’t need to understand complex photography. Just come up with a simple word or phrase, such as “Chinese dragon,” “ancient god,” or “desert behemoth,” and send it directly to the AI assistant.",
+        "When it’s done, you’ll get a detailed text card on the canvas. It spells out the camera angle, lighting, and environmental details, and you can copy it directly to generate cinematic images."
+    ],
+    "example": {
+        "input": "Type “Chinese dragon” in the chat box.",
+        "output": "The canvas will generate a text card specifying pedestrians looking up from the foreground street, midground high-rises, an Eastern dragon weaving through distant clouds with mist, and lighting details of lightning illuminating its scales."
+    },
+    "scenarios": [
+        "You want to draw a Chinese dragon or a beast from the Classic of Mountains and Seas and want its form to fit traditional Eastern mythology, not a Western flying dragon.",
+        "You want to create a scene of an ancient god or giant monster descending and want the monster to feel truly enormous and oppressive.",
+        "You’re creating an apocalypse or disaster scene and want to use crowds and buildings on the ground to make an unknown massive creature feel huge.",
+        "You want to make an AI video clip but don’t know how to describe camera movement, the giant creature’s actions, or changes in wind and rain."
+    ],
+    "problems": [
+        {
+            "pain": "The generated giant beast looks like a picture pasted onto the background, feels small, and lacks the oppressive scale of a movie.",
+            "solve": "Automatically adds crowds looking up from the ground and high-rises as scale references, revealing only part of the monster to emphasize its enormous size."
+        },
+        {
+            "pain": "You want a Chinese dragon, but the AI keeps drawing a Western lizard with big wings that breathes fire.",
+            "solve": "Automatically adds traditional features such as a long serpentine body, antlers, and fine scales, plus details of it moving through wind and rain, avoiding a Western flying dragon."
+        },
+        {
+            "pain": "You only describe the visual scene in your video prompt, so the generated video looks stiff and the motion feels unnatural.",
+            "solve": "Lays out in order how the camera moves, how the giant creature moves slowly, and how the surrounding environment reacts to wind and rain."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to open the chat box on the right side of the canvas.",
+        "Enter the short term you want to create, such as “Chinese dragon” or “ancient god descending.”",
+        "Review the text card generated on the canvas; you can tell the assistant in the chat box how you want to revise it.",
+        "Copy or download the result and send it directly to an AI to generate cinematic images or videos."
+    ],
+    "faq": [
+        {
+            "q": "How do you get a cinematic look with AI image generation?",
+            "a": "The key is to specify the light source, weather conditions, and people and buildings on the ground as size references, rather than piling on vague phrases like “cinematic.” On the {brand} canvas, enter a short phrase and the AI assistant will automatically fill in these photographic details and generate a complete description card."
+        },
+        {
+            "q": "How can AI make a monster or mythical beast look especially huge?",
+            "a": "The key is to include people or high-rises in the image as size references, use a low-angle shot looking up from the ground, and show only part of the monster. Avoid laying out the monster’s entire body flat in the center of the frame; letting part of it hide in clouds or shadows gives a more realistic sense of enormous scale. On the {brand} canvas, the AI assistant automatically adds these reference elements according to these rules and generates a text card."
+        },
+        {
+            "q": "How do I keep AI from drawing a Chinese dragon as a Western lizard?",
+            "a": "Clearly describe traditional features such as a long serpentine body, antlers, and fine scales, and explicitly remove the big wings and fire-breathing actions of Western flying dragons. You can also have the dragon weave through storm clouds or river mist to add the solemn atmosphere of Eastern mythology. When you use this skill, the AI assistant automatically generates a description card based on traditional Eastern dragon features."
+        },
+        {
+            "q": "When making an AI video, how do I make motion look natural instead of stiff?",
+            "a": "You need to describe camera movement and subject motion step by step, and add physical feedback from the surrounding environment, such as wind moving grass or dust flying. In particular, write the motion of massive objects as slow and heavy; the larger the subject, the more obvious the environment’s chain reactions should be. On the {brand} canvas, the AI assistant automatically arranges the motion description according to this logic and generates a standardized text card."
+        }
+    ],
+    "keywords": [
+        "cinematic image generation",
+        "AI Chinese dragon",
+        "cinematic prompts",
+        "mythical giant beast AI image",
+        "how to write AI video prompts",
+        "cinematic scene description"
+    ]
+}

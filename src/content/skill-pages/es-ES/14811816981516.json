@@ -1,0 +1,66 @@
+{
+    "title": "Colorear dibujos de anime en lote con una referencia",
+    "metaDescription": "Para cómics o animación: sube varios dibujos a línea en blanco y negro y una referencia en color para generar imágenes coloreadas de estilo uniforme.",
+    "oneLiner": "Para quien dibuja: sube dibujos a línea y una referencia y genera imágenes en color por lotes en el lienzo.",
+    "intro": [
+        "Esta es una herramienta que ayuda a colorear dibujos a línea en blanco y negro. Cuando tienes varios dibujos a línea terminados, puede tomar la paleta de una misma imagen en color y ayudarte a colorearlos de forma uniforme en el lienzo.",
+        "Solo necesitas preparar dos cosas: varios dibujos a línea en blanco y negro y una imagen de referencia con el estilo de color. Si tienes requisitos de color especiales, como cambiar el color del pelo, también puedes indicarlos de antemano.",
+        "Cuando confirmes los requisitos, en el lienzo se generarán automáticamente tarjetas de imágenes en color ya coloreadas. Intentará conservar los trazos originales, y cada imagen se podrá ver, ajustar o descargar por separado."
+    ],
+    "example": {
+        "input": "Subí 4 dibujos a línea de personajes de anime en acción y 1 ilustración de atardecer como referencia, y dejé un comentario: «Mantén la ropa en blanco y refuerza la luz cálida del atardecer».",
+        "output": "En el lienzo se generan 4 tarjetas de imágenes en color de alta definición. Las imágenes conservan el contorno de los trazos originales, adoptan la tonalidad cálida del atardecer de la referencia y la ropa aparece en blanco según lo solicitado."
+    },
+    "scenarios": [
+        "Has terminado varios dibujos a línea de animación consecutivos y quieres colorearlos de forma uniforme para ver el resultado conjunto.",
+        "Has acabado un manga en blanco y negro y quieres colorear rápidamente varias páginas por lotes según la hoja de diseño del protagonista.",
+        "Has dibujado varios bocetos de acción del mismo personaje y quieres usar una sola imagen en color para unificar toda la iluminación y el tono de piel.",
+        "Has hecho una serie de dibujos en blanco y negro y te ha gustado la paleta de cierta ilustración; quieres aplicar ese tono de color."
+    ],
+    "problems": [
+        {
+            "pain": "Colorear a mano uno por uno varios dibujos en blanco y negro lleva demasiado tiempo, y es fácil que los colores no coincidan entre unas imágenes y otras.",
+            "solve": "Toma los colores de una sola imagen en color como referencia y genera imágenes coloreadas por lotes en el lienzo, ahorrando el tiempo de buscar y aplicar el color en cada imagen."
+        },
+        {
+            "pain": "Preocupa que el coloreado estropee los trazos originales y haga que los rasgos del personaje se deformen o se pierdan detalles.",
+            "solve": "Al colorear, intentará conservar los trazos y la figura del personaje del original, manteniendo los contornos claros y reduciendo las deformaciones de forma."
+        },
+        {
+            "pain": "Después de generar por lotes, si una o dos imágenes no quedan como esperabas, preocupa tener que rehacerlo todo.",
+            "solve": "Cada imagen es una tarjeta independiente en el lienzo; si alguna no te convence, puedes pedir que se vuelva a generar solo esa, sin afectar a las demás."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el lienzo y abrir el cuadro de diálogo.",
+        "Sube varios dibujos a línea en blanco y negro y una imagen de referencia en color, y explica tus ideas adicionales sobre la combinación de colores.",
+        "Revisa la lista de materiales y requisitos que ha preparado el asistente; cuando todo sea correcto, empieza la generación por lotes.",
+        "Consulta las imágenes en color del lienzo, ajusta por separado las que no te convenzan y, cuando estén a tu gusto, descarga las imágenes."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo se colorean por lotes varios dibujos a línea de manga en blanco y negro?",
+            "a": "Sube varios dibujos a línea y una imagen de referencia en color, y el asistente los coloreará por lotes siguiendo los colores de la referencia. Antes de generar, comprobará contigo si hay requisitos especiales, como indicar el color de una zona concreta. Cuando termine, todas las imágenes en color aparecerán directamente en el lienzo para que puedas compararlas."
+        },
+        {
+            "q": "¿Los trazos originales se volverán borrosos o se deformarán después de colorear?",
+            "a": "Normalmente no; esta herramienta intentará conservar los contornos y los rasgos del personaje del original al colorear. Si en alguna imagen concreta los trazos no quedan suficientemente claros, puedes pedir ajustes directamente en el cuadro de diálogo y volver a generar solo esa imagen."
+        },
+        {
+            "q": "¿Qué hago si una de las imágenes coloreadas generadas por lotes no me convence?",
+            "a": "Puedes modificar solo esa imagen, sin necesidad de volver a generar todas. Basta con seleccionar en el lienzo la tarjeta de la imagen que no te convence, indicar al asistente en el cuadro de diálogo cómo quieres cambiarla y volver a generarla."
+        },
+        {
+            "q": "¿Qué tipo de imagen de referencia en color debería preparar?",
+            "a": "Basta con una ilustración en color, una captura de animación o una imagen en color de un personaje con colores bien definidos. La herramienta se fija principalmente en su paleta, sus luces y sombras y su textura general. Cuanto más clara sea la sensación de luz de la imagen, más uniforme será el estilo de las imágenes coloreadas."
+        }
+    ],
+    "keywords": [
+        "colorear dibujos a línea por lotes",
+        "colorear manga en blanco y negro",
+        "colorear dibujos con IA",
+        "colorear bocetos en blanco y negro",
+        "colorear con imagen de referencia",
+        "colorear animación"
+    ]
+}

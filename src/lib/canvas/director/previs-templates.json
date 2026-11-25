@@ -1,0 +1,127 @@
+[
+    {
+        "id": "subway-platform-v1",
+        "version": 1,
+        "size": [16, 3.4, 6],
+        "walkableArea": {
+            "outline": [
+                [-8, -2.8],
+                [8, -2.8],
+                [8, 2.7],
+                [-8, 2.7]
+            ],
+            "holes": [
+                [
+                    [-4.225, -2.225],
+                    [-3.775, -2.225],
+                    [-3.775, -1.775],
+                    [-4.225, -1.775]
+                ],
+                [
+                    [-0.225, -2.225],
+                    [0.225, -2.225],
+                    [0.225, -1.775],
+                    [-0.225, -1.775]
+                ],
+                [
+                    [3.775, -2.225],
+                    [4.225, -2.225],
+                    [4.225, -1.775],
+                    [3.775, -1.775]
+                ],
+                [
+                    [0.8, -1.3],
+                    [3.2, -1.3],
+                    [3.2, -0.7],
+                    [0.8, -0.7]
+                ]
+            ]
+        },
+        "obstacles": [
+            {
+                "objectId": "platform-column-1",
+                "assetId": "platform-column",
+                "polygon": [
+                    [-4.225, -2.225],
+                    [-3.775, -2.225],
+                    [-3.775, -1.775],
+                    [-4.225, -1.775]
+                ]
+            },
+            {
+                "objectId": "platform-column-2",
+                "assetId": "platform-column",
+                "polygon": [
+                    [-0.225, -2.225],
+                    [0.225, -2.225],
+                    [0.225, -1.775],
+                    [-0.225, -1.775]
+                ]
+            },
+            {
+                "objectId": "platform-column-3",
+                "assetId": "platform-column",
+                "polygon": [
+                    [3.775, -2.225],
+                    [4.225, -2.225],
+                    [4.225, -1.775],
+                    [3.775, -1.775]
+                ]
+            },
+            {
+                "objectId": "platform-bench",
+                "assetId": "bench",
+                "polygon": [
+                    [0.8, -1.3],
+                    [3.2, -1.3],
+                    [3.2, -0.7],
+                    [0.8, -0.7]
+                ]
+            },
+            {
+                "objectId": "platform-background-wall",
+                "assetId": "platform-background-wall",
+                "polygon": [
+                    [-8, -3],
+                    [8, -3],
+                    [8, -2.8],
+                    [-8, -2.8]
+                ]
+            }
+        ],
+        "anchors": {
+            "platform-west-entry": { "position": [-5, 0, 0.5], "kind": "ground" },
+            "platform-east-entry": { "position": [5, 0, 0.5], "kind": "ground" },
+            "meeting-point-a": { "position": [-1, 0, 0.5], "kind": "ground" },
+            "meeting-point-b": { "position": [0.8, 0, 0.5], "kind": "ground" },
+            "bench-seat": { "position": [2, 0, -1], "kind": "seat", "objectId": "platform-bench" }
+        },
+        "actorSpawns": [
+            [-5, 0, 0.5],
+            [0.8, 0, 0.5],
+            [5, 0, 0.5],
+            [-6, 0, 1.5],
+            [-5.2, 0, 1.5],
+            [-4.4, 0, 1.5],
+            [-3.6, 0, 1.5],
+            [-2.8, 0, 1.5],
+            [-2, 0, 1.5],
+            [-1.2, 0, 1.5],
+            [-0.4, 0, 1.5],
+            [0.4, 0, 1.5],
+            [1.2, 0, 1.5],
+            [2, 0, 1.5],
+            [2.8, 0, 1.5],
+            [3.6, 0, 1.5]
+        ],
+        "objects": [
+            { "id": "platform-ground", "assetId": "platform-ground", "position": [0, -0.1, 0] },
+            { "id": "platform-edge", "assetId": "platform-edge", "position": [0, 0.05, 2.8] },
+            { "id": "platform-background-wall", "assetId": "platform-background-wall", "position": [0, 1.7, -2.9] },
+            { "id": "platform-column-1", "assetId": "platform-column", "position": [-4, 0, -2] },
+            { "id": "platform-column-2", "assetId": "platform-column", "position": [0, 0, -2] },
+            { "id": "platform-column-3", "assetId": "platform-column", "position": [4, 0, -2] },
+            { "id": "platform-bench", "assetId": "bench", "position": [2, 0, -1] }
+        ]
+    }
+]

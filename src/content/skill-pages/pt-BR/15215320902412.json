@@ -1,0 +1,67 @@
+{
+    "title": "Design de personagem acolhedor: ficha, referências e temas",
+    "metaDescription": "Para iniciantes em vídeos acolhedores: digite sua ideia no chat e a IA cria no canvas a ficha do personagem, imagens de referência e temas de vídeo.",
+    "oneLiner": "Digite a ideia do personagem e gere no canvas a ficha, as referências e os temas de vídeo em estilo acolhedor.",
+    "intro": [
+        "Esta é uma ferramenta de criação para projetar personagens originais. Mesmo sem saber desenhar, ela ajuda a transformar as ideias fofas da sua cabeça em um protagonista exclusivo, com visual marcante e pronto para vídeos curtos.",
+        "Você só precisa de uma ideia simples, como “um ursinho de pelúcia que adora sopa”, ou de um rabisco feito à mão. Conte suas preferências à IA no chat e responda a algumas perguntas simples.",
+        "Depois, você recebe no canvas uma ficha completa do personagem, 3 imagens de referência e 10 temas de vídeo, fáceis de salvar e usar como ponto de partida para gravar."
+    ],
+    "example": {
+        "input": "Quero criar um pequeno espírito acolhedor, parecido com uma gota de chuva azul-clara, com textura de pelúcia, usando um chapeuzinho de chuva transparente, segurando uma luz noturna e morando numa loja de conveniência depois da chuva.",
+        "output": "No canvas, gera uma ficha do personagem (com aparência, personalidade e hábitos), 3 imagens do personagem-gota de pelúcia e 10 temas de vídeos curtos sobre o dia a dia na loja de conveniência depois da chuva."
+    },
+    "scenarios": [
+        "Quer fazer vídeos curtos acolhedores, mas só tem uma ideia vaga na cabeça e não sabe como definir o personagem.",
+        "Você fez um rabisco ou encontrou uma imagem de que gosta e quer que a IA crie um personagem completo a partir dela.",
+        "Já criou um personagem fofo, mas não sabe que vídeos gravar e perde a inspiração depois de duas publicações.",
+        "Pretende fazer vídeos de rotina com comida ou de companhia para dormir e quer ter um protagonista fixo só seu."
+    ],
+    "problems": [
+        {
+            "pain": "Quer criar um personagem original, mas a aparência que imaginou é comum demais e as pessoas esquecem rápido.",
+            "solve": "Ajuda a adicionar ao personagem um gesto marcante, um objeto exclusivo e uma textura especial para que ele seja lembrado de imediato."
+        },
+        {
+            "pain": "Quando você gera imagens com IA, o mesmo personagem aparece sempre com rosto e roupa diferentes.",
+            "solve": "Fixa os detalhes físicos e as características de estilo do personagem e gera um conjunto de comandos de imagem exclusivo para manter a aparência o mais consistente possível."
+        },
+        {
+            "pain": "O personagem já está criado, mas você não sabe que vídeos fazer e fica sem ideias depois de duas postagens.",
+            "solve": "Define o ambiente em que o personagem vive e organiza 10 temas de vídeos curtos que abrangem o cotidiano e a culinária."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e digite sua ideia de personagem no chat à direita.",
+        "Envie uma imagem de referência ou um esboço feito à mão (se não tiver, pode pular) para a IA extrair as características visuais.",
+        "Escolha uma proposta de personagem de que goste e veja a ficha detalhada do personagem no canvas.",
+        "Veja as 3 imagens de referência geradas no canvas e escolha a que mais gostar.",
+        "Baixe a imagem do personagem escolhida e salve os 10 cartões de temas de vídeo do canvas."
+    ],
+    "faq": [
+        {
+            "q": "Sem saber desenhar, dá para criar um personagem original com IA?",
+            "a": "Sim, não é preciso ter formação em desenho. Basta dizer sua ideia no chat e a IA ajuda a organizar aparência, personalidade e objetos exclusivos, além de gerar a ficha e as imagens de referência no canvas. Se algo na proposta não agradar, edite o texto no canvas ou peça ajustes à IA."
+        },
+        {
+            "q": "Como evitar que o personagem fique diferente a cada geração com IA?",
+            "a": "É possível manter a consistência fixando as características visuais. Esta habilidade ajuda a extrair o contorno, a textura e os objetos exclusivos do personagem e gera um conjunto de comandos de imagem para reutilizar depois. Ao incluir essa descrição em novas imagens, você reduz as variações e mantém a aparência mais coerente."
+        },
+        {
+            "q": "Depois de criar o personagem, como ter ideias de vídeos para publicar sempre?",
+            "a": "A habilidade define um cenário de vida fixo para o personagem e organiza os 10 primeiros temas de vídeos curtos, com opções de rotina e comida acolhedora para servir de referência. Os cartões de temas são gerados direto no canvas, indicando ações e destaques visuais, para você consultar a qualquer momento e gravar."
+        },
+        {
+            "q": "Esta habilidade gera vídeos curtos já editados?",
+            "a": "Não. Ela serve principalmente para criar a ficha do personagem, gerar imagens de referência e temas de vídeo, sem produzir um vídeo completo já editado. Se quiser ver o personagem em movimento, peça à IA um trecho de teste de animação; o vídeo final precisa ser organizado e exportado por você na linha do tempo do canvas do {brand}."
+        }
+    ],
+    "keywords": [
+        "design de personagem acolhedor",
+        "criar personagem original com IA",
+        "design de protagonista para vídeos curtos",
+        "ideias de vídeos acolhedores",
+        "gerar ficha de personagem",
+        "tutorial de criação de personagem com IA"
+    ]
+}

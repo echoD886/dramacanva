@@ -1,0 +1,66 @@
+{
+    "title": "Ritmo de edição: cortes de diálogo e transições",
+    "metaDescription": "Para iniciantes em edição. Envie diálogo ou enredo e a IA marca no canvas cortes, ordem das duas linhas e transições, gerando um cartão de planejamento.",
+    "oneLiner": "Insira um diálogo ou enredo e gere no canvas um plano de cortes e transições para iniciantes.",
+    "intro": [
+        "Esta é uma ferramenta de planejamento de ritmo do {brand} para iniciantes em edição. Insira um diálogo ou enredo e a IA gera no canvas um plano de cortes e transições, resolvendo diálogos monótonos, tramas múltiplas confusas e mudanças de cena abruptas.",
+        "Você só precisa preparar um trecho de roteiro com diálogo ou uma descrição simples da história. Se tiver preferências específicas de ritmo, como deixar tudo mais rápido ou usar um tipo específico de mudança de cena, também pode dizer isso diretamente à IA.",
+        "Ao terminar, você receberá no canvas um cartão de planejamento de edição. Ele indica claramente quando cada plano deve ser cortado, quando mostrar a expressão de quem escuta enquanto alguém fala e em que momentos as duas linhas da história se alternam."
+    ],
+    "example": {
+        "input": "Um trecho de roteiro de duas pessoas negociando e discutindo; sinto que cada uma fala por si e fica monótono. Me ajude a planejar como cortar os planos.",
+        "output": "O canvas gera um cartão de plano de edição: marca os pontos de corte conforme as pausas das falas e as variações de emoção, e sugere cortar para o plano silencioso da reação do outro, com os punhos cerrados, quando um deles faz uma ameaça."
+    },
+    "scenarios": [
+        "Uma longa conversa entre duas pessoas ficou monótona; você quer incluir expressões de quem escuta e detalhes específicos para deixar o ritmo mais vivo.",
+        "Dois personagens agem ao mesmo tempo em lugares diferentes; é preciso definir a ordem de alternância entre as duas linhas narrativas.",
+        "A história muda para uma nova cena ou salta no tempo; você quer usar ligações visuais naturais para evitar cortes bruscos.",
+        "Você não quer escrever longos diálogos e prefere unir dois planos de detalhe para transmitir a solidão interior do personagem."
+    ],
+    "problems": [
+        {
+            "pain": "Os planos da conversa entre duas pessoas alternam de forma mecânica, e a cena fica monótona como uma lista recitada.",
+            "solve": "Planejar os pontos de corte conforme as pausas da fala e as viradas emocionais, inserindo no meio planos da expressão de quem escuta."
+        },
+        {
+            "pain": "Ao editar várias linhas da história, os cortes saltam de um lado para o outro e o público não entende a ordem e a conexão.",
+            "solve": "Por padrão, planejar no máximo duas linhas paralelas e alternar nos momentos de ação ou picos emocionais, mantendo a narrativa clara."
+        },
+        {
+            "pain": "As mudanças de cena dependem de cortes secos e bruscos, ou de efeitos adicionados sem critério que deixam a imagem com aparência barata.",
+            "solve": "Priorizar transições contínuas por ação ou olhar, e indicar o momento de fade in/fade out quando necessário."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie sua demanda de edição à IA no painel à direita.",
+        "Envie um roteiro com diálogo ou uma sinopse da história e diga à IA se prefere um ritmo mais rápido ou mais lento e quais transições prefere.",
+        "Veja o cartão de plano gerado no canvas e confirme os pontos de corte de cada plano e as sugestões de transição.",
+        "Copie ou baixe o resultado e use os pontos de corte e a ordem indicados no plano como referência para editar seu vídeo."
+    ],
+    "faq": [
+        {
+            "q": "Como editar um vídeo em que duas pessoas só conversam sem ficar entediante?",
+            "a": "Corte para o plano silencioso da reação de quem escuta nas pausas das falas principais ou nas mudanças de emoção, quebrando a monotonia da conversa em vai e vem. A IA marca os pontos de corte no canvas conforme as oscilações das falas, ajuda a ajustar o ritmo do diálogo e a mostrar a interação emocional entre os personagens."
+        },
+        {
+            "q": "Como fazer a transição entre cenas de forma natural?",
+            "a": "Priorize transições naturais ligadas por ação ou olhar e use o mínimo possível de efeitos de transição bruscos. Quando a história avança muito no tempo ou muda bastante de lugar, considere uma transição em que a imagem escurece aos poucos e clareia de novo. A IA indicará claramente no cartão de plano quando usar cada uma."
+        },
+        {
+            "q": "Como editar ações que acontecem ao mesmo tempo com dois personagens em lugares diferentes?",
+            "a": "Edite alternando as duas linhas narrativas e faça os cortes nos momentos de ação ou quando a emoção caminha para o clímax. Por padrão, a plataforma planeja no máximo duas linhas paralelas para evitar confusão no público; a IA marca no canvas os pontos exatos de alternância."
+        },
+        {
+            "q": "Sem diálogo, como mostrar ao público que o personagem está triste ou solitário?",
+            "a": "Você pode unir dois planos de detalhe relacionados e deixar o público perceber a emoção por conta própria. Por exemplo, emendar a expressão absorta do personagem com folhas caindo do lado de fora da janela; sem diálogo, isso também transmite a sensação de abandono. A IA pode sugerir esse tipo de combinação de imagens no canvas."
+        }
+    ],
+    "keywords": [
+        "como editar cenas de diálogo",
+        "como fazer transições de vídeo",
+        "ritmo de edição de vídeo",
+        "editar narrativa com duas linhas",
+        "técnicas de corte de câmera",
+        "tutorial de edição de série curta"
+    ]
+}

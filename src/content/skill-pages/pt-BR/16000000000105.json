@@ -1,0 +1,67 @@
+{
+    "title": "Anúncio curto: analise referência, roteiro e storyboard",
+    "metaDescription": "Para criar anúncios em vídeo: envie prints de referência ou fotos do produto; a IA organiza a estrutura, calcula falas no tempo e gera storyboard e cards.",
+    "oneLiner": "Ideal para iniciantes em vídeo: insira o produto e um vídeo de referência e gere storyboard e falas na tela.",
+    "intro": [
+        "Este é o fluxo do {brand} para ajudar você a planejar anúncios em vídeo. Ideal para quem quer fazer vídeos de venda mas não sabe escrever roteiro e consegue analisar vídeos bons de outras pessoas para transformá-los em ideias para o próprio anúncio.",
+        "Você só precisa preparar os diferenciais e fotos do seu produto ou enviar alguns prints de anúncios em vídeo que quer usar como referência. Envie tudo direto no chat à direita e diga à IA quantos segundos o anúncio deve ter.",
+        "A IA gera na tela cards com o roteiro falado, a tabela de storyboard (dividindo o vídeo em cenas e descrevendo o que aparece em cada uma) e as imagens e trechos de vídeo correspondentes a cada cena, para você editar e baixar."
+    ],
+    "example": {
+        "input": "Quero fazer um anúncio de 15 segundos para uma garrafa térmica. Estas são fotos do produto e os diferenciais: mantém a temperatura por 24 horas e não vaza. Também anexei um print de um vídeo de sucesso do mesmo nicho.",
+        "output": "Na tela aparecem cards com uma fala de pouco mais de 30 caracteres que cabe no tempo, um storyboard dividido em 5 cenas e, para cada cena, imagens de apresentação da garrafa térmica e trechos curtos de vídeo."
+    },
+    "scenarios": [
+        "Você vê um anúncio muito bom de um concorrente do mesmo segmento, quer aproveitar o ritmo das cenas, mas não sabe como analisar e dividir esse vídeo.",
+        "As falas de 15 segundos que você escreve sempre passam do tempo ou não cabem na leitura, e você precisa controlar com precisão o número de caracteres pelo tempo de fala.",
+        "As pessoas sempre saem do vídeo nos primeiros três segundos, e você não consegue pensar em uma abertura que prenda a atenção.",
+        "Você tem receio de que gerar o vídeo diretamente distorça o produto e quer ver primeiro imagens estáticas para confirmar os detalhes."
+    ],
+    "problems": [
+        {
+            "pain": "Quer se inspirar em um anúncio em vídeo excelente de outra pessoa, mas não sabe como analisá-lo e dividir em partes.",
+            "solve": "Envie prints do vídeo de referência à IA. Ela ajuda a organizar a ordem das cenas e, combinando com o seu produto, escreve novos cards de roteiro."
+        },
+        {
+            "pain": "A fala de 15 segundos que você escreveu é longa demais; na locução, a velocidade fica rápida demais e às vezes não dá tempo de terminar.",
+            "solve": "Calculamos o número de caracteres com base em 2 a 3 caracteres por segundo, mantendo a fala de 15 segundos entre 30 e 40 caracteres para evitar uma velocidade muito rápida."
+        },
+        {
+            "pain": "Nas imagens geradas do vídeo, o material do produto pode mudar ou a aparência pode ficar distorcida.",
+            "solve": "Defina primeiro as características visuais na tela, gere as imagens de storyboard uma a uma para você confirmar e, só depois de aprovar, gere os trechos de vídeo."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o chat à direita.",
+        "Envie à IA fotos do produto, os diferenciais ou prints do vídeo de referência.",
+        "Revise e edite os cards gerados com as falas e as descrições do storyboard.",
+        "Peça ao assistente para gerar as imagens de storyboard e os trechos de vídeo correspondentes.",
+        "Organize a ordem na linha do tempo do vídeo e depois exporte."
+    ],
+    "faq": [
+        {
+            "q": "Como transformar um vídeo bem-feito de outra pessoa em um roteiro para o meu produto?",
+            "a": "Envie ao assistente prints do vídeo de referência e os diferenciais do seu produto. Ele mantém a estrutura do vídeo original e gera novos cards de roteiro combinados com o seu produto. Você pode editar as falas diretamente na tela e depois gerar as imagens das cenas correspondentes."
+        },
+        {
+            "q": "Quantos caracteres deve ter a fala de um anúncio em vídeo curto para não ficar corrida?",
+            "a": "O ideal é calcular a fala de vídeo curto com 2 a 3 caracteres por segundo. Para um anúncio de 15 segundos, recomenda-se manter entre 30 e 40 caracteres. Acima de 45 caracteres, a locução fica corrida demais e pode até estourar o tempo. Ao escrever as falas, o assistente já calcula o número de caracteres conforme a duração."
+        },
+        {
+            "q": "Como escrever a abertura do vídeo para prender a atenção?",
+            "a": "Você pode abrir com uma pergunta, uma ideia contraintuitiva ou mostrando o resultado de forma direta. Envie os diferenciais do seu produto à IA, e ela escreve várias opções de abertura para os três primeiros segundos, com ângulos diferentes. Na tela, escolha a versão que mais gostar, gere o vídeo e teste o resultado."
+        },
+        {
+            "q": "O que fazer se a aparência do produto ficar distorcida ao gerar o vídeo?",
+            "a": "Gere primeiro imagens estáticas de storyboard para conferir a aparência. Se alguma cena ficar distorcida, basta alterar a descrição e gerar novamente essa cena. Antes de começar a gerar, descreva com clareza o material, o tamanho real e os detalhes do produto; isso ajuda a reduzir distorções na imagem."
+        }
+    ],
+    "keywords": [
+        "criação de anúncio em vídeo curto",
+        "como escrever roteiro de vídeo",
+        "criar storyboard de vídeo",
+        "quantas palavras por segundo narração",
+        "gancho para anúncio em vídeo",
+        "como analisar vídeo de referência"
+    ]
+}

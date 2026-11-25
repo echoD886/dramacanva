@@ -1,0 +1,175 @@
+--- a/es/hooks/useListPosition/useSizes.js
++++ b/es/hooks/useListPosition/useSizes.js
+@@ -4,7 +4,14 @@
+  */
+ export default function useSizes() {
+   const [sizeMap, setSizeMap] = React.useState({});
++  const observers = React.useRef(new Map());
++  React.useEffect(() => () => {
++    observers.current.forEach(observer => observer.disconnect());
++    observers.current.clear();
++  }, []);
+   const setNodeSize = React.useCallback((key, node) => {
++    observers.current.get(key)?.disconnect();
++    observers.current.delete(key);
+     if (!node) {
+       setSizeMap(prevSizeMap => {
+         if (!(key in prevSizeMap)) {
+@@ -18,20 +25,24 @@
+       });
+       return;
+     }
+-    const nextSize = {
+-      width: node.offsetWidth,
+-      height: node.offsetHeight
+-    };
+-    setSizeMap(prevSizeMap => {
+-      const prevSize = prevSizeMap[key];
+-      if (prevSize && prevSize.width === nextSize.width && prevSize.height === nextSize.height) {
+-        return prevSizeMap;
+-      }
+-      return {
+-        ...prevSizeMap,
+-        [key]: nextSize
+-      };
++    // Ref callbacks run among DOM writes. Measure after native layout instead
++    // of forcing the entire workspace to lay out during React's commit.
++    const observer = new ResizeObserver(([entry]) => {
++      const box = entry.borderBoxSize[0];
++      const nextSize = { width: Math.round(box.inlineSize), height: Math.round(box.blockSize) };
++      setSizeMap(prevSizeMap => {
++        const prevSize = prevSizeMap[key];
++        if (prevSize && prevSize.width === nextSize.width && prevSize.height === nextSize.height) {
++          return prevSizeMap;
++        }
++        return {
++          ...prevSizeMap,
++          [key]: nextSize
++        };
++      });
+     });
++    observer.observe(node, { box: 'border-box' });
++    observers.current.set(key, observer);
+   }, []);
+   return [sizeMap, setNodeSize];
+-}
+\ No newline at end of file
++}
+--- a/es/NotificationList/index.js
++++ b/es/NotificationList/index.js
+@@ -137,12 +137,18 @@
+     }
+ 
+     // CSS gap impacts stack offset and total list height calculation.
+-    const {
+-      gap: cssGap,
+-      rowGap
+-    } = window.getComputedStyle(listNode);
+-    const nextGap = parseFloat(rowGap || cssGap) || 0;
+-    setGap(prevGap => prevGap === nextGap ? prevGap : nextGap);
++    const measure = () => {
++      const {
++        gap: cssGap,
++        rowGap
++      } = window.getComputedStyle(listNode);
++      const nextGap = parseFloat(rowGap || cssGap) || 0;
++      setGap(prevGap => prevGap === nextGap ? prevGap : nextGap);
++    };
++    // Read computed gap after layout, alongside the native resize delivery.
++    const observer = new ResizeObserver(measure);
++    observer.observe(listNode);
++    return () => observer.disconnect();
+   }, [hasConfigList]);
+ 
+   // ========================= Render =========================
+@@ -214,4 +220,4 @@
+     });
+   })));
+ };
+-export default NotificationList;
+\ No newline at end of file
++export default NotificationList;
+--- a/lib/hooks/useListPosition/useSizes.js
++++ b/lib/hooks/useListPosition/useSizes.js
+@@ -12,7 +12,14 @@
+  */
+ function useSizes() {
+   const [sizeMap, setSizeMap] = React.useState({});
++  const observers = React.useRef(new Map());
++  React.useEffect(() => () => {
++    observers.current.forEach(observer => observer.disconnect());
++    observers.current.clear();
++  }, []);
+   const setNodeSize = React.useCallback((key, node) => {
++    observers.current.get(key)?.disconnect();
++    observers.current.delete(key);
+     if (!node) {
+       setSizeMap(prevSizeMap => {
+         if (!(key in prevSizeMap)) {
+@@ -26,20 +33,24 @@
+       });
+       return;
+     }
+-    const nextSize = {
+-      width: node.offsetWidth,
+-      height: node.offsetHeight
+-    };
+-    setSizeMap(prevSizeMap => {
+-      const prevSize = prevSizeMap[key];
+-      if (prevSize && prevSize.width === nextSize.width && prevSize.height === nextSize.height) {
+-        return prevSizeMap;
+-      }
+-      return {
+-        ...prevSizeMap,
+-        [key]: nextSize
+-      };
++    // Ref callbacks run among DOM writes. Measure after native layout instead
++    // of forcing the entire workspace to lay out during React's commit.
++    const observer = new ResizeObserver(([entry]) => {
++      const box = entry.borderBoxSize[0];
++      const nextSize = { width: Math.round(box.inlineSize), height: Math.round(box.blockSize) };
++      setSizeMap(prevSizeMap => {
++        const prevSize = prevSizeMap[key];
++        if (prevSize && prevSize.width === nextSize.width && prevSize.height === nextSize.height) {
++          return prevSizeMap;
++        }
++        return {
++          ...prevSizeMap,
++          [key]: nextSize
++        };
++      });
+     });
++    observer.observe(node, { box: 'border-box' });
++    observers.current.set(key, observer);
+   }, []);
+   return [sizeMap, setNodeSize];
+-}
+\ No newline at end of file
++}
+--- a/lib/NotificationList/index.js
++++ b/lib/NotificationList/index.js
+@@ -146,12 +146,18 @@
+     }
+ 
+     // CSS gap impacts stack offset and total list height calculation.
+-    const {
+-      gap: cssGap,
+-      rowGap
+-    } = window.getComputedStyle(listNode);
+-    const nextGap = parseFloat(rowGap || cssGap) || 0;
+-    setGap(prevGap => prevGap === nextGap ? prevGap : nextGap);
++    const measure = () => {
++      const {
++        gap: cssGap,
++        rowGap
++      } = window.getComputedStyle(listNode);
++      const nextGap = parseFloat(rowGap || cssGap) || 0;
++      setGap(prevGap => prevGap === nextGap ? prevGap : nextGap);
++    };
++    // Read computed gap after layout, alongside the native resize delivery.
++    const observer = new ResizeObserver(measure);
++    observer.observe(listNode);
++    return () => observer.disconnect();
+   }, [hasConfigList]);
+ 
+   // ========================= Render =========================

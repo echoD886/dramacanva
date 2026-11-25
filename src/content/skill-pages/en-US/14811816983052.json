@@ -1,0 +1,67 @@
+{
+    "title": "Turn ideas into story outlines, characters, and plot arcs",
+    "metaDescription": "For video and short-drama creators. Enter an idea or partial story to get clear character profiles, scene-by-scene outlines, and revision tips on a canvas.",
+    "oneLiner": "Give it an idea, and it clarifies characters and a complete story outline for video creators on a canvas.",
+    "intro": [
+        "This is a writing tool that helps you refine your story framework. Whether you want to make short dramas or short videos, it can help you turn scattered thoughts into a coherent story.",
+        "All you need is a one-sentence idea, a short plot summary, or a rough draft. Just tell it who you want to make it for and whether you want the story to lean funny or emotional.",
+        "It will generate several cards on a canvas, including a one-sentence story summary, a list of protagonist and supporting character traits, and a sequential plot development table to help you write the script later."
+    ],
+    "example": {
+        "input": "I want to write a 3-minute comedy short: a police dog who is afraid of the dark works his first night shift and must overcome his fear to catch a dog food thief.",
+        "output": "The canvas will show character trait and goal cards for the police dog and the thief, plus a sequential plot development table that spells out what happens in each scene and where the jokes are."
+    },
+    "scenarios": [
+        "A new idea suddenly pops into your head, and you want to quickly map out a complete story outline.",
+        "You get stuck halfway through writing, the plot won't move forward, and you don't know what should happen next.",
+        "You feel the protagonist is too ordinary and not appealing enough, and you want to redesign a character people will like.",
+        "After finishing the story, something feels off, and you want to check for logic gaps or a weak ending."
+    ],
+    "problems": [
+        {
+            "pain": "You have an idea but can't write it out, and you don't know what to define first in the story.",
+            "solve": "It helps you clarify who the story is for, summarize the story in one sentence, and generate the core setup on a canvas."
+        },
+        {
+            "pain": "The middle of the story is flat and slow, the protagonist acts without reason, and the plot feels like a boring recap.",
+            "solve": "It helps you check cause and effect, gives each turning point a reasonable obstacle and emotional peak, and keeps the plot moving with ups and downs."
+        },
+        {
+            "pain": "After finishing the story, it always feels strange or likely to end poorly, but you can't pinpoint the exact problem.",
+            "solve": "It checks whether questions planted earlier have been answered clearly, finds places where the plot doesn't flow, and gives revision suggestions."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill\" to enter the creation canvas.",
+        "Enter your story idea, or directly send an unfinished draft.",
+        "Review the story setup, character traits, and plot sequence table generated on the canvas.",
+        "Edit the content on the canvas cards, or keep sending messages to have it adjust the plot.",
+        "Copy or download the results to use anytime for later scriptwriting and filming."
+    ],
+    "faq": [
+        {
+            "q": "How can I use AI to turn scattered ideas into a complete story outline?",
+            "a": "Just enter your idea and who you plan to make it for on the right side of the {brand} canvas, and AI will sort out the core of the story in order. It will generate a one-sentence summary, character traits, and step-by-step plot cards on the canvas. You can edit the cards directly until you're satisfied."
+        },
+        {
+            "q": "What should I do if I get stuck halfway through writing or the plot feels flat?",
+            "a": "Send it your draft, and it will help you check for flat plot points and inconsistent character motivation. It will point out which section lacks conflict and give specific plot revision suggestions. You can use the suggestions to adjust the order of plot development on the canvas."
+        },
+        {
+            "q": "What if I feel the protagonist doesn't hold up or isn't appealing enough?",
+            "a": "You can have it help you rethink the traits that make the protagonist likable and sympathetic. It will help the character identify specific inner desires and personality flaws, and list the characters on the canvas. This makes the character feel more distinctive and gives the audience a stronger sense of connection."
+        },
+        {
+            "q": "Can this skill directly generate a complete video with dialogue?",
+            "a": "No. It currently only handles the story planning stage and generates text outlines and character cards. It cannot automatically generate video clips or standalone voiceover, and it won't directly write line-by-line dialogue. You can download the organized outline cards and continue with scriptwriting or video production."
+        }
+    ],
+    "keywords": [
+        "how to write a story outline",
+        "AI story writing",
+        "short drama outline",
+        "what to do when stuck writing a story",
+        "how to write character profiles",
+        "how to fix plot holes"
+    ]
+}

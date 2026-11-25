@@ -1,0 +1,23 @@
+const messages = {
+    "assetTray.toggle": "素材スペースを折りたたむ",
+    "assetTray.open": "素材スペースを開く、全 {count} 件",
+    "assetTray.resize": "上部から素材トレイの高さを調整",
+    "assetTray.dragHeight": "ドラッグして高さを調整",
+    "assetTray.title": "素材スペース",
+    "assetTray.subtitle": "キャンバスにドラッグ、または使用中の画像を検索",
+    "assetTray.library": "素材ライブラリ",
+    "assetTray.currentCanvas": "現在のキャンバス",
+    "assetTray.searchPlaceholder": "画像素材を検索...",
+    "assetTray.search": "画像素材を検索",
+    "assetTray.clearSearch": "検索をクリア",
+    "assetTray.noMatchLibrary": "一致する画像素材がありません",
+    "assetTray.noMatchCanvas": "現在のキャンバスに一致する画像がありません",
+    "assetTray.libraryHint": "クリックで挿入 · ドラッグで配置",
+    "assetTray.canvasHint": "クリックでノードに戻る",
+    "assetTray.itemCount": "{count} 件",
+    "assetTray.selected": "選択中",
+    "assetTray.dragToInsert": "キャンバスにドラッグ、またはクリックで挿入",
+    "assetTray.clickToLocate": "クリックでキャンバス上に配置",
+    "assetTray.imageNode": "画像ノード",
+} as const;
+export default messages;

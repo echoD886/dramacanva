@@ -1,0 +1,23 @@
+const messages = {
+    "assetTray.toggle": "Contraer espacio de recursos",
+    "assetTray.open": "Abrir espacio de recursos, {count} elementos en total",
+    "assetTray.resize": "Ajustar la altura de la bandeja desde arriba",
+    "assetTray.dragHeight": "Arrastra para ajustar la altura",
+    "assetTray.title": "Espacio de recursos",
+    "assetTray.subtitle": "Arrastra al canvas o localiza imágenes en uso",
+    "assetTray.library": "Biblioteca de recursos",
+    "assetTray.currentCanvas": "Canvas actual",
+    "assetTray.searchPlaceholder": "Buscar recursos de imagen...",
+    "assetTray.search": "Buscar recursos de imagen",
+    "assetTray.clearSearch": "Limpiar búsqueda",
+    "assetTray.noMatchLibrary": "No hay recursos de imagen que coincidan",
+    "assetTray.noMatchCanvas": "No hay imágenes que coincidan en el canvas actual",
+    "assetTray.libraryHint": "Clic para insertar · Arrastrar para localizar",
+    "assetTray.canvasHint": "Clic para volver al nodo",
+    "assetTray.itemCount": "{count} elementos",
+    "assetTray.selected": "Seleccionado",
+    "assetTray.dragToInsert": "Arrastra al canvas o haz clic para insertar",
+    "assetTray.clickToLocate": "Clic para localizar en el canvas",
+    "assetTray.imageNode": "Nodo de imagen",
+} as const;
+export default messages;

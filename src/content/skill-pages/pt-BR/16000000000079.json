@@ -1,0 +1,67 @@
+{
+    "title": "Organize o esboço da temporada e do 1º episódio",
+    "metaDescription": "Ideal para criadores de séries curtas: insira a ideia e confirme com o assistente para gerar o esboço da temporada, a abertura do 1º episódio e a tabela de evolução dos personagens.",
+    "oneLiner": "Ajuda você a transformar ideias soltas em um esboço de temporada e no planejamento da trama do 1º episódio de uma série curta.",
+    "intro": [
+        "Esta é uma ferramenta de escrita que ajuda você a planejar histórias de vários episódios no canvas do {brand}. Ela ajuda a conectar ideias soltas em uma história longa completa, evitando que você trave no meio ou que a trama se desvie.",
+        "Você só precisa preparar a ideia central da história, a configuração do protagonista ou alguns trechos já escritos e enviá-los diretamente ao assistente de IA na caixa de diálogo à direita.",
+        "A IA gerará no canvas um cartão com o esboço da temporada inteira, um plano de abertura do primeiro episódio e um cartão de tabela que registra como os personagens evoluem em cada episódio, para você comparar e ajustar a qualquer momento."
+    ],
+    "example": {
+        "input": "Quero escrever uma série curta urbana de ambiente de trabalho com 20 episódios, sobre uma estagiária que dá a volta por cima depois de ser injustiçada. A protagonista tem personalidade forte, mas não sei como preparar os conflitos nos primeiros episódios.",
+        "output": "No canvas, serão gerados três cartões: o esboço da temporada com as principais viradas da trama, o plano detalhado do primeiro episódio com o conflito inicial e uma tabela de personagens que registra as mudanças de estado emocional da protagonista em cada episódio."
+    },
+    "scenarios": [
+        "A série curta já tem os primeiros episódios escritos, mas você não sabe como a trama deve continuar e é fácil travar.",
+        "A abertura do primeiro episódio é sem graça e não retém o público; é preciso criar um conflito inicial atraente.",
+        "Há muitas tramas na série e, no meio da escrita, você esquece alguma subtrama ou personagem secundário.",
+        "Receio de que o protagonista aja de forma inconsistente no final em relação ao começo, com falas e atitudes que não combinam."
+    ],
+    "problems": [
+        {
+            "pain": "A história fica cada vez mais morna no meio e você não sabe o que deve acontecer depois.",
+            "solve": "Organize no canvas as crises centrais e os pontos de virada por episódio, ajudando a trama a avançar e reduzindo a lentidão no meio."
+        },
+        {
+            "pain": "Não sabe como abrir o primeiro episódio e o público sai antes de terminar.",
+            "solve": "Defina primeiro o objetivo do protagonista e desenhe o conflito central no primeiro episódio, deixando um gancho atraente no final."
+        },
+        {
+            "pain": "O personagem age de forma inconsistente nos episódios seguintes e a personalidade se quebra.",
+            "solve": "Gere uma tabela de mudanças dos personagens por episódio, listando os pensamentos e motivações de cada personagem em cada episódio, para comparar quando quiser."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em «Usar esta habilidade» para abrir o canvas de criação.",
+        "Insira sua premissa da história, o histórico do protagonista ou trechos de trama que você já imaginou.",
+        "Veja os cartões de planejamento da temporada e de mudanças dos personagens gerados no canvas.",
+        "Edite o texto dos cartões ou diga ao assistente na caixa de diálogo para ajustar os trechos de que não gostou.",
+        "Copie ou baixe o resultado para orientar a escrita concreta de cada episódio seguinte."
+    ],
+    "faq": [
+        {
+            "q": "O que fazer quando fico travado no meio de uma série curta de vários episódios?",
+            "a": "Antes de começar a escrever, organize no canvas as tramas principal e secundárias da temporada e os pontos de virada de cada episódio, garantindo que cada episódio tenha um conflito central a resolver; assim você evita travar no meio. O assistente de IA gera, a partir das suas ideias, um cartão de esboço da temporada com os pontos-chave, para que cada episódio avance a trama o máximo possível. Ao escrever os roteiros específicos depois, siga os cartões para que a história não fique arrastada nem se desvie no meio."
+        },
+        {
+            "q": "Como escrever o primeiro episódio de uma série curta para atrair o público?",
+            "a": "O primeiro episódio precisa estabelecer rapidamente a motivação do protagonista e apresentar o conflito central o quanto antes, além de deixar no final um gancho que faça o público querer continuar assistindo. O assistente de IA gera para você um plano do primeiro episódio com o conflito de abertura e o gancho final, deixando claro o que o protagonista quer fazer e quais obstáculos enfrenta. Você pode usar esse desenho para começar a escrever os detalhes e prender o público nos primeiros minutos, levando-o a continuar."
+        },
+        {
+            "q": "Como evitar contradições de personalidade nos personagens mais adiante?",
+            "a": "Use uma tabela de personagens por episódio para registrar a personalidade central e as mudanças de estado emocional em cada episódio; consulte-a durante a escrita para evitar contradições. O assistente de IA gera uma tabela de caracterização com base nas suas definições, listando a motivação e as oscilações emocionais do protagonista em cada episódio. Ao escrever os episódios seguintes, consulte essa tabela no canvas para que falas e atitudes não fiquem inconsistentes."
+        },
+        {
+            "q": "Quando a história tem trama principal e subtramas, como evitar que fique confusa?",
+            "a": "Ao montar o esboço, marque claramente o ritmo de aparição da trama principal e das subtramas em cada episódio e limite as subtramas a no máximo duas para evitar confusão. O assistente de IA ajuda a esclarecer os pontos de avanço das tramas em cada episódio, reduzindo o risco de subtramas esquecidas ou interrompidas mais adiante. No canvas, você pode ver os cartões de distribuição de cada trama e garantir que pelo menos uma linha avance em cada episódio."
+        }
+    ],
+    "keywords": [
+        "como escrever um esboço de série curta",
+        "sem ideias para escrever série curta",
+        "como começar o primeiro episódio de uma série curta",
+        "modelo de esboço de história",
+        "tabela de personagens para roteiro",
+        "como planejar a trama de uma websérie"
+    ]
+}

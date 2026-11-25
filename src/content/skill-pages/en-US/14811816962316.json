@@ -1,0 +1,67 @@
+{
+    "title": "Create outfit try-on videos from clothing and model photos",
+    "metaDescription": "For clothing sellers and fashion bloggers. Upload clothing and model photos in {brand} to make a 15-second try-on video, then download or export it.",
+    "oneLiner": "Give it clothing and model photos to make a 15-second model try-on video on the canvas.",
+    "intro": [
+        "This is a workflow that helps you create try-on videos on the canvas. No live shoot or studio setup is needed; AI simulates the realistic process of a blogger picking up clothes in an everyday room, putting them on, and showing the fit.",
+        "You only need to prepare a model reference image and a flat-lay or hanging clothing image. Send them to the AI assistant on the right side of the canvas, and you can also describe the scene you want.",
+        "AI will first write action instructions for you to confirm. Once you’re satisfied, it generates a 15-second vertical try-on video card on the canvas. You can download it directly or arrange it on the video timeline and then export."
+    ],
+    "example": {
+        "input": "Upload a flat-lay sweater image on a white background and a standing Asian model photo, then send: “Make a 15-second try-on video that shows the sweater’s fit in a bedroom with natural light.”",
+        "output": "First, five action-stage description cards appear on the canvas; after you confirm, a 15-second vertical video card is generated, showing the model holding the sweater, changing into it, and smiling while adjusting the clothes."
+    },
+    "scenarios": [
+        "You’re listing new clothes in an online store and only have flat-lay images, so you want to quickly see how they look on a model.",
+        "A fashion blogger is planning new outfit combinations and wants to show multiple looks without setting up a studio shoot each time.",
+        "You’re creating cross-border ecommerce clothing displays and need vertical videos with a natural, everyday feel for social platforms.",
+        "You only have static photos of sample garments and want to preview how the clothes move and pose when worn."
+    ],
+    "problems": [
+        {
+            "pain": "Hiring models and renting a studio are too expensive, and shooting one set of sample garments takes half a day.",
+            "solve": "Upload a model image and a flat-lay clothing image, confirm the actions, and generate a try-on video. You can see the fit without finding a location or model."
+        },
+        {
+            "pain": "Writing production descriptions yourself is often difficult, and the generated clothing fit easily gets distorted.",
+            "solve": "AI automatically breaks down the actions from picking up the clothes to putting them on and posing, and gives them to you for confirmation before generating."
+        },
+        {
+            "pain": "Many AI videos look like stiff ads and lack the real-life feel of a blogger actually trying on clothes.",
+            "solve": "It uses a handheld phone perspective and natural light to simulate a blogger’s real try-on process, making it look more friendly and natural."
+        }
+    ],
+    "steps": [
+        "In the Skill Library, click “Use this skill” to open the canvas and chat panel.",
+        "Upload the model image and flat-lay clothing image, and send your scene or styling idea.",
+        "Review and confirm the action instructions on the canvas, and adjust them directly if changes are needed.",
+        "Wait for AI to generate the video card on the canvas, then click to preview the model try-on result.",
+        "Arrange the order on the video timeline before exporting, or download a single video directly."
+    ],
+    "faq": [
+        {
+            "q": "What do I need to prepare to make a clothing try-on video?",
+            "a": "You need a model photo and a flat-lay or hanging clothing photo. AI reads features from both images and simulates a blogger’s try-on sequence. If images are missing, AI will remind you in the chat panel to add them."
+        },
+        {
+            "q": "How long is the generated try-on video usually?",
+            "a": "By default, it generates a 15-second vertical video. The visuals show picking up the clothing, putting it on, adjusting the fit, and a final pose in order. If you need a longer showcase, you can place multiple video clips on the canvas timeline, arrange them, and export."
+        },
+        {
+            "q": "How can I revise the try-on result if I don’t like it?",
+            "a": "You can change the action instructions at any time and regenerate. Before generating the video, AI shows you the action steps, and you can adjust details directly. Each generated video is saved on the canvas so you can compare and pick the version you like."
+        },
+        {
+            "q": "Can it automatically edit multiple try-on videos into a final cut and add voiceover?",
+            "a": "No, it cannot automatically edit them into a final cut or add a separate voiceover. AI creates individual 15-second try-on video cards. You can arrange them on the canvas video timeline and export the final cut yourself."
+        }
+    ],
+    "keywords": [
+        "AI clothing try-on video",
+        "how to make a model try-on video",
+        "generate clothing try-on videos",
+        "ecommerce outfit video creation",
+        "AI outfit change showcase video",
+        "make try-on video from flat-lay clothing"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Crea con {brand} fichas de personaje para cómic animado",
+    "metaDescription": "Para creadores de cómic animado: introduce nombre, aspecto y carácter y genera fichas de personaje con gestos, microexpresiones y trasfondo.",
+    "oneLiner": "Introduce el perfil del personaje y genera en el lienzo una ficha con sus acciones, ideal para principiantes en cómic animado.",
+    "intro": [
+        "Esta es una herramienta de escritura que te ayuda a organizar los perfiles de personajes de un cómic animado (vídeos cortos que dan movimiento al cómic). Convierte descripciones abstractas de la personalidad en hábitos de acción y formas de hablar concretas.",
+        "Solo tienes que indicar al asistente de IA, en el panel de chat de la derecha del lienzo, el nombre, la edad, los rasgos físicos y la personalidad del personaje, así como si es protagonista o secundario en la historia. Si tiene objetos característicos, también puedes incluirlos.",
+        "Cuando termines, aparecerá en el lienzo una tarjeta de texto con las experiencias clave del personaje, sus gestos característicos, sus microexpresiones y sus rasgos de voz bien claros. Puedes modificar el contenido directamente o copiarlo y guardarlo."
+    ],
+    "example": {
+        "input": "Lin Mo, 22 años, protagonista. Pelo negro corto, cazadora de trabajo, bufanda roja y una cicatriz en la ceja izquierda. Frío y sarcástico, pero cálido por dentro. Lleva una daga de autodefensa.",
+        "output": "Se genera una tarjeta de texto en el lienzo: incluye los gestos de pensamiento de Lin Mo (tocarse despacio la bufanda roja), sus señales de nerviosismo (agarrar el mango de la daga, respirar más rápido), sus rasgos de ritmo al hablar (rápido en el día a día, más lento cuando está tenso) y su experiencia central."
+    },
+    "scenarios": [
+        "Vas a crear un vídeo corto de cómic animado, solo tienes una idea vaga del personaje y quieres aclarar su trasfondo y su objetivo principal.",
+        "Definir los movimientos de un personaje de cómic animado y convertir su personalidad abstracta en gestos y expresiones concretos.",
+        "Adaptar una novela a vídeo: el trasfondo original es demasiado largo y quieres seleccionar las pocas experiencias clave que influyen en cómo actúa el personaje.",
+        "La historia tiene muchos personajes y necesitas aclarar el papel de cada uno en el equipo y cómo interactúan entre sí."
+    ],
+    "problems": [
+        {
+            "pain": "Solo has escrito que el personaje es ‘introvertido’ y, al hacer el vídeo o dibujar, no sabes cómo debe moverse.",
+            "solve": "Descompone la personalidad abstracta en acciones visibles, como hablar despacio, bajar la mirada o agarrar el borde de la ropa."
+        },
+        {
+            "pain": "Has escrito miles de palabras sobre el pasado del personaje, pero al hacer el vídeo no encuentras su motivación central.",
+            "solve": "Te ayuda a elegir de 1 a 3 experiencias clave que influyen en su conducta y a deducir directamente su verdadero objetivo."
+        },
+        {
+            "pain": "Los movimientos del personaje no coinciden entre distintas tomas y parece que ha cambiado de persona.",
+            "solve": "Fija para el personaje de 1 a 2 gestos característicos y detalles de la mirada que se mantengan en todo el vídeo para dar más coherencia a su imagen."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, haz clic en «Usar esta habilidad» para abrir el lienzo y el panel de chat de la derecha.",
+        "Introduce los datos básicos del personaje: nombre, edad, rasgos físicos y personalidad.",
+        "Envíalo al asistente de IA y espera a que el lienzo genere la ficha con sus acciones y su trasfondo.",
+        "Consulta la tarjeta o haz doble clic para editar el texto; cuando estés conforme, copia o descarga el resultado para usarlo más tarde."
+    ],
+    "faq": [
+        {
+            "q": "¿En qué se diferencia una ficha de personaje para cómic animado de un perfil de personaje de novela?",
+            "a": "La principal diferencia es que la ficha para cómic animado presta más atención a la acción visual y a la voz: convierte la personalidad abstracta en acciones concretas, como el ritmo al hablar o la costumbre de girar la cabeza. Además, elimina el trasfondo irrelevante y conserva solo de una a tres experiencias clave que influyen en cómo actúa el personaje."
+        },
+        {
+            "q": "¿Se puede modificar directamente en el lienzo la ficha de personaje generada?",
+            "a": "Puedes modificarla en cualquier momento: reescribir los detalles directamente en la tarjeta de texto del lienzo o pedir al asistente en el chat que la vuelva a generar. Cuando el contenido te convenza, basta con copiar o guardar el texto de la tarjeta."
+        },
+        {
+            "q": "Solo tengo unas pocas ideas sencillas sobre el personaje, ¿puedo usar esta herramienta?",
+            "a": "Sí. Basta con indicar en el chat el nombre, el aspecto general y la personalidad del personaje; el asistente completará sus hábitos de acción y detalles de trasfondo siguiendo la plantilla. Si el resultado no es el esperado, puedes decirle al asistente que añada nuevas ideas y lo ajuste de nuevo cuando quieras."
+        },
+        {
+            "q": "Al hacer el vídeo, ¿cómo evitar que la personalidad y las acciones del personaje sean incoherentes?",
+            "a": "La clave es fijar en la ficha uno o dos gestos característicos y microexpresiones, por ejemplo, que el personaje se toque la bufanda cuando piensa o que agarre con fuerza el mango del cuchillo cuando está nervioso. Al crear las distintas tomas, conviene comparar con estas referencias de acción para mantener la coherencia del comportamiento del personaje en las diferentes escenas."
+        }
+    ],
+    "keywords": [
+        "ficha de personaje para cómic animado",
+        "perfil de personaje cómic animado",
+        "cómo escribir una ficha de personaje",
+        "gestos y hábitos del personaje",
+        "desglose de personaje para cómic animado",
+        "adaptar novela a cómic animado"
+    ]
+}

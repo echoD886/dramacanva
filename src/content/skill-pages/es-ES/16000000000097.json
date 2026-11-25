@@ -1,0 +1,67 @@
+{
+    "title": "Convierte ventajas en textos de venta: apertura y beneficios",
+    "metaDescription": "Para vendedores online y creadores. Escribe parámetros y ventajas: el asistente crea en el lienzo el gancho de 3 s, texto y tabla de beneficios para copiar.",
+    "oneLiner": "Introduce los parámetros y las ventajas del producto y genera en el lienzo la apertura del anuncio, el texto y la tabla de beneficios para el comprador.",
+    "intro": [
+        "Esta es la habilidad de copy publicitario de {brand}. Convierte parámetros de producto rígidos en beneficios cotidianos que el comprador entiende de un vistazo en el lienzo.",
+        "Solo tienes que preparar las funciones básicas, los datos técnicos y el público objetivo del producto, o subir directamente una imagen de las instrucciones y enviarla al asistente a la derecha del lienzo.",
+        "Cuando termine, en el lienzo aparecerán una apertura atractiva para los primeros 3 segundos, una tabla comparativa de beneficios para el comprador y tarjetas con el texto completo; podrás copiar el texto directamente para publicar el anuncio."
+    ],
+    "example": {
+        "input": "Vendo una sartén antiadherente con recubrimiento cerámico de primera calidad y un peso de 1,2 kg. Quiero escribir un texto de venta dirigido a mamás.",
+        "output": "En el lienzo se generarán tarjetas: una apertura para captar la atención de las mamás en los primeros 3 segundos, una tabla comparativa que traduce el parámetro del recubrimiento en el beneficio «se puede cocinar con una sola mano y basta con aclararla con agua», y el texto completo."
+    },
+    "scenarios": [
+        "Cuando solo tienes el manual o la ficha de características del producto y no sabes cómo escribir la primera frase del anuncio.",
+        "Cuando tu vídeo de ventas tiene reproducciones pero nadie compra y necesitas revisar la capacidad de persuasión del texto.",
+        "Cuando las funciones de la competencia son parecidas a las tuyas y necesitas encontrar un ángulo diferenciador para que el comprador te recuerde.",
+        "Cuando el precio del producto es alto y el comprador duda; necesitas ayudarle a desglosar el coste de uso diario."
+    ],
+    "problems": [
+        {
+            "pain": "El vídeo se publica y tiene visualizaciones, pero casi nadie compra.",
+            "solve": "Traducir los parámetros aburridos en beneficios concretos para el comprador y cerrar el texto con una indicación clara de compra."
+        },
+        {
+            "pain": "El inicio del anuncio es demasiado común y el espectador se va al cabo de dos segundos.",
+            "solve": "Ofrecer en el lienzo varias versiones de apertura atractiva para los primeros 3 segundos, para captar la atención en poco tiempo."
+        },
+        {
+            "pain": "El producto funciona bien, pero es caro y el cliente siente que no le compensa.",
+            "solve": "Usar el método de desglose de gastos para repartir el coste diario y mostrar al comprador que no es caro por día, reduciendo sus dudas antes de comprar."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo de creación.",
+        "Introduce los parámetros básicos y las ventajas del producto, o sube una imagen del producto.",
+        "Consulta el texto de apertura y la tabla comparativa de beneficios para el comprador que se generan en el lienzo.",
+        "Elige las tarjetas que te convenzan y edítalas directamente en el lienzo, o pide al asistente que las vuelva a generar.",
+        "Copia o descarga el resultado y úsalo directamente para publicar anuncios o promociones."
+    ],
+    "faq": [
+        {
+            "q": "¿Por qué hay quien ve el vídeo del anuncio pero nadie compra?",
+            "a": "La causa principal es que el texto solo enumera datos técnicos y no explica claramente los beneficios para el comprador; si conviertes los datos en ventajas para la vida diaria y das una indicación de compra clara, puedes favorecer la conversión. Envía las ventajas del producto al asistente a la derecha del lienzo y te mostrará en el lienzo una tabla de beneficios para el comprador y añadirá tarjetas con indicaciones de acción claras."
+        },
+        {
+            "q": "¿Cómo escribir un anuncio atractivo si solo tengo la ficha de características del producto?",
+            "a": "La clave es traducir cada dato técnico en un beneficio real para el comprador; por ejemplo, expresar el peso de la sartén como que se puede cocinar con una sola mano sin cansarse. Envía los parámetros al asistente a la derecha del lienzo y te mostrará automáticamente en el lienzo una tabla comparativa de funciones y beneficios para el comprador, para que elijas y uses lo que necesites."
+        },
+        {
+            "q": "¿Cómo captar la atención en los primeros 3 segundos de un anuncio en vídeo corto?",
+            "a": "En los primeros 3 segundos conviene señalar directamente un problema cotidiano del comprador o prometer ahorro de dinero o esfuerzo; primero capta la atención y evita una introducción larga sobre el contexto. Indica al asistente a la derecha del lienzo cuál es el producto y el público objetivo, y generará en el lienzo varias versiones de apertura para los primeros 3 segundos entre las que elegir."
+        },
+        {
+            "q": "Mi producto es parecido al de la competencia, ¿cómo puedo diferenciar el texto?",
+            "a": "La clave es vincularlo a un contexto de uso y a un público objetivo concretos, y explicar en profundidad una función común como beneficio exclusivo para ese público para crear preferencia. Cuenta tus puntos fuertes y la situación de la competencia al asistente a la derecha del lienzo, y te ayudará a ordenar en el lienzo ángulos de comparación y textos diferenciadores."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un anuncio",
+        "extraer beneficios de un producto",
+        "cómo escribir textos de venta",
+        "gancho para anuncios en vídeo corto",
+        "copy para vender en ecommerce",
+        "convertir características en beneficios"
+    ]
+}

@@ -1,0 +1,22 @@
+const messages = {
+    "projectLabels.all": "All assets",
+    "projectLabels.category.character": "Character",
+    "projectLabels.category.environment": "Environment",
+    "projectLabels.category.wardrobe": "Wardrobe",
+    "projectLabels.category.prop": "Prop",
+    "projectLabels.category.weapon": "Weapon",
+    "projectLabels.category.style": "Visual style",
+    "projectLabels.category.other": "Other",
+    "projectLabels.media.image": "Image",
+    "projectLabels.media.video": "Video",
+    "projectLabels.media.audio": "Audio",
+    "projectLabels.media.text": "Text",
+    "projectLabels.media.model": "3D model",
+    "projectLabels.media.entity": "Character card",
+    "projectLabels.media.other": "Other type",
+    "projectLabels.source.blank": "Start blank",
+    "projectLabels.source.novel": "Import novel",
+    "projectLabels.source.text": "Paste text",
+    "projectLabels.source.other": "Other source",
+} as const;
+export default messages;

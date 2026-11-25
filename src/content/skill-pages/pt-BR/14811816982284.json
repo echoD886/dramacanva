@@ -1,0 +1,66 @@
+{
+    "title": "Design de personagem para vídeo com IA: vistas e expressões",
+    "metaDescription": "Para criadores de vídeo sem desenhar: a IA organiza a personalidade no canvas e gera vistas frontal, lateral e traseira e expressões com visual consistente",
+    "oneLiner": "Envie sua ideia de personagem e gere no canvas a análise de personalidade e as vistas, ideal para iniciantes em vídeo.",
+    "intro": [
+        "Este é o fluxo de design de personagem no canvas do {brand}. Como um diretor de arte profissional, ele transforma ideias vagas de personagem em um personagem concreto, com personalidade e aparência.",
+        "Você só precisa preparar uma ideia simples sobre o personagem, como profissão, temperamento ou um trecho de história. Mesmo que seja só um pensamento vago, você pode enviá-lo diretamente à IA na caixa de diálogo à direita.",
+        "A IA gera no canvas a ficha escrita, as três vistas (corpo inteiro de frente, de lado e de costas) e a prancha de expressões. Tudo é exibido sobre fundo branco, fácil de consultar ou baixar a qualquer momento."
+    ],
+    "example": {
+        "input": "Quero criar um oficial de justiça da antiguidade: normalmente sério e de poucas palavras, mas que, na verdade, tem uma lesão no braço direito, é muito sensível em particular e carrega sempre um velho sabre desgastado.",
+        "output": "No canvas, são gerados cartões de texto que descrevem personalidade e ações, além de várias imagens com fundo branco: corpo inteiro em pé, vistas frontal, lateral e traseira e uma prancha de expressões de alegria, raiva, tristeza e contentamento."
+    },
+    "scenarios": [
+        "Preparando para escrever uma história ou fazer um vídeo, precisa organizar o temperamento e as características físicas dos protagonistas.",
+        "Tem apenas uma sensação vaga sobre o personagem e quer ver variações de aparência para escolher a imagem adequada.",
+        "O personagem sempre troca de rosto; é preciso gerar vistas frontal, lateral e traseira e pranchas de expressões como referência para a produção seguinte.",
+        "Um personagem pronto parece sem graça e pouco convincente; quer que a IA identifique problemas e sugira mudanças."
+    ],
+    "problems": [
+        {
+            "pain": "Você imaginou uma porção de adjetivos para o personagem, mas o resultado parece um figurante e o público não se lembra dele.",
+            "solve": "A IA destaca dois ou três gestos marcantes ou roupas características e transforma a personalidade em detalhes visíveis."
+        },
+        {
+            "pain": "O personagem gerado pela IA sempre muda de rosto em cenas diferentes; roupas e aparência não são consistentes.",
+            "solve": "Gere no canvas vistas frontal, lateral e traseira sobre fundo branco, definindo cabelo, traços e roupas como base de referência para manter a consistência adiante."
+        },
+        {
+            "pain": "As expressões do personagem são rígidas e artificiais; por padrão, a IA desenha sempre o mesmo sorriso falso.",
+            "solve": "Gere uma prancha de expressões em várias células conforme a personalidade, mostrando micro variações emocionais e evitando rostos iguais."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie sua ideia de personagem na caixa de diálogo à direita.",
+        "Confira os cartões de texto no canvas e valide a personalidade, os gestos habituais e os detalhes físicos do personagem.",
+        "Gere a imagem de corpo inteiro com fundo branco, as vistas frontal, lateral e traseira e a prancha de emoções como alegria, raiva, tristeza e contentamento.",
+        "Escolha a configuração que mais gostar, regenere no canvas quando quiser e baixe as imagens diretamente quando estiver satisfeito."
+    ],
+    "faq": [
+        {
+            "q": "Como fazer o personagem criado pela IA não parecer genérico e ter mais identidade?",
+            "a": "O segredo é fixar duas ou três características visuais únicas do personagem, em vez de escrever apenas “bonito” ou “atraente”. A IA ajuda a criar gestos característicos, objetos pessoais ou pequenas marcas especiais. Ao manter esses detalhes fixos, o personagem não fica igual a todos nas imagens geradas."
+        },
+        {
+            "q": "Por que o personagem gerado pela IA muda de rosto quando muda a cena?",
+            "a": "Isso acontece porque falta um conjunto fixo de imagens de referência da aparência. Gere primeiro no canvas as vistas frontal, lateral e traseira para fixar cabelo, rosto e roupas. Ao gerar novas cenas depois, compare com esse conjunto e a aparência do personagem ficará muito mais estável."
+        },
+        {
+            "q": "Por que as fichas de design do personagem têm fundo branco? Não podem ter cenário?",
+            "a": "Não podem ter fundo porque o fundo branco serve para eliminar a interferência do ambiente e mostrar com clareza cabelo, roupas e detalhes dos objetos. O fundo totalmente branco facilita a conferência das características visuais; depois que a aparência estiver definida, é mais adequado adicionar cenário ao criar imagens em cenas específicas."
+        },
+        {
+            "q": "Sem saber desenhar, também consigo criar as vistas frontal, lateral e traseira do personagem?",
+            "a": "Sim, não é preciso nenhuma base de desenho. Basta descrever em linguagem simples a profissão e a aparência do personagem, e a IA desenhará no canvas imagens de referência sobre fundo branco nos três ângulos. Se algum detalhe não agradar, diga ao assistente como alterar e gere novamente; quando estiver satisfeito, baixe as imagens diretamente."
+        }
+    ],
+    "keywords": [
+        "design de personagem com IA",
+        "vistas frontal lateral e traseira",
+        "ficha de personagem",
+        "consistência de personagem na IA",
+        "prancha de expressões de personagem",
+        "ilustração de personagem para livro"
+    ]
+}

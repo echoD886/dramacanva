@@ -1,0 +1,67 @@
+{
+    "title": "Turn Novels into Short Drama Scripts, Storyboards & Clips",
+    "metaDescription": "Turn novels into short dramas. Provide story text to get a script, character-consistent storyboards, and video clips to arrange and export on a canvas.",
+    "oneLiner": "Turn your novel into a short drama script, character visuals, and multiple video clips.",
+    "intro": [
+        "This is an adaptation tool for short drama creators: enter novel text on the {brand} canvas, and it helps you organize a long story into short drama dialogue, storyboard visuals, and video clips.",
+        "All you need is a novel chapter, story outline, or a block of text. Upload it to the chat box, then tell it the visual style you want (such as live action or anime) and the aspect ratio.",
+        "You’ll get a short drama script, character cards with consistent looks, a storyboard table (which breaks the video into individual shots and spells out what to shoot), and video clips. You can edit them on the canvas, arrange them on the timeline, and export."
+    ],
+    "example": {
+        "input": "Upload the first chapter of a suspense novel and add this note: “Turn it into a 9:16 vertical short drama in a realistic live-action style, and generate video clips for the first three shots.”",
+        "output": "The canvas generates a script for that chapter, a character appearance reference card for the lead, three shot cards with action and dialogue marked, and three matching short video clips for you to preview and fine-tune."
+    },
+    "scenarios": [
+        "You have a serialized web novel or short story and want to test it as a short drama video.",
+        "You want to break a novel into a script but don’t know how to write shots and actions.",
+        "You’re making multiple video clips and worry the lead’s face won’t stay consistent, so you want to lock the character look first.",
+        "You already have a story idea and want to quickly generate storyboard visuals and short video clips."
+    ],
+    "problems": [
+        {
+            "pain": "The novel is too long and the dialogue is too dense, and you don’t know how to turn it into a shooting script.",
+            "solve": "It helps you sort out characters and events and break them into a storyboard script that marks dialogue, action, and camera angles."
+        },
+        {
+            "pain": "When making multiple video clips, the lead’s face and clothes keep changing from shot to shot.",
+            "solve": "Before you start, it generates and locks in multi-angle character references so later shots use the same reference and keep the look as consistent as possible."
+        },
+        {
+            "pain": "You worry the adaptation will cut foreshadowing or invent plot and ruin the story.",
+            "solve": "It tries to preserve the original plot and dialogue, and when something needs to be cut or there’s a conflict, it lists it and checks with you first."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use this skill” and upload your novel text or story excerpt.",
+        "Review the generated script and character cards, edit the text, and confirm the characters’ appearance.",
+        "Ask the assistant to generate the storyboard table and visual cards, then confirm shot order and action details.",
+        "Generate video clips for each shot and preview or regenerate them on the canvas at any time.",
+        "Arrange the clips you like on the video timeline and export the finished video in order."
+    ],
+    "faq": [
+        {
+            "q": "How do I turn a novel into a short drama video?",
+            "a": "Upload your novel in the chat box and confirm the visual style; the tool will automatically generate a script, storyboard visuals, and video clips. Once you’re happy, arrange the clips on the timeline and export."
+        },
+        {
+            "q": "Will the lead’s appearance change from clip to clip?",
+            "a": "It can’t be guaranteed to stay exactly the same, but the system tries to keep the character’s look consistent. Before generation, it locks in character reference images for later shots to use; if a particular shot looks off, revise the prompt and regenerate it."
+        },
+        {
+            "q": "Will key clues and classic lines from the original be cut or changed?",
+            "a": "It won’t change them on its own. It tries to preserve the original dialogue and important plot points; if the length needs to be compressed, it will first list suggested changes and ask for your input."
+        },
+        {
+            "q": "Can the finished video be exported with voiceover?",
+            "a": "Currently it can’t generate a finished video with complete voiceover directly. The tool generates video clips for each visual; you need to arrange them on the timeline, add voiceover yourself, and then export."
+        }
+    ],
+    "keywords": [
+        "novel to short drama",
+        "AI short drama",
+        "short drama storyboards",
+        "novel to video",
+        "short drama script adaptation",
+        "short drama video generation"
+    ]
+}

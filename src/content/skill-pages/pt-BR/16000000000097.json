@@ -1,0 +1,67 @@
+{
+    "title": "Diferenciais em copy de vendas: abertura e benefícios",
+    "metaDescription": "Para vendedores e criadores: insira parâmetros e diferenciais; o assistente gera no canvas a abertura de 3s, o texto e a tabela de benefícios para copiar.",
+    "oneLiner": "Insira parâmetros e diferenciais do produto e gere no canvas a abertura do anúncio, o texto e a tabela de benefícios.",
+    "intro": [
+        "Esta é a habilidade de copy publicitária do {brand}. Ela transforma parâmetros técnicos rígidos em benefícios cotidianos que o comprador entende de imediato, no canvas.",
+        "Você só precisa preparar as funções básicas, as especificações técnicas e o público-alvo do produto, ou enviar diretamente uma imagem da descrição do produto ao assistente à direita do canvas.",
+        "Ao final, o canvas exibirá uma abertura que atrai nos primeiros 3 segundos, uma tabela comparativa de benefícios para o comprador e um cartão com o texto completo, que você pode copiar e usar direto no anúncio."
+    ],
+    "example": {
+        "input": "Vendo uma frigideira antiaderente com revestimento cerâmico premium e 1,2 kg. Quero escrever um texto de vendas para mães.",
+        "output": "No canvas serão gerados cartões: uma abertura que atrai mães nos primeiros 3 segundos, uma tabela que traduz o parâmetro do revestimento em benefícios como “cozinhar com uma só mão e limpar com um simples enxágue”, além do texto completo."
+    },
+    "scenarios": [
+        "Quando você só tem o manual ou a ficha técnica do produto e não sabe como escrever a primeira frase do anúncio.",
+        "Quando o vídeo de vendas tem visualizações, mas ninguém compra, e você precisa verificar o poder de persuasão do texto.",
+        "Quando as funções do concorrente são parecidas com as suas e você precisa encontrar um ângulo de diferenciação para o comprador lembrar.",
+        "Quando o preço do produto é alto e o comprador hesita, e você precisa ajudá-lo a calcular o custo diário de uso."
+    ],
+    "problems": [
+        {
+            "pain": "O vídeo é publicado, tem visualizações, mas quase ninguém compra.",
+            "solve": "Traduzir parâmetros entediantes em benefícios concretos para o comprador e incluir uma orientação clara de compra no final do texto."
+        },
+        {
+            "pain": "A abertura do anúncio é comum demais e o espectador passa direto após dois segundos.",
+            "solve": "Oferecer no canvas várias versões de abertura que atraem nos primeiros 3 segundos, para capturar a atenção do espectador em pouco tempo."
+        },
+        {
+            "pain": "O produto tem bom desempenho, mas é caro, e o cliente sempre acha que não vale a pena.",
+            "solve": "Usar o método de cálculo para detalhar o gasto diário, mostrando ao comprador que, dividido por dia, não é caro, e reduzir a hesitação na compra."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas de criação.",
+        "Insira os parâmetros básicos, os diferenciais ou envie uma imagem do produto.",
+        "Veja no canvas o texto de abertura gerado e a tabela comparativa de benefícios para o comprador.",
+        "Escolha o cartão que mais gostar e edite diretamente no canvas, ou peça ao assistente para gerar novamente.",
+        "Copie ou baixe o resultado e use direto no anúncio ou na divulgação."
+    ],
+    "faq": [
+        {
+            "q": "Por que o vídeo de anúncio tem visualizações, mas ninguém compra?",
+            "a": "A causa principal é que o texto apenas lista parâmetros técnicos e não explica claramente os benefícios para o comprador; transformar parâmetros em vantagens práticas e dar uma orientação clara de compra pode impulsionar a conversão. Envie os diferenciais do produto ao assistente à direita do canvas, e ele listará no canvas uma tabela de benefícios para o comprador e adicionará um cartão com orientação clara de ação."
+        },
+        {
+            "q": "Só tenho a ficha técnica do produto; como escrever um anúncio atraente?",
+            "a": "O segredo é traduzir cada especificação técnica em um benefício real para o comprador, por exemplo, transformar o peso da frigideira em “cozinhar com uma só mão sem cansar”. Envie os parâmetros ao assistente à direita do canvas, e ele vai listar automaticamente no canvas uma tabela comparativa entre funções e benefícios para o comprador, para você escolher e usar direto."
+        },
+        {
+            "q": "Como atrair o público nos primeiros 3 segundos de um anúncio em vídeo curto?",
+            "a": "Nos primeiros 3 segundos, aponte diretamente a dor cotidiana do comprador ou faça uma promessa de economia de dinheiro e trabalho, para capturar a atenção primeiro e evitar uma introdução longa de contexto no início. Informe o produto e o público-alvo ao assistente à direita do canvas, e ele gerará no canvas várias versões de abertura para os primeiros 3 segundos, para você escolher."
+        },
+        {
+            "q": "Meu produto é parecido com o do concorrente; como escrever um texto que mostre a diferença?",
+            "a": "O segredo é vincular o texto a um cenário de uso e público-alvo específicos, aprofundando as funções em comum como benefícios exclusivos para aquele público, para criar preferência. Conte suas vantagens e a situação dos concorrentes ao assistente à direita do canvas, e ele organizará no canvas ângulos de comparação diferenciados e o texto."
+        }
+    ],
+    "keywords": [
+        "como escrever texto publicitário",
+        "como extrair diferenciais do produto",
+        "como escrever copy de vendas",
+        "abertura de anúncio em vídeo curto",
+        "copy para e-commerce",
+        "como transformar características do produto em benefícios"
+    ]
+}

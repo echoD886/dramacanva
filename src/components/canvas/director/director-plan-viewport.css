@@ -1,0 +1,579 @@
+.director-plan-render {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--pd-s1, var(--surface));
+}
+.director-route-label {
+    display: block;
+    padding: 2px 6px;
+    border-radius: var(--r-sm);
+    color: var(--pd-t0);
+    background: var(--pd-s2);
+    font-size: 11px;
+    white-space: nowrap;
+    transform: translateY(18px);
+}
+.director-route-inspector p,
+.director-route-inspector ul {
+    margin-top: 10px;
+    color: var(--pd-orange);
+    font-size: 12px;
+}
+.director-route-inspector ul {
+    padding-left: 16px;
+}
+.director-plan-render > .director-viewport-shell {
+    position: absolute;
+    inset: 0;
+}
+.director-plan-overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.director-plan-overlay polyline {
+    fill: none;
+    stroke-width: 2;
+    stroke-dasharray: 6 4;
+}
+.director-plan-overlay .is-camera polyline {
+    stroke: #3b82f6;
+    stroke-dasharray: 6 4;
+}
+.director-plan-overlay .is-camera circle {
+    fill: #3b82f6;
+    stroke: #ffffff;
+    stroke-width: 1.5;
+}
+.director-plan-overlay .is-actor polyline {
+    stroke: #d97706;
+    stroke-dasharray: 6 4;
+}
+.director-plan-overlay .is-actor circle {
+    fill: #d97706;
+    stroke: #ffffff;
+    stroke-width: 1.5;
+}
+
+/* ── Restrained Frustum (视锥) ── */
+.director-plan-cone path {
+    stroke: rgba(59, 130, 246, 0.35);
+    stroke-width: 1;
+    stroke-dasharray: 4 3;
+}
+.director-plan-cam-bg {
+    fill: #1e293b;
+    stroke: #3b82f6;
+    stroke-width: 1.5;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+}
+.director-plan-cam-icon {
+    color: #60a5fa;
+}
+[data-theme="light"] .director-plan-cam-bg,
+.light .director-plan-cam-bg {
+    fill: #ffffff;
+    stroke: #2563eb;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.12));
+}
+[data-theme="light"] .director-plan-cam-icon,
+.light .director-plan-cam-icon {
+    color: #2563eb;
+}
+
+/* ── Station Markers (A/B 演员站位) ── */
+.director-plan-station {
+    cursor: pointer;
+    pointer-events: auto;
+}
+.director-plan-station circle {
+    fill: #2563eb;
+    stroke: #ffffff;
+    stroke-width: 2;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+    transition: transform 120ms ease;
+}
+.director-plan-station:hover circle {
+    transform: scale(1.1);
+}
+.director-plan-station text {
+    fill: #ffffff;
+    font:
+        700 11px ui-sans-serif,
+        system-ui,
+        -apple-system,
+        sans-serif;
+    text-anchor: middle;
+    pointer-events: none;
+}
+
+/* ── Endpoint Labels (起点 / 终点底色标签，不重叠) ── */
+.director-plan-endpoint-group {
+    pointer-events: none;
+}
+.director-plan-endpoint-bg {
+    fill: rgba(15, 23, 42, 0.88);
+    stroke: rgba(255, 255, 255, 0.14);
+    stroke-width: 1;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.25));
+}
+.director-plan-endpoint-group.is-camera .director-plan-endpoint-bg {
+    stroke: rgba(59, 130, 246, 0.45);
+}
+.director-plan-endpoint-group.is-actor .director-plan-endpoint-bg {
+    stroke: rgba(217, 119, 6, 0.4);
+}
+[data-theme="light"] .director-plan-endpoint-bg,
+.light .director-plan-endpoint-bg {
+    fill: rgba(255, 255, 255, 0.94);
+    stroke: rgba(0, 0, 0, 0.12);
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.08));
+}
+.director-plan-endpoint {
+    font-family:
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    fill: #f8fafc;
+    stroke: none;
+    paint-order: normal;
+}
+[data-theme="light"] .director-plan-endpoint,
+.light .director-plan-endpoint {
+    fill: #0f172a;
+}
+
+/* ── Legend (精美图例) ── */
+.director-plan-legend {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 320px;
+    pointer-events: none;
+    z-index: 10;
+}
+.director-plan-legend > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    background: rgba(15, 23, 42, 0.82);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 11px;
+    color: #f1f5f9;
+}
+[data-theme="light"] .director-plan-legend > div,
+.light .director-plan-legend > div {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    color: #0f172a;
+}
+.director-legend-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: 9999px;
+    font-size: 9.5px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.02em;
+}
+.director-plan-legend .is-cam .director-legend-badge {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+    border: 1px solid rgba(59, 130, 246, 0.4);
+}
+[data-theme="light"] .director-plan-legend .is-cam .director-legend-badge,
+.light .director-plan-legend .is-cam .director-legend-badge {
+    background: rgba(37, 99, 235, 0.12);
+    color: #2563eb;
+    border-color: rgba(37, 99, 235, 0.3);
+}
+.director-plan-legend .is-actor .director-legend-badge {
+    background: rgba(217, 119, 6, 0.18);
+    color: #fbbf24;
+    border: 1px solid rgba(217, 119, 6, 0.4);
+}
+[data-theme="light"] .director-plan-legend .is-actor .director-legend-badge,
+.light .director-plan-legend .is-actor .director-legend-badge {
+    background: rgba(217, 119, 6, 0.12);
+    color: #d97706;
+    border-color: rgba(217, 119, 6, 0.3);
+}
+.director-legend-name {
+    font-weight: 500;
+}
+.director-legend-meta {
+    color: #94a3b8;
+    font-size: 10px;
+    margin-left: auto;
+}
+[data-theme="light"] .director-legend-meta,
+.light .director-legend-meta {
+    color: #64748b;
+}
+
+/* ── Plan Pane Header ── */
+.director-plan-pane > header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    height: 32px;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--pd-t1);
+    background: var(--pd-s1);
+    border-bottom: 1px solid var(--pd-b0);
+    letter-spacing: 0.02em;
+}
+.director-plan-pane > .director-plan-render {
+    top: 32px;
+    height: calc(100% - 32px);
+}
+.director-lens-heading {
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--pd-t1);
+    letter-spacing: 0.02em;
+    z-index: 5;
+}
+
+/* ── Timeline (高级简约时间轴) ── */
+.director-overview-timeline {
+    flex: 0 0 224px;
+    background: var(--pd-s1);
+    border-top: 1px solid var(--pd-b0);
+    padding: 10px 18px 14px;
+    color: var(--pd-t0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.director-overview-timeline > header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    height: 32px;
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+}
+.director-overview-timeline > header > button {
+    background: #2563eb;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
+    cursor: pointer;
+    transition:
+        transform 120ms ease,
+        background 120ms ease;
+}
+.director-overview-timeline > header > button:hover {
+    background: #1d4ed8;
+    transform: scale(1.05);
+}
+.director-overview-timeline > header > span {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--pd-t0);
+    min-width: 82px;
+}
+.director-overview-timeline input[type="range"] {
+    flex: 1;
+    height: 4px;
+    border-radius: 9999px;
+    background: var(--pd-b1);
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+.director-overview-timeline input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #3b82f6;
+    border: 2px solid #ffffff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    cursor: grab;
+    transition: transform 100ms ease;
+}
+.director-overview-timeline input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.director-overview-tracks {
+    position: relative;
+    margin-top: 6px;
+}
+.director-overview-ruler,
+.director-overview-row {
+    display: grid;
+    grid-template-columns: 112px 1fr;
+    gap: 0;
+}
+.director-overview-ruler {
+    height: 18px;
+    border-bottom: 1px solid var(--pd-b0);
+    margin-bottom: 3px;
+}
+.director-overview-ruler > div {
+    position: relative;
+    margin-right: 26px;
+}
+.director-overview-ruler small {
+    position: absolute;
+    color: var(--pd-t2);
+    font-size: 10px;
+    font-family: ui-monospace, monospace;
+    font-weight: 500;
+    transform: translateX(-50%);
+}
+.director-overview-row {
+    height: 26px;
+    margin-bottom: 3px;
+}
+.director-overview-row > span {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--pd-t1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.director-overview-row > div {
+    position: relative;
+    height: 100%;
+    background: var(--pd-s0);
+    border-radius: 6px;
+    border: 1px solid var(--pd-b0);
+    overflow: hidden;
+}
+
+/* ── Segments (片段统一配色) ── */
+.director-overview-segment {
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 11px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid var(--pd-b0);
+    background: var(--pd-s2);
+    color: var(--pd-t1);
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: filter 120ms ease;
+}
+.director-overview-segment:hover {
+    filter: brightness(1.1);
+}
+.director-overview-segment.is-camera {
+    background: rgba(59, 130, 246, 0.16);
+    border-color: rgba(59, 130, 246, 0.35);
+    color: #3b82f6;
+}
+[data-theme="light"] .director-overview-segment.is-camera,
+.light .director-overview-segment.is-camera {
+    background: rgba(37, 99, 235, 0.1);
+    border-color: rgba(37, 99, 235, 0.3);
+    color: #1d4ed8;
+}
+.director-overview-segment.is-moving {
+    background: rgba(16, 185, 129, 0.14);
+    border-color: rgba(16, 185, 129, 0.35);
+    color: #10b981;
+}
+[data-theme="light"] .director-overview-segment.is-moving,
+.light .director-overview-segment.is-moving {
+    background: rgba(16, 185, 129, 0.12);
+    border-color: rgba(16, 185, 129, 0.3);
+    color: #059669;
+}
+
+/* ── Filmstrip (场景缩略帧条) ── */
+.director-overview-film {
+    height: 54px;
+    margin-top: 4px;
+}
+.director-overview-film > div {
+    display: flex;
+    gap: 4px;
+    background: transparent;
+    border: 0;
+}
+.director-overview-film button {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    min-width: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid var(--pd-b0);
+    border-radius: 6px;
+    background: var(--pd-s2);
+    cursor: pointer;
+    transition:
+        border-color 140ms ease,
+        transform 140ms ease;
+}
+.director-overview-film button:hover {
+    border-color: var(--pd-b2);
+    transform: translateY(-1px);
+}
+.director-overview-film .director-card-cast {
+    display: none;
+}
+.director-overview-film .director-card-render {
+    height: 100%;
+}
+.director-overview-film .director-card-frame {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9;
+}
+
+/* ── Playhead (醒目播放头) ── */
+.director-overview-playhead {
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    width: 2px;
+    background: #3b82f6;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
+    pointer-events: none;
+    z-index: 20;
+}
+.director-overview-playhead::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3b82f6;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+.director-card-sync {
+    position: absolute;
+    top: 13px;
+    right: 58px;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    border-radius: var(--r-sm);
+    display: grid;
+    place-items: center;
+    color: inherit;
+    background: transparent;
+    cursor: pointer;
+}
+.director-card-sync:hover {
+    background: var(--surface-hover);
+}
+.director-blocking-summary {
+    display: grid;
+    gap: 10px;
+    padding: 14px 16px;
+    border-top: 1px solid var(--pd-b0);
+}
+.director-blocking-summary button {
+    display: grid;
+    gap: 6px;
+    border: 0;
+    padding: 8px 10px;
+    border-radius: 8px;
+    text-align: left;
+    background: var(--pd-s0);
+    border: 1px solid var(--pd-b0);
+    font-size: 11px;
+    transition: border-color 120ms ease;
+    cursor: pointer;
+}
+.director-blocking-summary button:hover {
+    border-color: var(--pd-b2);
+}
+.director-blocking-summary strong {
+    color: var(--pd-t0);
+    font-size: 11.5px;
+}
+.director-blocking-summary span {
+    display: flex;
+    justify-content: space-between;
+    color: var(--pd-t2);
+}
+.director-blocking-summary code {
+    color: var(--pd-t0);
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 700px) {
+    .director-overview-timeline {
+        flex-basis: 200px;
+        padding: 6px 10px;
+    }
+    .director-overview-ruler,
+    .director-overview-row {
+        grid-template-columns: 78px 1fr;
+    }
+    .director-overview-film {
+        height: 42px;
+    }
+    .director-plan-legend {
+        left: 6px;
+        bottom: 6px;
+        gap: 3px;
+        max-width: 90%;
+    }
+    .director-plan-legend > div {
+        font-size: 9.5px;
+        padding: 3px 6px;
+    }
+    .director-plan-legend small {
+        display: none;
+    }
+    .director-lens-heading {
+        left: 10px;
+    }
+}

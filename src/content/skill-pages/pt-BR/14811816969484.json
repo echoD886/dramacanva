@@ -1,0 +1,66 @@
+{
+    "title": "Joias a partir de texto ou esboço: designs em lote no canvas",
+    "metaDescription": "Para designers e fãs de joias: envie esboços, fotos de gemas ou requisitos e gere no canvas anéis e colares únicos ou em lote, com engastes e descrições.",
+    "oneLiner": "Crie, a partir de texto ou esboço, designs de joias usáveis em lote no canvas.",
+    "intro": [
+        "Este é o fluxo de criação de design de joias no canvas do {brand}: insira uma ideia em texto, esboço ou foto de gema e gere designs de joias com estruturas reais de joalheria, como engaste com garras e base do anel.",
+        "Você só precisa preparar o tipo de joia, o material ou os requisitos de design. Se tiver um esboço feito à mão, foto de pedra ou imagem de um modelo que goste, também pode enviar diretamente ao assistente de IA.",
+        "A IA organiza no canvas uma tabela de propostas de design e gera, uma a uma, imagens de peças únicas com aparência de fotografia em fundo branco e descrições do design. Você pode escolher e baixar as imagens que gostar a qualquer momento."
+    ],
+    "example": {
+        "input": "Crie 5 anéis com corte esmeralda em estilo vintage, pedra principal esmeralda, aro em ouro 18K e estrutura de engaste detalhada.",
+        "output": "No canvas será gerada uma tabela de design com 5 modelos numerados e materiais, além de 5 imagens em alta resolução dos anéis com aparência de foto de estúdio em fundo branco; ao lado de cada imagem haverá a estrutura de engaste com garras e a descrição do acabamento em metal."
+    },
+    "scenarios": [
+        "Na temporada de pedidos ou no lançamento de novos produtos, é preciso conceber de uma vez várias propostas de design de anéis ou colares.",
+        "Você tem fotos de gemas ou esboços a lápis em mãos e quer detalhar rapidamente uma prévia realista de uso.",
+        "Quer ampliar uma linha a partir de modelos antigos, mantendo a pedra principal original, mas trocando o metal e as pedras laterais.",
+        "Ao fazer uma proposta personalizada para um cliente, precisa de um conjunto de imagens de joias em fundo branco e especificações de fabricação."
+    ],
+    "problems": [
+        {
+            "pain": "As joias geradas por IA muitas vezes têm gemas flutuando, sem base ou estrutura, e não podem ser usadas.",
+            "solve": "A IA acrescenta ativamente estruturas de fixação, como engaste com garras, fechos e hastes de brinco, para que as joias desenhadas façam sentido de fabricação."
+        },
+        {
+            "pain": "Querer dezenas de propostas de uma vez e ter de pensar nos detalhes e digitar uma por uma consome muito tempo.",
+            "solve": "A IA primeiro organiza no canvas uma lista de designs com categorias e materiais e depois gera as imagens item por item conforme a lista."
+        },
+        {
+            "pain": "Ao enviar imagens de referência para fazer uma variação, a IA muitas vezes remove a gema que você queria manter.",
+            "solve": "A IA mantém por padrão a cor e o formato da pedra principal e faz novas variações apenas no arranjo das pedras secundárias e nas linhas do metal."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e abra o painel de conversa à direita do canvas.",
+        "Envie um esboço ou foto da pedra e informe a categoria, o material e a quantidade de modelos desejada.",
+        "Confira a tabela com a lista de designs e as imagens de joias em fundo branco geradas no canvas.",
+        "Peça ao assistente para alterar os cartões que não gostou e gerar novamente; quando estiver satisfeito, baixe as imagens diretamente."
+    ],
+    "faq": [
+        {
+            "q": "Como transformar um esboço feito à mão em uma imagem realista de joia?",
+            "a": "Envie o esboço no painel de conversa e informe a categoria e o material da joia. A IA mantém a composição do esboço e acrescenta estruturas como engaste com garras e base do anel para gerar uma imagem de joia com aparência de fotografia em fundo branco. Se não gostar de algum detalhe, é só pedir ao assistente para alterar os requisitos e gerar novamente."
+        },
+        {
+            "q": "As joias desenhadas têm estruturas de uso reais?",
+            "a": "A IA tenta ao máximo. Ao criar as imagens, ela acrescenta estruturas de fixação, como engaste com garras, hastes de brinco e fechos, para evitar gemas flutuando ou sem sustentação. Se você tiver um processo de engaste específico ou requisitos de uso, também pode explicar isso ao assistente no painel de conversa com antecedência."
+        },
+        {
+            "q": "Como desenhar vários anéis ou colares em lote de uma só vez?",
+            "a": "Basta informar no painel de conversa a quantidade e o estilo que deseja. A IA primeiro lista uma tabela de propostas no canvas e depois gera, item por item, as imagens das peças e as descrições conforme a lista. Todos os modelos gerados ficam dispostos no canvas para você comparar a qualquer momento e escolher os designs de que gostar para baixar."
+        },
+        {
+            "q": "Ao criar uma variação a partir de uma joia existente, como manter a pedra principal e mudar apenas o modelo?",
+            "a": "Envie a imagem e diga à IA para manter a cor e o formato da pedra principal. Assim, ela tenta manter a aparência da gema central e altera apenas as linhas do metal e o arranjo das pedras ao redor. As novas propostas são exibidas diretamente no canvas, para você comparar os detalhes e baixar as imagens que gostar."
+        }
+    ],
+    "keywords": [
+        "design de joias com IA",
+        "gerador de design de joias",
+        "esboço de joia em imagem realista",
+        "design de anéis",
+        "design de joias em lote",
+        "design de colares"
+    ]
+}

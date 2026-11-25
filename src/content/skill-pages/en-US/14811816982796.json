@@ -1,0 +1,67 @@
+{
+    "title": "Story outline to shootable short script with real dialogue",
+    "metaDescription": "For short drama and video creators. Enter a story or dialogue in {brand} to get cards with scenes, action, and dialogue—clear, shootable script cards.",
+    "oneLiner": "For short drama beginners: enter a story and write a script on the canvas with clear action and dialogue that sounds real.",
+    "intro": [
+        "This is a tool in {brand} that helps you write scripts on the canvas. It can turn an ordinary story plot into script text actors can perform and cameras can shoot, and it can also help revise dialogue that sounds too stiff.",
+        "You only need to prepare a story summary, a few plot ideas, or a piece of dialogue you're not happy with. Even rough, plain-language notes can be sent directly.",
+        "When it's done, you'll get a series of script cards on the canvas. Each clearly states where the scene takes place, what the characters do, and dialogue that fits each character's personality."
+    ],
+    "example": {
+        "input": "Write a scene: the male lead is very nervous and wants to confess to the female lead, but doesn't dare say it directly. They are chatting in a café. Please write specific actions and dialogue.",
+        "output": "Script cards are generated on the canvas: label the café interior and time; describe the male lead tearing a napkin into strips under the table; the dialogue doesn't say 'I like you' directly but stammers to ask whether the other person is free this weekend."
+    },
+    "scenarios": [
+        "You have a story idea or plot outline and want to turn it into a complete script with action and dialogue.",
+        "The dialogue in an existing script is too stiff and all characters sound the same; you want to make it more natural, like real people.",
+        "The plot moves too slowly, with too many unnecessary details like entering rooms and greetings; you want to cut the filler and get straight to the conflict.",
+        "The script has too much inner thought that the camera can't shoot; you want to turn thoughts into visible actions."
+    ],
+    "problems": [
+        {
+            "pain": "Characters say things too directly and spell out everything they're thinking; it sounds like they're reciting a textbook.",
+            "solve": "Helps rewrite dialogue so characters learn to say the opposite, talk around the point, or use actions instead—so it sounds like real conversation."
+        },
+        {
+            "pain": "Everyone speaks in the same tone; if you cover the character names, you can't tell who's talking.",
+            "solve": "Adjusts speech habits, sentence length, and tone based on each character's personality so every character sounds different."
+        },
+        {
+            "pain": "The script keeps describing what characters are thinking, which actors and cameras can't perform when shooting video.",
+            "solve": "Turns inner thoughts into visible behavior—for example, turning nervousness into shaking hands or tearing a napkin—so the camera can capture it clearly."
+        }
+    ],
+    "steps": [
+        "In the skill library, click 'Use this skill' to open the chat panel on the right side of the canvas.",
+        "Send your story outline, plot ideas, or old dialogue that needs revision.",
+        "Review the script cards generated on the canvas, including scene, action, and dialogue.",
+        "Tell the assistant what to adjust and regenerate, or edit the cards manually.",
+        "Copy or download the result to save the finished script text for later shooting."
+    ],
+    "faq": [
+        {
+            "q": "How do I turn an ordinary story into a short drama script?",
+            "a": "The key is to break the story into specific scenes and turn inner thoughts into visible actions. First remove transitional scenes with no conflict, such as entering a room and exchanging greetings, and cut straight to the core event. Then make the dialogue everyday and natural, and you'll have a script that's easy to shoot."
+        },
+        {
+            "q": "What should I do if the dialogue in my script sounds fake, like reciting a textbook?",
+            "a": "Revise it by adding subtext; don't have characters say everything they're thinking directly. For example, when a character is angry, they can say the opposite, avoid the topic, or show it through actions like tearing paper under the table. Also differentiate sentence length and tone based on each character's personality, and it will sound like real people talking."
+        },
+        {
+            "q": "Do I need to mark camera angles and camera positions when writing a script?",
+            "a": "No, you don't need to mark camera positions or shooting angles. A script only needs to clearly state what actions happen and what is said. Camera placement and angles belong to the storyboard stage (breaking the video into individual shots and deciding how to shoot them). Writing too many camera angles in advance can actually limit the design options for later shooting."
+        },
+        {
+            "q": "How do I decide whether to cut a scene?",
+            "a": "Look at whether the scene has conflict between characters and whether it changes their relationship or status. If two people are just chatting and nothing new happens after the conversation, consider cutting it or merging it into another scene. Keeping the parts with conflict and forward movement makes the whole short drama tighter."
+        }
+    ],
+    "keywords": [
+        "how to write a short drama script",
+        "adapt a story into a script",
+        "rewrite script dialogue",
+        "script action description",
+        "AI script writing",
+        "short drama script generator"
+    ]
+}

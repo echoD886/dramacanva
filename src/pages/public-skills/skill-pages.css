@@ -1,0 +1,77 @@
+.public-skill-library .yingce-blog-grid {
+    margin-top: 32px;
+}
+.public-skill-cover {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover !important;
+    border-radius: 16px;
+    margin: 24px 0 !important;
+}
+.public-skill-page .public-skill-intro {
+    font-size: 20px;
+}
+.public-skill-scenarios,
+.public-skill-steps {
+    padding-left: 24px;
+    color: var(--ll-muted);
+    font-size: 17px;
+    line-height: 1.8;
+}
+.public-skill-scenarios li,
+.public-skill-steps li {
+    padding: 8px 0 8px 8px;
+}
+.public-skill-steps li::marker {
+    color: var(--ll-accent);
+    font-weight: 700;
+}
+.public-skill-problems {
+    display: grid;
+    gap: 16px;
+}
+.public-skill-problems > div {
+    padding: 24px;
+    background: var(--ll-surface);
+    border: 1px solid var(--ll-line);
+    border-radius: 16px;
+}
+.public-skill-problems h3 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.public-skill-problems p {
+    margin: 12px 0 0;
+}
+.public-skill-example {
+    display: grid;
+    gap: 12px;
+    margin: 0;
+}
+.public-skill-example > div {
+    padding: 20px 24px;
+    background: var(--ll-surface);
+    border: 1px solid var(--ll-line);
+    border-radius: 16px;
+}
+.public-skill-example dt {
+    color: var(--ll-accent);
+    font-size: 14px;
+    font-weight: 700;
+}
+.public-skill-example dd {
+    margin: 8px 0 0;
+    line-height: 1.7;
+}
+.public-skill-page summary {
+    line-height: 1.7;
+}
+@media (max-width: 640px) {
+    .public-skill-problems > div {
+        padding: 18px;
+    }
+    .public-skill-page .public-skill-intro {
+        font-size: 18px;
+    }
+}

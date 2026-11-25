@@ -1,0 +1,22 @@
+const messages = {
+    "connectionMenu.next": "Create next step",
+    "connectionMenu.selected": "Reference {count} selected nodes",
+    "connectionMenu.current": "Reference current node",
+    "connectionMenu.close": "Close connected-node creation menu",
+    "connectionMenu.textHelp": "Reference current content to generate or rewrite text",
+    "connectionMenu.scriptHelp": "Break the story into shots and compose a storyboard script",
+    "connectionMenu.batchTable": "Batch creation table",
+    "connectionMenu.batchTableHelp": "Aggregate multiple images to batch-run outfit swaps or creative generation",
+    "connectionMenu.image": "Image generation",
+    "connectionMenu.imageHelp": "Combine prompts and reference images to generate new visuals",
+    "connectionMenu.drawingHelp": "Draw and annotate freely on top of a reference image",
+    "connectionMenu.videoHelp": "Combine prompts and reference assets to generate dynamic video",
+    "connectionMenu.audioHelp": "Connect text or a character card to create an audio generation node",
+    "connectionMenu.convertHelp": "Process images or videos locally",
+    "connectionMenu.configHelp": "Choose a model or use an enabled workflow plugin",
+    "connectionMenu.video": "Video generation",
+    "connectionMenu.audio": "Audio reference",
+    "connectionMenu.uploadAsset": "Upload material",
+    "connectionMenu.uploadAssetHelp": "Upload image, video, or audio assets and reference them in the current node",
+} as const;
+export default messages;

@@ -1,0 +1,22 @@
+const messages = {
+    "connectionMenu.next": "다음 단계 만들기",
+    "connectionMenu.selected": "선택한 노드 {count}개 참조",
+    "connectionMenu.current": "현재 노드 참조",
+    "connectionMenu.close": "연결 노드 만들기 메뉴 닫기",
+    "connectionMenu.textHelp": "현재 내용을 참조하여 텍스트를 생성하거나 다시 쓰기",
+    "connectionMenu.scriptHelp": "스토리를 샷으로 분해하고 스토리보드 스크립트 구성",
+    "connectionMenu.batchTable": "일괄 제작 테이블",
+    "connectionMenu.batchTableHelp": "여러 이미지를 모아 의상 교체나 창작 생성을 일괄 실행",
+    "connectionMenu.image": "이미지 생성",
+    "connectionMenu.imageHelp": "프롬프트와 참조 이미지를 결합해 새로운 이미지를 생성",
+    "connectionMenu.drawingHelp": "참조 이미지를 바탕으로 자유롭게 그리기와 주석",
+    "connectionMenu.videoHelp": "프롬프트와 참조 소재를 결합해 동영상을 생성",
+    "connectionMenu.audioHelp": "텍스트 또는 캐릭터 카드를 연결해 오디오 생성 노드 생성",
+    "connectionMenu.convertHelp": "이미지나 동영상을 로컬에서 처리",
+    "connectionMenu.configHelp": "모델을 선택하거나 활성화된 워크플로 플러그인 사용",
+    "connectionMenu.video": "동영상 생성",
+    "connectionMenu.audio": "오디오 참조",
+    "connectionMenu.uploadAsset": "소재 업로드",
+    "connectionMenu.uploadAssetHelp": "이미지, 비디오 또는 오디오 소재를 업로드하여 현재 노드의 참조 입력으로 사용",
+} as const;
+export default messages;

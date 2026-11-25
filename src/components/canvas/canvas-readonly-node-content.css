@@ -1,0 +1,4 @@
+.canvas-readonly-text { padding: 40px 16px 16px; font-family: var(--font-mono); font-size: 14px; line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 8; overflow: hidden; }
+.canvas-readonly-storyboard { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 12px; }
+.canvas-readonly-storyboard th, .canvas-readonly-storyboard td { padding: 10px; border: 1px solid var(--border); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.canvas-readonly-storyboard th:first-child, .canvas-readonly-storyboard td:first-child { width: 40px; }

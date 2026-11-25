@@ -1,0 +1,66 @@
+{
+    "title": "Elige el estilo de imagen y organiza prompts de IA",
+    "metaDescription": "Para creadores que se desvían con la IA y no saben pedir. Cuéntale tu idea en el lienzo de {brand}: recomienda estilos y crea tarjetas en seis partes.",
+    "oneLiner": "Dale una idea: en el lienzo organiza estilos y tarjetas de requisitos. Ideal si tus imágenes con IA se desvían.",
+    "intro": [
+        "Esta es una herramienta auxiliar que te ayuda a ordenar los requisitos de dibujo. Muchas personas que generan imágenes con IA se desvían porque las instrucciones que envían son demasiado escuetas y omiten detalles de composición, estilo o maquetación.",
+        "No necesitas entender términos complejos. Basta con decirle, a la derecha del lienzo de {brand}, con tu tono habitual, qué tema quieres dibujar y para qué lugar lo usarás; también puedes adjuntar imágenes de referencia.",
+        "Al terminar, en el lienzo aparecerán estilos recomendados, tarjetas de prompts (requisitos para la IA) divididas en seis bloques —sujeto, composición, estilo gráfico, etc.— y una lista de comprobación para evitar texto ilegible."
+    ],
+    "example": {
+        "input": "Quiero crear una infografía educativa sobre café en 16:9: a la izquierda, granos de café; a la derecha, pasos de preparación; la imagen debe verse limpia y profesional.",
+        "output": "El lienzo genera dos o tres estilos recomendados, tarjetas de requisitos de dibujo en seis bloques (con indicaciones de espacio en blanco y para evitar que el texto tape elementos) y una lista de comprobación para detectar texto superpuesto y composición recargada."
+    },
+    "scenarios": [
+        "Cuando aplicar un estilo concreto se desvía siempre y necesitas completar requisitos detallados de composición e iluminación.",
+        "Cuando quieres dibujar varios objetos distintos en una misma imagen y temes que colores y características se mezclen.",
+        "Cuando haces pósteres divulgativos o gráficos y temes texto ilegible o contenido amontonado.",
+        "Cuando solo tienes una idea vaga de lo que quieres dibujar y no sabes qué estilo visual elegir."
+    ],
+    "problems": [
+        {
+            "pain": "Escribir tú mismo los requisitos hace que se te pasen puntos clave, así que la IA improvisa y el resultado no te convence.",
+            "solve": "Divide los requisitos en seis bloques —sujeto, composición, estilo, texto, formato y restricciones— para completar de una vez los detalles clave."
+        },
+        {
+            "pain": "Al hacer pósteres divulgativos o gráficos, el texto generado suele superponerse, salir ilegible y la composición queda demasiado apretada.",
+            "solve": "Incluye en las tarjetas indicaciones de espacio reservado y de evitación de texto, y ofrece una lista de comprobación específica para esquivar defectos habituales."
+        },
+        {
+            "pain": "Quieres dibujar varios objetos distintos en una imagen, pero los colores se mezclan o todo acaba en una masa confusa.",
+            "solve": "Te ayuda a definir un único estilo principal y a describir por separado la posición y las características de cada objeto para reducir interferencias."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y envía tu idea de dibujo en el cuadro de chat de la derecha.",
+        "Revisa las dos o tres propuestas de estilo recomendadas en el lienzo y elige la más adecuada.",
+        "Comprueba las tarjetas de requisitos de dibujo en seis bloques generadas en el lienzo y ajusta el texto de los detalles según necesites.",
+        "Cuando los requisitos organizados y la lista de comprobación estén correctos, copia o descarga el resultado."
+    ],
+    "faq": [
+        {
+            "q": "¿Qué hago si no sé qué estilo elegir para la imagen?",
+            "a": "Puedes describir directamente en el chat el uso y la idea de tu imagen para que te recomiende primero dos o tres estilos ajustados. No hace falta que pienses desde el principio en todos los detalles visuales: compara en el lienzo el color general y la base de la composición, y elige el que más te guste."
+        },
+        {
+            "q": "¿Qué hago si al generar imágenes con IA el resultado no cumple lo esperado y se desvía con facilidad?",
+            "a": "Puedes usar esta habilidad para dividir tu idea en seis bloques y completar sujeto, maquetación y estilo para reducir desviaciones. A menudo la imagen se desvía porque las instrucciones enviadas a la IA carecen de límites claros de composición, color o iluminación. Revisa y ajusta en el lienzo de {brand} las tarjetas de requisitos generadas y, cuando estés conforme, copia el resultado completo para generar la imagen."
+        },
+        {
+            "q": "¿Qué hago si al generar un póster o un gráfico las letras de la imagen salen ilegibles?",
+            "a": "Se recomienda reducir los bloques de información de cada imagen e indicar en las tarjetas que se reserve una zona en blanco y que se prohíba que el texto tape el sujeto. Normalmente ocurre porque se mete demasiado contenido en una sola imagen o porque la zona de texto está demasiado cerca del sujeto. Puedes modificar las tarjetas de texto correspondientes en el lienzo de {brand} y ajustar el resultado paso a paso."
+        },
+        {
+            "q": "Si quiero dibujar varios objetos distintos en una imagen, ¿cómo evito que los colores se mezclen?",
+            "a": "La clave es mantener un único estilo principal en los requisitos de dibujo y describir por separado la posición y las características de cada objeto. No mezcles la descripción de varios objetos en la misma frase; delimita lo máximo posible cada uno. Esta habilidad te ayuda en el lienzo a ordenar los requisitos de los distintos sujetos para evitar interferencias."
+        }
+    ],
+    "keywords": [
+        "prompts para generar imágenes con IA",
+        "cómo evitar que la IA se desvíe al generar imágenes",
+        "estilos recomendados para generar imágenes con IA",
+        "solucionar texto ilegible en imágenes con IA",
+        "cómo escribir prompts para generar imágenes",
+        "prompts para maquetar carteles"
+    ]
+}

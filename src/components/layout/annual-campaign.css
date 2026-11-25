@@ -1,0 +1,17 @@
+.sa-annual-countdown { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.sa-annual-countdown > span { display: inline-flex; gap: 3px; align-items: baseline; }
+.sa-annual-copy { display: grid; gap: 4px; text-align: center; line-height: 1.4; min-width: 0; }
+.sa-annual-copy > strong { font-size: 13px; }
+.sa-annual-copy > small { font-size: 10px; opacity: .88; }
+.ll-home-campaign .ll-home-countdown { flex: 0 0 auto; }
+.ll-home-campaign .sa-annual-copy { width: 100%; }
+.ll-home-campaign { min-height: 56px; }
+.ll-home-campaign-inner { min-height: 48px; gap: 12px; }
+.liblib-home.has-campaign { --ll-promo-height: 64px; }
+.libtv-promo-banner .sa-annual-copy { text-align: start; }
+.libtv-promo-banner .sa-annual-countdown { flex-wrap: wrap; justify-content: flex-end; font-size: 14px; gap: 10px; padding: 16px; }
+.libtv-promo-banner .sa-annual-countdown > span:first-child { width: 100%; justify-content: flex-end; }
+.libtv-promo-banner .sa-annual-countdown b { font-size: 27px; }
+.sa-byok-settlement,[data-settlement-currency] { font-size: 12px; line-height: 1.6; }
+@media(max-width: 1150px) { .ll-home-campaign .sa-annual-copy > small { display: none; } .ll-home-campaign .sa-annual-copy > strong { font-size: 11px; } .ll-home-countdown { font-size: 10px; } }
+@media(max-width: 767px) { .liblib-home.has-campaign { --ll-promo-height: 0px; } .ll-home-campaign { display:none; } .libtv-promo-banner { display:flex; flex-direction:column; align-items:stretch; padding:20px; gap:16px; } .libtv-promo-banner .sa-annual-countdown { justify-content:flex-start; padding:0; } .libtv-promo-banner .sa-annual-countdown > span:first-child { justify-content:flex-start; } .sa-annual-copy > small { font-size:11px; } }

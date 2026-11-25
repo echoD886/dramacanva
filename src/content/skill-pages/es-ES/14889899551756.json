@@ -1,0 +1,66 @@
+{
+    "title": "Entrada del protagonista: diagnostica 30 s y da 2 versiones",
+    "metaDescription": "Para guionistas de vídeos cortos y series: detecta por qué falla la entrada del protagonista en los primeros 30 s y crea dos reescrituras breves y visuales.",
+    "oneLiner": "Para autores de series cortas: introduce la escena de entrada, diagnostícala y genera dos reescrituras en el lienzo.",
+    "intro": [
+        "Este es un flujo creativo para que los autores de series cortas modifiquen la escena de entrada del protagonista. Mucha gente escribe guiones con una introducción demasiado larga y no logra retener al público en los primeros segundos. Te ayuda a encontrar por qué el personaje no resulta lo bastante vivo.",
+        "Solo necesitas preparar una descripción del personaje o un borrador recién escrito de los primeros 30 segundos de entrada. Aunque solo sean unas frases, puedes enviarlo directamente al asistente de IA de la derecha.",
+        "La IA generará en el lienzo una tarjeta de diagnóstico que señala los problemas del guion y ofrece dos reescrituras de menos de 150 caracteres con descripciones visuales, listas para copiar y usar."
+    ],
+    "example": {
+        "input": "El protagonista es un asesino a sangre fría. Entra en el edificio con una gabardina negra, sus subordinados le hacen una reverencia y se dispone a ir a un tiroteo. Ayúdame a hacerlo más atractivo.",
+        "output": "En el lienzo se genera una tarjeta: señala que la escena original carece de contraste; ofrece dos reescrituras de 150 caracteres (por ejemplo, antes de entrar en el edificio, aparta un caracol de la acera hacia la hierba y luego desenfunda el arma); incluye una frase de descripción visual para el vídeo."
+    },
+    "scenarios": [
+        "Has escrito la escena de entrada del protagonista de una serie corta y te parece plana, como una simple enumeración, y temes que el público pase de largo a los pocos segundos.",
+        "Quieres construir un villano o un personaje frío y no se te ocurren detalles de contraste que hagan que el público empatice rápido con él.",
+        "El protagonista tiene una premisa muy fuerte o muy trágica, pero en el guion de los primeros 30 segundos se ve plano y sin conflicto.",
+        "Cuando el guion ya está reescrito, no sabes cómo convertir la acción culminante en texto para generar la imagen del vídeo."
+    ],
+    "problems": [
+        {
+            "pain": "La entrada del protagonista de una serie corta es muy plana y el público quiere pasar de largo a los pocos segundos.",
+            "solve": "Analiza el contenido de los primeros 30 segundos, señala si el personaje está poco definido y recomienda combinaciones de rasgos de carácter adecuadas para reescribirlo."
+        },
+        {
+            "pain": "Sabes que el protagonista necesita contraste, pero no se te ocurren detalles de acción concretos.",
+            "solve": "Genera directamente en el lienzo dos reescrituras de menos de 150 caracteres que asienten el personaje con acciones concretas."
+        },
+        {
+            "pain": "La historia tiene una introducción demasiado larga y en los primeros segundos no quedan claros los rasgos del protagonista.",
+            "solve": "Te ayuda a eliminar diálogos sobrantes y explicaciones confusas, y a centrarte en el conflicto clave para que el protagonista llame la atención desde su entrada."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el lienzo de creación.",
+        "Introduce la descripción del personaje o el borrador de la entrada y envíalo al asistente de IA en el lado derecho del lienzo.",
+        "Revisa el análisis de diagnóstico y las dos tarjetas de reescritura del guion que la IA genera en el lienzo.",
+        "Copia o descarga el guion y la descripción visual que te convenzan; también puedes editar el texto directamente en el lienzo."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo consigo que el protagonista de una serie corta atraiga al público nada más aparecer?",
+            "a": "La forma más directa es hacer que el protagonista realice en los primeros 30 segundos una acción con contraste que muestre rasgos de carácter intensos. Presentar solo el contexto cuesta retener al público; un conflicto repentino y pequeños gestos facilitan que el público empatice. Puedes enviar tu borrador al asistente de IA y te ayudará a detectar lo que resulta plano y a reescribir las acciones."
+        },
+        {
+            "q": "¿Esta habilidad puede escribirme el guion de una serie corta completa?",
+            "a": "No; está pensada específicamente para diagnosticar y pulir la entrada del personaje en los primeros 30 segundos, no para escribir tramas largas. Se centra en la acción de apertura dentro de los 150 caracteres para ayudarte a asentar al protagonista rápidamente. Si necesitas una serie larga completa, puedes seguir creando el contenido posterior a mano en el lienzo."
+        },
+        {
+            "q": "¿Qué hago si no me convence el guion reescrito que se genera?",
+            "a": "Puedes modificar el texto directamente en el lienzo o seguir pidiendo ajustes al asistente de IA. La IA ofrece cada vez dos propuestas con enfoques distintos para que elijas. Si quieres probar otro contraste de personalidad, solo tienes que pedir al asistente que vuelva a generarlo."
+        },
+        {
+            "q": "¿Esta habilidad genera directamente un vídeo terminado?",
+            "a": "No genera vídeos; genera el texto del guion reescrito y las descripciones visuales. Puedes copiar esas descripciones visuales para generar imágenes o usarlas directamente como guion de rodaje. Todos los resultados de texto se pueden copiar o descargar libremente desde el lienzo."
+        }
+    ],
+    "keywords": [
+        "cómo escribir guiones de series cortas",
+        "diseño de la entrada del protagonista en series cortas",
+        "cómo enganchar al público al inicio de una miniserie",
+        "reescribir guion de serie corta",
+        "personajes para vídeos cortos",
+        "cómo escribir los primeros 30 segundos de una serie corta"
+    ]
+}

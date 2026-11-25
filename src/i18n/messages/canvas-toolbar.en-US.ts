@@ -1,0 +1,23 @@
+const messages = {
+    "canvasToolbar.move": "Hand tool",
+    "canvasToolbar.select": "Area selection",
+    "canvasToolbar.add": "Add node",
+    "canvasToolbar.assets": "Asset library",
+    "canvasToolbar.appearance": "Canvas appearance",
+    "canvasToolbar.settings": "Toolbar settings",
+    "canvasToolbar.deleteCount": "Delete {count} nodes",
+    "canvasToolbar.delete": "Delete selected node",
+    "canvasToolbar.clear": "Clear canvas",
+    "canvasToolbar.appearanceHelp": "Adjust the entire creative workspace",
+    "canvasToolbar.imageInfo": "Image information",
+    "canvasToolbar.settingsHelp": "Drag to reorder and hide tools you rarely use",
+    "canvasToolbar.closeSettings": "Close toolbar settings",
+    "canvasToolbar.visible": "Showing {visible}/{total}",
+    "canvasToolbar.resetAria": "Restore default toolbar settings",
+    "canvasToolbar.reset": "Restore defaults",
+    "canvasToolbar.order": "Main toolbar order",
+    "canvasToolbar.drag": "Drag to reorder {label}",
+    "canvasToolbar.hide": "Hide {label}",
+    "canvasToolbar.show": "Show {label}",
+} as const;
+export default messages;

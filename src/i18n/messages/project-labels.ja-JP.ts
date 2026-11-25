@@ -1,0 +1,22 @@
+const messages = {
+    "projectLabels.all": "すべての素材",
+    "projectLabels.category.character": "登場人物",
+    "projectLabels.category.environment": "背景",
+    "projectLabels.category.wardrobe": "衣装",
+    "projectLabels.category.prop": "小道具",
+    "projectLabels.category.weapon": "武器",
+    "projectLabels.category.style": "画風",
+    "projectLabels.category.other": "その他",
+    "projectLabels.media.image": "画像",
+    "projectLabels.media.video": "動画",
+    "projectLabels.media.audio": "音声",
+    "projectLabels.media.text": "テキスト",
+    "projectLabels.media.model": "3Dモデル",
+    "projectLabels.media.entity": "キャラクターカード",
+    "projectLabels.media.other": "その他の種類",
+    "projectLabels.source.blank": "空白から開始",
+    "projectLabels.source.novel": "小説をインポート",
+    "projectLabels.source.text": "テキストを貼り付け",
+    "projectLabels.source.other": "その他のソース",
+} as const;
+export default messages;

@@ -1,0 +1,66 @@
+{
+    "title": "Audit friction, simplify flows, design signature moments",
+    "metaDescription": "For content, courses, events, or stores: send your process; AI audits experience friction on a canvas and creates a signature moment plus service steps.",
+    "oneLiner": "Enter a draft process, and AI audits friction points on a canvas and designs a signature moment for creators.",
+    "intro": [
+        "This is a tool to help you smooth out the experience for your content, events, or store. If people see it and don't remember it, or do it and feel nothing, it helps you find why it falls flat and fix it.",
+        "You don't need to know design theory. Just prepare your existing copy, course outline, service steps, or space intro and send it directly to the {brand} AI assistant.",
+        "AI generates text cards on a canvas, including a friction audit, one focused signature highlight design, and specific staff roles and operating order. You can edit or download them anytime."
+    ],
+    "example": {
+        "input": "I run a handmade bakery. Customers browse and leave without remembering much. Help me map out the in-store experience and design a signature feature.",
+        "output": "The canvas will generate cards: bottlenecks and cutback suggestions from entry to checkout, a signature moment around a freshly baked bread tasting, plus staff scripts and a reception sequence."
+    },
+    "scenarios": [
+        "Your content or videos feel flat, viewers don't remember them, and there's no standout moment.",
+        "Online courses or in-person events run too long, and learners zone out or drop off midway.",
+        "You're opening a store or setting up an event and want to streamline the customer flow and attract repeat visits.",
+        "Sign-up, forms, or steps are too complex, and users often abandon at a certain step."
+    ],
+    "problems": [
+        {
+            "pain": "You put real effort into your content or event, but it leaves no impression and no one remembers it.",
+            "solve": "Helps you cut distracting extras and focus on creating one memorable signature detail."
+        },
+        {
+            "pain": "The process is too long and forms are too much hassle, so users lose patience and leave midway.",
+            "solve": "First audits where users get stuck, lists simplified steps on a canvas, and helps streamline the flow."
+        },
+        {
+            "pain": "Everyone on the team follows different standards, so service quality swings up and down.",
+            "solve": "Turns abstract slogans into clear operating order and behavior guidance, and generates a checklist for everyone to follow."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use This Skill” to open the chat panel on the right side of the canvas.",
+        "Send your existing copy outline, business process, or store intro and tell the AI what you're struggling with.",
+        "Review the cards generated on the canvas: friction analysis, signature highlight, and staff sequence suggestions.",
+        "Edit and confirm the text cards on the canvas, then copy or download the results when you're happy."
+    ],
+    "faq": [
+        {
+            "q": "My videos or articles feel flat. How can this skill help me improve them?",
+            "a": "It first helps you cut extra content and designs one memorable highlight moment on the canvas. AI lists wordy sections to cut and details to keep as cards, so you can adjust by comparing them."
+        },
+        {
+            "q": "Users often leave midway through an action or form. How do I fix that?",
+            "a": "The core is cutting back and auditing friction: send your current process to the assistant, and it finds the cumbersome steps where users get stuck and suggests simplifications. AI marks extra steps on the canvas and helps simplify the flow to the minimum."
+        },
+        {
+            "q": "Can I design several signature features at once?",
+            "a": "No. By default, the system designs only one signature feature at a time; focusing on nailing one key experience is what makes it memorable. Too many features dilute attention; if you have multiple scenarios, ask the assistant in batches."
+        },
+        {
+            "q": "My employees or team don't follow service standards consistently. How can we improve?",
+            "a": "You need to turn abstract verbal requirements into a specific operating order and behavior checklist so everyone has the same standard. Send your service process to the assistant, and AI will list action guidance on the canvas for easy follow-through."
+        }
+    ],
+    "keywords": [
+        "experience friction audit",
+        "signature moment design",
+        "how to simplify a lengthy process",
+        "how to reduce user drop-off",
+        "how to make content memorable",
+        "service process optimization"
+    ]
+}

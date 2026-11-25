@@ -1,0 +1,20 @@
+const messages = {
+    "creationEmpty.signal": "DramaCanvas · AI 映像制作ワークスペース",
+    "creationEmpty.lead": "頭の中のシーンを、",
+    "creationEmpty.brand": "DramaCanvas で",
+    "creationEmpty.finish": "映像にしよう",
+    "creationEmpty.neon": "SC.01 · 雨夜のネオン",
+    "creationEmpty.chase": "SC.02 · 路地の追跡",
+    "creationEmpty.rooftop": "SC.03 · 屋上の再会",
+    "creationEmpty.caption": "すべてのフレームを演出",
+    "creationEmpty.first": "最初のショットを生成",
+    "creationEmpty.firstHint": "画面、カメラワーク、光を入力",
+    "creationEmpty.reference": "参照画像から始める",
+    "creationEmpty.referenceHint": "スタイルの参照画像から、同じ雰囲気の画像を生成",
+    "creationEmpty.story": "物語の続きを書く",
+    "creationEmpty.storyHint": "AIと筋書き、キャラクター、台詞を相談",
+    "creationEmpty.skill": "スキルを活用",
+    "creationEmpty.skillHint": "@ で絵コンテや音声などのスキルを利用",
+    "creationEmpty.shotPlaceholder": "SC.{id} · このショット、画面、物語を入力",
+} as const;
+export default messages;

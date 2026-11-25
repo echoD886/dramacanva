@@ -1,0 +1,67 @@
+{
+    "title": "AI Face Sculpting: Refine Features for Unique Character Art",
+    "metaDescription": "For short-drama and video creators. Pick face shape and vibe or upload a reference; AI refines features into realistic, unique character portraits.",
+    "oneLiner": "Give it face shape and vibe preferences, and it creates unique character portrait cards on the canvas.",
+    "intro": [
+        "This is a tool for designing original character looks. It breaks vague vibes like cat-like or cool and aloof into specific face shape, eye, and nose details, avoiding generic influencer-style fake faces.",
+        "Think of the character's overall feel—age, aloof or sweet—or upload a face-shape reference; AI only references bone structure (facial bone dimensionality) and does not copy a real person.",
+        "When you're done, you'll get two things on the canvas: a detailed text card describing the facial features, and a portrait image card with realistic skin texture that matches the setup."
+    ],
+    "example": {
+        "input": "I want to create a cool and aloof villainess in her early 20s, narrow long face, slender eyes, with a slightly intimidating gaze, and no plastic influencer face.",
+        "output": "The canvas will generate an organized facial-feature descriptor card (including details like deep-set eyes and straight mouth corners) and a half-body portrait of the villainess with tiny pores and natural lighting."
+    },
+    "scenarios": [
+        "Preparing short-drama characters and want to turn abstract vibes like fox-like or cool and aloof into specific looks.",
+        "After finishing script character settings, need to generate a front-facing avatar or character photo on the canvas that fits the personality.",
+        "Have makeup/styling or facial-feature reference images you like and want to borrow bone structure and vibe to generate an original character.",
+        "When making character images, want to remove the over-smoothed plastic feel and add real pores and texture."
+    ],
+    "problems": [
+        {
+            "pain": "If you only write cat-like or high-end face, AI generates the same pointy-chinned influencer look every time.",
+            "solve": "Break the style down into face shape, eye shape, nose, and facial dimensionality to generate a clear, structured facial-feature description."
+        },
+        {
+            "pain": "Generated character skin is as smooth as a plastic doll and lacks real-camera texture.",
+            "solve": "Add natural skin texture, fine pores, and natural lighting to the generation request to reduce the over-beautified filter feel."
+        },
+        {
+            "pain": "You want to reference the spirit of certain photos but worry about violating a real person's likeness rights or directly copying a face.",
+            "solve": "Extract only facial proportions and bone-structure vibe from the photo, avoid specific personal identity, and regenerate an original character face."
+        }
+    ],
+    "steps": [
+        "Click “Use This Skill” in the skill library to open the creation chat on the right side of the canvas.",
+        "Choose face type, age, and vibe, or upload a facial or makeup/styling reference image.",
+        "Fill out the facial-feature form, selecting or fine-tuning face shape, eye shape, nose, and facial dimensionality.",
+        "Review the facial-feature description card and character image generated on the canvas, and check the character's look details.",
+        "Adjust the text card and regenerate, or directly download the character image card you're happy with."
+    ],
+    "faq": [
+        {
+            "q": "How do I avoid AI making the same generic influencer face every time?",
+            "a": "Break abstract styles like cat-like or cool and aloof into specific face shape, eye shape, nose, and realistic skin details to avoid generic influencer faces. The assistant guides you through a form to choose each feature, making the character's facial traits clear and minimizing lookalikes."
+        },
+        {
+            "q": "The generated character's skin looks plastic and too fake—what should I do?",
+            "a": "The skill automatically adds native camera texture, visible pores, and slight asymmetry to reduce the plastic feel from over-smoothing. If you're still unhappy with the image, tell the assistant in the chat to add micro-expressions, or edit the card description and regenerate."
+        },
+        {
+            "q": "Can I upload a real person's photo and make the same character face?",
+            "a": "You can't directly make an identical real-person face, but you can upload a photo to borrow its facial proportions and makeup vibe and generate a brand-new original character. The assistant extracts the bone structure from the reference and regenerates the description, avoiding a specific celebrity or real person's identity, preserving the look's spirit while protecting likeness rights."
+        },
+        {
+            "q": "What if I'm not satisfied with the generated facial features—how do I change them?",
+            "a": "You can edit the text card directly on the canvas, or tell the assistant in the chat exactly what to adjust, such as making the nose rounder or widening the eye spacing. The assistant updates the facial-feature description card and regenerates the image; each card on the canvas can be edited and regenerated individually."
+        }
+    ],
+    "keywords": [
+        "AI face sculpting",
+        "short drama character generator",
+        "AI character face shape design",
+        "avoid influencer face AI character",
+        "realistic AI skin texture",
+        "AI character appearance design"
+    ]
+}

@@ -1,0 +1,1109 @@
+/* ==========================================================================
+   LibTV / Figma Warm Paper High-End Drama Creation Gallery CSS
+   ========================================================================== */
+
+.project-drama-page {
+    background-color: #f5f5f2;
+    min-height: 100%;
+}
+
+.dark .project-drama-page {
+    background-color: #141414;
+}
+
+/* 1. Header Toolbar */
+.drama-gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(25, 27, 25, 0.08);
+}
+
+.dark .drama-gallery-header {
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.drama-gallery-title-wrap h1 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #181918;
+    margin: 0;
+}
+
+.dark .drama-gallery-title-wrap h1 {
+    color: #f5f5f3;
+}
+
+.drama-gallery-title-wrap p {
+    font-size: 13px;
+    color: #686a67;
+    margin-top: 4px;
+}
+
+.dark .drama-gallery-title-wrap p {
+    color: #a4a5a1;
+}
+
+.drama-gallery-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.drama-gallery-create-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #181918;
+    color: #ffffff;
+    height: 40px;
+    padding: 0 18px;
+    border-radius: 10px;
+    font-size: 13.5px;
+    font-weight: 650;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(24, 25, 24, 0.12);
+    border: none;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.drama-gallery-create-btn:hover {
+    background: #2b2c2a;
+    transform: translateY(-1px);
+}
+
+.dark .drama-gallery-create-btn {
+    background: #f5f5f3;
+    color: #171717;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.dark .drama-gallery-create-btn:hover {
+    background: #ffffff;
+}
+
+/* 2. Sub-Toolbar (Search + Filters) */
+.drama-gallery-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.drama-gallery-search-shell {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid rgba(25, 27, 25, 0.09);
+    border-radius: 999px;
+    padding: 7px 16px;
+    width: 280px;
+    box-shadow: 0 2px 6px rgba(24, 27, 25, 0.03);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.drama-gallery-search-shell:focus-within {
+    border-color: #181918;
+    box-shadow: 0 0 0 3px rgba(24, 27, 25, 0.06);
+}
+
+.dark .drama-gallery-search-shell {
+    background: #202020;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .drama-gallery-search-shell:focus-within {
+    border-color: #f5f5f3;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
+}
+
+.drama-gallery-search-input {
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    color: #181918;
+    outline: none;
+    width: 100%;
+    margin-left: 8px;
+}
+
+.dark .drama-gallery-search-input {
+    color: #f5f5f3;
+}
+
+.drama-gallery-search-input::placeholder {
+    color: #92948f;
+}
+
+.drama-gallery-filter-segment {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    background: #ecece8;
+    padding: 3px;
+    border-radius: 10px;
+    gap: 2px;
+}
+
+@media (max-width: 640px) {
+    .drama-gallery-toolbar { flex-direction: column; align-items: stretch; gap: 10px; }
+    .drama-gallery-search { width: 100%; }
+}
+
+.dark .drama-gallery-filter-segment {
+    background: #222222;
+}
+
+.drama-gallery-filter-btn {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 6px 16px;
+    font-size: 12.5px;
+    font-weight: 550;
+    color: #686a67;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.dark .drama-gallery-filter-btn {
+    color: #a4a5a1;
+}
+
+.drama-gallery-filter-btn:hover {
+    color: #181918;
+}
+
+.dark .drama-gallery-filter-btn:hover {
+    color: #f5f5f3;
+}
+
+.drama-gallery-filter-btn.is-active {
+    background: #ffffff;
+    color: #181918;
+    font-weight: 650;
+    box-shadow: 0 2px 6px rgba(24, 27, 25, 0.06);
+}
+
+.dark .drama-gallery-filter-btn.is-active {
+    background: #2c2c2c;
+    color: #f5f5f3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* 3. 4-Column Gallery Grid */
+.drama-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+    margin-top: 12px;
+}
+
+@media (max-width: 1280px) {
+    .drama-gallery-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 900px) {
+    .drama-gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .drama-gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* 4. Dashed Create Card */
+.drama-card-dashed-create {
+    background: #ffffff;
+    border: 1.5px dashed rgba(25, 27, 25, 0.16);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 20px;
+    text-align: center;
+    min-height: 440px;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark .drama-card-dashed-create {
+    background: #1c1c1c;
+    border-color: rgba(255, 255, 255, 0.16);
+}
+
+.drama-card-dashed-create:hover {
+    border-color: #181918;
+    transform: translateY(-3px);
+    box-shadow: 0 16px 36px rgba(24, 27, 25, 0.08);
+}
+
+.dark .drama-card-dashed-create:hover {
+    border-color: #f5f5f3;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+}
+
+.drama-dashed-create-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: #f5f5f2;
+    border: 1px solid rgba(25, 27, 25, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #181918;
+    margin-bottom: 16px;
+    transition: transform 0.2s ease;
+}
+
+.dark .drama-dashed-create-icon {
+    background: #262626;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #f5f5f3;
+}
+
+.drama-card-dashed-create:hover .drama-dashed-create-icon {
+    transform: scale(1.08);
+}
+
+.drama-dashed-create-title {
+    font-size: 15.5px;
+    font-weight: 700;
+    color: #181918;
+}
+
+.dark .drama-dashed-create-title {
+    color: #f5f5f3;
+}
+
+.drama-dashed-create-desc {
+    font-size: 12px;
+    color: #686a67;
+    margin-top: 6px;
+    line-height: 1.5;
+    max-width: 200px;
+}
+
+.dark .drama-dashed-create-desc {
+    color: #a4a5a1;
+}
+
+/* 5. Production Drama Card */
+.drama-gallery-card {
+    background: #ffffff;
+    border: 1px solid rgba(25, 27, 25, 0.08);
+    border-radius: 16px;
+    overflow: hidden;
+    min-height: 440px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(24, 27, 25, 0.04);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.dark .drama-gallery-card {
+    background: #1e1e1e;
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.drama-gallery-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(25, 27, 25, 0.18);
+    box-shadow: 0 16px 40px rgba(24, 27, 25, 0.09);
+}
+
+.dark .drama-gallery-card:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* 9:16 Large Poster Area */
+.drama-card-poster-area {
+    height: 270px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #e8e8e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark .drama-card-poster-area {
+    background: #181818;
+}
+
+.drama-card-poster-area .project-drama-cover-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #eaeae5 0%, #dfdfd9 100%);
+    color: rgba(24, 25, 24, 0.45);
+    gap: 8px;
+}
+
+.dark .drama-card-poster-area .project-drama-cover-placeholder {
+    background: linear-gradient(180deg, #1c1c1c 0%, #151515 100%);
+    color: rgba(245, 245, 243, 0.35);
+}
+
+.drama-card-poster-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.drama-gallery-card:hover .drama-card-poster-img {
+    transform: scale(1.035);
+}
+
+.drama-card-poster-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.drama-card-tag-genre {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(8px);
+    color: #181918;
+    font-size: 11px;
+    font-weight: 650;
+    padding: 3px 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.dark .drama-card-tag-genre {
+    background: rgba(30, 30, 30, 0.9);
+    color: #f5f5f3;
+}
+
+.drama-card-tag-aspect {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #181918;
+    color: #ffffff;
+    font-size: 10.5px;
+    font-weight: 700;
+    padding: 3px 7px;
+    border-radius: 6px;
+}
+
+.dark .drama-card-tag-aspect {
+    background: #f5f5f3;
+    color: #171717;
+}
+
+/* Card Content */
+.drama-card-meta-body {
+    padding: 16px 18px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.drama-card-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.drama-card-title {
+    font-size: 15.5px;
+    font-weight: 700;
+    color: #181918;
+    line-height: 1.35;
+    letter-spacing: -0.2px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dark .drama-card-title {
+    color: #f5f5f3;
+}
+
+.drama-card-synopsis {
+    font-size: 12px;
+    color: #686a67;
+    line-height: 1.45;
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.dark .drama-card-synopsis {
+    color: #a4a5a1;
+}
+
+/* Progress Section */
+.drama-card-progress-box {
+    margin-top: 14px;
+}
+
+.drama-card-progress-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11.5px;
+    color: #92948f;
+    margin-bottom: 5px;
+}
+
+.drama-card-progress-labels strong {
+    color: #181918;
+    font-weight: 600;
+}
+
+.dark .drama-card-progress-labels strong {
+    color: #f5f5f3;
+}
+
+.drama-card-progress-track {
+    height: 4px;
+    background: #ecece8;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.dark .drama-card-progress-track {
+    background: #2a2a2a;
+}
+
+.drama-card-progress-bar {
+    height: 100%;
+    background: #181918;
+    border-radius: 999px;
+    transition: width 0.3s ease;
+}
+
+.dark .drama-card-progress-bar {
+    background: #f5f5f3;
+}
+
+.drama-card-progress-bar.is-completed {
+    background: #10b981;
+}
+
+/* Bottom Bar */
+.drama-card-foot-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(25, 27, 25, 0.06);
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 11.5px;
+    color: #92948f;
+}
+
+.dark .drama-card-foot-row {
+    border-top-color: rgba(255, 255, 255, 0.06);
+}
+
+.drama-card-enter-action {
+    font-size: 12px;
+    font-weight: 650;
+    color: #181918;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: transform 0.15s ease;
+}
+
+.dark .drama-card-enter-action {
+    color: #f5f5f3;
+}
+
+.drama-gallery-card:hover .drama-card-enter-action {
+    transform: translateX(2px);
+}
+
+/* Modal Styling Refinements */
+.figma-create-modal.ant-modal {
+    max-width: calc(100vw - 32px);
+    padding-bottom: 0;
+}
+
+.figma-create-modal .ant-modal-container {
+    padding: 0 !important;
+    border-radius: 18px !important;
+    overflow: hidden;
+    max-height: calc(100dvh - 32px);
+    display: flex;
+    flex-direction: column;
+    background: var(--popover);
+    box-shadow: 0 24px 64px rgba(24, 27, 25, 0.18) !important;
+    border: 1px solid rgba(25, 27, 25, 0.1) !important;
+}
+
+.dark .figma-create-modal .ant-modal-container {
+    background: #242426;
+    border-color: rgba(255, 255, 255, 0.16) !important;
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.6) !important;
+}
+
+.figma-create-modal .ant-modal-header {
+    flex-shrink: 0;
+    margin-bottom: 0;
+    background: transparent;
+}
+
+.figma-create-modal .ant-modal-body,
+.figma-create-form {
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.figma-create-form {
+    width: 100%;
+}
+
+.figma-modal-header {
+    min-height: 64px;
+    padding: 16px 56px 16px 24px;
+    border-bottom: 1px solid rgba(25, 27, 25, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark .figma-modal-header {
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.figma-modal-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #181918;
+}
+
+.dark .figma-modal-title {
+    color: #f5f5f3;
+}
+
+.figma-modal-body-layout {
+    min-height: 0;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 28px;
+    padding: 24px;
+}
+
+.figma-modal-visual {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.figma-modal-fields {
+    min-width: 0;
+}
+
+.figma-modal-options {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.figma-create-modal .ant-form-item-label > label {
+    color: var(--foreground);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.figma-create-modal .ant-input::placeholder {
+    color: var(--muted-foreground);
+}
+
+.figma-create-modal .ant-input,
+.figma-create-modal .ant-select {
+    font-size: 13px;
+}
+
+.figma-modal-cover-preview {
+    height: 290px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 8px 24px rgba(24, 27, 25, 0.08);
+    border: 1px solid rgba(25, 27, 25, 0.08);
+    background: #eaeae5;
+}
+
+.dark .figma-modal-cover-preview {
+    background: #181818;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.figma-modal-cover-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgba(24, 25, 24, 0.5);
+    background: linear-gradient(180deg, #f0f0eb 0%, #e5e5df 100%);
+    gap: 8px;
+}
+
+.dark .figma-modal-cover-empty {
+    color: rgba(245, 245, 243, 0.4);
+    background: linear-gradient(180deg, #202020 0%, #161616 100%);
+}
+
+.figma-modal-cover-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.figma-modal-cover-tag {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(8px);
+    padding: 6px 10px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 11px;
+    color: #181918;
+    font-weight: 600;
+}
+
+.dark .figma-modal-cover-tag {
+    background: rgba(20, 20, 20, 0.9);
+    color: #f5f5f3;
+}
+
+.figma-modal-footer {
+    flex-shrink: 0;
+    min-height: 76px;
+    gap: 20px;
+    padding: 16px 24px;
+    background: #fbfbf9;
+    border-top: 1px solid rgba(25, 27, 25, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark .figma-modal-footer {
+    background: rgba(255, 255, 255, 0.035);
+    border-top-color: rgba(255, 255, 255, 0.08);
+}
+
+.figma-modal-hint {
+    min-width: 0;
+    color: var(--muted-foreground);
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.figma-modal-actions {
+    display: flex;
+    flex-shrink: 0;
+    gap: 8px;
+}
+
+@media (max-width: 640px) {
+    .figma-modal-body-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+        padding: 20px;
+    }
+
+    .figma-modal-cover-preview {
+        height: 160px;
+    }
+
+    .figma-modal-cover-preview img {
+        object-position: center 30%;
+    }
+
+    .figma-modal-footer {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+        padding: 16px 20px;
+    }
+
+    .figma-modal-actions {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 420px) {
+    .figma-modal-options {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0;
+    }
+}
+
+/* ==========================================================================
+   Workbench & Detail Toolbar Refinements (Figma/Linear Style)
+   ========================================================================== */
+
+.project-novel-import-modal.ant-modal {
+    max-width: calc(100vw - 32px);
+    padding-bottom: 0;
+}
+
+.project-novel-import-modal .ant-modal-container {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+}
+
+.project-novel-import-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-novel-import-header {
+    flex-shrink: 0;
+    padding: 16px 56px 16px 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+.project-novel-import-header h2 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.project-novel-import-header p {
+    margin: 4px 0 0;
+    color: var(--muted-foreground);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.project-novel-import-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 240px;
+    height: 430px;
+    max-height: calc(100dvh - 140px);
+    min-height: 260px;
+}
+
+.project-novel-import-source {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    min-width: 0;
+    padding: 12px;
+    border-right: 1px solid var(--border);
+}
+
+.project-novel-import-source textarea.ant-input {
+    flex: 1;
+    min-height: 0;
+    height: 0;
+}
+
+@media (max-width: 767px) {
+    .project-novel-import-layout {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: minmax(0, 1fr) minmax(0, 0.7fr);
+        height: 620px;
+        min-height: 320px;
+    }
+
+    .project-novel-import-source {
+        border-right: 0;
+        border-bottom: 1px solid var(--border);
+    }
+}
+
+.project-workspace-topbar {
+    padding: 0 4px;
+}
+
+.project-workbench-page {
+    background-color: #f5f5f2;
+}
+
+.dark .project-workbench-page {
+    background-color: #141414;
+}
+
+.project-chapter-editor-wrap {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(24, 27, 25, 0.04), 0 0 0 1px rgba(25, 27, 25, 0.06);
+    margin: 20px auto;
+    max-width: 760px;
+    padding: 36px 44px;
+    min-height: calc(100% - 40px);
+}
+
+.dark .project-chapter-editor-wrap {
+    background: #1e1e1e;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+
+/* ==========================================================================
+   High-End Case Reference Library (Warm Paper & Clean Dark Refinement)
+   ========================================================================== */
+
+.project-case-library {
+    margin-top: 56px;
+    padding-top: 32px;
+    border-top: 1px solid rgba(25, 27, 25, 0.08);
+}
+
+.dark .project-case-library {
+    border-top-color: rgba(255, 255, 255, 0.08);
+}
+
+.project-case-library-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.project-case-library-head > div > span {
+    display: inline-block;
+    font-size: 11.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #686a67;
+    margin-bottom: 4px;
+}
+
+.dark .project-case-library-head > div > span {
+    color: #a4a5a1;
+}
+
+.project-case-library-head h2 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #181918;
+    margin: 0;
+}
+
+.dark .project-case-library-head h2 {
+    color: #f5f5f3;
+}
+
+.project-case-library-head p {
+    font-size: 13px;
+    color: #686a67;
+    margin-top: 5px;
+}
+
+.dark .project-case-library-head p {
+    color: #a4a5a1;
+}
+
+.project-case-library-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #181918;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: rgba(25, 27, 25, 0.04);
+    border: 1px solid rgba(25, 27, 25, 0.08);
+    transition: all 0.15s ease;
+}
+
+.dark .project-case-library-more {
+    color: #f5f5f3;
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.project-case-library-more:hover {
+    background: rgba(25, 27, 25, 0.08);
+    transform: translateX(2px);
+}
+
+.dark .project-case-library-more:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.project-case-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 1200px) {
+    .project-case-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 640px) {
+    .project-case-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.project-case-card {
+    background: #ffffff;
+    border: 1px solid rgba(25, 27, 25, 0.08);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 10px rgba(24, 27, 25, 0.03);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dark .project-case-card {
+    background: #1e1e1e;
+    border-color: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.project-case-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(25, 27, 25, 0.18);
+    box-shadow: 0 12px 28px rgba(24, 27, 25, 0.08);
+}
+
+.dark .project-case-card:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+.project-case-cover {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    overflow: hidden;
+    background: #eaeae5;
+}
+
+.dark .project-case-cover {
+    background: #141414;
+}
+
+.project-case-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.project-case-card:hover .project-case-cover img {
+    transform: scale(1.04);
+}
+
+.project-case-cover-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(8px);
+    color: #181918;
+    font-size: 11px;
+    font-weight: 650;
+    padding: 3px 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark .project-case-cover-tag {
+    background: rgba(30, 30, 30, 0.9);
+    color: #f5f5f3;
+}
+
+.project-case-body {
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.project-case-body strong {
+    font-size: 14px;
+    font-weight: 650;
+    color: #181918;
+    line-height: 1.35;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dark .project-case-body strong {
+    color: #f5f5f3;
+}
+
+.project-case-body small {
+    font-size: 12px;
+    color: #686a67;
+    margin-top: 4px;
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.dark .project-case-body small {
+    color: #a4a5a1;
+}
+
+.project-case-meta {
+    margin-top: 10px;
+    font-size: 11.5px;
+    color: #181918;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark .project-case-meta {
+    color: #f5f5f3;
+}

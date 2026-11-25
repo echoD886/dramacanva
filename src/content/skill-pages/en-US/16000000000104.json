@@ -1,0 +1,67 @@
+{
+    "title": "Use an 8-stage method to turn product ads into brand stories",
+    "metaDescription": "For creators who can only list features. Enter product and audience; AI builds a story arc, 8-stage plan, and content checklist for a ready-to-use script.",
+    "oneLiner": "Enter product info and generate a brand story outline on the canvas that has conflict and doesn’t feel forced.",
+    "intro": [
+        "This is a planning tool that helps you write brand stories. Instead of stiff self-praise, it turns product selling points into a real story with twists that solves user problems.",
+        "You only need a simple product intro, who you want to sell to, and the problems users face every day. Even if you’ve never written a story script, you can use it directly.",
+        "AI generates three sets of text cards on the canvas: a complete brand story arc, an 8-stage rollout plan, and a content checklist for solving user needs."
+    ],
+    "example": {
+        "input": "We make silent office mechanical keyboards and want to create a promotional story for programmers who often work overtime. We don’t want it to just read out hardware specs the whole time.",
+        "output": "The canvas generates three text cards: it starts with the conflict of the main character typing late at night and disturbing their family, unfolds the story turns across eight stages, and lists a content checklist that addresses pain points."
+    },
+    "scenarios": [
+        "When promoting a new product, you can only list selling points in the video, and viewers swipe away.",
+        "Your promo video script has a plot that’s too smooth and reads like a boring log, so nothing sticks after watching.",
+        "The ad repeats the same feature until it feels wordy, and you don’t know how to add twists.",
+        "You’re not sure whether to pitch the product right away or first answer users’ real questions."
+    ],
+    "problems": [
+        {
+            "pain": "The ad sounds like a product manual, just reading specs the whole time, and viewers get bored and swipe away.",
+            "solve": "It rewrites self-praise into a story about solving problems, so viewers feel empathy first and then naturally see the product’s value."
+        },
+        {
+            "pain": "The promo story is too flat; the main character has smooth sailing, and viewers can’t remember it afterward.",
+            "solve": "It maps cause and effect across eight stages, adding real-world obstacles and turning points to give the plot more ups and downs."
+        },
+        {
+            "pain": "You don’t know whether to start by selling or by giving viewers useful content first.",
+            "solve": "It generates a needs-based content checklist to help you explain user pain points and offer insights first, then naturally lead to action."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to open the {brand} canvas.",
+        "Enter your product info, target audience, and the selling points you want to convey.",
+        "Review the story arc, rollout plan, and needs-based content checklist cards generated on the canvas.",
+        "Click a card to edit the text, or tell the assistant in the chat how to adjust the details.",
+        "Copy or download the result cards and use them directly as the script for your next promo video."
+    ],
+    "faq": [
+        {
+            "q": "Why do people always feel the ads I make are too salesy?",
+            "a": "Mainly because they only praise selling points the whole time. Switch to the user’s perspective: show the real problem and turning point first, then introduce the product. The skill helps arrange a needs-based content checklist and story arc so viewers feel empathy first and are less resistant."
+        },
+        {
+            "q": "How exactly does the eight-stage story marketing approach move forward?",
+            "a": "It follows the order of establishing audience needs, adding real-world obstacles and turning points, and finally prompting action, moving naturally from the user’s dilemma to the product. AI generates a rollout plan and story arc cards on the canvas to clarify cause and effect, so you can click the cards to adjust anytime."
+        },
+        {
+            "q": "What if the story is too flat and reads like a boring log?",
+            "a": "The fix is to add real-world obstacles and turning points for the main character, break the too-smooth cause and effect, and give the plot ups and downs. The skill helps diagnose the current plot and add external obstacles and inner conflict so viewers can connect emotionally more easily."
+        },
+        {
+            "q": "When promoting a new product, should I introduce features first or tell a story first?",
+            "a": "Start with a story that shows users’ struggles and establishes needs to avoid being swiped away by a direct pitch, then introduce product features after building empathy. The skill first generates a needs-based content checklist to answer questions and build awareness, then naturally leads to action."
+        }
+    ],
+    "keywords": [
+        "how to write a brand story",
+        "what to do when product ads feel too salesy",
+        "promo video story outline",
+        "story marketing steps",
+        "how to write a video script that isn’t boring",
+        "how to turn an ad into a story"
+    ]
+}

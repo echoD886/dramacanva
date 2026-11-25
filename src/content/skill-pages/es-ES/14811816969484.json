@@ -1,0 +1,66 @@
+{
+    "title": "Diseña joyas con texto o bocetos y genera diseños en lote",
+    "metaDescription": "Para diseñadores y aficionados. Sube bocetos o fotos de gemas y crea en el lienzo anillos, collares y más, individuales o por lotes, con engastes y notas.",
+    "oneLiner": "Escribe texto o sube un boceto y genera en el lienzo lotes de diseños de joyas ponibles.",
+    "intro": [
+        "Este es el flujo de creación de diseños de joyas en el lienzo de {brand}: introduce ideas de texto, bocetos o fotos de gemas y obtén diseños de joyas con estructuras reales de uso, como engastes de garras y monturas de anillo.",
+        "Solo tienes que preparar la categoría de joya, el material o los requisitos de diseño que quieras. Si tienes bocetos a mano, fotos de piedras o imágenes de estilos que te gusten, también puedes enviárselos directamente al asistente de IA.",
+        "La IA organizará en el lienzo una tabla de propuestas de diseño y generará, una por una, imágenes de joyas individuales con acabado de fotografía sobre fondo blanco y notas de diseño. Puedes elegir tus favoritas y descargarlas cuando quieras."
+    ],
+    "example": {
+        "input": "Crea 5 anillos de estilo vintage con talla esmeralda, piedra principal de esmeralda, brazo del anillo en oro amarillo de 18 quilates y una estructura de engaste detallada.",
+        "output": "En el lienzo se generará una tabla de diseño con 5 modelos numerados y sus materiales, además de 5 imágenes de anillos en alta resolución con acabado de estudio sobre fondo blanco; junto a cada imagen se indicará la estructura de engaste de garras y los detalles del trabajo del metal."
+    },
+    "scenarios": [
+        "En temporada de pedidos o al lanzar nuevos productos, necesitas idear de una vez varias propuestas de diseño de anillos o collares.",
+        "Tienes fotos de gemas o bocetos a lápiz y quieres detallar rápidamente imágenes realistas de cómo se verían puestas.",
+        "Quieres ampliar una colección a partir de modelos antiguos, conservando la piedra principal original pero cambiando el metal y las piedras secundarias.",
+        "Al preparar una propuesta personalizada para un cliente, necesitas un conjunto de imágenes de joyas sobre fondo blanco y notas de técnicas."
+    ],
+    "problems": [
+        {
+            "pain": "Las joyas generadas por IA suelen tener gemas flotando o carecer de montura, por lo que no se pueden llevar.",
+            "solve": "La IA añade de forma activa estructuras de fijación como engastes de garras, cierres de cadena y pasadores de pendientes, para que las joyas dibujadas sean coherentes con su fabricación."
+        },
+        {
+            "pain": "Quieres obtener decenas de propuestas de una vez, pero pensar en cada detalle y escribirlo lleva demasiado tiempo.",
+            "solve": "La IA primero organiza en el lienzo una lista de diseños con categorías y materiales, y después genera las imágenes modelo a modelo según esa lista."
+        },
+        {
+            "pain": "Al subir una imagen de referencia para modificar un modelo, la IA a menudo elimina la gema que querías conservar.",
+            "solve": "La IA conserva por defecto el color y la forma de la piedra principal, y solo introduce cambios nuevos en la disposición de las piedras secundarias y las líneas del metal."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el cuadro de diálogo del lado derecho del lienzo.",
+        "Sube un boceto o una foto de piedra e indica la categoría, el material y el número de modelos que quieres.",
+        "Consulta la tabla de la lista de diseños y las imágenes de joyas sobre fondo blanco generadas en el lienzo.",
+        "Pide al asistente que modifique las tarjetas que no te convenzan y que las vuelva a generar; cuando estés satisfecho, descarga las imágenes directamente."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo puedo convertir un boceto a mano en una imagen realista de una joya?",
+            "a": "Sube el boceto en el cuadro de diálogo e indica la categoría y el material de la joya. La IA conservará la composición del boceto y añadirá estructuras como engastes de garras y monturas de anillo para generar imágenes de joyas con acabado de fotografía sobre fondo blanco. Si algún detalle generado no te convence, puedes pedir al asistente que cambie los requisitos y vuelva a generarlo cuando quieras."
+        },
+        {
+            "q": "¿Las joyas dibujadas cumplen con una estructura real de uso?",
+            "a": "Se intentará que sí. Al crear las imágenes, la IA añade de forma activa estructuras de fijación como engastes de garras, pasadores de pendientes y cierres de cadena, para evitar que las gemas floten o queden sin sujeción. Si tienes requisitos concretos de engaste o de uso, también puedes indicárselos al asistente de antemano en el cuadro de diálogo."
+        },
+        {
+            "q": "¿Cómo puedo diseñar varios anillos o collares por lotes de una sola vez?",
+            "a": "Indica directamente a la IA en el cuadro de diálogo la cantidad y el estilo de diseños que quieres. Primero mostrará una tabla de propuestas en el lienzo y después generará una imagen y una descripción de cada modelo según la lista. Todos los modelos generados se mostrarán distribuidos en el lienzo para que puedas compararlos y elegir los que te gusten para descargarlos."
+        },
+        {
+            "q": "Al modificar una joya existente a partir de una referencia, ¿cómo conservo la piedra principal y cambio solo el modelo?",
+            "a": "Sube la imagen e indica a la IA que conserve el color y la talla de la piedra principal; así intentará mantener la apariencia de la gema central y cambiar solo las líneas del metal y la disposición de las piedras secundarias. Las nuevas propuestas se mostrarán directamente distribuidas en el lienzo para que compares los detalles y descargues las imágenes que te convenzan."
+        }
+    ],
+    "keywords": [
+        "diseño de joyas con IA",
+        "generador de diseños de joyas",
+        "boceto de joya a imagen realista",
+        "diseño de anillos",
+        "diseños de joyas por lotes",
+        "diseño de collares"
+    ]
+}

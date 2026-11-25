@@ -1,0 +1,16 @@
+/* 画布交互光标：框选模式用带描边的箭头，平移（空格/抓手工具）时节点上也显示抓手。
+   此前这些规则写在从未被引入的 canvas-upstream.css 里，框选光标一直退回浏览器默认样式。 */
+#canvas-main .canvas-cursor-select {
+    cursor:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='22' viewBox='0 0 20 22'%3E%3Cpath d='M4.05 2.75c-.78-.38-1.64.34-1.38 1.17l4.05 13.1c.26.84 1.38 1.01 1.88.28l2.35-3.38 4.14-.63c.88-.14 1.17-1.25.46-1.78L4.05 2.75Z' fill='%23070707' stroke='%23fff' stroke-width='1.5' stroke-linejoin='round'/%3E%3C/svg%3E")
+            3 3,
+        default;
+}
+
+#canvas-main [data-canvas-pan-state="grab"] [data-node-id] {
+    cursor: grab;
+}
+
+#canvas-main [data-canvas-pan-state="grabbing"] [data-node-id] {
+    cursor: grabbing;
+}

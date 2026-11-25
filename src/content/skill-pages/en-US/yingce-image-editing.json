@@ -1,0 +1,66 @@
+{
+    "title": "{brand} Local Image Edits: Type or Draw to Change Details",
+    "metaDescription": "For everyday image edits: type or mark areas on the {brand} canvas to swap backgrounds or remove clutter and generate a new image that keeps the original.",
+    "oneLiner": "For people who don’t know how to edit photos: give it the original image and type or draw a circle to generate a revised new image.",
+    "intro": [
+        "This is a tool for making local edits to an image on a canvas: add the original image and type or mark a location, and it will help you change the specific details you want without recreating the whole image.",
+        "You only need to prepare an image you want to edit and place it on the canvas. Figure out what you want to change, such as swapping the background, erasing passersby, or changing the fabric of clothing; you can type a description or mark the location on the image.",
+        "After the edit is complete, a revised new image will appear on the canvas. The original image will not be overwritten and will remain fully on the canvas, so you can place the two images side by side for comparison and download and save it when satisfied."
+    ],
+    "example": {
+        "input": "Select the person photo on the canvas, use the markup tool to circle the cluttered room behind, and enter: “Change the background to a sunny grassy field while keeping the person and clothing as unchanged as possible.”",
+        "output": "A new image will be generated on the canvas, keeping the person’s face and clothing as much as possible, with the background changed to a sunny grassy field. The original image remains next to it on the canvas, connected by a line so you can compare and download."
+    },
+    "scenarios": [
+        "You’re happy with the person or object, but want to change the indoor background to a rainy street.",
+        "There are extra passersby or messy trash in the image, and you want to erase them completely to keep it clean.",
+        "You want to keep the object’s outline and only change the fabric of the clothing or furniture to leather.",
+        "The photo’s angle is slightly off, and you want to fine-tune the perspective while keeping the original subject."
+    ],
+    "problems": [
+        {
+            "pain": "You only want to change one small part of the image, but redoing the whole image changes the person and main subject.",
+            "solve": "It uses the original image as a reference, keeps the subject as unchanged as possible, and regenerates only the areas that need adjustment."
+        },
+        {
+            "pain": "It’s hard to explain exactly which specific corner of the image you want to change using text alone.",
+            "solve": "You can use the markup tool to mark the location directly on the image, and the AI will make local edits based on the points you marked."
+        },
+        {
+            "pain": "You’re worried that after editing, the original image will be replaced, and if you’re not satisfied, you won’t be able to get it back.",
+            "solve": "Each edit creates a new image on the canvas; the original is not overwritten, so you can compare them at any time."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use This Skill” and select the image to edit in the chat box.",
+        "Describe the edit request: you can type a description directly or use the markup tool to mark the location.",
+        "Wait for the AI assistant to process your request and generate a new image on the canvas.",
+        "Review the generated image and compare it with the original; when satisfied, download the image directly from the canvas."
+    ],
+    "faq": [
+        {
+            "q": "How can AI photo editing change only the background without changing the person’s appearance?",
+            "a": "In the chat, clearly tell the AI to keep the main subject and only replace the background. The AI will use the original image as a reference, try to lock the person’s face and body, and regenerate only the background environment. The generated new image stays on the canvas, so you can compare it with the original at any time."
+        },
+        {
+            "q": "How can I use AI to precisely edit local details in an image?",
+            "a": "You can use the markup tool on the canvas to mark the spot you want to change and describe the request. The AI will make targeted local edits based on the points you marked and try not to change parts of the image that don’t need to change. After editing, a new image is generated on the canvas so you can check the details."
+        },
+        {
+            "q": "Will the original image be overwritten after I edit it?",
+            "a": "It will not overwrite the original image. Each edit creates a separate new image on the canvas, and the original remains fully intact. A line connects the two images so you can compare the old and new results at the same time."
+        },
+        {
+            "q": "Will I lose credits if image editing generation fails?",
+            "a": "No credits will be deducted. If image generation fails, the platform will not charge again, and the AI assistant will explain the reason in the chat. You can adjust your edit request based on the prompt and try generating again."
+        }
+    ],
+    "keywords": [
+        "AI local image editing",
+        "AI photo editor keep subject change background",
+        "AI edit image without changing face",
+        "local image redraw with selection",
+        "AI remove clutter from photos",
+        "AI background changer for photos"
+    ]
+}

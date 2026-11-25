@@ -1,0 +1,66 @@
+{
+    "title": "Organize ideias soltas em esboço completo com reviravoltas",
+    "metaDescription": "Para quem quer escrever histórias ou curtas. Envie ideias soltas e confirme o rumo; a IA organiza cartões de esboço com início, reviravolta e final.",
+    "oneLiner": "Envie ideias soltas e monte no canvas um esboço completo com início, reviravoltas e final.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda a organizar a estrutura da sua história. Quando você tem apenas ideias fragmentadas na cabeça e não sabe como conectá-las em uma história completa, ela ajuda a esclarecer o enredo do começo ao fim.",
+        "Você só precisa preparar sua ideia inicial, uma noção básica dos personagens ou um rascunho que travou no meio; envie tudo diretamente ao assistente de IA na caixa de diálogo à direita do canvas.",
+        "A IA gera cartões de esboço em texto no canvas, listando com clareza a origem da história, as reviravoltas principais, as escolhas do clímax e o final. Você pode visualizar, editar ou copiar para usar."
+    ],
+    "example": {
+        "input": "Quero escrever um curta: um entregador de delivery encontra uma mochila com muito dinheiro; o dono é uma pessoa suspeita; ele quer devolver, mas a família precisa de dinheiro com urgência e ele não sabe como continuar a história.",
+        "output": "A IA gera no canvas um cartão de esboço da história, dividindo o enredo em: início com a vida do protagonista sendo perturbada, crise sobre devolver o dinheiro e múltiplas escolhas no meio, e um clímax e final razoáveis."
+    },
+    "scenarios": [
+        "Você tem só um personagem ou uma ideia de abertura interessante na cabeça e não sabe como desenvolver.",
+        "A história travou no meio, o enredo está morno como uma lista de acontecimentos e você não sabe o que acontece na próxima cena.",
+        "Chegou ao final e não consegue concluir, ou a reviravolta do final parece abrupta demais e pouco convincente.",
+        "O rascunho está pronto, mas você sente que falta algo e quer verificar se os pontos-chave da trama fazem sentido."
+    ],
+    "problems": [
+        {
+            "pain": "Só tem uma ideia de abertura e não sabe como expandi-la em uma história completa.",
+            "solve": "Ajuda a organizar o incidente que quebra a rotina do protagonista e a montar no canvas um esboço com causalidade coerente."
+        },
+        {
+            "pain": "O enredo fica cada vez mais morno no meio, e o protagonista só passa por cenas como uma lista de acontecimentos.",
+            "solve": "Identifica os conflitos e cria para o protagonista uma reviravolta decisiva que muda sua situação, completando o desenvolvimento no canvas."
+        },
+        {
+            "pain": "O final sai sem graça, ou a reviravolta é forçada demais e deixa o público sem entender.",
+            "solve": "Deduz o conflito do clímax a partir da causalidade da trama anterior, verifica as conexões e sugere ajustes razoáveis para o final."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e comece a criar no canvas do {brand}.",
+        "Envie sua ideia atual de história, a definição dos personagens ou o rascunho interrompido.",
+        "Veja os cartões de esboço de origem, reviravolta e final gerados pela IA no canvas.",
+        "Ajuste os detalhes do enredo que não gostou e, por fim, copie o texto ou baixe o resultado do esboço."
+    ],
+    "faq": [
+        {
+            "q": "O que faço se a história travou no meio e não sei como continuar?",
+            "a": "Crie para o protagonista um problema inevitável que o force a fazer uma escolha ativa. Muitas histórias ficam mornas no meio porque o protagonista não enfrenta obstáculos de verdade. Você pode identificar o que ele mais teme que aconteça e fazer cada decisão dele gerar um novo problema; assim a história avança naturalmente."
+        },
+        {
+            "q": "Como fazer o final parecer coerente e não abrupto?",
+            "a": "A reviravolta do final precisa ser preparada na primeira metade da história, evitando que aconteça do nada. Verifique se o final é resultado da personalidade do protagonista e das escolhas anteriores, e não de coincidências ou acidentes caídos do céu. Deixando as causas e consequências claras, o público sentirá que foi inesperado, mas plausível."
+        },
+        {
+            "q": "Só tenho uma ideia vaga. A IA consegue transformá-la em um esboço?",
+            "a": "Sim. Basta explicar quem é o protagonista e o que aconteceu com ele. Com base nas estruturas clássicas de história, a IA ajuda a completar no canvas o evento inicial, o desenvolvimento do meio e o clímax e final. Você pode continuar escolhendo e editando os rumos que preferir nos cartões de esboço gerados."
+        },
+        {
+            "q": "Como saber se minha ideia de história vale a pena continuar escrevendo?",
+            "a": "Observe principalmente se o evento inicial quebra a rotina do protagonista e se ele não consegue voltar facilmente ao que era antes. Se, ao enfrentar um problema, o protagonista puder voltar ao estado original a qualquer momento, a história costuma ser difícil de alongar. Se ele precisa seguir em frente e o custo aumenta cada vez mais, a ideia vale a pena."
+        }
+    ],
+    "keywords": [
+        "como escrever um esboço de história",
+        "o que fazer quando a história trava no meio",
+        "organizar esboço de roteiro",
+        "como criar reviravoltas na história",
+        "como escrever o final de um roteiro",
+        "ideias para histórias de curta-metragem"
+    ]
+}

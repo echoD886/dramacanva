@@ -1,0 +1,66 @@
+{
+    "title": "Turn stories into short-drama storyboards and plan shots",
+    "metaDescription": "For AI short-drama beginners: enter a story idea and get a script outline, camera-angle storyboards, and multiple video clips on a canvas.",
+    "oneLiner": "Enter a story outline to generate storyboards and video clips on a canvas—great for short-drama beginners.",
+    "intro": [
+        "This is an AI creation tool that helps short-drama beginners plan shots. Like a director assistant at your side, it helps you turn scattered story ideas into clear plots and shooting plans, step by step.",
+        "You only need a few hundred words of story ideas or dialogue. Send it to the AI assistant on the right side of the canvas, and it will discuss the visual style, suspense, and emotional arc you want.",
+        "When you're done, you'll get a storyboard on the canvas (breaking the video into individual shots with clear notes on what each shot captures) and a character list, and you can generate video clips of 4 to 15 seconds each."
+    ],
+    "example": {
+        "input": "I want to make a 1-minute suspense short: a convenience store clerk is working the night shift when he suddenly sees a dark figure slowly approaching outside the glass door.",
+        "output": "The canvas will show a story outline, a protagonist traits card, and a storyboard card with clear camera angles, plus generate reference images and multiple 4-to-15-second video clip cards."
+    },
+    "scenarios": [
+        "You only have a few hundred words of story idea and don't know how to expand it into a script that can be shot as visuals.",
+        "You've written the character dialogue, but you don't know what wide shot, close-up, or camera movement to use to create a cinematic feel.",
+        "You're getting ready to make a short-drama video with AI but don't know how to break the story into specific shot descriptions.",
+        "You want to make a suspense or twist short but don't know how to design it so it hooks viewers from the start."
+    ],
+    "problems": [
+        {
+            "pain": "You want to make videos with AI, but you don't know how to describe the visuals, and the generated images look stiff and monotonous.",
+            "solve": "It helps you plan shot distance, lighting, and action in the storyboard and writes detailed visual descriptions for you to generate from."
+        },
+        {
+            "pain": "You don't know how to cut between shots, and the story opens flat, so it can't hook viewers right away.",
+            "solve": "It plans the opening using suspense-building techniques and arranges conflict and twists with pacing to spark viewer curiosity."
+        },
+        {
+            "pain": "In consecutively generated video images, a character's clothes and face often don't match from shot to shot.",
+            "solve": "It extracts a character hairstyle, clothing, and scene list in advance so later shot descriptions keep consistent traits as much as possible."
+        }
+    ],
+    "steps": [
+        "In the skills library, click \"Use this skill,\" then send your story idea in the chat box on the right side of the canvas.",
+        "Confirm the story direction and visual style, and have the AI organize the script and character list on the canvas.",
+        "Generate a storyboard card and review each shot's camera distance and position, action, and visual description.",
+        "Tell the assistant to generate video clips, arrange them in order on the canvas video timeline, and export."
+    ],
+    "faq": [
+        {
+            "q": "I only have a rough story idea. Can I use it to create a short-drama storyboard?",
+            "a": "Yes. Just send the story outline in the chat box. It will first help you organize the plot and characters, then break it into a shot-by-shot storyboard. You can edit the text on the canvas at any time and generate visuals once you're happy with it."
+        },
+        {
+            "q": "How can I keep characters' faces and clothes from changing across different shots?",
+            "a": "There's no guarantee they will stay exactly the same, but the system extracts a character traits list in advance to keep shots as consistent as possible. When generating visual descriptions for each shot, it will try to use that same set of traits. If you're not happy with the generated reference image, you can also replace it manually on the canvas at any time."
+        },
+        {
+            "q": "Can this tool directly edit a complete short-drama final cut for me?",
+            "a": "It can't directly generate a full final cut; it generates multiple 4-to-15-second video clips. You can arrange these clips in order on the canvas video timeline, adjust the pacing, and then export."
+        },
+        {
+            "q": "How long is each generated video clip, and can I choose the aspect ratio myself?",
+            "a": "Generated video clips are generally between 4 and 15 seconds, and you can specify the aspect ratio during the conversation. The storyboard will suggest durations and visual descriptions based on the plot pacing. If one segment doesn't turn out well after generation, you can regenerate that card separately."
+        }
+    ],
+    "keywords": [
+        "how to write a short drama storyboard",
+        "story to short drama storyboard",
+        "AI short drama production",
+        "novel to video storyboard",
+        "AI video storyboard",
+        "how to create a shot-by-shot script"
+    ]
+}

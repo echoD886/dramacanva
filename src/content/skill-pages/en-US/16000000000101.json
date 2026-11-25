@@ -1,0 +1,66 @@
+{
+    "title": "Plan launch video: beat-synced cuts, A/B tests, portrait fit",
+    "metaDescription": "For product launch creators using {brand} canvas: plan a rhythmic storyboard, music beat timeline, intro-only A/B versions, and screen-fit tips.",
+    "oneLiner": "Enter product selling points, and the canvas generates a launch storyboard, music beat sheet, and multi-aspect-ratio plan.",
+    "intro": [
+        "This workflow helps plan product launch videos. It can design the whole video as several distinct rhythm stages, including a hook opening, highlight showcase, and follow prompt.",
+        "You don’t need professional video production skills. Just enter the product name and core selling points on the right side of the {brand} canvas, and specify how long you want the video to be.",
+        "AI generates on the canvas a storyboard (splitting the video into shots with clear visuals), a music beat timeline, 3 comparison versions that only change the opening, and landscape/portrait layout recommendations."
+    ],
+    "example": {
+        "input": "We launched a lightweight folding camping chair and want a 30-second launch promo with rhythm, for both landscape and portrait platforms.",
+        "output": "Generate 30-second five-part storyboard cards on the canvas and mark music beat timings; provide 3 comparison versions that change only the opening, and note centered-composition tips that work for both landscape and portrait."
+    },
+    "scenarios": [
+        "Launching a new product and need a promo video, but don’t want a flat list of features—you want an engaging rise and fall in pacing.",
+        "Running ads and need to test multiple assets; you want to swap only the opening or ending to see which version attracts viewers better.",
+        "You want a beat-synced fast-cut promo, but don’t know which second of the music each shot should switch on.",
+        "The same video needs to go to landscape and portrait platforms, and you’re worried key visuals will be cropped in portrait."
+    ],
+    "problems": [
+        {
+            "pain": "The video is flat and has no buildup, and the cuts don’t match the background music beat.",
+            "solve": "Break the storyboard into five rhythm stages and mark the key beat times in the music so cuts feel more rhythmic."
+        },
+        {
+            "pain": "When testing multiple video versions, too many changes make it unclear which shot drove the result.",
+            "solve": "Change only one thing at a time—swap just the opening shot or ending action—and generate clear comparison versions."
+        },
+        {
+            "pain": "After converting landscape video to portrait, half the product gets cut off and text is covered by platform icons.",
+            "solve": "Keep the subject and text centered with safe margins around them, so they’re less likely to be cropped in either landscape or portrait."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill,” then enter the product selling points and desired length on the right.",
+        "Review the storyboard, beat timeline, and multi-version comparison cards generated on the canvas.",
+        "Tell the assistant which shots or pacing need adjustment, and revise the storyboard and beat notes.",
+        "Copy or download the planning output from the canvas and use it directly in video production."
+    ],
+    "faq": [
+        {
+            "q": "How can AI help plan shot pacing for a product launch video?",
+            "a": "Send the product selling points to the assistant. It will lay out a storyboard in five stages: hook opening, suspense buildup, core reveal, rapid selling-point cuts, and closing call to action. Each stage specifies the shot visuals and duration allocation, helping you pace a 30-second launch video with clear buildup. If you’re not happy with the pacing of certain shots, just tell the assistant on the right to revise them."
+        },
+        {
+            "q": "How can I make a video hit the music beats precisely?",
+            "a": "Use the beat timeline to plan switch points in advance: cut to key visuals on the music’s strong beats and switch product selling points about every 0.6 to 1 second. AI will mark key moments of strong beats and rhythm buildups in the storyboard and specify the start and end seconds for each selling-point shot. When editing later, follow this timeline to arrange visuals so cuts naturally land on the beat."
+        },
+        {
+            "q": "How should I compare versions when testing different video creatives?",
+            "a": "Use a single-variable comparison method: keep the main content consistent and replace only the first few seconds of the opening or the closing CTA each time. AI will generate 3 comparison cards based on the same storyboard script, each changing only one thing. When you later compare playback data across versions, it’s easier to see which visual change drove the result."
+        },
+        {
+            "q": "How can one video work on both landscape and portrait platforms?",
+            "a": "Use a center-safe composition: keep the product subject and key text within a central square area, with safe margins around it. When planning the storyboard, AI uses a landscape base and adapts it to portrait, leaving display space that avoids platform icons and subtitles. This way, when the same storyboard plan is published on landscape, portrait, and square platforms, the core visuals are less likely to be cropped."
+        }
+    ],
+    "keywords": [
+        "product launch video production",
+        "promo video storyboard script",
+        "beat sync video editing",
+        "landscape to portrait video",
+        "short video A/B testing",
+        "product launch video"
+    ]
+}

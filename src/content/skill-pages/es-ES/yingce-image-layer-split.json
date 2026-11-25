@@ -1,0 +1,66 @@
+{
+    "title": "Recorte de imágenes: extrae personas u objetos | {brand}",
+    "metaDescription": "Para creadores que quieren extraer elementos. Sube una imagen, indica el sujeto y la IA creará en el lienzo una imagen transparente lista para descargar.",
+    "oneLiner": "Sube una imagen y señala el sujeto para generar en el lienzo una tarjeta transparente, ideal para creadores",
+    "intro": [
+        "Es una herramienta que te ayuda a extraer elementos independientes de una imagen. Está pensada para creadores que necesitan separar personas, objetos o muebles, y permite hacerlo en el lienzo sin usar software de retoque complicado.",
+        "Solo tienes que subir una imagen de referencia al lienzo y decirle por texto al asistente qué personaje u objeto quieres recortar; también puedes marcar en la imagen la zona que quieres extraer.",
+        "Cuando termine, en el lienzo aparecerán tarjetas de imagen con fondo transparente. La imagen original se conserva intacta y puedes descargar el material recortado o dejarlo en el lienzo para seguir componiendo."
+    ],
+    "example": {
+        "input": "Sube una foto de dos personas y escribe en el cuadro de diálogo de la derecha: «Recorta por separado a la mujer de la izquierda que lleva la chaqueta roja y ponle un fondo transparente».",
+        "output": "En el lienzo se conserva la imagen original y, junto a ella, se genera una tarjeta con la imagen de esa mujer sobre fondo transparente, lista para descargarla por separado o dejarla en el lienzo para seguir componiendo."
+    },
+    "scenarios": [
+        "En una foto de grupo, quieres recortar a una persona por separado para usarla como referencia de personaje.",
+        "En una imagen de escena ves una mesa, una silla o un objeto que te gusta y quieres separarlo para incluirlo en una nueva composición.",
+        "En una imagen conceptual que has generado, el personaje y el fondo están unidos y necesitas separar al personaje.",
+        "Quieres separar en imágenes transparentes la ropa, los complementos o el arma de un personaje para verlos por separado."
+    ],
+    "problems": [
+        {
+            "pain": "En la imagen de referencia, el personaje y el fondo están unidos y no puedes usarlo por separado como referencia de personaje.",
+            "solve": "Dile al asistente qué personaje quieres extraer y generará en el lienzo una tarjeta independiente de ese personaje con fondo transparente, sin modificar la imagen original."
+        },
+        {
+            "pain": "En una imagen hay varios personajes u objetos y solo quieres extraer uno.",
+            "solve": "Describe el objetivo con texto o selecciónalo con un marco; el asistente extraerá solo el objeto que quieras, sin afectar al resto."
+        },
+        {
+            "pain": "Al separar varios objetos a la vez, te preocupa que si uno falla tengas que repetirlo todo.",
+            "solve": "Las tarjetas que se hayan separado correctamente se conservarán en el lienzo; si algo falla, recibirás un aviso claro y solo tendrás que volver a extraer el elemento fallido."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y sube una imagen de referencia al lienzo.",
+        "Indica al asistente qué personaje u objeto quieres recortar; también puedes seleccionarlo directamente en la imagen.",
+        "Espera a que el asistente genere en el lienzo tarjetas de imagen independientes con fondo transparente.",
+        "Revisa las imágenes generadas y, cuando te convenzan, descárgalas directamente desde el lienzo o sigue usándolas."
+    ],
+    "faq": [
+        {
+            "q": "¿La imagen transparente recortada sustituye a la imagen original?",
+            "a": "No sustituye ni elimina la imagen original. Cada objeto recortado generará una imagen nueva e independiente en el lienzo, y la original se conservará intacta al lado. Así puedes comparar el resultado o seguir usando la imagen original cuando quieras."
+        },
+        {
+            "q": "¿Se pueden recortar a la vez varias personas u objetos de una imagen?",
+            "a": "Puedes extraerlos por separado. En la conversación puedes indicar de una vez varios objetivos que quieras separar y el asistente generará una imagen con fondo transparente para cada uno. Cada objeto será una tarjeta de imagen independiente, fácil de usar por separado."
+        },
+        {
+            "q": "¿Los bordes de la imagen recortada quedan totalmente limpios?",
+            "a": "No se garantiza que los bordes queden perfectamente limpios, pero el sistema intentará mantener el contorno del sujeto claro y completo. El resultado depende sobre todo de la nitidez de la imagen original y de la complejidad del fondo; si algún detalle no te convence, puedes pedir al asistente que vuelva a extraer solo esa imagen."
+        },
+        {
+            "q": "Si falla el recorte de uno de los objetos, ¿hay que rehacerlo todo?",
+            "a": "No hace falta empezar de cero. Las tarjetas de imagen que ya se hayan recortado correctamente se quedarán en el lienzo y solo aparecerá un aviso de texto para las partes que hayan fallado. Basta con describir de nuevo o seleccionar el objeto que no se recortó y volver a extraerlo."
+        }
+    ],
+    "keywords": [
+        "recortar imagen",
+        "fondo transparente",
+        "extraer persona de una foto",
+        "recorte de fotos",
+        "separar sujeto de una foto",
+        "quitar fondo de imagen"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Transforme histórias em storyboards e planeje cenas",
+    "metaDescription": "Para iniciantes em curtas com IA: envie a ideia, organize o roteiro no canvas, gere storyboards com ângulos de câmera e produza vários clipes de vídeo.",
+    "oneLiner": "Envie o resumo da história, gere storyboard e clipes no canvas. Ideal para iniciantes em curtas.",
+    "intro": [
+        "Esta é uma ferramenta de criação com IA que ajuda iniciantes em curtas a planejar cenas. Como um assistente de direção ao seu lado, ela transforma ideias soltas em uma história e um plano de filmagem organizados, passo a passo.",
+        "Você só precisa ter em mãos algumas centenas de caracteres de ideia ou diálogo. Envie ao assistente de IA no lado direito do canvas, e ele conversará com você sobre o estilo visual desejado, o suspense da história e a condução emocional.",
+        "Depois de concluir, você receberá no canvas um storyboard (dividindo o vídeo em planos, com o que cada plano mostra) e uma lista de personagens, além de poder gerar clipes de vídeo de 4 a 15 segundos."
+    ],
+    "example": {
+        "input": "Quero criar um curta de suspense de 1 minuto: um funcionário de loja de conveniência está no turno da noite quando vê uma sombra se aproximando lentamente do lado de fora da porta de vidro.",
+        "output": "No canvas aparecerão o esboço da história, cartões com as características do protagonista e um cartão de storyboard com os ângulos de câmera descritos; também será possível gerar imagens de referência e cartões com vários clipes de vídeo de 4 a 15 segundos."
+    },
+    "scenarios": [
+        "Você tem apenas algumas centenas de caracteres de ideia e não sabe como expandir para um roteiro que possa virar imagens.",
+        "Já escreveu os diálogos dos personagens, mas não sabe que plano geral, close ou movimento de câmera usar para criar um visual cinematográfico.",
+        "Pretende fazer vídeos de curta com IA, mas não sabe como dividir a história em descrições visuais específicas, plano a plano.",
+        "Quer fazer um curta de suspense ou com reviravolta, mas não sabe como estruturar o início para prender a atenção do público."
+    ],
+    "problems": [
+        {
+            "pain": "Quer fazer vídeos com IA, mas não sabe descrever as imagens, e o resultado sai rígido e monótono.",
+            "solve": "Ajuda a planejar no storyboard a distância dos planos, a iluminação e as ações, escrevendo descrições visuais detalhadas para você gerar."
+        },
+        {
+            "pain": "Não sabe como cortar os planos e a história começa sem impacto, sem prender o público desde o início.",
+            "solve": "Planeja a abertura com técnicas de suspense e organiza conflitos e reviravoltas no ritmo certo para despertar a curiosidade."
+        },
+        {
+            "pain": "Em vídeos gerados em sequência, as roupas e a aparência dos personagens costumam não coincidir de um plano para outro.",
+            "solve": "Extrai antes uma lista de cabelo, figurino e cenário dos personagens para manter as características o mais consistentes possível nas descrições dos planos seguintes."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie sua ideia de história na caixa de diálogo à direita do canvas.",
+        "Confirme a direção da história e o estilo visual e deixe a IA organizar o roteiro e a lista de personagens no canvas.",
+        "Gere o cartão de storyboard e confira o enquadramento, a distância, os movimentos de câmera e a descrição visual de cada plano.",
+        "Peça ao assistente para gerar clipes de vídeo, organize a ordem na linha do tempo de vídeo do canvas e exporte."
+    ],
+    "faq": [
+        {
+            "q": "Só tenho uma ideia vaga de história. Consigo criar um storyboard de curta com ela?",
+            "a": "Sim, basta enviar o resumo da história na caixa de diálogo. Ele primeiro ajuda a organizar a trama e os personagens e depois divide tudo em um storyboard plano a plano. No canvas, você pode editar o texto a qualquer momento e gerar as imagens quando estiver satisfeito."
+        },
+        {
+            "q": "Como evitar que a aparência e as roupas dos personagens mudem entre planos?",
+            "a": "Não é possível garantir que fiquem absolutamente iguais, mas o sistema extrai antes uma lista de características dos personagens para manter a continuidade entre os planos. Ao gerar as descrições visuais de cada plano, ele tenta usar esse conjunto uniforme de características. Se a imagem de referência gerada não agradar, você também pode substituí-la manualmente no canvas a qualquer momento."
+        },
+        {
+            "q": "A ferramenta consegue editar diretamente um curta completo e finalizado para mim?",
+            "a": "Ela não gera o filme inteiro de uma vez; produz vários clipes de vídeo de 4 a 15 segundos. No canvas, você pode organizar esses clipes na linha do tempo de vídeo, ajustar o ritmo e exportar."
+        },
+        {
+            "q": "Qual é a duração de cada clipe gerado e posso escolher a proporção da imagem?",
+            "a": "Os clipes gerados geralmente têm entre 4 e 15 segundos, e a proporção pode ser definida durante a conversa. O storyboard sugere duração e descrição visual conforme o ritmo da história. Se algum trecho não ficar bom, você pode gerar novamente apenas aquele cartão."
+        }
+    ],
+    "keywords": [
+        "como fazer storyboard para curta",
+        "adaptar história para storyboard de curta",
+        "produção de curtas com IA",
+        "adaptar romance para storyboard de vídeo",
+        "storyboard de vídeo com IA",
+        "como fazer roteiro de storyboard"
+    ]
+}

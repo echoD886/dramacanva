@@ -1,0 +1,66 @@
+{
+    "title": "{brand}: edita zonas de una imagen",
+    "metaDescription": "Para retocar una imagen: escribe o marca en el lienzo de {brand}, cambia el fondo o borra objetos y genera una nueva imagen sin tocar la original.",
+    "oneLiner": "Para quien no sabe editar imágenes: dale la original, escribe o marca una zona y obtén una nueva imagen modificada.",
+    "intro": [
+        "Esta es una herramienta para modificar zonas de una imagen en el lienzo: coloca la imagen original y escribe o marca una posición; modificará los detalles locales que indiques sin tener que rehacer la imagen completa.",
+        "Solo tienes que preparar una imagen que quieras modificar y colocarla en el lienzo. Piensa qué quieres cambiar, por ejemplo, sustituir el fondo, borrar a un transeúnte o cambiar el material de la ropa; puedes describirlo escribiendo o marcar la zona en la imagen.",
+        "Cuando termines, aparecerá en el lienzo una nueva imagen modificada. La imagen original no se sobrescribe y permanece intacta en el lienzo, para que puedas comparar ambas lado a lado; si te convence, puedes descargarla y guardarla."
+    ],
+    "example": {
+        "input": "Selecciona la foto de la persona en el lienzo, rodea con la herramienta de marcado la habitación desordenada del fondo e introduce: «Cambia el fondo por un prado soleado y conserva en lo posible a la persona y su ropa sin cambios».",
+        "output": "En el lienzo se generará una nueva imagen que conservará en lo posible el rostro y la ropa de la persona, con el fondo convertido en un prado soleado. La imagen original seguirá junto a ella, unida por una línea, para que puedas compararlas y descargarlas."
+    },
+    "scenarios": [
+        "El sujeto o el objeto te gusta bastante, pero quieres cambiar el fondo interior por una calle lluviosa.",
+        "En la escena aparecen viandantes o basura que sobra y quieres borrarlos para mantenerla limpia.",
+        "Quieres conservar la silueta del objeto y cambiar solo la tela de la ropa o de un mueble por cuero.",
+        "El ángulo de la foto tiene una pequeña desviación y quieres ajustar ligeramente la perspectiva sin cambiar el sujeto original."
+    ],
+    "problems": [
+        {
+            "pain": "Solo quieres cambiar un pequeño detalle de la imagen, pero rehacerla entera hace que la persona y el sujeto cambien.",
+            "solve": "Toma la imagen original como referencia, intenta mantener el sujeto sin cambios y regenera solo la zona que necesita ajustes."
+        },
+        {
+            "pain": "Solo con texto es difícil explicar qué rincón concreto de la imagen quieres cambiar.",
+            "solve": "Puedes usar la herramienta de marcado para señalar la posición directamente en la imagen; la IA modificará la zona siguiendo los puntos que marques."
+        },
+        {
+            "pain": "Te preocupa que, al editar la imagen, la original se sustituya y no puedas recuperarla si el resultado no te convence.",
+            "solve": "Cada modificación genera una nueva imagen en el lienzo; la original no se sobrescribe, así puedes compararlas en cualquier momento."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y selecciona en el cuadro de diálogo la imagen que quieres modificar.",
+        "Explica los cambios que quieres: puedes describirlos escribiendo o marcar la zona con la herramienta de marcado.",
+        "Espera a que el asistente de IA procese tu solicitud y genere una nueva imagen en el lienzo.",
+        "Revisa la nueva imagen generada y compárala con la original; si te convence, descárgala directamente desde el lienzo."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo puedo hacer que la IA cambie solo el fondo sin modificar el rostro de la persona?",
+            "a": "Indica claramente en la conversación a la IA que conserve el sujeto principal y sustituya solo el fondo. La IA usará la imagen original como referencia, intentará fijar el rostro y el cuerpo de la persona y regenerará únicamente el entorno del fondo. La nueva imagen se quedará en el lienzo para que puedas compararla con la original cuando quieras."
+        },
+        {
+            "q": "¿Cómo puedo modificar con precisión detalles concretos de una imagen con IA?",
+            "a": "Puedes usar la herramienta de marcado del lienzo para señalar la zona que quieres cambiar y explicar qué necesitas. La IA modificará esa zona según los puntos que hayas marcado e intentará no tocar el resto de la imagen. Después, generará una nueva imagen en el lienzo para que puedas revisar el resultado en detalle."
+        },
+        {
+            "q": "¿Se sobrescribirá la imagen original después de modificarla?",
+            "a": "No se sobrescribe la imagen original. Cada modificación genera una nueva imagen independiente en el lienzo y la original se conserva intacta. Ambas imágenes quedarán unidas por una línea para que puedas comparar el antes y el después al mismo tiempo."
+        },
+        {
+            "q": "¿Se descontarán créditos si falla la generación de la imagen modificada?",
+            "a": "No se descontarán créditos. Si falla la generación de la imagen, la plataforma no cobrará dos veces y el asistente de IA explicará el motivo del fallo en el cuadro de diálogo. Puedes ajustar la solicitud según las indicaciones y volver a intentar generar la imagen."
+        }
+    ],
+    "keywords": [
+        "editar parte de una imagen con IA",
+        "cambiar fondo con IA manteniendo el sujeto",
+        "editar imagen con IA sin cambiar la cara",
+        "retocar zona de imagen con IA",
+        "eliminar objetos de una foto con IA",
+        "cambiar fondo de foto con IA"
+    ]
+}

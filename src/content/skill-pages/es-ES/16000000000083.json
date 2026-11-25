@@ -1,0 +1,67 @@
+{
+    "title": "Chistes y aperturas de stand-up: ordena los remates y actúa",
+    "metaDescription": "Para nuevos en stand-up o humor: envía lo cotidiano a la IA y crea en el lienzo de {brand} un monólogo de 1 minuto, apertura y lista para evitar silencios.",
+    "oneLiner": "Introduce una experiencia desafortunada y genera en el lienzo un borrador de stand-up y una lista para el escenario; ideal para principiantes.",
+    "intro": [
+        "Es una herramienta de apoyo a la creación que te ayuda a convertir lo cotidiano en chistes con humor. Aunque nunca hayas escrito contenido cómico, te guía paso a paso para que tu lenguaje llano resulte más divertido.",
+        "No necesitas saber escribir guiones profesionales: basta con tener una anécdota vergonzosa, una mala experiencia o algo que quieras contar con tus propias palabras, y enviarlo todo al asistente de IA en el cuadro de diálogo de la derecha.",
+        "Al terminar, en el lienzo aparecerán tarjetas de texto con un borrador de monólogo de 1 minuto, una presentación para el directo y una lista de ajustes para controlar los nervios y gestionar los silencios."
+    ],
+    "example": {
+        "input": "Acabo de empezar a sacarme el carné y he suspendido el examen práctico tres veces, siempre por motivos absurdos; quiero escribir un chiste de un minuto para reírme de mí mismo.",
+        "output": "En el lienzo se generan tres tarjetas de texto: un borrador de chiste de 1 minuto que ordena los detalles de la mala racha, una apertura autocrítica para romper el hielo y una lista de consejos para hablar más despacio y dejar tiempo a las risas al subir al escenario."
+    },
+    "scenarios": [
+        "Tienes varios chistes sueltos y quieres enlazarlos en un monólogo de stand-up coherente y fluido.",
+        "Te ha pasado algo desafortunado y quieres reírte de ti, pero todo es tan caótico que no sabes por dónde empezar.",
+        "Tu historia cómica ya escrita suena plana y quieres que los remates sean más contundentes y divertidos.",
+        "Vas a actuar en un open mic (escenario para principiantes de stand-up) y temes los nervios y los silencios incómodos."
+    ],
+    "problems": [
+        {
+            "pain": "Quieres contar desgracias de tu vida, pero son demasiado dispares y no sabes cómo convertirlas en un chiste.",
+            "solve": "Te ayuda a encontrar los detalles más concretos y extraños y a ordenarlos en tarjetas que primero plantean el contexto y luego sueltan el remate."
+        },
+        {
+            "pain": "El chiste que has escrito no hace gracia al leerlo; suena plano, como una simple lista de hechos.",
+            "solve": "Te ayuda a eliminar paja y a colocar el giro más inesperado al final de cada frase."
+        },
+        {
+            "pain": "Memorizas el guion, pero en cuanto subes al escenario se te acelera el corazón y no sabes qué hacer si nadie se ríe.",
+            "solve": "Te propone métodos de ensayo para hablar más despacio y hacer pausas, y te prepara frases para bromear si se hace el silencio."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en la interfaz de creación.",
+        "Introduce tu mala experiencia, una anécdota cotidiana o un borrador ya escrito.",
+        "Consulta en el lienzo el esquema del chiste, el diseño de la apertura y las tarjetas de consejos.",
+        "Ajusta los detalles de texto de las tarjetas para que la expresión encaje mejor con tu forma de hablar.",
+        "Copia o descarga el resultado para ensayar o actuar en directo."
+    ],
+    "faq": [
+        {
+            "q": "¿Qué hago si no se me ocurre ningún chiste de stand-up?",
+            "a": "Empieza por la anécdota embarazosa o el error más pequeño que tengas cerca, no por grandes lecciones. Escribe una desgracia concreta, localiza el momento que te dio vergüenza o te sorprendió y desarrolla a partir de ahí: así saldrá el remate."
+        },
+        {
+            "q": "¿Cómo convierto una anécdota cotidiana en un chiste divertido?",
+            "a": "Primero deja claro el contexto y reserva el detalle más inesperado para la última frase. Al ensayar, elimina lo que sobra para que el público se haga una idea rápida y cierra con un giro inesperado que provoque la risa."
+        },
+        {
+            "q": "¿Cómo enlazo chistes sueltos en un monólogo de stand-up completo?",
+            "a": "Clasifica primero los chistes por tema y ordénalos según las subidas y bajadas de emoción. Para abrir, conviene usar un chiste suave y seguro que acerque al público; enlaza los chistes con experiencias naturales y no empieces con el gag más potente (el punto que hace reír)."
+        },
+        {
+            "q": "¿Qué hago si me pongo nervioso y se me olvida el texto al hacer stand-up?",
+            "a": "Si se te olvida el texto en el escenario, haz una pausa, admítelo y ríete de ti mismo, o salta directamente al siguiente chiste y sigue. Al ensayar, memoriza las escenas y las emociones de la historia en lugar de repetir palabra por palabra; así podrás continuar con tus propias palabras aunque te quedes en blanco."
+        }
+    ],
+    "keywords": [
+        "cómo escribir chistes de stand-up",
+        "stand-up para principiantes",
+        "técnicas para hablar con humor",
+        "no se me ocurren chistes",
+        "apertura de stand-up",
+        "olvidar texto en stand-up"
+    ]
+}

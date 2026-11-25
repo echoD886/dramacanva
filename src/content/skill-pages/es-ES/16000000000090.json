@@ -1,0 +1,66 @@
+{
+    "title": "Prompts para MiniMax H3 sin cambio de rostro entre planos",
+    "metaDescription": "MiniMax H3: envía historia y referencia a la IA y obtén en el lienzo una descripción en seis partes y una tabla de vinculación que evita cambios de rostro.",
+    "oneLiner": "Dale una historia y una imagen, y genera en el lienzo una descripción de vídeo que reduce los cambios de rostro; ideal para principiantes.",
+    "intro": [
+        "Esta es una herramienta que te ayuda a escribir instrucciones de vídeo (prompts: el texto que indica a la IA qué dibujar). Con MiniMax H3, convierte ideas aproximadas en texto bien estructurado.",
+        "Solo necesitas preparar la historia y una imagen de referencia de los personajes o escenarios. No hace falta conocer términos técnicos: basta con enviar a la IA del panel derecho del lienzo la escena que quieres, con palabras sencillas.",
+        "Cuando termines, en el lienzo aparecerán tres tarjetas: la descripción visual en seis partes ya organizada, la tabla de correspondencia entre personajes e imágenes y el estilo recomendado con sus motivos. Puedes modificarlas en cualquier momento o copiar el texto directamente."
+    ],
+    "example": {
+        "input": "Sube una foto de una niña con sombrero de paja y dile a la IA: «Quiero hacer una animación 3D en la que una niña corre por la hierba cazando mariposas y no cambie el rostro al cambiar de plano».",
+        "output": "En el lienzo se generan tres tarjetas: un conjunto de descripciones visuales en seis partes que cumple la norma (incluye acciones y movimientos de cámara), una tabla que vincula los rasgos de la niña con la foto y los motivos para elegir el estilo de animación 3D."
+    },
+    "scenarios": [
+        "Al escribir prompts para MiniMax H3, no sabes cómo dividirlos en secciones ni alinearlos con la línea temporal.",
+        "Al generar varios planos, el mismo personaje cambia de rostro o de ropa al cambiar de ángulo.",
+        "Al unir dos vídeos, la acción queda desconectada y la imagen resulta forzada; necesitas una transición fluida.",
+        "Quieres hacer animación 3D, una presentación de producto minimalista o stop motion con recortes de papel, y no sabes qué estilo elegir."
+    ],
+    "problems": [
+        {
+            "pain": "Cuando escribes tú mismo las descripciones de vídeo, el formato casi nunca es el correcto y la imagen generada no coincide con el tiempo.",
+            "solve": "Se organiza en un texto claro en seis partes según la norma oficial, para que cada bloque de contenido se ajuste al avance temporal."
+        },
+        {
+            "pain": "Al generar planos consecutivos, el protagonista cambia de aspecto al cambiar de acción, y los objetos también se deforman con facilidad.",
+            "solve": "Te ayuda a crear una tabla de correspondencia con las imágenes de referencia, vinculando claramente la apariencia de los personajes con las fotos para reducir al mínimo los cambios de aspecto."
+        },
+        {
+            "pain": "Al cambiar de plano, las acciones no conectan y la imagen salta de un lado a otro, por lo que parece poco natural.",
+            "solve": "En la descripción se indican las acciones de inicio y fin de cada plano, para que los fragmentos anteriores y posteriores enlacen con más fluidez."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el cuadro de diálogo del panel derecho del lienzo.",
+        "Envía la idea de tu historia y sube imágenes de referencia de personajes o escenarios.",
+        "Consulta las tarjetas de descripción en seis partes y la tabla de vinculación de personajes que aparecen en el lienzo.",
+        "Ajusta el texto de las tarjetas y, cuando estés satisfecho, copia o descarga el resultado."
+    ],
+    "faq": [
+        {
+            "q": "¿Qué hago si el personaje de un vídeo con IA cambia de rostro al cambiar de plano?",
+            "a": "Puedes reducirlo vinculando imágenes de referencia. Esta habilidad crea en el lienzo una tabla de correspondencia que relaciona los rasgos de apariencia del personaje con las imágenes de referencia y los incluye en la descripción. Así, al generar distintos planos consecutivos, se reducen al mínimo los cambios de aspecto y de estilo visual."
+        },
+        {
+            "q": "¿Cómo se escribe una descripción de vídeo en seis partes para MiniMax H3?",
+            "a": "Sigue los requisitos oficiales y describe en orden seis partes: sujeto, acción, entorno, movimiento de cámara, luz y calidad de imagen. Esta habilidad organiza en el lienzo el texto normalizado en seis partes según tu historia y hace corresponder la línea temporal con los párrafos. No necesitas memorizar formatos complejos: usa directamente el contenido organizado."
+        },
+        {
+            "q": "¿Qué hago si al unir dos clips de vídeo la acción no es continua?",
+            "a": "Puedes indicar claramente la acción inicial de los planos contiguos al escribir la descripción visual. Esta habilidad te ayuda a ordenar la trayectoria de las acciones y el modo de transición entre planos adyacentes, y a especificar en la descripción los estados de inicio y fin. Así, al unir los dos vídeos generados, se reduce el problema de acciones desconectadas."
+        },
+        {
+            "q": "¿Cómo elijo el estilo visual adecuado para un corto si no lo sé?",
+            "a": "Puedes pedir a la IA que recomiende estilos visuales incluidos según el tema de tu historia. La habilidad reúne varios estilos habituales, como animación 3D, presentación de producto minimalista y stop motion con recortes de papel. La IA dará en el lienzo una recomendación de estilo adecuada y añadirá los motivos para que puedas elegir."
+        }
+    ],
+    "keywords": [
+        "prompts para MiniMax H3",
+        "cambio de rostro al cambiar de plano en vídeos IA",
+        "consistencia de personajes en vídeos con IA",
+        "cómo escribir un prompt de vídeo en seis partes",
+        "acciones no continuas en vídeos IA",
+        "cómo elegir el estilo visual de un vídeo con IA"
+    ]
+}

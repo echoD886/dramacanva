@@ -1,0 +1,66 @@
+{
+    "title": "Upload a reference image for canvas storyboards and clips",
+    "metaDescription": "Upload one image and AI plans shots, creates a canvas storyboard with shot-by-shot notes, and multiple video clips. Great for short-video beginners.",
+    "oneLiner": "Give it an image, and it creates a storyboard and segmented video on the canvas. Great for short-video beginners.",
+    "intro": [
+        "This is a creative workflow that helps turn a still image into continuous video. It analyzes the image's color and lighting, plans multiple connected shots for you, and works to avoid style mismatches from shot to shot.",
+        "You only need one clear image, such as a product photo, landscape photo, or character poster. Send it to the AI on the right, then follow the prompts to choose your desired video type and style.",
+        "When it's done, a storyboard and multiple 15-second video clips appear on the canvas. You can edit and regenerate an individual shot, or arrange clips on the video timeline and export the final video."
+    ],
+    "example": {
+        "input": "Upload a still-life photo of a ceramic coffee cup and tell the AI you want a 15-second product ad showcase in a warm morning-light style.",
+        "output": "The canvas generates a storyboard card with 8 shots and corresponding 15-second video clip cards, carrying over the ceramic texture and soft lighting of the original image."
+    },
+    "scenarios": [
+        "You have only one real product photo and want to make a short e-commerce showcase video with multiple angles.",
+        "You've drawn a character or toy illustration and want to make a dynamic teaser for it.",
+        "You took a beautiful landscape photo on your phone and want to expand it into a moody landscape short.",
+        "You have a cinematic concept poster and need to plan shot setups and generate a sample video."
+    ],
+    "problems": [
+        {
+            "pain": "You only have one still image and don't know how to plan shot transitions or visual content.",
+            "solve": "The AI analyzes the original image's characteristics and lists the shooting approach for each shot on the canvas so you can confirm the plan first."
+        },
+        {
+            "pain": "The finished video's shots have different styles, making the visuals feel pieced together.",
+            "solve": "It designs new shots using the original image's materials, main colors, and lighting as references, trying to keep the visual style consistent."
+        },
+        {
+            "pain": "One generated shot isn't what you want, and you're worried you'll have to start over from scratch.",
+            "solve": "Storyboards and videos are separate cards on the canvas, so you can edit the text for one segment and regenerate just that part."
+        }
+    ],
+    "steps": [
+        "In the skill library, click 'Use this skill,' then upload a reference image in the chat panel on the right side of the canvas.",
+        "Choose the video type and style, and let the AI lay out storyboard cards on the canvas.",
+        "Review the storyboard content, and once you're happy, have the AI generate the corresponding 15-second video cards.",
+        "Review the video clips, arrange them in order on the video timeline, and export the final video."
+    ],
+    "faq": [
+        {
+            "q": "Can I generate a video without uploading an image?",
+            "a": "No. This skill requires uploading at least one image first. The AI uses the image's lighting, colors, and subject as its reference; without an image, it can't start creating storyboards or videos."
+        },
+        {
+            "q": "Can the AI add voiceover or automatically edit the final video for me?",
+            "a": "No. The AI can't add voiceover on its own, and it won't automatically assemble a final video. It generates separate video clips on the canvas; you can arrange them in order on the canvas video timeline and then export."
+        },
+        {
+            "q": "If I'm not happy with one generated shot, do I need to redo everything?",
+            "a": "No. You can regenerate just the shot you're unhappy with. Each storyboard and video clip on the canvas is a separate card. Just edit that shot's text description and regenerate it—no need to start over."
+        },
+        {
+            "q": "Why is the finished video split into multiple short clips?",
+            "a": "Because this skill plans and generates video shot by shot, making it easier to review and edit each part. Each storyboard card produces a corresponding 15-second video clip, which helps avoid visual style drift. After all clips are generated, you can arrange them in order on the canvas video timeline and export them together."
+        }
+    ],
+    "keywords": [
+        "image to video",
+        "image to video generator",
+        "AI video from reference image",
+        "AI video storyboard",
+        "ecommerce product video generator",
+        "how to make a short film storyboard"
+    ]
+}

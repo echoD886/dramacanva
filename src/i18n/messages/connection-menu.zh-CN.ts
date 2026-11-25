@@ -1,0 +1,22 @@
+const messages = {
+    "connectionMenu.next": "创建下一步",
+    "connectionMenu.selected": "引用已选 {count} 个节点",
+    "connectionMenu.current": "引用当前节点",
+    "connectionMenu.close": "关闭连线创建菜单",
+    "connectionMenu.textHelp": "引用当前内容，生成或改写文本",
+    "connectionMenu.scriptHelp": "根据剧情拆解镜头，编排分镜脚本",
+    "connectionMenu.batchTable": "批量创作表",
+    "connectionMenu.batchTableHelp": "汇总多张图片，批量执行换装或创意生图",
+    "connectionMenu.image": "图片生成",
+    "connectionMenu.imageHelp": "结合提示词和参考图，生成新的画面",
+    "connectionMenu.drawingHelp": "以参考图片为底图，自由绘制和标注",
+    "connectionMenu.videoHelp": "结合提示词与参考素材，生成动态视频",
+    "connectionMenu.audioHelp": "连接文本或角色卡，创建音频生成节点",
+    "connectionMenu.convertHelp": "本地处理图片或视频",
+    "connectionMenu.configHelp": "选择模型，或使用已启用的工作流插件",
+    "connectionMenu.video": "视频生成",
+    "connectionMenu.audio": "音频参考",
+    "connectionMenu.uploadAsset": "上传素材",
+    "connectionMenu.uploadAssetHelp": "上传图片、视频或音频素材并作为当前节点的参考输入",
+} as const;
+export default messages;

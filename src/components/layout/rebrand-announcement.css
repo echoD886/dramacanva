@@ -1,0 +1,81 @@
+.dc-brand-frame {
+    display: flex;
+    height: 100dvh;
+    min-width: 0;
+    flex-direction: column;
+}
+.dc-brand-frame-content {
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
+}
+.dc-brand-frame-content > .app-user-workspace,
+.dc-brand-frame-content .app-workspace-shell {
+    height: 100%;
+}
+.dc-rebrand-banner {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    min-height: 44px;
+    padding: 10px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--accent);
+    color: var(--foreground);
+    font-size: 13px;
+    line-height: 20px;
+}
+.dc-rebrand-copy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px 16px;
+}
+.dc-rebrand-copy > span {
+    text-wrap: balance;
+}
+.dc-rebrand-copy a {
+    color: var(--foreground);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    white-space: nowrap;
+}
+.dc-rebrand-banner button {
+    display: grid;
+    flex: none;
+    width: 28px;
+    height: 28px;
+    place-items: center;
+    border-radius: var(--radius);
+    color: var(--muted-foreground);
+    cursor: pointer;
+}
+.dc-rebrand-banner button:hover {
+    background: var(--background);
+    color: var(--foreground);
+}
+.dc-rebrand-banner :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+}
+html[data-rebrand-hidden="true"] .dc-rebrand-banner {
+    display: none;
+}
+.dc-legacy-email {
+    display: block;
+    color: var(--muted-foreground);
+    font-size: 12px;
+    line-height: 1.6;
+}
+@media (max-width: 600px) {
+    .dc-rebrand-banner {
+        padding: 10px 12px;
+        gap: 8px;
+    }
+    .dc-rebrand-copy {
+        justify-content: flex-start;
+    }
+}

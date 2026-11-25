@@ -1,0 +1,66 @@
+{
+    "title": "Unifica el estilo visual y los storyboards de tu serie corta",
+    "metaDescription": "Para creadores de series cortas o vídeos: envía el guion y en el lienzo definirá color, aspecto de personajes, indicaciones por plano e imágenes guía.",
+    "oneLiner": "Introduce el guion, define en el lienzo el estilo de la serie y el aspecto de los personajes, y genera las indicaciones para las imágenes.",
+    "intro": [
+        "Pensado para creadores de series cortas: envía el guion o la historia y, en el lienzo, te ayudará a unificar el tono y la iluminación, mantener en lo posible el aspecto de los personajes y evitar que los planos pierdan coherencia estilística.",
+        "Solo necesitas preparar el guion o la descripción de los personajes. Si no tienes imágenes listas, también puedes enviar directamente una historia escrita; primero te propondrá varias direcciones visuales para que elijas.",
+        "Al terminar, tendrás en el lienzo el conjunto completo de reglas de estilo, la tabla de reglas del aspecto de los personajes, las indicaciones de imagen para cada plano (las instrucciones que se envían a la IA para generar la imagen) y una lista de comprobación para revisar los detalles visuales."
+    ],
+    "example": {
+        "input": "Introduce el guion de una serie corta ambientada en una oficina moderna e indica que la protagonista es una oficinista de pelo corto con gafas de montura negra; se desea que la imagen general tienda a tonos fríos, sea sencilla y luminosa.",
+        "output": "En el lienzo se generarán la tabla de reglas del aspecto de los personajes, una ficha de ajustes visuales de tonos fríos y las indicaciones de imagen de los 3 primeros planos; además, se señalará el detalle del cambio de ropa de la protagonista en el plano 2."
+    },
+    "scenarios": [
+        "Acabas de escribir el guion y aún no has decidido si el aspecto será de acción real, anime 2D o estilo de tinta china.",
+        "Al generar varias imágenes, la cara, el peinado o la ropa del mismo protagonista cambian con frecuencia de un plano a otro.",
+        "No sabes cómo redactar las indicaciones de imagen de cada plano ni cómo describir la escena a la IA.",
+        "Cuando ya están generadas las imágenes de los planos, necesitas comprobar si hay fallos de continuidad en la iluminación, el tiempo atmosférico y los detalles de los personajes de cada imagen."
+    ],
+    "problems": [
+        {
+            "pain": "Los planos pierden coherencia visual: uno es realista y el siguiente parece anime.",
+            "solve": "Define primero en el lienzo reglas de color, composición e iluminación para que todas las imágenes de los planos sigan el mismo criterio."
+        },
+        {
+            "pain": "El mismo personaje cambia de cara al pasar a otro plano y la ropa o el peinado no coinciden.",
+            "solve": "Crea una tabla de reglas del aspecto del personaje con el peinado, la ropa y los objetos bien definidos para mantener, en lo posible, sus rasgos consistentes al generar las imágenes."
+        },
+        {
+            "pain": "No sabes cómo escribir la descripción de la imagen y los resultados de tus propios textos suelen ser inestables.",
+            "solve": "Divide la imagen en sujeto, escena, composición y luz, y genera en el lienzo indicaciones normalizadas (instrucciones de imagen)."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y envía tu guion o historia en el chat de la derecha.",
+        "Consulta la ficha de reglas de estilo visual y la tabla de reglas del aspecto de los personajes generadas en el lienzo.",
+        "Genera las indicaciones de imagen plano a plano (las instrucciones para la IA) y las imágenes de referencia.",
+        "Compara con la lista de comprobación y dile al asistente qué quieres cambiar; cuando estés satisfecho, descarga las imágenes desde el lienzo."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo se puede mantener el aspecto de un personaje de IA igual en los distintos planos?",
+            "a": "No se puede garantizar una coincidencia absoluta, pero definir bien los rasgos físicos antes de generar ayuda a mantener la coherencia en lo posible. La herramienta enumera primero el peinado, la ropa y los objetos que lleva el personaje, y en cada plano solo cambia la acción y el ángulo. Si algún plano se desvía, puedes consultar la lista de comprobación y pedir al asistente que modifique la descripción y vuelva a generar ese plano."
+        },
+        {
+            "q": "¿Puedo usar esta habilidad si no tengo imágenes del personaje ni imágenes de referencia?",
+            "a": "Sí; también puedes usarla directamente si solo aportas una historia escrita. La herramienta te recomendará primero dos o tres estilos visuales según el tipo de historia y organizará las reglas en texto en el lienzo. Cuando tengas imágenes que te convenzan, podrás subirlas más adelante."
+        },
+        {
+            "q": "¿Esta habilidad puede crear directamente un vídeo completo ya editado?",
+            "a": "No; su función principal es ayudarte a planificar el estilo visual y generar imágenes de storyboard. No monta automáticamente un vídeo final ni añade voces por separado. Si necesitas unirlas en un vídeo, puedes ordenarlas tú mismo en la línea de tiempo de vídeo del lienzo y exportarlo."
+        },
+        {
+            "q": "¿Hay que generar una imagen para cada plano de la serie corta?",
+            "a": "No es necesario generar una imagen para cada plano. Normalmente basta con generar imágenes representativas para los planos generales que sitúan el entorno, los giros clave de la trama y las acciones importantes; los planos de transición restantes pueden planificarse solo con texto. Así ahorrarás bastante tiempo de pruebas de generación de imágenes."
+        }
+    ],
+    "keywords": [
+        "cómo hacer el storyboard de una serie corta",
+        "personaje consistente en vídeo con IA",
+        "unificar estilo visual serie corta",
+        "prompts para imágenes de storyboard",
+        "personajes inconsistentes con IA en serie corta",
+        "crear fotogramas clave para serie corta"
+    ]
+}

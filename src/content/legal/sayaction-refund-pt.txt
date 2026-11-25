@@ -1,0 +1,88 @@
+Política de Reembolso da DramaCanvas
+Data de atualização: 30 de outubro de 2026
+Data de vigência: 30 de outubro de 2026
+1. Principais pontos
+Em até 14 dias corridos a partir da data de pagamento, caso os créditos da plataforma incluídos nesse pagamento não tenham sido totalmente utilizados, você poderá solicitar o reembolso proporcional aos créditos não utilizados. Uma taxa de processamento de 6% será deduzida do reembolso para cobrir as tarifas dos métodos de pagamento e os custos operacionais.
+2. Elegibilidade para reembolso
+Cada pagamento (incluindo primeira compra, renovação automática, recargas avulsas e pagamento de diferença por upgrade) possui um prazo de solicitação de reembolso de 14 dias corridos, calculado de forma independente. Confira as situações comuns a seguir:
+- Nenhum crédito utilizado: Elegível para reembolso. O valor efetivamente pago será estornado pelo método de pagamento original, com dedução de uma taxa de processamento de 6%.
+- Parte dos créditos utilizada: Elegível para reembolso. O valor será calculado com base na proporção de créditos não utilizados desse pagamento e estornado pelo método de pagamento original, com dedução de uma taxa de processamento de 6%.
+- Todos os créditos esgotados: Não elegível para reembolso. Não serão concedidos reembolsos para pagamentos cujos créditos já foram totalmente consumidos.
+- Mais de 14 dias corridos após o pagamento: Não elegível para reembolso. Solicitações fora do prazo não serão aceitas.
+- Cobrança de renovação automática da assinatura: Elegível para reembolso. A renovação é considerada um pagamento independente; se os créditos não tiverem sido totalmente usados, é possível solicitar o reembolso proporcional.
+- Recarga avulsa de créditos (compra única): Elegível para reembolso. Se os créditos não tiverem sido totalmente utilizados, você poderá solicitar o reembolso proporcional aos créditos restantes.
+- Pagamento de diferença por upgrade de plano: Elegível para reembolso. O cálculo do reembolso será proporcional aos novos créditos adicionados por esse pagamento de upgrade que ainda não foram utilizados.
+- Compra com cupom ou desconto: Elegível para reembolso. O cálculo do reembolso baseia-se no valor efetivamente pago; valores promocionais e descontos não são reembolsáveis em dinheiro.
+- Créditos promocionais ou de bônus (como recompensas de indicação, promoções, etc.): Não elegível para reembolso. Créditos promocionais ou de bônus não foram adquiridos com dinheiro e não podem ser reembolsados, resgatados em dinheiro ou transferidos.
+- Créditos debitados por falhas de geração: Não requer solicitação. O sistema estornará automaticamente para a sua conta os créditos da plataforma deduzidos.
+3. Como o valor do reembolso é calculado
+Calculamos o reembolso com base no valor efetivamente pago por você e na proporção de créditos ainda não utilizados.
+3.1 Fórmula de cálculo
+Valor do reembolso = Valor efetivamente pago × (Créditos não utilizados incluídos no pagamento ÷ Total de créditos incluídos no pagamento) − Taxa de processamento
+3.2 Descrição dos elementos de cálculo
+- Valor efetivamente pago: Calculado com base no valor que você realmente pagou. Caso tenha utilizado cupons, descontos promocionais ou abatimentos por upgrade do plano anterior, consideraremos o valor final pago após os descontos, e não o preço original.
+- Proporção de créditos: O denominador é o total de créditos incluídos nesse pagamento, e o numerador é o total de créditos desse pagamento ainda não utilizados no momento. No caso de pagamento de diferença por upgrade, o denominador é a quantidade de novos créditos adicionados por esse pagamento, e não o total de créditos do novo plano após o upgrade.
+- Cálculo para assinaturas anuais: Para planos de assinatura anuais, o denominador inclui todos os créditos do ano inteiro cobertos por esse pagamento anual (inclusive os créditos dos meses futuros ainda não creditados na conta); os créditos dos meses futuros ainda não liberados são integralmente contabilizados como "créditos não utilizados".
+- Momento do cálculo: O valor do reembolso é calculado com base no uso dos créditos desse pagamento no momento em que realizamos o processamento; deduziremos apenas os créditos não utilizados correspondentes a esse pagamento, sem tornar o saldo da conta negativo.
+- Registro de dedução de créditos: Quando houver múltiplos registros de compra na conta, a ordem de consumo dos créditos seguirá o histórico registrado no sistema. Ao processar o reembolso, apresentaremos os registros de dedução e o detalhamento do cálculo.
+- Taxa de processamento: É deduzida uma taxa de 6% sobre o valor do reembolso para cobrir as tarifas dos canais de pagamento e os custos operacionais. O valor exato da taxa deduzida será informado durante o processamento do reembolso.
+3.3 Exemplos de cálculo
+O exemplo a seguir utiliza valores inteiros hipotéticos para demonstrar a lógica do cálculo:
+Suponha que você comprou um plano ou fez uma recarga avulsa, pagando efetivamente US$ 100, e esse pagamento incluiu 1.000 créditos da plataforma.
+No 5º dia corrido após o pagamento, você utilizou um acumulado de 300 créditos, restando 700 créditos não utilizados. Ao solicitar o reembolso nesse momento:
+- Proporção de créditos não utilizados: 700 ÷ 1000 = 70%
+- Valor base correspondente de reembolso: US$ 100 × 70% = US$ 70
+- Taxa de processamento a deduzir (6%): US$ 70 × 6% = US$ 4,20
+- Valor final efetivamente reembolsado: US$ 70 − US$ 4,20 = US$ 65,80
+Se nenhum dos 1.000 créditos tiver sido utilizado no momento da solicitação, o valor final a ser reembolsado será: US$ 100 − (US$ 100 × 6%) = US$ 94.
+4. Como solicitar o reembolso
+As solicitações de reembolso da DramaCanvas são recebidas e verificadas centralmente por e-mail.
+4.1 Como enviar a solicitação
+Envie um e-mail utilizando o endereço vinculado à sua conta DramaCanvas para o suporte oficial (support@dramacanva.com), com o assunto "Solicitação de reembolso".
+4.2 Informações necessárias
+Inclua de forma clara as 4 informações a seguir no corpo do e-mail para agilizar a verificação e o processamento:
+1. E-mail da conta: o endereço de e-mail de login cadastrado na DramaCanvas.
+2. Número do pedido ou data do pagamento: o número de identificação da transação ou a data exata em que o pagamento foi realizado.
+3. Valor do pagamento: o valor efetivamente pago por essa transação.
+4. Motivo do reembolso: uma breve descrição do motivo do reembolso, para que possamos aprimorar nosso produto.
+4.3 Observações importantes
+Atualmente, as solicitações de reembolso só podem ser feitas por e-mail. Para garantir a segurança da conta, envie a solicitação obrigatoriamente pelo e-mail vinculado à sua conta; caso seja enviada por outro endereço, poderemos solicitar informações complementares para comprovar a titularidade da conta.
+5. Prazo para recebimento do reembolso
+O fluxo de reembolso é dividido em duas etapas: análise manual e processamento pelo canal de pagamento.
+5.1 Prazo de análise
+Após recebermos o e-mail com as 4 informações completas, responderemos por e-mail em até 3 dias úteis informando o resultado da análise e o demonstrativo do cálculo do reembolso.
+5.2 Prazo de processamento do canal de pagamento
+Após a aprovação da solicitação, o estorno será realizado no método de pagamento original. Depois de emitido o reembolso, o prazo real de recebimento dependerá dos procedimentos do canal de pagamento e do seu banco:
+- Alipay: normalmente de 1 a 3 dias úteis.
+- WeChat Pay: normalmente de 1 a 3 dias úteis.
+- Cartão de crédito/débito (processado via Stripe): normalmente de 5 a 10 dias úteis.
+O prazo efetivo para o crédito em conta/fatura depende do processamento pelo banco emissor e pela instituição de pagamento.
+6. O que acontece após o reembolso
+Uma vez concluído o reembolso, o status da sua conta sofrerá as seguintes alterações:
+6.1 Dedução de créditos
+Os créditos da plataforma não utilizados desse pagamento serão deduzidos da sua conta. Os créditos da plataforma são exclusivos para uso na DramaCanvas, não podendo ser sacados, convertidos em dinheiro ou transferidos para outras contas.
+6.2 Encerramento da assinatura e alteração da conta
+Se a solicitação de reembolso for de um plano de assinatura, os benefícios correspondentes do plano serão cancelados imediatamente após a execução do reembolso, e sua conta retornará ao plano gratuito.
+6.3 Diferença entre cancelar a renovação automática e solicitar reembolso
+- Cancelar a renovação automática: Caso você não queira continuar com o plano atual no futuro, pode desativar a renovação a qualquer momento na página de assinaturas na central da sua conta. Após o cancelamento, seu ciclo já faturado continuará disponível normalmente até o fim do período, os créditos da conta continuarão utilizáveis, e o cancelamento em si não gera reembolso.
+- Solicitar reembolso: O reembolso encerra antecipadamente o serviço correspondente ao pagamento já efetuado, liquidando e devolvendo o valor proporcional à parte não utilizada.
+7. Regras de reembolso para Espaços de Equipe
+Os Espaços de Equipe envolvem a colaboração de múltiplos usuários e possuem as seguintes regras de reembolso:
+- Permissão de solicitação: Apenas o administrador da equipe que realizou o pagamento pode enviar uma solicitação de reembolso; os demais membros da equipe não têm permissão para solicitá-lo.
+- Cálculo do consumo de créditos: Os créditos da plataforma já consumidos por membros da equipe serão integralmente considerados como "créditos utilizados" no cálculo do reembolso.
+- Dedução de créditos restantes: Após a aprovação do reembolso, os créditos não utilizados desse pagamento (incluindo aqueles já distribuídos aos membros da equipe que ainda não foram utilizados) serão deduzidos de forma unificada da conta.
+8. Casos não reembolsáveis
+Não serão concedidos reembolsos nas seguintes circunstâncias, e nos reservamos o direito de revogar reembolsos já processados se tais casos forem constatados:
+- Abuso de reembolso: Condutas abusivas, como compras reiteradas seguidas do uso de créditos e subsequente solicitação de reembolso.
+- Violação dos Termos de Uso: Contas suspensas ou banidas devido à violação dos Termos de Uso.
+- Pagamentos fraudulentos: Pagamentos efetuados por meio de clonagem/furto de cartões, práticas fraudulentas ou canais não autorizados.
+- Disputa bancária (chargeback) já iniciada: Se você já tiver iniciado uma disputa de chargeback junto ao banco emissor, o pedido será conduzido pelo processo formal de disputa bancária e não realizaremos o reembolso diretamente.
+9. Legislação local e direitos legais
+Respeitamos e protegemos seus direitos legítimos assegurados pelas legislações locais.
+- Prevalência dos direitos previstos em lei: Se as leis imperativas do seu país ou região concederem mais direitos a você (como as disposições de proteção ao consumidor da China Continental ou o direito de arrependimento de 14 dias para consumidores da UE e do Reino Unido), nós as cumpriremos em conformidade com a lei, e esta política não restringe seus direitos legais.
+- Disposições para consumidores da UE e do Reino Unido: Caso você tenha concordado expressamente no momento da compra com o fornecimento imediato de conteúdo digital e reconhecido a perda do direito de arrependimento após o início do uso, esse direito será tratado conforme as leis locais aplicáveis após o início da utilização.
+10. Alterações da política e contato
+10.1 Atualizações desta política
+Podemos atualizar esta Política de Reembolso periodicamente. A versão em vigor desta política é determinada pela "Data de atualização" indicada no topo desta página. Solicitações de reembolso enviadas antes de uma atualização da política serão processadas com base na versão em vigor na data do envio.
+10.2 Contato
+Se tiver qualquer dúvida sobre esta Política de Reembolso, entre em contato pelo e-mail support@dramacanva.com.

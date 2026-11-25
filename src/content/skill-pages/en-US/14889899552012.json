@@ -1,0 +1,67 @@
+{
+    "title": "Design eye and micro-expressions for short-drama close-ups",
+    "metaDescription": "For short-drama creators and video beginners: enter traits and one line for per-second facial micro-movements; upload an image for micro-expression clips.",
+    "oneLiner": "For short dramas: enter a character and line to generate micro-expression close-up videos on the canvas.",
+    "intro": [
+        "This is a tool that helps you design a character's facial performance. It turns the character's mood into 2-3 second segments of eye, mouth-corner, and breathing movements, making AI-generated facial close-ups look more natural.",
+        "You just need to fill out the form with the character's appearance and personality, plus a line of dialogue within 15 seconds. If you have reference images of the character, you can prepare them in advance.",
+        "You'll first get several performance options for different emotions. After you choose one, you'll get detailed action descriptions. You can also upload images to generate micro-expression video clips on the canvas."
+    ],
+    "example": {
+        "input": "The character is a female lead in a period drama, restrained and reserved, and needs to say the line \"Get lost\" within 15 seconds. Upload a half-body period-costume photo of the character.",
+        "output": "The canvas will generate several performance styles for you to select. After selection, it provides eye and breathing actions split into 2-3 second segments and generates a 15-second micro-expression character video clip."
+    },
+    "scenarios": [
+        "When writing a key line for a short drama, you need a close-up where the character's eyes slowly change from smiling to sad.",
+        "The character feels wronged or conflicted inside, and you want to compare several performance options before deciding.",
+        "Character close-up videos often warp or twitch, so you need stable, slow facial movements.",
+        "You don't know how to turn a character's inner drama into on-screen action and need specific performance guidance."
+    ],
+    "problems": [
+        {
+            "pain": "You write \"eyes full of calculation,\" but the generated video shows no expression or even breaks down.",
+            "solve": "Break inner thoughts into visible facial actions like slight eye movements and a tense jaw so AI can understand them more easily."
+        },
+        {
+            "pain": "The character moves too much in the video, often causing twisted limbs or going out of frame.",
+            "solve": "Avoid large body movement and focus the action on the eyes, mouth corners, and breathing to keep the image stable."
+        },
+        {
+            "pain": "You write too many action requirements at once, and the generated character twitches and warps frequently.",
+            "solve": "Split the time into 2-3 second segments and keep only 1-2 subtle slow actions per segment for smoother motion."
+        }
+    ],
+    "steps": [
+        "In the skills library, click \"Use this skill\" to open the chat form on the right side of the canvas.",
+        "Fill in the character's appearance, personality, and a line of dialogue or plot within 15 seconds.",
+        "Select the performance style you like to get facial micro-movement descriptions split by second.",
+        "Upload a reference image of the character and generate a micro-expression video card on the canvas.",
+        "Arrange the order on the video timeline and export, or download the video card directly."
+    ],
+    "faq": [
+        {
+            "q": "Why are AI character close-up expressions always so stiff?",
+            "a": "Because if you just write mood words like \"very sad,\" AI can't understand them directly. This skill translates moods into specific actions like \"gaze slowly moves down, lips pressed tightly together.\" Adding tiny changes every 2-3 seconds makes expressions much more vivid."
+        },
+        {
+            "q": "Why do generated character videos tend to make faces twitch or warp?",
+            "a": "It's usually because too many actions are packed into one line, or the movements are too large. This skill limits actions to subtle facial movements and keeps only 1-2 extremely slow actions per time segment. This helps minimize visual breakdown and warping."
+        },
+        {
+            "q": "When writing character actions for AI, how can I avoid image errors?",
+            "a": "Try to write only specific actions the eyes can see, not what the character is thinking. Don't write physical interactions with other characters; instead, write looking at the camera or to the left/right. This helps prevent strange extra limbs from appearing."
+        },
+        {
+            "q": "Will the generated micro-expression videos have dialogue audio?",
+            "a": "No automatic voiceover. This skill mainly handles the character's facial expressions and on-screen actions. If you need dialogue audio, you can add voiceover yourself after exporting the video."
+        }
+    ],
+    "keywords": [
+        "AI video stiff facial expressions",
+        "how to write eye expressions for short dramas",
+        "AI video character face warping",
+        "character micro-expression close-up video",
+        "AI actor facial expressions",
+        "short drama close-up production"
+    ]
+}

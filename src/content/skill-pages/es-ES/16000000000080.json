@@ -1,0 +1,66 @@
+{
+    "title": "Storyboard de 5 partes con personajes fijos y estilo visual",
+    "metaDescription": "Para nuevos creadores de cortos sin trama clara: la IA crea en el lienzo una estructura de 5 fases, rasgos de personajes y storyboard plano a plano.",
+    "oneLiner": "Introduce tu idea y crea en el lienzo una trama en 5 partes y una lista plano a plano; ideal para principiantes en cortos.",
+    "intro": [
+        "Esta herramienta te ayuda a ordenar la trama de un corto. Divide tu historia en cinco fases según el planteamiento, el desarrollo, el giro y el desenlace, y redacta un storyboard (que descompone el vídeo en planos y detalla qué se ve en cada uno).",
+        "No necesitas dominar términos técnicos complejos. Basta con enviar al asistente de IA, en el cuadro de diálogo a la derecha del lienzo, tu idea de historia, la duración aproximada o el personaje que quieres mostrar, en lenguaje sencillo.",
+        "Al terminar, en el lienzo aparecerán tarjetas con la historia en cinco fases, una tarjeta con la apariencia y la paleta de color fijas de los personajes, y tarjetas de storyboard con cada plano ya descrito. Puedes revisarlas, modificarlas o copiarlas directamente para usarlas."
+    ],
+    "example": {
+        "input": "Quiero hacer un corto de ciencia ficción de 2 minutos: un astronauta encuentra una pequeña flor luminosa en un planeta desolado y quiere llevarla a la nave, pero provoca temblores en el suelo.",
+        "output": "En el lienzo se generará una estructura de la historia en cinco fases, una tabla que fija la apariencia del astronauta y la paleta espacial, y tarjetas de storyboard que detallan en orden la acción y la imagen de cada plano, listas para consultar y copiar."
+    },
+    "scenarios": [
+        "Cuando tienes una buena idea en la cabeza, pero no sabes cómo ordenar la trama para que sea una historia con altibajos.",
+        "Cuando quieres hacer un corto de 1 a 3 minutos y te preocupa que sea demasiado corto para contar una trama completa.",
+        "Cuando necesitas hacer varios planos seguidos y te preocupa que la cara o la ropa del personaje cambien en los planos posteriores.",
+        "Cuando te preocupa que la luz y el tono de color no coincidan entre planos y que, al unirlos, el estilo parezca fragmentado."
+    ],
+    "problems": [
+        {
+            "pain": "El inicio del vídeo no retiene al espectador y la trama posterior es plana, como una simple enumeración de hechos.",
+            "solve": "Divide la historia en cinco fases que avancen de forma progresiva y céntrate en plantear al principio un gancho atractivo para que la trama tenga altibajos."
+        },
+        {
+            "pain": "Al llegar a los planos finales, la cara o la ropa del protagonista cambian con frecuencia.",
+            "solve": "Antes de escribir el storyboard, organiza una tabla de rasgos del personaje e incluye su apariencia y vestuario fijos en cada plano para reducir los cambios al mínimo."
+        },
+        {
+            "pain": "La luz y el tono de color cambian de un plano a otro y, al unirlos, el resultado parece brusco.",
+            "solve": "Fija de antemano en el lienzo la base de color y luz de la imagen para que la atmósfera de cada plano se mantenga coherente."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y escribe tu idea de historia en el cuadro de diálogo.",
+        "Revisa el esquema de la trama en cinco fases que aparece en el lienzo y confirma el rumbo de la historia.",
+        "Comprueba la lista de apariencia de los personajes y tono visual, y pide a la IA que genere el storyboard plano a plano.",
+        "Copia o descarga el resultado y guarda el storyboard y las descripciones de los planos ya organizados."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo convertir una idea de historia que tengo en la cabeza en un storyboard para un corto?",
+            "a": "Primero puedes ordenar el planteamiento, el desarrollo, el giro y el desenlace con cinco fases, y después dividirlo en descripciones visuales plano a plano. En el lado derecho del lienzo de {brand}, envía tu idea al asistente de IA y este generará poco a poco en el lienzo el esquema de la historia, la configuración de los personajes y las tarjetas de storyboard plano a plano. Cuando compruebes que todo está bien, copia o descarga el contenido de las tarjetas."
+        },
+        {
+            "q": "Al generar varios planos, ¿cómo evitar que cambie la cara de los personajes?",
+            "a": "Antes de escribir los planos concretos, puedes fijar una lista de la apariencia, el peinado y la ropa de los personajes. En {brand}, el asistente de IA primero organiza en el lienzo una tabla de rasgos de los personajes e incluye las mismas palabras de rasgos en la descripción visual de cada plano. Así se mantienen en lo posible los rasgos del personaje y se reduce que su aspecto cambie al pasar de un plano a otro."
+        },
+        {
+            "q": "¿Cómo conseguir que el inicio de un vídeo corto atraiga y haga seguir viendo?",
+            "a": "La clave es plantear en los primeros segundos un conflicto o algo anómalo que despierte la curiosidad del público. Al ordenar la trama en cinco fases, esta herramienta coloca preferentemente el suspenso o el conflicto más intenso en la primera fase del inicio. Así te ayuda a captar rápido la atención del espectador y a evitar un arranque plano como una simple enumeración de hechos."
+        },
+        {
+            "q": "¿Cómo mantener el mismo tono de color y estilo visual entre los planos de un corto?",
+            "a": "Hay que definir de antemano la base de color, el tipo de luz y la textura visual de todo el corto. En {brand}, el asistente de IA genera una tarjeta específica para fijar la atmósfera e incorpora los requisitos de estilo visual común a la descripción de cada plano. Así, al unir los planos, el color y la luz resultan naturales y coherentes."
+        }
+    ],
+    "keywords": [
+        "storyboard para cortometrajes",
+        "pasar historia a storyboard",
+        "guion de cortometraje",
+        "estructura de guion para cortos",
+        "storyboard con IA",
+        "estructura en cinco partes"
+    ]
+}

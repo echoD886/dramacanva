@@ -1,0 +1,67 @@
+{
+    "title": "Short Video Ads: Reference Breakdown, Voiceover & Storyboard",
+    "metaDescription": "For video ad creators: upload reference screenshots or product images; AI maps structure, fits voiceover to duration, and creates storyboards, video cards.",
+    "oneLiner": "For video beginners: enter your product and reference video, and generate storyboards and voiceover on the canvas.",
+    "intro": [
+        "This is the workflow on {brand} that helps you plan video ads. It’s for people who want to make product videos but don’t know how to write scripts; it lets you break down videos others shot well and turn them into your own ad concepts.",
+        "You just need your product’s selling points, photos, or a few screenshots of ad videos you want to reference. Send them directly in the chat box on the right and tell the AI how many seconds your ad should be.",
+        "AI will generate voiceover script cards, storyboard table cards (breaking the video into individual shots and noting what each shot shows), and corresponding shot images and video clips on the canvas for you to edit and download."
+    ],
+    "example": {
+        "input": "I want to make a 15-second ad for an insulated tumbler. Here’s a photo of the cup and the selling points: keeps drinks hot or cold for 24 hours and doesn’t leak. I’m also attaching a screenshot of a similar best-selling video.",
+        "output": "The canvas shows a 30-plus-character voiceover script card that can be read within the time, storyboard cards split into 5 frames, and a matching insulated tumbler product image and short video clip for each frame."
+    },
+    "scenarios": [
+        "You see a competitor’s ad in the same category that’s really well made and want to borrow its pacing, but you don’t know how to break it down and analyze it.",
+        "Your 15-second script always runs too long and can’t be finished, so you need to control the character count based on speaking time.",
+        "Viewers keep swiping away in the first three seconds, and you can’t come up with an opening line that makes them keep watching.",
+        "You’re worried generated video visuals may distort the product, so you want to check still images first to confirm details."
+    ],
+    "problems": [
+        {
+            "pain": "You want to learn from great ad videos but don’t know how to break them down.",
+            "solve": "Send reference video screenshots to the AI; it will help you clarify the shot order and write new script cards based on your product."
+        },
+        {
+            "pain": "Your 15-second script is too long, so the voiceover has to be rushed or can’t even be finished.",
+            "solve": "It calculates the character count at 2–3 characters per second, keeping a 15-second script within 30–40 characters to avoid rushing."
+        },
+        {
+            "pain": "Generated video scenes tend to change the product’s material or make it look off-model.",
+            "solve": "First lock in the appearance features on the canvas, then generate storyboard images one by one for you to confirm; once you’re satisfied, generate the video clips."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to open the chat box on the right.",
+        "Upload product photos, selling points, or reference video screenshots and send them to the AI.",
+        "Review and edit the generated voiceover script and storyboard description cards.",
+        "Tell the assistant to generate the corresponding storyboard images and video clips.",
+        "Arrange them in order on the video timeline, then export."
+    ],
+    "faq": [
+        {
+            "q": "How do I turn a well-made video by someone else into my own script?",
+            "a": "Send the reference video screenshots and your product’s selling points to the assistant. It will keep the original video’s structure and combine it with your product to generate new script cards. You can edit the script directly on the canvas and then generate the corresponding shot visuals."
+        },
+        {
+            "q": "How many characters should a short video ad script have so it isn’t read too fast?",
+            "a": "Short video scripts work best at 2–3 characters per second; for a 15-second ad, aim for 30–40 characters or fewer. If it goes over 45 characters, the voiceover will be too rushed or run overtime. The assistant calculates the character count based on duration when writing the script."
+        },
+        {
+            "q": "How should I write the opening to keep viewers watching?",
+            "a": "You can open with a question, a counterintuitive point, or by revealing the result right away. Send your product’s selling points to the AI, and it will write several first-three-second opening lines from different angles. You can pick the version you like best on the canvas and generate a video to test it."
+        },
+        {
+            "q": "What should I do if the product’s appearance gets distorted when generating video?",
+            "a": "Generate still storyboard images first to check the appearance. If one shot is distorted, edit the description and regenerate just that shot. Before you start generating, clearly describe the product’s material, actual dimensions, and detail features to help reduce distortion."
+        }
+    ],
+    "keywords": [
+        "short video ad creation",
+        "how to write video scripts",
+        "storyboard script generator",
+        "short video script length",
+        "first 3 seconds ad hook",
+        "reference video breakdown"
+    ]
+}

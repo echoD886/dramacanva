@@ -1,0 +1,16 @@
+@keyframes agent-node-enter {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.node-element[data-agent-entrance] {
+    animation: agent-node-enter 320ms ease-out both;
+}
+@media (prefers-reduced-motion: reduce) {
+    .node-element[data-agent-entrance] {
+        animation: none;
+    }
+}

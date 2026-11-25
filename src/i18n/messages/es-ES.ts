@@ -1,0 +1,1077 @@
+import { creativeAccessMessages } from "../creative-access-copy";
+import { adminVideoTemplatesEn } from "./admin-ai-video-templates";
+import commerce from "./commerce.es-ES";
+import commerceWorkspace from "./commerce-workspace.es-ES";
+import aiVideoTemplates from "./ai-video-templates.es-ES";
+import stylePicker from "./style-picker.es-ES";
+import skillCatalog from "./skill-catalog.es-ES";
+import canvasAgentEntry from "./canvas-agent-entry.es-ES";
+import upstreamV165 from "./upstream-v165.es-ES";
+import canvasNov21 from "./canvas-nov21.es-ES";
+import previsV165 from "./previs-v165.es-ES";
+import { directorSegmentSettingsEs } from "./director-segment-settings";
+import creationRuntime from "./creation-runtime.es-ES";
+import { MCP_PUBLIC_COPY } from "../../lib/mcp-public-copy";
+import { MCP_SPEND_COPY } from "../../lib/mcp-spend-copy";
+import { MCP_OAUTH_COPY } from "../../lib/mcp-oauth-copy";
+import runtimeSafety from "./runtime-safety.es-ES";
+import editorTools from "./editor-tools.es-ES";
+import cloudAgent from "./cloud-agent.es-ES";
+import { publicMarketMessages } from "../public-market-messages";
+import extensionNode from "./extension-node.es-ES";
+import storyboardAssets from "./storyboard-assets.es-ES";
+import scriptBatch from "./script-batch.es-ES";
+import scriptNode from "./script-node.es-ES";
+import scriptEditor from "./script-editor.es-ES";
+import canvasFeedback from "./canvas-feedback.es-ES";
+import canvasTaskDetail from "./canvas-task-detail.es-ES";
+import nodeContent from "./node-content.es-ES";
+import generationTask from "./generation-task.es-ES";
+import generationErrors from "./generation-errors.es-ES";
+import connectionErrors from "./connection-errors.es-ES";
+import canvasAppearance from "./canvas-appearance.es-ES";
+import connectionMenu from "./connection-menu.es-ES";
+import canvasCreate from "./canvas-create.es-ES";
+import nodeInfo from "./node-info.es-ES";
+import imageToolbar from "./image-toolbar.es-ES";
+import nodeToolbar from "./node-toolbar.es-ES";
+import selectionToolbar from "./selection-toolbar.es-ES";
+import canvasContextMenu from "./canvas-context-menu.es-ES";
+import canvasDialog from "./canvas-dialog.es-ES";
+import wallet from "./wallet.es-ES";
+import teams from "./teams.es-ES";
+import tasks from "./tasks.es-ES";
+import pricing from "./pricing.es-ES";
+import canvasTopBar from "./canvas-top-bar.es-ES";
+import canvasToolbar from "./canvas-toolbar.es-ES";
+import canvasText from "./canvas-text.es-ES";
+import versionCompare from "./version-compare.es-ES";
+import canvasTransfer from "./canvas-transfer.es-ES";
+import nodeSearch from "./node-search.es-ES";
+import paymentSettings from "./payment-settings.es-ES";
+import systemUpdate from "./system-update.es-ES";
+import systemUpdatePhase from "./system-update-phase.es-ES";
+import pluginUpload from "./plugin-upload.es-ES";
+import adminPlugins from "./admin-plugins.es-ES";
+import adminPrompts from "./admin-prompts.es-ES";
+import adminChannelPrices from "./admin-channel-prices.es-ES";
+import adminChannelModels from "./admin-channel-models.es-ES";
+import adminChannels from "./admin-channels.es-ES";
+import adminPriceCatalog from "./admin-price-catalog.es-ES";
+import adminUserUsage from "./admin-user-usage.es-ES";
+import adminUserOverview from "./admin-user-overview.es-ES";
+import adminUserDetail from "./admin-user-detail.es-ES";
+import adminUserDrawer from "./admin-user-drawer.es-ES";
+import adminUsers from "./admin-users.es-ES";
+import adminUserColumns from "./admin-user-columns.es-ES";
+import adminApiDetail from "./admin-api-detail.es-ES";
+import adminLogs from "./admin-logs.es-ES";
+import adminLogDetails from "./admin-log-details.es-ES";
+import adminScreening from "./admin-screening.es-ES";
+import adminPayments from "./admin-payments.es-ES";
+import adminUi from "./admin-ui.es-ES";
+import adminRoutes from "./admin-routes.es-ES";
+import adminShell from "./admin-shell.es-ES";
+import quotaMonitor from "./quota-monitor.es-ES";
+import videoSettings from "./video-settings.es-ES";
+import imageSettings from "./image-settings.es-ES";
+import portraitTexture from "./portrait-texture.es-ES";
+import canvasPresets from "./canvas-presets.es-ES";
+import audioSettings from "./audio-settings.es-ES";
+import canvasPrompt from "./canvas-prompt.es-ES";
+import videoReferences from "./video-references.es-ES";
+import aiDetails from "./ai-details.es-ES";
+import promptOptimizer from "./prompt-optimizer.es-ES";
+import voiceInput from "./voice-input.es-ES";
+import creationLibrary from "./creation-library.es-ES";
+import creationFeedback from "./creation-feedback.es-ES";
+import creationEmpty from "./creation-empty.es-ES";
+import creationThinking from "./creation-thinking.es-ES";
+import creationStoryboard from "./creation-storyboard.es-ES";
+import creationResult from "./creation-result.es-ES";
+import creationHistory from "./creation-history.es-ES";
+import creationSettings from "./creation-settings.es-ES";
+import creationComposer from "./creation-composer.es-ES";
+import resourceMention from "./resource-mention.es-ES";
+import modelValidation from "./model-validation.es-ES";
+import modelPickerCapability from "./model-picker-capability.es-ES";
+import modelPickerPrice from "./model-picker-price.es-ES";
+import modelPickerMeta from "./model-picker-meta.es-ES";
+import modelPickerShell from "./model-picker-shell.es-ES";
+import productionAssets from "./production-assets.es-ES";
+import productionPreview from "./production-preview.es-ES";
+import shotCamera from "./shot-camera.es-ES";
+import productionForm from "./production-form.es-ES";
+import productionStage from "./production-stage.es-ES";
+import productionFeedback from "./production-feedback.es-ES";
+import workflowStatus from "./workflow-status.es-ES";
+import workflowOverview from "./workflow-overview.es-ES";
+import workflowNavigator from "./workflow-navigator.es-ES";
+import skillPicker from "./skill-picker.es-ES";
+import projectCharacterCard from "./project-character-card.es-ES";
+import projectAssetPreview from "./project-asset-preview.es-ES";
+import projectAssetVoice from "./project-asset-voice.es-ES";
+import projectAssetUi from "./project-asset-ui.es-ES";
+import projectAssetFolder from "./project-asset-folder.es-ES";
+import projectCharacterEditor from "./project-character-editor.es-ES";
+import projectLabels from "./project-labels.es-ES";
+import projectAssetFeedback from "./project-asset-feedback.es-ES";
+import projectStatus from "./project-status.es-ES";
+import chapterAi from "./chapter-ai.es-ES";
+import chapterUi from "./chapter-ui.es-ES";
+import chapterReplacement from "./chapter-replacement.es-ES";
+import chapterFeedback from "./chapter-feedback.es-ES";
+import chapterImport from "./chapter-import.es-ES";
+import chapterToolbar from "./chapter-toolbar.es-ES";
+import styleMetadata from "./style-metadata.es-ES";
+import styleBinding from "./style-binding.es-ES";
+import styleValidation from "./style-validation.es-ES";
+import styleEditor from "./style-editor.es-ES";
+import styleCenter from "./style-center.es-ES";
+import assetPicker from "./asset-picker.es-ES";
+import projectSettings from "./project-settings.es-ES";
+import comfy from "./comfy.es-ES";
+import workbench from "./workbench.es-ES";
+import workflowGraph from "./workflow-graph.es-ES";
+import workflowFields from "./workflow-fields.es-ES";
+import announcements from "./announcements.es-ES";
+import capabilityEditor from "./capability-editor.es-ES";
+import protocolPicker from "./protocol-picker.es-ES";
+import runningHubSettings from "./runninghub-settings.es-ES";
+import promptMetadata from "./prompt-metadata.es-ES";
+import projectOverview from "./project-overview.es-ES";
+import promptPreferences from "./prompt-preferences.es-ES";
+import localStorage from "./local-storage.es-ES";
+import diagnostics from "./diagnostics.es-ES";
+import modelDefaults from "./model-defaults.es-ES";
+import projectDetail from "./project-detail.es-ES";
+import projectLibrary from "./project-library.es-ES";
+import canvasCard from "./canvas-card.es-ES";
+import canvasSidebar from "./canvas-project-sidebar.es-ES";
+import shortDrama from "./canvas-short-drama-entry.es-ES";
+import assetTray from "./canvas-asset-tray.es-ES";
+import creativeAgent from "./canvas-creative-interaction.es-ES";
+import folderPreview from "./canvas-folder-preview.es-ES";
+import modelSettings from "./model-settings.es-ES";
+import headers from "./headers.es-ES";
+import campaign from "./campaign.es-ES";
+import canvasLibrary from "./canvas-library.es-ES";
+import canvasExtra from "./canvasExtra.es-ES";
+import canvasRuntime from "./canvas-runtime.es-ES";
+import agentErrors from "./agentErrors.es-ES";
+import canvasCloudAgent from "./canvas-cloud-agent.es-ES";
+import canvasCloudAgentSettings from "./canvas-cloud-agent-settings.es-ES";
+import canvasCloudAgentChat from "./canvas-cloud-agent-chat-ui.es-ES";
+import canvasAgentSkillLibrary from "./canvas-agent-skill-library.es-ES";
+import canvasAgentApproval from "./canvas-agent-approval-settings.es-ES";
+import canvasAgentChat from "./canvas-agent-chat-ui.es-ES";
+import canvasBatchTable from "./canvas-batch-table.es-ES";
+import homeShowcase from "./homeShowcase.es-ES";
+import canvasTour from "./canvasTour.es-ES";
+import canvasShortcuts from "./canvasShortcuts.es-ES";
+import canvasAgent from "./canvasAgent.es-ES";
+import adminSettings from "./adminSettings.es-ES";
+import adminCommon from "./adminCommon.es-ES";
+
+import accountPage from "./accountPage.es-ES";
+import accountCenter from "./accountCenter.es-ES";
+
+import adminAnalytics from "./adminAnalytics.es-ES";
+import adminAudience from "./adminAudience.es-ES";
+import adminValidation from "./adminValidation.es-ES";
+import adminCredits from "./adminCredits.es-ES";
+
+import adminAnnouncements from "./adminAnnouncements.es-ES";
+
+import adminCodes from "./adminCodes.es-ES";
+
+import adminPanels from "./adminPanels.es-ES";
+
+import assetsLib from "./assetsLib.es-ES";
+import assetUiHub from "./asset-ui-hub.es-ES";
+import assetUiDetail from "./asset-ui-detail.es-ES";
+import assetUiViewer from "./asset-ui-viewer.es-ES";
+import assetUiDialogs from "./asset-ui-dialogs.es-ES";
+
+import miscPages from "./miscPages.es-ES";
+
+import canvasDirector from "./canvasDirector.es-ES";
+
+import pluginsPage from "./pluginsPage.es-ES";
+
+import settingsPage from "./settingsPage.es-ES";
+
+import skillsPage from "./skillsPage.es-ES";
+
+import ledger from "./ledger.es-ES";
+import referral from "./referral.es-ES";
+const messages = {
+    "completion.enabled": "Avisos de generación completada",
+    "completion.sound": "Sonido de finalización",
+    "completion.done": "Generación completada",
+    "b2.memory": "Memoria personal",
+    "b2.memoryDescription": "Gestiona preferencias entre sesiones",
+    "emptyState.noData": "Aún no hay datos",
+    "directorNode.more": "Más",
+    "directorNode.openStudio": "Abrir el estudio 3D",
+    "directorNode.directorView": "Vista de dirección",
+    "directorNode.objects": "Objetos",
+    "directorNode.properties": "Propiedades",
+    "directorNode.showFloor": "Mostrar suelo",
+    "directorNode.shotArrangement": "Secuencia de planos",
+    "directorNode.environmentPreset": "Entorno predefinido",
+    "directorNode.studio": "Estudio",
+    "directorNode.timelineTitle": "Línea de tiempo",
+    "directorNode.exposure": "Exposición",
+    "directorNode.floorOpacity": "Opacidad del suelo",
+    "directorNode.edit": "Editar",
+    "directorNode.timeline": "Segmentos de toma y navegación por fotogramas",
+    "directorNode.editUnavailable": "No se puede compilar el segmento actual. Compruebe la secuencia de previs y vuelva a intentarlo.",
+    "projectLibrary.pipeline": "Producción de dramas",
+    "upstreamSix.canvas": "Lienzo",
+    "upstreamSix.assets": "Recursos del lienzo",
+    "canvasTransfer.fromComputer": "Subir desde el dispositivo",
+    "canvasTransfer.fromLibrary": "Elegir de la biblioteca de recursos",
+    "watermark.notice": "Esta creación incluye marca de agua. Recarga créditos o suscríbete para descargarla sin marca de agua.",
+    "watermark.adminStatus": "Marca de agua",
+    "watermark.failed": "Error al generar la marca de agua. Vuelve a intentar la descarga.",
+    "watermark.sourceConflict": "Los recursos pertenecen a cuentas distintas. Procésalos por separado.",
+    "watermark.recharge": "Recargar",
+    "watermark.useTaskResult": "No se puede acceder directamente. Abre o descarga tu creación desde los resultados de la tarea.",
+    "watermark.processing": "Procesando marca de agua...",
+    "modelPicker.retired": "Este modelo se ha retirado",
+    "modelPicker.switchKling4": "Cambiar a Kling 4",
+    "directorD4.included": "Se incluirá en esta solicitud",
+    "directorD4.omitted": "Límite del modelo: se priorizan composición y personajes. Omitidos",
+    "directorD4.constraint":
+        "Use el vídeo de referencia solo para movimientos de cámara, desplazamientos y ritmo de acción. No herede materiales grises, geometría provisional ni iluminación. La apariencia sigue las imágenes de personajes y el entorno sus referencias.",
+    "directorD4.previs": "Previsualización",
+    "directorD4.composition": "Composición",
+    "directorD4.final": "Vídeo final",
+    "directorD4.play": "Reproducir",
+    "directorD4.pause": "Pausar",
+    "directorD4.loop": "Repetir",
+    "directorD4.previousFrame": "Fotograma anterior",
+    "directorD4.nextFrame": "Fotograma siguiente",
+    "directorD4.frameCount": "Fotograma {frame} / {total}",
+    "directorD4.create": "Crear previsualización",
+    "directorD4.free": "Crear con reglas del guion gráfico, sin IA (gratis)",
+    "directorD4.bind": "Vincular personaje",
+    "directorD4.unbound": "Sin vínculo",
+    "directorD4.changed": "Guion gráfico modificado",
+    "directorD4.sync": "Sincronizar guion",
+    "directorD4.stale": "Actualización pendiente",
+    "directorD4.updating": "Actualizando",
+    "directorD4.generate": "Generación por referencia",
+    "directorDownstream.reference": "Referencia de toma previs: {reference}. Solo como referencia de tomas, acción y ritmo.",
+    "directorDownstream.appearance": "Referencia de apariencia del personaje {name}: {reference}",
+    "directorDownstream.resolutionUnsupported": "El modelo seleccionado no admite la resolución actual. Vuelva a seleccionar una antes de la generación por referencia.",
+    "directorDownstream.durationUnsupported": "El clip original dura {seconds} segundos y supera la duración o los pasos permitidos por el modelo; se conserva el rango completo sin recorte automático.",
+    "directorDownstream.targetUnavailable": "El objetivo de generación por referencia no está disponible o está bloqueado.",
+    "directorDownstream.changed": "La escena de previs, la secuencia o el objetivo han cambiado. Vuelva a iniciar la generación por referencia.",
+    "directorDownstream.keyframesIncomplete": "La exportación de fotogramas clave está incompleta. Se ha detenido la generación por referencia.",
+    "directorD4.unknown": "Escenario vacío · Lugar desconocido",
+    "directorD4.local": "Grabación local · Gratis",
+    "directorD4.imageOnly": "Este modelo solo toma la composición, no el movimiento de la previsualización. Se recomienda un modelo con vídeo de referencia.",
+    ...stylePicker,
+    ...skillCatalog,
+    "directorD5.title": "Crear escena con una frase",
+    "directorD5.example": "Noche lluviosa en el metro: Lin Xia corre al andén con un paraguas viejo y cruza la mirada con Gu Yan; la cámara se acerca lentamente.",
+    "directorD5.quoteButton": "Revisar precio y generar",
+    "directorD5.free": "Crear previsualización desde la descripción (gratis)",
+    "directorD5.model": "Modelo de texto",
+    "directorD5.mode": "Modo de generación",
+    "directorD5.append": "Añadir plano",
+    "directorD5.replace": "Reconstruir escena",
+    "directorD5.replaceWarning": "Se reemplazará la escena actual. ¿Continuar?",
+    "directorD5.confirm": "Confirmar generación",
+    "directorD5.cancel": "Cancelar",
+    "directorD5.quote": "Modelo: {model}. Hasta {cost} créditos; se devuelven los créditos si falla. ¿Generar?",
+    "directorD5.refunded": "La generación falló y se devolvieron los créditos. Se creó un set vacío con los personajes reconocidos.",
+    "directorD5.failed": "La generación falló. Se creó un set vacío con personajes; consulta los créditos devueltos en el centro de tareas.",
+    "directorD5.changed": "La escena o cuenta cambió. Vuelve a generar.",
+    ...referral,
+    ...ledger,
+    "mcp.title": "Deja que un agente de IA lo haga · MCP / API",
+    "mcp.other": "Otros",
+    "mcp.copy": "Copiar",
+    "mcp.copied": "Copiado",
+    "mcp.copyFailed": "No se pudo copiar. Selecciona el código y cópialo manualmente.",
+    "mcp.getKey": MCP_PUBLIC_COPY["es-ES"]["mcp.getKey"],
+    "mcp.paste": MCP_PUBLIC_COPY["es-ES"]["mcp.paste"],
+    "mcp.explore": MCP_PUBLIC_COPY["es-ES"]["mcp.explore"],
+    "mcp.billingNote": "Las llamadas consumen créditos según el uso real. El titular de la clave es responsable.",
+    "mcp.cursor": "Añadir a Cursor",
+    "mcp.cursorSecret": "Añadir a Cursor con esta clave",
+    "mcp.envHelp": "Define DRAMACANVA_API_KEY en el entorno que inicia el cliente y reinícialo. Cursor debe heredar esta variable.",
+    "mcp.saveTitle": "Guardar la clave y conectar",
+    "mcp.saveWarning": "La clave se muestra una sola vez. Guárdala en privado; se borra al cerrar esta ventana.",
+    "mcp.close": "Ya la guardé",
+    "mcp.manage": "Gestionar claves API",
+    "mcp.createFailed": "No se pudo crear la clave. Puede haberse alcanzado el límite de claves o solicitudes diarias. Reintenta más tarde o gestiona las claves existentes.",
+    "mcp.preset": "Acceso MCP completo",
+    "mcp.limit": "Límite de gasto (créditos)",
+    "mcp.unlimited": "Sin límite",
+    "mcp.editLimit": "Editar límite",
+    "mcp.limitHelp": "Límite acumulado opcional. Vacío elimina el límite; 0 bloquea llamadas de pago. Los créditos devueltos y la rotación no reinician el consumo.",
+    "mcp.limitFailed": "No se pudo guardar el límite. Introduce una cantidad válida no negativa.",
+    "mcp.pageTitle": "Servidor MCP de cine con IA: Claude y Cursor",
+    "mcp.intro": "Usa Claude Code, Codex o Cursor vía MCP para guiones, storyboards, imágenes y vídeo en DramaCanvas. Agente integrado incluido; la IA usa créditos.",
+    "mcp.capabilities": "Qué puede hacer tu agente",
+    "mcp.capabilityDescriptions": "Divide guiones en episodios.|Planifica planos por episodio.|Crea referencias de personajes.|Genera varios planos a la vez.|Conecta nodos y pasos.|Monta clips en una película.|Delega al Agent integrado.",
+    "mcp.envShort": "Configura DRAMACANVA_API_KEY",
+    "mcp.capabilityItems": "Dividir guiones en episodios|Escribir storyboards|Crear referencias de personajes|Generar planos en lote|Crear flujos en el lienzo|Renderizar vídeos finales|Delegar al agente integrado",
+    "mcp.examples": "Prueba una conversación",
+    "mcp.example1": MCP_PUBLIC_COPY["es-ES"]["mcp.example1"],
+    "mcp.example2": MCP_PUBLIC_COPY["es-ES"]["mcp.example2"],
+    "mcp.example3": MCP_PUBLIC_COPY["es-ES"]["mcp.example3"],
+    "mcp.steps": MCP_PUBLIC_COPY["es-ES"]["mcp.steps"],
+    "mcp.codexApproval": MCP_PUBLIC_COPY["es-ES"]["mcp.codexApproval"],
+    "mcp.cliSteps": MCP_PUBLIC_COPY["es-ES"]["mcp.cliSteps"],
+    "mcp.cursorSteps": MCP_PUBLIC_COPY["es-ES"]["mcp.cursorSteps"],
+    "mcp.otherSteps": MCP_PUBLIC_COPY["es-ES"]["mcp.otherSteps"],
+    "mcp.billing": "Facturación y responsabilidad",
+    "mcp.billingDetail": MCP_PUBLIC_COPY["es-ES"]["mcp.billingDetail"],
+    "mcp.security": "Protege tu clave",
+    "mcp.securityDetail":
+        "Las claves se autentican mediante el encabezado Authorization. No las incluyas en enlaces compartidos, prompts ni capturas. Puedes revocarlas en cualquier momento; las tareas ya enviadas pueden terminar. Instálalas solo en clientes de confianza.",
+    "mcp.faq": "Preguntas frecuentes",
+    "mcp.faq1": MCP_PUBLIC_COPY["es-ES"]["mcp.faq1"],
+    "mcp.faq2": MCP_PUBLIC_COPY["es-ES"]["mcp.faq2"],
+    "mcp.faq3": MCP_PUBLIC_COPY["es-ES"]["mcp.faq3"],
+    "mcp.faq4": MCP_PUBLIC_COPY["es-ES"]["mcp.faq4"],
+    "mcp.back": "Volver al inicio",
+    "localMedia.expired": "Caducado y eliminado",
+    "localMedia.expiringTitle": "Contenido próximo a caducar",
+    "localMedia.save": "Guardar en este dispositivo",
+    "localMedia.download": "Descargar",
+    "localMedia.extend": "Ampliar 15 días",
+    "localMedia.expiry": "Caduca: {date}",
+    "localMedia.missing": "No hay una copia verificada en este dispositivo",
+    "localMedia.backup": "Guarda otra copia de seguridad. Si pierdes el archivo local tras la limpieza del servidor, no podrás recuperarlo.",
+    "localMedia.restore": "Volver a buscar archivos guardados",
+    "localMedia.preferences": "Avisos de caducidad",
+    "localMedia.enabled": "Recibir avisos por correo",
+    "localMedia.failed": "La operación ha fallado. Inténtalo de nuevo.",
+    "localMedia.restored": "Índice local verificado",
+    "localMedia.noCanvas": "Sin lienzo vinculado",
+    "checkout.title": "Intentos de pago",
+    "checkout.reviewTitle": "Pagos pendientes de revisión",
+    "checkout.reviewHelp": "Recibos desconocidos de todas las cuentas y entornos, incluidos los históricos sin intento. Los filtros del embudo no se aplican. Verifica el evento original de Stripe.",
+    "checkout.reviewBusiness": "Suscripción / pedido",
+    "checkout.reviewPaid": "Marcar pagado",
+    "checkout.reviewUnpaid": "Marcar no pagado",
+    "checkout.reviewReason": "Motivo obligatorio; sin secretos ni datos sensibles de pago",
+    "checkout.reviewPaidEffect": "La evidencia de pago mantiene la reserva del crédito. Esta acción no concede beneficios.",
+    "checkout.reviewUnpaidEffect": "Al marcar no pagado, una suscripción antigua podrá liberar el crédito al superar el plazo y las demás comprobaciones.",
+    "checkout.live": "Producción",
+    "checkout.test": "Prueba",
+    "checkout.account": "Cuenta de Stripe",
+    "checkout.zeroPaid": "Éxito de importe cero",
+    "checkout.unknownExpiration": "Motivo de vencimiento sin confirmar",
+    "checkout.help": "Registra el inicio y los resultados confirmados, no la apertura de Stripe. El historial importado se excluye del embudo.",
+    "checkout.dates": "Fechas de creación (Hong Kong)",
+    "checkout.product": "Producto",
+    "checkout.refresh": "Actualizar",
+    "checkout.credits": "Créditos",
+    "checkout.custom_credits": "Créditos personalizados",
+    "checkout.subscription": "Suscripción",
+    "checkout.byok": "BYOK",
+    "checkout.upgrade": "Mejora",
+    "checkout.initiated": "Iniciados",
+    "checkout.created": "Sesión creada",
+    "checkout.succeeded": "Pago confirmado",
+    "checkout.completed": "Checkout completado",
+    "checkout.cancel_return": "Retorno por cancelación",
+    "checkout.payment_failed": "Fallos de pago",
+    "checkout.naturalExpiration": "Caducidad natural",
+    "checkout.systemClosed": "Cierre del sistema",
+    "checkout.customer_create_failed": "Error al crear cliente",
+    "checkout.metric": "{attempts} intentos / {users} usuarios / {events} eventos",
+    "checkout.conversion": "Conversión por intento / usuario",
+    "checkout.createdQuote": "Presupuestos creados",
+    "checkout.uncreatedQuote": "Presupuestos sin sesión",
+    "checkout.paid": "Pagado",
+    "checkout.netPaid": "Pago neto",
+    "checkout.renewals": "Facturas posteriores",
+    "checkout.quote": "Presupuesto",
+    "checkout.environment": "Entorno",
+    "checkout.historical": "Historial importado: no es un inicio nuevo; la fecha indica la importación.",
+    "checkout.expiryPending": "Se alcanzó la caducidad prevista; esperando a Stripe.",
+    "checkout.creating": "Creando",
+    "checkout.create_failed": "Creación fallida",
+    "checkout.unknown": "Sin verificar",
+    "checkout.open": "Abierto",
+    "checkout.complete": "Completo",
+    "checkout.expired": "Caducado",
+    "checkout.unpaid": "Sin pagar",
+    "checkout.processing": "Procesando",
+    "checkout.session_reused": "Sesión reabierta",
+    "checkout.product_switch": "Cambio de producto",
+    "checkout.renewal_quote_invalidated": "Presupuesto invalidado por renovación",
+    "checkout.intent_canceled": "Intención de pago cancelada",
+    "checkout.loginReturn": "Inicia sesión para continuar",
+    "checkout.returnError": "El retorno no se ha registrado. Reinténtalo; el pago requiere confirmación del servidor.",
+    "checkout.returnSuccess": "Pago confirmado",
+    "checkout.returnCancel": "Retorno por cancelación registrado. El pago aún puede completarse.",
+    "checkout.returnPending": "Confirmando el pago. Actualiza para consultar.",
+    "checkout.notice":
+        "Enviamos al procesador de pagos el nombre de cuenta, el correo de cuenta (que puede no estar verificado) y el ID de usuario para asociar el cliente y procesar el pago. Registramos el inicio del pago, las vueltas tras cancelar y los fallos sin datos sensibles durante 90 días para conciliación, recuperación y análisis. Las referencias necesarias y los registros contables correctos siguen las normas contables aplicables. El correo de contacto de pago no cambia tu correo de inicio de sesión.",
+    ...creationRuntime,
+    ...previsV165,
+    ...directorSegmentSettingsEs,
+    ...upstreamV165,
+    ...canvasNov21,
+    ...canvasAgentEntry,
+    ...runtimeSafety,
+    ...editorTools,
+    ...cloudAgent,
+    ...canvasTransfer,
+    ...versionCompare,
+    ...canvasText,
+    ...canvasContextMenu,
+    ...canvasDialog,
+    ...wallet,
+    ...teams,
+    ...tasks,
+    ...pricing,
+    ...canvasTopBar,
+    ...canvasToolbar,
+    ...selectionToolbar,
+    ...nodeToolbar,
+    ...imageToolbar,
+    ...nodeInfo,
+    ...canvasCreate,
+    ...connectionMenu,
+    ...canvasAppearance,
+    ...connectionErrors,
+    ...generationErrors,
+    ...generationTask,
+    ...nodeContent,
+    ...canvasTaskDetail,
+    ...canvasFeedback,
+    ...scriptEditor,
+    ...scriptNode,
+    ...scriptBatch,
+    ...storyboardAssets,
+    ...extensionNode,
+    ...nodeSearch,
+    ...paymentSettings,
+    ...systemUpdate,
+    ...systemUpdatePhase,
+    ...pluginUpload,
+    ...adminPlugins,
+    ...adminPrompts,
+    ...adminChannelPrices,
+    ...adminChannelModels,
+    ...adminChannels,
+    ...adminPriceCatalog,
+    ...adminUserUsage,
+    ...adminUserOverview,
+    ...adminUserDetail,
+    ...adminUserDrawer,
+    ...adminUsers,
+    ...adminUserColumns,
+    ...adminApiDetail,
+    ...adminLogs,
+    ...adminLogDetails,
+    ...adminScreening,
+    ...adminPayments,
+    ...adminUi,
+    ...adminRoutes,
+    ...adminShell,
+    ...adminVideoTemplatesEn,
+    ...quotaMonitor,
+    ...videoSettings,
+    ...imageSettings,
+    ...portraitTexture,
+    ...canvasPresets,
+    ...audioSettings,
+    ...canvasPrompt,
+    ...videoReferences,
+    ...aiDetails,
+    ...promptOptimizer,
+    ...voiceInput,
+    ...creationLibrary,
+    ...creationFeedback,
+    ...creationEmpty,
+    ...creationThinking,
+    ...creationStoryboard,
+    ...creationResult,
+    ...creationHistory,
+    ...creationSettings,
+    ...creationComposer,
+    ...resourceMention,
+    ...modelValidation,
+    ...modelPickerCapability,
+    ...modelPickerPrice,
+    ...modelPickerMeta,
+    ...modelPickerShell,
+    ...productionAssets,
+    ...productionPreview,
+    ...shotCamera,
+    ...productionForm,
+    ...productionStage,
+    ...productionFeedback,
+    ...workflowStatus,
+    ...workflowOverview,
+    ...workflowNavigator,
+    ...skillPicker,
+    ...projectCharacterCard,
+    ...projectAssetPreview,
+    ...projectAssetVoice,
+    ...projectAssetUi,
+    ...projectAssetFolder,
+    ...projectCharacterEditor,
+    ...projectLabels,
+    ...projectAssetFeedback,
+    ...projectStatus,
+    ...chapterAi,
+    ...chapterUi,
+    ...chapterReplacement,
+    ...chapterFeedback,
+    ...chapterImport,
+    ...chapterToolbar,
+    ...styleMetadata,
+    ...styleBinding,
+    ...styleValidation,
+    ...styleEditor,
+    ...styleCenter,
+    ...assetPicker,
+    ...projectSettings,
+    ...comfy,
+    ...workbench,
+    ...workflowGraph,
+    ...workflowFields,
+    ...announcements,
+    ...capabilityEditor,
+    ...protocolPicker,
+    ...runningHubSettings,
+    ...promptMetadata,
+    ...projectOverview,
+    ...promptPreferences,
+    ...localStorage,
+    ...diagnostics,
+    ...modelDefaults,
+    ...projectDetail,
+    ...projectLibrary,
+    ...canvasCard,
+    ...canvasSidebar,
+    ...shortDrama,
+    ...assetTray,
+    ...creativeAgent,
+    ...folderPreview,
+    ...modelSettings,
+    ...headers,
+    ...campaign,
+    ...canvasLibrary,
+    ...canvasExtra,
+    ...canvasRuntime,
+    ...agentErrors,
+    ...canvasCloudAgent,
+    ...canvasCloudAgentSettings,
+    ...canvasCloudAgentChat,
+    ...canvasAgentSkillLibrary,
+    ...canvasAgentApproval,
+    ...canvasAgentChat,
+    ...canvasBatchTable,
+    ...homeShowcase,
+    ...canvasTour,
+    ...canvasShortcuts,
+    ...canvasAgent,
+    ...adminSettings,
+    ...adminCommon,
+    ...skillsPage,
+    ...settingsPage,
+    ...pluginsPage,
+    ...canvasDirector,
+    ...miscPages,
+    ...assetsLib,
+    ...assetUiHub,
+    ...assetUiDetail,
+    ...assetUiViewer,
+    ...assetUiDialogs,
+    ...adminPanels,
+    ...adminCodes,
+    ...adminAnnouncements,
+    ...adminAnalytics,
+    ...adminAudience,
+    ...adminValidation,
+    ...adminCredits,
+    ...accountPage,
+    ...accountCenter,
+    "common.home": "Inicio",
+    "common.backHome": "Volver al inicio",
+    "common.backMain": "Volver al inicio",
+    "common.reload": "Volver a cargar",
+    "common.retry": "Reintentar",
+    "common.cancel": "Cancelar",
+    "common.confirm": "Confirmar",
+    "common.save": "Guardar",
+    "common.close": "Cerrar",
+    "common.delete": "Eliminar",
+    "common.search": "Buscar",
+    "common.all": "Todo",
+    "common.filter": "Filtrar",
+    "common.filterApplied": "Filtros aplicados",
+    "common.reset": "Restablecer",
+    "common.loading": "Cargando contenido",
+    "common.loadFailure": "No se puede cargar ahora",
+    "common.networkRetry": "Comprueba la conexión e inténtalo de nuevo. El contenido actual no se sobrescribirá.",
+    "common.loadingShort": "Cargando",
+    "common.requestFailed": "Error en la solicitud",
+    "common.requestCancelled": "Solicitud cancelada",
+    "loader.restore": "Restaurando el espacio de trabajo",
+    "loader.sync": "Sincronizando cuenta, modelos y proyectos",
+    "loader.open": "Abriendo la página",
+    "error.unavailable": "Esta página no está disponible temporalmente",
+    "error.runtime": "Error de página",
+    "error.loadTitle": "La página no se cargó correctamente",
+    "error.notFound": "Página no encontrada",
+    "error.notFoundDetail": "No hay ninguna página en esta dirección. Es posible que se haya movido o integrado en otra sección.",
+    "nav.newProject": "Nuevo proyecto",
+    "nav.newProjectHint": "Crea un proyecto de drama corto con guion y storyboard",
+    "nav.homeHint": "Explora herramientas, lienzos iniciales y obras destacadas",
+    "nav.drama": "Dramas cortos",
+    "nav.dramaHint": "Gestiona proyectos, guiones, capítulos y storyboards",
+    "nav.agentHint": "Explora habilidades creativas y elige un asistente",
+    "nav.challenge": "Reto de creadores",
+    "nav.challengeHint": "Consulta temas creativos y obras destacadas",
+    "nav.workspace": "Espacio de trabajo",
+    "nav.canvas": "Lienzo",
+    "nav.canvasHint": "Conecta nodos de texto, imagen y vídeo en un flujo creativo",
+    "nav.assets": "Biblioteca de recursos",
+    "nav.assetsHint": "Busca y organiza imágenes, vídeos, audio y otros recursos",
+    "nav.pricing": "Precios y planes",
+    "nav.pricingHint": "Consulta planes de membresía, créditos y servicios de conexión",
+    "nav.collapse": "Contraer barra lateral",
+    "nav.expand": "Expandir barra lateral",
+    "nav.collapseHint": "Muestra solo iconos para ampliar el espacio de trabajo",
+    "nav.expandHint": "Mantén visibles los nombres de navegación",
+    "nav.help": "Centro de ayuda",
+    "nav.settings": "Ajustes",
+    "nav.account": "Ajustes de cuenta",
+    "nav.team": "Espacio del equipo",
+    "nav.tasks": "Centro de tareas",
+    "nav.credits": "Créditos",
+    "nav.plugins": "Complementos",
+    "nav.admin": "Administración",
+    "nav.login": "Iniciar sesión",
+    "nav.logout": "Cerrar sesión",
+    "pagination.label": "Paginación",
+    "pagination.previous": "Página anterior",
+    "pagination.next": "Página siguiente",
+    "pagination.empty": "0 {unit}",
+    "pagination.range": "{start}–{end} de {total} {unit}",
+    "pagination.size": "{count} {unit}/página",
+    "pagination.items": "elementos",
+    "tasks.active": "En curso",
+    "tasks.done": "Completadas",
+    "tasks.failed": "Fallidas/canceladas",
+    "tasks.today": "Generadas hoy",
+    "auth.usernameLabel": "Usuario / correo electrónico",
+    "auth.username": "Usuario o correo electrónico",
+    "auth.enterUsername": "Introduce tu usuario o correo electrónico",
+    "auth.password": "Contraseña",
+    "auth.enterPassword": "Introduce tu contraseña",
+    "auth.hidePassword": "Ocultar contraseña",
+    "auth.showPassword": "Mostrar contraseña",
+    "auth.forgot": "¿Olvidaste tu contraseña?",
+    "auth.success": "Sesión iniciada",
+    "auth.failed": "No se pudo iniciar sesión",
+    "auth.otherLogin": "O inicia sesión con",
+    "auth.socialLogin": "Acceso con una cuenta social",
+    "auth.linuxdo": "Iniciar sesión con Linux.do",
+    "auth.providerUnavailable": "Un administrador debe configurar OAuth de {provider}. Puedes usar tu usuario y contraseña{alternative}.",
+    "auth.linuxAlternative": " o Linux.do",
+    "blog.guide": publicMarketMessages("es-ES")["blog.guide"],
+    "blog.description": publicMarketMessages("es-ES")["blog.description"],
+    "blog.categories": "Categorías del blog",
+    "blog.articles": "Artículos del blog",
+    "blog.readMore": "Leer artículo",
+    "blog.breadcrumb": "Ruta de navegación",
+    "blog.toc": "En esta página",
+    "blog.furtherReading": "Lecturas relacionadas",
+    "blog.sources": "Fuentes",
+    "blog.faq": "Preguntas frecuentes",
+    "blog.openVideo": "Abrir vídeo",
+    "blog.enter": "Entrar al espacio creativo",
+    "blog.other": "Ver otras guías",
+    "blog.missing": "Artículo no encontrado",
+    "blog.back": "Volver a las guías",
+    "blog.chineseCaptions": "Subtítulos en chino",
+    "auth.settingsFailed": "No se pudo cargar la configuración de registro",
+    "auth.emailRequired": "Introduce primero tu correo electrónico",
+    "auth.codeSent": "Solicitud recibida. Si el correo cumple los requisitos, recibirás un código. Revisa la bandeja de entrada y el correo no deseado.",
+    "auth.codeFailed": "No se pudo enviar el código de verificación",
+    "auth.passwordMismatch": "Las contraseñas no coinciden",
+    "auth.adminCreated": "Cuenta de administrador creada",
+    "auth.registerSuccess": "Registro completado",
+    "auth.registerFailed": "Error al registrarse",
+    "auth.firstAdmin": "La primera cuenta será la administradora. Esta cuenta no requiere verificación por correo.",
+    "auth.registrationClosed": "El registro público está cerrado. Contacta con un administrador para crear una cuenta.",
+    "auth.mailNotReady": "El correo de registro no está configurado. El registro por correo no está disponible.",
+    "auth.userName": "Nombre de usuario",
+    "auth.userNameHint": "De 3 a 32 caracteres",
+    "auth.displayName": "Nombre visible",
+    "auth.displayNameHint": "Déjalo en blanco para usar tu nombre de usuario",
+    "auth.email": "Correo electrónico",
+    "auth.emailHint": "Para iniciar sesión y verificar tu identidad",
+    "auth.emailCode": "Código de verificación por correo",
+    "auth.codeHint": "Código de 6 dígitos",
+    "auth.getCode": "Obtener código",
+    "auth.passwordHint": "Al menos 8 caracteres",
+    "auth.confirmPassword": "Confirmar contraseña",
+    "auth.passwordAgain": "Vuelve a introducir la contraseña",
+    "auth.createAccount": "Crear cuenta",
+    "auth.socialRegister": "Regístrate o inicia sesión con una cuenta social",
+    "auth.linuxRegister": "Registrarse / iniciar sesión con Linux.do",
+    "auth.resetCodeSent": "Si este correo está vinculado a una cuenta que puede recuperarse, se enviará un código.",
+    "auth.resetSuccess": "Contraseña restablecida. Inicia sesión con la nueva contraseña.",
+    "auth.resetFailed": "No se pudo restablecer la contraseña",
+    "auth.resetDisabled": "La recuperación de contraseña no está habilitada. Contacta con el administrador.",
+    "auth.accountEmail": "Correo de la cuenta",
+    "auth.accountEmailHint": "Introduce el correo vinculado a tu cuenta",
+    "auth.sendCode": "Enviar código",
+    "auth.changeEmail": "Cambiar correo",
+    "auth.resend": "Reenviar",
+    "auth.newPassword": "Nueva contraseña",
+    "auth.resetPassword": "Restablecer contraseña",
+    "auth.backLogin": "Volver al inicio de sesión",
+    "auth.verifying": "Verificando…",
+    "auth.clickEntry": "Haz clic para entrar en DramaCanvas",
+    "auth.releaseEntry": "Suelta para entrar",
+    "auth.dragEntry": "Desliza la película para entrar",
+    "auth.clickAccessible": "Haz clic para entrar en DramaCanvas o pulsa Enter para iniciar sesión",
+    "auth.dragAccessible": "Desliza la película dorada hacia la derecha o usa las flechas y pulsa Enter para entrar en DramaCanvas",
+    "auth.enter": "Entrar",
+    "auth.clickHint": "Haz clic o pulsa Enter para iniciar sesión",
+    "auth.dragHint": "Desliza la película a la derecha o usa ← → y después Enter para iniciar sesión",
+    "nav.mainAria": "Navegación principal de DramaCanvas",
+    "nav.blog": "Blog",
+    "nav.blogHint": "Lee guías creativas, novedades del producto y consejos",
+    "nav.helpShort": "Ayuda",
+    "nav.helpHint": "Consulta tutoriales, contacta con soporte y conoce tus servicios",
+    "nav.helpPublic": "Ayuda e información pública",
+    "nav.tutorials": "Tutoriales",
+    "nav.privacyRights": "Privacidad y derechos",
+    "nav.privacyRightsHint": "Privacidad, acuerdos y derechos del usuario",
+    "nav.terms": "Condiciones del servicio",
+    "nav.privacy": "Política de privacidad",
+    "nav.refund": "Política de reembolso",
+    "nav.acceptableUse": "Política de uso aceptable",
+    "nav.dataRights": "Derechos de la cuenta y los datos",
+    "nav.creatorBenefits": "Herramientas creativas y servicios",
+    "nav.offered": "DramaCanvas te ofrece",
+    "nav.manageCreative": "Gestiona proyectos, lienzos, recursos y tareas de generación.",
+    "nav.checkBenefits": "Consulta créditos, planes y acceso a modelos disponibles.",
+    "nav.managePrivacy": "Gestiona tus preferencias y consulta cómo se tratan tus datos personales.",
+    "nav.contactSupport": "Contactar con soporte",
+    "nav.contactSales": "Contactar con ventas",
+    "nav.community": "Comunidad",
+    "nav.about": "Sobre nosotros",
+    "nav.join": "Únete",
+    "nav.reading": "Cargando",
+    "nav.returnLibtv": "Volver al inicio de DramaCanvas",
+    "nav.blender": "Plugins",
+    "nav.creditShop": "Tienda de créditos",
+    "nav.membership": "Activar membresía",
+    "nav.promo": "USD",
+    "nav.balance": "Ver saldo de créditos",
+    "nav.light": "Claro",
+    "nav.dark": "Oscuro",
+    "nav.switchTheme": "Cambiar al tema {theme}",
+    "nav.display": "Visualización de navegación",
+    "nav.displayHint": "Ajustar las ayudas y el movimiento de iconos",
+    "nav.displaySettings": "Ajustes de navegación",
+    "nav.closeDisplay": "Cerrar ajustes de navegación",
+    "nav.showHints": "Mostrar ayudas de funciones",
+    "nav.showHintsDetail": "Mostrar un nombre y una breve descripción al pasar el cursor",
+    "nav.iconMotion": "Movimiento sutil de iconos",
+    "nav.iconMotionDetail": "Respuesta sutil al pasar el cursor o enfocar con el teclado",
+    "nav.preferenceNote": "Las preferencias se guardan en este navegador. Los nombres siguen visibles sin ayudas; el movimiento respeta los ajustes del sistema.",
+    "auth.brandFilm": "Vídeo de DramaCanvas",
+    "auth.pauseFilm": "Pausar vídeo",
+    "auth.playFilm": "Reproducir vídeo",
+    "auth.filmPlaying": "La creación en marcha",
+    "auth.playFilmShort": "Reproducir",
+    "auth.sloganFirst": "De una frase, una historia,",
+    "auth.sloganLast": "de las palabras a la pantalla.",
+    "auth.loginTitle": "Vuelve a tu historia.\nSigue creando.",
+    "auth.registerTitle": "Crea tu\nespacio de trabajo",
+    "auth.registerDescription": "Gestiona historias, guiones gráficos, recursos y tareas de generación con una cuenta.",
+    "auth.recoveryTitle": "Regresa a\ntu historia",
+    "auth.recoveryDescription": "Verifica el correo de tu cuenta y elige una nueva contraseña.",
+    "auth.closeDialog": "Cerrar ventana de acceso",
+    "auth.newUser": "¿Primera visita?",
+    "auth.existingUser": "¿Ya tienes una cuenta?",
+    "auth.register": "Registrarse",
+    "auth.consent": "Al continuar, confirmas que has leído y aceptas",
+    "auth.terms": "los Términos de servicio",
+    "auth.and": "y",
+    "auth.privacy": "la Política de privacidad",
+    "account.signIn": "Registro / Acceso",
+    "account.signInAria": "Registrarse o acceder",
+    "account.panel": "Panel de cuenta",
+    "account.menu": "Menú de cuenta",
+    "account.actions": "Acciones de cuenta",
+    "account.uuidCopied": "UUID copiado",
+    "account.uuidFailed": "No se pudo copiar el UUID",
+    "account.copyUuid": "Copiar UUID de usuario",
+    "account.createTeam": "Crear equipo",
+    "account.switchTeam": "Cambiar equipo",
+    "account.personal": "Espacio personal",
+    "account.manageTeam": "Gestionar equipo",
+    "account.teamName": "Equipo {name}",
+    "account.owner": "Propietario",
+    "account.admin": "Administrador",
+    "account.member": "Miembro",
+    "account.membership": "Estado de membresía",
+    "account.free": "Cuenta gratuita",
+    "account.managePlan": "Gestionar membresía",
+    "account.promo": "Oferta: hasta un 45% menos sobre el precio de lista por tiempo limitado",
+    "account.more": "Ver más",
+    "account.creditAssets": "Créditos",
+    "account.creditBalance": "Saldo de créditos",
+    "account.sharedCredits": "Créditos compartidos",
+    "account.points": "créditos",
+    "account.creditsOff": "Los créditos no están disponibles",
+    "account.topUp": "Recargar",
+    "account.spendingOrder": "Orden de consumo",
+    "account.breakdown": "Desglose de créditos",
+    "account.teamCredits": "Créditos disponibles del equipo: {amount}",
+    "account.reserved": "· Reservados: {amount}",
+    "account.subscriptionCredits": "Créditos de suscripción: {amount}",
+    "account.rechargeCredits": "Créditos de recarga: {amount}",
+    "account.modelCredits": "Créditos de tarjeta de modelo: {amount}",
+    "account.freeCredits": "Créditos gratuitos: {amount}",
+    "account.localAssets": "Recursos locales",
+    "account.privacy": "Privacidad",
+    "account.localOnly": "Conectado · Solo este dispositivo",
+    "account.reauthorize": "Se requiere autorizar de nuevo",
+    "account.browserOnly": "Almacenamiento del navegador · Solo este dispositivo",
+    "account.noFolder": "No hay carpeta local conectada",
+    "account.originalLocal": "Los originales se guardan por defecto en tu equipo",
+    "account.setup": "Configurar",
+    "account.manageAssets": "Gestionar recursos",
+    "account.profile": "Mi cuenta",
+    "account.invoices": "Suscripciones y facturas",
+    "account.theme": "Apariencia",
+    "account.currentTheme": "Tema actual: {theme}",
+    "account.watermark": "Marca de agua de IA",
+    "account.notifications": "Notificaciones",
+    "account.adminPanel": "Administración",
+    "account.loggingOut": "Cerrando sesión…",
+    "channels.loadedWorkflows": "Se cargaron {count} flujos de trabajo",
+    "channels.providerApplied": "Se aplicó {provider} a este canal",
+    "channels.number": "Canal {count}",
+    "channels.systemManaged": "Los administradores gestionan los canales del sistema",
+    "channels.current": "Canal actual",
+    "channels.unnamed": "Canal sin nombre",
+    "channels.error": "{channel}: {detail}",
+    "channels.emptyRetained": "{channel} no devolvió modelos; se conservaron los modelos manuales",
+    "channels.changedIgnored": "La conexión de {channel} cambió; se descartó el resultado anterior",
+    "channels.updated": "Se actualizó la lista de modelos de {channel}",
+    "channels.noneRunnable": "No hay Tu propia clave (BYOK) disponibles. Introduce una Base URL y una API Key válidas",
+    "channels.readFailed": "No se pudo cargar",
+    "channels.updatedCount": "Se actualizaron los modelos de {count} canales",
+    "channels.empty": "No se devolvieron modelos",
+    "channels.warningsRetained": "{details}. Los canales no actualizados conservaron sus listas de modelos",
+    "channels.batchFailed": "No se pudieron cargar los modelos en bloque; las listas existentes no cambiaron",
+    "channels.configuredWorkflows": "{count} flujos de trabajo configurados",
+    "channels.connectionPending": "Completa la conexión y los flujos de trabajo",
+    "channels.bridgePending": "Selecciona un Bridge y un flujo de trabajo",
+    "channels.disabled": "Desactivado",
+    "channels.baseRequired": "Introduce la Base URL",
+    "channels.httpRequired": "La Base URL debe usar HTTP o HTTPS",
+    "channels.baseInvalid": "La Base URL no es válida",
+    "channels.keyRequired": "Introduce la API Key / Access Key",
+    "channels.secretRequired": "Este protocolo requiere una Secret Key",
+    "channels.title": "Tu propia clave (BYOK)",
+    "channels.description": "Gestiona servicios de modelos y canales de flujos de trabajo. Los canales guardan el tipo de conexión; las capacidades se configuran en Modelos y capacidades.",
+    "channels.commonGateways": "Pasarelas compatibles habituales",
+    "channels.commonGatewayHelp": "New API, Sub2API y CPA pueden probarse con un endpoint compatible con OpenAI. Los modelos y funciones dependen de la API real; obtener la lista de modelos no garantiza la generación.",
+    "channels.requestAdapter": "¿Otra pasarela? Solicita una adaptación",
+    "channels.openModels": "Abrir selección de modelos",
+    "channels.fetchAll": "Obtener todos",
+    "channels.add": "Añadir canal",
+    "channels.workflows": "Tu propia clave (BYOK) de flujos de trabajo",
+    "channels.workflowDescription": "RunningHub y ComfyUI utilizan sus propios parámetros y canales de ejecución. Configura ambos aquí.",
+    "channels.runningHubDescription": "Flujos en la nube y aplicaciones de RunningHub",
+    "channels.comfyDescription": "Conecta ComfyUI local o remoto mediante Bridge",
+    "channels.savedModels": "{count} modelos guardados",
+    "channels.fetchModels": "Obtener modelos",
+    "channels.expand": "Expandir configuración del canal",
+    "channels.collapse": "Contraer configuración del canal",
+    "channels.namedAction": "{action}: {channel}",
+    "channels.deleteConfirm": "¿Eliminar este canal personal de modelos?",
+    "channels.deleteDescription": "También se eliminarán las selecciones de modelos asociadas.",
+    "channels.delete": "Eliminar",
+    "channels.cancel": "Cancelar",
+    "channels.deleteChannel": "Eliminar canal",
+    "channels.connection": "Conexión",
+    "channels.name": "Nombre del canal",
+    "channels.nameExample": "Por ejemplo: Mi NewAPI",
+    "channels.provider": "Proveedor del plugin",
+    "channels.providerHelp": "El proveedor incluye la Base URL, autenticación y flujos; no es necesario seleccionar el protocolo manualmente.",
+    "channels.selectProvider": "Selecciona un proveedor instalado",
+    "channels.catalogConnection": "Tipo de conexión del catálogo",
+    "channels.catalogHelp": "Solo afecta a la obtención del catálogo de modelos.",
+    "channels.geminiKey": "Introduce la API Key de Gemini",
+    "channels.channelKey": "Introduce la API Key de este canal",
+    "channels.secretLabel": "Secret Key (opcional)",
+    "channels.secretHelp": "Obligatoria para protocolos AK/SK como Jimeng; déjala vacía para otros protocolos.",
+    "channels.enterSecret": "Introduce la Secret Key",
+    "channels.capabilities": "Modelos y capacidades",
+    "channels.modelList": "Lista de modelos",
+    "channels.modelsPlaceholder": "Introduce nombres de modelos u obtén la lista",
+    "channels.emptyTitle": "No hay Tu propia clave (BYOK) de modelos",
+    "channels.emptyDescription": "Los canales del sistema configurados por administradores aparecen en la selección de modelos. También puedes añadir tus propios servicios.",
+    "channels.addPersonal": "Añadir canal personal de modelos",
+    "channels.configure": "Configurar",
+    "channels.allowLocal": "Permitir canales locales",
+    "channels.localHelp": "Solo se permiten las direcciones exactas localhost o 127.0.0.1. Ejemplo: {url}",
+    "channels.enterBase": "Introduce la Base URL del canal",
+    "channels.modelRequired": "Añade al menos un modelo",
+    "channels.ready": "Disponible",
+    "channels.fetchFailed": "No se pudieron obtener los modelos",
+    "channels.manualHint": "{detail}. También puedes introducir los nombres manualmente en la lista de modelos",
+    "channels.privateHint": "{detail}. El administrador del despliegue debe configurar CANVAS_ALLOWED_PRIVATE_UPSTREAM_HOSTS para servicios privados de confianza",
+    "channels.geminiNative": "Gemini nativo",
+    "channels.openaiCompatible": "Compatible con OpenAI",
+    "settings.channelsDescription": "Servicios de modelos y flujos personales",
+    "settings.runninghub": "Flujos de RunningHub",
+    "settings.runninghubDescription": "Flujos en la nube para Tu propia clave (BYOK)",
+    "settings.comfyui": "ComfyUI Bridge",
+    "settings.comfyuiDescription": "Flujos de Bridge para Tu propia clave (BYOK)",
+    "settings.models": "Selección de modelos",
+    "settings.modelsDescription": "Elige modelos predeterminados por categoría",
+    "settings.preferences": "Preferencias de generación",
+    "settings.preferencesDescription": "Valores de lienzo, vídeo y audio",
+    "settings.prompts": "Preferencias de prompts",
+    "settings.promptsDescription": "Personaliza plantillas por tarea",
+    "settings.storage": "Mi almacenamiento de objetos",
+    "settings.storageDescription": "Gestiona el almacenamiento de medios",
+    "settings.diagnostics": "Diagnóstico",
+    "settings.diagnosticsDescription": "Exporta registros para diagnosticar problemas",
+    "settings.refreshFailed": "No se pudieron actualizar los modelos del sistema: {detail}",
+    "settings.refreshCached": "No se pudieron actualizar los modelos; se usará la caché local",
+    "settings.completeChannel": "Configura la Base URL, API Key y modelos de al menos un canal",
+    "settings.noChannel": "No hay canales disponibles. Configura primero la conexión y los modelos",
+    "settings.noSystemModel": "No hay modelos del sistema disponibles. Pide al administrador que configure los canales",
+    "settings.savedReturn": "Configuración guardada. Volviendo a la página de creación",
+    "settings.modelsHelp": "Elige modelos predeterminados por categoría. Configura capacidades y protocolos en Modelos y capacidades del canal.",
+    "settings.preferencesHelp": "Los valores predeterminados de lienzo, vídeo y audio se pueden cambiar en cada nodo.",
+    "settings.canvasGeneration": "Generación en el lienzo",
+    "settings.canvasHelp": "Define valores iniciales para nuevas tareas. Cada nodo puede modificarlos.",
+    "settings.imageCount": "Número de imágenes predeterminado",
+    "settings.videoDefaults": "Valores de vídeo",
+    "settings.videoHelp": "Solo se aplica a modelos de vídeo compatibles. Las tareas y los nodos pueden modificar estos valores.",
+    "settings.generateAudio": "Generar audio por defecto",
+    "settings.generateAudioHelp": "Incluye audio si el modelo admite generación conjunta de audio y vídeo",
+    "settings.generateAudioAria": "Generar audio del vídeo por defecto",
+    "settings.watermark": "Marca de agua de IA predeterminada",
+    "settings.watermarkHelp": "Incluye la opción de marca de agua si el modelo la admite",
+    "settings.watermarkAria": "Añadir marca de agua de IA por defecto",
+    "settings.audioDefaults": "Valores de audio",
+    "settings.audioHelp": "Se utiliza en nuevos nodos de audio y tareas sin parámetros propios.",
+    "settings.voice": "Voz predeterminada",
+    "settings.format": "Formato de archivo",
+    "settings.speed": "Velocidad de voz",
+    "settings.instructions": "Instrucciones de audio",
+    "settings.instructionsHelp": "Se utiliza cuando un nodo de audio no tiene instrucciones propias.",
+    "settings.defaultInstructions": "Instrucciones de audio predeterminadas",
+    "settings.instructionsExample": "Por ejemplo: natural, cálida y adecuada para narración.",
+    "settings.returnCreation": "Volver a creación",
+    "settings.saveReturn": "Guardar y volver",
+    "settings.categories": "Categorías de configuración",
+    ...MCP_SPEND_COPY["es-ES"],
+    ...MCP_OAUTH_COPY["es-ES"],
+    "byok.introTitle": "Trae tus modelos y empieza a crear",
+    "byok.introConnectTitle": "Cómo conectar",
+    "byok.introConnect": "Elige una pasarela habitual abajo o añade un canal e introduce la dirección API y la clave de tu proveedor.",
+    "byok.introFeesTitle": "Cómo se cobra",
+    "byok.introFees": "Servicio del espacio BYOK: {price} / {months} meses. Tu proveedor cobra el uso de modelos; no se descuentan créditos de la plataforma.",
+    "byok.introSecurityTitle": "Seguridad de tu clave",
+    "byok.introSecurity": "Las claves se guardan en este navegador y pasan por nuestro backend cuando es necesario. No se guardan claves en texto plano en la base de datos del servidor ni en los registros.",
+    "byok.introBound": "Canal vinculado",
+    "byok.introDetails": "Más información",
+    "byok.introPricing": "Servicio y precios",
+    "byok.introGateOff": "Control de cobro inactivo",
+    "byok.introUnbound": "Vinculación en la primera generación",
+    "byok.login": "Inicia sesión para ver tus derechos personales",
+    "byok.loading": "Cargando derechos…",
+    "byok.failed": "Error al leer el estado",
+    "byok.gateOff": "El cobro de BYOK remoto está desactivado",
+    "byok.pending": "Confirmación de pago pendiente",
+    "byok.required": "Activa BYOK Studio Pass antes de generar",
+    "byok.expired": "BYOK Studio Pass caducado; renueva",
+    "byok.unbound": "La primera petición vincula el origin; un fallo posterior puede conservarlo",
+    "byok.bound": "Origin BYOK vinculado",
+    "byok.local": "Canales locales exentos de esta puerta del Pass",
+    "byok.matched": "Origin coincidente; generación no verificada",
+    "byok.mismatch": "Origin distinto; cambia el vínculo en el Pass",
+    "byok.https": "El cobro requiere HTTPS sin credenciales ni parámetros de consulta",
+    "byok.openPass": "Activar / renovar BYOK Studio Pass",
+    "byok.settings": "Cuenta y ajustes",
+    "byok.step1": "Configura URL y Key de API en el navegador; lee el catálogo si hace falta",
+    "byok.step2": "Activa BYOK Studio Pass si el cobro remoto está habilitado",
+    "byok.step3": "La primera generación que pasa la puerta vincula ese origin",
+    "byok.privacy":
+        "La configuración se guarda en el navegador. Catálogo y generación envían la Key al relay de este sitio. Los datos sensibles de tareas asíncronas se guardan cifrados. El vínculo guarda solo el origin normalizado con puerto, nunca la Key. La Key del catálogo se usa solo en esa petición, sin guardarse en DB ni logs; los reintentos descifran secretos existentes.",
+    "byok.fees": "Las tarifas de Pass, los cargos del proveedor de modelos y los créditos son independientes. Cero margen no significa gratis.",
+    "byok.catalogSuccess": "Catálogo leído; generación no verificada",
+    "byok.catalogEmpty": "Catálogo vacío; configura modelos manualmente. Generación no verificada",
+    "byok.catalogUnsupported": "Protocolo sin catálogo; configura modelos manualmente",
+    "byok.catalogAuth": "Autenticación del catálogo fallida / acceso denegado",
+    "byok.catalogLimited": "Catálogo limitado; reintenta más tarde",
+    "byok.catalogNetwork": "Petición fallida / agotada; revisa URL y red",
+    "byok.catalogParse": "No se puede interpretar el catálogo",
+    "byok.saving": "Guardando localmente…",
+    "byok.saved": "Guardado localmente",
+    "byok.saveFailed": "Error al guardar; entrada conservada. Reintenta o introduce las claves de nuevo",
+    "byok.retrySave": "Reintentar guardado local",
+    "directorR3.prop.conference-table": "Mesa de reuniones",
+    "directorR3.prop.office-chair": "Silla de oficina",
+    "directorR3.prop.sofa": "Sofá",
+    "directorR3.prop.bed": "Cama",
+    "directorR3.prop.door": "Puerta",
+    "directorR3.prop.window": "Ventana",
+    "directorR3.prop.whiteboard": "Pizarra blanca",
+    "directorR3.prop.car": "Coche",
+    "directorR3.prop.phone": "Teléfono",
+    "directorR3.prop.cup": "Taza",
+    "directorR3.prop.document": "Documentos",
+    "directorR3.cameraView": "Camera view",
+    "directorR3.planView": "Plan view",
+    "directorR3.start": "Start",
+    "directorR3.end": "End",
+    "directorR3.truck_left": "Truck left",
+    "directorR3.truck_right": "Truck right",
+    "directorR3.pedestal_up": "Raise",
+    "directorR3.pedestal_down": "Lower",
+    "directorR3.template": "Scene preset",
+    "directorR3.actorPreset": "Actor preset",
+    "directorR3.conference": "Conference room",
+    "directorR3.living": "Living room",
+    "directorR3.bedroom": "Bedroom",
+    "directorR3.street": "Street",
+    "directorR3.office": "Office",
+    "directorR3.carInterior": "Car interior",
+    "directorR4.station": "Station",
+    "directorR4.stop": "Stop",
+    "directorR4.action": "Action",
+    "directorR4.playhead": "Playhead",
+    "directorR4.scene": "Scene",
+    "directorR3.prop.plant": "Planta",
+    "directorR3.prop.rug": "Alfombra",
+    "directorR3.prop.ceiling-light": "Luz de techo",
+    "directorR3.subwayPlatform": "Andén de metro",
+    "directorR3.subwayPlatformDesc": "Andén a escala métrica con borde, columnas, banco y pared de fondo.",
+    "directorR3.prop.bench": "Banco",
+    "directorR3.prop.platform-column": "Columna cuadrada del andén",
+    "directorR3.part.platform-ground": "Suelo del andén",
+    "directorR3.part.platform-edge": "Borde del andén",
+    "directorR3.part.platform-background-wall": "Pared de fondo del andén",
+} as const;
+export default { ...messages, ...creativeAccessMessages("es-ES"), ...commerce, ...commerceWorkspace, ...aiVideoTemplates };

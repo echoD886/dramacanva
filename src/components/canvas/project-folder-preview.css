@@ -1,0 +1,298 @@
+.project-folder-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 0;
+    border-radius: var(--r-2xl);
+    user-select: none;
+    cursor: pointer;
+    transition: transform var(--motion-state) var(--motion-ease-out);
+}
+.project-folder-card:focus-visible { outline: 2px solid var(--ring); outline-offset: 5px; }
+
+.project-folder-preview {
+    --folder-accent: var(--palette-node-script);
+    --folder-ink: var(--foreground);
+    --folder-back: #18181b;
+    --folder-back-top: #242429;
+    --folder-back-bottom: #111114;
+    --folder-glass-highlight: rgba(255, 255, 255, 0.45);
+    --folder-glass-glow: rgba(255, 255, 255, 0.08);
+    --folder-glass-shadow: rgba(0, 0, 0, 0.45);
+    position: relative;
+    width: 100%;
+    aspect-ratio: 360 / 280;
+    isolation: isolate;
+    transition: transform 240ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.project-folder-art { position: absolute; inset: 0; }
+
+/* Align the opaque artwork on each 720 × 560 board with the black pocket. */
+.assets-hub-folders [data-folder-skin="pixel"] { --art-offset: 9.1%; --art-scale: .978; }
+.assets-hub-folders [data-folder-skin="doodle"] { --art-offset: 10.3%; --art-scale: .962; }
+.assets-hub-folders [data-folder-skin="glass-iridescent"] { --art-offset: 10.2%; --art-scale: .972; }
+.assets-hub-folders .project-folder-preview:not([data-folder-skin="glass-dark"]) .project-folder-art {
+    transform-origin: center top;
+    transform: translateY(var(--art-offset)) scale(var(--art-scale));
+}
+.assets-hub-folders .project-folder-preview:not([data-folder-skin="glass-dark"]) .project-folder-preview-card {
+    --resting-inset: 25%;
+}
+
+.project-folder-back,
+.project-folder-front {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.project-folder-back { z-index: 1; }
+.project-folder-front {
+    z-index: 4;
+    transition: opacity 200ms ease;
+}
+.project-folder-frost-back {
+    position: absolute;
+    z-index: 1;
+    left: 25.7%;
+    right: 25.7%;
+    top: 47.2%;
+    bottom: 3.2%;
+    border-radius: 7% / 9%;
+    background: linear-gradient(104deg, #4e4c49, #1c1b1a 22%, #272624 82%, #3b3937);
+    box-shadow: inset 0 1px 3px #aaa9a4, 0 12px 18px -8px #13100f55;
+}
+.project-folder-preview-glass .project-folder-front {
+    filter: drop-shadow(0 8px 6px #211c1b42);
+}
+
+/* Cards Stack */
+.project-folder-preview-stack {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    clip-path: inset(-150% -150% calc(100% - var(--folder-pocket-floor, 91%)) -150%);
+}
+
+.project-folder-preview-card {
+    position: absolute;
+    width: var(--default-width);
+    height: var(--default-height);
+    left: var(--default-left);
+    top: calc(var(--default-top) + var(--resting-inset, 0%));
+    overflow: hidden;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    border-radius: 8% / 6%;
+    background: var(--muted, #27272a);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    transform-origin: center top;
+    transform: rotate(var(--default-angle));
+    transition: left 280ms ease, top 280ms ease, width 280ms ease, height 280ms ease, transform 280ms ease;
+}
+.dark .project-folder-preview-card {
+    border-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.55);
+}
+.project-folder-preview-card > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: inherit;
+    display: block;
+}
+.project-folder-preview-card-1 { z-index: 3; }
+.project-folder-preview-card-2 { z-index: 2; }
+.project-folder-preview-card-3 { z-index: 1; }
+
+/* Bitmap reference skins */
+.project-folder-preview-bitmap :is(.project-folder-back, .project-folder-front) {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.project-folder-front[data-folder-state] {
+    opacity: 0;
+}
+.project-folder-front[data-folder-state="default"] {
+    opacity: 1;
+}
+
+/* Particles layer */
+.project-folder-particles {
+    position: absolute;
+    left: var(--folder-particles-left, -4%);
+    top: var(--folder-particles-top, -4%);
+    width: var(--folder-particles-width, 108%);
+    height: var(--folder-particles-height, 108%);
+    object-fit: fill;
+    z-index: 5;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 220ms ease-out, transform 240ms ease-out;
+}
+
+/* HOVER INTERACTIONS: by :hover or [data-folder-state="hover"] */
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):hover .project-folder-preview,
+.project-folder-preview[data-folder-state="hover"] {
+    z-index: 3;
+}
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):hover .project-folder-preview .project-folder-preview-card,
+.project-folder-preview[data-folder-state="hover"] .project-folder-preview-card {
+    left: var(--hover-left);
+    top: var(--hover-top);
+    width: var(--hover-width);
+    height: var(--hover-height);
+    transform: rotate(var(--hover-angle));
+}
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):hover .project-folder-front[data-folder-state="default"],
+.project-folder-preview[data-folder-state="hover"] .project-folder-front[data-folder-state="default"] {
+    opacity: 0;
+}
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):hover .project-folder-front[data-folder-state="hover"],
+.project-folder-preview[data-folder-state="hover"] .project-folder-front[data-folder-state="hover"] {
+    opacity: 1;
+}
+
+/* Skin-specific Hover Particles */
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):hover .project-folder-preview[data-folder-skin="pixel"] .project-folder-particles,
+.project-folder-preview[data-folder-skin="pixel"][data-folder-state="hover"] .project-folder-particles {
+    opacity: 0.85;
+    clip-path: inset(34% 0 0 0);
+}
+/* CLICK INTERACTIONS: by :active / .is-launching or [data-folder-state="click"] */
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):is(:active, .is-launching):not(:has(button:active, input:active)) .project-folder-preview,
+.project-folder-preview[data-folder-state="click"] {
+    z-index: 3;
+}
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):is(:active, .is-launching):not(:has(button:active, input:active)) .project-folder-preview .project-folder-preview-card,
+.project-folder-preview[data-folder-state="click"] .project-folder-preview-card {
+    left: var(--click-left);
+    top: var(--click-top);
+    width: var(--click-width);
+    height: var(--click-height);
+    transform: rotate(var(--click-angle));
+}
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):is(:active, .is-launching):not(:has(button:active, input:active)) .project-folder-front[data-folder-state],
+.project-folder-preview[data-folder-state="click"] .project-folder-front[data-folder-state] {
+    opacity: 0;
+}
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):is(:active, .is-launching):not(:has(button:active, input:active)) .project-folder-front[data-folder-state="click"],
+.project-folder-preview[data-folder-state="click"] .project-folder-front[data-folder-state="click"] {
+    opacity: 1;
+}
+
+/* Skin-specific Click Particles */
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):is(:active, .is-launching):not(:has(button:active, input:active)) .project-folder-preview .project-folder-particles,
+.project-folder-preview[data-folder-state="click"] .project-folder-particles {
+    opacity: 1;
+    clip-path: none;
+}
+
+.project-folder-particles:is(.folder-doodle-hover, .folder-doodle-click) {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):hover .folder-doodle-hover,
+.project-folder-preview[data-folder-state="hover"] .folder-doodle-hover { opacity: 1; }
+:is(.project-folder-card, [data-folder-style], .dialog-folder-preview):is(:active, .is-launching) .project-folder-preview .folder-doodle-hover,
+.project-folder-preview[data-folder-state="click"] .folder-doodle-hover { opacity: 0; }
+
+.project-folder-preview-empty {
+    position: absolute;
+    inset: 12% 0 32%;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+    color: var(--folder-edge, rgba(255, 255, 255, 0.4));
+}
+.project-folder-preview-empty svg { width: 20%; height: auto; stroke-width: 1; }
+.project-folder-copy { position: absolute; z-index: 5; left: 8%; right: 8%; bottom: 7%; color: var(--folder-ink); }
+.project-folder-copy .project-folder-title { color: inherit; }
+.project-folder-title-row,
+.project-folder-caption-mobile .mobile-title-row { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.project-folder-title,
+.project-folder-caption-mobile .mobile-title {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--foreground);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.project-folder-caption-mobile { display: flex; flex-direction: column; gap: 3px; min-width: 0; padding: 12px 4px 4px; }
+.project-folder-caption-mobile .mobile-meta,
+.project-folder-meta { overflow: hidden; color: var(--muted-foreground); font-size: 12px; font-variant-numeric: tabular-nums; text-overflow: ellipsis; white-space: nowrap; }
+.project-folder-rename-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 24px;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    border-radius: var(--r-sm);
+    background: transparent;
+    color: var(--muted-foreground);
+    cursor: pointer;
+}
+.project-folder-rename-btn:hover { background: var(--accent); color: var(--foreground); }
+.project-folder-title-input { width: 100%; min-width: 0; border: 1px solid var(--border); border-radius: var(--r-sm); padding: 2px 8px; background: var(--card); color: var(--foreground); font-size: 14px; }
+.project-folder-card :is(button, input):focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+.project-folder-action-open,
+.project-folder-action-more,
+.project-folder-select {
+    position: absolute;
+    z-index: 6;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    background: var(--card);
+    color: var(--foreground);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 150ms ease;
+}
+.project-folder-action-open { right: 8%; bottom: 7%; gap: 5px; height: 30px; padding: 0 10px; font-size: 12px; }
+.project-folder-action-more { top: 10%; right: 6%; width: 30px; height: 30px; }
+.project-folder-select { top: 10%; left: 6%; width: 30px; height: 30px; }
+.project-folder-select input { width: 16px; height: 16px; margin: 0; accent-color: var(--foreground); }
+.project-folder-select.is-visible,
+.project-folder-card:hover :is(.project-folder-select, .project-folder-action-more, .project-folder-action-open),
+.project-folder-card:focus-within :is(.project-folder-select, .project-folder-action-more, .project-folder-action-open) { opacity: 1; }
+
+@keyframes folder-particles {
+    0% { opacity: 0; transform: scale(.8) translateY(8px); }
+    30% { opacity: 1; }
+    80% { opacity: 1; transform: scale(1.05) translateY(-4px); }
+    100% { opacity: 1; transform: scale(1.04) translateY(-2px); }
+}
+@media (max-width: 640px) {
+    .project-folder-preview-card { border-width: 1.5px; }
+    .project-folder-caption-mobile { padding-top: 8px; }
+    .project-folder-caption-mobile .mobile-title { font-size: 13px; }
+    .project-folder-caption-mobile .mobile-meta { font-size: 11px; }
+    .project-folder-action-more { opacity: 1; width: 26px; height: 26px; }
+    .project-folder-action-open { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .project-folder-card,
+    .project-folder-preview,
+    .project-folder-front,
+    .project-folder-frost,
+    .project-folder-rainbow-glass,
+    .project-folder-preview-card,
+    .project-folder-action-open,
+    .project-folder-action-more,
+    .project-folder-select { transition: none; }
+    .project-folder-particles { display: none; animation: none; }
+}

@@ -1,0 +1,379 @@
+.sa-value-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px 24px;
+    padding: 20px;
+    margin: 12px 0 22px;
+    border: 1px solid var(--libtv-line);
+    border-radius: 18px;
+    background: var(--libtv-panel);
+    color: var(--libtv-paper);
+}
+.sa-value-controls h2 {
+    font-size: 20px;
+    margin: 0 0 6px;
+}
+.sa-value-controls p {
+    margin: 0;
+    line-height: 1.55;
+    color: var(--libtv-muted);
+    font-size: 12px;
+}
+.sa-value-selectors {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.sa-value-selectors label {
+    display: grid;
+    gap: 6px;
+    color: var(--libtv-muted);
+    font-size: 11px;
+}
+.sa-value-selectors select {
+    min-height: 38px;
+    max-width: 190px;
+    border: 1px solid var(--libtv-line);
+    border-radius: 8px;
+    padding: 6px 10px;
+    background: var(--libtv-panel-deep);
+    color: var(--libtv-paper);
+}
+.sa-value-controls > .sa-value-caveat {
+    grid-column: 1 / -1;
+    font-size: 11px;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan:not(.has-banner) {
+    padding-top: 64px;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan.has-banner .libtv-plan-banner {
+    box-sizing: border-box;
+    height: 64px;
+    min-height: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 12px;
+    margin: 0;
+    border-radius: 24px 24px 0 0;
+    line-height: 1.4;
+    overflow: hidden;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan.has-banner .libtv-plan-banner span {
+    font-size: 12px;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan.has-banner .libtv-plan-banner strong {
+    font-size: 11px;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan.has-banner .libtv-plan-hero {
+    margin: 0;
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.sa-period-credit-total {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 5px;
+    font-size: 28px;
+    margin: 4px 0 8px;
+    color: var(--libtv-paper);
+}
+.sa-period-credit-total > span:last-child {
+    font-size: 12px;
+    color: var(--libtv-muted);
+}
+.sa-result-estimate {
+    display: grid;
+    gap: 5px;
+    padding: 12px 0;
+    margin-top: 8px;
+    border-top: 1px solid var(--libtv-line);
+    font-size: 12px;
+    color: var(--libtv-muted);
+}
+.sa-result-estimate > strong {
+    color: var(--libtv-cyan);
+    font-size: 15px;
+}
+.sa-value-caveat {
+    font-size: 10px;
+    color: var(--libtv-muted);
+    line-height: 1.55;
+    margin: 6px 0;
+}
+.libtv-pricing-page:not(.is-byok) .sa-offer-allowance {
+    min-height: 278px;
+}
+.sa-model-benefits {
+    margin: 14px 0;
+    padding: 14px 0;
+    border-top: 1px solid var(--libtv-line);
+}
+.sa-model-benefits h3 {
+    font-size: 14px;
+    color: var(--libtv-cyan);
+    margin: 0 0 10px;
+}
+.sa-model-benefits ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+}
+.sa-model-benefits li {
+    display: flex;
+    align-items: flex-start;
+    gap: 7px;
+    color: var(--libtv-paper);
+    line-height: 1.5;
+    font-size: 12px;
+}
+.sa-model-benefits li svg {
+    flex: 0 0 14px;
+    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+}
+.sa-model-benefits p {
+    font-size: 11px;
+    color: var(--libtv-muted);
+    line-height: 1.6;
+}
+.libtv-pricing-page .sa-billing-explainer {
+    display: none;
+}
+.sa-byok-intro {
+    grid-column: 1 / -1;
+    padding: 18px 0 10px;
+    max-width: 900px;
+}
+.sa-byok-intro > span {
+    display: block;
+    color: var(--libtv-cyan);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin-bottom: 14px;
+}
+.sa-byok-intro h1 {
+    color: var(--libtv-paper);
+    font-size: clamp(28px, 3.4vw, 44px);
+    line-height: 1.12;
+    margin: 0 0 16px;
+    letter-spacing: -0.025em;
+}
+.sa-byok-intro p {
+    color: var(--libtv-muted);
+    font-size: 15px;
+    line-height: 1.75;
+    max-width: 770px;
+}
+.is-byok .libtv-plan--byok {
+    align-items: start;
+    grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
+}
+.is-byok .libtv-plan--byok .libtv-plan-hero {
+    align-self: start;
+    border-radius: 24px;
+    padding: 26px;
+}
+.is-byok .libtv-plan--byok .libtv-plan-benefits {
+    padding: 4px 0;
+}
+.sa-byok-boundary {
+    color: var(--libtv-muted);
+    font-size: 12px;
+    line-height: 1.65;
+}
+.sa-byok-price-points {
+    list-style: none;
+    padding: 16px 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+    color: var(--libtv-paper);
+}
+.sa-byok-price-points li {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 13px;
+}
+.sa-byok-price-points svg {
+    width: 16px;
+    height: 16px;
+    color: var(--libtv-cyan);
+}
+.sa-byok-outcomes {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+}
+.sa-byok-outcomes article {
+    padding: 20px;
+    border: 1px solid var(--libtv-line);
+    border-radius: 16px;
+    background: var(--libtv-panel);
+}
+.sa-byok-outcomes h3 {
+    color: var(--libtv-paper);
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0 0 10px;
+}
+.sa-byok-outcomes p {
+    color: var(--libtv-muted);
+    line-height: 1.65;
+    font-size: 13px;
+    margin: 0;
+}
+.sa-promo-facts {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+}
+.sa-promo-facts span {
+    padding: 6px 12px;
+    border: 1px solid var(--libtv-line);
+    border-radius: 999px;
+    background: var(--libtv-panel);
+    font-size: 12px;
+    color: var(--libtv-paper);
+}
+@media (max-width: 1100px) {
+    .sa-value-controls {
+        grid-template-columns: 1fr;
+    }
+    .sa-value-selectors {
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 760px) {
+    .sa-value-selectors label {
+        flex: 1 1 100px;
+    }
+    .sa-value-selectors select {
+        max-width: 100%;
+        width: 100%;
+    }
+    .sa-byok-outcomes,
+    .is-byok .libtv-plan--byok {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .libtv-pricing-page:not(.is-byok) .libtv-plan:not(.has-banner) {
+        padding-top: 0;
+    }
+    .libtv-pricing-page:not(.is-byok) .sa-offer-allowance {
+        min-height: 0;
+    }
+    .sa-byok-intro {
+        padding: 12px 0;
+    }
+    .sa-value-controls {
+        padding: 16px;
+    }
+}
+
+.is-byok .libtv-plan--byok .libtv-campaign-box {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.sa-fx-reference {
+    display: block;
+    margin-top: 6px;
+    line-height: 1.6;
+}
+
+.sa-plan-banner-spacer {
+    height: 64px;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan:not(.has-banner) {
+    padding-top: 0;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan-hero > .libtv-contact-button,
+.sa-contact-spacer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    min-height: 24px;
+    margin: 8px 0 0;
+    padding: 0;
+}
+@media (min-width: 1440px) {
+    @supports (grid-template-rows: subgrid) {
+        .libtv-pricing-page:not(.is-byok) .libtv-plan-rail {
+            grid-template-rows: 64px auto auto;
+            row-gap: 0;
+        }
+        .libtv-pricing-page:not(.is-byok) .libtv-plan {
+            display: grid;
+            grid-template-rows: subgrid;
+            grid-row: span 3;
+            row-gap: 0;
+        }
+        .libtv-pricing-page:not(.is-byok) .libtv-plan-hero {
+            min-height: 0;
+            align-self: stretch;
+        }
+    }
+}
+@media (max-width: 760px) {
+    .sa-plan-banner-spacer,
+    .sa-contact-spacer {
+        display: none;
+    }
+}
+
+.sa-pricing-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 0;
+    color: var(--libtv-paper);
+    font-size: 13px;
+}
+.libtv-pricing-footer .sa-checkout-privacy {
+    flex-basis: 100%;
+    color: var(--libtv-muted);
+    font-size: 12px;
+    line-height: 1.6;
+}
+.libtv-pricing-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.sa-policy-rule {
+    color: var(--libtv-cyan);
+    font-size: 11px;
+    line-height: 1.5;
+}
+.sa-credit-membership-distinction {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+@media (max-width: 760px) {
+    .sa-pricing-toolbar {
+        position: relative;
+    }
+    .sa-pricing-toolbar select {
+        min-height: 42px;
+    }
+    .libtv-pricing-footer {
+        justify-content: center;
+    }
+}

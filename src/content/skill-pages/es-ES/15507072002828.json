@@ -1,0 +1,67 @@
+{
+    "title": "IA de rostros: rasgos y forma facial para personajes únicos",
+    "metaDescription": "Para series cortas y principiantes en vídeo: elige forma facial y estilo o sube una referencia; la IA detalla rasgos y genera retratos únicos y realistas.",
+    "oneLiner": "Dale forma facial y preferencias de estilo; genera en el lienzo tarjetas de retratos únicos de personajes.",
+    "intro": [
+        "Esta es una herramienta que te ayuda a diseñar el aspecto de personajes originales. Convierte sensaciones difusas como «estilo felino» o «frío y distante» en detalles concretos de forma facial, ojos y nariz, y evita generar caras falsas de influencer repetidas.",
+        "Piensa en la impresión general del personaje, por ejemplo, su edad, si es frío o dulce; también puedes subir una imagen de referencia de la forma facial. La IA solo toma como referencia la estructura ósea (volumen de los huesos faciales), no copia a una persona real.",
+        "Al terminar, obtendrás dos cosas en el lienzo: una tarjeta de texto con una descripción detallada de los rasgos faciales y una tarjeta de imagen con un retrato del personaje que tiene textura de piel real y coincide con la configuración."
+    ],
+    "example": {
+        "input": "Quiero crear una villana de unos 20 y pocos años, fría y distante, con cara estrecha y alargada, ojos finos y alargados y una mirada algo intimidante; que no tenga la cara plástica de influencer.",
+        "output": "En el lienzo se generará una tarjeta organizada con palabras que describen los rasgos faciales (incluidos detalles como cuencas oculares profundas y comisuras rectas) y un retrato de medio cuerpo de la villana que conserva poros diminutos e iluminación natural."
+    },
+    "scenarios": [
+        "Al preparar personajes para una serie corta, quieres convertir auras abstractas como «estilo zorro» o «frío y distante» en un aspecto concreto.",
+        "Después de escribir la ficha de personaje del guion, necesitas generar en el lienzo un retrato frontal o una foto de personaje que encaje con su personalidad.",
+        "Tienes una imagen de referencia de maquillaje, estilismo o rasgos faciales que te gusta y quieres inspirarte en su estructura ósea y su aura para generar un personaje original.",
+        "Al crear imágenes de personajes, quieres quitar el aspecto plástico del retoque excesivo y añadir poros y textura reales."
+    ],
+    "problems": [
+        {
+            "pain": "Solo escribes «estilo felino» o «rostro sofisticado» y la IA genera siempre las mismas caras de influencer con mentón afilado.",
+            "solve": "Descompón el estilo en forma de cara, tipo de ojos, nariz y volumen facial para generar una descripción clara de los rasgos faciales."
+        },
+        {
+            "pain": "La piel de los personajes generados es tan lisa como la de un muñeco de plástico y carece de la textura de una cámara real.",
+            "solve": "Añade a las indicaciones de generación textura de piel natural, poros finos e iluminación natural para reducir el efecto de filtro de belleza excesivo."
+        },
+        {
+            "pain": "Quieres inspirarte en el aire de algunas fotos, pero te preocupa infringir los derechos de imagen de personas reales o copiar directamente una cara.",
+            "solve": "Extrae solo las proporciones de los rasgos y la estructura ósea o el aura de la foto, evita la identidad concreta y genera de nuevo una cara de personaje original."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el cuadro de diálogo de creación en el lado derecho del lienzo.",
+        "Elige el tipo de rostro, la edad y el estilo; también puedes subir una imagen de referencia facial o de maquillaje y estilismo.",
+        "Rellena el formulario de rasgos faciales y selecciona o ajusta la forma de la cara, el tipo de ojos, la nariz y el volumen facial.",
+        "Consulta en el lienzo la tarjeta de descripción de rasgos y la imagen del personaje generados, y revisa los detalles de su aspecto.",
+        "Ajusta el contenido de la tarjeta de texto y vuelve a generar, o descarga directamente la tarjeta de imagen del personaje que te satisfaga."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo evitar que la IA cree caras de influencer clónicas?",
+            "a": "Descompón estilos abstractos como «estilo felino» o «frío y distante» en formas concretas de cara, ojos y nariz, además de detalles de piel reales; así evitarás caras de influencer repetidas. El asistente te guiará para rellenar el formulario y elegir cada rasgo, de modo que los rasgos del personaje queden bien definidos y se reduzcan los parecidos."
+        },
+        {
+            "q": "¿Qué hago si la piel del personaje generado parece plástico y poco realista?",
+            "a": "La habilidad añade automáticamente textura de cámara natural, poros visibles y ligeros detalles asimétricos al generar, lo que reduce el aspecto plástico del retoque excesivo. Si aun así no te convence la imagen, puedes pedir al asistente en el cuadro de diálogo que añada microexpresiones o modificar la descripción de la tarjeta y volver a generar."
+        },
+        {
+            "q": "¿Puedo subir una foto de una persona real para crear una cara de personaje idéntica?",
+            "a": "No se puede crear directamente una copia de una persona real, pero puedes subir una foto para inspirarte en sus proporciones faciales y en el aura de su maquillaje y generar un personaje totalmente original. El asistente extraerá la estructura ósea de la referencia para generar una nueva descripción, evitando la identidad de famosos o personas concretas; así conserva el aire del rostro y protege los derechos de imagen."
+        },
+        {
+            "q": "¿Cómo modifico los rasgos del personaje generado si no me convencen?",
+            "a": "Puedes editar directamente la tarjeta de texto en el lienzo o decirle al asistente en el cuadro de diálogo qué quieres ajustar concretamente, por ejemplo, hacer la nariz más redondeada o ampliar la distancia entre los ojos. El asistente actualizará la tarjeta de descripción de rasgos y volverá a generar la imagen; cada tarjeta del lienzo se puede modificar y regenerar por separado."
+        }
+    ],
+    "keywords": [
+        "creación de rostros con IA",
+        "generar personajes para series cortas",
+        "diseño de caras de personajes con IA",
+        "crear personajes sin cara de influencer",
+        "textura de piel realista con IA",
+        "definir el aspecto de personajes con IA"
+    ]
+}

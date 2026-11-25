@@ -1,0 +1,114 @@
+/* Pricing-specific overrides: consistent card geometry for all three cycles. */
+.libtv-pricing-page:not(.is-byok) .libtv-plan-hero { display: flex; flex-direction: column; min-height: 410px; padding: 22px 20px 16px; }
+.libtv-pricing-page:not(.is-byok) .libtv-plan { min-width: 0; }
+.libtv-pricing-page .libtv-plan-name-row { min-height: 40px; align-items: center; }
+.libtv-pricing-page .libtv-plan-name-row h2 { font-size: 21px; font-weight: 600; }
+.libtv-pricing-page .libtv-plan-name-row > span { font-size: 12px; padding: 6px 8px; }
+.libtv-pricing-page .libtv-plan-price { gap: 5px; min-height: 48px; margin: 12px 0 4px; }
+.libtv-pricing-page .libtv-plan-price strong { font-size: clamp(27px, 2.3vw, 39px); letter-spacing: -.035em; }
+.libtv-pricing-page .libtv-plan-price em { font-size: 13px; }
+.sa-offer-original { display: flex; align-items: baseline; flex-wrap: wrap; justify-content: space-between; gap: 8px; color: var(--libtv-muted); font-size: 13px; min-height: 22px; }
+.sa-offer-original small { font-size: 10px; }
+.libtv-pricing-page:not(.is-byok) .libtv-plan-meta { display: grid; gap: 5px; min-height: 110px; margin: 12px 0 4px; font-size: 12px; }
+.libtv-plan-meta .sa-rolling-value, .libtv-plan-meta .sa-rolling-value span { width: auto; }
+.libtv-plan-meta .sa-rolling-digit { width: 1ch !important; }
+.libtv-pricing-page .sa-offer-annual-saving { color: var(--libtv-cyan); }
+.sa-offer-allowance { min-height: 84px; margin: 8px 0 10px; }
+.sa-offer-allowance .libtv-credit-total { margin: 0 0 10px; font-size: 26px; }
+.sa-offer-allowance .libtv-credit-options { margin: 0 0 10px; border: 1px solid var(--libtv-line); }
+.sa-offer-allowance .libtv-credit-options button { height: auto; min-height: 34px; white-space: normal; line-height: 1.4; padding: 6px 8px; font-size: 11px; }
+.sa-offer-allowance .libtv-generation-note { margin: 0; font-size: 11px; line-height: 1.6; }
+.sa-offer-seats { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; margin: 2px 0 16px; }
+.sa-offer-seats > strong { color: var(--libtv-muted); font-size: 12px; }
+.libtv-pricing-page:not(.is-byok) .libtv-open-button { margin-top: auto; }
+.libtv-pricing-page .libtv-plan.is-selected .libtv-plan-hero { outline: 2px solid var(--libtv-cyan); outline-offset: 2px; }
+.libtv-pricing-page .libtv-plan-banner { white-space: normal; gap: 7px; font-size: 11px; min-height: 30px; height: auto; line-height: 1.45; padding: 7px 10px; }
+.libtv-pricing-page .libtv-plan-banner .sa-rolling-value { font-size: 12px; }
+.libtv-pricing-page .libtv-rail-arrow:disabled { opacity: 0; pointer-events: none; }
+.libtv-pricing-page .libtv-cycle-switch { width: min(860px, 67vw); }
+.libtv-pricing-page .libtv-cycle-switch button { transition: color 160ms ease, background-color 160ms ease; }
+.sa-pricing-reference-groups { width: min(100%, 1390px); margin: 0 auto 32px; display: grid; gap: 12px; }
+.sa-pricing-reference-group { border: 1px solid var(--libtv-line); border-radius: 16px; overflow: hidden; }
+.sa-pricing-reference-group > summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 22px; color: var(--libtv-paper); font-size: 19px; font-weight: 600; cursor: pointer; list-style: none; }
+.sa-pricing-reference-group > summary::-webkit-details-marker { display: none; }
+.sa-pricing-reference-group > summary svg { width: 20px; height: 20px; transition: transform 160ms ease; }
+.sa-pricing-reference-group[open] > summary svg { transform: rotate(180deg); }
+.sa-pricing-reference-group .libtv-generation-table { width: 100%; margin: 0; padding: 0 16px 16px; }
+.sa-pricing-reference-group .libtv-generation-table > h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.libtv-pricing-footer > a { color: inherit; text-underline-offset: 4px; }
+.libtv-pricing-footer > a:hover, .libtv-pricing-footer > a:focus-visible { color: var(--libtv-paper); text-decoration: underline; }
+@media (min-width: 1440px) { .libtv-pricing-page:not(.is-byok) .libtv-plan-rail { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 14px; overflow: visible; } .libtv-pricing-page:not(.is-byok) .libtv-plan { width: 100%; } .libtv-pricing-page:not(.is-byok) .libtv-rail-arrow { display: none; } }
+@media (min-width: 761px) and (max-width: 1439px) { .libtv-pricing-page:not(.is-byok) .libtv-plan-rail { display: flex; overflow-x: auto; } .libtv-pricing-page:not(.is-byok) .libtv-plan { flex: 0 0 300px; } }
+@media (max-width: 760px) { .libtv-pricing-page .libtv-cycle-switch { width: 100%; border-radius: 20px; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); } .libtv-pricing-page .libtv-cycle-switch button { min-height: 44px; } .libtv-pricing-page:not(.is-byok) .libtv-plan-rail { display: grid; grid-template-columns: minmax(0,1fr); gap: 18px; overflow: visible; } .libtv-pricing-page:not(.is-byok) .libtv-plan-hero { min-height: 0; } .libtv-pricing-page .libtv-plan-benefits { display: none; } .libtv-pricing-page.benefits-expanded .libtv-plan-benefits, .libtv-pricing-page.is-byok .libtv-plan-benefits { display: block; } .libtv-pricing-page .libtv-rail-arrow { display: none; } }
+:root:not(.dark) .libtv-credit-options { background: #e4edf0; }
+:root:not(.dark) .libtv-credit-options button { color: var(--libtv-paper); }
+:root:not(.dark) .libtv-credit-options button.is-active { color: #fff; background: #17242c; }
+:root:not(.dark) .sa-offer-seats .libtv-seat-stepper { background: #dbe9ef; }
+:root:not(.dark) .sa-offer-seats .libtv-seat-stepper span, :root:not(.dark) .sa-offer-seats .libtv-seat-stepper button { color: #17242c; }
+@media (prefers-reduced-motion: reduce) { .libtv-pricing-page .libtv-cycle-switch button { transition: none; } }
+
+/* Keep the price and its benefits in one continuous card, as in the approved
+   five-plan reference. Windows and macOS use the same geometry. */
+.libtv-pricing-page:not(.is-byok) .libtv-plan {
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.14);
+    border-radius: 24px;
+    background: rgba(36,39,44,.76);
+    box-shadow: 0 14px 40px rgba(0,0,0,.2);
+    -webkit-backdrop-filter: blur(18px) saturate(135%);
+    backdrop-filter: blur(18px) saturate(135%);
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan--luxury { border-color: rgba(76,207,251,.7); background: rgba(17,38,49,.83); }
+.libtv-pricing-page:not(.is-byok) .libtv-plan--supreme { border-color: rgba(255,90,13,.7); background: rgba(45,24,18,.83); }
+.libtv-pricing-page:not(.is-byok) .libtv-plan-hero,
+.libtv-pricing-page:not(.is-byok) .libtv-plan-benefits {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan-benefits { margin: 0; padding: 14px 20px 22px; border-top: 1px solid rgba(255,255,255,.1); }
+.libtv-pricing-page:not(.is-byok) .libtv-plan-benefits > summary { margin-bottom: 14px; color: var(--libtv-cyan); font-weight: 650; }
+.libtv-pricing-page:not(.is-byok) .libtv-plan-hero { min-height: 390px; }
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan { background: rgba(255,255,255,.82); border-color: rgba(55,75,90,.17); }
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan--luxury { background: rgba(230,247,252,.88); }
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan--supreme { background: rgba(255,240,229,.88); }
+@media (min-width: 1160px) {
+    .libtv-pricing-page:not(.is-byok) .libtv-plan-rail { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 12px; overflow: visible; }
+    .libtv-pricing-page:not(.is-byok) .libtv-plan { width: 100%; min-width: 0; flex: none; }
+    .libtv-pricing-page:not(.is-byok) .libtv-rail-arrow { display: none; }
+}
+
+/* Reference prices use one native, quiet strike rather than overlay bars. */
+.libtv-pricing-page s { color: #71717a; text-decoration: line-through; text-decoration-thickness: 1px; text-decoration-color: currentColor; background: none; }
+
+/* Checkout facts live on the card now that Buy goes straight to Stripe. */
+.libtv-pricing-page:not(.is-byok) .sa-plan-charge { margin-top: auto; display: grid; gap: 4px; margin-bottom: 10px; }
+.libtv-pricing-page:not(.is-byok) .sa-plan-charge + .libtv-open-button { margin-top: 0; }
+.sa-plan-charge p { margin: 0; font-size: 12px; line-height: 1.5; }
+.sa-plan-actual-charge { font-weight: 600; }
+.sa-plan-launch-offer { color: #d97706; }
+.sa-plan-payment-later { margin: 8px 0 0; font-size: 11px; line-height: 1.5; opacity: .75; }
+.sa-plan-topup-note { display: block; margin-top: 8px; font-size: 11px; line-height: 1.5; opacity: .6; }
+.libtv-open-button[aria-busy="true"] { cursor: progress; }
+
+/* 体验包抵扣开关：只在有未使用的体验包、且还没有订阅时出现。 */
+.sa-trial-credit-toggle { display: flex; align-items: flex-start; gap: 10px; margin: 12px auto 4px; max-width: 760px; padding: 10px 14px; border: 1px solid rgba(217, 119, 6, .35); border-radius: 10px; background: rgba(217, 119, 6, .08); font-size: 13px; line-height: 1.5; cursor: pointer; }
+.sa-trial-credit-toggle input { margin-top: 3px; accent-color: #d97706; }
+.sa-trial-credit-toggle input:focus-visible { outline: 2px solid #d97706; outline-offset: 2px; }
+
+/* 计费周期：一行三个选项，任何宽度都不换成四宫格；积分包是单独的文字入口。 */
+.libtv-pricing-page .libtv-cycle-switch { flex-wrap: nowrap; width: min(640px, 100%); }
+.libtv-pricing-page .libtv-cycle-switch button { flex: 1 1 0; min-width: 0; }
+.libtv-pricing-page .libtv-cycle-switch button .libtv-cycle-discount:empty { display: none; }
+.libtv-pricing-page .libtv-credit-store { border: 0 !important; background: transparent; padding: 6px 4px; font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
+.libtv-pricing-page .libtv-credit-store[aria-pressed="true"] { text-decoration: none; font-weight: 600; }
+@media (max-width: 760px) {
+    .libtv-pricing-page .libtv-pricing-controls { flex-direction: column; align-items: stretch; height: auto; min-height: 0; padding: 20px 0 8px; gap: 6px; }
+    .libtv-pricing-page .libtv-cycle-switch { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); width: 100%; height: auto; margin: 0; border-radius: 999px; }
+    .libtv-pricing-page .libtv-cycle-switch button { height: auto; min-height: 48px; padding: 6px 4px; font-size: 14px; }
+    .libtv-pricing-page .libtv-cycle-switch button .libtv-cycle-discount { display: block; margin: 2px auto 0; font-size: 11px; }
+    .libtv-pricing-page .libtv-credit-store { display: inline-flex; align-self: center; }
+}

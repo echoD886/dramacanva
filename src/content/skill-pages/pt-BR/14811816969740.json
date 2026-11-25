@@ -1,0 +1,66 @@
+{
+    "title": "Joias: esboço ou peça antiga gera novos designs | {brand}",
+    "metaDescription": "Para criadores de joias. No {brand}, envie esboço ou foto, responda a perguntas e a IA preserva a estrutura, gerando designs com novos materiais e padrões.",
+    "oneLiner": "Para criadores de joias: envie esboço ou foto de peça antiga e gere vários redesigns no canvas.",
+    "intro": [
+        "Esta é uma ferramenta de redesign de joias. Você não precisa conhecer comandos complexos de desenho: basta responder a algumas perguntas e a IA vai tentar preservar ao máximo a estrutura de uso original, ajudando você a testar novos padrões e materiais.",
+        "Você só precisa ter um esboço feito à mão, uma foto da joia atual ou descrever a ideia por texto. Quando a IA perguntar quanto manter do original e quais elementos adicionar, basta marcar as opções que preferir.",
+        "Ao terminar, o canvas gera 4 conjuntos de designs de redesign em estilos diferentes, cada um com uma descrição do design. Você pode compará-los lado a lado no canvas e baixar as imagens que mais gostar."
+    ],
+    "example": {
+        "input": "Envie uma foto de um anel de prata liso e, nas perguntas, marque: manter o contorno original, adicionar tema de folhas e vinhas, escolher madrepérola e diamantes pequenos como materiais.",
+        "output": "O canvas gera 4 designs de anel em estilos diferentes: alguns com relevo na haste, outros com madrepérola incrustada no topo. Cada imagem vem com uma descrição das alterações e pode ser baixada diretamente."
+    },
+    "scenarios": [
+        "Você tem uma joia que vende bem e quer manter o formato, mas criar rapidamente novos itens de coleção com padrões diferentes.",
+        "Você só tem um esboço à mão ou uma ideia inicial e quer ver como ficaria em ouro ou com gemas coloridas.",
+        "Ao criar uma proposta personalizada para um cliente, você precisa apresentar vários designs em estilos diferentes para ele escolher.",
+        "Você quer incorporar motivos orientais de nuvens ou elementos vegetais em um pingente existente e ver como o design fica mais harmônico e bonito."
+    ],
+    "problems": [
+        {
+            "pain": "Quer redesenvolver uma joia antiga, mas não consegue desenhar um esboço do design.",
+            "solve": "Envie uma foto da joia antiga e escolha os padrões que quer alterar; a IA tenta preservar ao máximo a estrutura original e gera novos designs."
+        },
+        {
+            "pain": "Não sabe escrever prompts complexos de geração de imagem em inglês para IA e nunca fica satisfeito, mesmo após muitas tentativas.",
+            "solve": "Todo o processo é feito com perguntas de múltipla escolha: marque o nível de preservação, o estilo e os materiais, sem escrever comandos complexos."
+        },
+        {
+            "pain": "Cada geração traz apenas um design, o que dificulta comparar lado a lado e fechar uma proposta.",
+            "solve": "O canvas gera 4 designs com direções diferentes e suas descrições de uma vez, facilitando a comparação visual e a escolha do favorito."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de skills, clique em “Usar esta skill” e envie a foto da joia ou o esboço no painel de chat à direita.",
+        "Responda às perguntas que aparecerem, marcando o nível de preservação, os materiais desejados e os temas de padrão que você prefere.",
+        "Veja os 4 designs de redesign gerados no canvas e compare visualmente a aparência e as descrições das alterações.",
+        "Escolha os cards de design que mais gostar e baixe as imagens diretamente, ou peça ao assistente para continuar ajustando os detalhes."
+    ],
+    "faq": [
+        {
+            "q": "É possível criar renderizações realistas de joias diretamente a partir de um esboço feito à mão?",
+            "a": "Sim. Basta enviar o esboço no canvas e marcar os materiais e as gemas; a IA usa o contorno do esboço como referência para gerar vários designs com a textura correspondente. Cada imagem gerada vem com uma descrição das alterações, e você pode baixar diretamente os designs de que gostar."
+        },
+        {
+            "q": "O redesign com IA pode danificar a estrutura original da joia e deixá-la imprópria para uso?",
+            "a": "Normalmente não. Antes de criar o design, a IA tenta manter as estruturas de uso, como aros e fechos, e por padrão altera principalmente os padrões da superfície e os detalhes decorativos. Se quiser mudar bastante a aparência, você também pode ajustar o nível de transformação para “recriar” nas perguntas."
+        },
+        {
+            "q": "Quantos designs diferentes podem ser gerados ao mesmo tempo?",
+            "a": "Por padrão, o canvas gera 4 designs com direções diferentes de uma vez; você também pode escolher gerar 8 por vez nas perguntas. Cada opção inclui uma descrição da estrutura e o motivo das alterações, para facilitar a comparação lado a lado e a escolha."
+        },
+        {
+            "q": "Os designs gerados podem ser transformados diretamente em vídeos curtos de apresentação de joias?",
+            "a": "É possível gerar clipes de apresentação. Se precisar de um vídeo completo, organize os vários clipes gerados na linha do tempo de vídeo do canvas e exporte. Depois de escolher os cards de design que mais gostar, basta pedir ao assistente no chat para gerar os clipes de apresentação."
+        }
+    ],
+    "keywords": [
+        "redesign de joias",
+        "design de joias com IA",
+        "esboço para design de joias",
+        "reformular joias",
+        "renderização de joias",
+        "troca de material de joias"
+    ]
+}

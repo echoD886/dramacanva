@@ -1,0 +1,67 @@
+{
+    "title": "Novel to Short Drama: Script, Characters, Storyboard Video",
+    "metaDescription": "For video beginners. Enter a story or novel excerpt and AI creates a standard script, character/scene images, and 15-second storyboard clips on the canvas.",
+    "oneLiner": "Turn a novel or story idea into a script, character images, and storyboard video clips step by step.",
+    "intro": [
+        "This is a short drama video creation assistant. Just give it a story or novel, and it will help you turn text into scripts, images, and short videos you can watch right away, step by step on the canvas.",
+        "You don't need to know professional script formatting. Just prepare the story text or novel passage you want to adapt, even a simple idea of a few sentences, and send it directly to AI to get started.",
+        "When it's done, you'll get a standard script, character reference images, a storyboard (a shot-by-shot shooting plan), and multiple 15-second video clips on the canvas, which you can arrange and export as a finished video."
+    ],
+    "example": {
+        "input": "Enter a 300-word ancient detective story: a young constable in blue-green robes inspecting suspicious footprints in a ruined temple at night.",
+        "output": "On the canvas, you get a properly formatted script, a full-body appearance image of the constable, a detailed list of 15-second shots, and multiple video clips of him searching for footprints with a torch."
+    },
+    "scenarios": [
+        "You have a novel passage or an idea and want to quickly turn it into a properly formatted short drama script.",
+        "You want to break the story into shots but don't know how long each shot should be or how many lines of dialogue to include.",
+        "When making videos, you worry the character will look different each time, so you want to lock in their appearance before generating visuals.",
+        "You want to assign visuals and actions to each shot and directly generate a series of connected 15-second video clips."
+    ],
+    "problems": [
+        {
+            "pain": "Turning a novel straight into video can easily drop plot points, and original dialogue can be changed carelessly.",
+            "solve": "It will try to preserve the original dialogue and core plot, and after breaking down the script, it will ask you to confirm before continuing."
+        },
+        {
+            "pain": "The same character often looks different across shots, making the visuals feel inconsistent.",
+            "solve": "First generate multi-angle appearance reference images for the character, then bind the references when making videos to reduce character drift."
+        },
+        {
+            "pain": "Generating the whole video at once makes it very troublesome to fix a few seconds in the middle that you're not happy with.",
+            "solve": "Break it into 15-second clips and generate cards step by step, so you can regenerate just the segment you're unhappy with."
+        }
+    ],
+    "steps": [
+        "In the skill library, click 'Use This Skill,' then send your story text or idea in the chat box on the right.",
+        "Review the script card on the canvas, edit dialogue online, and choose the visual style you want.",
+        "Check the generated character and scene reference images, and tell the assistant to regenerate any image you're not happy with individually.",
+        "Confirm the storyboard and shot action descriptions, then let AI batch-generate multiple 15-second video clips.",
+        "Arrange the clips on the video timeline and export, or download individual video cards you like."
+    ],
+    "faq": [
+        {
+            "q": "How do I turn a novel into a short drama with AI?",
+            "a": "After you send the novel to the assistant, it will generate a standard script, character reference images, and storyboard videos in sequence. Finally, arrange them on the timeline and export the finished video. On the {brand} canvas, you can edit dialogue and style at any time, and regenerate any card you're not happy with individually."
+        },
+        {
+            "q": "When making a short drama video with AI, what if the character's appearance is inconsistent?",
+            "a": "Before making the video, have AI generate appearance reference images of the character. When generating storyboard videos later, it will prioritize binding those references to keep the appearance as consistent as possible. If a character looks off in a particular shot, change the reference image or tell the assistant to regenerate that shot individually."
+        },
+        {
+            "q": "Why is each shot's dialogue recommended to stay under 40 characters?",
+            "a": "This is to match the roughly 15-second length of a single video clip and prevent the clip from ending before the dialogue is finished. Keeping a single shot's dialogue to 30 to 40 characters makes the pacing of visuals, actions, and speech feel more natural. Long conversations are automatically split into multiple continuous shots."
+        },
+        {
+            "q": "If I'm not happy with one generated video segment, do I need to redo everything?",
+            "a": "No, you don't need to redo everything. The script, images, and each video segment on the canvas are independent cards, so you only need to regenerate the segment you're unhappy with. Everything else you've made is fully preserved and unaffected."
+        }
+    ],
+    "keywords": [
+        "AI novel to short drama",
+        "how to turn a novel into a short drama",
+        "short drama storyboard script",
+        "AI short drama workflow",
+        "short drama script generator",
+        "AI video character consistency"
+    ]
+}

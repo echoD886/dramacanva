@@ -1,0 +1,66 @@
+{
+    "title": "Vídeo IA sin cambio de cara: fija personajes y ordena tomas",
+    "metaDescription": "Vídeo IA con varias tomas: en {brand}, da ideas y referencias; el asistente fija el personaje en el lienzo y crea una tabla de bloqueo con descriptores.",
+    "oneLiner": "Dale imágenes de referencia y lo que necesitas; genera en el lienzo una tabla de bloqueo de personajes para fijar su aspecto.",
+    "intro": [
+        "Es la herramienta de bloqueo de personajes de {brand}: envíale la idea de la historia y las imágenes de referencia, y generará en el lienzo una tabla de bloqueo de personajes que te ayuda a fijar el aspecto y la ropa de los personajes y a ordenar el ritmo de la trama.",
+        "Solo tienes que preparar la idea de la historia, las tomas que quieres crear y las imágenes de referencia de los personajes. Si tienes un vídeo ya hecho que quieres alargar o modificar, también puedes enviárselo directamente.",
+        "Cuando termine, obtendrás en el lienzo una tabla de bloqueo de personajes, una serie de propuestas de descriptores adecuados para esa escena y una planificación de la duración de las acciones. Puedes copiarlos directamente o modificarlos antes de generar el vídeo."
+    ],
+    "example": {
+        "input": "Quiero hacer un corto en el que dos espadachines se enfrentan en una posada. He subido fotos del protagonista y de un secundario y necesito cambiar dos tomas, pero sin que les cambie la cara.",
+        "output": "En el lienzo se genera una tarjeta de tabla: fija por separado el aspecto y las características de la ropa de los dos personajes, ofrece los descriptores visuales de cada toma y ordena la duración de las acciones para que puedas copiarlos y usarlos directamente."
+    },
+    "scenarios": [
+        "Al hacer vídeos con varias tomas, el mismo personaje cambia de aspecto o de ropa al pasar de una toma a otra.",
+        "Subes varias imágenes de referencia de personajes y objetos, y al generar la imagen se interfieren entre sí y las características se mezclan.",
+        "Las acciones del plano se amontonan y quedan poco naturales; el diálogo no termina de decirse y la imagen ya ha pasado.",
+        "Quieres alargar un vídeo o modificar una parte de la imagen y te preocupa que las tomas no encajen o que estropees el vídeo original."
+    ],
+    "problems": [
+        {
+            "pain": "Al cambiar de toma, el aspecto, el peinado o la ropa del protagonista cambian y no hay continuidad.",
+            "solve": "Genera una tabla de bloqueo en el lienzo que fija el aspecto, la ropa y otras características del personaje para reducir los fallos de continuidad al cambiar de toma."
+        },
+        {
+            "pain": "Subes varias imágenes de referencia y, al generar, las características de personajes y objetos se mezclan e interfieren.",
+            "solve": "Vincula una identidad a cada personaje y objeto, y deja claro qué características deben conservarse y cuáles no se heredan."
+        },
+        {
+            "pain": "Las acciones del vídeo generado se amontonan y quedan poco naturales; el diálogo no termina y el orden temporal se invierte.",
+            "solve": "Calcula el tiempo necesario para las acciones y el número de caracteres del diálogo, ordena la secuencia y consigue un ritmo más pausado y natural."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad», describe lo que necesitas en el cuadro de diálogo de la derecha y sube las imágenes de referencia.",
+        "Consulta en el lienzo las tarjetas generadas con la tabla de bloqueo de personajes, la planificación temporal y los descriptores visuales.",
+        "Modifica el texto de las tarjetas y ajusta las características físicas de los personajes o la duración de las acciones según tu idea.",
+        "Copia o descarga el resultado y utiliza la tabla de bloqueo y los descriptores confirmados para generar el vídeo posteriormente."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo evitar que los personajes cambien de cara todo el tiempo en un vídeo de IA con varias tomas?",
+            "a": "Crear una tabla de bloqueo de personajes y fijar las características principales reduce eficazmente el cambio de cara al cambiar de toma. Esta habilidad te ayuda a organizar en una tabla detalles clave como el peinado y la ropa de los personajes, y a vincular cada personaje a una sola imagen de referencia para evitar que distintas imágenes se interfieran. Puedes ver y modificar estas características directamente en el lienzo y, cuando estés conforme, crear el vídeo."
+        },
+        {
+            "q": "¿Qué hago si hay demasiados modos de vídeo con IA y no sé cuál elegir?",
+            "a": "Cuéntale tu idea creativa concreta y te recomendará el modo adecuado según la complejidad de la tarea. También te dará una estructura de prompts (el texto que describe la imagen para la IA) adaptada a ese modo, para que no tengas que buscar las reglas por todas partes. Puedes modificar estas sugerencias directamente en las tarjetas del lienzo y copiarlas cuando te parezcan adecuadas."
+        },
+        {
+            "q": "¿Cómo se soluciona que las acciones en un vídeo de IA vayan demasiado deprisa y el diálogo no dé tiempo a terminar?",
+            "a": "Si calculas antes de crear el vídeo el tiempo que necesitan las acciones y el número de caracteres del diálogo, podrás ordenar el ritmo. Te ayudará a dividir el vídeo por intervalos en el lienzo y comprobar si cada acción tiene tiempo suficiente y si el diálogo puede decirse entero, para evitar que las imágenes pasen deprisa. Puedes ajustar las acciones o recortar el diálogo según la tabla temporal generada para que la historia encadene de forma más natural."
+        },
+        {
+            "q": "¿Cómo evitar estropear el vídeo original si quiero alargar o modificar un vídeo de IA existente?",
+            "a": "Indica con claridad en qué dirección quieres alargarlo y elabora una lista de lo que no debe modificarse; así protegerás bien la parte principal del vídeo original. Te preguntará si quieres añadir antes o después y señalará claramente qué planos deben permanecer intactos y qué puntos concretos deben modificarse. De este modo se conserva en la medida de lo posible el contenido original y se evita que la IA cambie por su cuenta lo que no debería."
+        }
+    ],
+    "keywords": [
+        "consistencia de personajes en vídeo IA",
+        "evitar cambio de cara en vídeo IA",
+        "coherencia de personajes en vídeo IA con varias tomas",
+        "ritmo de acciones y diálogos en vídeo IA",
+        "alargar vídeo IA",
+        "editar partes de un vídeo IA"
+    ]
+}

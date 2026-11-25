@@ -1,0 +1,66 @@
+{
+    "title": "Upload a product photo; AI makes a tech-style ad video",
+    "metaDescription": "Electronics sellers: upload one product photo, check the angles, and generate an ad video with a clean background highlighting tech lighting and finish.",
+    "oneLiner": "Give it one product photo and make a tech-style product video on the canvas—ideal for electronics sellers.",
+    "intro": [
+        "Send the assistant an electronics photo, and you can make a tech-style ad video on the canvas—ideal for electronics sellers. The image keeps only the product itself, using flowing light and close-up shots to highlight the body's finish.",
+        "You only need one clear electronics photo. After you send it to the assistant, it first generates multi-angle images so you can check whether the buttons and outline match the original.",
+        "Once you confirm the appearance looks right, you'll get a default 15-second pure-product motion video on the canvas. You can download it directly or arrange it on the video timeline before exporting."
+    ],
+    "example": {
+        "input": "Upload a photo of black wireless noise-canceling headphones and say: Make me a tech-style ad video.",
+        "output": "First, a white-background image of the headphones and three angle views appear on the canvas for you to check; after you confirm, it generates a 15-second ad video card of the headphones rotating in macro under dark lighting."
+    },
+    "scenarios": [
+        "A new electronics product is ready, and you need a short showcase video that highlights its appearance and tech feel.",
+        "An e-commerce store is listing electronics and needs a main-image video with no cluttered background that shows the body's build quality.",
+        "A hardware project needs to be reported or showcased, and you want to quickly make a polished product motion demo.",
+        "You're making a promo video for an electronics product but lack clean light sweeps and product close-up shots."
+    ],
+    "problems": [
+        {
+            "pain": "AI video generation can easily change how the product looks, and buttons and ports can deform.",
+            "solve": "Before making the video, it first generates multi-angle photos for you to check; once the appearance matches the original, it generates the video."
+        },
+        {
+            "pain": "The frame often has a cluttered desk or strange people that steal attention from the product.",
+            "solve": "It keeps only the product itself and uses a dark or lighting-based space as the background, with no people or extra props."
+        },
+        {
+            "pain": "Shooting the product yourself with good lighting is hard, so you can't get that premium tech feel.",
+            "solve": "AI simulates camera push-ins, rotation, and light sweeps to show the material reflections on the body's surface."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill,” then upload your electronics photo in the chat box on the right.",
+        "Review the multi-angle product images generated on the canvas and check whether the appearance details match the original.",
+        "Once you're satisfied, tell the assistant to continue; if not, just send a message asking the assistant to adjust the images again.",
+        "Preview the generated ad video clips, arrange them in order on the video timeline, and export the final video."
+    ],
+    "faq": [
+        {
+            "q": "How do I use AI to make a tech-style product ad video?",
+            "a": "Upload one clear electronics photo, first check the generated multi-angle appearance images, and after confirming they're correct, the system can generate a showcase video with tech lighting. The finished video card can be downloaded directly, or you can arrange the clips in order on the canvas video timeline and export the final video."
+        },
+        {
+            "q": "When AI makes a video, how can I avoid changes to the product's appearance and buttons?",
+            "a": "The key is to check the multi-angle images before generating the video: the system first generates a white-background image and three-view images for you to check details, and after confirming the appearance matches the original, it generates the video. If you find deviations in buttons or details, tell the assistant to adjust that image separately; once you're satisfied, generate the video card to minimize deformation as much as possible."
+        },
+        {
+            "q": "Can I add live models or real room scenes to the video?",
+            "a": "No. This skill only creates pure product showcases, and no live models, lifestyle props, or real room scenes will appear in the frame. The video background consistently uses an abstract tech lighting space; if you need people on camera, you can use other skills on the canvas that are specifically for generating scenes."
+        },
+        {
+            "q": "If I'm not satisfied with the generated images or video, can I modify them?",
+            "a": "Yes. You can send a message on the canvas at any time asking the assistant to modify and regenerate them. If the multi-angle images have deviations, just tell the assistant which angle you want to adjust—you don't need to redo everything. If you're not satisfied with the finished video card, you can likewise tell the assistant your revision requests and have it regenerate the video clips."
+        }
+    ],
+    "keywords": [
+        "product ad video creation",
+        "AI product promo video",
+        "electronics video generation",
+        "product-only showcase video",
+        "AI for electronics ads",
+        "tech-style video production"
+    ]
+}

@@ -1,0 +1,70 @@
+DramaCanvas Acceptable Use Policy
+
+Last Updated: October 30, 2026
+
+Effective Date: October 30, 2026
+
+This policy outlines what is and is not permitted on DramaCanvas, as well as how we moderate content, handle violations, and receive reports. This policy forms an integral part of the DramaCanvas User Agreement, and any violation of this policy constitutes a violation of the User Agreement.
+
+1. Scope
+1.1 This policy applies to all content you input, upload, and generate on DramaCanvas, including text prompts, scripts, images, videos, and audio.
+1.2 This policy applies equally whether you access DramaCanvas via our web interface, agents, MCP connectors, or open APIs.
+
+2. Prohibited Content
+2.1 The following six categories of content are strictly prohibited from being generated, uploaded, or distributed on DramaCanvas:
+- Pornographic and sexually explicit content: Nudity intended for sexual gratification, depictions of sexual acts, or sexually explicit imagery.
+- Violence and gore: Content that glorifies or incites real-world violence, promotes terrorism or mass violence, or gratuitously depicts extreme gore and shock value. Fictional cinematic scenes required by a plot—such as fighting, action, and suspense—are permitted, provided they do not target real individuals.
+- Hate speech: Content that discriminates against, disparages, or incites hatred toward individuals or groups based on race, ethnicity, religion, gender, sexual orientation, disability, age, national origin, or other protected characteristics.
+- Child-unsafe content: Any sexual or exploitative content involving minors, including AI-generated synthetic material. We maintain a zero-tolerance policy toward such content.
+- Deepfakes and impersonation: Swapping a real person's face onto another body; generating nude or sexualized content using photos of real individuals; compositing two real people into intimate scenarios such as kissing or embracing; depicting real people saying or doing things they never said or did; or impersonating individuals, brands, or organizations. None of these real-person deepfakes are permitted, regardless of whether consent has been obtained.
+- Copyright and trademark infringement: Unauthorized use of third-party copyrighted works, characters, trademarks, or brand logos.
+2.2 Zero-tolerance content: Sexual content involving minors; promotion of terrorism, extremism, or mass violence; instructions for creating weapons of mass destruction; incitement of genocide or ethnic hatred; and real-person deepfakes. Upon discovery of such content, we will immediately ban the account and may report the matter to law enforcement as required by law.
+2.3 Other prohibited activities:
+- Generating misinformation, fraudulent content, or material intended to deceive or mislead others.
+- Using any individual's photos, voice, or personal data without their consent.
+- Misrepresenting AI-generated content as real human photography, live footage, or human creative work to deceive others.
+- Generating spam or bulk low-quality content.
+- Attempting to bypass moderation, including using split characters, obfuscated phrasing, code words, or "jailbreak" prompts to evade detection.
+2.4 Uploaded assets and real individuals: You may only upload photos, videos, and audio of yourself or materials for which you have secured explicit authorization from the rights holder. Even with authorization, such assets may not be used for deepfakes prohibited under Section 2.1.
+
+3. How We Moderate Content
+3.1 Pre-generation automated moderation: Before every generation request is processed, our automated moderation service first scans prompts and reference images to block sexual content involving minors and sexually explicit content. Prompts that pass are then screened by a safety service provided by our payment partner, which focuses on blocking child-unsafe content. Blocked requests are not generated, and no credits are deducted.
+3.2 Built-in model safety systems: The third-party AI models we integrate maintain their own safety systems that reject or intercept violating prompts, reference materials, and generated outputs.
+3.3 Human review: User reports and automated moderation logs are subject to manual review by our operations team.
+3.4 Logging: We retain moderation and enforcement records to facilitate review and improve our moderation rules. The raw text of intercepted prompts is not stored.
+3.5 By default, your generated works are stored solely within your personal account and are not publicly displayed on our website. Content shared through sharing links remains subject to this policy.
+
+4. Enforcement and Violations
+4.1 Depending on the severity of the violation, we may take one or more of the following actions:
+- Issuing an email warning.
+- Removing the violating content or disabling associated sharing links.
+- Restricting access to generation features.
+- Temporarily suspending the account.
+- Permanently terminating the account.
+- Reporting severe unlawful content, such as child sexual exploitation, to law enforcement authorities as required by law.
+4.2 Any verified instance of the zero-tolerance content listed in Section 2.2 will result in immediate and permanent account termination.
+4.3 For accounts terminated due to violations of this policy, purchased credits are non-refundable; all other circumstances are governed by the User Agreement and Refund Policy.
+
+5. How to Report Violations
+5.1 If you encounter content that violates this policy, or believe someone has used AI to infringe upon your likeness, voice, or intellectual property, please email support@dramacanva.com with the subject line "Report" and include:
+- A link to or screenshot of the violating content.
+- The date and time of discovery.
+- A description of the issue.
+- Proof of rights or ownership, if the claim involves your personal legal rights.
+5.2 We treat reporter information confidentially. Verified malicious or bad-faith reports will also be subject to enforcement action.
+5.3 We triage reports based on severity according to the following timeframes (Initial Response / Resolution):
+- Urgent (child safety, terrorism, real-person deepfakes): Initial response within 24 hours; resolution within 3 business days.
+- High (pornography, hate speech, infringement of your likeness or copyright): Initial response within 2 business days; resolution within 5 business days.
+- Standard (other violations): Initial response within 5 business days; resolution within 15 business days.
+5.4 If resolution exceeds the timeframes outlined above, we will notify you by email explaining the delay.
+
+6. Appeals
+6.1 If you believe your content or account was moderated in error, you may submit an appeal by emailing support@dramacanva.com within 14 days of receiving notice, using the subject line "Appeal", detailing your circumstances, and providing relevant supporting information.
+6.2 Appeals are reviewed by personnel who were not involved in the original enforcement decision, and we will respond within 7 business days.
+
+7. AI-Generated Content Attribution
+7.1 When publicly sharing AI-generated content, you must disclose that it is "AI-generated" in accordance with applicable publishing platform rules and local legal requirements, and must not conceal the synthetic origin of the content.
+
+8. Policy Updates and Contact Us
+8.1 We may update this policy from time to time. We will provide advance notice on our website of any material changes, with revisions reflected by the update date at the top of this page. Your continued use of DramaCanvas after changes take effect constitutes acceptance of the updated policy.
+8.2 If you have any questions regarding this policy, please contact us at support@dramacanva.com.

@@ -1,0 +1,66 @@
+{
+    "title": "Batch Color Anime Line Art with One Reference Image",
+    "metaDescription": "For comic and animation creators: upload line art and one color reference to batch-generate consistent color images, then download the results.",
+    "oneLiner": "For artists: upload line art and a reference image, then batch-generate colored images on the canvas.",
+    "intro": [
+        "This is a tool that helps color black-and-white line art. Once you've finished several line drawings, it can use the color palette from one reference image to keep coloring consistent across the canvas.",
+        "You only need two things: several finished black-and-white line drawings and one color style reference image. If you have special color requests, such as changing the hair color, you can mention them in advance.",
+        "After you confirm the requirements, the canvas will automatically generate colored image cards. It tries to preserve the original lines, and each image can be viewed, adjusted, or downloaded separately."
+    ],
+    "example": {
+        "input": "Uploaded 4 anime character action line drawings and 1 sunset illustration as a reference, with the note: 'Keep the clothes white and enhance the warm sunset lighting.'",
+        "output": "The canvas generated 4 high-resolution color image cards. The images kept the original line outlines, took on the warm dusk lighting tones from the reference, and the clothes appeared white as requested."
+    },
+    "scenarios": [
+        "You've finished several consecutive animation line drawings and want to color them consistently to see the overall effect.",
+        "You've completed the black-and-white pages of a comic and want to quickly color multiple pages in batches based on the main character's design sheet.",
+        "You've sketched several poses of the same character and want to use one color image to unify all lighting, shadows, and skin tones.",
+        "You've drawn a set of black-and-white images, liked the color scheme of a certain illustration, and want to apply that palette."
+    ],
+    "problems": [
+        {
+            "pain": "Coloring multiple black-and-white drawings by hand one by one takes too long, and colors can easily become inconsistent from panel to panel.",
+            "solve": "Use one color image as a unified color reference and batch-generate color images on the canvas, saving the time of picking and laying in colors for each image."
+        },
+        {
+            "pain": "Worry that coloring will damage the original lines, distort facial features, or lose details.",
+            "solve": "The coloring process tries to preserve the original line work and character design, keeping outlines clear and reducing shape distortion."
+        },
+        {
+            "pain": "After batch generation, if one or two results don't look right, you worry you'll have to start over entirely.",
+            "solve": "Each image is an independent card on the canvas. If you're unhappy with one, you can request changes and regenerate just that image without affecting the others."
+        }
+    ],
+    "steps": [
+        "In the skill library, click 'Use this skill' to enter the canvas and open the chat box.",
+        "Upload multiple black-and-white line drawings and one color reference image, and describe any additional color ideas.",
+        "Review the asset list and requirements the assistant has organized, then start batch generation once everything is correct.",
+        "Review the color images on the canvas, adjust any individual image you're unhappy with, and download the images once satisfied."
+    ],
+    "faq": [
+        {
+            "q": "How do I batch-color multiple black-and-white manga line drawings?",
+            "a": "Upload multiple line drawings and one color reference image, and the assistant will batch-color them according to the reference image's colors. Before generating, it will confirm any special requests with you, such as specifying the color of a certain area. After generation, all color images will appear directly on the canvas so you can compare them."
+        },
+        {
+            "q": "Will the original lines become blurry or distorted after coloring?",
+            "a": "Usually not. This tool tries to preserve the original outline lines and character appearance when coloring. If an individual image's lines aren't clear enough, you can ask for adjustments in the chat box and regenerate just that image."
+        },
+        {
+            "q": "What if I'm unhappy with one of the batch-generated color images?",
+            "a": "You can modify just that one image without regenerating everything. Select the image card you're unhappy with on the canvas, tell the assistant in the chat box how you want it changed, and regenerate it."
+        },
+        {
+            "q": "What kind of color reference image should I prepare?",
+            "a": "Just provide a color illustration, animation screenshot, or character color image with clear colors. The tool mainly references its color palette, lighting and shadow, and overall texture. The clearer the lighting in the image, the more consistent the style of the batch-colored images will be."
+        }
+    ],
+    "keywords": [
+        "batch line art coloring",
+        "manga line art coloring",
+        "AI line art colorization",
+        "black and white line art coloring",
+        "colorize from reference image",
+        "anime line art coloring"
+    ]
+}

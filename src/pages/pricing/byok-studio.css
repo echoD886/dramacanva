@@ -1,0 +1,447 @@
+.sa-byok-studio {
+    width: 100%;
+    max-width: 1240px;
+    margin: 32px auto 48px;
+    color: var(--libtv-paper);
+}
+.sa-byok-studio h2 {
+    font-size: clamp(22px, 2.2vw, 30px);
+    letter-spacing: -0.025em;
+    line-height: 1.25;
+    margin: 0 0 16px;
+}
+.sa-byok-studio h3 {
+    font-size: 17px;
+    line-height: 1.4;
+    margin: 0 0 12px;
+}
+.sa-byok-studio p,
+.sa-byok-studio li {
+    line-height: 1.7;
+}
+.sa-byok-studio p {
+    color: var(--libtv-muted);
+}
+.sa-byok-studio svg {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 auto;
+}
+.sa-byok-studio button:focus-visible,
+.sa-byok-studio input:focus-visible,
+.sa-byok-studio summary:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
+.sa-byok-master {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+    border: 1px solid var(--libtv-line);
+    border-radius: 24px;
+    padding: clamp(22px, 3vw, 42px);
+    gap: 32px;
+    background: var(--libtv-panel-deep);
+}
+.sa-byok-overview {
+    align-self: center;
+    min-width: 0;
+}
+.sa-byok-eyebrow {
+    display: block;
+    color: var(--libtv-muted);
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    margin-bottom: 22px;
+}
+.sa-byok-overview h1 {
+    font-size: clamp(30px, 3.4vw, 48px);
+    line-height: 1.12;
+    letter-spacing: -0.045em;
+    margin: 0 0 22px;
+    text-wrap: balance;
+}
+.sa-byok-lead {
+    font-size: 15px;
+    max-width: 56ch;
+}
+.sa-byok-facts {
+    display: grid;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 28px 0 0;
+}
+.sa-byok-facts li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+}
+.sa-byok-facts svg {
+    margin-top: 2px;
+}
+.sa-byok-offer {
+    align-self: start;
+    min-width: 0;
+    padding: 28px;
+    background: var(--libtv-panel);
+    border: 1px solid var(--libtv-line);
+    border-radius: 18px;
+}
+.sa-byok-offer h2 {
+    font-size: 19px;
+}
+.sa-byok-offer p,
+.sa-byok-offer small {
+    font-size: 12px;
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+}
+.sa-byok-price-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 8px 12px;
+    margin-bottom: 16px;
+}
+.sa-byok-price-row strong {
+    font-size: clamp(32px, 3.3vw, 46px);
+    letter-spacing: -0.04em;
+}
+.sa-byok-price-row > span {
+    color: var(--libtv-muted);
+    font-size: 13px;
+}
+.sa-byok-price-row s {
+    font-size: 15px;
+}
+.sa-byok-price-row .sa-byok-save {
+    padding: 2px 8px;
+    border: 1px solid var(--libtv-line);
+    border-radius: 999px;
+    color: var(--libtv-paper);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+}
+.sa-byok-offer .sa-byok-trial-note {
+    display: block;
+    margin-top: 8px;
+    color: var(--libtv-muted);
+    font-size: 12px;
+    line-height: 1.5;
+}
+.sa-byok-fee-boundary {
+    padding-top: 14px;
+    border-top: 1px solid var(--libtv-line);
+}
+.sa-byok-studio .sa-byok-primary {
+    width: 100%;
+    min-height: 48px;
+    margin: 16px 0 12px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    background: var(--libtv-paper);
+    color: var(--libtv-panel-deep);
+    font-weight: 650;
+    line-height: 1.45;
+}
+.sa-byok-studio button:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+.sa-byok-offer-links {
+    display: grid;
+    gap: 14px;
+    margin-top: 20px;
+}
+.sa-byok-offer-links button,
+.sa-byok-pillars button,
+.sa-byok-protocols button {
+    display: inline-flex;
+    justify-content: flex-start;
+    gap: 8px;
+    align-items: center;
+    text-align: start;
+    padding: 0;
+    background: transparent;
+    color: var(--libtv-paper);
+    font-size: 12px;
+    line-height: 1.6;
+}
+.sa-byok-suite {
+    grid-column: 1 / -1;
+    border-top: 1px solid var(--libtv-line);
+    padding-top: 24px;
+}
+.sa-byok-suite h3 {
+    font-size: 12px;
+    color: var(--libtv-muted);
+    font-weight: 500;
+}
+.sa-byok-suite ul {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sa-byok-suite li {
+    padding: 6px 10px;
+    border: 1px solid var(--libtv-line);
+    border-radius: 6px;
+    font-size: 12px;
+}
+.sa-byok-pillars {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin: 24px 0 40px;
+}
+.sa-byok-pillars article {
+    padding: 24px;
+    border: 1px solid var(--libtv-line);
+    border-radius: 16px;
+    background: var(--libtv-panel-deep);
+}
+.sa-byok-step-number {
+    display: block;
+    color: var(--libtv-muted);
+    font-variant-numeric: tabular-nums;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    margin-bottom: 24px;
+}
+.sa-byok-pillars p,
+.sa-byok-workflow p {
+    font-size: 13px;
+    margin: 0;
+}
+.sa-byok-pillars button {
+    margin-top: 18px;
+}
+.sa-byok-calculator {
+    padding: clamp(20px, 3vw, 32px);
+    border: 1px solid var(--libtv-line);
+    border-radius: 20px;
+    background: var(--libtv-panel-deep);
+}
+.sa-byok-calculator header p {
+    max-width: 90ch;
+    font-size: 13px;
+}
+.sa-byok-calc-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, 1fr);
+    gap: 24px;
+    margin: 26px 0 16px;
+    align-items: end;
+}
+.sa-byok-calc-controls label {
+    display: grid;
+    gap: 10px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.sa-byok-calc-controls input[type="number"] {
+    min-width: 0;
+    width: 100%;
+    border: 1px solid var(--libtv-line);
+    border-radius: 8px;
+    background: var(--libtv-panel);
+    color: var(--libtv-paper);
+    padding: 10px 12px;
+    min-height: 44px;
+    font-size: 17px;
+}
+.sa-byok-volume label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.sa-byok-volume strong {
+    font-size: 21px;
+}
+.sa-byok-volume input {
+    width: 100%;
+    margin: 12px 0 6px;
+    accent-color: var(--libtv-paper);
+    min-height: 24px;
+}
+.sa-byok-volume > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.sa-byok-studio .sa-byok-volume button {
+    background: transparent;
+    color: var(--libtv-muted);
+    border: 1px solid var(--libtv-line);
+    border-radius: 6px;
+    min-height: 32px;
+    padding: 4px 10px;
+    font-size: 12px;
+}
+.sa-byok-studio .sa-byok-volume button[aria-pressed="true"] {
+    background: var(--libtv-paper);
+    color: var(--libtv-panel-deep);
+}
+.sa-byok-calc-note {
+    font-size: 11px;
+    margin: 8px 0;
+}
+.sa-byok-empty-estimate {
+    border: 1px dashed var(--libtv-line);
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+    font-size: 13px;
+    margin: 24px 0 0;
+}
+.sa-byok-comparison {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+}
+.sa-byok-comparison article {
+    padding: 22px;
+    background: var(--libtv-panel);
+    border: 1px solid var(--libtv-line);
+    border-radius: 12px;
+    min-width: 0;
+}
+.sa-byok-comparison h3 {
+    font-size: 13px;
+    color: var(--libtv-muted);
+}
+.sa-byok-comparison strong,
+.sa-byok-difference > strong {
+    font-size: clamp(23px, 2.6vw, 34px);
+    letter-spacing: -0.03em;
+}
+.sa-byok-comparison dl {
+    display: grid;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--libtv-muted);
+    margin: 18px 0 0;
+}
+.sa-byok-comparison dl div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.sa-byok-comparison dd {
+    margin: 0;
+}
+.sa-byok-difference {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding-top: 24px;
+}
+.sa-byok-difference h3 {
+    font-size: 14px;
+    margin: 0;
+}
+.sa-byok-difference p {
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+}
+.sa-byok-workflow,
+.sa-byok-protocols,
+.sa-byok-details {
+    margin-top: 44px;
+}
+.sa-byok-workflow ol {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px;
+    list-style: none;
+    padding: 0;
+    margin: 26px 0 0;
+}
+.sa-byok-workflow li {
+    padding-top: 20px;
+    border-top: 1px solid var(--libtv-line);
+}
+.sa-byok-protocols > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sa-byok-protocols span {
+    border: 1px solid var(--libtv-line);
+    background: var(--libtv-panel-deep);
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.sa-byok-protocols p {
+    font-size: 12px;
+    max-width: 90ch;
+}
+.sa-byok-details details {
+    border-bottom: 1px solid var(--libtv-line);
+    padding: 18px 0;
+}
+.sa-byok-details summary {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 550;
+}
+.sa-byok-details ul {
+    margin: 16px 0 0;
+    padding-left: 20px;
+    color: var(--libtv-muted);
+    font-size: 13px;
+}
+.sa-byok-studio .sa-byok-account {
+    margin-top: 32px;
+}
+@media (max-width: 1080px) {
+    .sa-byok-master {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .sa-byok-offer {
+        width: 100%;
+    }
+    .sa-byok-calc-controls {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .sa-byok-volume {
+        grid-column: 1 / -1;
+    }
+}
+@media (max-width: 740px) {
+    .sa-byok-studio {
+        margin-top: 22px;
+    }
+    .sa-byok-pillars,
+    .sa-byok-workflow ol,
+    .sa-byok-comparison,
+    .sa-byok-calc-controls {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .sa-byok-master {
+        padding: 20px;
+        gap: 24px;
+    }
+    .sa-byok-offer {
+        padding: 20px;
+    }
+    .sa-byok-overview h1 {
+        font-size: 32px;
+    }
+    .sa-byok-workflow ol {
+        gap: 18px;
+    }
+}

@@ -1,0 +1,78 @@
+import type { BlogLocale } from "./blog-locales";
+
+type Kling4Copy = { title: string; description: string; h1: string; keywords: string; specification: string; parameters: string; price: string };
+
+export const KLING4_COPY: Record<BlogLocale, Kling4Copy> = {
+    "en-US": {
+        title: "Kling 4 AI Video Generator & Pricing | DramaCanvas",
+        description: "Create 3–30 second Kling 4 clips in 720p or 1080p. Use frames or mixed references. Pay 4 or 5 credits per output second; the displayed price is final.",
+        h1: "Kling 4 AI Video Generator",
+        keywords: "Kling 4, Kling 4 free, Kling 4 online, Kling 4 API, AI video generator",
+        specification: "720p / 1080p · 3–30 sec",
+        parameters: "Mixed references: up to 10 images, 5 videos and 3 audio clips; 16:9 / 9:16 / 1:1 / 21:9. No sound.",
+        price: "720p: 4 credits/sec; 1080p: 5 credits/sec. Billed per output second. The displayed price is the final charge.",
+    },
+    "zh-CN": {
+        title: "可灵 Kling 4 视频生成与价格 | DramaCanvas",
+        description: "使用可灵 Kling 4 生成 3–30 秒短剧镜头，支持 720p、1080p、首尾帧与混合参考。按输出时长计费，每秒 4 或 5 积分，显示价即最终扣费。",
+        h1: "可灵 Kling 4 视频生成",
+        keywords: "Kling 4, 可灵4, 可灵免费, 可灵价格, AI视频生成, Kling 4 API",
+        specification: "720p / 1080p · 3–30 秒",
+        parameters: "混合参考：最多 10 张图、5 段视频、3 段音频；16:9 / 9:16 / 1:1 / 21:9。 无声。",
+        price: "720p：4 积分/秒；1080p：5 积分/秒。按输出时长计费，显示价即最终扣费。",
+    },
+    "zh-HK": {
+        title: "可靈 Kling 4 影片生成與價格 | DramaCanvas",
+        description: "使用可靈 Kling 4 製作 3–30 秒短劇鏡頭，支援 720p、1080p、首尾幀及混合參考。按輸出時長收費，每秒 4 或 5 積分，顯示價格即最終扣費。",
+        h1: "可靈 Kling 4 影片生成",
+        keywords: "Kling 4, 可靈4, 可靈免費, 可靈價格, AI生成影片, Kling 4 API",
+        specification: "720p / 1080p · 3–30 秒",
+        parameters: "混合參考：最多 10 張圖、5 段影片、3 段音訊；16:9 / 9:16 / 1:1 / 21:9。 無聲。",
+        price: "720p：4 積分/秒；1080p：5 積分/秒。按輸出時長收費，顯示價格即最終扣費。",
+    },
+    "zh-TW": {
+        title: "可靈 Kling 4 影片生成與價格 | DramaCanvas",
+        description: "使用可靈 Kling 4 製作 3–30 秒短劇鏡頭，支援 720p、1080p、首尾影格及混合參考。按輸出時長計費，每秒 4 或 5 點數，顯示價格即最終扣款。",
+        h1: "可靈 Kling 4 線上影片生成",
+        keywords: "Kling 4, 可靈4, 可靈免費, 可靈價格, AI影片生成, Kling 4 API",
+        specification: "720p / 1080p · 3–30 秒",
+        parameters: "混合參考：最多 10 張圖、5 段影片、3 段音訊；16:9 / 9:16 / 1:1 / 21:9。 無聲。",
+        price: "720p：4 點數/秒；1080p：5 點數/秒。按輸出時長計費，顯示價格即最終扣款。",
+    },
+    "ja-JP": {
+        title: "Kling 4 動画生成の使い方・料金 | DramaCanvas",
+        description: "Kling 4で3～30秒の動画を生成。720p・1080pに対応。開始・終了画像や混合参照を使い、出力1秒あたり4または5クレジット。表示価格が最終料金です。",
+        h1: "Kling 4 動画生成の使い方と料金",
+        keywords: "Kling 4, Kling 4 無料, Kling 4 料金, 動画生成AI, Kling 4 API",
+        specification: "720p / 1080p · 3～30秒",
+        parameters: "混合参照：画像10枚・動画5本・音声3本まで；16:9 / 9:16 / 1:1 / 21:9。 音声出力なし。",
+        price: "720p：4クレジット/秒、1080p：5クレジット/秒。出力時間で課金。表示価格が最終料金です。",
+    },
+    "ko-KR": {
+        title: "Kling 4 AI 영상 생성·가격 안내 | DramaCanvas",
+        description: "Kling 4로 3~30초 영상을 만드세요. 720p와 1080p, 시작·종료 프레임과 혼합 참조를 지원합니다. 출력 1초당 4 또는 5크레딧이며 표시 가격이 최종 청구액입니다.",
+        h1: "Kling 4 AI 영상 생성과 가격",
+        keywords: "Kling 4, Kling 4 무료, 클링4, Kling 4 가격, Kling 4 API",
+        specification: "720p / 1080p · 3~30초",
+        parameters: "혼합 참조: 이미지 최대 10장, 영상 5개, 음성 3개; 16:9 / 9:16 / 1:1 / 21:9. 음성 출력 없음.",
+        price: "720p: 4크레딧/초, 1080p: 5크레딧/초. 출력 시간으로 계산하며 표시 가격이 최종 청구액입니다.",
+    },
+    "es-ES": {
+        title: "Kling 4: vídeos con IA y precios | DramaCanvas",
+        description: "Crea vídeos de 3–30 s con Kling 4 en 720p o 1080p, con fotogramas o referencias mixtas. Cuesta 4 o 5 créditos por segundo; el precio mostrado es final.",
+        h1: "Kling 4: genera vídeos con IA",
+        keywords: "Kling 4, Kling 4 gratis, Kling 4 precio, Kling 4 API, crear videos con IA",
+        specification: "720p / 1080p · 3–30 s",
+        parameters: "Referencias mixtas: hasta 10 imágenes, 5 vídeos y 3 audios; 16:9 / 9:16 / 1:1 / 21:9. Sin sonido.",
+        price: "720p: 4 créditos/s; 1080p: 5 créditos/s. Se factura la duración de salida. El precio mostrado es el cargo final.",
+    },
+    "pt-BR": {
+        title: "Kling 4: vídeos com IA e preços | DramaCanvas",
+        description: "Crie vídeos de 3–30 s com Kling 4 em 720p ou 1080p, com quadros ou referências mistas. Custa 4 ou 5 créditos por segundo; o preço exibido é final.",
+        h1: "Kling 4: crie vídeos com IA",
+        keywords: "Kling 4, Kling 4 grátis, Kling 4 preço, Kling 4 API, criar vídeo com IA",
+        specification: "720p / 1080p · 3–30 s",
+        parameters: "Referências mistas: até 10 imagens, 5 vídeos e 3 áudios; 16:9 / 9:16 / 1:1 / 21:9. Sem som.",
+        price: "720p: 4 créditos/s; 1080p: 5 créditos/s. Cobrança pela duração de saída. O preço exibido é o valor final.",
+    },
+};

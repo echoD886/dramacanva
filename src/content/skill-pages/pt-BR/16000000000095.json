@@ -1,0 +1,67 @@
+{
+    "title": "Crie prompts de imagem e vídeo com IA e storyboards",
+    "metaDescription": "Para iniciantes em imagens e vídeos com IA. No {brand}, envie uma ideia ou referência; o assistente organiza descrições visuais e um storyboard com prompts.",
+    "oneLiner": "Você dá uma ideia ou imagem, e ele gera no canvas descrições para imagens e um storyboard, ideal para iniciantes.",
+    "intro": [
+        "Digite uma ideia visual ou envie uma imagem de referência; o assistente escreve no canvas descrições fáceis de entender e organiza o storyboard, reduzindo o visual artificial. Ele não gera o vídeo final diretamente.",
+        "Você não precisa entender de termos profissionais de fotografia. Basta ter uma ideia simples do que quer desenhar ou enviar uma imagem de referência de que goste, ou até um vídeo de referência, para começar.",
+        "Ao terminar, você recebe no canvas cards de texto organizados, incluindo prompts prontos para gerar imagens (instruções de descrição para IA) e um storyboard que detalha o que acontece em cada cena."
+    ],
+    "example": {
+        "input": "Quero gerar uma cena na porta de um café em uma noite chuvosa, com o personagem abatido, sem aquele ar artificial de boneco de plástico.",
+        "output": "Um card aparece no canvas com prompts de imagem organizados por iluminação, ambiente e ações do sujeito, além do ângulo da câmera e detalhes do reflexo das gotas de chuva; você pode copiar direto para gerar a imagem."
+    },
+    "scenarios": [
+        "Ao criar pessoas ou cenários com IA, a imagem sempre parece um boneco de plástico artificial, e você quer um resultado mais realista.",
+        "Você vê uma imagem ou trecho de vídeo de referência de que gosta e quer criar algo novo seguindo o estilo de filmagem e os movimentos de câmera.",
+        "Quer criar um vídeo, mas não sabe como planejar as cenas; as descrições ficam rígidas e sem ações dos personagens.",
+        "Você escreveu um storyboard longo e confuso demais e não consegue identificar quais cenas são dispensáveis ou devem ser cortadas."
+    ],
+    "problems": [
+        {
+            "pain": "Você enche os prompts de imagem de adjetivos rebuscados, mas o resultado continua artificial, com aparência de plástico.",
+            "solve": "Troque adjetivos inúteis por detalhes concretos de ambiente, iluminação e vida cotidiana, deixando a imagem mais natural e realista."
+        },
+        {
+            "pain": "As cenas de vídeo ficam rígidas demais, como um papel de parede de paisagem estática, sem tensão dramática.",
+            "solve": "Ajuda a esclarecer o objetivo do personagem, os obstáculos que ele enfrenta e microgestos corporais, fazendo a pessoa na cena realmente se mover."
+        },
+        {
+            "pain": "O storyboard fica longo e arrastado, e você não sabe quais cenas são úteis nem quais devem ser cortadas.",
+            "solve": "Analisa cena por cena com três critérios — emoção, ação e tensão — e remove as cenas extras que não acrescentam nada."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas.",
+        "Descreva a cena que quer criar ou envie diretamente imagens ou vídeos de referência.",
+        "Aguarde a IA gerar no canvas os cards de prompt e o storyboard.",
+        "Revise os cards de texto gerados e ajuste o conteúdo conforme necessário.",
+        "Copie ou baixe o resultado para usar na geração das imagens."
+    ],
+    "faq": [
+        {
+            "q": "As imagens geradas por IA sempre parecem plásticas e artificiais. Como resolver isso?",
+            "a": "Abandone o hábito de empilhar adjetivos rebuscados e use detalhes concretos de ambiente e iluminação. Esta habilidade divide a cena em sujeito, cenário e detalhes essenciais, além de acrescentar pequenas imperfeições realistas. Assim, as imagens geradas ficam mais naturais, com menos aparência de boneco e de pintura a óleo."
+        },
+        {
+            "q": "Se eu vir uma imagem ou um vídeo curto bonito, consigo escrever prompts a partir dele?",
+            "a": "Sim, basta enviar a imagem ou o vídeo de referência. Ele analisa a luz, as ações dos personagens e os movimentos de zoom e câmera, e extrai as descrições correspondentes. Você pode manter esse método de filmagem e trocar pelos seus próprios personagens ou produtos para gerar novas imagens."
+        },
+        {
+            "q": "Ao escrever descrições de vídeo, como evitar cenas paradas como papel de parede, sem ação?",
+            "a": "Ao escrever o prompt, defina o objetivo do personagem, os obstáculos e ações corporais específicas em vez de descrever apenas a paisagem. Descrever só uma bela vista resulta em uma cena vazia e estática. Com ações e conflito, os trechos de vídeo gerados pela IA ganham movimento."
+        },
+        {
+            "q": "Meu storyboard ficou longo demais. Como saber quais cenas devo cortar?",
+            "a": "Verifique se a cena muda a emoção, impulsiona a ação ou aumenta a tensão; se não cumprir nenhum dos três, pode cortar. O assistente analisa cena por cena com esses critérios, reduz o número de cenas e evita um ritmo arrastado no vídeo."
+        }
+    ],
+    "keywords": [
+        "remover efeito plástico em imagens de IA",
+        "como escrever prompts para vídeos de IA",
+        "criar prompt a partir de imagem",
+        "como fazer storyboard para vídeo",
+        "modelo de prompt para gerar imagens com IA",
+        "planejamento de cenas de vídeo"
+    ]
+}

@@ -1,0 +1,16 @@
+.sa-holiday-backdrop { position: fixed; inset: 0; z-index: 1200; display: grid; place-items: center; padding: 20px; background: rgba(0, 0, 0, .68); }
+.sa-holiday-dialog { display: grid; grid-template-columns: minmax(200px, 40%) minmax(0, 1fr); width: min(790px, 100%); overflow: hidden; border: 1px solid #34475a; border-radius: 22px; background: #151b22; color: #f5f8fb; box-shadow: 0 24px 80px rgba(0,0,0,.48); }
+.sa-holiday-art { min-height: 390px; background: #10263e url('/marketing/holiday-story-moon-2026.webp') center / cover no-repeat; }
+.sa-holiday-copy { position: relative; display: flex; flex-direction: column; justify-content: center; gap: 16px; padding: 44px 36px 34px; }
+.sa-holiday-close { position: absolute; top: 18px; right: 18px; display: grid; place-items: center; width: 34px; height: 34px; border: 0; border-radius: 50%; background: transparent; color: #e2e8ee; cursor: pointer; }
+.sa-holiday-close:hover, .sa-holiday-close:focus-visible { background: #293746; }
+.sa-holiday-close svg { width: 19px; height: 19px; }
+.sa-holiday-eyebrow { color: #77d8ef; font-size: 12px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+.sa-holiday-copy h2 { margin: 0; font-size: clamp(25px, 3vw, 33px); line-height: 1.2; letter-spacing: -.03em; }
+.sa-holiday-copy p { margin: 0; color: #c2cbd4; font-size: 14px; line-height: 1.7; }
+.sa-holiday-code { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; border: 1px dashed #617c90; border-radius: 10px; background: #0e141b; font-size: 13px; }
+.sa-holiday-code strong { font-size: 16px; letter-spacing: .08em; }
+.sa-holiday-copy > a { display: block; padding: 13px 18px; border-radius: 10px; background: #73d8ef; color: #101820; font-weight: 700; text-align: center; text-decoration: none; }
+.sa-holiday-copy > a:hover, .sa-holiday-copy > a:focus-visible { background: #a1e8f6; }
+.sa-holiday-copy small { color: #9eaab6; font-size: 11px; line-height: 1.5; }
+@media (max-width: 640px) { .sa-holiday-dialog { grid-template-columns: 1fr; max-height: calc(100dvh - 40px); overflow-y: auto; } .sa-holiday-art { min-height: 150px; } .sa-holiday-copy { padding: 28px 24px 24px; } }

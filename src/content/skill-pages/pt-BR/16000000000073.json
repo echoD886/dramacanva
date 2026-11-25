@@ -1,0 +1,66 @@
+{
+    "title": "Design de personagens: personalidade e relações | {brand}",
+    "metaDescription": "Para quem escreve séries, romances ou vídeos. Insira a ideia do personagem e a IA organiza no canvas do {brand} cartões de personalidade, fala e relações.",
+    "oneLiner": "Insira a ideia do personagem e organize no canvas cartões de texto sobre ele para quem escreve histórias.",
+    "intro": [
+        "Esta é uma ferramenta de criação que ajuda você a desenhar os personagens da sua história. Muita gente escreve personagens sem profundidade, que falam todos do mesmo jeito; esta ferramenta ajuda você a organizar a personalidade dos personagens e a deixá-los mais vivos.",
+        "Você só precisa ter uma ideia inicial sobre a pessoa. Por exemplo, que tipo de pessoa ela é, o que aconteceu com ela, ou ainda o esboço da história que você já tem e os rascunhos de personagens que não ficaram como você queria.",
+        "Ao final, a IA gera no canvas do {brand} cartões de texto com o dossiê detalhado do personagem, a rede de relações entre os personagens e os pontos de mudança psicológica. Você pode ler, editar ou copiar para usar direto."
+    ],
+    "example": {
+        "input": "Quero escrever sobre um jovem cozinheiro medroso que quer proteger a irmã, e o vilão é o dono arrogante de um restaurante. Me ajude a deixar esses dois personagens mais completos.",
+        "output": "O canvas gera cartões de texto do protagonista e do vilão: o desejo profundo e a fraqueza do cozinheiro, um jeito de falar próprio dele e o processo de mudança de postura, da tolerância à reação, diante das provocações do dono do restaurante."
+    },
+    "scenarios": [
+        "Na hora de escrever o começo da história, a personalidade do protagonista está vaga demais e você não sabe por que ele insiste em fazer aquilo.",
+        "Os coadjuvantes parecem só estar de passagem e poderiam ser cortados sem afetar o enredo; você não sabe como torná-los mais importantes.",
+        "Depois de escrever alguns diálogos, você percebe que todos falam com o mesmo tom e, tapando os nomes, não dá para saber quem é quem.",
+        "O protagonista de repente entende tudo e melhora, e a mudança parece irreal; você não sabe como criar uma virada convincente."
+    ],
+    "problems": [
+        {
+            "pain": "O personagem parece de papel: só tem profissão e aparência, falta alma.",
+            "solve": "Mapeie o que a pessoa mais quer por dentro e do que tem medo, e gere no canvas cartões de dossiê que explicam seus motivos e conflitos."
+        },
+        {
+            "pain": "Todos os personagens falam de um jeito parecido, sem identidade própria.",
+            "solve": "A partir da história de cada um, organize o tom de fala e os hábitos de vocabulário de cada personagem, listando claramente essas marcas nas falas dentro dos cartões."
+        },
+        {
+            "pain": "A passagem do protagonista da imaturidade à maturidade é brusca demais e pouco convincente.",
+            "solve": "Desenhe escolhas difíceis e momentos-chave de adversidade, mostrando no canvas o processo psicológico de mudança passo a passo do personagem."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em \"Usar esta habilidade\" para abrir a caixa de diálogo do canvas do {brand}.",
+        "Insira sua ideia de personagem, o esboço da história ou o problema de personagem que quer resolver.",
+        "Veja os cartões de dossiê, rede de relações e mudanças psicológicas que a IA gerou no canvas.",
+        "Edite o conteúdo dos cartões no canvas e, quando estiver satisfeito, copie ou baixe o resultado."
+    ],
+    "faq": [
+        {
+            "q": "Como deixar os personagens mais tridimensionais ao escrever um romance ou roteiro?",
+            "a": "O ponto-chave é descobrir o que o personagem realmente quer e que preço ele aceita pagar por isso. Esta habilidade ajuda você a organizar os motivos e os conflitos internos e a transformá-los em cartões de dossiê claros no canvas."
+        },
+        {
+            "q": "Como evitar que todos os personagens falem do mesmo jeito?",
+            "a": "É preciso definir para cada personagem hábitos de linguagem coerentes com sua posição e personalidade. A IA organiza, a partir da história de cada um, um estilo de fala próprio que ajuda a diferenciar as falas dos personagens."
+        },
+        {
+            "q": "E quando os coadjuvantes parecem descartáveis, sem função na trama?",
+            "a": "Dê ao coadjuvante um objetivo próprio que entre em choque ou em equilíbrio com o objetivo do protagonista. A habilidade organiza a rede de relações no canvas, para que o coadjuvante deixe de ser só figurante e realmente mova a história."
+        },
+        {
+            "q": "Quem escreve histórias por hobby precisa pensar em arco de personagem?",
+            "a": "Precisa. Arco de personagem é o processo de crescimento psicológico depois de passar por dificuldades. A habilidade lista os momentos-chave da mudança, deixando o crescimento mais natural e evitando soluções repentinas."
+        }
+    ],
+    "keywords": [
+        "design de personagens",
+        "como criar um personagem",
+        "personalidade de personagem",
+        "mapa de relações entre personagens",
+        "arco de personagem",
+        "ficha de personagem para romance"
+    ]
+}

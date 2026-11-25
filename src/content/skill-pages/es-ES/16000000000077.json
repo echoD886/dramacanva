@@ -1,0 +1,66 @@
+{
+    "title": "Corto de plano secuencia en {brand}: ordena y ahorra",
+    "metaDescription": "Para cortos de plano secuencia: ordena el movimiento en el lienzo, fija personajes y composición con imágenes y genera vídeos con costes y clips continuos.",
+    "oneLiner": "Introduce tu idea de historia, ordena el movimiento de cámara en el lienzo y obtén storyboards y vídeos continuos del corto.",
+    "intro": [
+        "Es una herramienta de planificación para cortos continuos. Muchos generan el vídeo directamente y no solo gastan más, sino que los personajes cambian de cara con facilidad; esto te ayuda a ordenar primero las acciones y el movimiento de cámara para no desperdiciar generaciones a ciegas.",
+        "Solo necesitas una idea de historia o un guion breve; también puedes subir una foto de referencia del protagonista. Si no has decidido cuántos segundos dura cada segmento, primero te lo planificará según el formato habitual de vídeo corto de 15 segundos.",
+        "Al terminar, tendrás en el lienzo una tabla de costes por fases, una tabla de storyboard (que divide el vídeo en planos y detalla qué se rueda en cada uno), imágenes del primer fotograma que fijan la composición y clips de vídeo."
+    ],
+    "example": {
+        "input": "Quiero hacer un corto de plano secuencia de 15 segundos: un detective empuja la puerta de un viejo despacho oscuro, camina rápido hasta el escritorio y coge un sobre manchado de sangre. El protagonista es un hombre de pelo corto con gabardina gris.",
+        "output": "En el lienzo se generan una estimación de costes por tramos, las indicaciones de movimiento de cámara de 3 planos consecutivos (abrir la puerta, acercarse y primer plano del sobre) y tarjetas de imágenes de referencia para cada plano, junto con las tarjetas de clips de vídeo correspondientes."
+    },
+    "scenarios": [
+        "Quieres crear imágenes continuas sin cambiar de plano, pero generar el vídeo directamente es demasiado caro y necesitas validar antes la composición con imágenes.",
+        "Todos los planos duran lo mismo y la imagen resulta plana y mecánica; quieres diseñar un ritmo con momentos rápidos y lentos.",
+        "El mismo protagonista cambia de cara y de ropa al cambiar de plano; quieres mantener en lo posible la coherencia del aspecto del personaje.",
+        "La generación de vídeo falla una y otra vez y no sabes si es por superar el límite de caracteres de la descripción o por palabras sensibles."
+    ],
+    "problems": [
+        {
+            "pain": "Generar vídeo directamente con texto cuesta demasiado y, si la imagen no convence, no puedes permitirte rehacerlo",
+            "solve": "Primero te ayuda a ordenar el movimiento y generar imágenes estáticas; cuando confirmes que la imagen te convence, crea el vídeo para reducir el gasto de reintentos."
+        },
+        {
+            "pain": "Todos los planos duran lo mismo, el ritmo visual es plano y aburrido y dan ganas de pasar de largo",
+            "solve": "Distribuye según la trama duraciones distintas, como cortes rápidos de 4 segundos o avances lentos de 6 segundos, y coloca un conflicto al inicio para dar altibajos al ritmo."
+        },
+        {
+            "pain": "Al cambiar de plano, el protagonista cambia de aspecto y, cuando aparecen dos personas a la vez, las caras se confunden con facilidad",
+            "solve": "Escribe los rasgos principales del protagonista al inicio de la descripción y unifica la forma de citar las imágenes de referencia para reducir al mínimo los cambios de cara y las confusiones en planos conjuntos."
+        }
+    ],
+    "steps": [
+        "Haz clic en «Usar esta habilidad» en la biblioteca de habilidades y escribe la idea de la historia o sube una imagen en el cuadro de diálogo de la derecha.",
+        "Revisa el movimiento de cámara del storyboard y la tabla de costes en el lienzo; si quieres ajustar algo, dile al asistente cómo cambiarlo.",
+        "Genera las imágenes del primer fotograma del storyboard para fijar la imagen y los personajes; cuando estés conforme, genera los vídeos correspondientes.",
+        "Ordena los clips en la línea de tiempo del vídeo antes de exportar y combina varios clips en un corto continuo."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo hacer un corto sin pasarme del presupuesto y gastar menos en vano?",
+            "a": "La clave es avanzar en tres fases: fija primero con imágenes estáticas el movimiento y los personajes, y cuando estés conforme, genera el vídeo para no desperdiciar generaciones directas. En la fase de imágenes, modificar la composición y los diálogos cuesta muy poco y te ahorra el alto coste de regenerar el vídeo una y otra vez."
+        },
+        {
+            "q": "¿Por qué cambian siempre la cara y la ropa del protagonista en distintos planos?",
+            "a": "El sistema vuelve a componer por defecto al generar cada plano. Puedes escribir el aspecto del protagonista al inicio de la descripción y adjuntar imágenes de referencia para mantener la coherencia del personaje en lo posible. Si aparecen dos personas en el mismo plano, conviene describir por separado el peinado, los rasgos faciales y la ropa de cada personaje; así se reducen eficazmente los cambios de cara y las confusiones."
+        },
+        {
+            "q": "¿Cómo puedo cambiar un corto que resulta plano y soporífero?",
+            "a": "Puedes romper la monotonía alternando planos largos y cortos y colocando un conflicto en los primeros 3 segundos; por ejemplo, asigna 4 segundos con corte rápido a las escenas de acción y 6 segundos con avance lento a las emocionales. Evita que todos los planos duren lo mismo y acompáñalos de un conflicto o suspense claro al principio; así el ritmo visual será más ágil y atractivo."
+        },
+        {
+            "q": "¿Cómo revisar los errores cuando falla la generación de la imagen?",
+            "a": "Revisa paso a paso si se superó el límite de caracteres, si hay palabras sensibles bloqueadas y si hay conflicto entre texto e imagen; primero confirma que la descripción no supere el límite de 1500 caracteres. Después comprueba si hay términos bloqueados como peleas o insinuaciones; por ejemplo, cambia dark, que indica tono oscuro, por deep; si sigue fallando, revisa si el texto entra en conflicto con la imagen de referencia."
+        }
+    ],
+    "keywords": [
+        "creación de cortos con IA",
+        "corto en plano secuencia",
+        "storyboard con IA",
+        "crear cortos con IA sin gastar mucho",
+        "consistencia de personajes IA",
+        "movimiento de cámara en cortos"
+    ]
+}

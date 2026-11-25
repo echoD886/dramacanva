@@ -1,0 +1,66 @@
+{
+    "title": "Sube una foto y la IA crea un vídeo publicitario tecnológico",
+    "metaDescription": "Para electrónica: sube una foto, revisa los ángulos y genera un vídeo publicitario sin fondos desordenados, con luz tecnológica y el acabado del producto.",
+    "oneLiner": "Dale una foto del producto y crea en el lienzo un vídeo de producto con estilo tecnológico; ideal para vendedores de electrónica.",
+    "intro": [
+        "Envía al asistente una foto de un producto electrónico y podrás crear en el lienzo un vídeo publicitario con estilo tecnológico, ideal para vendedores de electrónica. La imagen solo muestra el producto, con juegos de luz y primeros planos que resaltan el acabado del dispositivo.",
+        "Solo tienes que preparar una foto nítida del producto electrónico. Cuando se la envíes al asistente, primero generará imágenes desde varios ángulos para que compruebes si los botones y el contorno coinciden con el original.",
+        "Cuando confirmes que el aspecto es correcto, obtendrás en el lienzo un vídeo dinámico solo del producto, de 15 segundos por defecto. Puedes descargarlo directamente o ordenarlo en la línea de tiempo de vídeo y exportarlo."
+    ],
+    "example": {
+        "input": "Sube una foto de unos auriculares inalámbricos con cancelación de ruido negros y di: ayúdame a crear un vídeo publicitario con estilo tecnológico.",
+        "output": "En el lienzo aparecerán primero una imagen de los auriculares sobre fondo blanco y tres vistas desde distintos ángulos para que las revises; tras confirmar, se generará una tarjeta de vídeo publicitario de 15 segundos con los auriculares girando en macro entre luces y sombras oscuras."
+    },
+    "scenarios": [
+        "Acabas de terminar un producto electrónico nuevo y necesitas un vídeo corto de presentación que destaque su aspecto y su estilo tecnológico.",
+        "Una tienda online pone a la venta productos electrónicos y necesita un vídeo de imagen principal sin fondos desordenados que muestre el acabado del dispositivo.",
+        "Para presentar o mostrar un proyecto de hardware, quieres crear rápidamente una demostración dinámica del producto con sensación de alta gama.",
+        "Para crear un vídeo promocional de un producto electrónico, te faltan barridos de luz limpios y primeros planos del producto."
+    ],
+    "problems": [
+        {
+            "pain": "La IA tiende a cambiar el aspecto del producto al crear vídeos, y los botones y conectores se deforman con facilidad.",
+            "solve": "Antes de crear el vídeo, se generan fotos desde varios ángulos para que las revises y, cuando el aspecto coincide con el original, se genera el vídeo."
+        },
+        {
+            "pain": "En la imagen siempre hay mesas desordenadas o personas extrañas que roban protagonismo al producto.",
+            "solve": "Solo se conserva el producto, con fondos oscuros o espacios de luz y sombra, sin añadir personas ni objetos de más."
+        },
+        {
+            "pain": "Iluminar tú mismo el producto para grabarlo es difícil y no consigues ese aire tecnológico de alta gama.",
+            "solve": "La IA simula acercamientos de cámara, giros y barridos de luz para mostrar los reflejos del material de la carcasa."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y sube la foto de tu producto electrónico en el cuadro de diálogo de la derecha.",
+        "Revisa las imágenes del producto desde varios ángulos generadas en el lienzo y comprueba si los detalles del aspecto coinciden con el original.",
+        "Cuando estés satisfecho, dile al asistente que continúe; si no lo estás, envía un mensaje para que vuelva a ajustar las imágenes.",
+        "Previsualiza el clip de vídeo publicitario generado, ordénalo en la línea de tiempo de vídeo y exporta el resultado final."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo se crea con IA un vídeo publicitario de producto con estilo tecnológico?",
+            "a": "Sube una foto nítida de un producto electrónico y revisa primero las imágenes generadas desde varios ángulos. Cuando las confirmes, el sistema podrá generar un vídeo de presentación con luces y sombras tecnológicas. La tarjeta de vídeo creada se puede descargar directamente o puedes ordenarla en la línea de tiempo de vídeo del lienzo y exportar el vídeo final."
+        },
+        {
+            "q": "Cuando la IA crea el vídeo, ¿cómo se evita que se deformen el aspecto del producto y los botones?",
+            "a": "La clave es revisar las imágenes desde varios ángulos antes de generar el vídeo: el sistema crea primero una imagen sobre fondo blanco y tres vistas para que compruebes los detalles y, cuando confirmes que el aspecto coincide con el original, genera el vídeo. Si ves desviaciones en los botones o en algún detalle, basta con decirle al asistente que ajuste esa imagen por separado; cuando esté todo a tu gusto, se genera la tarjeta de vídeo para reducir al mínimo las deformaciones."
+        },
+        {
+            "q": "¿Se pueden añadir modelos reales o escenarios de habitaciones reales al vídeo?",
+            "a": "No, esta habilidad solo hace presentaciones del producto en sí: en la imagen no aparecerán modelos reales, objetos cotidianos ni escenarios de habitaciones reales. El fondo del vídeo utiliza siempre un espacio abstracto de luces y sombras tecnológicas; si necesitas que salga una persona, puedes usar otras habilidades del lienzo diseñadas específicamente para generar escenarios."
+        },
+        {
+            "q": "Si no estás satisfecho con las imágenes o el vídeo generados, ¿se pueden modificar?",
+            "a": "Sí. En el lienzo puedes enviar mensajes en cualquier momento para que el asistente haga cambios y vuelva a generar el contenido. Si las imágenes desde varios ángulos tienen desviaciones, solo tienes que decirle al asistente qué ángulo quieres ajustar; no hace falta rehacerlo todo. Si no estás satisfecho con la tarjeta de vídeo creada, también puedes indicarle directamente al asistente tus cambios para que vuelva a generar el clip de vídeo."
+        }
+    ],
+    "keywords": [
+        "vídeo publicitario de producto",
+        "vídeo promocional con IA",
+        "generar vídeos de productos electrónicos",
+        "vídeo de presentación de producto",
+        "IA para anuncios de electrónica",
+        "vídeos con estilo tecnológico"
+    ]
+}

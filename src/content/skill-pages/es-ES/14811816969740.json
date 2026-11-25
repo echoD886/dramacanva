@@ -1,0 +1,66 @@
+{
+    "title": "Rediseño de joyas desde bocetos o piezas | {brand}",
+    "metaDescription": "Para joyeros y aficionados. Sube a {brand} un boceto o foto, elige opciones y la IA crea diseños con nuevos materiales y motivos, conservando la estructura.",
+    "oneLiner": "Para creadores de joyas: sube un boceto o una foto de una pieza antigua y genera varios rediseños en el lienzo.",
+    "intro": [
+        "Esta es una herramienta de rediseño de joyas. No necesitas saber comandos de dibujo complejos: solo responde unas preguntas y la IA intentará conservar la estructura de uso original y te ayudará a probar nuevos motivos y materiales.",
+        "Solo tienes que preparar un boceto a mano, una foto de una joya existente o una breve descripción escrita de tu idea. Cuando la IA te pregunte cuánto quieres conservar del original y qué elementos añadir, marca las opciones que prefieras.",
+        "Al terminar, en el lienzo se generarán 4 rediseños con estilos diferentes, cada uno con una descripción del diseño. Puedes compararlos lado a lado en el lienzo y descargar directamente las imágenes que te convenzan."
+    ],
+    "example": {
+        "input": "Sube una foto de un anillo de plata liso y marca en las preguntas: conservar la silueta original, añadir un tema de hojas y enredaderas, y elegir nácar y diamantes pequeños como materiales.",
+        "output": "En el lienzo se generan 4 diseños de anillo con estilos diferentes: algunos con relieve en el aro, otros con nácar engastado en la parte superior; cada imagen incluye una descripción de los cambios y se puede descargar directamente."
+    },
+    "scenarios": [
+        "Tienes una joya superventas y quieres conservar su forma para desarrollar rápidamente varias novedades de la colección con motivos distintos.",
+        "Solo tienes un boceto a mano o una idea inicial y quieres ver cómo quedaría en oro o con gemas de color.",
+        "Cuando preparas propuestas personalizadas para clientes, necesitas presentar varios diseños de estilos distintos para que elijan.",
+        "Quieres integrar nubes orientales o motivos vegetales en un colgante existente y ver cómo diseñarlo de forma más armoniosa y atractiva."
+    ],
+    "problems": [
+        {
+            "pain": "Quieres actualizar una joya antigua, pero no sabes dibujar un boceto del diseño.",
+            "solve": "Sube una foto de la joya antigua y elige el motivo que quieres cambiar; la IA intentará conservar la estructura original y generará nuevos diseños."
+        },
+        {
+            "pain": "No sabes escribir instrucciones complejas en inglés para generar imágenes con IA y, tras muchos intentos, no quedas satisfecho.",
+            "solve": "Todo se hace eligiendo opciones: marca cuánto conservar, el estilo y los materiales, sin escribir instrucciones complejas."
+        },
+        {
+            "pain": "Cada vez solo obtienes un diseño, así que es difícil comparar y elegir, y cuesta cerrar la propuesta.",
+            "solve": "El lienzo genera 4 diseños con enfoques distintos y sus descripciones a la vez, para compararlos visualmente y elegir el que prefieras."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y sube una foto de la joya o un boceto en el cuadro de diálogo de la derecha.",
+        "Completa las preguntas que aparecen y marca cuánto conservar, los materiales objetivo y el tema de motivos que prefieras.",
+        "Revisa los 4 rediseños generados en el lienzo y compara visualmente el aspecto y la descripción de los cambios.",
+        "Elige la tarjeta del diseño que te convenza y descarga la imagen directamente, o pide al asistente que siga ajustando detalles."
+    ],
+    "faq": [
+        {
+            "q": "¿Se puede crear una imagen realista de joyería directamente a partir de un boceto a mano?",
+            "a": "Sí. Solo tienes que subir el boceto al lienzo y elegir materiales y gemas; la IA generará varios diseños con las texturas correspondientes tomando como referencia la silueta del boceto. Cada imagen incluye una descripción de los cambios y puedes descargar directamente las propuestas que te convenzan."
+        },
+        {
+            "q": "¿El rediseño con IA puede estropear la estructura original de la joya y hacer que no se pueda llevar?",
+            "a": "Normalmente no. Antes de diseñar, la IA intentará fijar estructuras de uso como el aro o los cierres, y por defecto ajustará sobre todo los motivos superficiales y los adornos locales. Si quieres cambiar mucho el aspecto, también puedes elegir una intensidad de evolución «recrear» en las preguntas."
+        },
+        {
+            "q": "¿Cuántos diseños distintos se pueden generar a la vez?",
+            "a": "Por defecto, el lienzo genera 4 diseños con enfoques distintos a la vez, pero también puedes elegir generar 8 en las preguntas. Cada propuesta incluye una descripción de la estructura y los motivos del cambio para que puedas compararlas y elegir lado a lado."
+        },
+        {
+            "q": "¿Los diseños generados se pueden convertir directamente en un vídeo corto de presentación de joyería?",
+            "a": "Se pueden generar clips de presentación. Si necesitas un vídeo completo, puedes ordenar los distintos fragmentos generados en la línea de tiempo de vídeo del lienzo y exportarlo. Cuando tengas la tarjeta del diseño que te convenza, solo tienes que pedir al asistente en el cuadro de diálogo que genere clips de vídeo de presentación."
+        }
+    ],
+    "keywords": [
+        "rediseño de joyas",
+        "diseño de joyas con IA",
+        "boceto a diseño de joyería",
+        "actualizar joyas",
+        "render de joyas",
+        "cambio de materiales en joyería"
+    ]
+}

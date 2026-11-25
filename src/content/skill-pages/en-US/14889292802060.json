@@ -1,0 +1,66 @@
+{
+    "title": "Upload app screenshot to 10s testimonial video & storyboard",
+    "metaDescription": "For software devs and marketers promoting with short video. Upload a UI screenshot, confirm selling points, and get a 10s testimonial video and storyboard.",
+    "oneLiner": "Give it a software screenshot to create a 10s real-life testimonial video and storyboard",
+    "intro": [
+        "This tool turns software screenshots into promotional short videos. It mimics an ordinary person at home holding a phone and giving a real recommendation, creating a 10-second vertical video.",
+        "You only need to prepare a screenshot of the software interface and note the software name, target audience, and core features. You don’t need to write shooting lines yourself or appear on camera.",
+        "When it’s done, you’ll get a storyboard table on the canvas (breaking the video into individual shots and describing what each shot shows), visual description text, and a 10-second video clip you can download."
+    ],
+    "example": {
+        "input": "Upload a screenshot of the budgeting app’s home screen and enter: \"Bookkeeping Manager, for office workers; selling points are one-second entry and automatic monthly income/expense reports.\"",
+        "output": "On the canvas, you get a 10-second three-part storyboard card, a visual description text card, and a 10-second video card showing a real person holding a phone and displaying the interface."
+    },
+    "scenarios": [
+        "A newly developed mobile app has just launched, and you want to make a testimonial video to promote it on social platforms.",
+        "You only have a few static interface images and don’t know how to write an engaging short-video voiceover script.",
+        "You want a video with a phone screen demo, but when you generate one with AI yourself, the interface often warps and moves erratically."
+    ],
+    "problems": [
+        {
+            "pain": "You only have interface screenshots and don’t know how to write natural short-video recommendation lines.",
+            "solve": "Generates a 10-second storyboard script based on the screenshot and features, arranging opening, demo, and recommendation lines in a casual, everyday tone."
+        },
+        {
+            "pain": "When you use AI to make phone-demo videos, the software interface in the frame often scrolls randomly or warps.",
+            "solve": "The visual description asks for a still screen and finger taps without swiping, keeping the original screenshot as clear and stable as possible."
+        },
+        {
+            "pain": "Ordinary promotional ads feel too stiff and get scrolled past, but you don’t have time or equipment to appear on camera yourself.",
+            "solve": "Sets up a real person recommending to camera in a home-life setting, so you can create a friendly feel without appearing on camera."
+        }
+    ],
+    "steps": [
+        "In the skills library, click \"Use this skill,\" then upload a software screenshot and enter the selling points in the chat box on the right.",
+        "Review the 10-second storyboard card generated on the canvas, and edit the lines or action notes as needed.",
+        "Tell the assistant to confirm the storyboard and generate a video visual description card on the canvas.",
+        "Tell the assistant to generate the video, play the preview directly on the canvas card, and regenerate if you’re not satisfied.",
+        "Drag the generated video clips onto the canvas video timeline, arrange them in order, and export the video."
+    ],
+    "faq": [
+        {
+            "q": "Can I really make a testimonial video with just one mobile software screenshot?",
+            "a": "Yes. You just upload a screenshot and fill in the feature selling points; {brand} will plan the 10-second shoot and generate a video card, automatically displaying your screenshot on the phone screen."
+        },
+        {
+            "q": "When the video is generated, will the software interface in the frame move randomly or become distorted?",
+            "a": "It won’t move randomly; the system will keep the screenshot as fixed and clear as possible. The visual description limits the hand to light taps without swiping, which helps reduce interface distortion or accidental scrolling."
+        },
+        {
+            "q": "If I’m not happy with the generated person or scene, can I change it?",
+            "a": "You can change it anytime. The default is a young woman in a home setting; you can manually edit the person’s appearance or scene description in the canvas text card, then regenerate the video."
+        },
+        {
+            "q": "Can this tool make videos several minutes long or compare multiple software products?",
+            "a": "No. It only makes 10-second promos for a single software product. It uses a fixed 10-second three-part rhythm (hook at the start, demo in the middle, call to action at the end) and does not support long videos or multi-product comparisons."
+        }
+    ],
+    "keywords": [
+        "app screenshot to video",
+        "app promo video maker",
+        "AI testimonial video",
+        "app review video",
+        "10-second video script generator",
+        "AI video storyboard generator"
+    ]
+}

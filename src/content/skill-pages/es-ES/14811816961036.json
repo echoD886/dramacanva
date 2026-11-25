@@ -1,0 +1,66 @@
+{
+    "title": "Crea vídeo y guion para TikTok con producto y persona",
+    "metaDescription": "Para comercio internacional. Con argumentos del producto y persona, crea en el lienzo un guion gráfico de 15-30 s y clips de venta estilo móvil.",
+    "oneLiner": "Para vendedores online: introduce el producto y la persona y crea en el lienzo un vídeo de venta natural.",
+    "intro": [
+        "Esta es una herramienta de creación que te ayuda a producir vídeos de venta de 15 a 30 segundos en el lienzo de {brand}. El contenido parece un fragmento cotidiano grabado con el móvil por una persona normal, sin dar sensación de anuncio publicitario forzado.",
+        "Solo tienes que escribir en el cuadro de diálogo las características del producto, el aspecto del modelo que aparece y su estilo de vestimenta, y subir imágenes relevantes del producto o de la persona. Si tienes ideas sobre la atmósfera del vídeo, también puedes indicarlas.",
+        "Al terminar, recibirás en el lienzo un guion gráfico ordenado por tiempo (que divide el vídeo en planos y especifica qué se graba en cada uno) y tarjetas con los clips de vídeo generados, para que puedas modificarlos cuando quieras."
+    ],
+    "example": {
+        "input": "Una chica joven se prueba en el dormitorio una camiseta blanca con estrellas y unas botas de pelo rojas; tiene una personalidad alegre y quiere un ambiente cotidiano y divertido, como si una amiga irrumpiera e interrumpiera la escena. Adjunta una foto de la ropa.",
+        "output": "En el lienzo se generan tarjetas de guion gráfico con tiempo, diálogo y acciones (por ejemplo, la chica habla a la cámara frontal y una amiga entra en plano y es apartada), además de las tarjetas de clips de vídeo correspondientes."
+    },
+    "scenarios": [
+        "Moda o belleza para mercados internacionales, con necesidad de vídeos de looks cotidianos que parezcan una conversación entre amigas o una selfi improvisada.",
+        "Promocionar productos prácticos que resuelven un problema evidente y necesitan un tono de voz muy enérgico para retener al público desde el principio.",
+        "Vender novedades u objetos curiosos y juguetes especiales, con primeros planos muy cercanos para mostrar materiales y detalles.",
+        "Tener fotos del producto e ideas para la persona y querer ordenar rápidamente los planos en el lienzo y generar una muestra."
+    ],
+    "problems": [
+        {
+            "pain": "Los diálogos del vídeo suenan demasiado a anuncio y el público se va a los dos segundos.",
+            "solve": "Diseña aperturas y conversaciones cotidianas como las de un vídeo improvisado con el móvil, convierte las funciones en acciones de uso y reduce la sensación de forzado."
+        },
+        {
+            "pain": "No sabes cómo grabar cada tipo de producto y los guiones te salen siempre con una estructura parecida.",
+            "solve": "Adapta el enfoque a distintas categorías, como productos prácticos, moda y belleza o juguetes curiosos, y diseña acciones y planos específicos para cada una."
+        },
+        {
+            "pain": "Ya tienes el guion escrito, pero no sabes cómo dividirlo en imágenes ni cómo escribir las descripciones para generar el vídeo.",
+            "solve": "Divide el guion en planos con segundos, posición de cámara y acciones indicados; cuando lo confirmes, podrás generar los clips de vídeo correspondientes en el lienzo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el cuadro de diálogo a la derecha del lienzo.",
+        "Envía los argumentos de venta del producto y las características del modelo que aparece, y sube imágenes de referencia del producto o de la persona.",
+        "Revisa las tarjetas de guion gráfico de 15 a 30 segundos generadas en el lienzo y modifica los diálogos o las acciones según necesites.",
+        "Cuando confirmes el guion gráfico, genera las tarjetas de vídeo, ordénalas en la línea de tiempo de vídeo y exporta."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo hacer un vídeo de venta para TikTok con IA?",
+            "a": "Escribe en el cuadro de diálogo los argumentos de venta del producto y las características del modelo que aparece, y sube imágenes de referencia. El sistema dividirá el contenido en un guion gráfico y generará tarjetas de clips de vídeo. Cuando el guion gráfico te convenza, arrastra los distintos vídeos generados a la línea de tiempo, ordénalos y exporta el vídeo corto completo."
+        },
+        {
+            "q": "¿El vídeo de venta generado parecerá demasiado un anuncio publicitario?",
+            "a": "Normalmente no: diseña los planos con un punto de vista cotidiano similar al de un vídeo improvisado con el móvil y convierte los argumentos de venta en conversaciones y acciones de uso diarias. Después de generarlo, puedes modificar los diálogos y las acciones en el lienzo cuando quieras; si alguna imagen no te convence, vuelve a generar ese plano."
+        },
+        {
+            "q": "Solo tengo imágenes del producto, ¿puedo hacer un vídeo de venta?",
+            "a": "Sí. Solo tienes que subir las imágenes del producto, añadir los argumentos de venta y el aspecto de la persona, y el sistema podrá dividir el guion gráfico y generar los clips de vídeo correspondientes. Si alguna imagen no te convence, puedes modificar por separado la descripción de ese plano en el lienzo y volver a generarlo."
+        },
+        {
+            "q": "¿La IA montará automáticamente los distintos vídeos generados en un vídeo final?",
+            "a": "No los monta ni los combina automáticamente: el sistema genera en el lienzo tarjetas de clips de vídeo independientes y tú debes ordenarlas en la línea de tiempo antes de exportar el vídeo final. Este diseño te permite sustituir en cualquier momento los planos que no te convenzan o cambiar su orden y controlar así el ritmo general del vídeo con más flexibilidad."
+        }
+    ],
+    "keywords": [
+        "crear vídeos de venta para TikTok",
+        "generar vídeos cortos de venta con IA",
+        "cómo escribir un guion de vídeo corto de venta",
+        "generar storyboard de vídeo para ecommerce",
+        "crear vídeos de venta para comercio internacional",
+        "vídeos de venta grabados con el móvil"
+    ]
+}

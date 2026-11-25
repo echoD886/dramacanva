@@ -1,0 +1,66 @@
+{
+    "title": "Texto ou imagem: crie um clipe contínuo de efeitos de 15s",
+    "metaDescription": "Para criadores de vídeos e curtas: com uma ideia ou imagem de referência, crie no canvas um vídeo de efeitos de 15s com cenas contínuas e sem cortes bruscos.",
+    "oneLiner": "Dê uma ideia ou imagem e ele gera, no canvas, um clipe de efeitos de 15s para criadores de vídeo.",
+    "intro": [
+        "Esta é uma ferramenta para criar vídeos de efeitos de 15 segundos. Normalmente, ao gerar vídeos com IA, a câmera fica instável e os cortes acontecem sem controle. Ela ajuda a fixar uma única tomada e faz a imagem evoluir de forma contínua por 15 segundos.",
+        "Você só precisa preparar uma frase com a ideia da cena (por exemplo, uma gota d'água derretendo e virando flor), enviar uma imagem inicial ou fornecer várias imagens de referência. Não precisa entender termos complexos de filmagem.",
+        "A IA primeiro mostra um cartão de texto no canvas explicando a ação da cena. Depois que você confirma, ela gera no canvas um cartão de vídeo de efeitos de 15 segundos, que pode ser baixado ou colocado na linha do tempo."
+    ],
+    "example": {
+        "input": "Digite uma frase: uma rosa esculpida em gelo derrete lentamente sob o sol, e a água se dissipa em pontos de luz dourados flutuantes.",
+        "output": "No canvas, primeiro é gerado um cartão de texto que descreve as mudanças do objeto e os detalhes de luz e sombra; após a confirmação, é gerado um cartão de vídeo de 15 segundos, com uma única tomada avançando e mostrando a transformação completa da rosa derretendo."
+    },
+    "scenarios": [
+        "Ao criar a abertura de uma série curta ou curta-metragem, você precisa de uma tomada contínua de 15 segundos para prender a atenção do público.",
+        "Você tem apenas uma ou duas frases de ideia visual e não sabe como descrever em detalhes para a IA criar o vídeo.",
+        "Você tem uma imagem estática e quer transformá-la em um vídeo de efeitos de 15 segundos com mudanças contínuas.",
+        "A edição precisa de uma transição e você quer uma cena de efeitos com objetos derretendo ou luzes e sombras fluindo."
+    ],
+    "problems": [
+        {
+            "pain": "Ao escrever algumas frases por conta própria, o vídeo feito pela IA fica sem graça, vazio e sem riqueza visual.",
+            "solve": "Ela divide sua ideia em objeto principal, luz e sombra e pequenas mudanças, deixando a imagem com mais camadas."
+        },
+        {
+            "pain": "O vídeo gerado pela IA muda de câmera no meio e fica com a imagem saltando, sem continuidade.",
+            "solve": "Ela mantém os 15 segundos em uma única tomada contínua, evitando cortes e saltos no meio da imagem."
+        },
+        {
+            "pain": "Medo de o vídeo feito pela IA não sair como você quer e perder tempo tentando várias vezes.",
+            "solve": "Ela primeiro gera um cartão de texto explicando o planejamento das ações; você pode ajustar até ficar satisfeito e só então gerar o vídeo."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e, no chat à direita, digite sua ideia ou envie uma imagem.",
+        "Veja o cartão de texto gerado no canvas e leia o planejamento detalhado das ações dos 15 segundos.",
+        "Confirme ou edite o texto e envie uma mensagem no chat para a IA começar a produzir o vídeo.",
+        "Baixe o cartão de vídeo de 15 segundos pronto ou organize a ordem na linha do tempo do canvas e exporte."
+    ],
+    "faq": [
+        {
+            "q": "O que fazer quando a câmera dos vídeos feitos com IA fica mudando e saltando o tempo todo?",
+            "a": "Dá para evitar cortes aleatórios com um planejamento de tomada única. Esta habilidade mantém os 15 segundos em uma única trajetória de movimento, sem dividir a cena em cortes, e faz a imagem avançar suavemente. A IA descreve em detalhes a ordem das mudanças de luz, sombra e ação em torno do seu objeto principal, deixando as transições mais contínuas e naturais."
+        },
+        {
+            "q": "Como gerar um vídeo de efeitos a partir de uma foto que eu já tenho?",
+            "a": "Basta enviar uma ou mais imagens de referência no chat do canvas e descrever o que você quer. A IA usa a imagem como ponto de partida e cria um vídeo de efeitos de 15 segundos em tomada única com mudanças contínuas. Primeiro ela gera um cartão de texto explicando a dinâmica e o planejamento de luz e sombra; depois que você confirma que está satisfeito, envia uma mensagem para gerar o cartão de vídeo."
+        },
+        {
+            "q": "Posso alterar detalhes específicos da cena antes de gerar o vídeo?",
+            "a": "Pode. Antes de gerar o vídeo, a IA mostra no canvas um cartão de texto explicando o movimento de câmera e os detalhes. Você pode ajustar a descrição e, quando estiver satisfeito, começar a produção. Se algo não agradar, basta avisar o assistente no chat à direita para fazer alterações; depois de confirmar o cartão de texto ajustado, peça para ele gerar o vídeo."
+        },
+        {
+            "q": "Dá para juntar vários vídeos de 15 segundos em um filme completo?",
+            "a": "A IA não monta o filme final automaticamente, mas você pode colocar os cartões de vídeo gerados na linha do tempo do canvas, organizar a ordem de reprodução e exportar o vídeo completo. Cada cartão de vídeo de 15 segundos pode ser baixado separadamente, para você juntar como quiser ou importar em outro software de edição."
+        }
+    ],
+    "keywords": [
+        "vídeo com IA de 15 segundos",
+        "gerar vídeo com efeitos por IA",
+        "criar vídeo de efeitos a partir de foto",
+        "tomada contínua com IA",
+        "efeitos para abertura de série curta",
+        "evitar cortes aleatórios em vídeo de IA"
+    ]
+}

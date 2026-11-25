@@ -1,0 +1,67 @@
+{
+    "title": "Storyboard de motion comic: organize a história em cenas",
+    "metaDescription": "Para iniciantes em animação. No {brand}, envie história ou diálogo e a IA cria um storyboard numerado com imagem, ação, fala e enquadramento de cada cena.",
+    "oneLiner": "Envie o texto da história e gere, no canvas, um storyboard com os planos indicados para iniciantes em vídeo.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda a montar o storyboard. O storyboard divide a história em cenas e descreve o que aparece em cada uma. É ideal para iniciantes em motion comic que ainda não sabem como dividir as cenas.",
+        "Você só precisa preparar o texto normal da história, diálogos ou um rascunho, além do nome da série, do episódio e dos personagens que aparecem. Mesmo que as frases estejam bem soltas, envie como estão.",
+        "A IA gera cartões de texto no canvas. Eles trazem o storyboard organizado por número, indicando enquadramento, ações dos personagens, falas curtas e efeitos sonoros. Você pode ler, editar o texto ou copiar para usar."
+    ],
+    "example": {
+        "input": "Título: Crônica da Cultivação, Episódio 1. Personagem: Li Qing. Cenário: cabana de bambu em ruínas. Enredo: em uma noite de tempestade, Li Qing abre a porta e encontra uma carta brilhante sobre a mesa; surpreso, ele se aproxima.",
+        "output": "No canvas, cartões de texto organizados são gerados: primeiro listam informações de personagens e cenário; depois geram o storyboard numerado, indicando enquadramento, ações de abrir a porta e olhar a carta, som de trovão e chuva e marcações de intensidade das ações."
+    },
+    "scenarios": [
+        "Você só tem um trecho de romance ou um rascunho de história e quer fazer um vídeo, mas não sabe qual imagem desenhar primeiro.",
+        "Você já escreveu a história e os diálogos, mas não sabe como definir a distância dos enquadramentos e as trocas de cena.",
+        "Os diálogos estão longos e prolixos, e você não sabe como encurtá-los em frases curtas adequadas ao vídeo.",
+        "Antes de criar as imagens ou contratar alguém para desenhar, você quer esclarecer personagens, visual e som de cada cena."
+    ],
+    "problems": [
+        {
+            "pain": "A história tem um longo trecho, mas você não sabe se a imagem deve mostrar a pessoa de perto ou de longe, nem distinguir plano geral de close.",
+            "solve": "A IA divide em planos individuais na ordem e indica o tipo de enquadramento (distância da câmera em relação à pessoa) e a descrição da ação."
+        },
+        {
+            "pain": "Os diálogos da história são muito longos e, na imagem, parecem um texto enorme que o público não consegue terminar de ler.",
+            "solve": "As falas são encurtadas para no máximo 20 caracteres por frase, e a emoção e o tom de voz do personagem ao falar são indicados."
+        },
+        {
+            "pain": "Você não sabe como a imagem precisa ser feita para parecer que está se movendo, nem diferenciar um efeito leve de um grande efeito.",
+            "solve": "Para cada plano, a intensidade do movimento é marcada, distinguindo se é um leve movimento de cabelo, uma caminhada do personagem ou um efeito complexo."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em \"Usar esta habilidade\" para entrar no canvas do projeto.",
+        "Envie ao chat o nome da série, o número do episódio, os nomes dos personagens e o conteúdo da história que você quer produzir.",
+        "Aguarde a IA gerar no canvas a configuração dos personagens e os cartões de texto do storyboard organizados por número.",
+        "Revise o conteúdo dos cartões no canvas; você pode editar o texto diretamente ou pedir ao assistente para ajustar detalhes.",
+        "Copie ou baixe o resultado para usar como referência de texto na preparação das imagens e desenhos seguintes."
+    ],
+    "faq": [
+        {
+            "q": "Esta habilidade gera diretamente um vídeo que pode ser reproduzido?",
+            "a": "Não, ela não gera vídeo diretamente. O principal é organizar sua história em texto em um roteiro de storyboard padronizado, para você saber claramente o que desenhar em cada cena. Depois de receber o storyboard, você pode seguir para criar imagens ou trechos de vídeo."
+        },
+        {
+            "q": "Nunca escrevi um roteiro; posso usar uma história comum ou um romance?",
+            "a": "Pode usar diretamente. Basta enviar um trecho de história cotidiana, um trecho de romance ou um diálogo e escrever os nomes dos personagens. A IA tentará preservar o sentido original e ajudar a dividir em planos em ordem."
+        },
+        {
+            "q": "Diálogos longos na história serão apagados?",
+            "a": "Não serão apagados diretamente; as frases longas serão encurtadas automaticamente. Para dar mais ritmo à imagem do vídeo, a IA compacta as falas em até 20 caracteres, mantendo a emoção principal. Se for preciso explicar mais contexto, isso será transformado em narração colocada na tela."
+        },
+        {
+            "q": "Se eu não gostar de algum plano gerado, posso editá-lo?",
+            "a": "Você pode editar a qualquer momento. É possível alterar diretamente os cartões de texto no canvas ou pedir ao assistente no chat para reajustar um plano específico. Alterar um cartão não afeta os outros conteúdos já confirmados."
+        }
+    ],
+    "keywords": [
+        "como fazer storyboard de motion comic",
+        "transformar roteiro em storyboard",
+        "adaptar romance para motion comic",
+        "modelo de storyboard para motion comic",
+        "como dividir história em cenas",
+        "IA para criar storyboard"
+    ]
+}

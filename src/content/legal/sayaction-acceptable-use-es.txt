@@ -1,0 +1,70 @@
+Política de uso aceptable de DramaCanvas
+
+Fecha de actualización: 30 de octubre de 2026
+
+Fecha de entrada en vigor: 30 de octubre de 2026
+
+Esta política explica qué está permitido y qué no está permitido hacer en DramaCanvas, así como nuestros procesos de moderación, gestión de infracciones y recepción de denuncias. La presente política forma parte integrante del «Acuerdo de usuario de DramaCanvas», y su incumplimiento constituye una infracción del «Acuerdo de usuario».
+
+1. Ámbito de aplicación
+1.1 Esta política se aplica a todo el contenido que introduzca, suba y genere en DramaCanvas, incluidos los prompts de texto, guiones, imágenes, vídeos y audios.
+1.2 Esta política se aplica por igual tanto si utiliza DramaCanvas a través de la web, agentes, conectores MCP o interfaces abiertas.
+
+2. Contenido prohibido
+2.1 Queda prohibido generar, subir o difundir las siguientes seis categorías de contenido en DramaCanvas:
+- Contenido pornográfico y sexualmente explícito: desnudez con fines sexuales, descripciones de actos sexuales o representaciones visuales explícitas.
+- Violencia y contenido sangriento: contenido que glorifique o incite a la violencia en el mundo real, promueva el terrorismo o actos de violencia masiva, o busque deliberadamente el morbo o la violencia gráfica extrema. Se permiten las escenas ficticias de cine y televisión necesarias para la trama, como peleas, acción o suspense, siempre que no estén dirigidas a personas reales.
+- Discurso de odio: contenido que discrimine, insulte o incite al odio contra otras personas por motivos de raza, etnia, religión, género, orientación sexual, discapacidad, edad o nacionalidad, entre otros.
+- Contenido perjudicial para menores: cualquier contenido sexual o de explotación que afecte a menores de edad, incluido el material generado mediante IA. Mantenemos una política de tolerancia cero frente a estas conductas.
+- Ultrafalsificaciones (deepfakes) y suplantación de identidad: sustituir el rostro de una persona real por el de otra; utilizar fotos de personas reales para crear contenido desnudo o sexualizado; combinar a dos personas reales en escenas íntimas como besos o abrazos; hacer que una persona real aparente haber dicho o hecho algo que nunca dijo o hizo; y suplantar a otras personas, marcas o instituciones. Dichas ultrafalsificaciones de personas reales no están permitidas en ningún caso, con independencia de que medie o no el consentimiento de los afectados.
+- Infracción de derechos de autor y marcas: uso no autorizado de obras, personajes, marcas comerciales o logotipos e identidades de marca protegidos por derechos de propiedad intelectual o industrial de terceros.
+2.2 Contenido de tolerancia cero: contenido sexual que involucre a menores; apología del terrorismo, el extremismo o la violencia masiva; instrucciones para la fabricación de armas de destrucción masiva; incitación al genocidio o al odio étnico; y ultrafalsificaciones (deepfakes) de personas reales. Ante la detección de dicho contenido, cancelaremos de inmediato la cuenta y podremos denunciar los hechos ante las autoridades policiales y judiciales pertinentes de conformidad con la ley.
+2.3 Otras conductas prohibidas:
+- Crear desinformación o contenido destinado al fraude o a engañar a terceros.
+- Utilizar fotografías, voz o información personal de otras personas sin su consentimiento.
+- Hacer pasar contenido generado por IA por grabaciones o creaciones humanas reales con el fin de engañar a otros.
+- Generar contenido basura (spam) de forma masiva.
+- Intentar eludir los sistemas de moderación, por ejemplo, mediante la fragmentación de palabras, lenguaje encubierto o prompts de «jailbreak» para sortear los bloqueos.
+2.4 Materiales subidos y personas reales: solo puede subir fotografías, vídeos y voz de usted mismo o materiales sobre los que disponga de la debida autorización de los titulares de los derechos. Dicha autorización no le faculta, en ningún caso, para realizar las ultrafalsificaciones (deepfakes) prohibidas en el apartado 2.1.
+
+3. Cómo moderamos el contenido
+3.1 Moderación automática previa a la generación: antes de procesar cada solicitud de generación, nuestro servicio de moderación automática revisa primero los prompts y las imágenes de referencia para bloquear el contenido sexual que afecte a menores y el contenido sexualmente explícito. Los prompts que superan esta revisión pasan después por un servicio de seguridad de nuestro socio de pagos, centrado en bloquear el contenido que pone en riesgo a menores. Las solicitudes bloqueadas no se generan y no se descuentan créditos.
+3.2 Sistemas de seguridad integrados en los modelos: los modelos de terceros que utilizamos cuentan con sus propios sistemas de seguridad, que rechazan o bloquean los prompts, materiales de referencia y resultados generados que infrinjan sus políticas.
+3.3 Revisión humana: el equipo de operaciones revisa manualmente las denuncias de los usuarios y los registros derivados de la moderación automática.
+3.4 Registros: conservamos registros de las revisiones y de las medidas adoptadas con el fin de auditar y optimizar nuestras reglas de moderación. El texto original de los prompts bloqueados no se conserva.
+3.5 Las obras que genere se guardan por defecto únicamente en su propia cuenta y no se exhiben públicamente en nuestro sitio web. El contenido que comparta mediante enlaces compartidos está sujeto igualmente a esta política.
+
+4. Medidas ante infracciones
+4.1 En función de la gravedad de la infracción, podremos adoptar una o varias de las siguientes medidas:
+- Advertencia por correo electrónico.
+- Eliminación del contenido infractor o desactivación de los enlaces correspondientes para compartir.
+- Restricción de las funciones de generación.
+- Suspensión temporal de la cuenta.
+- Cancelación definitiva de la cuenta.
+- Notificación y denuncia ante las autoridades competentes de conformidad con la ley en casos graves como la explotación sexual infantil.
+4.2 En caso de confirmarse la presencia de cualquiera de los contenidos de tolerancia cero señalados en el apartado 2.2, la cuenta será cancelada de forma permanente e inmediata.
+4.3 En las cuentas canceladas por infringir esta política no se reembolsarán los créditos adquiridos; cualquier otra situación se regirá por el «Acuerdo de usuario» y la «Política de reembolso».
+
+5. Cómo denunciar
+5.1 Si detecta contenido que vulnere esta política o considera que alguien ha utilizado la IA para infringir sus derechos de imagen, voz u obras protegidas, envíe un correo electrónico a support@dramacanva.com indicando en el asunto «Denuncia» e incluyendo:
+- Enlace o captura de pantalla del contenido infractor.
+- Fecha y hora en que se detectó.
+- Descripción del problema.
+- Si se trata de una vulneración de sus propios derechos, documentación que acredite dicha titularidad.
+5.2 Mantendremos bajo estricta confidencialidad la identidad del denunciante. Si se constata la interposición de denuncias falsas o de mala fe, adoptaremos las medidas pertinentes.
+5.3 Clasificamos y gestionamos las denuncias según su gravedad en los siguientes plazos (primera respuesta / resolución completa):
+- Urgente (seguridad de menores, terrorismo, ultrafalsificaciones de personas reales): primera respuesta en un plazo de 24 horas y resolución completa en un plazo de 3 días laborables.
+- Alta (pornografía, incitación al odio, vulneración de sus derechos de imagen o derechos de autor): primera respuesta en un plazo de 2 días laborables y resolución completa en un plazo de 5 días laborables.
+- General (otras infracciones): primera respuesta en un plazo de 5 días laborables y resolución completa en un plazo de 15 días laborables.
+5.4 Si la tramitación requiriese un plazo superior a los indicados anteriormente, le enviaremos un correo electrónico explicando los motivos.
+
+6. Reclamaciones
+6.1 Si considera que se ha adoptado una medida errónea con respecto a su contenido o a su cuenta, dispone de un plazo de 14 días tras recibir la notificación para presentar una reclamación enviando un correo electrónico a support@dramacanva.com con el asunto «Reclamación», exponiendo los hechos y adjuntando la información pertinente.
+6.2 Las reclamaciones serán revisadas por personal que no haya intervenido en la resolución inicial y emitiremos una respuesta en un plazo de 7 días laborables.
+
+7. Identificación de contenidos generados por IA
+7.1 Al publicar públicamente contenido generado por IA, indíquelo como «Generado por IA» de conformidad con las directrices de la plataforma correspondiente y la legislación local aplicable, sin ocultar el origen del material.
+
+8. Actualizaciones de la política y contacto
+8.1 Podemos actualizar esta política ocasionalmente. En caso de cambios significativos, publicaremos un aviso previo en nuestro sitio web; la vigencia de las actualizaciones se determinará por la fecha indicada en la parte superior de esta página. Si continúa utilizando DramaCanvas tras la entrada en vigor de los cambios, se considerará que acepta la política actualizada.
+8.2 Si tiene cualquier pregunta relativa a esta política, envíe un correo electrónico a support@dramacanva.com.

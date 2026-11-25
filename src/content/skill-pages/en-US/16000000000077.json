@@ -1,0 +1,66 @@
+{
+    "title": "One-Take Shorts in {brand}: Plan Blocking, Cut Costs",
+    "metaDescription": "For one-take short dramas: plan shot blocking on a canvas, lock characters and framing with images, then make video. Get cost estimates, storyboards, clips",
+    "oneLiner": "Enter a story idea, plan shot blocking on a canvas, and get storyboard images and continuous short drama videos.",
+    "intro": [
+        "It is a planning tool for making continuous short dramas. Many people generate video directly, which not only costs more but also makes characters' faces shift easily; it helps you sort out actions and shot blocking first to avoid blindly wasting generations.",
+        "You only need to prepare a story idea or short script, and you can also upload reference photos of the lead. If you haven't decided how many seconds each segment should be, it will first plan it as a common 15-second short video.",
+        "When you're done, you'll get a staged cost table on the canvas, a storyboard (breaking the video into individual shots and stating what each shot shows), first-frame images that lock the composition, and video clips."
+    ],
+    "example": {
+        "input": "I want to make a 15-second one-take short drama: a detective pushes open the door to a dim old study, walks quickly to the desk, and picks up a bloodstained envelope. The lead is a short-haired older man in a gray trench coat.",
+        "output": "The canvas generates a per-section cost estimate, blocking notes for 3 continuous shots (pushing the door open, walking closer, close-up of the envelope), plus reference image cards for each shot and corresponding video clip cards."
+    },
+    "scenarios": [
+        "You want continuous footage without cuts, but generating video directly is too expensive, so you need to validate the composition with images first.",
+        "Every shot is the same length, making the visuals feel flat and mechanical; you want to design a pace with fast and slow moments.",
+        "The same lead changes face and clothes from one shot to the next; you want to keep the character's appearance as consistent as possible.",
+        "Video generation keeps failing with errors, and you don't know whether the description is over the character limit or hit a sensitive word."
+    ],
+    "problems": [
+        {
+            "pain": "Generating video directly from text costs too much, and if the visuals aren't right, you can't afford to fix them",
+            "solve": "It helps you work out blocking first and generate still images, then make video after you confirm you're happy with the visuals, reducing the cost of repeated retries."
+        },
+        {
+            "pain": "Every shot is the same length, so the pacing feels flat and boring and makes people want to scroll away",
+            "solve": "Allocate different lengths by story beat, such as 4-second quick cuts and 6-second slow pushes, and put conflict at the opening so the pacing rises and falls."
+        },
+        {
+            "pain": "The lead looks different in every shot, and faces get confused when two people appear on screen at the same time",
+            "solve": "Put the lead's core facial features at the start of the description and standardize reference image citations to minimize face swaps and same-frame confusion."
+        }
+    ],
+    "steps": [
+        "Click “Use This Skill” in the skill library, then enter your story idea or upload images in the dialog box on the right.",
+        "Review the storyboard blocking and cost table on the canvas; if you want to change the content, tell the assistant how to adjust it.",
+        "Generate first-frame storyboard images to lock the visuals and characters, and after you confirm they look right, generate the corresponding videos.",
+        "Arrange the order of clips on the video timeline before exporting, and combine multiple clips into a continuous short drama."
+    ],
+    "faq": [
+        {
+            "q": "How can I make a short drama without going over budget or wasting money?",
+            "a": "The key is to move forward in three stages: first use still images to lock blocking and characters, then make video after you confirm you're satisfied, avoiding wasted generations from generating directly. Changing composition and dialogue at the image stage costs very little, which can save you the high cost of regenerating videos over and over."
+        },
+        {
+            "q": "Why does the lead's face and clothing keep changing across different shots?",
+            "a": "The system recomposes by default when generating each shot. You can put the lead's appearance at the start of the description and include reference images to keep the character as consistent as possible. If two people are in the same frame, describe each character's hairstyle, facial features, and clothing separately; this can effectively reduce face swaps and mix-ups."
+        },
+        {
+            "q": "The short drama comes out flat and sleep-inducing. How should I fix it?",
+            "a": "You can break up the monotony by alternating long and short shots and placing conflict in the first 3 seconds—for example, make action scenes 4-second quick cuts and emotional scenes 6-second slow pushes. Avoid making every shot the same length, and pair it with a clear conflict or suspense at the opening to make the pacing tighter and more gripping."
+        },
+        {
+            "q": "How should I troubleshoot when image generation fails with an error?",
+            "a": "Check step by step for exceeding the character limit, sensitive-word blocks, and conflicts between text and images. First confirm that the description does not exceed the 1,500-character limit. Next, check for blocked words such as fighting or suggestive content; for example, replace dark (meaning a dark color) with deep. If it still errors, check whether the text conflicts with the reference image."
+        }
+    ],
+    "keywords": [
+        "AI short drama production",
+        "one-take short drama",
+        "AI video storyboard",
+        "budget short drama production",
+        "AI character consistency",
+        "short drama shot blocking"
+    ]
+}

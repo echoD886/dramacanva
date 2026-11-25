@@ -1,0 +1,331 @@
+Termos de Uso do DramaCanvas
+
+Data da atualização: 16/10/2026
+
+Data de entrada em vigor: 16/10/2026
+
+Boas-vindas aos serviços relacionados ao DramaCanvas.
+
+"DramaCanvas (anteriormente Say Action)" é um ambiente de trabalho de código aberto para criação de filmes, séries e microdramas com IA. Nestes Termos, "nós" refere-se ao operador responsável pela implantação e operação efetiva que fornece a você o site, o cliente, o kit de desenvolvimento de software (SDK), a interface de programação de aplicativos (API) do DramaCanvas ou os serviços relacionados; o escopo de responsabilidades dos contribuidores do código aberto e do operador efetivo é determinado pela legislação aplicável, pelas instruções de implantação e pelos serviços efetivamente prestados por cada um.
+
+1. Introdução
+
+1.1 Estes Termos são celebrados entre nós e os usuários que concordam em utilizar os serviços relacionados ao DramaCanvas em conformidade com estes Termos (a seguir, "você"). Atenção: os demais acordos relacionados ao DramaCanvas, as regras de atividades, os anúncios e avisos, as notificações por mensagens dentro da plataforma etc. que já publicamos, venhamos a publicar futuramente ou alteremos periodicamente (conjuntamente, "Regras da Plataforma") constituem parte integrante destes Termos e possuem o mesmo efeito legal destes. Quanto às Regras da Plataforma que publicarmos ou alterarmos posteriormente, faremos um aviso especial a você ao prestar o serviço correspondente ou o notificaremos de maneira adequada. Se você não aceitar ou não compreender qualquer cláusula alterada destes Termos, poderá consultar o atendimento ao cliente da plataforma DramaCanvas; se, após a consulta, ainda discordar das alterações correspondentes, você deverá parar de utilizar as funções e os serviços da plataforma DramaCanvas a partir da data de entrada em vigor determinada para a alteração; se você continuar utilizando após a entrada em vigor da alteração, considerar-se-á que você compreendeu plenamente e aceitou as alterações entradas em vigor.
+
+1.2 Para utilizar os serviços relacionados ao DramaCanvas, leia com atenção e compreenda plenamente as cláusulas dos Termos de Uso do DramaCanvas (a seguir, "estes Termos"), em especial as cláusulas de limitação e/ou isenção de responsabilidade, a política de proteção de privacidade, as regras de conta e as cláusulas de aplicação da lei e de resolução de disputas (incluindo as cláusulas de jurisdição).
+
+1.3 O público principal do DramaCanvas são adultos. Caso você tenha menos de 18 anos, leia com atenção e compreenda plenamente estes Termos acompanhado(a) de seu responsável legal, especialmente as cláusulas de uso relacionadas a menores de idade, e somente poderá utilizar o DramaCanvas após obter o consentimento do seu responsável legal.
+
+1.4 Ao clicar para se registrar pela página web ou ao utilizar efetivamente os serviços relacionados ao DramaCanvas, considera-se que você leu, compreendeu e aceitou plenamente todo o conteúdo destes Termos, que passarão a ter força legal vinculante sobre você. Se você não concordar ou não compreender qualquer conteúdo destes Termos, não realize a ação de assinatura.
+
+1.5 Se você tiver quaisquer dúvidas, opiniões ou sugestões sobre o conteúdo destes Termos, poderá entrar em contato conosco pelo canal de feedback do projeto (support@dramacanva.com).
+
+2. Produtos e serviços do DramaCanvas
+
+2.1 Estes Termos se aplicam às funções e aos serviços de geração de conteúdo por IA fornecidos por todas as formas de produtos do DramaCanvas que você acessa e utiliza, incluindo, entre outros, treinamento de modelos, geração de conteúdo, publicação de informações, interação e comunicação, pesquisa e consulta, entre outros serviços.
+
+2.2 O DramaCanvas tem como objetivo fornecer aplicações de inteligência artificial e funcionalidades relacionadas, como texto-para-imagem, texto-para-vídeo e imagem-para-vídeo, visando inspirar pintores, designers, artistas e outros criadores de conteúdo visual e auxiliar a conclusão de suas criações, sendo também adequado à criação de conteúdo de IA personalizada por usuários em geral.
+
+2.3 Concedemos a você uma licença pessoal, revogável, intransferível e não exclusiva para o uso legal do DramaCanvas; todos os demais direitos não expressamente autorizados nestes Termos permanecem reservados a nós. Salvo autorização prévia, expressa e por escrito nossa, você não poderá utilizar o DramaCanvas sob qualquer forma não autorizada, incluindo, entre outros, cópia, divulgação, adaptação, rastreamento por crawlers, busca vertical, espelhamento ou negociação.
+
+3. Conta do DramaCanvas
+
+Você compreende e confirma que, antes de começar a se registrar para usar os serviços da plataforma DramaCanvas, você deve possuir a capacidade civil compatível com seu comportamento, conforme exigido pela legislação da República Popular da China. Caso não possua capacidade civil compatível com seu comportamento, leia com atenção e compreenda plenamente estes Termos acompanhado(a) de seu responsável legal, e somente poderá se registrar para usar os serviços da plataforma DramaCanvas após obter o consentimento do seu responsável legal; você e seu responsável legal deverão arcar com todas as consequências decorrentes do seu registro e uso.
+
+3.1 Registro de conta
+
+3.1.1 Antes de usar os serviços da plataforma DramaCanvas, você precisa se registrar por meio do seu número de celular com nome real verificado ou por meio de contas de terceiros reconhecidas pela plataforma DramaCanvas (como contas do WeChat, QQ etc.). Ao se registrar ou usar os serviços da plataforma DramaCanvas, pode ser necessário fornecer algumas informações indispensáveis; para garantir que os serviços de plataforma de que você desfruta sejam seguros, eficazes e continuamente aprimorados, você concorda em nos autorizar a verificar e usar razoavelmente suas informações pessoais indispensáveis. Você deve garantir que os dados preenchidos e fornecidos sejam verdadeiros, precisos e completos; caso contrário, pode ficar impossibilitado de usar os serviços da plataforma DramaCanvas, sofrer restrições durante o uso ou até mesmo ficar impedido de utilizar determinadas funções da plataforma DramaCanvas. A responsabilidade e as perdas decorrentes de informações fornecidas por você que sejam inverídicas, imprecisas ou incompletas serão de sua responsabilidade.
+
+3.1.2 A conta registrada com sucesso só pode ser utilizada de forma legítima pelo próprio único titular de uso confirmado no momento do registro, não podendo ser usada para fins ilegais ou que prejudiquem interesses de terceiros; é proibido registrar contas em lote de forma maliciosa; sem nosso consentimento por escrito, é proibido doar, emprestar, alugar, transferir, vender ou, de qualquer outra forma, licenciar a conta para uso por outras pessoas. Se descobrirmos, ou tivermos motivos razoáveis para acreditar, que o usuário não é o registrante original da conta, a fim de garantir a segurança da conta, teremos o direito de suspender ou encerrar imediatamente a prestação de serviços a essa conta registrada, e teremos o direito de desativar permanentemente essa conta.
+
+3.1.3 Você pode usar o DramaCanvas sem estar logado, mas não poderá experimentar todas as funções e serviços do produto. Antes de usar determinadas funções e/ou determinados serviços individuais, como geração de conteúdo por IA, publicação de informações, interação e comunicação etc., você deve concluir o registro ou o login da conta e concluir a autenticação de identidade real conforme exigido pelas leis e regulamentos nacionais pertinentes — a coleta do número de celular é uma informação necessária para cumprir os requisitos das leis e regulamentos nacionais pertinentes sobre o sistema de nome real na rede (autenticação de identidade real); caso você se recuse a fornecer o número de celular no registro/login, poderemos não conseguir fornecer a você as funções e serviços relacionados à geração de conteúdo por IA, publicação de informações, interação e comunicação.
+
+3.1.4 Se você fornecer quaisquer dados ilegais, imorais ou que consideremos inadequados para exibição na plataforma DramaCanvas, ou se tivermos motivos para suspeitar que seus dados pertencem a programas automatizados ou operações maliciosas, teremos o direito de suspender ou encerrar sua conta e de recusar seu uso, agora e no futuro, de todo ou de qualquer parte dos serviços da plataforma DramaCanvas.
+
+3.1.5 Nós e a plataforma DramaCanvas não somos responsáveis por quaisquer dados de registro de qualquer usuário, incluindo, entre outros, a responsabilidade de identificar e verificar a veracidade, a correção, a integridade, a adequação e/ou a atualidade de quaisquer dados de registro.
+
+3.1.6 Você é responsável por guardar por conta própria o nome de usuário e a senha/código de verificação e outras informações da conta; caso contrário, a responsabilidade legal decorrente dessas questões será assumida pelo próprio usuário. Todo uso dos serviços da plataforma DramaCanvas para fazer login com conta e credenciais de login é considerado operação sua, e os registros eletrônicos gerados por tais operações constituem evidência válida do comportamento do usuário dos serviços da plataforma DramaCanvas.
+
+3.1.7 Ao precisar encerrar o uso dos serviços de conta da plataforma DramaCanvas, desde que compreenda e concorde com os seguintes requisitos ou condições, você poderá solicitar o cancelamento da sua conta da plataforma DramaCanvas:
+
+(1) Você só pode solicitar o cancelamento da sua própria conta; entre em contato conosco pelo canal de feedback do projeto (support@dramacanva.com) para cancelar a conta;
+
+(2) Você continuará respondendo pela responsabilidade correspondente pelo seu uso do DramaCanvas antes do cancelamento da conta;
+
+(3) Após a exclusão e o cancelamento da conta, trataremos as informações da conta com exclusão, anonimização ou outras medidas, exceto quando leis, regulamentos ou normas pertinentes dispuserem de forma diversa sobre o prazo de retenção das informações ou a forma de tratamento. Após a exclusão e o cancelamento da conta, você não poderá mais fazer login com essa conta, nem recuperar qualquer conteúdo ou informação relacionada à conta.
+
+3.1.8 Conforme exigido pelas leis e regulamentos pertinentes, caso sua conta fique sem login por mais de seis meses consecutivos, teremos o direito de congelá-la ou recolhê-la. Após o congelamento ou recolhimento, a conta não poderá mais ser acessada nem utilizada por login. Após o recolhimento da conta, as informações e os registros de uso armazenados nela também não poderão ser recuperados. Antes de congelar ou recolher sua conta, faremos um aviso a você de maneira adequada; se, após receber o aviso correspondente, você ainda não agir conforme o aviso, congelaremos ou recolheremos a conta.
+
+3.2 Segurança da conta do usuário
+
+Após concluir o registro da conta DramaCanvas, proteger a segurança da conta é sua responsabilidade. Você concorda que:
+
+3.2.1 Você é totalmente responsável por todas as atividades realizadas com a sua conta, incluindo, entre outros, quaisquer atos de modificação de dados que realizar na plataforma DramaCanvas. Você deve dar grande importância à confidencialidade da conta e do código de verificação, e não divulgá-los a outras pessoas em nenhuma circunstância. Se a sua conta da plataforma DramaCanvas sofrer uso não autorizado, ou ocorrer qualquer outro problema de segurança, você deve nos notificar imediatamente; salvo se houver culpa legal de nossa parte, não assumimos qualquer responsabilidade pelas perdas que a notificação tardia possa causar a você.
+
+3.2.2 Se você não guardar adequadamente a sua conta e o código de verificação, não podemos assumir e não assumimos qualquer responsabilidade por quaisquer perdas ou danos decorrentes disso.
+
+3.2.3 Você é responsável por manter a segurança e a confidencialidade da conta e do código de verificação, e responde integralmente pela responsabilidade legal pelas atividades realizadas em nome da conta registrada. Se você não guardar adequadamente a sua conta e o código de verificação, causando danos a você, a nós ou a terceiros, você será integralmente responsável.
+
+3.2.4 Você não pode transferir ou autorizar terceiros a usar sua conta sob qualquer forma; pelas perdas e consequências decorrentes da divulgação voluntária ou do empréstimo das informações da conta por você, ou de ataques, fraudes e outros atos sofridos por você, o DramaCanvas não assumirá qualquer responsabilidade, e você poderá buscar indenização junto ao infrator por vias judiciais, administrativas e outras formas de recurso.
+
+3.3 Serviço de conta unificada
+
+3.3.1 Salvo indicação em contrário, todas as plataformas afiliadas do DramaCanvas utilizam o serviço de conta DramaCanvas unificada; a conta DramaCanvas que você registrar é simultaneamente válida em todas as plataformas afiliadas do DramaCanvas, e o conteúdo que você publicar sob a sua conta DramaCanvas também será sincronizado em todas as plataformas afiliadas do DramaCanvas. Ao fazer login com a conta DramaCanvas e usar os serviços relacionados das plataformas afiliadas, você estará igualmente sujeito a estes Termos e ao acordo do usuário e às regras da plataforma da versão afiliada (se houver). Caso o acordo do usuário e as regras da plataforma da afiliada conflitem com estes Termos, prevalecem o acordo do usuário e as regras da plataforma da afiliada.
+
+3.3.2 Para aumentar a eficiência de publicação e a exposição do conteúdo que você gera e publica, você concorda que todo o conteúdo publicado sob a sua conta DramaCanvas fica autorizado por você a ser automaticamente sincronizado por nós, com a sua conta, a outros softwares e sites operados por nós; o avatar, o apelido e outras informações públicas da sua conta DramaCanvas poderão ser sincronizados junto.
+
+3.3.3 Para manter a boa ordem e atmosfera da plataforma, poderemos adotar medidas de gestão coordenadas nas plataformas afiliadas do DramaCanvas. Por exemplo: caso você sofra medidas punitivas no DramaCanvas por comportamento que viole leis e regulamentos ou o disposto nestes Termos, o seu uso dos serviços relacionados do DramaCanvas Exibição (DramaCanvas Showcase), plataforma afiliada, também poderá ser afetado por medidas punitivas, e vice-versa.
+
+4. Proteção das informações pessoais do usuário
+
+4.1 Respeitar a privacidade do usuário e proteger a segurança das suas informações pessoais é nossa postura constante, e adotaremos medidas razoáveis para proteger suas informações pessoais e sua privacidade. Comprometemo-nos a não coletar, sem o consentimento do usuário, informações pessoais do usuário que excedam o necessário para a prestação dos nossos serviços, nem a utilizar as informações para fins alheios à prestação de serviços. Além do cumprimento das disposições específicas de proteção de informações pessoais e da política de privacidade previstas nestes Termos, esperamos que você leia com atenção e integralmente a (Política de Privacidade do DramaCanvas), elaborada especialmente para a plataforma e publicada por nós oportunamente, o que ajudará ainda mais a proteger suas informações pessoais.
+
+Você fica ciente e concorda que, para facilitar o uso dos serviços relacionados ao DramaCanvas, temos o direito de obter, usar, armazenar e compartilhar suas informações pessoais de forma expressa, em conformidade com as leis e regulamentos. Não tornaremos públicas, nem editaremos ou divulgaremos suas informações pessoais e o seu conteúdo não público armazenado no DramaCanvas sem a sua autorização.
+
+Você fica ciente e concorda que temos o direito de coletar, por meio de cookies e outras tecnologias, dados de uso e de comportamento relativos aos seus produtos ou serviços, e de utilizar livremente os dados comerciais purificados após a desidentificação dos dados, de modo que deixem de apontar ou se associar à sua identidade pessoal.
+
+Você pode entrar em contato com o atendimento humano ou enviar um e-mail para support@dramacanva.com para solicitar a consulta, cópia, correção, complementação ou exclusão de informações pessoais; durante o processo é necessária a verificação de identidade e, após a verificação sem erros, concluiremos a verificação e o tratamento no prazo indicado para a solicitação correspondente na Política de Privacidade do DramaCanvas.
+
+4.2 Empregaremos diversas tecnologias e procedimentos de segurança e estabeleceremos sistemas de gestão completos para proteger suas informações pessoais, impedindo que suas informações sejam usadas indevidamente ou sofram acesso, uso ou divulgação não autorizados.
+
+4.3 Sem o seu consentimento, não divulgaremos suas informações pessoais a quaisquer outras partes, organizações ou indivíduos, exceto:
+
+(1) quando exigido por leis e regulamentos pertinentes ou por órgãos judiciais ou administrativos;
+
+(2) para transferência decorrente de fusão, cisão, aquisição ou transferência de ativos;
+
+(3) quando necessário para prestar o serviço solicitado por você;
+
+(4) nas situações em que a transferência ou divulgação a terceiros seja permitida conforme a Política de Privacidade ou outras regras de acordos.
+
+5. Normas de conduta do usuário
+
+5.1 Você garante o uso razoável dos serviços relacionados ao DramaCanvas, e aceita estes Termos e as demais políticas, regras e declarações de anúncios por nós elaboradas e publicadas oportunamente. Você é responsável pelo seu comportamento ao usar os serviços relacionados ao DramaCanvas; salvo se permitido por lei ou com nossa permissão prévia por escrito, o seu uso dos serviços relacionados à plataforma DramaCanvas não poderá incluir os seguintes comportamentos:
+
+5.1.1 Usar quaisquer plug-ins, cheats, sistemas ou ferramentas de terceiros não autorizados nem licenciados por nós para interferir, danificar, modificar ou exercer outras influências sobre o funcionamento normal dos serviços relacionados ao DramaCanvas.
+
+5.1.2 Realizar, por meio ou contra os serviços relacionados ao DramaCanvas, quaisquer atos que prejudiquem a segurança das redes de computadores, incluindo, entre outros:
+
+(1) atividades que prejudiquem a segurança da rede, como invadir ilegalmente redes, interferir no funcionamento normal de redes, furtar dados de redes; usar o DramaCanvas para publicar, transmitir, divulgar e armazenar conteúdo que prejudique a segurança nacional, a unidade nacional e a estabilidade social, ou conteúdo insultoso e difamatório, pornográfico, violento, que cause inquietação a outras pessoas e qualquer conteúdo que viole leis, regulamentos e políticas nacionais, ou definir nomes de usuário e nomes de personagens contendo tal conteúdo; publicar, transmitir e divulgar informações publicitárias ilegais, informações de marketing e informações de spam; usar o DramaCanvas para prejudicar direitos e interesses legítimos de terceiros, como direitos de propriedade intelectual, direitos de imagem, direitos de privacidade, direitos de reputação, informações pessoais etc.;
+
+(2) fornecer programas e ferramentas destinados especificamente a atividades que prejudiquem a segurança da rede, como invadir redes, interferir no funcionamento normal e nas medidas de proteção de redes, furtar dados de redes, incluindo, entre outros: usar dados não licenciados ou acessar servidores/contas não licenciados; entrar sem permissão em redes públicas de computadores ou em sistemas de computadores de terceiros e excluir, modificar ou acrescentar informações armazenadas; sem licença, tentar sondar, escanear ou testar vulnerabilidades do sistema deste "software" ou da rede, ou realizar outros atos que prejudiquem a segurança da rede; tentar interferir ou danificar o funcionamento normal deste sistema de "software" ou site, disseminar intencionalmente programas maliciosos ou vírus e outras condutas que danifiquem e interfiram nos serviços normais de informação da rede; falsificar nomes de pacotes TCP/IP ou parte deles; usar a plataforma e os serviços para enviar quaisquer vírus, cavalos de Troia, vermes e outros conteúdos que prejudiquem a saúde da rede;
+
+(3) prestar apoio técnico, promoção publicitária, liquidação de pagamentos e outras formas de ajuda a quem saidamente realize atividades que prejudiquem a segurança da rede;
+
+(4) usar dados não licenciados ou acessar servidores/contas não licenciados;
+
+(5) entrar sem permissão em redes públicas de computadores ou em sistemas de computadores de terceiros e excluir, modificar ou acrescentar informações armazenadas;
+
+(6) sem licença, tentar sondar, escanear ou testar vulnerabilidades da plataforma DramaCanvas ou da rede, ou realizar outros atos que prejudiquem a segurança da rede;
+
+(7) tentar interferir ou danificar o funcionamento normal da plataforma DramaCanvas, disseminar intencionalmente programas maliciosos ou vírus e realizar outras condutas que danifiquem e interfiram nos serviços normais de informação da rede;
+
+(8) realizar engenharia reversa, descompilação reversa, compilação dos serviços relacionados ao DramaCanvas ou tentar, por outros meios, descobrir o código-fonte dos serviços relacionados ao DramaCanvas; sem licença, modificar ou desativar quaisquer funções do software e do site ou criar obras derivadas baseadas no software e no site. Remover quaisquer declarações ou rótulos de propriedade do software ou da documentação do DramaCanvas, ou mesclar outros softwares com o DramaCanvas;
+
+(9) registrar ou usar contas do DramaCanvas de forma maliciosa, incluindo, entre outros: registrar contas com frequência ou em lote, alugar ou emprestar contas a terceiros para uso, apresentar logins com múltiplos clientes e múltiplos endereços IP, baixar modelos com frequência excedendo um número razoável de usos etc.; realizar quaisquer atos que prejudiquem a equidade da nossa prestação de serviços ou afetem a ordem normal da aplicação, como farmar pontos ativa ou passivamente, trapacear em conluio, usar cheats ou outros softwares de trapaça, utilizar BUGs (também chamados de "falhas" ou "defeitos") para obter benefícios ilícitos indevidos, ou divulgar cheats, softwares de trapaça ou BUGs ao público pela internet ou por outros meios;
+
+(10) outros comportamentos que violem leis e regulamentos, estes Termos, nossas regras pertinentes ou que prejudiquem direitos e interesses legítimos de terceiros.
+
+Se tivermos motivos razoáveis para acreditar que o seu comportamento viola ou pode violar o disposto acima, poderemos julgar e tratar de forma independente, e teremos, a qualquer momento, o direito de encerrar a prestação de serviços a você sem aviso prévio, além de buscar responsabilização legal conforme a lei.
+
+5.1.3 Normas de conteúdo informacional: para cultivar um bom ecossistema na rede, proteger os direitos e interesses legítimos de cidadãos, pessoas jurídicas e outras organizações, e salvaguardar a segurança nacional e o interesse público, — conforme leis e regulamentos administrativos como a Lei de Segurança Nacional da República Popular da China, a Lei de Segurança Cibernética da República Popular da China e as Medidas de Gestão dos Serviços de Informação da Internet — praticaremos por iniciativa própria os valores essenciais socialistas, cultivaremos um espaço cibernético limpo e realizaremos atividades correlatas, como promover energia positiva e tratar informações ilegais e nocivas. Os usuários também se comprometem a cumprir as "sete linhas de base", quais sejam: leis e regulamentos, o sistema socialista, os interesses nacionais, os direitos e interesses legítimos dos cidadãos, a ordem pública, os costumes morais sociais e a veracidade das informações.
+
+5.2 Você concorda que qualquer conteúdo que você baixe, acesse ou use de nós ou de outros usuários é utilizado por sua conta e risco, e está sujeito a estes termos e/ou aos termos que acompanham tal conteúdo:
+
+5.2.1 Sem nossa permissão por escrito, nenhum usuário ou terceiro poderá, sob qualquer forma (incluindo, entre outros, hotlinking, subtração redundante, captura ilegal, download simulado, deep linking, registro fraudulento etc.), subtrair direta ou indiretamente modelos, imagens, artigos e outros conteúdos informacionais dos serviços relacionados ao DramaCanvas, ou, sob qualquer forma (incluindo, entre outros, ocultar ou modificar nomes de domínio, identificadores exclusivos da plataforma, nomes de usuário etc.), excluir ou alterar as informações eletrônicas de gestão de direitos dos conteúdos informacionais correspondentes.
+
+5.2.2 Após nossa permissão por escrito, o compartilhamento, o reencaminhamento e outros atos de usuários e terceiros relativos aos conteúdos informacionais dos serviços relacionados ao DramaCanvas deverão, além disso, estar em conformidade com as seguintes normas:
+
+(1) Quanto aos dados correlatos capturados, estatisticados e obtidos, como palavras-chave de busca em alta, categorias de conteúdo, volumes de busca, volumes de download, volumes de favoritos etc., sem nosso consentimento prévio por escrito, não será permitido publicar, fornecer ou divulgar tais dados, sob qualquer forma, a quaisquer terceiros;
+
+(2) Não é permitido realizar qualquer forma de alteração nas páginas de origem dos serviços relacionados ao DramaCanvas, incluindo, entre outros, os links da página inicial dos serviços relacionados ao DramaCanvas, os links de ferramentas e outras entradas; também não é permitido obstruir de qualquer forma a exibição das páginas de origem dos serviços relacionados ao DramaCanvas, com inserções, pop-ups e outros impedimentos;
+
+(3) Devem ser adotadas medidas seguras, eficazes e rigorosas para impedir que os conteúdos informacionais dos serviços relacionados ao DramaCanvas sejam obtidos ilegalmente por terceiros por meio de quaisquer formas, incluindo, entre outros, programas "aranha" (spider);
+
+(4) Não é permitido usar os conteúdos de dados correlatos para fins fora do escopo da nossa permissão por escrito, realizando qualquer forma de venda e uso comercial, ou divulgar, fornecer a terceiros ou permitir que terceiros os utilizem de qualquer maneira.
+
+5.3 Você deve respeitar a privacidade e a moral, atentar para a proteção da segurança dos dados, e não inserir nem compartilhar quaisquer informações pessoais não autorizadas, informações confidenciais (incluindo, entre outros, segredos comerciais) e outros tipos de informações não autorizadas; você deve respeitar os direitos e interesses legítimos de terceiros, garantir que o conteúdo que inserir seja legal e conforme, de sua propriedade ou devidamente licenciado, não inserir nem compartilhar qualquer conteúdo não autorizado, não prejudicar direitos de propriedade intelectual, direitos de personalidade e outros direitos de terceiros; não se passar por outras pessoas para praticar atos ilícitos que infrinjam direitos e outras atividades ilegais, e não usar novas tecnologias e novas aplicações como aprendizado profundo, realidade virtual e inteligência artificial generativa para gerar, produzir, publicar ou difundir boatos, informações falsas e outros conteúdos ilegais.
+
+5.4 Para alertar os usuários de que o conteúdo correspondente foi gerado ou sintetizado por inteligência artificial, conforme exigido pelas leis e regulamentos, adicionaremos aos conteúdos gerados ou sintetizados por IA rótulos de conteúdo gerado/sintetizado por IA (incluindo rótulos explícitos visíveis a olho nu existentes sobre o conteúdo gerado/sintetizado, e rótulos implícitos incorporados por meio de técnicas específicas aos arquivos de metadados do conteúdo gerado/sintetizado, que não podem ser diretamente percebidos, mas podem ser extraídos e identificados por meios técnicos), a fim de evitar que usuários confundam ou identifiquem erroneamente informações não verdadeiras geradas/sintetizadas por IA ou outros conteúdos informacionais que possam causar confusão ou erro de identificação ao público. Leia com atenção e compreenda os requisitos de gestão de rótulos previstos em leis, regulamentos e normas nacionais obrigatórias correlatas, como as Medidas de Rotulagem de Conteúdo Gerado e Sintetizado por Inteligência Artificial e o Método de Rotulagem de Conteúdo Gerado e Sintetizado por Inteligência Artificial em Tecnologia de Segurança Cibernética; não é permitido ocultar, apagar, modificar ou excluir, sob qualquer forma, os rótulos que adicionamos ao conteúdo de IA.
+
+5.5 Você pode nos solicitar, com base nas Instruções de Rotulagem de Conteúdo Gerado por IA do DramaCanvas, o fornecimento de conteúdo gerado/sintetizado sem o rótulo explícito adicionado, e deverá, por conta própria, rotulá-lo de outra forma proeminente durante o uso desse conteúdo gerado/sintetizado, indicando que se trata de conteúdo gerado ou sintetizado por inteligência artificial.
+
+5.6 As informações e os conteúdos que você produz, comenta, publica e difunde (incluindo, entre outros, modelos, imagens, comentários etc. enviados à plataforma DramaCanvas) devem cumprir espontaneamente os requisitos das "sete linhas de base": leis e regulamentos, o sistema socialista, os interesses nacionais, os direitos e interesses legítimos dos cidadãos, a ordem pública social, os costumes morais e a veracidade das informações; caso contrário, teremos o direito de adotar imediatamente as medidas de tratamento correspondentes, incluindo a exclusão de conteúdos e de contas. Você concorda e se compromete a não produzir, copiar, publicar ou difundir as seguintes informações e conteúdos:
+
+(1) aqueles que se opõem aos princípios fundamentais estabelecidos na Constituição;
+
+(2) aqueles que prejudicam a segurança nacional e vazam segredos de Estado;
+
+(3) aqueles que subvertem o poder estatal, derrubam o sistema socialista, incitam a divisão do país e prejudicam a unidade nacional;
+
+(4) aqueles que prejudicam a honra e os interesses nacionais;
+
+(5) aqueles que promovem o terrorismo e o extremismo;
+
+(6) aqueles que incitam ódio étnico e discriminação étnica e prejudicam a unidade das etnias;
+
+(7) aqueles que incitam discriminação regional e ódio regional;
+
+(8) aqueles que prejudicam a política religiosa do Estado e promovem seitas e superstições feudais;
+
+(9) aqueles que inventam e espalham boatos e informações falsas, perturbam a ordem econômica e social e prejudicam a estabilidade social;
+
+(10) aqueles que difundem e propagam obscenidade, pornografia, jogos de azar, violência, homicídio, terror ou incitam à criminalidade;
+
+(11) aqueles que prejudicam a segurança da rede ou usam a rede para atentar contra a segurança, a honra e os interesses nacionais;
+
+(12) aqueles que insultam ou difamam terceiros e prejudicam direitos e interesses legítimos de terceiros;
+
+(13) aqueles que praticam intimidação e ameaça violenta contra terceiros e realizam doxxing (busca de pessoas);
+
+(14) aqueles que envolvem a privacidade, as informações pessoais ou os dados de terceiros;
+
+(15) aqueles que espalham palavrões e vulgaridades e prejudicam a moral e os bons costumes sociais;
+
+(16) aqueles que infrinem direitos e interesses legítimos de terceiros, como direitos de privacidade, direitos de reputação, direitos de imagem e direitos de propriedade intelectual;
+
+(17) aqueles que difundem anúncios comerciais, ou informações semelhantes de aliciamento comercial, informações de marketing excessivo e informações de spam;
+
+(18) aqueles que comentam em idiomas e escritas distintos dos idiomas e escritas comumente usados neste site;
+
+(19) aqueles que não têm qualquer relação com as informações comentadas;
+
+(20) aqueles cujas informações publicadas não têm sentido algum, ou que usam deliberadamente combinações de caracteres para escapar da triagem técnica;
+
+(21) aqueles que prejudicam direitos e interesses legítimos de menores ou prejudicam a saúde física e mental de menores;
+
+(22) aqueles que fotografam ou gravam terceiros às escondidas sem a permissão deles, infringindo seus direitos legítimos;
+
+(23) aqueles que contêm conteúdo de terror, violência sangrenta, alta periculosidade, ou que prejudiquem a saúde física e mental dos próprios intérpretes ou de terceiros, incluindo, entre outros, as seguintes situações:
+
+qualquer conteúdo de atos de violência e/ou automutilação;
+
+qualquer conteúdo que ameace a vida e a saúde, ou que use facas e outros instrumentos perigosos em apresentações que coloquem em risco a integridade física e/ou os direitos patrimoniais próprios ou de terceiros;
+
+conteúdo que instigue e induza terceiros a participar de atividades perigosas ou ilegais que possam causar lesões corporais ou levar à morte;
+
+(24) Informações que contenham conteúdo que viole leis, regulamentos e políticas, ou a moral e os bons costumes, que interfira no funcionamento normal da plataforma DramaCanvas ou que viole os direitos e interesses legítimos de outros usuários ou de terceiros.
+
+5.7 Estabelecemos canais de reclamações e denúncias. Você poderá apresentar reclamações e denúncias sobre diversos tipos de condutas que violem leis e regulamentos, bem como informações ilegais e prejudiciais, por meio dos pontos de entrada para reclamações e denúncias que divulgamos. Acolheremos e trataremos suas reclamações e denúncias de forma oportuna, a fim de construir, em conjunto, um ambiente online limpo e saudável.
+
+6. Propriedade intelectual
+
+6.1 Você compreende e concorda que quaisquer códigos, marcas registradas, marcas de serviço, nomes comerciais, gráficos, obras de arte, fotografias, retratos, conteúdos textuais, áudios, vídeos, ícones de botões, bem como softwares de computador, logotipos, downloads digitais, compilações de dados etc. incluídos nos serviços fornecidos pela plataforma DramaCanvas são propriedade nossa ou de nossos provedores de conteúdo, estando protegidos pelas leis e regulamentos da República Popular da China relativos a direitos autorais, direitos de marca e outros direitos de propriedade, e você não deverá praticar qualquer ato que viole os direitos de propriedade intelectual ou outros direitos nossos ou de quaisquer terceiros.
+
+6.2 Você compreende e concorda que, salvo disposição em contrário, a propriedade, os direitos de propriedade intelectual e demais direitos legais do conteúdo de usuário que você carrega ou publica por meio da plataforma DramaCanvas pertencem a você ou aos seus licenciantes. Para que o conteúdo de usuário seja melhor compartilhado e promovido, aumentando seu valor de difusão e sua influência, você concorda e/ou assegura que o titular efetivo dos direitos concorda com o seguinte:
+
+6.2.1 Você compromete-se a garantir que o conteúdo carregado e publicado ao utilizar os serviços relacionados à DramaCanvas (incluindo, mas não se limitando a, conteúdos em diversas formas, como modelos, textos, imagens, áudios, vídeos, e todos os componentes neles contidos, tais como músicas, sons, falas, designs visuais, diálogos etc.) seja de sua autoria original ou devidamente autorizado por meios legítimos (incluindo o direito de sublicenciar), sem violar os direitos de propriedade intelectual ou outros direitos de terceiros. A propriedade do conteúdo gerado por você online por meio da plataforma DramaCanvas pertence exclusivamente a você; os direitos patrimoniais, como os direitos de propriedade intelectual, sobre o conteúdo gerado pertencem a você ou aos titulares dos direitos de propriedade intelectual correspondentes.
+
+6.2.2 Com a sua autorização, teremos o direito de, quando necessário, em nosso próprio nome ou por meio da delegação a um terceiro profissional especializado, promover a defesa dos seus direitos em seu nome quanto a conteúdos que você carregou e publicou e sobre os quais detém direitos de propriedade intelectual, sendo as formas de defesa incluídas, mas não se limitando a: monitorar atos de violação, enviar cartas de defesa de direitos, ajuizar ações judiciais ou arbitragens etc.
+
+6.2.3 Você possui propriedade, controle e responsabilidade sobre o conteúdo que publica ou disponibiliza de outras formas na plataforma DramaCanvas. Seu conteúdo não deverá violar qualquer disposição deste Acordo, nem as leis e regulamentos aplicáveis, nem violar ou apropriar-se indevidamente de quaisquer direitos de qualquer pessoa ou entidade. Caso tenhamos dúvidas quanto à violação, por parte do seu conteúdo, de qualquer disposição deste Acordo, poderemos, a qualquer momento e a nosso exclusivo critério, excluir o seu conteúdo; caso você discorde do resultado do tratamento, poderá entrar em contato conosco por meio dos contatos indicados neste Acordo, apresentando materiais para solução negociada.
+
+6.2.4 Ao utilizar os serviços relacionados à DramaCanvas para gerar imagens e outros conteúdos, a interface interativa da ferramenta de geração e a área de exibição das imagens/vídeos gerados conterão a marca d'água com os dizeres “Conteúdo gerado pela DramaCanvas”. Ao baixar imagens/vídeos, você poderá escolher o estilo da marca d'água da marca de IA e salvá-la.
+
+6.2.5 Você deverá utilizar este serviço de boa-fé como uma ferramenta de apoio à criação. Caso pretenda publicar, difundir ou utilizar comercialmente o conteúdo gerado, você deverá realizar as revisões necessárias quanto à conformidade do conteúdo gerado e do seu uso com as leis e regulamentos, devendo, quando necessário, buscar aconselhamento jurídico profissional, a fim de eliminar ao máximo o risco de violação de direitos de propriedade intelectual.
+
+6.2.6 Para melhorar continuamente os diversos serviços que a DramaCanvas lhe oferece, em relação a quaisquer arquivos ou conteúdos que você insira, gere e carregue na DramaCanvas (incluindo, mas não se limitando a, modelos, imagens, dados de treinamento etc.), você concede expressamente a nós uma licença mundial, perpétua, gratuita, não exclusiva e sublicenciável em múltiplos níveis, para usar, exibir, baixar e/ou distribuir tais arquivos ou conteúdos e as obras derivadas criadas, ou os ativos gerados conforme suas instruções, em qualquer forma nas mídias atuais ou futuras da internet. Essa licença destina-se às plataformas de negócios relacionadas à DramaCanvas e a nós, incluindo, mas não se limitando a, promover e redistribuir parte ou a totalidade dos serviços (e suas obras derivadas) em qualquer formato de mídia e por quaisquer canais de mídia, aprimorar e melhorar nossos modelos de inteligência artificial e nossos produtos e serviços, e garantir a segurança e a estabilidade dos serviços. Caso não deseje que os utilizemos para as finalidades mencionadas anteriormente, você poderá entrar em contato conosco por meio da página de feedback ou enviando um e-mail para support@dramacanva.com.
+
+6.3 Quando o conteúdo incluir declarações de licença razoáveis e usuais (por exemplo, licenças de código aberto), tal conteúdo deverá, ao ser posteriormente acessado, distribuído ou utilizado, cumprir os termos dessa licença, e nenhuma das partes poderá remover a referência a qualquer dessas licenças.
+
+7. Violações pelo usuário e seu tratamento
+
+7.1 Em relação às suas violações deste Acordo ou de outros termos de serviço, teremos o direito de julgar de forma independente e, conforme o caso, adotar medidas como advertência prévia, recusa de publicação, interrupção imediata da transmissão de informações, exclusão de conteúdos ou comentários, proibição temporária de publicar conteúdos ou comentários, restrição de parte ou de todas as funções da conta até a cessação da prestação dos serviços, encerramento permanente da conta etc. Quanto às consequências daí decorrentes, como a impossibilidade de utilizar normalmente a conta e os serviços relacionados, ou de obter normalmente os ativos ou outros direitos em sua conta, não assumiremos qualquer responsabilidade. Temos o direito de publicar os resultados do tratamento e de decidir, conforme as circunstâncias reais, se restaura ou não o uso das contas relacionadas. Quanto a condutas suspeitas de violar leis e regulamentos ou suspeitas de constituir crimes, conservaremos os registros pertinentes e teremos o direito de, conforme a lei, reportar às autoridades competentes, colaborar com as investigações das autoridades competentes, apresentar queixas às autoridades policiais públicas etc. Quanto aos conteúdos já excluídos, teremos o direito de não restaurá-los.
+
+7.2 Respeitamos e protegemos os direitos e interesses legítimos de usuários e de terceiros, como os direitos de propriedade intelectual, o direito à reputação, o direito ao nome, o direito à privacidade etc. Você garante que, ao utilizar os serviços da DramaCanvas, os textos, imagens e modelos carregados por você, ou os textos, imagens, vídeos e outros conteúdos gerados com modelos fornecidos por outros usuários, não violarão os direitos e interesses legítimos de quaisquer terceiros, como os direitos de propriedade intelectual, o direito à reputação, o direito ao nome e o direito à privacidade. Caso contrário, teremos o direito de remover o conteúdo supostamente infrator após receber notificação do titular dos direitos ou de parte relacionada. Quanto a todas as reivindicações de direitos apresentadas por terceiros, você deverá tratá-las por conta própria e assumir todas as responsabilidades legais que possam daí decorrer; se as suas condutas infratoras causarem prejuízos a nós, às nossas afiliadas, às empresas controladoras, às empresas sucessoras ou a outros usuários (incluindo, mas não se limitando a, prejuízos econômicos e de reputação/goodwill), você deverá ainda indenizar integralmente todas as perdas sofridas por nós, nossas afiliadas, empresas controladoras, empresas sucessoras ou outros usuários.
+
+7.3 Você é integralmente responsável pelas suas condutas ao utilizar os serviços da DramaCanvas. Por todas as obrigações de indenização e custos (incluindo honorários advocatícios) decorrentes do seu uso (ou da impossibilidade de uso) dos serviços (incluindo, mas não se limitando a, violações do contrato de usuário ou de leis e regulamentos por sua parte, qualquer conteúdo ou dado que você publique ou utilize, bem como o uso do seu conteúdo por qualquer outra parte para quaisquer serviços), você deverá indenizar a nós e às partes relacionadas, exceto quando as reivindicações decorrerem diretamente de fraude, negligência grave ou crime doloso da DramaCanvas, caso em que essa obrigação de indenização não se aplicará.
+
+7.4 Você concorda que temos o direito de atuar como um terceiro independente e, com base nos fatos da disputa que tenhamos conhecido e de acordo com as regras de resolução de disputas da DramaCanvas, tomar decisões de investigação e tratamento de forma independente, com o grau de diligência de uma pessoa comum. Caso não concorde com as decisões pertinentes, você ainda terá o direito de recorrer a outras vias legais de resolução de disputas para solucionar a controvérsia; porém, antes de obter uma decisão definitiva por meio de outras vias de resolução de disputas, você concorda em cumprir primeiro a decisão de investigação e tratamento já tomada.
+
+7.5 Se descobrirmos, ou recebermos denúncias ou reclamações de terceiros, de que você violou as disposições deste Acordo ou violou leis, regulamentos e as normas nacionais pertinentes, teremos o direito de adotar medidas como advertências, congelamento, encerramento/suspensão/restrição do uso da conta e outras funções, resolução ou rescisão deste Acordo, ou pleitear indenizações por danos etc.
+
+8. Escopo de responsabilidade e limitação de responsabilidade
+
+8.1 Nossos serviços são fornecidos no estado em que se encontram e conforme a disponibilidade. Declaramos expressamente, por este meio, que não concedemos qualquer garantia, explícita ou implícita, quanto aos serviços, incluindo, mas não se limitando a, a aplicabilidade dos serviços, a ausência de omissões, a continuidade, a exatidão, a confiabilidade, ou a adequação a uma finalidade específica.
+
+8.2 Dadas as limitações da ciência e da tecnologia na fase atual e os princípios da tecnologia de geração por inteligência artificial, é difícil garantirmos a autenticidade, a exatidão, a confiabilidade e a singularidade do conteúdo gerado. Os resultados de geração para conteúdos de entrada idênticos ou semelhantes podem apresentar incertezas; portanto, não oferecemos qualquer garantia quanto ao conteúdo gerado. Você deverá realizar, por conta própria, um julgamento e uma verificação objetivos e prudentes do conteúdo gerado; as consequências e responsabilidades decorrentes de quaisquer julgamentos que você faça com base no conteúdo gerado ou das operações subsequentes realizadas com base nele (incluindo, mas não se limitando a, os riscos decorrentes de seus julgamentos quanto à autenticidade, exatidão, confiabilidade, singularidade e não violação do conteúdo gerado) serão por sua conta e risco. Atribuímos grande importância à segurança do conteúdo dos resultados gerados por inteligência artificial e envidaremos esforços para adotar medidas de segurança razoáveis a fim de filtrar conteúdos impróprios/prejudiciais produzidos pelo modelo, garantindo que seus resultados sejam o mais possível conformes às expectativas normativas, mas não é possível excluir completamente a ocorrência de falhas. Se você se deparar com tal situação, informe-nos prontamente; trataremos da questão com rapidez e otimizaremos continuamente os serviços da plataforma.
+
+8.3 Cumpriremos as obrigações fundamentais de garantia conforme as leis e regulamentos, mas não assumiremos responsabilidade pelas seguintes circunstâncias de obstáculo ao cumprimento do contrato, falhas no cumprimento, atrasos no cumprimento ou alterações no conteúdo do cumprimento causadas por qualquer dos motivos a seguir:
+
+(1) Fatores de força maior, como epidemias, tufões, terremotos, tsunamis, inundações, cortes de energia, guerras, ataques terroristas, ordens judiciais e administrativas etc.;
+
+(2) Fatores de serviços públicos, como falhas no fornecimento de energia elétrica e falhas nas redes de comunicação, ou fatores de terceiros;
+
+(3) Fatores como manutenção de equipamentos, falhas de equipamentos ou de sistemas, e segurança de informações e dados em rede, apesar de termos praticado uma gestão de boa-fé.
+
+8.4 Quanto a quaisquer informações que você obtenha da DramaCanvas de terceiros ou de outras pessoas, como conteúdos ou publicidades (a seguir, denominadas em conjunto “Informações”), não garantimos sua autenticidade, exatidão e integridade, salvo disposição expressa em lei. Você compreende plenamente e concorda que, dada a particularidade do sistema e do ambiente da internet, as informações que você publica e compartilha ao utilizar os serviços relacionados à DramaCanvas podem ser copiadas, republicadas, adulteradas ou utilizadas por terceiros para fins ilegais; você reconhece, por este meio, estar plenamente ciente da existência de tais riscos e confirma que tais riscos deverão ser integralmente assumidos por você, e não assumimos quaisquer perdas e responsabilidades diretas, indiretas, acessórias ou derivadas por quaisquer transações ou condutas que não tenham ocorrido diretamente conosco.
+
+8.5 Conforme as leis e regulamentos pertinentes, este Acordo e as regras da plataforma, obtemos o direito de revisar e tratar conteúdos que violem leis e regulamentos, mas esse direito não constitui nossa obrigação ou compromisso, e não podemos garantir a descoberta tempestiva de condutas ilícitas ou o tratamento correspondente.
+
+8.6 Salvo sentença judicial válida, não seremos responsáveis por quaisquer indenizações por danos indiretos, incidentais, especiais ou punitivos decorrentes dos serviços relacionados à DramaCanvas, mesmo que tenhamos sido previamente advertidos sobre a possibilidade de ocorrência de tais danos.
+
+9. Termos de uso para menores de idade
+
+9.1 Se você for um menor de idade com menos de 18 anos, somente poderá utilizar os serviços relacionados à DramaCanvas após ler atentamente e concordar com este Acordo, sob a supervisão e orientação do seu responsável legal e com o consentimento deste. Caso você não tenha obtido o consentimento do responsável legal, este poderá notificar a plataforma, por meio dos canais divulgados pela plataforma, para tratar a conta pertinente, e a plataforma terá o direito de restringir as funções e o uso da conta pertinente, incluindo, mas não se limitando a, navegação, publicação de informações, interação e comunicação etc.
+
+9.2 Atribuímos grande importância à proteção das informações pessoais de menores de idade. Ao preencher informações pessoais, os usuários menores de idade devem reforçar a consciência de autoproteção e agir com prudência, além de utilizar corretamente os serviços relacionados à DramaCanvas com o consentimento do responsável legal e sob sua orientação.
+
+9.3 Os usuários menores de idade e seus responsáveis legais compreendem e confirmam que, caso você viole leis e regulamentos ou as disposições deste Acordo, você e seu responsável legal deverão assumir, conforme as disposições legais, todas as responsabilidades legais que possam daí decorrer.
+
+9.4 Avisos especiais para usuários menores de idade
+
+9.4.1 Os menores de idade que utilizarem os serviços relacionados à DramaCanvas devem, sob a supervisão e orientação de seus responsáveis legais, aprender e utilizar a rede de forma correta dentro de limites razoáveis, evitando o vício no espaço virtual e desenvolvendo bons hábitos de uso da internet.
+
+Os usuários jovens devem cumprir a “Convenção Nacional de Civilidade na Rede para Jovens”:
+
+(1) Dedicar-se ao aprendizado online e não navegar por conteúdos impróprios;
+
+(2) Comunicar-se de forma honesta e amistosa e não humilhar ou fraudar terceiros;
+
+(3) Reforçar a consciência de autoproteção e não marcar encontros aleatoriamente com conhecidos da rede;
+
+(4) Manter a segurança da rede e não destruir a ordem da rede;
+
+(5) Preservar a saúde física e mental e não se afundar no espaço virtual.
+
+9.4.2 Para proteger melhor os direitos de privacidade dos menores de idade, advertimos especialmente que você publique com cautela conteúdos contendo material de menores de idade; uma vez publicado, considerar-se-á que você obteve o consentimento do titular dos direitos para exibir, nos serviços relacionados à DramaCanvas, informações como o retrato e a voz do menor, e que permite que utilizemos e tratemos tais conteúdos relacionados a menores de idade conforme este Acordo.
+
+9.5 Avisos especiais para responsáveis legais
+
+Caso a pessoa sob sua responsabilidade utilize os serviços relacionados à DramaCanvas, você, como responsável legal, deverá orientar e supervisionar as condutas de registro e uso dessa pessoa; se a pessoa sob sua responsabilidade solicitar o registro de uma conta na plataforma, teremos o direito de considerar que ela obteve o seu consentimento.
+
+10. Custos
+
+Despendemos custos consideráveis para os serviços relacionados à DramaCanvas. Os serviços que lhe oferecemos podem incluir serviços gratuitos ou serviços pagos, conforme exibido nas páginas da plataforma, e você pode escolher, conforme sua necessidade, entre serviços gratuitos ou pagos. Você compreende e concorda que podemos ajustar os padrões e as formas de cobrança dos serviços conforme as necessidades do desenvolvimento dos negócios, e que também podemos passar a cobrar por alguns serviços atualmente gratuitos, sendo que notificaremos ou divulgaremos essas mudanças por meio das páginas da plataforma. Para fins de clareza, os serviços gratuitos fornecidos por meio da plataforma DramaCanvas não devem ser considerados como renúncia ao direito de cobrança futura.
+
+Os créditos da plataforma (sejam adquiridos por compra, incluídos em pacotes ou obtidos por meio de recompensas de eventos ou convites) só podem ser utilizados para pagar serviços de geração e outros serviços na plataforma DramaCanvas. Os créditos não são moeda de curso legal e não podem ser sacados, não podem ser convertidos em dinheiro e não podem ser transferidos, doados ou negociados entre contas. Em caso de falha na geração, os créditos deduzidos serão devolvidos à sua conta. As regras específicas relativas aos créditos, tais como prazo de validade e reembolso, estarão sujeitas às descrições na página de compra ou às explicações fornecidas no momento da concessão. Caso as leis e regulamentos aplicáveis contenham disposições obrigatórias em contrário, prevalecerão tais disposições.
+
+Você pode convidar outras pessoas a se registrarem na DramaCanvas por meio de seu link ou código de convite exclusivo. As recompensas por convite são concedidas na forma de créditos da plataforma e estão sujeitas às disposições deste Acordo relativas aos créditos (não podem ser sacados, convertidos em dinheiro ou transferidos). As regras específicas sobre as recompensas, tais como condições de obtenção, proporções, período de retenção, limite máximo e prazo de validade, estarão sujeitas às regras divulgadas na página de convite; podemos ajustar as regras, sendo que as recompensas já geradas antes do ajuste serão processadas de acordo com as regras originais. Não serão concedidas recompensas, as já concedidas poderão ser revogadas e, quando necessário, os privilégios de convite das contas relevantes poderão ser congelados nas seguintes situações: convidar a si próprio ou realizar convites mútuos utilizando múltiplas contas; utilizar informações falsas, e-mails descartáveis ou cadastros em massa; ocorrência de reembolso ou estorno (chargeback) nos pedidos das pessoas convidadas; bem como outras condutas fraudulentas ou violações deste Acordo. Você não deve divulgar links de convite de maneira enganosa, mediante assédio, fazendo-se passar por fonte oficial ou violando as regras de publicidade e da plataforma.
+
+11. Celebração, rescisão e resolução de disputas do Acordo
+
+11.1 A celebração, a entrada em vigor, o cumprimento, a interpretação deste Acordo e a resolução de disputas reger-se-ão pelas leis da República Popular da China. Caso qualquer disposição deste Acordo se torne inválida por conflito com as leis da República Popular da China, essas disposições serão reinterpretadas e aplicadas, sem violar a lei, segundo o princípio de se aproximar ao máximo da finalidade do texto original deste Acordo, e as demais disposições deste Acordo manterão plena validade e efeito.
+
+11.2 Você tem o direito de rescindir este Acordo por qualquer uma das seguintes formas:
+
+(1) Cancelando sua conta por meio das páginas de serviço da plataforma DramaCanvas, quando as condições de cancelamento da conta forem atendidas;
+
+(2) Deixando de utilizar os serviços e manifestando expressamente sua não aceitação das alterações, antes da entrada em vigor das alterações deste Acordo;
+
+(3) Manifestando expressamente sua não intenção de continuar utilizando os serviços da plataforma DramaCanvas, atendendo, ademais, às condições de encerramento do uso dos serviços da plataforma.
+
+11.3 Teremos o direito de rescindir unilateralmente este Acordo nas seguintes circunstâncias:
+
+(1) Você viola as disposições deste Acordo e nós o rescindimos com base nas cláusulas de violação contratual;
+
+(2) Você publica informações falsas na plataforma DramaCanvas, viola os direitos e interesses legítimos de terceiros ou pratica outras infrações graves à lei;
+
+(3) Outras situações em que os serviços devam ser encerrados.
+
+11.4 Você compreende e concorda que a rescisão deste Acordo não exonerá automaticamente as obrigações pertinentes que você deveria cumprir durante a vigência deste Acordo; caso você tenha cometido alguma violação contratual antes da rescisão do Acordo, teremos, ainda após a rescisão, o direito de responsabilizá-lo pela violação
+
+11.5 O local de assinatura deste Acordo é o local onde se situa a entidade operadora da plataforma DramaCanvas. Caso ocorra qualquer disputa entre você e nós, as partes deverão procurar resolvê-la de forma amigável por meio de negociações; não sendo possível chegar a um acordo por negociação, você concorda em submeter a disputa à solução judicial perante o tribunal popular competente no distrito de Haidian, em Pequim, onde se situa a DramaCanvas.
+
+12. Outras disposições
+
+12.1 A fim de lhe proporcionar melhores serviços, ou devido a mudanças em leis e regulamentos nacionais, políticas, condições técnicas, funcionalidades de produtos etc., revisaremos este Acordo oportunamente, e o conteúdo revisado passará a integrar este Acordo. Após a atualização deste Acordo, publicaremos a versão atualizada na plataforma DramaCanvas e, antes da entrada em vigor das cláusulas atualizadas, lembraremos você do conteúdo das atualizações por meio de anúncio no site oficial (https://dramacanva.com) ou por outros meios adequados, para que você conheça tempestivamente a versão mais recente deste Acordo; você também poderá consultar a versão mais recente das cláusulas do Acordo na página inicial do site. Caso você continue utilizando os serviços relacionados à DramaCanvas, isso significará que você concordou em aceitar o conteúdo deste Acordo após a revisão; caso não aceite o conteúdo deste Acordo após a modificação, você deverá deixar de utilizar os serviços relacionados à DramaCanvas.
+
+12.2 Os títulos neste Acordo servem apenas para facilitar a leitura e não afetam o significado ou a interpretação de qualquer disposição deste Acordo.
+
+12.3 Você e nós somos entidades independentes; em nenhuma circunstância este Acordo constituirá, da nossa parte, qualquer garantia ou condição, explícita ou implícita, de qualquer forma quanto a você, e entre as partes tampouco se configurará relação de agência, sociedade, empreendimento conjunto ou vínculo empregatício.

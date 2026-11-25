@@ -1,0 +1,67 @@
+{
+    "title": "Cozy character design: profiles, refs, and video ideas",
+    "metaDescription": "For cozy video beginners: share an idea in chat, confirm details, and AI outlines the character's look, personality, and backstory, plus refs, video ideas.",
+    "oneLiner": "Enter a character idea to generate a cozy character profile card, reference images, and video topics on the canvas.",
+    "intro": [
+        "This is a creative tool that helps you design original characters. Even if you can't draw, it can help turn the cute idea in your head into a distinctive main character you can make short videos with.",
+        "You only need a simple idea, like \"a plush little bear who loves soup,\" or a quick sketch. Tell the AI what you like in the chat box and answer a few simple questions.",
+        "When it's done, you'll get a complete character profile card, 3 character reference images, and 10 video topics on the canvas, so you can save them and start making videos right away."
+    ],
+    "example": {
+        "input": "I want to make a cozy little sprite, like a light-blue raindrop with a plush texture, wearing a tiny clear rain hat and holding a little night-light, living in a convenience store after the rain.",
+        "output": "The canvas generates a character profile card (with look, personality, and habits spelled out), 3 plush raindrop character images, and 10 short video topics about daily life at the after-rain convenience store."
+    },
+    "scenarios": [
+        "You want to make cozy short videos, but you only have a vague idea and don't know how to pin down the character.",
+        "You've sketched something yourself or found images you like, and you want the AI to build a fully developed character based on them.",
+        "You've designed a cute character but don't know what videos to make, and you run out of inspiration after two posts.",
+        "You plan to make food daily-life or bedtime companion videos, and you want a regular main character of your own."
+    ],
+    "problems": [
+        {
+            "pain": "You want an original character, but the design you come up with is too ordinary and people forget it at a glance.",
+            "solve": "Add signature moves, special little props, and distinctive textures so the character is memorable at a glance."
+        },
+        {
+            "pain": "When you generate images with AI, the same character looks different each time, including their clothes.",
+            "solve": "Lock in the character's visual details and style traits, then generate a dedicated set of image prompts to keep their look as consistent as possible."
+        },
+        {
+            "pain": "You've designed the character but don't know what videos to make, and you lose inspiration after two posts.",
+            "solve": "Give the character a living environment and put together 10 short-video topics covering daily life and food."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill,\" then enter your character idea in the chat box on the right.",
+        "Upload a reference image or hand-drawn sketch (you can skip this if you don't have one) so the AI can extract the character's visual features.",
+        "Choose a character option you like and view the detailed character profile card on the canvas.",
+        "Review the 3 character reference images generated on the canvas and pick the one you like best.",
+        "Download the selected character image and save the 10 video topic cards on the canvas."
+    ],
+    "faq": [
+        {
+            "q": "I can't draw. Can I use AI to design my own original character?",
+            "a": "Yes, no professional drawing skills needed. Just share your idea in the chat box, and the AI will help flesh out the character's look, personality, and signature props, then generate a profile card and reference images on the canvas. If you're unhappy with any part, you can edit the text on the canvas or tell the AI what to adjust."
+        },
+        {
+            "q": "When I generate a character with AI, what should I do if they look different every time?",
+            "a": "You can keep them consistent by locking in their visual features. This skill helps distill the character's silhouette, materials, and signature props, and generates a dedicated set of image prompts you can reuse. When you generate new images later, include this description to minimize drift and keep the look more consistent."
+        },
+        {
+            "q": "After the character is designed, how do I come up with video content I can keep making?",
+            "a": "The skill sets a fixed living scene for the character and puts together the first 10 short-video topics, covering daily life and cozy food directions for reference. The topic cards are generated directly on the canvas with actions and visual highlights noted, so you can review them anytime and start shooting right away."
+        },
+        {
+            "q": "Can this skill directly generate a fully edited short video?",
+            "a": "No. It mainly handles character design, reference images, and video topics; it does not directly generate a complete edited video. If you want to see the character move, you can have AI generate a motion test clip; the final video needs to be arranged on the timeline in the {brand} canvas and then exported."
+        }
+    ],
+    "keywords": [
+        "cozy character design",
+        "create original characters with AI",
+        "short video main character design",
+        "cozy short video ideas",
+        "character profile card generator",
+        "AI character generation tutorial"
+    ]
+}

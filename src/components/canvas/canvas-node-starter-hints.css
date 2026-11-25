@@ -1,0 +1,26 @@
+.canvas-starter-hints {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    height: 100%;
+    padding: 24px;
+    color: var(--cn-text);
+}
+.canvas-starter-hints-label {
+    font-size: var(--fs-body);
+    color: var(--cn-muted);
+}
+.canvas-starter-hints-button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: var(--r-md);
+    background: var(--bg-secondary);
+    border: 1px solid var(--cn-stroke);
+    font-size: var(--fs-body);
+}
+.canvas-starter-hints-button:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}

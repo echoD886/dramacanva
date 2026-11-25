@@ -1,0 +1,209 @@
+/* Pricing page refinements, loaded after the older pricing sheets so these rules settle each case.
+   Billing-cycle row: one compact segmented control with short names, the saving shown as a small tag
+   above its segment, the credit-pack entry beside it at the same height, and the currency note centred
+   under both. */
+.libtv-pricing-page .libtv-pricing-controls {
+    --cycle-tag-bg: linear-gradient(100deg, #ffb36b, #ff8a4c);
+    --cycle-tag-ink: #2a1405;
+    --cycle-rim: rgba(255, 255, 255, 0.12);
+    --cycle-fill: rgba(255, 255, 255, 0.045);
+    --cycle-ink: rgba(255, 255, 255, 0.62);
+    --cycle-ink-active: #fff;
+    --cycle-active: rgba(255, 255, 255, 0.14);
+    --cycle-store-ink: rgba(255, 255, 255, 0.8);
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 34px 0 10px !important;
+}
+.libtv-pricing-page.is-team .libtv-pricing-controls {
+    --cycle-tag-bg: linear-gradient(100deg, #8fb1ff, #5b84f0);
+    --cycle-tag-ink: #0b1633;
+}
+:root:not(.dark) .libtv-pricing-page .libtv-pricing-controls {
+    --cycle-tag-bg: linear-gradient(100deg, #ff9a52, #f0712f);
+    --cycle-tag-ink: #fff;
+    --cycle-rim: rgba(23, 36, 44, 0.14);
+    --cycle-fill: rgba(255, 255, 255, 0.5);
+    --cycle-ink: #586675;
+    --cycle-ink-active: #17242c;
+    --cycle-active: #fff;
+    --cycle-store-ink: #17242c;
+}
+:root:not(.dark) .libtv-pricing-page.is-team .libtv-pricing-controls {
+    --cycle-tag-bg: linear-gradient(100deg, #6e94f5, #3f6ad8);
+}
+
+.libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch {
+    display: inline-flex !important;
+    flex-wrap: nowrap !important;
+    width: auto !important;
+    max-width: 100%;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    gap: 2px;
+    padding: 4px;
+    overflow: visible;
+    border: 1px solid var(--cycle-rim) !important;
+    border-radius: 999px !important;
+    background: var(--cycle-fill) !important;
+    box-shadow: none !important;
+}
+.libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button {
+    position: relative;
+    flex: 0 0 auto !important;
+    /* Label and saving tag share one grid cell, so the segment is at least as wide as its tag and
+       tags over neighbouring segments never touch, in any language. */
+    display: inline-grid;
+    place-items: center;
+    min-width: 116px !important;
+    height: 40px !important;
+    min-height: 40px !important;
+    padding: 0 20px !important;
+    overflow: visible;
+    border-radius: 999px;
+    color: var(--cycle-ink);
+    background: transparent;
+    box-shadow: none;
+    font-size: 15px !important;
+    line-height: 1;
+    white-space: nowrap !important;
+    cursor: pointer;
+    transition:
+        color 160ms ease,
+        background-color 160ms ease;
+}
+.libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button:hover {
+    color: var(--cycle-ink-active);
+}
+.libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button.is-active {
+    color: var(--cycle-ink-active);
+    background: var(--cycle-active) !important;
+    box-shadow:
+        inset 0 1px rgba(255, 255, 255, 0.35),
+        0 4px 12px rgba(0, 0, 0, 0.12);
+}
+.libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+.libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button > * {
+    grid-area: 1 / 1;
+}
+.libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button > span {
+    font-weight: 600;
+}
+
+/* The saving tag hangs over the segment's top edge, centred on it. */
+.libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button .libtv-cycle-discount {
+    align-self: start;
+    display: block !important;
+    margin: 0 !important;
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 999px;
+    color: var(--cycle-tag-ink) !important;
+    background: var(--cycle-tag-bg) !important;
+    box-shadow: 0 4px 12px rgba(255, 140, 70, 0.28);
+    font-size: 11px !important;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+.libtv-pricing-page.is-team .libtv-pricing-controls .libtv-cycle-switch button .libtv-cycle-discount {
+    box-shadow: 0 4px 12px rgba(80, 120, 230, 0.28);
+}
+.libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button .libtv-cycle-discount:empty {
+    display: none !important;
+}
+
+.libtv-pricing-page .libtv-pricing-controls .libtv-credit-store {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 4px;
+    height: 50px;
+    margin: 0;
+    padding: 0 16px 0 20px !important;
+    justify-self: auto;
+    border: 1px solid var(--cycle-rim) !important;
+    border-radius: 999px;
+    color: var(--cycle-store-ink);
+    background: transparent !important;
+    font-size: 14px !important;
+    font-weight: 500;
+    text-decoration: none !important;
+    cursor: pointer;
+    transition:
+        color 160ms ease,
+        border-color 160ms ease;
+}
+.libtv-pricing-page .libtv-pricing-controls .libtv-credit-store:hover {
+    border-color: color-mix(in srgb, var(--cycle-store-ink) 40%, transparent) !important;
+}
+.libtv-pricing-page .libtv-pricing-controls .libtv-credit-store[aria-pressed="true"] {
+    color: var(--cycle-ink-active);
+    background: var(--cycle-active) !important;
+    font-weight: 600;
+}
+
+.libtv-pricing-page .libtv-billing-display-note {
+    margin: 6px auto 22px !important;
+    text-align: center;
+    text-wrap: balance;
+}
+
+@media (max-width: 760px) {
+    .libtv-pricing-page .libtv-pricing-controls {
+        gap: 10px;
+        padding: 30px 0 6px !important;
+    }
+    .libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch {
+        display: flex !important;
+        width: 100% !important;
+    }
+    .libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button {
+        flex: 1 1 auto !important;
+        min-width: 0 !important;
+        padding: 0 8px !important;
+        font-size: 14px !important;
+    }
+    .libtv-pricing-page .libtv-pricing-controls .libtv-cycle-switch button .libtv-cycle-discount {
+        font-size: 10px !important;
+        padding: 3px 7px;
+        transform: translateY(-18px);
+    }
+    .libtv-pricing-page .libtv-pricing-controls .libtv-credit-store {
+        height: 40px;
+        font-size: 13px !important;
+    }
+    .libtv-pricing-page .libtv-billing-display-note {
+        margin: 4px 0 18px !important;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .libtv-pricing-page .libtv-pricing-controls :is(.libtv-cycle-switch button, .libtv-credit-store) {
+        transition: none;
+    }
+}
+
+/* The generations card sits on the plain dark page, so a live 32px backdrop blur adds nothing visible but
+   forces Chrome to re-blur a large area on every scroll frame inside the page's own scroller, which showed
+   as a flickering band across its top. A static translucent fill looks the same and stays still. */
+/* Doubled class: the shared glass rule reaches this card through :is() at three-class weight. */
+.libtv-pricing-page .sa-value-controls.sa-value-controls {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: rgba(30, 34, 40, 0.86);
+    margin: 4px 0 28px;
+}
+:root:not(.dark) .libtv-pricing-page .sa-value-controls.sa-value-controls {
+    background: rgba(255, 255, 255, 0.82);
+}

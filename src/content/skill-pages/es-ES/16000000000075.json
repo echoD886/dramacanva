@@ -1,0 +1,66 @@
+{
+    "title": "Reescribir diálogos: que suenen humanos, no como un manual",
+    "metaDescription": "Para creadores de series cortas, vídeos o relatos: revisa diálogos que suenan a manual y genera en el lienzo reescrituras, problemas y ejemplos de habla.",
+    "oneLiner": "Para quienes escriben series cortas: envía un borrador de diálogo y reescríbelo en el lienzo como una conversación humana y viva.",
+    "intro": [
+        "Este es un asistente de texto que te ayuda a pulir diálogos. Cuando las conversaciones de tus personajes resultan demasiado secas y parecen leídas de un manual, te ayuda a aclarar qué quieren conseguir de verdad y a que sus palabras suenen más naturales.",
+        "Solo tienes que preparar un borrador de diálogo ya escrito y explicar brevemente el contexto de la historia, qué personalidad tienen quienes hablan y qué objetivo buscan en ese momento.",
+        "Al terminar, en el lienzo aparecerán los nuevos diálogos reescritos, se señalará el subtexto (lo que realmente quieren decir) y se añadirá un análisis de los problemas junto con ejemplos de habla de cada personaje para que elijas."
+    ],
+    "example": {
+        "input": "Envía un borrador de diálogo: la esposa dice «Siempre trabajas hasta tarde y no te preocupas por la casa; la nevera está vacía y ni te importa», y el marido dice «Trabajo para mantener a la familia, ¿por qué no me entiendes?». Quiero que suene más natural.",
+        "output": "En el lienzo se genera una tarjeta de reescritura: la esposa reprocha usando los envases de comida para llevar y el marido evita su mirada y se escuda en el trabajo; cada frase indica el pensamiento real que esconde y se incluyen una lista de problemas del diálogo original y ejemplos del tono de cada personaje."
+    },
+    "scenarios": [
+        "Al escribir diálogos, los personajes siempre están explicando el contexto y suenan como si leyeran un manual.",
+        "En el guion, varios personajes hablan con el mismo tono; si tapas los nombres, no sabes quién es quién.",
+        "Al escribir una escena de confrontación, el diálogo es demasiado directo y rígido; quieres convertir lo que se dice sin rodeos en un pulso más sutil.",
+        "Dos personajes hablan un buen rato, pero no hacen avanzar la trama; la historia se queda dando vueltas sin avanzar."
+    ],
+    "problems": [
+        {
+            "pain": "Los diálogos solo explican antecedentes y causas; los personajes hablan como si leyeran un manual.",
+            "solve": "Detecta las explicaciones sobrantes, convierte los diálogos en conversaciones con el objetivo y las acciones reales de cada personaje y genera tarjetas de reescritura en el lienzo."
+        },
+        {
+            "pain": "Varios personajes hablan casi igual; si tapas los nombres, no sabes quién es quién.",
+            "solve": "A partir de la personalidad de cada personaje, extrae sus hábitos de habla y sus preferencias léxicas, y genera en el lienzo ejemplos de diálogo propios para distinguir a cada personaje."
+        },
+        {
+            "pain": "Terminas un diálogo y lo notas soso, pero no sabes cuál es el problema.",
+            "solve": "Señala frase por frase lo que suena rígido o fuera de lugar, indica la intención real que hay detrás de cada frase y ofrece una lista de referencia para revisarlo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el lienzo de creación.",
+        "Envía tu borrador de diálogo y explica brevemente la personalidad de los personajes y el contexto de la historia.",
+        "Consulta las tarjetas de diálogo reescrito, la lista de problemas y los ejemplos de hábitos de habla generados en el lienzo.",
+        "Elige las frases que te convenzan, modifícalas directamente en las tarjetas y copia o descarga el resultado."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo consigo que los diálogos de los personajes no suenen como leídos de un manual?",
+            "a": "La clave es convertir la explicación del contexto en una acción concreta del personaje en ese momento, y hacer que hable con un objetivo claro. Evita que los personajes reciten grandes bloques de información; es mejor esconderla en una discusión o en un tanteo entre ambas partes. En el lienzo de {brand}, envía los diálogos y el asistente de IA te ayudará a reescribirlos como tarjetas de conversación con acciones y pensamientos internos."
+        },
+        {
+            "q": "En un guion, varios personajes hablan con un tono parecido. ¿Cómo los diferencio?",
+            "a": "La clave está en extraer, según la identidad y la personalidad de cada personaje, distintas estructuras oracionales y tonos habituales. Evita que todos hablen con un lenguaje escrito estándar; los hábitos de habla deben encajar con el trasfondo de cada uno. En el lienzo de {brand}, el asistente de IA generará ejemplos de habla propios para cada personaje, para que puedas compararlos y elegir."
+        },
+        {
+            "q": "Al escribir una escena de discusión entre dos personajes, los diálogos quedan demasiado rígidos. ¿Cómo los cambio?",
+            "a": "Puedes hacer que los personajes descarguen su descontento a través de otro tema y evitar que ambos digan las cosas tal cual. Por ejemplo, que critiquen en voz alta un detalle pequeño cuando en realidad están enfadados por otra cosa hará que la conversación tenga más fuerza. En el lienzo de {brand}, el asistente de IA te ayudará a señalar los verdaderos pensamientos que hay detrás de los diálogos superficiales y te dará propuestas de reescritura más sutiles."
+        },
+        {
+            "q": "¿Por qué dos personajes hablan mucho rato y aun así parece que la trama no avanza?",
+            "a": "Es porque los diálogos carecen de conflicto y objetivos reales; los personajes solo repiten emociones sin avanzar. Cada frase debería cambiar la relación entre ambos o romper una expectativa e impulsar la acción. En el lienzo de {brand}, el asistente de IA te ayudará a organizar una lista de puntos de bloqueo del diálogo, localizar las frases que no avanzan y ofrecerte sugerencias para impulsarlas."
+        }
+    ],
+    "keywords": [
+        "reescritura de diálogos",
+        "pulir diálogos de guion",
+        "modificar diálogos de series cortas",
+        "diálogos que no suenan naturales",
+        "cómo escribir diálogos de guion",
+        "cómo diferenciar el tono de los personajes"
+    ]
+}

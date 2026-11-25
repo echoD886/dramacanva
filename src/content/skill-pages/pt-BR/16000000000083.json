@@ -1,0 +1,67 @@
+{
+    "title": "Escreva piadas de stand-up e aprenda a se apresentar",
+    "metaDescription": "Para iniciantes em stand-up. Envie situações cotidianas à IA e receba no canvas {brand} uma piada de 1 minuto, abertura e lista para evitar silêncio.",
+    "oneLiner": "Insira uma experiência de azar e gere no canvas um rascunho de stand-up e uma lista para o palco; ideal para iniciantes.",
+    "intro": [
+        "Esta é uma ferramenta de apoio à criação que ajuda você a transformar pequenos acontecimentos da vida em piadas de humor. Mesmo que nunca tenha escrito conteúdo engraçado, ela conduz você passo a passo para deixar a linguagem simples mais divertida.",
+        "Você não precisa saber escrever um roteiro profissional. Basta ter uma situação embaraçosa que viveu, uma experiência de azar ou um texto simples que queira contar e enviá-lo ao assistente de IA na caixa de diálogo à direita.",
+        "Ao terminar, aparecerão cartões de texto no canvas, incluindo um roteiro de piada de 1 minuto, uma abertura para o palco e uma lista de aprimoramento para ajudar a aliviar o nervosismo e lidar com o silêncio da plateia."
+    ],
+    "example": {
+        "input": "Acabei de tirar carteira de motorista e já reprovei três vezes na prova prática; cada reprovação teve um motivo absurdo. Quero escrever uma piada de um minuto para rir de mim mesmo.",
+        "output": "No canvas, são gerados três cartões de texto: um roteiro de piada de 1 minuto que organiza os detalhes do azar, uma abertura autodepreciativa para quebrar o gelo e uma lista de lembretes para falar mais devagar e deixar tempo para as risadas no palco."
+    },
+    "scenarios": [
+        "Você tem algumas piadas soltas e quer encadeá-las em uma apresentação de stand-up fluida e coerente.",
+        "Passou por uma situação de azar e quer rir de si mesmo, mas a história está tão confusa que você não sabe por qual frase começar.",
+        "A história engraçada que você escreveu parece sem graça quando lida em voz alta e você quer deixar as piadas mais marcantes e divertidas.",
+        "Você vai se apresentar em um open mic (espaço de treino para iniciantes em stand-up) e tem medo de ficar nervoso e enfrentar silêncio no palco."
+    ],
+    "problems": [
+        {
+            "pain": "Quer contar situações de azar da vida, mas os fatos são confusos e você não sabe como transformá-los em piada.",
+            "solve": "Ajuda a encontrar os detalhes mais específicos e incomuns e a organizá-los em cartões de conteúdo que primeiro contextualizam e depois entregam a piada."
+        },
+        {
+            "pain": "A piada que você escreveu não tem graça quando lida em voz alta e soa como uma lista de acontecimentos sem emoção.",
+            "solve": "Ajuda a cortar o excesso de palavras e a mover a reviravolta mais inesperada para o final de cada frase."
+        },
+        {
+            "pain": "Você decorou o texto, mas o coração acelera assim que sobe ao palco, e não sabe o que fazer quando ninguém ri.",
+            "solve": "Oferece métodos de ensaio com ritmo mais lento e pausas, além de algumas falas de improviso para lidar com o silêncio da plateia."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para entrar na interface de criação.",
+        "Insira sua situação de azar, um acontecimento cotidiano ou um rascunho já escrito.",
+        "Veja no canvas o roteiro estruturado da piada, a proposta de abertura e os cartões de dicas.",
+        "Ajuste os detalhes do texto nos cartões para que a expressão combine mais com o seu jeito de falar.",
+        "Copie ou baixe o resultado para usar em ensaios presenciais ou na apresentação no palco."
+    ],
+    "faq": [
+        {
+            "q": "O que fazer quando não consigo escrever uma piada de stand-up?",
+            "a": "Comece pela menor situação embaraçosa ou pelo erro mais próximo de você; não escreva grandes lições. Anote um acontecimento de azar específico, encontre o momento que o deixou sem graça ou surpreso e desenvolva a partir dali para chegar à piada."
+        },
+        {
+            "q": "Como transformar pequenos acontecimentos do dia a dia em piadas engraçadas?",
+            "a": "Primeiro estabeleça o contexto com clareza e deixe a piada mais inesperada para a última frase. Nos ensaios, corte o excesso de palavras para que a plateia crie expectativa rapidamente e, no fim, use uma reviravolta inesperada para provocar risadas."
+        },
+        {
+            "q": "Como encadear piadas soltas em uma apresentação completa de stand-up?",
+            "a": "Primeiro classifique as piadas por tema e depois organize a ordem de entrada conforme as oscilações de emoção. Para a abertura, prefira uma piada leve e segura para criar proximidade; faça transições com experiências naturais entre as piadas e não comece com a melhor piada (o ponto que faz rir)."
+        },
+        {
+            "q": "O que fazer se eu esquecer o texto por nervosismo ao fazer stand-up?",
+            "a": "Se esquecer o texto no palco, faça uma pausa, admita e ria de si mesmo, ou pule direto para a próxima piada e continue. Nos ensaios, memorize mais as cenas e emoções da história do que palavra por palavra; assim, mesmo que esqueça, você consegue continuar com suas próprias palavras."
+        }
+    ],
+    "keywords": [
+        "como escrever piadas de stand-up",
+        "stand-up para iniciantes",
+        "técnicas de humor para falar em público",
+        "não consigo escrever piadas o que fazer",
+        "abertura de stand-up",
+        "esqueci o texto no palco stand-up"
+    ]
+}

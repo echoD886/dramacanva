@@ -1,0 +1,20 @@
+const messages = {
+    "creationEmpty.signal": "DramaCanvas · AI 影视创作工作台",
+    "creationEmpty.lead": "把脑海里的画面，",
+    "creationEmpty.brand": "交给DramaCanvas",
+    "creationEmpty.finish": "拍出来",
+    "creationEmpty.neon": "SC.01 · 雨夜霓虹",
+    "creationEmpty.chase": "SC.02 · 暗巷追逐",
+    "creationEmpty.rooftop": "SC.03 · 天台重逢",
+    "creationEmpty.caption": "把每一帧，交给镜头导演",
+    "creationEmpty.first": "生成第一个镜头",
+    "creationEmpty.firstHint": "描述画面、镜头运动与光线",
+    "creationEmpty.reference": "从参考图开始",
+    "creationEmpty.referenceHint": "上传风格图，生成同风格画面",
+    "creationEmpty.story": "续写故事",
+    "creationEmpty.storyHint": "和 AI 讨论剧情、角色与对白",
+    "creationEmpty.skill": "引用技能增强",
+    "creationEmpty.skillHint": "@技能 调用分镜、配音等专业能力",
+    "creationEmpty.shotPlaceholder": "SC.{id} · 写下这一镜的镜头、画面或故事",
+} as const;
+export default messages;

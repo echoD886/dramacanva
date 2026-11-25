@@ -1,0 +1,22 @@
+const messages = {
+    "canvasPresets.characterName": "캐릭터 설정표",
+    "canvasPresets.characterDescription": "정면, 측면, 후면 및 표정 참조로 캐릭터 일관성 유지",
+    "canvasPresets.angleName": "다중 카메라 앵글",
+    "canvasPresets.angleDescription": "동일한 피사체를 중심으로 이어지는 카메라 앵글 생성",
+    "canvasPresets.nextName": "다음 샷 구상",
+    "canvasPresets.nextDescription": "현재 장면 전후의 동작과 샷 연결 구상",
+    "canvasPresets.beatsName": "연속 샷",
+    "canvasPresets.beatsDescription": "짧은 이야기를 생성 가능한 연속 샷으로 나누기",
+    "canvasPresets.lightName": "영화 조명 개선",
+    "canvasPresets.lightDescription": "내용을 유지하며 사실적인 조명, 깊이 및 조화 개선",
+    "canvasPresets.videoName": "동영상 프롬프트 개선",
+    "canvasPresets.videoDescription": "모델이 실행하기 쉬운 시간순 샷 지침으로 정리",
+    "canvasPresets.added": "추가된 스킬",
+    "canvasPresets.search": "프리셋 또는 추가된 스킬 검색",
+    "canvasPresets.skill": "스킬",
+    "canvasPresets.preset": "프리셋",
+    "canvasPresets.empty": "일치하는 프리셋이 없습니다",
+    "canvasPresets.templates": "프롬프트 템플릿",
+    "canvasPresets.open": "프롬프트 프리셋 열기",
+} as const;
+export default messages;

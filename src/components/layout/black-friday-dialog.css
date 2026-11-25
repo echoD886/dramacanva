@@ -1,0 +1,428 @@
+/* ============================================================
+   Black Friday 2026 — calm premium redesign
+   Direction: Linear / Apple / Runway — one accent, no gradients
+   ============================================================ */
+
+/* ---- Backdrop ---- */
+.bf-dialog-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1200;
+    display: grid;
+    place-items: center;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(14px) saturate(1.1);
+    animation: bf-dialog-fade 0.22s ease-out;
+}
+
+/* ---- Shell ---- */
+.bf-dialog {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    width: min(880px, 100%);
+    max-height: calc(100dvh - 32px);
+    overflow: hidden;
+    /* Single hairline — no gradient borders */
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: var(--r-4xl, 24px);
+    /* Dark glass: one flat near-black surface, no stacked radials */
+    background: #0d0c10;
+    color: var(--color-neutral-50, #fafafa);
+    box-shadow:
+        0 2px 0 rgba(255, 255, 255, 0.04) inset,
+        0 48px 100px rgba(0, 0, 0, 0.72),
+        0 8px 24px rgba(0, 0, 0, 0.4);
+    animation: bf-dialog-rise 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ---- Close button — quiet, no ring ---- */
+.bf-dialog-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 3;
+    display: grid;
+    place-items: center;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: var(--r-full, 9999px);
+    /* Dark backing: on narrow screens the button sits over the bright key art. */
+    background: rgba(12, 12, 14, 0.55);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    color: rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+    transition:
+        background 0.15s ease,
+        color 0.15s ease;
+}
+.bf-dialog-close:hover {
+    background: rgba(12, 12, 14, 0.75);
+    color: #fff;
+}
+.bf-dialog-close svg {
+    width: 15px;
+    height: 15px;
+}
+
+/* ---- Art panel ---- */
+.bf-dialog-art {
+    position: relative;
+    min-height: 460px;
+    overflow: hidden;
+    background: #0d0c10;
+}
+.bf-dialog-art img,
+.bf-dialog-art video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 62% 50%;
+}
+/* Fade only toward the right edge (body side) and lightly at bottom */
+.bf-dialog-art::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent 48%, #0d0c10 100%), linear-gradient(0deg, rgba(13, 12, 16, 0.65) 0%, transparent 36%);
+    pointer-events: none;
+}
+
+/* Badge + discount block in bottom-left of art */
+.bf-dialog-art-copy {
+    position: absolute;
+    left: 24px;
+    bottom: 22px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+/* "BLACK FRIDAY" badge — amber/warm on frosted dark */
+.bf-dialog-badge {
+    padding: 4px 10px;
+    border: 1px solid rgba(255, 213, 160, 0.3);
+    border-radius: var(--r-full, 9999px);
+    background: rgba(13, 12, 16, 0.6);
+    color: rgba(255, 220, 170, 0.9);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    backdrop-filter: blur(8px);
+}
+
+/* -20% — solid white, no gradient text, no glow rings */
+.bf-dialog-percent {
+    font-size: clamp(60px, 8.5vw, 92px);
+    font-weight: 800;
+    line-height: 0.92;
+    letter-spacing: -0.04em;
+    color: #f5f5f5;
+    /* Single, controlled drop shadow — not a ring */
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* ---- Body panel ---- */
+.bf-dialog-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    min-width: 0;
+    padding: 44px 36px 32px;
+    overflow-y: auto;
+}
+
+/* ---- Countdown — tidy tabular cells ---- */
+.bf-dialog-countdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.bf-dialog-countdown > svg {
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.35);
+}
+.bf-dialog-countdown-label {
+    white-space: nowrap;
+}
+
+/* Clock: row of segmented cells */
+.bf-dialog-clock {
+    display: inline-flex;
+    align-items: stretch;
+    gap: 4px;
+    font-variant-numeric: tabular-nums;
+}
+.bf-dialog-clock > span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
+    padding: 5px 6px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--r-sm, 6px);
+    background: rgba(255, 255, 255, 0.04);
+    gap: 1px;
+}
+.bf-dialog-clock b {
+    display: block;
+    color: #f5f5f5;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+}
+.bf-dialog-clock em {
+    display: block;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.38);
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/* ---- Headline ---- */
+.bf-dialog-body h2 {
+    margin: 0;
+    font-size: clamp(22px, 2.6vw, 30px);
+    font-weight: 700;
+    line-height: 1.22;
+    letter-spacing: -0.025em;
+    color: #f5f5f5;
+    text-wrap: balance;
+}
+
+/* ---- Promo code — solid chip, no dashes ---- */
+.bf-dialog-code {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px 10px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--r-lg, 12px);
+    background: rgba(255, 255, 255, 0.05);
+}
+.bf-dialog-code-label {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.bf-dialog-code code {
+    flex: 1;
+    min-width: 0;
+    color: #f5f5f5;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+.bf-dialog-code button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    height: 32px;
+    padding: 0 11px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--r-md, 8px);
+    background: rgba(255, 255, 255, 0.07);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition:
+        background 0.14s ease,
+        color 0.14s ease;
+}
+.bf-dialog-code button:hover {
+    background: rgba(255, 255, 255, 0.14);
+    color: #f5f5f5;
+}
+.bf-dialog-code button svg {
+    width: 13px;
+    height: 13px;
+}
+
+/* ---- CTA row ---- */
+.bf-dialog-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Primary CTA — solid, one tone, high contrast */
+.bf-dialog-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 50px;
+    border-radius: var(--r-xl, 14px);
+    /* White solid — works against the dark card in both themes */
+    background: #f5f5f5;
+    color: #111111;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition:
+        background 0.14s ease,
+        transform 0.14s ease;
+}
+.bf-dialog-primary:hover {
+    background: #ffffff;
+    transform: translateY(-1px);
+}
+.bf-dialog-primary svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* "Not now" secondary text button */
+.bf-dialog-secondary {
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    border: 0;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.38);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.14s ease;
+}
+.bf-dialog-secondary:hover {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+/* ---- Terms — smallest, most muted, below actions ---- */
+.bf-dialog-terms {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.28);
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+/* ---- Focus rings ---- */
+.bf-dialog-close:focus-visible,
+.bf-dialog-code button:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.55);
+    outline-offset: 2px;
+}
+.bf-dialog-primary:focus-visible {
+    outline: 2px solid #f5f5f5;
+    outline-offset: 3px;
+}
+.bf-dialog-secondary:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.4);
+    outline-offset: 2px;
+    border-radius: var(--r-sm, 6px);
+}
+
+/* ================================================================
+   Mobile — full-width card, art on top, body below
+   ================================================================ */
+@media (max-width: 720px) {
+    .bf-dialog {
+        grid-template-columns: 1fr;
+        width: min(440px, 100%);
+        max-height: calc(100dvh - 24px);
+        border-radius: var(--r-3xl, 20px);
+    }
+    .bf-dialog-art {
+        min-height: 0;
+        aspect-ratio: 16 / 9;
+    }
+    /* Mobile art fade: bottom-only */
+    .bf-dialog-art::after {
+        background: linear-gradient(0deg, #0d0c10 0%, transparent 55%);
+    }
+    .bf-dialog-art-copy {
+        left: 18px;
+        bottom: 10px;
+        gap: 6px;
+    }
+    .bf-dialog-percent {
+        font-size: 56px;
+    }
+    .bf-dialog-body {
+        gap: 16px;
+        padding: 20px 20px 24px;
+    }
+    .bf-dialog-clock > span {
+        min-width: 32px;
+        padding: 4px 5px 3px;
+    }
+    .bf-dialog-clock b {
+        font-size: 13px;
+    }
+    .bf-dialog-code {
+        padding: 9px 9px 9px 13px;
+        gap: 8px;
+    }
+    .bf-dialog-code code {
+        font-size: 16px;
+    }
+    .bf-dialog-primary {
+        min-height: 46px;
+    }
+}
+
+/* ================================================================
+   Animations
+   ================================================================ */
+@keyframes bf-dialog-fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes bf-dialog-rise {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.985);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+/* ================================================================
+   Reduced motion
+   ================================================================ */
+@media (prefers-reduced-motion: reduce) {
+    .bf-dialog-backdrop,
+    .bf-dialog {
+        animation: none;
+    }
+    .bf-dialog-primary,
+    .bf-dialog-secondary,
+    .bf-dialog-close,
+    .bf-dialog-code button {
+        transition: none;
+    }
+}

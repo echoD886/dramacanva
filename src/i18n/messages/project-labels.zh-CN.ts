@@ -1,0 +1,22 @@
+const messages = {
+    "projectLabels.all": "全部素材",
+    "projectLabels.category.character": "角色",
+    "projectLabels.category.environment": "场景",
+    "projectLabels.category.wardrobe": "服饰",
+    "projectLabels.category.prop": "道具",
+    "projectLabels.category.weapon": "武器",
+    "projectLabels.category.style": "画风",
+    "projectLabels.category.other": "其他",
+    "projectLabels.media.image": "图片",
+    "projectLabels.media.video": "视频",
+    "projectLabels.media.audio": "音频",
+    "projectLabels.media.text": "文本",
+    "projectLabels.media.model": "3D 模型",
+    "projectLabels.media.entity": "角色卡",
+    "projectLabels.media.other": "其他类型",
+    "projectLabels.source.blank": "空白开始",
+    "projectLabels.source.novel": "导入小说",
+    "projectLabels.source.text": "粘贴文本",
+    "projectLabels.source.other": "其他来源",
+} as const;
+export default messages;

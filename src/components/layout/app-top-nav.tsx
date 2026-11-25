@@ -1,0 +1,64 @@
+import { lazy, Suspense, useEffect, useState, type ReactNode } from "react";
+import { useLocation, useNavigate } from "react-router";
+
+import { ModelSetupGuide } from "@/components/layout/model-setup-guide";
+import { LibTVProjectShell } from "@/components/layout/libtv-navigation";
+import { WorkspaceTopBarExtensionProvider } from "@/components/layout/workspace-top-bar-extension";
+import { cn } from "@/lib/utils";
+import { isSpatialWorkbenchPath, usesLibTVWorkspaceShell } from "@/lib/workspace-routes";
+
+const WorkspaceCommandPalette = lazy(() => import("./workspace-command-palette").then((module) => ({ default: module.WorkspaceCommandPalette })));
+
+export function AppWorkspaceShell({ children }: { children: ReactNode }) {
+    const { pathname, search } = useLocation();
+    const navigate = useNavigate();
+    const [paletteOpen, setPaletteOpen] = useState(false);
+
+    const useUnifiedShell = usesLibTVWorkspaceShell(pathname, search);
+    const spatialWorkbench = isSpatialWorkbenchPath(pathname, search);
+    const creationWorkspace = pathname === "/create";
+
+    // ⌘K / Ctrl+K 全局呼出搜索面板。
+    useEffect(() => {
+        const handler = (event: KeyboardEvent) => {
+            if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+                event.preventDefault();
+                setPaletteOpen((open) => !open);
+            }
+        };
+        window.addEventListener("keydown", handler);
+        return () => window.removeEventListener("keydown", handler);
+    }, []);
+
+    useEffect(() => {
+        const handleWorkspaceNavigation = (rawEvent: Event) => {
+            const event = rawEvent as CustomEvent<{ to?: string }>;
+            if (!event.detail?.to) return;
+            event.preventDefault();
+            navigate(event.detail.to);
+        };
+        window.addEventListener("workspace:navigate", handleWorkspaceNavigation);
+        return () => window.removeEventListener("workspace:navigate", handleWorkspaceNavigation);
+    }, [navigate]);
+
+    return (
+        <>
+            <WorkspaceTopBarExtensionProvider>
+                <div className={cn("app-workspace-shell flex h-dvh min-h-0 w-full flex-col overflow-hidden", spatialWorkbench && "is-spatial", creationWorkspace && "is-creation-workspace")}>
+                    <div className="app-workspace-main-row flex min-h-0 min-w-0 flex-1 overflow-hidden">
+                        <div className="app-workspace-stage relative flex min-h-0 min-w-0 flex-1 flex-col overflow-hidden">
+                            <div className="relative min-h-0 min-w-0 flex-1 overflow-hidden">{useUnifiedShell ? <LibTVProjectShell>{children}</LibTVProjectShell> : children}</div>
+                        </div>
+                    </div>
+
+                    {paletteOpen ? (
+                        <Suspense fallback={null}>
+                            <WorkspaceCommandPalette open={paletteOpen} onClose={() => setPaletteOpen(false)} />
+                        </Suspense>
+                    ) : null}
+                </div>
+            </WorkspaceTopBarExtensionProvider>
+            <ModelSetupGuide hidden={pathname === "/login" || pathname === "/register" || pathname.startsWith("/admin")} />
+        </>
+    );
+}

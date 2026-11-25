@@ -1,0 +1,539 @@
+import { currentLocaleText as upstreamText } from "@/i18n/current-locale-text";
+import { useI18n as upstreamUseI18n } from "@/i18n/use-i18n";
+import { App, Button, Dropdown, Input } from "antd";
+import { Download, Heart, Import, MoreHorizontal, Pencil, Plus, RotateCcw, Search, Trash2 } from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useNavigate } from "react-router";
+
+import { PageHeader, PaginationBar, WorkspacePage } from "@/components/layout/workspace-page";
+import { WorkspaceErrorState, WorkspaceLoadingState, WorkspaceState } from "@/components/layout/workspace-state";
+import { Segmented as SegmentedControl } from "antd";
+import { Select } from "@/components/ui/base/select";
+import { Tooltip } from "@/components/ui/base/tooltip";
+import { useDebouncedValue } from "@/hooks/use-debounced-value";
+import { catalogIdOf, inspirationSourceOf, inspirationSources, type CreationInspiration, type InspirationSourceId } from "@/lib/inspirations/catalog";
+import { fillablePrompt, isCustomInspiration, resolveInspirations } from "@/lib/inspirations/resolve";
+import { loadInspirationCatalog, type InspirationCatalog } from "@/services/inspiration-catalog";
+import { useInspirationStore } from "@/stores/use-inspiration-store";
+import { InspirationDetailModal } from "./inspiration-detail-modal";
+import { InspirationEditorModal, type InspirationCategoryChoice } from "./inspiration-editor-modal";
+import "./inspirations.css";
+
+type SourceFilter = "all" | InspirationSourceId;
+type ViewFilter = "all" | "favorites" | "hidden";
+type ModeFilter = "all" | CreationInspiration["mode"];
+type SortKey = "default" | "title";
+/** 分类标签比编辑器里的选项多一个条目数，用于在标签上显示数量。 */
+type CategoryChoice = InspirationCategoryChoice & { count: number };
+
+/** 来源筛选的顺序。必须覆盖 inspirationSources 里全部有内容的来源，漏掉就会有条目筛不到。 */
+const SOURCE_ORDER: InspirationSourceId[] = ["original", "chatgpt-prompts", "seedance", "haohaoxue", "youmind"];
+const VIEW_OPTIONS: { label: string; value: ViewFilter }[] = [
+    {
+        get label() {
+            return upstreamText("common.all");
+        },
+        value: "all",
+    },
+    {
+        get label() {
+            return upstreamText("skillsPage.action.like");
+        },
+        value: "favorites",
+    },
+    {
+        get label() {
+            return upstreamText("upstream.v165.message399");
+        },
+        value: "hidden",
+    },
+];
+const SORT_OPTIONS = [
+    {
+        get label() {
+            return upstreamText("upstream.v165.message400");
+        },
+        value: "default",
+    },
+    {
+        get label() {
+            return upstreamText("upstream.v165.message401");
+        },
+        value: "title",
+    },
+];
+
+/** 导出文件名带上日期，重复导出不会互相覆盖。 */
+function exportFileName() {
+    return `isayaction-inspirations-${new Date().toISOString().slice(0, 10)}.json`;
+}
+
+function downloadText(text: string, fileName: string) {
+    const url = URL.createObjectURL(new Blob([text], { type: "application/json" }));
+    const anchor = document.createElement("a");
+    anchor.href = url;
+    anchor.download = fileName;
+    anchor.click();
+    URL.revokeObjectURL(url);
+}
+
+export default function InspirationsPage() {
+    const { t } = upstreamUseI18n();
+    const { message, modal } = App.useApp();
+    const navigate = useNavigate();
+
+    const custom = useInspirationStore((state) => state.custom);
+    const overrides = useInspirationStore((state) => state.overrides);
+    const hidden = useInspirationStore((state) => state.hidden);
+    const favorites = useInspirationStore((state) => state.favorites);
+    const hydrated = useInspirationStore((state) => state.hydrated);
+    const createEntry = useInspirationStore((state) => state.createEntry);
+    const updateEntry = useInspirationStore((state) => state.updateEntry);
+    const removeEntry = useInspirationStore((state) => state.removeEntry);
+    const restoreEntry = useInspirationStore((state) => state.restoreEntry);
+    const toggleFavorite = useInspirationStore((state) => state.toggleFavorite);
+    const exportPayload = useInspirationStore((state) => state.exportPayload);
+    const importPayload = useInspirationStore((state) => state.importPayload);
+
+    const [catalog, setCatalog] = useState<InspirationCatalog | null>(null);
+    const [loadError, setLoadError] = useState("");
+    const [reloadKey, setReloadKey] = useState(0);
+
+    const [source, setSource] = useState<SourceFilter>("all");
+    const [modeFilter, setModeFilter] = useState<ModeFilter>("all");
+    const [category, setCategory] = useState("all");
+    const [view, setView] = useState<ViewFilter>("all");
+    const [sort, setSort] = useState<SortKey>("default");
+    const [search, setSearch] = useState("");
+    const debouncedSearch = useDebouncedValue(search, 250);
+    const [page, setPage] = useState(1);
+    const [pageSize, setPageSize] = useState(24);
+
+    const [detailId, setDetailId] = useState<string | null>(null);
+    const setDetail = (item: CreationInspiration | null) => setDetailId(item ? catalogIdOf(item) : null);
+    const [editorOpen, setEditorOpen] = useState(false);
+    const [editing, setEditing] = useState<CreationInspiration | null>(null);
+    const importRef = useRef<HTMLInputElement>(null);
+
+    useEffect(() => {
+        let cancelled = false;
+        setLoadError("");
+        loadInspirationCatalog()
+            .then((loaded) => {
+                if (!cancelled) setCatalog(loaded);
+            })
+            .catch((error) => {
+                if (!cancelled) setLoadError(error instanceof Error ? error.message : upstreamText("upstream.v165.message402"));
+            });
+        return () => {
+            cancelled = true;
+        };
+    }, [reloadKey]);
+
+    // 筛选条件一变就回第一页，否则会停在一个已经不存在的位置上。
+    useEffect(() => {
+        setPage(1);
+    }, [source, modeFilter, category, view, sort, debouncedSearch, pageSize]);
+
+    const overlay = useMemo(() => ({ custom, overrides, hidden }), [custom, hidden, overrides]);
+    const resolved = useMemo(() => (catalog ? resolveInspirations(catalog.entries, overlay) : []), [catalog, overlay, t]);
+    const detail = resolved.find((item) => catalogIdOf(item) === detailId) ?? catalog?.entries.find((item) => catalogIdOf(item) === detailId) ?? null;
+
+    /** 隐藏态在合成结果里已经滤掉了，单独还原一份给「已隐藏」视图。 */
+    const hiddenItems = useMemo(() => {
+        if (!catalog) return [];
+        const hiddenSet = new Set(hidden);
+        return catalog.entries.filter((item) => hiddenSet.has(catalogIdOf(item)));
+    }, [catalog, hidden]);
+
+    const categoryLabels = useMemo(() => {
+        const map = new Map<string, Map<string, string>>();
+        for (const [sourceId, options] of Object.entries(catalog?.categoriesBySource ?? {})) {
+            map.set(sourceId, new Map(options.map((option) => [option.id, option.label])));
+        }
+        return map;
+    }, [catalog]);
+
+    const categoryLabel = useCallback(
+        (item: CreationInspiration) => {
+            const code = item.category?.trim();
+            if (!code) return upstreamText("upstream.v165.message371");
+            return categoryLabels.get(item.sourceId ?? "original")?.get(code) ?? code;
+        },
+        [categoryLabels, t],
+    );
+
+    /** 分类标签跟随来源：选了某个来源就不该再出现别的来源的分类。 */
+    const categoryChoices = useMemo<CategoryChoice[]>(() => {
+        if (!catalog) return [];
+        const sources = source === "all" ? SOURCE_ORDER : [source];
+        const merged = new Map<string, { label: string; count: number }>();
+        for (const sourceId of sources) {
+            for (const option of catalog.categoriesBySource[sourceId] ?? []) {
+                const current = merged.get(option.id);
+                merged.set(option.id, { label: option.label, count: (current?.count ?? 0) + option.count });
+            }
+        }
+        return [...merged.entries()].sort((left, right) => right[1].count - left[1].count || left[1].label.localeCompare(right[1].label, "zh-Hans-CN")).map(([value, { label, count }]) => ({ value, label, count }));
+    }, [catalog, source]);
+
+    const sourceCounts = useMemo(() => {
+        const counts = new Map<SourceFilter, number>();
+        counts.set("all", resolved.length + hiddenItems.length);
+        for (const item of [...resolved, ...hiddenItems]) {
+            const key = item.sourceId ?? "original";
+            counts.set(key, (counts.get(key) ?? 0) + 1);
+        }
+        return counts;
+    }, [resolved, hiddenItems]);
+
+    /** 图片 / 视频 / 文本是库里的两大主类（文本较少），按当前视图与来源统计数量。 */
+    const modeCounts = useMemo(() => {
+        const counts: Record<ModeFilter, number> = { all: 0, image: 0, video: 0, text: 0 };
+        const pool = view === "hidden" ? hiddenItems : resolved;
+        const favoriteSet = new Set(favorites);
+        for (const item of pool) {
+            if (view === "favorites" && !favoriteSet.has(catalogIdOf(item))) continue;
+            if (source !== "all" && (item.sourceId ?? "original") !== source) continue;
+            counts.all += 1;
+            counts[item.mode] += 1;
+        }
+        return counts;
+    }, [view, resolved, hiddenItems, favorites, source]);
+
+    const modeOptions = useMemo(
+        () => [
+            { label: upstreamText("upstream.v165.message403", { p0: modeCounts.all }), value: "all" as ModeFilter },
+            { label: upstreamText("upstream.v165.message404", { p0: modeCounts.image }), value: "image" as ModeFilter },
+            { label: upstreamText("upstream.v165.message405", { p0: modeCounts.video }), value: "video" as ModeFilter },
+            { label: upstreamText("upstream.v165.message406", { p0: modeCounts.text }), value: "text" as ModeFilter },
+        ],
+        [modeCounts, t],
+    );
+
+    const visible = useMemo(() => {
+        const pool = view === "hidden" ? hiddenItems : resolved;
+        const keyword = debouncedSearch.trim().toLowerCase();
+        const favoriteSet = new Set(favorites);
+        const filtered = pool.filter((item) => {
+            if (view === "favorites" && !favoriteSet.has(catalogIdOf(item))) return false;
+            if (source !== "all" && (item.sourceId ?? "original") !== source) return false;
+            if (modeFilter !== "all" && item.mode !== modeFilter) return false;
+            if (category !== "all" && (item.category?.trim() ?? "") !== category) return false;
+            if (!keyword) return true;
+            const haystack = [item.title, item.description, item.category, categoryLabel(item), ...(item.tags ?? [])].join(" ").toLowerCase();
+            return haystack.includes(keyword);
+        });
+        if (sort === "title") return [...filtered].sort((left, right) => left.title.localeCompare(right.title, "zh-Hans-CN"));
+        return filtered;
+    }, [view, resolved, hiddenItems, debouncedSearch, favorites, source, modeFilter, category, sort, categoryLabel]);
+
+    const paged = useMemo(() => visible.slice((page - 1) * pageSize, page * pageSize), [visible, page, pageSize]);
+
+    const handleUse = useCallback(
+        (item: CreationInspiration) => {
+            navigate(`/create?${new URLSearchParams({ prompt: fillablePrompt(item), mode: item.mode })}`);
+        },
+        [navigate],
+    );
+
+    const handleCopy = useCallback(
+        (text: string, label: string) => {
+            void navigator.clipboard.writeText(text).then(
+                () => message.success(upstreamText("upstream.v165.message407", { p0: label })),
+                () => message.error(upstreamText("upstream.v165.message408")),
+            );
+        },
+        [message],
+    );
+
+    const handleDelete = useCallback(
+        (item: CreationInspiration) => {
+            const id = catalogIdOf(item);
+            const isCustom = isCustomInspiration(id);
+            modal.confirm({
+                className: "workspace-modal workspace-modal-compact",
+                title: isCustom ? upstreamText("upstream.v165.message409") : upstreamText("upstream.v165.message410"),
+                content: isCustom ? upstreamText("upstream.v165.message411", { p0: item.title }) : upstreamText("upstream.v165.message412", { p0: item.title }),
+                okText: isCustom ? upstreamText("channels.delete") : upstreamText("upstream.v165.message413"),
+                okButtonProps: { danger: true },
+                cancelText: upstreamText("accountPage.keep"),
+                onOk: () => {
+                    removeEntry(id);
+                    if (detail && catalogIdOf(detail) === id) setDetail(null);
+                    message.success(isCustom ? upstreamText("adminPanels.statusDeleted") : upstreamText("upstream.v165.message399"));
+                },
+            });
+        },
+        [detail, message, modal, removeEntry],
+    );
+
+    const handleSubmit = useCallback(
+        (draft: Parameters<typeof createEntry>[0]) => {
+            if (editing) {
+                updateEntry(catalogIdOf(editing), draft);
+                message.success(upstreamText("upstream.v165.message414"));
+                setEditing(null);
+                return;
+            }
+            createEntry(draft);
+            // 新建后把筛选整体清掉：自建条目的来源固定是「原创」、分类也常和当前筛选不符，
+            // 不清的话用户刚点完"创建"却看不到自己建的东西。
+            setSource("all");
+            setModeFilter("all");
+            setCategory("all");
+            setView("all");
+            setSearch("");
+            message.success(upstreamText("upstream.v165.message415"));
+        },
+        [createEntry, editing, message, updateEntry],
+    );
+
+    const handleExport = useCallback(() => {
+        downloadText(exportPayload(), exportFileName());
+        message.success(upstreamText("upstream.v165.message416"));
+    }, [exportPayload, message]);
+
+    const handleImportFile = useCallback(
+        async (file: File) => {
+            try {
+                const result = importPayload(await file.text());
+                message.success(upstreamText("upstream.v165.message417", { p0: result.created, p1: result.updated, p2: result.skipped ? upstreamText("upstream.v165.message418", { p0: result.skipped }) : "" }));
+            } catch (error) {
+                message.error(error instanceof Error ? error.message : upstreamText("upstream.v165.message419"));
+            }
+        },
+        [importPayload, message],
+    );
+
+    const headerActions = (
+        <>
+            <Button icon={<Import className="size-4" />} onClick={() => importRef.current?.click()}>
+                {upstreamText("canvasExtra.library.import")}
+            </Button>
+            <Button icon={<Download className="size-4" />} onClick={handleExport}>
+                {upstreamText("assets.export")}
+            </Button>
+            <Button
+                type="primary"
+                icon={<Plus className="size-4" />}
+                onClick={() => {
+                    setEditing(null);
+                    setEditorOpen(true);
+                }}
+            >
+                {upstreamText("upstream.v165.message420")}
+            </Button>
+            <input
+                ref={importRef}
+                type="file"
+                accept="application/json,.json"
+                className="hidden"
+                onChange={(event) => {
+                    const file = event.target.files?.[0];
+                    // 同一个文件连续导入两次也要触发，所以每次都清空 value。
+                    event.target.value = "";
+                    if (file) void handleImportFile(file);
+                }}
+            />
+        </>
+    );
+
+    const total = catalog ? resolved.length + hiddenItems.length : 0;
+
+    return (
+        <WorkspacePage>
+            <PageHeader title={upstreamText("upstream.v165.message003")} description={upstreamText("upstream.v165.message421", { p0: total })} actions={headerActions} />
+
+            {loadError ? (
+                <WorkspaceErrorState title={upstreamText("upstream.v165.message402")} description={loadError} onRetry={() => setReloadKey((key) => key + 1)} />
+            ) : !catalog || !hydrated ? (
+                <WorkspaceLoadingState label={upstreamText("upstream.v165.message422")} detail={upstreamText("upstream.v165.message423")} rows={4} />
+            ) : (
+                <div className="mt-4 flex flex-col gap-4">
+                    {/* 图片 / 视频 / 文本是两大主类，放在最上面做一级筛选。 */}
+                    <div className="flex flex-wrap items-center gap-3">
+                        <SegmentedControl options={modeOptions} value={modeFilter} onChange={(value) => setModeFilter(value as ModeFilter)} aria-label={upstreamText("upstream.v165.message424")} />
+                        <span className="text-xs text-foreground/50">
+                            {upstreamText("cloudAgent.total")}
+                            {visible.length}
+                            {upstreamText("pagination.items")}
+                        </span>
+                    </div>
+
+                    {/* 分类标签是二级筛选：一眼看到库里都有什么，点一下就能缩小范围。 */}
+                    <div className="flex flex-wrap items-center gap-2" role="group" aria-label={upstreamText("upstream.v165.message425")}>
+                        <button type="button" className="inspiration-chip" aria-pressed={category === "all"} onClick={() => setCategory("all")}>
+                            {upstreamText("assets.catAll")}
+                            <span className="inspiration-chip-count">{source === "all" ? resolved.length : (sourceCounts.get(source) ?? 0)}</span>
+                        </button>
+                        {categoryChoices.slice(0, 16).map((choice) => (
+                            <button key={choice.value} type="button" className="inspiration-chip" aria-pressed={category === choice.value} onClick={() => setCategory(category === choice.value ? "all" : choice.value)}>
+                                {choice.label}
+                                <span className="inspiration-chip-count">{choice.count}</span>
+                            </button>
+                        ))}
+                    </div>
+
+                    <div className="flex flex-wrap items-center gap-2">
+                        <Input allowClear prefix={<Search className="size-4 text-foreground/40" />} placeholder={upstreamText("upstream.v165.message426")} value={search} onChange={(event) => setSearch(event.target.value)} className="max-w-xs" />
+                        <SegmentedControl options={VIEW_OPTIONS} value={view} onChange={(value) => setView(value as ViewFilter)} />
+                        <Select
+                            options={[
+                                { label: upstreamText("upstream.v165.message427", { p0: resolved.length }), value: "all" },
+                                ...SOURCE_ORDER.filter((key) => (sourceCounts.get(key) ?? 0) > 0).map((key) => ({
+                                    label: `${inspirationSources[key].name ?? inspirationSources[key].label} (${sourceCounts.get(key) ?? 0})`,
+                                    value: key,
+                                })),
+                            ]}
+                            value={source}
+                            onChange={(value) => {
+                                setSource(value as SourceFilter);
+                                setCategory("all");
+                            }}
+                            className="w-52"
+                        />
+                        <Select options={SORT_OPTIONS} value={sort} onChange={(value) => setSort(value as SortKey)} className="w-32" />
+                        <span className="text-xs text-foreground/50">
+                            {upstreamText("cloudAgent.total")}
+                            {visible.length}
+                            {upstreamText("pagination.items")}
+                        </span>
+                    </div>
+
+                    {paged.length ? (
+                        <div className="inspiration-gallery">
+                            {paged.map((item) => {
+                                const id = catalogIdOf(item);
+                                const favorite = favorites.includes(id);
+                                return (
+                                    <article
+                                        key={id}
+                                        className="inspiration-card"
+                                        tabIndex={0}
+                                        role="button"
+                                        onClick={() => setDetail(item)}
+                                        onKeyDown={(event) => {
+                                            if (event.key === "Enter" || event.key === " ") {
+                                                event.preventDefault();
+                                                setDetail(item);
+                                            }
+                                        }}
+                                    >
+                                        <div className="inspiration-card-cover">
+                                            <img src={item.image} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" />
+                                            <span className="inspiration-card-source">{inspirationSourceOf(item).label}</span>
+                                            <div className="inspiration-card-actions">
+                                                <Tooltip title={favorite ? upstreamText("miscPages.detailUnfavoriteAria") : upstreamText("skillsPage.action.like")}>
+                                                    <button
+                                                        type="button"
+                                                        className="inspiration-card-action"
+                                                        aria-pressed={favorite}
+                                                        onClick={(event) => {
+                                                            event.stopPropagation();
+                                                            toggleFavorite(id);
+                                                        }}
+                                                    >
+                                                        <Heart className="size-3.5" fill={favorite ? "currentColor" : "none"} />
+                                                    </button>
+                                                </Tooltip>
+                                                {view === "hidden" ? (
+                                                    <Tooltip title={upstreamText("upstream.v165.message428")}>
+                                                        <button
+                                                            type="button"
+                                                            className="inspiration-card-action"
+                                                            onClick={(event) => {
+                                                                event.stopPropagation();
+                                                                restoreEntry(id);
+                                                            }}
+                                                        >
+                                                            <RotateCcw className="size-3.5" />
+                                                        </button>
+                                                    </Tooltip>
+                                                ) : (
+                                                    <Dropdown
+                                                        trigger={["click"]}
+                                                        menu={{
+                                                            items: [
+                                                                { key: "edit", icon: <Pencil className="size-3.5" />, label: upstreamText("assets.menuEdit") },
+                                                                { key: "delete", icon: <Trash2 className="size-3.5" />, label: isCustomInspiration(id) ? upstreamText("channels.delete") : upstreamText("upstream.v165.message413"), danger: true },
+                                                            ],
+                                                            onClick: ({ key, domEvent }) => {
+                                                                domEvent.stopPropagation();
+                                                                if (key === "edit") {
+                                                                    setEditing(item);
+                                                                    setEditorOpen(true);
+                                                                }
+                                                                if (key === "delete") handleDelete(item);
+                                                            },
+                                                        }}
+                                                    >
+                                                        <button type="button" className="inspiration-card-action" aria-label={upstreamText("assets.moreActions")} onClick={(event) => event.stopPropagation()}>
+                                                            <MoreHorizontal className="size-3.5" />
+                                                        </button>
+                                                    </Dropdown>
+                                                )}
+                                            </div>
+                                        </div>
+                                        <div className="inspiration-card-body">
+                                            <h3 className="inspiration-card-title">{item.title}</h3>
+                                            <p className="inspiration-card-desc">{item.description}</p>
+                                            <div className="inspiration-card-tags">
+                                                <span className="inspiration-chip">{categoryLabel(item)}</span>
+                                                {item.ratio ? <span className="inspiration-chip">{item.ratio}</span> : null}
+                                                {item.credit ? <span className="inspiration-chip">{item.credit}</span> : null}
+                                            </div>
+                                        </div>
+                                    </article>
+                                );
+                            })}
+                        </div>
+                    ) : (
+                        <WorkspaceState
+                            icon="empty"
+                            title={view === "favorites" ? upstreamText("upstream.v165.message429") : view === "hidden" ? upstreamText("upstream.v165.message430") : upstreamText("upstream.v165.message431")}
+                            description={view === "favorites" ? upstreamText("upstream.v165.message432") : upstreamText("upstream.v165.message433")}
+                        />
+                    )}
+
+                    <PaginationBar
+                        current={page}
+                        pageSize={pageSize}
+                        total={visible.length}
+                        onChange={(next, size) => {
+                            setPage(next);
+                            setPageSize(size);
+                        }}
+                    />
+                </div>
+            )}
+
+            <InspirationDetailModal
+                item={detail}
+                favorite={detail ? favorites.includes(catalogIdOf(detail)) : false}
+                categoryLabel={categoryLabel}
+                onClose={() => setDetail(null)}
+                onUse={handleUse}
+                onCopy={handleCopy}
+                onToggleFavorite={(item) => toggleFavorite(catalogIdOf(item))}
+                onEdit={(item) => {
+                    setDetail(null);
+                    setEditing(item);
+                    setEditorOpen(true);
+                }}
+                onDelete={handleDelete}
+            />
+
+            <InspirationEditorModal
+                open={editorOpen}
+                item={editing}
+                categoryOptions={categoryChoices}
+                onClose={() => {
+                    setEditorOpen(false);
+                    setEditing(null);
+                }}
+                onSubmit={handleSubmit}
+            />
+        </WorkspacePage>
+    );
+}

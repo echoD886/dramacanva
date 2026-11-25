@@ -1,0 +1,66 @@
+{
+    "title": "Vídeos de acciones de personajes de juego sin recortes",
+    "metaDescription": "Para animar personajes de juego: envía una imagen o descripción y crea vídeos de 4 a 6 s con acciones como esperar o correr y efectos dentro del encuadre.",
+    "oneLiner": "Ayuda a los creadores de juegos a convertir una imagen o descripción de personaje en vídeos de acciones que no se corten en el lienzo",
+    "intro": [
+        "Esta es una herramienta específica para crear vídeos de acciones de personajes de juego. Hace que el personaje ocupe solo una pequeña parte del centro del encuadre, dejando suficiente espacio en blanco alrededor, para que las manos, los pies y los efectos de luz no se corten fácilmente con el borde de la pantalla al blandir una espada o saltar.",
+        "Solo tienes que preparar una imagen de personaje ya existente o escribir directamente una descripción de su aspecto y sus acciones. Aunque no tengas una imagen a mano, la IA dibujará primero en el lienzo una imagen de cuerpo entero del personaje para que la confirmes.",
+        "Cuando termines, obtendrás en el lienzo una tarjeta de vídeo de acción de 4 a 6 segundos sobre fondo de color liso. Puedes descargar el vídeo directamente o colocar varias acciones en la línea de tiempo del vídeo y exportarlas."
+    ],
+    "example": {
+        "input": "Envía una imagen de un espadachín de pelo blanco y escribe: «Haz una acción de doble salto: primero salta, permanece brevemente en el aire, vuelve a impulsarte para subir más y aterriza con estabilidad».",
+        "output": "Tras confirmar la proporción del personaje, se genera en el lienzo una tarjeta de vídeo de acción de unos 5 segundos sobre fondo blanco; el espadachín vuelve a saltar en el aire sin salirse del encuadre."
+    },
+    "scenarios": [
+        "Tienes una imagen de personaje lista y quieres crear acciones cortas de espera, carrera o ataque normal.",
+        "Al preparar una demo de juego, necesitas clips de vídeo de personajes con ritmos de acción claros, como doble salto o embestida con corte.",
+        "Solo tienes una idea escrita y ninguna imagen del personaje; quieres que la IA dibuje primero al personaje y luego haga el vídeo de acción.",
+        "Al crear una habilidad definitiva o movimientos de gran amplitud, necesitas suficiente espacio en el encuadre para que los efectos no se corten."
+    ],
+    "problems": [
+        {
+            "pain": "Cuando el personaje hace un movimiento amplio o lanza una habilidad definitiva, los efectos de luz y el arma se cortan con el borde del encuadre.",
+            "solve": "Haz que el personaje ocupe solo alrededor del veinte por ciento de la altura del encuadre y delimita en las instrucciones una zona central de movimiento, para intentar mantener las acciones y los efectos dentro del encuadre."
+        },
+        {
+            "pain": "Al pedirle al personaje una acción de doble salto, la IA a menudo la convierte en dos saltitos seguidos en el suelo.",
+            "solve": "Divide la acción en salto inicial, breve pausa en el aire, nuevo impulso en pleno salto para ganar altura y aterrizaje, para reproducir el proceso real del salto."
+        },
+        {
+            "pain": "Solo tienes en mente la descripción escrita del personaje y ninguna imagen disponible; no sabes cómo hacerlo.",
+            "solve": "Te ayuda a completar detalles como complexión y vestuario; primero genera en el lienzo una imagen del personaje con mucho espacio en blanco alrededor y, cuando la confirmes, crea la acción."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y envía una imagen del personaje y la acción que quieres realizar.",
+        "Confirma que el personaje ocupa solo alrededor de un veinte por ciento de la altura del encuadre; si no hay imagen, primero se generará una en el lienzo para que la revises.",
+        "Espera a que la IA genere en el lienzo una tarjeta de vídeo de acción de 4 a 6 segundos; haz clic para reproducir una vista previa directamente.",
+        "Revisa el resultado de la acción; si te convence, ordena las tomas en la línea de tiempo del vídeo y expórtalas, o descarga cada vídeo por separado."
+    ],
+    "faq": [
+        {
+            "q": "Al crear animaciones de personajes, ¿qué hago si las manos, los pies o los efectos de las habilidades se cortan con el encuadre?",
+            "a": "Primero reduce la proporción del personaje en el encuadre a alrededor del veinte por ciento y deja suficiente espacio en blanco alrededor. Al generar la acción, la IA intentará limitar los movimientos y los efectos de luz a la zona central de movimiento del encuadre. Así se evitan mejor las extremidades fuera de plano y los efectos recortados por los bordes."
+        },
+        {
+            "q": "¿Por qué la IA suele hacer dos saltitos en el suelo cuando le pido un doble salto?",
+            "a": "Se debe a que la descripción no especifica bien la pausa y el ritmo de impulso en el aire. Si escribes «un salto inicial, una breve pausa en el aire, un segundo impulso en pleno salto para ganar altura y un aterrizaje estable», la IA intentará generar en ese orden. Así el personaje volverá a saltar en el aire, en lugar de dar dos saltos seguidos en el suelo."
+        },
+        {
+            "q": "Si no tengo una imagen del personaje, ¿puedo escribir directamente para que la IA haga un vídeo de acción?",
+            "a": "Sí, en {brand} puedes escribir directamente una descripción del aspecto y las acciones del personaje. La IA dibujará primero en el lienzo una imagen de cuerpo entero según tu descripción para que confirmes el tamaño y el aspecto. Cuando la confirmes, empezará a generar el vídeo de acción; si no te convence, puedes modificar la descripción y volver a generarlo cuando quieras."
+        },
+        {
+            "q": "¿Cómo puedo convertir el vídeo generado en imágenes o GIF de acciones de personaje con fondo transparente?",
+            "a": "Descarga el vídeo generado en tu dispositivo y usa herramientas habituales para dividirlo en una secuencia de imágenes y quitar el fondo blanco. Lo que se genera en el lienzo es una tarjeta de vídeo con fondo blanco liso y no exporta directamente imágenes transparentes. Si solo quieres previsualizar la acción, basta con hacer clic para reproducirla en el lienzo."
+        }
+    ],
+    "keywords": [
+        "generador de acciones para personajes de juego",
+        "crear vídeos de acciones de personajes",
+        "animación de personajes con IA",
+        "animación de doble salto de personaje",
+        "vídeos de movimientos de personajes de juego",
+        "acciones de personaje sin recortes"
+    ]
+}

@@ -1,0 +1,22 @@
+const messages = {
+    "projectLabels.all": "모든 소재",
+    "projectLabels.category.character": "캐릭터",
+    "projectLabels.category.environment": "배경",
+    "projectLabels.category.wardrobe": "의상",
+    "projectLabels.category.prop": "소품",
+    "projectLabels.category.weapon": "무기",
+    "projectLabels.category.style": "스타일",
+    "projectLabels.category.other": "기타",
+    "projectLabels.media.image": "이미지",
+    "projectLabels.media.video": "동영상",
+    "projectLabels.media.audio": "오디오",
+    "projectLabels.media.text": "텍스트",
+    "projectLabels.media.model": "3D 모델",
+    "projectLabels.media.entity": "캐릭터 카드",
+    "projectLabels.media.other": "기타 유형",
+    "projectLabels.source.blank": "빈 상태로 시작",
+    "projectLabels.source.novel": "소설 가져오기",
+    "projectLabels.source.text": "텍스트 붙여넣기",
+    "projectLabels.source.other": "기타 출처",
+} as const;
+export default messages;

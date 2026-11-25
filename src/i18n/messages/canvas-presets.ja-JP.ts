@@ -1,0 +1,22 @@
+const messages = {
+    "canvasPresets.characterName": "キャラクター設定画",
+    "canvasPresets.characterDescription": "正面・側面・背面・表情の参照でキャラクターの一貫性を維持",
+    "canvasPresets.angleName": "複数のカメラアングル",
+    "canvasPresets.angleDescription": "同じ被写体を中心に、つながりのあるアングルの変化を生成",
+    "canvasPresets.nextName": "次のショットを展開",
+    "canvasPresets.nextDescription": "現在の画面の前後の動作とショットのつながりを展開",
+    "canvasPresets.beatsName": "連続ショット",
+    "canvasPresets.beatsDescription": "短いストーリーを生成可能な連続ショットに分割",
+    "canvasPresets.lightName": "映画的な照明の改善",
+    "canvasPresets.lightDescription": "内容を保ちながら、自然な光・奥行き・なじみを改善",
+    "canvasPresets.videoName": "動画プロンプトの改善",
+    "canvasPresets.videoDescription": "モデルが実行しやすい時系列のショット指示に整理",
+    "canvasPresets.added": "追加済みスキル",
+    "canvasPresets.search": "プリセットや追加済みスキルを検索",
+    "canvasPresets.skill": "スキル",
+    "canvasPresets.preset": "プリセット",
+    "canvasPresets.empty": "一致するプリセットがありません",
+    "canvasPresets.templates": "プロンプトテンプレート",
+    "canvasPresets.open": "プロンプトプリセットを開く",
+} as const;
+export default messages;

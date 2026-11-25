@@ -1,0 +1,66 @@
+{
+    "title": "Transforme fotos de roupas em editoriais de moda com IA",
+    "metaDescription": "Para lojas e designers. Envie foto da roupa ou descreva o estilo; a IA preserva caimento e tecido e cria editorial de moda com supermodelo em cenário real.",
+    "oneLiner": "Envie a foto da roupa; a IA preserva o estilo, troca por uma supermodelo em cenário externo e cria editoriais de moda para lojas.",
+    "intro": [
+        "Esta é uma ferramenta de fotografia comercial para donos de lojas de roupas e criadores de moda: envie uma foto da roupa esticada ou pendurada e troque por uma supermodelo e cenários externos reais na tela, criando editoriais de moda comerciais.",
+        "Você só precisa de uma foto nítida da roupa, feita esticada ou pendurada; se não tiver foto pronta, também pode descrever no chat a cor, o tecido e o estilo da roupa.",
+        "A IA tenta ao máximo preservar a gola, o caimento e o tecido da roupa, troca por uma supermodelo de visual frio e combina com cenários reais como mansões à beira-mar ou ruas, gerando na tela cards de fotos comerciais prontos para baixar."
+    ],
+    "example": {
+        "input": "Envie uma foto pendurada de um casaco de lã branco-bege, escolha o cenário de rua em Paris e a proporção 4:3.",
+        "output": "Na tela, é gerado um card de foto comercial: uma supermodelo de visual frio usando o casaco em frente a um café vintage, preservando o corte da gola e a textura de lã, com granulação de filme e luz natural."
+    },
+    "scenarios": [
+        "Para o lançamento de novidades em uma loja de roupas online, quando só há fotos da roupa pendurada e se quer criar um conjunto sofisticado de imagens com modelo.",
+        "Designers independentes preparando um lookbook de lançamento ou capa para redes sociais e que querem um visual de editorial de moda.",
+        "Para quem não quer gastar muito contratando modelos para fotos externas e deseja combinar a mesma roupa com diferentes cenários ao ar livre.",
+        "Para quem só tem uma ideia de design ou um texto simples e quer ver primeiro como a roupa ficaria vestida em uma modelo em fotos realistas."
+    ],
+    "problems": [
+        {
+            "pain": "Ensaios em estúdio custam caro, e as poses das modelos saem rígidas, sem sofisticação.",
+            "solve": "A IA combina cenários externos reais, como praia ou rua, com ângulos de foto espontâneos e uma supermodelo de visual frio para criar editoriais de moda."
+        },
+        {
+            "pain": "Medo de que o uso de IA altere a cor, a gola e os detalhes de corte originais da roupa.",
+            "solve": "Antes de gerar, o sistema extrai a estrutura e as características do tecido da roupa e tenta preservá-las ao máximo, trocando apenas a modelo e o fundo para reduzir distorções."
+        },
+        {
+            "pain": "Não saber escrever descrições de geração de imagem e acabar com uma pessoa parada, parecendo foto de turista.",
+            "solve": "Há composições fotográficas e iluminação de filme vintage integradas; a pessoa se mistura naturalmente ao ambiente e não fica mais em uma pose rígida e centralizada."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie uma foto da roupa ou descreva o estilo no chat.",
+        "Veja as características da roupa, os cenários recomendados e as propostas de visual da modelo organizados pela IA.",
+        "Preencha o formulário de confirmação e escolha a quantidade de imagens, a proporção e o cenário desejados.",
+        "Confira os cards de editorial gerados na tela e baixe diretamente as imagens de que gostar."
+    ],
+    "faq": [
+        {
+            "q": "Como gerar fotos comerciais com modelo usando a foto da minha própria roupa?",
+            "a": "Basta enviar a foto da roupa no chat; depois de confirmar o formulário de detalhes e cenário, as imagens comerciais com modelo são geradas na tela. A produção tenta preservar ao máximo o caimento e o tecido originais da roupa e troca automaticamente por uma supermodelo de visual frio e cenários externos reais. Escolha os cards de que gostar e baixe as imagens diretamente; se não ficar satisfeito, também pode fazer ajustes e gerar novamente a qualquer momento."
+        },
+        {
+            "q": "As imagens comerciais feitas pela IA podem deformar os detalhes da roupa?",
+            "a": "Não altera a forma de maneira aleatória: antes de gerar, o sistema extrai as características de caimento e tecido da roupa e tenta preservá-las ao máximo, substituindo apenas a modelo e o fundo. Assim, a aparência original da roupa é mantida melhor, evitando mudanças em cortes e estampas importantes. Se algum detalhe local não sair como esperado, você também pode ajustar as instruções e gerar novamente essa imagem."
+        },
+        {
+            "q": "Não tenho uma foto pronta da roupa; só tenho a ideia. Ainda posso usar?",
+            "a": "Pode, sim. Basta escrever no chat a categoria, a cor, o tecido e o estilo da roupa; a plataforma consegue gerar o editorial com base na descrição. O sistema combina sua ideia com cenários externos reais adequados e uma supermodelo de visual frio e organiza os cards na tela. Depois de gerar, você pode baixar as imagens diretamente; se não gostar, pode editar o texto a qualquer momento e gerar de novo."
+        },
+        {
+            "q": "Esta habilidade consegue fazer imagens comuns de produto em fundo branco?",
+            "a": "Não é indicada para isso. Esta habilidade é fixa e faz apenas editoriais de moda externos com estética de revista vanguardista; não gera imagens comuns de catálogo de e-commerce nem fotos de estúdio em fundo branco. O diferencial é combinar as roupas com uma supermodelo de visual frio e colocá-las em cenários reais, como mansões à beira-mar ou ruas de Paris, para criar contraste visual. Se você precisa de fotos de catálogo com fundo branco para e-commerce, recomendamos usar ferramentas convencionais de edição de imagem."
+        }
+    ],
+    "keywords": [
+        "fotografia comercial de moda com IA",
+        "trocar modelo em foto de roupa",
+        "gerar editorial de moda",
+        "trocar fundo de foto de produto de roupa",
+        "provador virtual com IA",
+        "criar fotos para lançamento de roupas"
+    ]
+}

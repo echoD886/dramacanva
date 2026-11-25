@@ -1,0 +1,67 @@
+{
+    "title": "Script to Storyboard: Shot List With Angles & Durations",
+    "metaDescription": "For video creators: Send script dialogue to the {brand} canvas, map blocking and eyelines, and get a shot list with camera angles, framing, and durations.",
+    "oneLiner": "Enter script dialogue, and it generates a shot list with camera angles, framing sizes, and durations.",
+    "intro": [
+        "This is a tool to help you plan shots: send script dialogue, and it lays out shots and camera positions on the canvas. It’s great for video creators who aren’t sure where to put the camera.",
+        "On the right side of the canvas, just send a finished script, two-person dialogue, or directly describe the story you want to shoot. You don’t need to know professional film terms in advance—just tell your story clearly.",
+        "It will generate detailed shot list cards on the canvas, spelling out each shot’s frame size, camera placement angle, whether the camera should move, and roughly how many seconds each shot should last."
+    ],
+    "example": {
+        "input": "The male and female leads have a showdown breakup in a cafe. After the woman asks to break up, the man freezes, then questions her emotionally. Please help me lay out the storyboard shots.",
+        "output": "Shot list cards are generated on the canvas: start with a medium shot by default to establish where the two are, then cut to a close-up to show emotion; mark which way each person is facing to avoid mismatched cuts; specify that the camera stays fixed and the duration of each shot."
+    },
+    "scenarios": [
+        "When you’ve written an argument or conversation between two people but don’t know how to cut the shots and are afraid the cuts will make viewers dizzy.",
+        "When your script only has dialogue and story and you don’t know how to break it into a shot list with actual visuals to shoot.",
+        "When you’re torn between pushing in or pulling out and don’t know whether the camera should move.",
+        "When your script is full of character psychology and you don’t know how to turn it into specific actor actions."
+    ],
+    "problems": [
+        {
+            "pain": "When two people talk face to face, cutting back and forth can easily make viewers dizzy.",
+            "solve": "Clarify each person’s left/right screen position and eyeline direction, and keep the camera on the same side so cuts stay coherent and are less likely to make viewers dizzy."
+        },
+        {
+            "pain": "When writing a shot list, you don’t know how far away the camera should be, so the footage comes out flat or lacks focus.",
+            "solve": "Establish the relationship first with a medium shot, then cut to close-ups at the right moments for details, and clearly mark the framing range of each shot."
+        },
+        {
+            "pain": "The script is full of inner thoughts, and you don’t know how to shoot them as concrete visuals.",
+            "solve": "Remove adjectives for invisible inner activity and turn emotions into visible physical actions such as blocking, pauses, and gestures."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use This Skill” to start storyboard creation.",
+        "Send your script excerpt, dialogue text, or a description of the scene you want to shoot.",
+        "Review the generated storyboard table, camera placements, and shot cards on the canvas.",
+        "Tell the assistant what to change, and fine-tune shot durations or framing sizes.",
+        "Copy or download the text result of the shot list for later filming or visual production."
+    ],
+    "faq": [
+        {
+            "q": "Can I use it to write a shot list even if I don’t know professional camera terms?",
+            "a": "Yes. Just send ordinary story narration or dialogue, and the system will organize it into a shot list table with framing sizes, camera positions, and durations. If something is unclear, you can keep asking the assistant in the chat, and it will explain and revise it in plain language."
+        },
+        {
+            "q": "How do I keep viewers from getting dizzy when cutting between two people in dialogue?",
+            "a": "The key is to keep the camera on the same side of the line between the two people. The system will mark each person’s left/right screen position and eyeline direction. That way, as shots cut back and forth, the characters’ eyelines stay more consistent and viewers are less likely to get dizzy."
+        },
+        {
+            "q": "When planning a shot list, when should the camera move?",
+            "a": "By default, keep the camera fixed as much as possible, and move it only when you need to follow a character’s blocking or show a key action. Random camera movement can make the image shaky and obscure the focus. When the assistant adds camera movement, it will note the specific narrative reason."
+        },
+        {
+            "q": "My script is all inner thoughts—how do I turn that into shots I can film?",
+            "a": "The core is to turn inner activity into visible physical action. The assistant will remove abstract adjectives and rewrite them as looks, pauses, or specific blocking. That way the visuals can actually be captured by the camera, and viewers can understand the character’s inner state."
+        }
+    ],
+    "keywords": [
+        "how to write a shot list",
+        "script to storyboard",
+        "how to plan camera angles",
+        "avoid confusing cuts in dialogue scenes",
+        "shot list generator",
+        "how to choose shot sizes"
+    ]
+}

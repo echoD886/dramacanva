@@ -1,0 +1,67 @@
+{
+    "title": "AI Snack & Beauty Ads: 12s Fast-Paced Storyboards & Video",
+    "metaDescription": "Snack, beauty, and drink sellers: enter product info or a photo. AI plans 10 fast shots and generates clips; arrange them on the timeline to export 12s ad.",
+    "oneLiner": "Enter snack or beauty product info to generate a 12-second ad shot plan and video clips for creators.",
+    "intro": [
+        "An ad tool for snack, beauty, and drink sellers: enter product selling points, and it breaks the ad into 10 fast-paced shots, adds exaggerated actions like tearing open packaging and bursting fillings, and plans bright cartoon visuals.",
+        "In chat, provide the product name, selling points, desired style, and a product photo. If you do not have a photo, AI can first generate a white-background reference image on the canvas.",
+        "When done, you will get a storyboard table on the canvas (breaking the video into shots with visuals and sound effects) plus 10 video clips. Arrange them in order on the video timeline and export the final cut."
+    ],
+    "example": {
+        "input": "Strawberry-filled gummy candy, highlighting the juicy burst when bitten, with bright pink-and-green colors and American-style graffiti elements, a lively and upbeat style, plus a photo of the gummy.",
+        "output": "A table with 10 shots is generated on the canvas, detailing close-ups and bursting sound effects; after confirming, 10 matching video clip cards are generated."
+    },
+    "scenarios": [
+        "Launching a new snack and wanting a short video ad with strong visuals like tearing open packaging and bursting fillings.",
+        "Launching new color cosmetics or skincare and wanting a vivid visual short combining live action and 2D hand-drawn art.",
+        "Promoting cold drinks or juice and wanting refreshing, stimulating fast-cut shots like caps popping open, liquid gushing out, and ice splashing.",
+        "You only have one product image and want to quickly plan a 10-shot ad concept and generate video."
+    ],
+    "problems": [
+        {
+            "pain": "Ordinary product demos are too flat and struggle to hold viewers on short-video platforms.",
+            "solve": "It designs 10 fast-paced shots with tearing, bursting fillings, and vivid graffiti to make the action exaggerated and eye-catching."
+        },
+        {
+            "pain": "You want an ad that combines hand-drawn graffiti and live action but do not know how to arrange the shots.",
+            "solve": "It breaks 12 seconds into 10 shots, notes visual details and sound effects, and generates matching video clips after confirmation."
+        },
+        {
+            "pain": "You do not have good product images and worry AI visuals will not look like your product.",
+            "solve": "Upload an ordinary photo and AI can identify the product's appearance; if you lack a suitable image, AI can first generate a white-background reference image."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” and start a chat on the right side of the {brand} canvas.",
+        "Send the product name, selling points, and desired style, and attach a product photo.",
+        "Review the 10-shot plan table generated on the canvas and confirm the visuals and action design.",
+        "After confirming, have AI generate video clips for each shot; you can retry individual clips you are not happy with.",
+        "Arrange them in order on the video timeline and export to finish the 12-second short video ad."
+    ],
+    "faq": [
+        {
+            "q": "How do I use AI to make a colorful short video for snacks and drinks?",
+            "a": "On the right side of the {brand} canvas, enter product selling points and style and attach a photo. AI first generates a 10-shot plan table, then generates matching video clips. Finally, arrange the clips in order on the video timeline and export a 12-second ad."
+        },
+        {
+            "q": "I only have an ordinary product photo taken with my phone. Can I make a video?",
+            "a": "Yes. Send the product photo in the chat, and AI will identify packaging features to plan 10 shots and generate video clips. If the photo has a busy background or you lack a suitable image, AI can also help generate a white-background image on the canvas as a reference."
+        },
+        {
+            "q": "Will the generated video include voiceover or background music?",
+            "a": "No, it does not include voiceover or final music. This skill only generates visual clips, and AI does not currently support separate voiceover. However, it lists sound effect suggestions and music rhythm for each shot in the storyboard table so you can add audio yourself after exporting."
+        },
+        {
+            "q": "Can I use this feature for home appliances, digital products, or long videos?",
+            "a": "No, this skill is designed specifically for fast-moving consumer goods such as snacks, beauty products, and drinks. It does not handle other categories or long-form video ads. It focuses on exaggerated 12-second fast-paced actions like tearing open packaging and bursting fillings. For non-FMCG products, use the standard workflow on the canvas."
+        }
+    ],
+    "keywords": [
+        "AI snack ad",
+        "short video ad maker",
+        "snack beauty video storyboard",
+        "how to make a 12 second ad",
+        "product promo video generator",
+        "fast-paced video storyboard"
+    ]
+}

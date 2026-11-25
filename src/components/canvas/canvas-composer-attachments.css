@@ -1,0 +1,35 @@
+/* Reference geometry and motion measured from Jimeng; colors use the canvas theme. */
+.canvas-composer-input-content { padding: 8px 6px 0; }
+.canvas-composer-input-content:has(> .canvas-composer-attachment-shelf:not(.is-expanded)) { display: grid; grid-template-columns: 76px minmax(0, 1fr); align-items: start; transition: grid-template-columns 300ms cubic-bezier(.4, 0, .2, 1); }
+.canvas-composer-input-content:has(> .canvas-composer-attachment-shelf:not(.is-expanded) .canvas-composer-reference-collapsed.has-items:is(:hover, :focus-within)) { grid-template-columns: 184px minmax(0, 1fr); }
+.canvas-composer-input-content > [role="separator"] { grid-column: 1 / -1; }
+.canvas-composer-attachment-shelf { --reference-width: 48px; --reference-height: 64px; --reference-gap: 4px; --reference-motion: 300ms cubic-bezier(.4, 0, .2, 1); min-width: 0; position: relative; }
+.canvas-composer-attachment-shelf button { color: inherit; }
+.canvas-composer-attachment-shelf button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.canvas-composer-attachment-shelf button:disabled { opacity: .4; cursor: not-allowed; }
+.canvas-composer-reference-collapsed { position: relative; width: 64px; height: 76px; z-index: 2; }
+.canvas-composer-reference-stack { position: relative; height: 100%; }
+.canvas-composer-reference-stacked-card, .canvas-composer-reference-add { display: grid; place-items: center; width: var(--reference-width); height: var(--reference-height); border-radius: 2px; background: var(--canvas-composer-control-surface); cursor: pointer; }
+.canvas-composer-reference-stacked-card { position: absolute; left: 8px; top: 6px; overflow: hidden; border: 1px solid color-mix(in srgb, currentColor 65%, transparent); transform: rotate(-8deg); transition: transform var(--reference-motion); }
+.canvas-composer-reference-view-all { transform: rotate(4deg); }
+.canvas-composer-reference-stacked-card:not(.canvas-composer-reference-view-all) { z-index: 1; }
+.canvas-composer-reference-stack-expand { position: absolute; inset: 0; display: grid; place-items: center; background: color-mix(in srgb, var(--canvas-composer-surface) 42%, transparent); backdrop-filter: blur(2px); }
+.canvas-composer-reference-add { flex-shrink: 0; color: color-mix(in srgb, currentColor 45%, transparent) !important; border: 1px dotted color-mix(in srgb, currentColor 8%, transparent); transition: transform var(--reference-motion), width var(--reference-motion), height var(--reference-motion), border-radius var(--reference-motion); }
+.canvas-composer-reference-collapsed > .canvas-composer-reference-add { position: absolute; left: 8px; top: 6px; transform: rotate(-8deg); }
+.canvas-composer-reference-collapsed.has-items > .canvas-composer-reference-add { left: 40px; top: 54px; width: 28px; height: 28px; border-radius: 50%; transform: none; }
+.canvas-composer-reference-collapsed.has-items:is(:hover, :focus-within) { width: 172px; }
+.canvas-composer-reference-collapsed:is(:hover, :focus-within) .canvas-composer-reference-view-all { transform: translateX(52px) rotate(4deg); }
+.canvas-composer-reference-collapsed.has-items:is(:hover, :focus-within) > .canvas-composer-reference-add { left: 8px; top: 6px; width: var(--reference-width); height: var(--reference-height); border-radius: 2px; transform: translateX(104px) rotate(-8deg); }
+.canvas-composer-reference-tabs { display: flex; align-items: center; gap: 8px; min-height: 36px; margin: 0 4px 12px; font-size: 12px; line-height: 18px; }
+.canvas-composer-reference-tabs [role="tab"] { white-space: nowrap; padding: 9px 12px; border-radius: 8px; }
+.canvas-composer-reference-tabs [aria-selected="true"] { background: var(--canvas-composer-control-surface); font-weight: 600; }
+.canvas-composer-reference-grid { display: flex; flex-wrap: wrap; align-items: flex-start; gap: var(--reference-gap); padding: 6px 6px 14px; max-height: 220px; overflow-y: auto; }
+.canvas-composer-reference-card { position: relative; width: var(--reference-width); height: var(--reference-height); flex-shrink: 0; }
+.canvas-composer-reference-thumbnail { display: grid; place-items: center; width: 100%; height: 100%; border: 1px solid color-mix(in srgb, currentColor 65%, transparent); border-radius: 2px; overflow: hidden; background: var(--canvas-composer-control-surface); }
+.canvas-composer-reference-remove { position: absolute; top: -6px; right: -6px; display: grid; place-items: center; width: 16px; height: 16px; border: 1px solid color-mix(in srgb, currentColor 25%, transparent); border-radius: 50%; background: var(--canvas-composer-surface); opacity: 0; z-index: 3; }
+.canvas-composer-reference-stack > .canvas-composer-reference-remove { top: 0; left: 48px; right: auto; }
+.canvas-composer-reference-card:is(:hover, :focus-within) .canvas-composer-reference-remove, .canvas-composer-reference-stack:is(:hover, :focus-within) > .canvas-composer-reference-remove { opacity: 1; }
+.canvas-composer-reference-hover .ant-popover-container { padding: 0; overflow: hidden; border-radius: 20px; }
+.canvas-composer-reference-hover-media { display: grid; place-items: center; width: 180px; height: 104px; overflow: hidden; }
+.canvas-composer-reference-hover-media img { object-fit: contain; }
+@media (prefers-reduced-motion: reduce) { .canvas-composer-input-content, .canvas-composer-attachment-shelf * { transition: none !important; } }

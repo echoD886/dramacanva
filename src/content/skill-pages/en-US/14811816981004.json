@@ -1,0 +1,66 @@
+{
+    "title": "Turn text or images into 15-second continuous VFX clips",
+    "metaDescription": "For short dramas and creators. Give an idea or reference image, and it designs continuous shots without random cuts, then generates a 15-second VFX clip.",
+    "oneLiner": "Give it an idea or image and it generates 15-second VFX clips for video creators on the canvas.",
+    "intro": [
+        "This is a tool for making 15-second VFX videos. With typical AI video generation, the camera tends to shake and cut randomly. This tool helps lock to a single shot so the visuals evolve continuously over 15 seconds.",
+        "You only need a one-line visual idea (like a water drop transforming into a flower), or upload a starting image, or provide multiple reference images. You don’t need to understand complex filming terminology.",
+        "The AI first presents a text card on the canvas explaining the visual action. After you confirm, it generates a 15-second VFX video card on the canvas that you can download directly or place on the timeline."
+    ],
+    "example": {
+        "input": "Enter one line: An ice-sculpted rose slowly melts in the sunlight, and the water dissipates into floating golden light points.",
+        "output": "The canvas first generates a text card specifying the subject changes and lighting details; after confirmation, it generates a 15-second video card with a single continuous camera push that fully shows the rose melting and transforming."
+    },
+    "scenarios": [
+        "When creating an opening for a short drama or short film, you need a continuous 15-second shot to grab viewers.",
+        "You only have one or two visual ideas in mind and don’t know how to describe them in detail for AI video generation.",
+        "You have a still image and want to turn it into a 15-second VFX video with continuous changes.",
+        "You need transition footage for editing and want VFX visuals of objects melting or light flowing."
+    ],
+    "problems": [
+        {
+            "pain": "If you jot down a few lines yourself, the AI video comes out stiff, empty, and flat.",
+            "solve": "It breaks your idea down into subject, lighting, and subtle changes to make the visuals richer."
+        },
+        {
+            "pain": "AI-generated video shots often cut randomly midway, making the visuals jump around and feel disconnected.",
+            "solve": "It keeps the entire 15 seconds on one continuous shot, avoiding random mid-video cuts."
+        },
+        {
+            "pain": "You worry the AI video won’t match what you want and waste time retrying.",
+            "solve": "It first generates a text card explaining the action plan, so you can revise until satisfied before generating the video."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use This Skill,” then enter your idea or upload an image in the chat on the right.",
+        "Review the text card generated on the canvas and read the detailed 15-second action plan.",
+        "Confirm or edit the text, then send a message in the chat to have the AI start making the video.",
+        "Download the finished 15-second video card, or arrange the order on the canvas timeline and then export."
+    ],
+    "faq": [
+        {
+            "q": "What should I do if AI video shots keep cutting and jumping randomly?",
+            "a": "You can avoid random cuts with a single-shot design. This skill locks the 15 seconds to one movement path, without splitting shots, so the visuals progress smoothly. The AI details the sequence of lighting and motion changes around your subject to make transitions more continuous and natural."
+        },
+        {
+            "q": "How can I generate a VFX video from photos I already have?",
+            "a": "Upload one or more reference images directly in the canvas chat and describe what you need. The AI will use the image as a starting point and design a 15-second single-shot VFX video with continuous changes. It first generates a text card explaining the motion and lighting plan; once you confirm, send a message to have it generate the video card."
+        },
+        {
+            "q": "Can I edit the specific visual details before the video is generated?",
+            "a": "Yes. Before generating the video, the AI first provides a text card on the canvas explaining the camera movement and details. You can adjust the description and confirm before starting production. If anything is unsatisfactory, tell the assistant in the chat on the right to revise it, and after confirming the text card is adjusted, have it generate the video."
+        },
+        {
+            "q": "Can several 15-second videos be combined directly into one complete film?",
+            "a": "The AI cannot automatically edit them into a finished film, but you can place the generated video cards on the canvas timeline, arrange the playback order yourself, and then export the full video. Each 15-second video card can be downloaded separately, so you can freely combine them or import them into other editing software."
+        }
+    ],
+    "keywords": [
+        "15-second AI video creation",
+        "AI VFX video generator",
+        "photo to VFX video",
+        "AI long take video",
+        "short drama opening VFX",
+        "AI video avoid jump cuts"
+    ]
+}

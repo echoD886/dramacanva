@@ -1,0 +1,66 @@
+{
+    "title": "Ideia em sinopse de episódios, abertura e elenco",
+    "metaDescription": "Para criadores de séries curtas: envie uma ideia no canvas do {brand}; o assistente cria sinopse por episódio, abertura de 30s e elenco detalhado.",
+    "oneLiner": "Transforme uma ideia de história em uma frase em sinopse por episódio, falas de abertura e elenco.",
+    "intro": [
+        "Esta é uma habilidade de escrita do {brand} para criadores de séries curtas. Envie uma ideia de história em uma frase ao assistente, e ele organizará no canvas a sinopse por episódio, as falas e imagens dos primeiros 30 segundos e os cartões de personagens.",
+        "Você só precisa ter uma inspiração de história, uma ideia de quem é o protagonista ou uma experiência comum do dia a dia. Se tiver requisitos de número de episódios ou duração por episódio, também pode enviá-los junto.",
+        "Quando terminar, o canvas exibirá cartões de texto e tabela organizados, incluindo a sinopse de cada episódio, a primeira fala e a imagem de abertura que prendem a atenção nos primeiros 30 segundos, além de uma ficha de personagens marcantes."
+    ],
+    "example": {
+        "input": "Quero escrever uma série curta urbana: um mecânico honesto descobre por acaso que o dono do carro de luxo que sempre vem à oficina é, na verdade, seu irmão mais novo separado há muitos anos. Planejo 20 episódios de 2 minutos cada.",
+        "output": "O canvas gera uma tabela de episódios e cartões de texto: inclui a cena e a fala dos primeiros 30 segundos em que o protagonista limpa o carro e encontra um objeto de lembrança, a caracterização do mecânico e do irmão, o resumo da trama dos 20 episódios e sugestões de pontos de pausa para pagamento."
+    },
+    "scenarios": [
+        "Você tem uma boa ideia de história na cabeça, mas não sabe como dividi-la em uma sinopse de episódios de um ou dois minutos.",
+        "No começo do roteiro, você sempre quer explicar o contexto, mas não sabe como a primeira cena e a fala dos primeiros 30 segundos podem prender a atenção.",
+        "Os personagens que você escreve têm personalidades pouco marcantes, as falas parecem da mesma pessoa e falta um detalhe memorável.",
+        "Você não sabe em que suspense parar a trama para o público querer pagar para ver o próximo episódio."
+    ],
+    "problems": [
+        {
+            "pain": "Você costuma perder tempo explicando o contexto no início, e o público perde a paciência e passa o dedo depois de alguns segundos.",
+            "solve": "Entregue diretamente a primeira cena e a primeira fala dos primeiros 30 segundos, colocando o conflito logo à vista para atrair o público."
+        },
+        {
+            "pain": "Os personagens têm personalidade vaga, parecem de papel, e as falas são todas iguais; o público não lembra quem é quem.",
+            "solve": "Vincule aos personagens apelidos característicos, gestos marcantes e falas representativas, dando vida a eles por meio de pequenos detalhes do cotidiano."
+        },
+        {
+            "pain": "Você não sabe onde terminar cada episódio, e o final fica sem graça e não segura o público.",
+            "solve": "Coloque o ponto de pausa no momento de maior emoção, quando a resposta está prestes a ser revelada, para o público não resistir e querer continuar assistindo."
+        }
+    ],
+    "steps": [
+        "No banco de habilidades, clique em “Usar esta habilidade” para abrir a caixa de diálogo à direita do canvas.",
+        "Envie sua inspiração de história, o número previsto de episódios ou o material que você já tem.",
+        "Confira no canvas a tabela de sinopse por episódio, as falas de abertura e os cartões de personagens.",
+        "Ajuste os detalhes de texto que não gostar e depois copie ou baixe o resultado."
+    ],
+    "faq": [
+        {
+            "q": "Como escrever a abertura de uma série curta para prender a atenção nos primeiros segundos?",
+            "a": "Mostre diretamente o conflito e a crise; não explique o contexto devagar. O assistente vai criar para você a primeira cena e a primeira fala dos primeiros 30 segundos, fazendo o personagem entrar em cena já em crise. Deixe as causas do contexto para serem reveladas aos poucos ao longo da trama."
+        },
+        {
+            "q": "Onde terminar cada episódio de uma série curta para aumentar a vontade de ver o próximo?",
+            "a": "Termine no instante em que o suspense atinge o ponto máximo e a resposta está prestes a ser revelada. Por exemplo, encerre de repente no momento em que um segredo é descoberto, sem esperar a emoção baixar. Assim, o público sente uma forte vontade de investigar e não resiste a ver o próximo episódio."
+        },
+        {
+            "q": "Como escrever personagens de série curta com personalidade marcante e memoráveis?",
+            "a": "A forma mais prática é vincular ao personagem um apelido, gestos marcantes e uma frase que ele repete sempre. Por exemplo, use um hábito cotidiano específico no lugar de longas descrições abstratas de personalidade. Quando o personagem fala e age, o público lembra mais facilmente quem ele é."
+        },
+        {
+            "q": "Só tenho uma experiência comum do dia a dia; dá para transformá-la em uma série curta?",
+            "a": "Sim. O assistente pode ajudar a extrair dela uma ideia de história com conflito. Ele identifica o descompasso psicológico nas pequenas situações do cotidiano e cria uma trama com reviravoltas. Você só precisa fornecer os detalhes reais, e ele amplia a estrutura por episódios."
+        }
+    ],
+    "keywords": [
+        "como escrever roteiro de série curta",
+        "sinopse de episódios série curta",
+        "como começar uma série curta",
+        "personagens de série curta",
+        "ideias de história para série curta",
+        "modelo de sinopse de série curta"
+    ]
+}

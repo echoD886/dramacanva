@@ -1,0 +1,88 @@
+DramaCanvas Refund Policy
+Last Updated: October 30, 2026
+Effective Date: October 30, 2026
+1. At a Glance
+Within 14 calendar days from the payment date, if the platform credits included in that payment have not been fully used, you may request a refund proportional to the unused credits. A 6% processing fee will be deducted from the refund to cover payment gateway and processing costs.
+2. Refund Eligibility
+Each payment (including initial purchases, automatic renewals, standalone credit top-ups, and plan upgrade payments) is subject to an independent 14-calendar-day refund request window. Common scenarios are outlined below:
+- No credits used: Eligible for a refund. The refund will be issued to the original payment method, minus a 6% processing fee deducted from the actual amount paid.
+- Some credits used: Eligible for a refund. The refund is calculated based on the proportion of unused credits in that payment and issued to the original payment method, minus a 6% processing fee.
+- All credits used: Non-refundable. Payments where credits have been fully consumed will not be refunded.
+- More than 14 calendar days since payment: Non-refundable. Requests submitted past the deadline will not be accepted.
+- Subscription auto-renewal charges: Eligible for a refund. Renewals are treated as independent payments; if credits are not fully used, you may request a proportional refund.
+- Standalone credit top-ups (one-time purchases): Eligible for a refund. If credits are not fully used, you may request a refund proportional to the unused credits.
+- Plan upgrade payments: Eligible for a refund. Calculated based on the proportion of unused credits among the new credits added by this upgrade payment.
+- Purchases made with coupons or discounts: Eligible for a refund. Calculated based on the actual amount paid; discounted amounts are not refundable in cash.
+- Promotional credits (such as referral rewards, campaign rewards, etc.): Non-refundable. Promotional credits are not cash purchases and cannot be refunded, exchanged for cash, or transferred.
+- Credits deducted for failed generations: No request needed. The system will automatically return the deducted platform credits to your account.
+3. How Refund Amounts Are Calculated
+We calculate refunds based on the actual amount you paid and the proportion of unused credits.
+3.1 Calculation Formula
+Refund Amount = Actual Amount Paid × (Unused Credits Included in the Payment ÷ Total Credits Included in the Payment) − Processing Fee
+3.2 Explanation of Calculation Components
+- Actual Amount Paid: Calculated based on the amount you actually paid. If you used coupons, promotional discounts, or prorated credits from an existing plan upgrade at checkout, we calculate based on the net amount you actually paid after deductions, rather than the original price.
+- Credit Proportion: The denominator is the total credits included in that payment, and the numerator is the credits included in that payment that currently remain unused. For plan upgrade price differences, the denominator is the newly added credits from this upgrade payment, not the total credits of the upgraded plan.
+- Annual Subscription Calculation: For annual subscription plans, all credits for the full year included in the annual fee (including upcoming monthly credit allocations not yet deposited into your account) are included in the denominator; unissued monthly credits are all counted as "unused credits."
+- Calculation Timing: The refund amount is calculated based on the credit usage status of that payment at the time we process the refund; only unused credits from this payment will be deducted, ensuring your account balance does not become negative.
+- Credit Usage and Consumption Order: When multiple purchase records exist in an account, the order of credit consumption is determined by system records. When processing a refund, we will provide you with the specific consumption records and detailed calculation breakdown.
+- Processing Fee: A 6% fee is deducted from the refund amount to cover payment gateway and processing costs. We will notify you of the specific processing fee amount deducted when processing your refund.
+3.3 Calculation Examples
+The following example uses fictional whole numbers to illustrate the calculation logic:
+Suppose you purchase a plan or a standalone credit top-up, paying US$100 for 1,000 platform credits.
+On the 5th calendar day after payment, you have used a total of 300 credits, leaving 700 credits unused. At this point, you request a refund:
+- Unused credit proportion: 700 ÷ 1,000 = 70%
+- Corresponding base refund amount: US$100 × 70% = US$70
+- Applicable processing fee (6%): US$70 × 6% = US$4.20
+- Final net refund amount: US$70 − US$4.20 = US$65.80
+If none of the 1,000 credits have been used at the time of application, the final net refund amount will be: US$100 − (US$100 × 6%) = US$94.
+4. How to Request a Refund
+DramaCanvas accepts and verifies all refund requests centrally via email.
+4.1 How to Submit a Request
+Please use the email address linked to your DramaCanvas account to send an email to our official support inbox at support@dramacanva.com, with the subject line "Refund Request".
+4.2 Required Information
+Please clearly provide the following 4 pieces of information in your email so we can quickly verify and process your request:
+1. Account Email: The login email linked to your DramaCanvas account.
+2. Order Number or Payment Date: The order number for that transaction, or the specific payment date.
+3. Payment Amount: The actual amount you paid for that transaction.
+4. Reason for Refund: A brief explanation of your reason for requesting a refund, which helps us improve our product.
+4.3 Important Notes
+Refunds can currently only be requested via email. To protect account security, you must submit the request using the email address linked to your account; if sent from a different email address, we may require additional information to confirm account ownership.
+5. Refund Processing Times
+The refund process consists of two stages: manual review and payment gateway processing.
+5.1 Review Timeline
+Upon receiving a request email containing all 4 required pieces of information, we will reply via email within 3 business days with the review outcome and a detailed refund calculation breakdown.
+5.2 Processing Times by Payment Method
+Once approved, the refund will be returned to your original payment method. After the refund is issued, the time it takes for funds to appear in your account depends on the processing procedures of payment gateways and banks:
+- Alipay: Typically 1–3 business days.
+- WeChat Pay: Typically 1–3 business days.
+- Bank Cards (processed via Stripe): Typically 5–10 business days.
+Actual settlement times depend on the processing speeds of the card issuer and payment institutions.
+6. What Happens After a Refund
+Once the refund has been processed, your account status will change as follows:
+6.1 Credit Deduction
+Unused platform credits from that payment will be deducted from your account. Platform credits may only be used on DramaCanvas and cannot be withdrawn, exchanged for cash, or transferred to other accounts.
+6.2 Subscription Termination and Account Changes
+If your refund request is for a subscription plan, the corresponding plan benefits will terminate immediately once the refund is processed, and your account will revert to the Free plan.
+6.3 Difference Between Canceling Auto-Renewal and Requesting a Refund
+- Canceling Auto-Renewal: If you no longer need your current plan in the future, you can cancel auto-renewal at any time on the Subscription page in your Account Center. After cancellation, you can continue using your plan through the end of the current billing cycle, credits in your account remain available for use, and the cancellation itself does not trigger a refund.
+- Requesting a Refund: A refund terminates services for an existing payment early, settling and returning the prorated amount for the unused portion.
+7. Team Workspace Refund Rules
+Team Workspaces involve multi-person collaboration, and the following refund rules apply:
+- Request Eligibility: Only the team admin who made the payment may submit a refund request; other team members are not authorized to request a refund.
+- Credit Consumption Accounting: Platform credits already consumed by team members are all counted as "used credits" when calculating the refund.
+- Remaining Credit Deduction: Once the refund is approved, all unused credits from that payment (including portions allocated to team members that remain unused) will be deducted from the account.
+8. Non-Refundable Circumstances
+Refunds will not be granted under the following circumstances, and any issued refunds may be revoked:
+- Refund Abuse: Engaging in abusive behaviors such as repeatedly purchasing, using credits, and then requesting refunds.
+- Account Violations: Accounts that have been restricted or banned due to violations of the User Agreement.
+- Fraudulent Payments: Payments completed through stolen cards, fraudulent means, or unauthorized channels.
+- Chargebacks Already Initiated: If you have already initiated a chargeback dispute through your issuing bank, that order will be handled through the bank dispute process, and we will not issue a separate refund.
+9. Local Laws and Statutory Rights
+We respect and uphold your legal rights under applicable local laws.
+- Statutory Rights Take Precedence: If mandatory laws in your country or region grant you greater rights (such as consumer protection regulations in mainland China, or the 14-day right of withdrawal for EU and UK consumers), we will comply with applicable laws, and this policy does not diminish your statutory rights.
+- Notice for EU and UK Consumers: If at the time of purchase you expressly consent to our immediate provision of digital content and acknowledge that you will lose your right of withdrawal once performance begins, your right of withdrawal will be handled in accordance with applicable local laws once you start using the service.
+10. Policy Changes and Contact Us
+10.1 Policy Updates
+We may update this Refund Policy from time to time. The applicable version of this policy is determined by the "Last Updated" date at the top of this page. Refund requests submitted prior to a policy update will be processed under the version of the policy effective at the time the request was submitted.
+10.2 Contact Us
+If you have any questions regarding this Refund Policy, please email support@dramacanva.com.

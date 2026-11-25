@@ -1,0 +1,59 @@
+.credit-shortfall-progress {
+    width: 100%;
+    height: 4px;
+    margin: 8px 0 24px;
+    accent-color: var(--color-primary);
+    appearance: none;
+    border: 0;
+}
+.credit-shortfall-progress::-webkit-progress-bar {
+    background: var(--card-surface-raised);
+    border-radius: var(--radius);
+}
+.credit-shortfall-progress::-webkit-progress-value {
+    background: var(--color-primary);
+    border-radius: var(--radius);
+}
+.credit-shortfall-packs {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 24px 0;
+}
+.credit-shortfall-packs button {
+    min-width: 120px;
+    flex: 1;
+    display: grid;
+    gap: 12px;
+    padding: 16px 10px;
+    border-radius: 12px;
+    border: 1px solid var(--border-semantic);
+    background: var(--card-surface);
+    color: inherit;
+    text-align: left;
+}
+.credit-shortfall-packs button[aria-pressed="true"] {
+    outline: 2px solid var(--color-primary);
+}
+.credit-shortfall-packs strong {
+    font-size: 24px;
+}
+.credit-shortfall-packs small {
+    opacity: 0.65;
+}
+.credit-shortfall-members {
+    display: grid;
+    gap: 8px;
+    padding: 24px 0;
+}
+.credit-shortfall-note {
+    opacity: 0.6;
+    text-align: center;
+    margin: 16px 0 0;
+}
+@layer components {
+    .canvas-node-composer-submit.is-credit-short {
+        border: 1px solid currentColor !important;
+        background: transparent !important;
+    }
+}

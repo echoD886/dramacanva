@@ -1,0 +1,67 @@
+{
+    "title": "Comedy Script Rewrite: Turn Flat Dialogue Into Funny Beats",
+    "metaDescription": "Turn flat dialogue into funny, action-ready lines and a joke-beat schedule—great for short comedy skits.",
+    "oneLiner": "Input flat dialogue; the canvas generates funny action-cued lines and a joke-beat schedule.",
+    "intro": [
+        "This is a comedy rewrite tool on the {brand} canvas. It helps video creators turn dry, boring everyday dialogue into funny scenes with setup and surprise punchlines.",
+        "You don't need to know comedy theory. In the chat box on the right side of the canvas, send your flat dialogue, story idea, or a simple description of your characters' temperaments.",
+        "When it's done, several cards appear on the canvas. They include rewritten lines with action and expression cues, a breakdown of the jokes, and a sequencing table that shows the order of the joke beats."
+    ],
+    "example": {
+        "input": "We wrote a borrowing-money conversation: A asks B for a 1,000-yuan loan, and B says he's broke. It feels bland, and I want to turn it into funny dialogue—one character loves to brag and the other loves to split hairs.",
+        "output": "Several cards are generated on the canvas: one with new lines that include actions like clutching a wallet and rolling eyes, one that breaks down the setup and reversal, and one rhythm table that marks the order of the joke beats."
+    },
+    "scenarios": [
+        "You've written everyday dialogue, but it reads like dry exposition and lacks funny visual moments.",
+        "You have a funny idea in mind but don't know how to set it up or land a surprise punchline at the end.",
+        "You've written several individually funny bits and want to string them into a complete short episode with ups and downs.",
+        "Two characters sound like the same person talking to themselves, so their personalities and contrast don't come through."
+    ],
+    "problems": [
+        {
+            "pain": "Character lines are dry, like they're reciting lines, so the audience doesn't feel the humor in the situation.",
+            "solve": "Turn one-way exposition into interactive lines with actions and expressions, so the conversation feels like it's being performed live."
+        },
+        {
+            "pain": "The jokes you thought of land stiffly, and others don't find them funny.",
+            "solve": "Organize the lines with setup, escalation, and a final reveal or twist, so the punchlines land naturally."
+        },
+        {
+            "pain": "You've collected several funny bits, but when you put them into one episode, it feels pieced together and the pacing drags.",
+            "solve": "Arrange the order on the canvas using the rule of second-best opener, steady middle, best closer."
+        }
+    ],
+    "steps": [
+        "Click Use This Skill in the skill library to start a new conversation on the canvas.",
+        "Send your dialogue draft, story idea, or the character personalities you want.",
+        "Review the line-revision cards and joke-beat table generated on the canvas.",
+        "Click a card to edit the text directly, or tell the assistant in the chat box how to adjust the jokes.",
+        "Copy or download the lines and table cards you like for shoot prep."
+    ],
+    "faq": [
+        {
+            "q": "How do I turn flat script dialogue into funny lines?",
+            "a": "Send the flat dialogue directly in the chat box. It rewrites it into dialogue cards with action, using setup, escalation, and a final surprise twist. Each line also comes with character action and expression cues, turning one-way exposition into a funny live scene."
+        },
+        {
+            "q": "What if my jokes sound like I'm reading from a script and have no visual sense?",
+            "a": "Tell the assistant in the chat box to turn narration into performance. It will add character actions, expressions, and reaction cues to the lines. When shooting or rehearsing, follow the cues on the cards to turn a straight read into a lively scene."
+        },
+        {
+            "q": "How should I arrange the jokes across a whole short episode so it doesn't fall flat?",
+            "a": "Use the ordering method of opening with your second-best joke, transitioning smoothly, and saving your best joke for the finale. It will generate a card table on the canvas showing when each joke, the punchline that comes after a setup, should appear, so jokes don't bunch up or make the second half drag."
+        },
+        {
+            "q": "What if the generated lines don't meet expectations or the jokes feel too old?",
+            "a": "You can click the card on the canvas to edit the text manually, or tell the assistant in the chat box how to change it. For example, ask for a more relatable joke or adjust the joke frequency, and the cards on the canvas will be regenerated as requested."
+        }
+    ],
+    "keywords": [
+        "comedy script rewrite",
+        "how to write funny dialogue",
+        "funny short skit dialogue",
+        "how to write comedy punchlines",
+        "add jokes to video dialogue",
+        "funny short video script"
+    ]
+}

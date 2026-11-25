@@ -1,0 +1,66 @@
+{
+    "title": "Ritmo do roteiro de motion comic: crie reviravoltas",
+    "metaDescription": "Para quem faz motion comic e acha a história sem graça: envie o roteiro e receba no canvas um plano de reescrita com reviravoltas, clímax e checklist.",
+    "oneLiner": "Insira o roteiro e ele gera no canvas um plano de reescrita com reviravoltas, ideal para criadores de motion comic.",
+    "intro": [
+        "Esta é uma ferramenta no canvas do {brand} que ajuda criadores de motion comic (mangá em vídeo) a reescrever roteiros. Insira o texto da história e ela gera no canvas um plano de reviravoltas e ritmo, ideal para quem acha a trama sem graça.",
+        "Você só precisa preparar o texto da história atual. No lado direito do canvas, informe à IA os nomes dos personagens, onde a história se passa, os detalhes da trama e quantos minutos você quer no vídeo.",
+        "A IA gera cartões de texto no canvas, com sugestões de ritmo precisas ao segundo, um plano de design para reviravoltas e um checklist de revisão, para você comparar e editar ou copiar e usar diretamente."
+    ],
+    "example": {
+        "input": "Roteiro “Revanche”, episódio 1, cena no escritório. O protagonista Xiao Li tem o mérito roubado pelo chefe e ainda é ridicularizado em público; quer transformar em um vídeo de 3 minutos.",
+        "output": "Gera cartões de texto no canvas: sugere mostrar a injustiça nos primeiros 90 segundos e, dos 90 aos 120 segundos, fazer o protagonista reagir com um gravador e dar a volta por cima; indica a intensidade das ações visuais e inclui um checklist de revisão."
+    },
+    "scenarios": [
+        "Terminou de escrever a história curta e sente que parece uma lista de acontecimentos; quer adicionar reviravoltas mais envolventes.",
+        "A virada do protagonista parece forçada; é preciso criar uma preparação de frustração para a reação ser mais satisfatória.",
+        "Ao produzir vídeos de 3 a 5 minutos, quer verificar se há trechos arrastados com mais de 60 segundos seguidos.",
+        "O roteiro só mostra a vitória por meio de diálogos; quer criar ações e detalhes de objetos para o momento de virada ter mais impacto."
+    ],
+    "problems": [
+        {
+            "pain": "A trama é morna e o público quer sair depois de alguns segundos.",
+            "solve": "Ajuda a dividir a história e a colocar uma pequena complicação a cada 45 segundos, evitando ao máximo trechos arrastados com mais de 60 segundos."
+        },
+        {
+            "pain": "O protagonista vira o jogo de repente e vence, o que parece falso e abrupto, sem dar satisfação.",
+            "solve": "Sugere preparar de 20 a 60 segundos de injustiça antes da virada, para a reação ficar mais coerente e gratificante."
+        },
+        {
+            "pain": "A história tem luta intensa do começo ao fim e o público se cansa visualmente.",
+            "solve": "Planeja 1 clímax central com 2 a 3 pequenas reviravoltas e deixa 3 a 5 segundos de pausa após o conflito para o público processar as emoções."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas de criação.",
+        "Envie à IA seu roteiro, o perfil dos personagens e a duração desejada.",
+        "Veja o cronograma de ritmo e o plano de alterações da trama gerados no canvas.",
+        "Copie ou baixe as sugestões de alteração; você também pode pedir à IA para ajustar trechos específicos de novo."
+    ],
+    "faq": [
+        {
+            "q": "Como controlar o ritmo da trama em um motion comic (mangá em vídeo)?",
+            "a": "A chave do ritmo é “primeiro reprimir, depois explodir”: coloque nos primeiros 90 segundos a preparação da injustiça contra o protagonista e, dos 90 aos 120 segundos, o clímax da reação. Depois de um conflito intenso, deixe também 3 a 5 segundos sem falas para o público digerir as emoções."
+        },
+        {
+            "q": "A reviravolta da trama parece abrupta, como se o protagonista ganhasse uma vantagem do nada. O que fazer?",
+            "a": "Antes da reação, mostre por 20 a 30 segundos a arrogância do vilão ou a frustração do protagonista e plante antes detalhes como uma prova decisiva. Assim a virada fica plausível e o público sente mais satisfação."
+        },
+        {
+            "q": "Como evitar que a trama fique entediante e o público saia no meio?",
+            "a": "Coloque uma pequena complicação ou discussão a cada 45 segundos, aproximadamente, e evite ao máximo períodos monótonos com mais de 60 segundos sem atrativo. O episódio também pode intercalar conflitos verbais, ação física e dilemas psicológicos para a história ficar mais rica e compacta."
+        },
+        {
+            "q": "Em um vídeo de 3 a 5 minutos por episódio, quantas reviravoltas e clímax vale a pena colocar?",
+            "a": "Normalmente, recomenda-se 1 grande clímax central e 2 a 3 pequenas reviravoltas. Tente não passar de 3 clímax visuais intensos, para evitar estímulo demais e cansaço no público. A reviravolta central pode ganhar close-ups, enquanto as tramas secundárias pedem ações moderadas."
+        }
+    ],
+    "keywords": [
+        "como escrever roteiro de motion comic",
+        "como controlar o ritmo da história",
+        "como criar reviravoltas em séries curtas",
+        "momentos de catarse em mangá em vídeo",
+        "roteiro sem graça o que fazer",
+        "como escrever o clímax de uma história"
+    ]
+}

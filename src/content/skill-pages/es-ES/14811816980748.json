@@ -1,0 +1,66 @@
+{
+    "title": "Guion de entrevista cómica: del tema a diálogos y planos",
+    "metaDescription": "Entrevista cómica en vídeo corto: en {brand}, indica tema y personajes; la IA crea 3 o 4 diálogos humorísticos y exporta una tabla de planos con acciones.",
+    "oneLiner": "Para principiantes en vídeo corto: introduce un tema y crea en el lienzo diálogos y una tabla de planos para una entrevista cómica.",
+    "intro": [
+        "Esta es la habilidad de entrevista cómica de {brand}. Introduce un tema y confirma los personajes; la IA escribirá diálogos humorísticos en el lienzo y organizará la tabla de planos. Es ideal para creadores que quieren hacer cortos con mascotas o avatares digitales.",
+        "Solo tienes que elegir un tema del que hablar (por ejemplo, citas o trabajo) y escoger el aspecto de los personajes. La IA te hará preguntas como en una conversación y te ayudará a definir el contraste de personalidad y el estilo humorístico de los personajes.",
+        "Al terminar, en el lienzo aparecerán el guion de texto y la tabla de planos (que divide el vídeo en planos e indica qué se graba en cada uno). Incluye diálogos breves, acciones de cámara y descripciones de la puesta en escena."
+    ],
+    "example": {
+        "input": "Quiero hacer una entrevista cómica con mascotas: un presentador corgi entrevista a un gato persa invitado, que se queja de que su dueño está últimamente demasiado neurótico; estilo de talk show estadounidense y con risas grabadas.",
+        "output": "En el lienzo se genera un diálogo humorístico de preguntas y respuestas y una tabla con 5 planos que indica giros rápidos de cámara, primeros planos de la cara, dónde aparecen las risas y descripciones detalladas de la imagen."
+    },
+    "scenarios": [
+        "Crear un vídeo corto con perros y gatos que hablan, con diálogos cómicos de contraste y un diseño de planos de plató.",
+        "Producir un corto de entrevista sobre el trabajo o las citas que necesite un guion humorístico con 3 o 4 intercambios y giros.",
+        "Hacer diálogos cómicos con personajes virtuales y necesitar indicaciones de acción como cambios rápidos de plano y primeros planos de la cara.",
+        "Cuando los chistes que escribes no hacen gracia y quieres crear diálogos con una estructura que vaya de crear suspense a un giro repentino."
+    ],
+    "problems": [
+        {
+            "pain": "Escribir diálogos cómicos suena a leer un libro de texto y carece de naturalidad conversacional y de gracia.",
+            "solve": "Crear frases cotidianas con la estructura de suspense y giro posterior, limitando cada frase a un máximo de 40 caracteres para que se lea con más fluidez."
+        },
+        {
+            "pain": "Los planos son demasiado rígidos, los cortes resultan planos y falta ritmo y humor.",
+            "solve": "Incluir en la tabla de planos recursos como acercamientos repentinos para mostrar expresiones y cambios rápidos de cámara, para que los cortes tengan más impacto visual."
+        },
+        {
+            "pain": "Los cortes son demasiado frecuentes o los escenarios cambian demasiado, y el vídeo resultante se deforma con facilidad.",
+            "solve": "En un corto de 15 segundos, intentar no pasar de 5 o 6 cortes y reducir los saltos grandes para que la imagen sea más estable."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, haz clic en «Usar esta habilidad» y envía el tema de entrevista que quieras tratar en el chat de la derecha.",
+        "Responde a las preguntas de la IA sobre el aspecto de los personajes, el contraste de personalidad y el estilo humorístico, y confirma la dirección creativa.",
+        "Revisa el guion de preguntas y respuestas y la tabla de planos generados en el lienzo y modifica los diálogos o las descripciones según necesites.",
+        "Copia o descarga el resultado para guardar y usar los diálogos y las descripciones de los planos."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo hacer que la IA escriba diálogos graciosos para una entrevista en vídeo corto?",
+            "a": "Al conversar, define una personalidad contrastada para los personajes (por ejemplo, aspecto fuerte pero cobarde) y crea un giro al final con situaciones cotidianas. La IA generará diálogos breves y cotidianos según esta premisa y limitará cada frase a un máximo de 40 caracteres para dar un ritmo más ágil."
+        },
+        {
+            "q": "¿Cómo evitar que las imágenes de la entrevista resulten rígidas?",
+            "a": "Puedes incluir en la planificación de planos acciones como giros rápidos y primeros planos de la cara. Esta habilidad indicará en la tabla cuándo acercar la cámara de repente para captar una expresión de sorpresa y cuándo cortar rápidamente al otro personaje. Además, intentará que en 15 segundos no haya más de 5 o 6 cortes para evitar que la imagen tiemble o se deforme."
+        },
+        {
+            "q": "¿Se puede hacer una entrevista cómica con mascotas como perros y gatos o con avatares digitales?",
+            "a": "Sí, esta habilidad admite varios tipos de personajes, como mascotas, avatares digitales y personas reales. Solo tienes que indicar en la conversación el aspecto y la vestimenta del personaje, por ejemplo un corgi con traje o un gato con gafas, y la IA escribirá diálogos humorísticos y descripciones visuales acordes con esa imagen."
+        },
+        {
+            "q": "¿Puedo modificar los diálogos o las indicaciones de plano si no me convencen?",
+            "a": "Puedes modificarlos directamente en el lienzo en cualquier momento. Una vez generada la tarjeta, puedes editar el texto directamente o decirle al asistente en el chat de la derecha qué frase no te convence para que la reescriba."
+        }
+    ],
+    "keywords": [
+        "guion de entrevista cómica para vídeo corto",
+        "escribir diálogos graciosos con IA",
+        "cómo hacer un talk show de mascotas",
+        "generador de diálogos cómicos para vídeos",
+        "guion técnico de entrevista para vídeo corto",
+        "guion de entrevista cómica con avatar digital"
+    ]
+}

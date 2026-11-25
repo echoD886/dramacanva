@@ -1,0 +1,21 @@
+const messages = {
+    "creationHistory.history": "Conversation history",
+    "creationHistory.count": "{count} conversations",
+    "creationHistory.search": "Search conversation titles or content",
+    "creationHistory.searchAria": "Search conversation history",
+    "creationHistory.listAria": "Conversation history, newest updates first",
+    "creationHistory.creation": "Creation",
+    "creationHistory.new": "New creation",
+    "creationHistory.notStarted": "Creation has not started yet",
+    "creationHistory.delete": "Delete conversation",
+    "creationHistory.deleteName": "Delete conversation: {name}",
+    "creationHistory.noMatch": "No matching conversations",
+    "creationHistory.empty": "No conversation history yet",
+    "creationHistory.timeUnknown": "Unknown time",
+    "creationHistory.view": "Creation view",
+    "creationHistory.chat": "Conversation",
+    "creationHistory.storyboard": "Shot creation",
+    "creationHistory.newAction": "Start a new creation",
+    "creationHistory.open": "View conversation history",
+} as const;
+export default messages;

@@ -1,0 +1,66 @@
+{
+    "title": "Otimize prompts de IA: instruções ruins em modelos estáveis",
+    "metaDescription": "Para quem usa IA e sofre com desvios e formatos errados. Envie sua necessidade e receba no canvas um card de prompt reutilizável, com regras e avisos.",
+    "oneLiner": "Digite as instruções que você costuma escrever e gere no canvas um card de prompt para reutilizar.",
+    "intro": [
+        "Esta é uma ferramenta para otimizar prompts (as solicitações e instruções enviadas à IA). Se você sente que a IA às vezes responde bem e às vezes responde mal, ela ajuda a organizar seus pedidos em um modelo padronizado.",
+        "Basta preparar as instruções que você costuma achar ruins, o resultado que quer que a IA alcance ou o formato de saída desejado e digitar tudo na caixa de diálogo.",
+        "No final, você recebe no canvas um card de texto com a persona definida, restrições de formatação e situações em que o prompt costuma falhar. Dá para copiar, salvar e reutilizar na próxima vez."
+    ],
+    "example": {
+        "input": "“Quero que a IA me ajude a escrever roteiros para vídeos curtos, mas o prompt que eu escrevo quase nunca faz ela seguir o formato de tabela e, depois de duas frases, ela foge do tema. Pode melhorar?”",
+        "output": "No canvas, é gerado um card de texto de prompt: inclui tom e persona fixos, regras para os campos da tabela, restrições contra texto desnecessário e lembretes para evitar esquecimentos em conversas longas."
+    },
+    "scenarios": [
+        "Quando você usa IA para gerar conteúdo e as respostas variam, e quer um modelo fixo de instruções.",
+        "Quando a conversa fica longa e a IA esquece facilmente as definições e o contexto anteriores.",
+        "Quando a IA responde de forma prolixa ou não segue a tabela especificada, e você precisa restringir o estilo de saída.",
+        "Quando quer guardar as abordagens eficazes que testou para reutilizar depois."
+    ],
+    "problems": [
+        {
+            "pain": "Toda vez que envia instruções à IA, você vai pela intuição; hoje funciona, amanhã não.",
+            "solve": "A ferramenta organiza uma estrutura fixa de instruções e aponta os limites em que ela costuma falhar, facilitando identificar a causa."
+        },
+        {
+            "pain": "Numa conversa um pouco mais longa, a IA esquece a persona e as exigências definidas no início.",
+            "solve": "Separa as exigências centrais e as proibições em regras fixas e sugere que você as repita antes dos pontos-chave, reduzindo esquecimentos em conversas longas."
+        },
+        {
+            "pain": "A IA muitas vezes não obedece, entrega blocos de texto genéricos e não segue o formato de tabela solicitado.",
+            "solve": "Acrescenta regras claras de formatação e itens proibidos para restringir ao máximo o número de palavras e o formato da saída da IA."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e abra a caixa de diálogo no lado direito do canvas.",
+        "Descreva sua necessidade criativa e envie as instruções que você costuma achar ruins.",
+        "Veja o card de prompt gerado no canvas; você pode editar o texto diretamente.",
+        "Copie ou baixe o prompt do card para usar como modelo reutilizável depois."
+    ],
+    "faq": [
+        {
+            "q": "Por que as respostas da IA variam tanto quando eu faço um pedido?",
+            "a": "Normalmente é porque as instruções estão vagas ou faltam limites específicos. Você pode separar em camadas a persona, as exigências de formatação e as proibições para reduzir respostas aleatórias. Depois de gerar o card no canvas, também pode anotar as versões que funcionam bem e ir otimizando."
+        },
+        {
+            "q": "Como evitar que a IA esqueça exigências anteriores em conversas longas?",
+            "a": "Liste separadamente o tom exigido e as proibições centrais, e volte a referenciá-los antes de pontos importantes da conversa. Evite misturar todas as definições em um único parágrafo longo; explicar em camadas ajuda a IA a manter a memória e a fugir menos do tema."
+        },
+        {
+            "q": "O que fazer quando a IA responde de forma prolixa e não segue a tabela?",
+            "a": "No fim das instruções, especifique separadamente o formato de saída e o limite de palavras. Liste claramente quais colunas a tabela precisa ter e acrescente restrições como “sem texto desnecessário”. Depois de gerar o card no canvas, você também pode editar os detalhes manualmente a qualquer momento."
+        },
+        {
+            "q": "Como montar um modelo de prompt reutilizável?",
+            "a": "Separe o que muda com frequência das regras fixas. Por exemplo, deixe a necessidade específica como conteúdo a substituir a cada vez e fixe as regras de formato e tom. Na próxima vez, basta trocar o conteúdo para ter respostas mais estáveis."
+        }
+    ],
+    "keywords": [
+        "otimização de prompts",
+        "modelos de prompt de IA",
+        "resultados de prompt inconsistentes",
+        "respostas de IA fora do tema",
+        "como escrever prompts",
+        "como definir persona em prompts de IA"
+    ]
+}

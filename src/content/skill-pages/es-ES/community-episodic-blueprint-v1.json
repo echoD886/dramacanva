@@ -1,0 +1,66 @@
+{
+    "title": "Convierte una novela en guion y storyboard de microserie",
+    "metaDescription": "Para adaptar historias a microserie: envía un relato a la IA y organiza en el lienzo guion por episodios, aspecto de personajes y storyboard.",
+    "oneLiner": "Dale una historia y te organiza en el lienzo el guion y el storyboard de la microserie.",
+    "intro": [
+        "Esta es una herramienta que te ayuda a organizar el plan de producción de una microserie en el lienzo de {brand}. Puede dividir una historia en la trama de cada episodio y escribir en tarjetas de texto lo que hay que rodar en cada plano.",
+        "Solo tienes que preparar un fragmento de novela, un guion existente o una sinopsis. Si tienes ideas sobre el número de episodios, la duración de cada uno o el formato horizontal/vertical, también puedes decírselo al asistente de IA de la derecha.",
+        "Cuando termines, en el lienzo aparecerán el guion por episodios, el diseño de vestuario y apariencia de los personajes, además del storyboard (con la imagen y la acción indicadas plano a plano) y las indicaciones de imagen, para que puedas copiarlos o descargarlos."
+    ],
+    "example": {
+        "input": "Envía un fragmento de novela de 300 palabras: el protagonista venido a menos conoce por casualidad a un anciano misterioso en una noche de lluvia y obtiene un libro celestial sin palabras; quiere rodarlo como una microserie vertical de 3 episodios.",
+        "output": "En el lienzo se genera un plan de trama de 3 episodios que incluye los diálogos de cada episodio, tarjetas de apariencia del anciano y del protagonista, y tarjetas de texto de cada plano ya desglosadas."
+    },
+    "scenarios": [
+        "Tienes una novela o un relato entre manos y quieres dividirlo en un esquema de microserie en el que cada episodio tenga conflicto.",
+        "Ya has escrito el guion de la microserie y necesitas organizar los rasgos físicos y el vestuario de los personajes.",
+        "Vas a encargar ilustraciones o vídeos y necesitas detallar la trama en descripciones plano a plano.",
+        "Has cambiado de forma improvisada una herida o la ropa del protagonista y quieres localizar rápidamente qué planos deben cambiarse también."
+    ],
+    "problems": [
+        {
+            "pain": "Al adaptar una novela a microserie, la trama queda demasiado dispersa y no sabes dónde cortar cada episodio para dejar suspense.",
+            "solve": "Se aclaran el conflicto principal y el suspense final de cada episodio, se define la conexión entre episodios y se generan tarjetas por episodio."
+        },
+        {
+            "pain": "Cambias a mitad el vestuario o los objetos de un personaje y los planos posteriores suelen quedarse sin actualizar, así que no coinciden.",
+            "solve": "Se revisan el guion y la descripción de personajes, se marcan automáticamente las tarjetas de plano afectadas y puedes modificarlas directamente."
+        },
+        {
+            "pain": "Quieres generar imágenes con IA, pero no sabes cómo convertir el storyboard en indicaciones adecuadas.",
+            "solve": "A partir de la imagen y la acción de cada plano, se preparan tarjetas con las indicaciones correspondientes para imagen y vídeo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y envía tu historia o novela en el cuadro de diálogo de la derecha.",
+        "Revisa las tarjetas de guion por episodio que se generan en el lienzo y confirma la trama de cada episodio y la descripción de los personajes.",
+        "Detalla los planos de cada episodio y genera las descripciones de storyboard y las indicaciones de creación de imagen correspondientes.",
+        "Revisa y modifica el contenido de las tarjetas; copia o descarga directamente el resultado para seguir con la producción."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo usar la IA para convertir una novela en el storyboard de una microserie?",
+            "a": "Envía la novela directamente en el cuadro de diálogo de la derecha del lienzo y la IA organizará la trama por episodios y generará tarjetas de storyboard. En las tarjetas se indicarán los diálogos de los personajes y lo que hay que rodar en cada plano, para que puedas modificarlas directamente en el lienzo. Cuando estés conforme, copia o descarga el resultado de texto."
+        },
+        {
+            "q": "Si cambio el vestuario de un personaje en el guion, ¿cómo actualizo los planos posteriores?",
+            "a": "Después de ajustar el vestuario o el estado de un personaje en el guion, el sistema marcará las tarjetas de plano afectadas y solo tendrás que modificar esas tarjetas. Los demás planos no afectados se mantienen igual, sin necesidad de revisarlos y reescribirlos uno por uno desde el principio."
+        },
+        {
+            "q": "¿Se puede generar directamente el vídeo final de la microserie?",
+            "a": "No se puede generar directamente el vídeo final. Principalmente te ayuda a organizar en el lienzo el guion en texto, el storyboard y las indicaciones de imagen. Si necesitas generar vídeo, cuando confirmes el contenido de texto puedes seguir con las funciones de dibujo o vídeo del lienzo."
+        },
+        {
+            "q": "¿La IA cambiará sin más el contenido de mi novela original?",
+            "a": "No lo cambiará sin más. Intentará conservar los diálogos y los acontecimientos clave que proporciones, sin eliminar ni reordenar por su cuenta. Si hay que ajustar la extensión, primero te mostrará propuestas y tú decidirás si modificarlas."
+        }
+    ],
+    "keywords": [
+        "adaptar novela a serie corta",
+        "cómo escribir un guion de serie corta",
+        "storyboard para serie corta",
+        "esquema de episodios serie corta",
+        "escribir guion con IA",
+        "producción de series cortas"
+    ]
+}

@@ -1,0 +1,23 @@
+const messages = {
+    "assetTray.toggle": "자산 공간 접기",
+    "assetTray.open": "자산 공간 열기, 총 {count}개",
+    "assetTray.resize": "상단에서 자산 트레이 높이 조절",
+    "assetTray.dragHeight": "드래그하여 높이 조절",
+    "assetTray.title": "자산 공간",
+    "assetTray.subtitle": "캔버스로 드래그하거나 사용 중인 이미지 찾기",
+    "assetTray.library": "자산 라이브러리",
+    "assetTray.currentCanvas": "현재 캔버스",
+    "assetTray.searchPlaceholder": "이미지 자산 검색...",
+    "assetTray.search": "이미지 자산 검색",
+    "assetTray.clearSearch": "검색 지우기",
+    "assetTray.noMatchLibrary": "일치하는 이미지 자산이 없습니다",
+    "assetTray.noMatchCanvas": "현재 캔버스에 일치하는 이미지가 없습니다",
+    "assetTray.libraryHint": "클릭하여 삽입 · 드래그하여 배치",
+    "assetTray.canvasHint": "클릭하여 노드로 돌아가기",
+    "assetTray.itemCount": "{count}개",
+    "assetTray.selected": "선택됨",
+    "assetTray.dragToInsert": "캔버스로 드래그하거나 클릭하여 삽입",
+    "assetTray.clickToLocate": "클릭하여 캔버스에 배치",
+    "assetTray.imageNode": "이미지 노드",
+} as const;
+export default messages;

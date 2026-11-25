@@ -1,0 +1,21 @@
+const messages = {
+    "creationHistory.history": "历史对话",
+    "creationHistory.count": "{count} 个对话",
+    "creationHistory.search": "搜索对话标题或内容",
+    "creationHistory.searchAria": "搜索历史对话",
+    "creationHistory.listAria": "历史对话，按更新时间倒序排列",
+    "creationHistory.creation": "创作",
+    "creationHistory.new": "新创作",
+    "creationHistory.notStarted": "还没有开始创作",
+    "creationHistory.delete": "删除对话",
+    "creationHistory.deleteName": "删除对话：{name}",
+    "creationHistory.noMatch": "没有找到匹配的对话",
+    "creationHistory.empty": "暂无历史对话",
+    "creationHistory.timeUnknown": "时间未知",
+    "creationHistory.view": "创作视图",
+    "creationHistory.chat": "连续对话",
+    "creationHistory.storyboard": "镜头创作",
+    "creationHistory.newAction": "新建创作",
+    "creationHistory.open": "查看历史对话",
+} as const;
+export default messages;

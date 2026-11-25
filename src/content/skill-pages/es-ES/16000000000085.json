@@ -1,0 +1,66 @@
+{
+    "title": "Crosstalk: sketches y diálogos cómicos para vídeos",
+    "metaDescription": "Para creadores de vídeos cortos o quejas diarias. Escribe anécdotas o personaje; la IA ordena en el lienzo ritmo y giro para crear diálogos con humor.",
+    "oneLiner": "Escribe anécdotas cotidianas o quejas y el lienzo generará tarjetas de diálogo con humor para creadores de vídeos cortos.",
+    "intro": [
+        "Escribe las pequeñas cosas de tu vida cotidiana de las que quieras quejarte y la IA, usando las técnicas de preparación y giro del crosstalk, generará en el lienzo tarjetas de texto con diálogos y golpes de humor para creadores de vídeos cortos, convirtiendo una historia sosa en un sketch divertido.",
+        "No necesitas entender de crosstalk. Solo tienes que escribir en el cuadro de diálogo de la derecha del lienzo aquello de lo que quieras quejarte, tus anécdotas divertidas o los rasgos del personaje que tengas en mente y enviárselo directamente al asistente de IA.",
+        "Cuando termines, recibirás en el lienzo un conjunto de tarjetas de texto. Incluyen el ritmo del sketch ya organizado, los diálogos de los personajes y un final con un giro inesperado; puedes copiarlas y usarlas tal cual o modificarlas según lo necesites."
+    ],
+    "example": {
+        "input": "Soy un manazas y quiero grabar un vídeo cómico sobre un fracaso aprendiendo repostería; escríbeme un diálogo con estilo autocrítico.",
+        "output": "Genera en el lienzo tarjetas de texto que incluyan tres primeras frases de fanfarronería muy seria, un diálogo final con el giro de quemar el horneado y la indicación de dónde están las gracias."
+    },
+    "scenarios": [
+        "Te da miedo que nadie vea el inicio de tu vídeo corto y quieres despertar la curiosidad del público con una verdad incómoda que rompa lo esperado.",
+        "Grabas quejas sobre tu día a día, pero temes que parezcan una lista de tareas y quieres rematar con un giro en la última frase.",
+        "Cuando escribes texto promocional para un producto, no quieres elogios forzados y prefieres presentarlo con naturalidad mediante la autocrítica.",
+        "Al crear una comedia corta, quieres diseñar una preparación que vaya subiendo por etapas y soltar la gracia al final."
+    ],
+    "problems": [
+        {
+            "pain": "Crees que tu sketch tiene gracia, pero cuando lo publicas nadie se ríe.",
+            "solve": "Te ayuda a revisar si la preparación del chiste es suficiente y a colocar la gracia en el lugar adecuado del cierre."
+        },
+        {
+            "pain": "La primera frase de tu vídeo corto es demasiado plana y el público se va en uno o dos segundos.",
+            "solve": "Te diseña una frase de apertura con una verdad incómoda o una autocrítica muy seria; no hace falta gritar para atraer."
+        },
+        {
+            "pain": "Tus quejas o tu texto para locutar suenan demasiado escritos, secos y rígidos, sin naturalidad ni vida cotidiana.",
+            "solve": "Los convierte en un parloteo coloquial, como el de un vecino, añade detalles cotidianos y termina con una frase de humor."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el lienzo de creación.",
+        "Escribe el tema cómico que quieres grabar, los rasgos de tus personajes o las anécdotas de tu día a día.",
+        "Consulta en el lienzo las tarjetas con el ritmo del sketch, los diálogos de preparación y las gracias.",
+        "Copia o descarga el resultado y, si alguna tarjeta no te convence, dile al asistente cómo quieres cambiarla."
+    ],
+    "faq": [
+        {
+            "q": "¿Por qué un chiste que a mí me hace gracia no hace reír a los demás?",
+            "a": "Casi siempre es porque la preparación previa no basta o porque la gracia se desvela antes de tiempo. En el crosstalk se habla a menudo de «tres vueltas y un remate» (se rompe la expectativa tres veces seguidas y se suelta la gracia a la cuarta): si el público no siente ese contraste, es difícil que se ría. En {brand}, la IA te ayuda a ordenar los niveles de preparación y a dejar la gracia en el lugar adecuado."
+        },
+        {
+            "q": "¿Cómo puedo escribir el inicio de un vídeo corto con técnicas de crosstalk?",
+            "a": "Puedes decir una verdad incómoda con total seriedad para romper rápido lo que el público espera. Por ejemplo, admitir tus pequeños defectos con autocrítica; no hace falta gritar para despertar curiosidad. Solo tienes que escribir tu personaje en el lienzo de {brand} y la IA te ayudará a idear ese tipo de apertura fuera de lo común."
+        },
+        {
+            "q": "¿Qué hago si los diálogos de mi vídeo cómico suenan falsos, como escritos por una máquina?",
+            "a": "Cambia los discursos solemnes por un parloteo coloquial, como el de un vecino. Añade detalles concretos de la vida diaria (hacer la compra, cocinar, echar horas extra) y remata con un giro humorístico. Puedes enviar el texto que ya tengas a la IA en el lienzo para que lo reescriba con un tono más coloquial y cotidiano."
+        },
+        {
+            "q": "¿Puedes montarme directamente el vídeo final o ponerle una voz en off?",
+            "a": "No: sobre todo te ayuda a generar guiones de sketches y tarjetas de texto con diálogos. La IA no monta automáticamente el vídeo final ni pone una voz en off por separado, y tampoco busca en internet ni publica en plataformas. Puedes copiar el texto de las tarjetas del lienzo y usarlo como guion de rodaje o texto para grabar la voz."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un guion de vídeo cómico",
+        "textos cómicos para vídeos cortos",
+        "cómo empezar un vídeo de humor",
+        "diálogos para sketches cómicos",
+        "chistes con autocrítica",
+        "guiones de quejas con humor"
+    ]
+}

@@ -1,0 +1,26 @@
+const messages = {
+    "canvasFeedback.loading": "동영상 도구 불러오는 중",
+    "canvasFeedback.reading": "선택한 동영상 읽는 중",
+    "canvasFeedback.encoding": "병합한 동영상 인코딩 중",
+    "canvasFeedback.merge": "동영상으로 병합",
+    "canvasFeedback.agentSaved": "Agent가 캔버스를 업데이트했습니다",
+    "canvasFeedback.undoCount": "{summary} · 최근 {count}개 배치를 실행 취소할 수 있습니다",
+    "canvasFeedback.close": "닫기",
+    "canvasFeedback.view": "이번 변경 사항 보기",
+    "canvasFeedback.undo": "이번 작업 실행 취소",
+    "canvasFeedback.partialRestore": "어시스턴트의 일부 미디어를 복원하지 못했습니다. 저장된 프로젝트로 캔버스를 열었습니다.",
+    "canvasFeedback.loadFailed": "캔버스를 불러오지 못했습니다. 다시 시도해 주세요.",
+    "canvasFeedback.newCanvasName": "제목 없는 캔버스 {count}",
+    "canvasFeedback.createFailed": "캔버스를 만들지 못했습니다. 다시 시도해 주세요.",
+    "canvasFeedback.createdLocal": "캔버스를 로컬에 만들었지만 클라우드 동기화에 실패했습니다.",
+    "canvasFeedback.createdLocalDetail": "캔버스를 로컬에 만들었지만 클라우드 동기화에 실패했습니다: {detail}",
+    "canvasFeedback.deleteFailed": "캔버스를 삭제하지 못했습니다. 다시 시도해 주세요.",
+    "canvasFeedback.deleteFailedDetail": "캔버스를 삭제하지 못했습니다: {detail}",
+    "canvasFeedback.cleanupFailed": "프로젝트는 삭제되었지만 일부 로컬 드로잉 파일을 삭제하지 못했습니다.",
+    "canvasFeedback.saveFailed": "캔버스를 저장하지 못했습니다. 다시 시도해 주세요.",
+    "canvasFeedback.saved": "캔버스 배치를 저장했습니다",
+    "canvasFeedback.saveSyncFailed": "캔버스 배치를 로컬에 저장했지만 클라우드 동기화에 실패했습니다: {detail}",
+    "canvasFeedback.unknownError": "알 수 없는 오류",
+} as const;
+
+export default messages;

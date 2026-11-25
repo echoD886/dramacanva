@@ -1,0 +1,66 @@
+{
+    "title": "Storyboard de drama corto: planifica y genera imágenes",
+    "metaDescription": "Para principiantes en dramas cortos con IA: escribe tu idea y el lienzo ordena el guion, crea un storyboard con ángulos de cámara y genera varios clips.",
+    "oneLiner": "Escribe una sinopsis y genera en el lienzo un storyboard y clips de vídeo; ideal para principiantes en dramas cortos.",
+    "intro": [
+        "Es una herramienta de creación con IA que ayuda a los principiantes en dramas cortos a planificar sus planos. Como un asistente de dirección personal, convierte tus ideas sueltas en una trama y un plan de rodaje claros, paso a paso.",
+        "Solo necesitas una idea o un diálogo de unos cientos de palabras. Envíalo al asistente de IA en el panel derecho del lienzo y te ayudará a definir el estilo visual, el suspense y la línea emocional que buscas.",
+        "Cuando termines, recibirás en el lienzo un storyboard (que divide el vídeo en planos e indica qué se filma en cada uno), una lista de personajes y podrás generar clips de vídeo de 4 a 15 segundos."
+    ],
+    "example": {
+        "input": "Quiero hacer un corto de suspense de 1 minuto: un empleado de una tienda de conveniencia trabaja de noche y, de repente, ve una sombra que se acerca despacio al otro lado del cristal.",
+        "output": "En el lienzo aparecerán un esquema de la historia, tarjetas con los rasgos del protagonista y tarjetas de storyboard con los ángulos de cámara indicados; también podrás generar imágenes de referencia y varias tarjetas de clips de vídeo de 4 a 15 segundos."
+    },
+    "scenarios": [
+        "Solo tienes una idea de unos cientos de palabras y no sabes cómo ampliarla hasta convertirla en un guion que pueda llevarse a imagen.",
+        "Ya tienes escritos los diálogos de los personajes, pero no sabes qué planos generales, primeros planos o movimientos de cámara usar para lograr un aire cinematográfico.",
+        "Estás preparando un vídeo de drama corto con IA, pero no sabes cómo dividir la historia en descripciones visuales concretas plano a plano.",
+        "Quieres hacer un corto de suspense o con giros, pero no sabes cómo plantearlo para enganchar al público desde el principio."
+    ],
+    "problems": [
+        {
+            "pain": "Quieres crear vídeos con IA, pero no sabes cómo describir las imágenes y el resultado sale rígido y monótono.",
+            "solve": "Te ayuda a planificar en el storyboard la distancia del plano, la luz y la acción, y a escribir descripciones visuales detalladas para que las uses al generar."
+        },
+        {
+            "pain": "No sabes cómo pasar de un plano a otro, el arranque de la historia es plano y no logra atraer al público desde el principio.",
+            "solve": "Plantea el inicio con técnicas para crear suspense y organiza los conflictos y los giros según el ritmo para despertar la curiosidad del público."
+        },
+        {
+            "pain": "En los vídeos generados de forma consecutiva, la ropa y el aspecto de los personajes a menudo no coinciden de un plano a otro.",
+            "solve": "Extrae de antemano una lista con el peinado, la ropa y los escenarios de los personajes para que las descripciones de los planos siguientes mantengan rasgos coherentes en la medida de lo posible."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y envía tu idea de historia en el cuadro de diálogo del lado derecho del lienzo.",
+        "Confirma el rumbo de la historia y el estilo visual, y deja que la IA organice en el lienzo el guion y la lista de personajes.",
+        "Genera la tarjeta de storyboard y revisa en cada plano la distancia y posición de cámara, la acción que se filma y la descripción visual.",
+        "Indica al asistente que genere los clips de vídeo y ordénalos en la línea de tiempo de vídeo del lienzo antes de exportarlos."
+    ],
+    "faq": [
+        {
+            "q": "¿Puedo crear el storyboard de un drama corto si solo tengo una idea aproximada de la historia?",
+            "a": "Sí, basta con que envíes la sinopsis de la historia en el cuadro de diálogo. Primero te ayudará a ordenar la trama y los personajes, y después la dividirá en un storyboard plano a plano. Puedes modificar el texto en el lienzo en cualquier momento y generar las imágenes cuando estés conforme."
+        },
+        {
+            "q": "¿Cómo puedo evitar que el aspecto y la ropa de los personajes cambien entre planos?",
+            "a": "No se puede garantizar que no cambien en absoluto, pero el sistema extrae de antemano una lista de rasgos de los personajes para mantener la coherencia entre planos en la medida de lo posible. Al generar las descripciones visuales de cada plano, se intentará usar ese conjunto de rasgos unificado. Si las imágenes de referencia generadas no te convencen, también puedes sustituirlas manualmente en el lienzo cuando quieras."
+        },
+        {
+            "q": "¿Esta herramienta puede montar directamente un drama corto terminado?",
+            "a": "No genera directamente la pieza final completa: crea varios clips de vídeo de 4 a 15 segundos. Puedes ordenarlos, ajustar el ritmo y exportarlos tú mismo en la línea de tiempo de vídeo del lienzo."
+        },
+        {
+            "q": "¿Cuánto dura cada clip de vídeo generado y puedo elegir la relación de aspecto?",
+            "a": "Los clips de vídeo generados suelen durar entre 4 y 15 segundos, y puedes indicar la relación de aspecto durante la conversación. El storyboard propondrá una duración y una descripción visual según el ritmo de la trama. Si algún fragmento generado no queda bien, puedes volver a generar esa tarjeta por separado."
+        }
+    ],
+    "keywords": [
+        "cómo hacer un storyboard para un drama corto",
+        "convertir una historia en storyboard de drama corto",
+        "crear dramas cortos con IA",
+        "convertir una novela en storyboard de vídeo",
+        "storyboard con IA",
+        "cómo hacer un guion gráfico"
+    ]
+}

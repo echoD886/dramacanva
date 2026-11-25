@@ -1,0 +1,647 @@
+/*
+ * Pretendard Variable (OFL-1.1) was a 2 MB download on every detail page, almost
+ * all of it Hangul. Bundled subsets split it the way Google Fonts does, so a
+ * page only downloads the ranges it renders (made with fontTools):
+ *   pyftsubset Pretendard-variable.woff2 --flavor=woff2 --layout-features='*' --name-IDs='*' --name-languages='*' --unicodes=<unicode-range below>
+ * Latin ~57 KB; Latin Extended/Vietnamese/Cyrillic ~117 KB; the full file is
+ * only fetched for Hangul. Chinese and Japanese keep using system fonts.
+ */
+@font-face {
+    font-family: "Liblib Pretendard";
+    src: url("../../pages/showcase/fonts/pretendard-latin.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: "Liblib Pretendard";
+    src: url("../../pages/showcase/fonts/pretendard-latin-ext-cyrillic.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+    unicode-range:
+        U+0100-0130, U+0132-0151, U+0154-024F, U+0259, U+02B0-02BA, U+02BD-02C5, U+02C7-02D9, U+02DB, U+02DD-02FF, U+0300-0303, U+0305-0307, U+0309-0328, U+032A-036F, U+0400-04FF, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2100-2121, U+2123-218F, U+2190,
+        U+2192, U+2194-21FF;
+}
+
+@font-face {
+    font-family: "Liblib Pretendard";
+    src: url("/liblib-clone/fonts/Pretendard-variable-7dbc83002772.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+    unicode-range: U+1100-11FF, U+3130-318F, U+A960-A97F, U+AC00-D7A3, U+D7B0-D7FF;
+}
+
+.ll-detail-stage {
+    --ll-font: "Liblib Pretendard", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-family: var(--ll-font);
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    overflow: hidden;
+    min-width: 0;
+    min-height: 0;
+    background: #000;
+    color: #fff;
+    isolation: isolate;
+}
+
+.ll-detail-backdrop {
+    position: absolute;
+    inset: -4%;
+    z-index: -4;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.18;
+    filter: blur(44px) saturate(0.82);
+    transform: scale(1.08);
+}
+
+.ll-detail-cover,
+.ll-detail-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.ll-detail-video {
+    z-index: -3;
+    object-fit: contain;
+    object-position: 50% 50%;
+    background: #000;
+}
+
+.ll-detail-cover {
+    z-index: -2;
+    object-fit: cover;
+    object-position: 50% 50%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.ll-detail-stage.is-watching .ll-detail-cover {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.ll-detail-vignette {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 24%, rgba(0, 0, 0, 0) 57%, rgba(0, 0, 0, 0.63) 100%), linear-gradient(90deg, rgba(0, 0, 0, 0.2), transparent 20%, transparent 80%, rgba(0, 0, 0, 0.2));
+}
+
+.ll-detail-back,
+.ll-detail-process,
+.ll-detail-action-round,
+.ll-detail-rail-arrow,
+.ll-player-controls button,
+.ll-detail-rail-item {
+    border: 0;
+    color: inherit;
+    cursor: pointer;
+}
+
+.ll-detail-back {
+    position: absolute;
+    top: 29px;
+    left: 32px;
+    z-index: 8;
+    display: inline-flex;
+    width: 76px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    border-radius: 8px;
+    background: rgba(50, 50, 50, 0.58);
+    color: rgba(255, 255, 255, 0.94);
+    font-size: 16px;
+    line-height: 24px;
+    backdrop-filter: blur(12px);
+    transition:
+        background 160ms ease,
+        transform 160ms ease;
+}
+
+.ll-detail-back:hover {
+    background: rgba(75, 75, 75, 0.72);
+}
+
+.ll-detail-back:active {
+    transform: scale(0.98);
+}
+
+.ll-detail-back svg {
+    width: 17px;
+    height: 17px;
+    stroke-width: 1.8;
+}
+
+.ll-detail-author {
+    position: absolute;
+    top: 28px;
+    left: 132px;
+    z-index: 6;
+    display: flex;
+    height: 34px;
+    max-width: calc(100vw - 720px);
+    align-items: center;
+    gap: 9px;
+    min-width: 0;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
+}
+
+.ll-detail-author img,
+.ll-detail-avatar-fallback {
+    width: 30px;
+    height: 30px;
+    flex: 0 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    border-radius: 50%;
+    object-fit: cover;
+    background: #2b2b2b;
+}
+
+.ll-detail-avatar-fallback {
+    display: grid;
+    place-items: center;
+    font-size: 13px;
+}
+
+.ll-detail-author strong,
+.ll-detail-author h1 {
+    overflow: hidden;
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ll-detail-author h1 {
+    font-weight: 400;
+}
+
+.ll-detail-author i {
+    width: 1px;
+    height: 18px;
+    flex: 0 0 auto;
+    margin: 0 7px;
+    background: rgba(255, 255, 255, 0.38);
+}
+
+.ll-detail-verified {
+    display: grid;
+    width: 16px;
+    height: 16px;
+    flex: 0 0 auto;
+    place-items: center;
+    border-radius: 5px;
+    background: #e8eef6;
+    color: #69798d;
+    font-size: 9px;
+}
+
+.ll-detail-verified svg {
+    width: 12px;
+    height: 12px;
+}
+
+.ll-detail-meta {
+    position: absolute;
+    top: 28px;
+    right: 32px;
+    z-index: 6;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 4px;
+    text-align: right;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.62);
+}
+
+.ll-detail-meta strong {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.ll-detail-meta span {
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.ll-detail-meta .ll-detail-source {
+    max-width: min(520px, calc(100vw - 180px));
+    white-space: normal;
+}
+
+.ll-detail-original-description {
+    max-width: min(520px, calc(100vw - 180px));
+    max-height: min(30vh, 280px);
+    overflow: auto;
+    margin: 4px 0 0;
+    padding: 10px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    background: rgba(12, 12, 12, 0.62);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 13px;
+    line-height: 1.55;
+    text-align: left;
+    text-shadow: none;
+    white-space: pre-wrap;
+}
+
+.ll-detail-actions {
+    position: absolute;
+    right: 0;
+    bottom: 155px;
+    left: 0;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ll-detail-action-round,
+.ll-detail-process {
+    display: inline-flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(52, 52, 52, 0.6);
+    backdrop-filter: blur(18px);
+    transition:
+        background 160ms ease,
+        transform 160ms ease;
+}
+
+.ll-detail-action-round:hover,
+.ll-detail-process:hover {
+    background: rgba(78, 78, 78, 0.78);
+}
+
+.ll-detail-action-round:active,
+.ll-detail-process:active {
+    transform: scale(0.97);
+}
+
+.ll-detail-action-round {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.ll-detail-action-round.is-primary {
+    background: #fff;
+    color: #111;
+}
+
+.ll-detail-action-round svg {
+    width: 19px;
+    height: 19px;
+    stroke-width: 1.7;
+}
+
+.ll-detail-process {
+    min-width: 138px;
+    gap: 7px;
+    padding: 0 17px;
+    border-radius: 999px;
+    font-size: 14px;
+}
+
+.ll-detail-process svg {
+    width: 17px;
+    height: 17px;
+    stroke-width: 1.7;
+}
+
+.ll-detail-process-floating {
+    position: absolute;
+    top: 28px;
+    right: 32px;
+    z-index: 8;
+    min-width: 132px;
+}
+
+.ll-detail-rail-shell {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    height: 143px;
+    padding-top: 16px;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.42) 24%, rgba(0, 0, 0, 0.78));
+}
+
+.ll-detail-rail {
+    display: flex;
+    height: 127px;
+    align-items: flex-start;
+    gap: 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 2px max(32px, calc((100vw - 1776px) / 2));
+    cursor: grab;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: none;
+    touch-action: pan-y;
+    user-select: none;
+}
+
+.ll-detail-rail::-webkit-scrollbar {
+    display: none;
+}
+
+.ll-detail-rail:active {
+    cursor: grabbing;
+}
+
+.ll-detail-rail-item {
+    position: relative;
+    width: 220px;
+    height: 123px;
+    flex: 0 0 220px;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 9px;
+    background: #181818;
+    box-shadow: inset 0 0 0 0.5px rgba(255, 255, 255, 0.18);
+    text-align: left;
+}
+
+.ll-detail-rail-item.is-active {
+    box-shadow:
+        0 0 0 0.5px #fff,
+        0 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.ll-detail-rail-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.ll-detail-rail-item > span {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 12px;
+    text-align: center;
+}
+
+.ll-detail-rail-item em {
+    position: absolute;
+    right: 8px;
+    bottom: 7px;
+    left: 8px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: 11px;
+    font-style: normal;
+    line-height: 16px;
+    text-overflow: ellipsis;
+    text-shadow: 0 1px 5px #000;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 160ms ease;
+}
+
+.ll-detail-rail-item:hover em,
+.ll-detail-rail-item:focus-visible em {
+    opacity: 1;
+}
+
+.ll-detail-rail-arrow {
+    position: absolute;
+    top: 58px;
+    z-index: 4;
+    display: grid;
+    width: 40px;
+    height: 40px;
+    place-items: center;
+    border-radius: 50%;
+    background: rgba(16, 16, 16, 0.54);
+    backdrop-filter: blur(12px);
+}
+
+.ll-detail-rail-arrow.is-left {
+    left: 20px;
+}
+
+.ll-detail-rail-arrow.is-right {
+    right: 20px;
+}
+
+.ll-detail-rail-arrow svg {
+    width: 22px;
+    height: 22px;
+}
+
+.ll-detail-toast {
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    z-index: 20;
+    min-width: 116px;
+    padding: 10px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 9px;
+    background: rgba(38, 38, 38, 0.9);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.34);
+    font-size: 14px;
+    text-align: center;
+    transform: translateX(-50%);
+    backdrop-filter: blur(18px);
+    animation: ll-toast-in 170ms ease-out;
+}
+
+.ll-player-controls {
+    position: absolute;
+    right: max(34px, calc((100vw - 1480px) / 2));
+    bottom: 28px;
+    left: max(34px, calc((100vw - 1480px) / 2));
+    z-index: 8;
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 12px;
+    padding: 0 14px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background: rgba(20, 20, 20, 0.62);
+    backdrop-filter: blur(18px);
+}
+
+.ll-player-controls button {
+    display: grid;
+    width: 30px;
+    height: 30px;
+    flex: 0 0 auto;
+    place-items: center;
+    border-radius: 7px;
+    background: transparent;
+}
+
+.ll-player-controls button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.ll-player-controls button svg {
+    width: 18px;
+    height: 18px;
+}
+
+.ll-player-controls input[type="range"] {
+    min-width: 80px;
+    flex: 1 1 auto;
+    accent-color: #fff;
+}
+
+.ll-player-controls .ll-player-text {
+    width: 42px;
+    font-size: 13px;
+}
+
+.ll-player-quality {
+    flex: 0 0 auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+}
+
+.ll-detail-media-loading {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: rgba(255, 255, 255, 0.54);
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+    .ll-detail-author {
+        max-width: calc(100vw - 300px);
+    }
+
+    .ll-detail-meta {
+        top: 110px;
+        right: 16px;
+        left: 16px;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .ll-detail-meta .ll-detail-source,
+    .ll-detail-original-description {
+        max-width: 100%;
+    }
+
+    .ll-detail-rail-item {
+        width: 180px;
+        height: 101px;
+        flex-basis: 180px;
+    }
+
+    .ll-detail-rail-shell {
+        height: 123px;
+    }
+
+    .ll-detail-rail {
+        height: 111px;
+    }
+
+    .ll-detail-actions {
+        bottom: 132px;
+    }
+
+    .ll-detail-rail-arrow {
+        top: 47px;
+    }
+}
+
+@media (max-width: 640px) {
+    .ll-detail-back {
+        top: 16px;
+        left: 16px;
+    }
+
+    .ll-detail-author {
+        top: 62px;
+        left: 16px;
+        max-width: calc(100vw - 32px);
+    }
+
+    .ll-detail-author h1 {
+        max-width: 40vw;
+    }
+
+    .ll-detail-actions {
+        bottom: 126px;
+        gap: 7px;
+    }
+
+    .ll-detail-process {
+        min-width: 0;
+        padding: 0 13px;
+    }
+
+    .ll-detail-process-floating {
+        top: 16px;
+        right: 16px;
+        min-width: 124px;
+    }
+
+    .ll-detail-rail {
+        gap: 8px;
+        padding-inline: 16px;
+    }
+
+    .ll-detail-rail-item {
+        width: 164px;
+        height: 92px;
+        flex-basis: 164px;
+        border-radius: 8px;
+    }
+
+    .ll-detail-rail-arrow {
+        display: none;
+    }
+
+    .ll-player-controls {
+        right: 12px;
+        bottom: 14px;
+        left: 12px;
+        gap: 6px;
+    }
+
+    .ll-player-quality {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ll-detail-back,
+    .ll-detail-process,
+    .ll-detail-action-round,
+    .ll-detail-rail-item em {
+        transition: none;
+    }
+
+    .ll-detail-toast {
+        animation: none;
+    }
+}

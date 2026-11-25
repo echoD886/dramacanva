@@ -1,0 +1,66 @@
+{
+    "title": "Microexpresiones naturales: miradas vivas en planos de IA",
+    "metaDescription": "Para creadores de vídeo con IA: describe la emoción y la situación y obtén tabla de microexpresiones, lista de acciones y descriptores de primeros planos.",
+    "oneLiner": "Introduce la emoción y la situación del personaje y genera en el lienzo una tabla de microexpresiones y descriptores para primeros planos.",
+    "intro": [
+        "Esta es una herramienta diseñada para ayudar a ajustar las expresiones de personajes de IA. Descompone emociones rígidas como la alegría, el enfado o la tristeza en parpadeos, labios mordidos y movimientos de mirada detallados, para que la expresión del personaje en los primeros planos resulte más viva y natural.",
+        "Solo tienes que describir en el cuadro de diálogo de la derecha, con lenguaje sencillo, el estado de ánimo del personaje y lo que está ocurriendo; si ya tienes una foto del personaje con un aspecto definido, también puedes subirla directamente como referencia de aspecto.",
+        "Cuando termines, la IA generará en el lienzo una tabla de acciones de microexpresiones, una lista de coordinación de cabeza y cuerpo y descriptores de primeros planos ya redactados (descripciones de texto para que la IA genere imágenes); puedes consultarlos o copiarlos directamente."
+    ],
+    "example": {
+        "input": "La protagonista, tras descubrir que la han engañado, contiene las lágrimas; su mirada pasa de la conmoción a la decepción y las comisuras de sus labios tiemblan ligeramente. Se ha subido una imagen de referencia frontal de la protagonista.",
+        "output": "Generará en el lienzo una tabla de desglose de acciones (con indicaciones de tensión entre las cejas y mirada baja), una lista de coordinación corporal y un descriptor de primer plano facial con detalles de ojos llorosos y tensión."
+    },
+    "scenarios": [
+        "Al escribir escenas tristes o de enfado, las expresiones del personaje de IA resultan demasiado exageradas o deformadas, o totalmente inexpresivas.",
+        "En los primeros planos, la mirada del personaje de IA parece perdida y no se distingue hacia dónde mira.",
+        "Al cambiar de plano, los rasgos del personaje suelen variar, o su piel parece la de un maniquí de plástico y carece de textura real.",
+        "La emoción del personaje pasa de la calma a una explosión repentina sin una transición natural ni coordinación corporal."
+    ],
+    "problems": [
+        {
+            "pain": "Solo se escriben palabras de emoción y las expresiones que genera la IA resultan demasiado exageradas o no muestran ninguna reacción.",
+            "solve": "Te ayuda a descomponer la emoción en el lienzo en movimientos concretos de cejas, mirada y comisuras de los labios, y a generar descriptores detallados."
+        },
+        {
+            "pain": "En los primeros planos, la mirada del personaje parece perdida y no se intuye qué está pensando.",
+            "solve": "Asigna al personaje un objetivo de mirada y un giro de cabeza concretos para que la mirada tenga un punto de fijación y exprese el proceso de pensamiento."
+        },
+        {
+            "pain": "La piel del personaje es demasiado lisa, como la de un maniquí de plástico, y la forma del rostro se deforma al cambiar de plano.",
+            "solve": "Añade detalles fisiológicos realistas como brillo de lágrimas o tensión de los maseteros, y fija los rasgos faciales con una imagen de referencia para reducir las variaciones."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad».",
+        "Introduce la situación del personaje y los cambios de emoción; también puedes subir una imagen de referencia de su rostro.",
+        "Consulta la tabla de desglose de microexpresiones, la lista de movimientos corporales y los descriptores de primeros planos generados en el lienzo.",
+        "Copia o descarga los textos y tablas generados en la tarjeta."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo hacer que las expresiones de un personaje de IA parezcan más naturales?",
+            "a": "Descompón la emoción general en movimientos concretos de cejas, mirada y comisuras de los labios; no te limites a introducir «enfadado» o «triste». En {brand}, puedes generar primero una tabla de parámetros de microexpresiones para definir la expresión y luego crear una imagen inicial en primer plano para confirmar la mirada. Así se reducen las deformaciones faciales y las transiciones resultan más naturales."
+        },
+        {
+            "q": "¿Qué hago si la mirada de los personajes generados por IA siempre parece perdida?",
+            "a": "Indica con claridad el objetivo o la dirección de la mirada del personaje para que tenga un punto de fijación definido. Por ejemplo, especifica «mirada hacia la mesa, abajo a la derecha» o «mirando a los ojos de la otra persona» y el personaje transmitirá que está pensando. Puedes generar primero en el lienzo una imagen inicial en primer plano para confirmar el punto de fijación de la mirada y seguir creando después."
+        },
+        {
+            "q": "¿Por qué el rostro de los personajes en los vídeos hechos con IA parece el de un maniquí de plástico?",
+            "a": "Se debe a que la imagen carece de textura de piel y detalles fisiológicos reales. Puedes añadir a los descriptores cambios precisos como ojos llorosos, maseteros tensos o finas líneas en los labios para que la luz y la sombra se ajusten a una piel real. La textura final dependerá de la capacidad del modelo que elijas; los modelos realistas suelen ofrecer mejores resultados."
+        },
+        {
+            "q": "¿Qué hago si el aspecto del personaje de IA cambia al pasar a otros planos?",
+            "a": "Puedes subir antes de generar una foto que fije el personaje como referencia de aspecto y conservar los rasgos faciales clave en cada descripción. Al ajustar el plano, modifica solo ligeramente la expresión y la mirada; evita cambiar mucho el peinado y la estructura ósea del rostro. Puedes conservar en el lienzo la tarjeta de imagen del personaje que mejor resultado te haya dado para consultarla y compararla cuando quieras."
+        }
+    ],
+    "keywords": [
+        "expresiones faciales IA",
+        "mirada perdida personaje IA",
+        "quitar aspecto plástico vídeo IA",
+        "prompts microexpresiones IA",
+        "expresiones actor IA series cortas",
+        "primer plano rostro IA"
+    ]
+}

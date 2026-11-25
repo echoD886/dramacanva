@@ -1,0 +1,67 @@
+{
+    "title": "Escribe sitcoms y sketches: conflicto y chistes por escena",
+    "metaDescription": "Sketches cómicos o sitcoms familiares: introduce personajes y conflictos cotidianos; organiza en el lienzo contrastes, gancho inicial y esquema con chistes.",
+    "oneLiner": "Introduce personajes y conflictos cotidianos; genera en el lienzo un esquema de sitcom con chistes.",
+    "intro": [
+        "Esta es una herramienta que te ayuda a diseñar historias de sketches cómicos. No recurre a chistes de internet metidos con calzador; usa la fricción entre las personalidades y los pequeños malentendidos cotidianos para provocar risas.",
+        "Solo tienes que preparar la identidad de varios personajes (por ejemplo, un padre fanfarrón y un hijo sensato) y una pequeña anécdota cotidiana que les haya pasado recientemente; envíalo directamente a la IA en la parte derecha del lienzo.",
+        "La IA generará en el lienzo tarjetas de guion completas, con el gancho inicial, los conflictos de cada etapa y la distribución de los chistes, para que puedas revisarlas, modificar los diálogos o copiarlas y usarlas directamente."
+    ],
+    "example": {
+        "input": "Quiero grabar un sketch familiar de dos minutos: un padre agarrado intenta comprar a escondidas una caña de pescar, su hijo de primaria lo pilla y ambos empiezan a encubrirse.",
+        "output": "En el lienzo se genera una tarjeta de guion en tres actos: incluye una frase inicial que engancha, la distribución de chistes cuando el padre busca excusas y queda en ridículo, y un cierre tierno en el que toda la familia se reconcilia; se puede copiar y modificar directamente."
+    },
+    "scenarios": [
+        "Quieres escribir un sketch cómico familiar o de oficina, pero notas que los gags están demasiado encajados a la fuerza y que la historia no tiene continuidad.",
+        "Has definido dos personajes, pero en cuanto abren la boca el diálogo es soso y no sabes cómo marcar bien el contraste.",
+        "Te preocupa que el conflicto del vídeo cómico sea tan intenso que parezca una discusión; quieres escribir una historia divertida que además termine con ternura.",
+        "Haces una serie de vídeos cortos y quieres que los personajes tengan muletillas fijas y rasgos de personalidad memorables."
+    ],
+    "problems": [
+        {
+            "pain": "En los sketches cómicos todo depende de buscar memes gastados en internet y la trama queda dispersa y mal montada.",
+            "solve": "Te ayuda a ordenar la estructura completa de la historia (planteamiento, nudo y desenlace) y a colocar los chistes en las diferencias de carácter y los roces cotidianos, sin forzar gags."
+        },
+        {
+            "pain": "Los personajes son demasiado corrientes, el público no los recuerda y la conversación se queda sin ideas al poco de empezar.",
+            "solve": "Trabaja los contrastes de personalidad y el patrón de interacción de la pareja cómica, y diseña muletillas propias para que los diálogos se pasen la pelota con naturalidad."
+        },
+        {
+            "pain": "El conflicto del guion está escrito de forma tan agresiva que parece una pelea para desahogarse, y al público le repele.",
+            "solve": "Usa pequeños malentendidos cotidianos y amables como eje del conflicto, conserva la comicidad de la fricción y recupera al final la complicidad y el afecto entre los personajes."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el lienzo de {brand}.",
+        "Describe los personajes y el pequeño conflicto cotidiano, y envíalo al asistente de IA.",
+        "Revisa las tarjetas generadas en el lienzo y comprueba el diálogo inicial y la distribución de los chistes.",
+        "Pide al asistente que cambie detalles de los diálogos o que vuelva a generar lo que no te convenza.",
+        "Copia o descarga el texto del guion de las tarjetas para usarlo en los ensayos y el rodaje posteriores."
+    ],
+    "faq": [
+        {
+            "q": "¿Puedo escribir un sketch cómico con esto si nunca he escrito un guion?",
+            "a": "Sí, no necesitas conocer el formato profesional de guion. Basta con indicar quiénes son los personajes y cómo suelen discutir; la IA ordenará en el lienzo un esquema con planteamiento, conflicto y desenlace. Siguiendo las ideas de chistes y diálogos que aparecen, podrás escribir una historia breve completa."
+        },
+        {
+            "q": "¿Cómo consigo que el diálogo entre dos personajes resulte más divertido y tenga contraste?",
+            "a": "La clave es crear un desajuste entre su carácter o su posición: por ejemplo, uno fanfarronea pero siempre mete la pata y el otro parece obediente pero suele desvelar la verdad. Esta herramienta te ayuda a diseñar el patrón de interacción y las muletillas propias de ambos para que se pasen los gags con fluidez."
+        },
+        {
+            "q": "¿El guion generado se puede convertir directamente en vídeo?",
+            "a": "No genera un vídeo final; esta herramienta produce tarjetas de esquema de guion en texto. Cuando los diálogos te convenzan, puedes copiarlos del lienzo para ensayar con actores reales o usarlos como indicaciones visuales en otras herramientas de generación de vídeo."
+        },
+        {
+            "q": "Si el conflicto es grande, parece una pelea; ¿cómo escribirlo para que sea tierno y divertido?",
+            "a": "Céntrate en pequeños asuntos cotidianos, no en una verdadera rivalidad de intereses. La herramienta diseñará un giro emotivo al final del guion para que los personajes, aunque no cedan de palabra, terminen comprendiéndose y la comedia cierre con calidez y risas."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un guion de sitcom",
+        "guion de sketch cómico",
+        "cómo escribir diálogos cómicos para vídeos",
+        "contraste de personalidad en personajes de sketch",
+        "diálogos para sketch cómico de dos personajes",
+        "cómo diseñar chistes para un sketch"
+    ]
+}

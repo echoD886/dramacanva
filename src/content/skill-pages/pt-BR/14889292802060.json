@@ -1,0 +1,66 @@
+{
+    "title": "Gere vídeo real de 10s e storyboard com prints do app",
+    "metaDescription": "Para devs e gestores que querem divulgar com vídeos curtos. Envie prints da interface e confirme os diferenciais para gerar vídeo real de 10s e storyboard.",
+    "oneLiner": "Envie uma captura do software e gere um vídeo de 10s com uma pessoa real recomendando em estilo cotidiano, além do storyboard",
+    "intro": [
+        "É uma ferramenta que transforma capturas de tela do seu software em vídeos curtos de divulgação. Ela simula uma pessoa comum em casa segurando o celular e recomendando de verdade, criando um vídeo vertical de 10 segundos.",
+        "Você só precisa preparar uma captura da interface do software e informar o nome, o público ideal e as principais funções. Não precisa escrever falas de gravação nem aparecer em cena.",
+        "Ao terminar, você recebe no canvas uma tabela de storyboard (dividindo o vídeo em cenas e explicando o que filmar em cada uma), o texto de descrição visual e um clipe de 10 segundos para baixar."
+    ],
+    "example": {
+        "input": "Envie uma captura da tela inicial do app de controle de gastos e digite: “Gerenciador de finanças, ideal para quem trabalha em escritório; os diferenciais são registrar em um segundo e gerar relatórios mensais de receitas e despesas automaticamente”.",
+        "output": "No canvas, você recebe um card de storyboard de 10s em três partes, um card de texto com a descrição visual e um card de vídeo de 10s com uma pessoa real segurando o celular e mostrando a interface."
+    },
+    "scenarios": [
+        "Seu novo aplicativo para celular acabou de ser lançado e você quer fazer um vídeo de recomendação com uma pessoa real para divulgar nas redes sociais.",
+        "Você só tem algumas imagens estáticas da interface e não sabe como escrever falas atraentes para um vídeo curto.",
+        "Você quer um vídeo com a tela do celular aparecendo, mas, quando gera com IA por conta própria, a interface costuma ficar distorcida e se mexer."
+    ],
+    "problems": [
+        {
+            "pain": "Você só tem capturas da interface e não sabe como escrever falas naturais de recomendação para um vídeo curto.",
+            "solve": "Gera um roteiro de storyboard de 10s a partir da captura e das funções, organizando abertura, demonstração e fala de recomendação em um tom de conversa cotidiana."
+        },
+        {
+            "pain": "Ao fazer vídeos com celular usando IA, a interface do software na imagem costuma rolar sem parar ou ficar distorcida.",
+            "solve": "Na descrição visual, pede que a tela fique estática e que os dedos apenas toquem sem deslizar, para manter ao máximo a captura original nítida e no lugar."
+        },
+        {
+            "pain": "Anúncios promocionais comuns soam artificiais e as pessoas passam direto; gravar aparecendo em cena exige tempo e equipamento que você não tem.",
+            "solve": "Define uma cena de vida em casa, com uma pessoa real falando para a câmera, para criar proximidade sem você precisar aparecer."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade”, envie a captura do software na caixa de diálogo à direita e escreva os diferenciais.",
+        "Confira o card de storyboard de 10s gerado no canvas e altere as falas ou as instruções de ação conforme necessário.",
+        "Peça ao assistente para confirmar o storyboard e gere o card com a descrição visual do vídeo no canvas.",
+        "Peça ao assistente para gerar o vídeo, reproduza a prévia diretamente no card do canvas e gere novamente se não gostar.",
+        "Arraste os clipes de vídeo gerados para a linha do tempo de vídeo no canvas, organize a ordem e exporte o vídeo."
+    ],
+    "faq": [
+        {
+            "q": "Com apenas uma captura do app, dá mesmo para fazer um vídeo de recomendação com uma pessoa real?",
+            "a": "Dá. Basta enviar a captura e preencher os diferenciais; a {brand} planeja o conteúdo de 10s e gera o card de vídeo, inserindo automaticamente sua captura na tela do celular."
+        },
+        {
+            "q": "Ao gerar o vídeo, a interface do software na tela vai se mexer ou deformar?",
+            "a": "Não vai se mexer; o sistema tenta manter a captura fixa e nítida. A descrição visual limita a mão a toques leves, sem deslizar, o que ajuda a reduzir bastante deformações ou rolagens acidentais da interface."
+        },
+        {
+            "q": "Se a pessoa ou a cena gerada não me agradar, posso alterar?",
+            "a": "Pode alterar a qualquer momento. Por padrão, é uma mulher jovem em uma cena de vida em casa; você pode editar manualmente a aparência da pessoa ou a descrição da cena no card de texto do canvas e gerar o vídeo de novo."
+        },
+        {
+            "q": "Esta ferramenta consegue fazer vídeos longos de vários minutos ou comparar vários softwares?",
+            "a": "Não; ela só faz divulgação de 10s para um único software. Usa um ritmo fixo de 10s em três partes (atração no início, demonstração no meio e chamada para ação no fim) e não oferece suporte a vídeos longos ou comparações entre vários produtos."
+        }
+    ],
+    "keywords": [
+        "transformar captura de tela em vídeo",
+        "criação de vídeo de divulgação de app",
+        "vídeo de recomendação com IA",
+        "vídeo para divulgar aplicativo",
+        "roteiro de vídeo curto de 10 segundos",
+        "storyboard com IA para vídeo"
+    ]
+}

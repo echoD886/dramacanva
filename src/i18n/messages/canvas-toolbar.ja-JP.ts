@@ -1,0 +1,23 @@
+const messages = {
+    "canvasToolbar.move": "ハンドツール",
+    "canvasToolbar.select": "範囲選択",
+    "canvasToolbar.add": "ノードを追加",
+    "canvasToolbar.assets": "素材ライブラリ",
+    "canvasToolbar.appearance": "キャンバスの外観",
+    "canvasToolbar.settings": "ツールバー設定",
+    "canvasToolbar.deleteCount": "{count} 個のノードを削除",
+    "canvasToolbar.delete": "選択したノードを削除",
+    "canvasToolbar.clear": "キャンバスを空にする",
+    "canvasToolbar.appearanceHelp": "制作スペース全体を調整",
+    "canvasToolbar.imageInfo": "画像情報",
+    "canvasToolbar.settingsHelp": "ドラッグして並べ替え、使わないツールを非表示にできます",
+    "canvasToolbar.closeSettings": "ツールバー設定を閉じる",
+    "canvasToolbar.visible": "{total} 個中 {visible} 個を表示",
+    "canvasToolbar.resetAria": "ツールバー設定を初期状態に戻す",
+    "canvasToolbar.reset": "初期設定に戻す",
+    "canvasToolbar.order": "メインツールバーの順序",
+    "canvasToolbar.drag": "ドラッグして「{label}」を並べ替え",
+    "canvasToolbar.hide": "{label}を非表示",
+    "canvasToolbar.show": "{label}を表示",
+} as const;
+export default messages;

@@ -1,0 +1,8 @@
+:root {
+    --motion-hover: 120ms;
+    --motion-overlay: 200ms;
+    --motion-dialog: 280ms;
+    --motion-exit-ratio: 0.7;
+    --motion-number: 600ms;
+    --motion-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+}

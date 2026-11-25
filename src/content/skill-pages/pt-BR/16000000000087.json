@@ -1,0 +1,66 @@
+{
+    "title": "Áudio e imagem no vídeo: ritmo e sugestões de som",
+    "metaDescription": "Para quem não sabe fazer locução, efeitos ou cortes. Descreva a imagem e receba no canvas sugestões de texto para organizar sons e ritmo de corte.",
+    "oneLiner": "Para iniciantes em vídeo: descreva a cena e gere no canvas sugestões de som e edição.",
+    "intro": [
+        "Esta é uma habilidade auxiliar que ajuda criadores a organizar a relação entre som e imagem. Quando você não sabe que som combina com a cena ou acha os cortes muito bruscos, ela ajuda a identificar os motivos.",
+        "Basta enviar à IA a descrição do storyboard (divida o vídeo em planos e escreva o que cada plano mostra) ou explicar diretamente sua dúvida sobre o som do plano atual.",
+        "A IA gera cartões de texto no canvas, lista os sons para você, indica a ordem de fala, som ambiente e efeitos sonoros e sugere em que ponto de virada emocional cortar."
+    ],
+    "example": {
+        "input": "A protagonista caminha sozinha por um corredor vazio de madrugada e quer transmitir tensão e medo, mas não sabe que som usar, e os cortes também ficam bruscos.",
+        "output": "Gera cartões de texto no canvas, sugere usar primeiro passos sem origem visível para criar suspense e manter o ambiente silencioso; indica a prioridade dos sons e sugere cortar quando a protagonista se vira e faz uma pausa."
+    },
+    "scenarios": [
+        "A imagem e a locução se misturam e ficam confusas; quero distinguir quais sons manter e quais remover.",
+        "Os cortes parecem mecânicos, como se seguissem segundos fixos, e as transições ficam bruscas e antinaturais.",
+        "Para criar suspense ou tensão, quero usar sons sem origem visível para mexer primeiro com a emoção do público.",
+        "Depois de escrever o storyboard, quero planejar com antecedência as camadas de fala, som ambiente e efeitos sonoros."
+    ],
+    "problems": [
+        {
+            "pain": "Música de fundo, falas e efeitos sonoros estão acumulados demais, e o vídeo soa barulhento.",
+            "solve": "Simplifica os sons priorizando a fala, marca a hierarquia e os momentos de silêncio para dar respiro ao áudio."
+        },
+        {
+            "pain": "Os cortes são feitos só por intuição ou por segundos mecânicos, e a troca de cena parece muito brusca.",
+            "solve": "Ajuda a encontrar pausas na ação dos personagens ou viradas emocionais e sugere cortes naturais no canvas."
+        },
+        {
+            "pain": "Quero criar um clima misterioso ou de suspense, mas a imagem é sem graça e não prende a atenção.",
+            "solve": "Orienta a esconder a origem do som e fazer sons-chave aparecerem fora de quadro antes, despertando a imaginação e a curiosidade do público."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em «Usar esta habilidade» para abrir o painel de conversa à direita.",
+        "Envie a descrição do plano ou o diálogo e explique qual dúvida sobre som ou ritmo você quer ajustar.",
+        "Veja os cartões de texto gerados no canvas e obtenha a prioridade dos sons e os pontos de corte.",
+        "Copie ou baixe as sugestões de texto dos cartões para orientar a locução e a edição seguintes."
+    ],
+    "faq": [
+        {
+            "q": "Esta habilidade pode fazer a locução ou gerar efeitos sonoros do vídeo diretamente?",
+            "a": "Não, ela não gera arquivos de áudio. Ela cria no canvas sugestões de texto e listas para você, indicando que sons escolher e qual é a ordem de prioridade. Você pode usar essas sugestões para fazer a locução do vídeo."
+        },
+        {
+            "q": "O áudio de fundo e a locução do vídeo estão muito bagunçados. Como simplificar?",
+            "a": "Primeiro deixe a fala clara; depois pense no som ambiente e nos efeitos. Se um som não ajuda a contar a história, remova-o ou abaixe o volume sempre que possível. A habilidade lista prioridades de som e indica onde deixar silêncio."
+        },
+        {
+            "q": "Ao editar um vídeo, como saber quando cortar?",
+            "a": "O corte deve acontecer no momento de pausa da ação do personagem ou de mudança emocional, não em segundos fixos de forma mecânica. Assim como uma pessoa pisca naturalmente ao terminar uma ideia, trocar a imagem nesses intervalos fica mais natural. A habilidade analisa sua imagem e sugere pontos de corte."
+        },
+        {
+            "q": "Para criar um clima de tensão e suspense, que técnicas de som usar?",
+            "a": "Você pode primeiro deixar o público ouvir um som sem mostrar de onde ele vem. Por exemplo, mostrar só um quarto vazio e trazer passos ou uma porta abrindo fora de quadro pode prender a atenção rapidamente. A habilidade ensina como usar essa técnica nos planos principais."
+        }
+    ],
+    "keywords": [
+        "áudio e imagem no vídeo",
+        "dicas de locução para vídeo",
+        "como escolher efeitos sonoros para vídeo",
+        "onde cortar na edição de vídeo",
+        "áudio do vídeo muito alto o que fazer",
+        "ritmo de edição de vídeo"
+    ]
+}

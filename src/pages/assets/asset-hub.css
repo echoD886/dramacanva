@@ -1,0 +1,75 @@
+.assets-hub-scroll {
+    height: 100%;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior-y: contain;
+    scrollbar-gutter: stable;
+    padding: 32px clamp(16px, 3vw, 48px) 96px;
+    color: var(--foreground);
+    background: var(--background);
+}
+.assets-hub-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+.assets-hub-header > div { min-width: 0; }
+.assets-hub-header-tools {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    margin-left: auto;
+}
+.assets-hub-header-actions {
+    display: flex;
+    min-width: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.assets-hub-header-tools .assets-storage-usage { justify-content: flex-end; }
+.assets-local-library-hint { margin-top: 8px; color: var(--muted-foreground); font-size: var(--fs-tiny); }
+.assets-hub-folders {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 32px 24px;
+}
+.assets-hub-create-mobile { display: none; }
+@media (max-width: 640px) {
+    .assets-hub-scroll {
+        padding: 20px 16px 24px;
+        scrollbar-gutter: auto;
+        scroll-padding-bottom: 24px;
+    }
+    .assets-hub-with-create {
+        --assets-create-dock-height: calc(76px + env(safe-area-inset-bottom, 0px));
+        height: calc(100% - var(--assets-create-dock-height));
+    }
+    /* Reserve a separate band so the button never covers a row while scrolling. */
+    .assets-hub-create-mobile {
+        position: fixed;
+        inset-inline: 0;
+        bottom: 0;
+        z-index: 30;
+        display: flex;
+        justify-content: flex-end;
+        height: var(--assets-create-dock-height);
+        padding: 16px 16px calc(16px + env(safe-area-inset-bottom, 0px));
+        background: var(--background);
+        border-top: 1px solid var(--border);
+    }
+    .assets-hub-header { align-items: stretch; gap: 12px; padding-bottom: 16px; }
+    .assets-hub-header .assets-hub-create-desktop { display: none; }
+    .assets-hub-header-tools { width: 100%; align-items: stretch; margin-left: 0; }
+    .assets-hub-header-actions { justify-content: flex-end; }
+    .assets-hub-header-tools .assets-storage-usage { align-self: flex-end; max-width: 100%; }
+    .assets-hub-folders { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 12px; }
+}

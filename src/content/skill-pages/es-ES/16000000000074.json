@@ -1,0 +1,67 @@
+{
+    "title": "Reescritura cómica de guiones: diálogos planos con gracia",
+    "metaDescription": "Para vídeos cómicos cortos con guiones poco divertidos. Escribe diálogos o tramas planas y obtén réplicas cómicas con acciones y ritmo de gags.",
+    "oneLiner": "Escribe diálogos planos y genera en el lienzo réplicas cómicas con indicaciones de acción y una tabla de ritmo.",
+    "intro": [
+        "Esta es una herramienta de reescritura cómica en el lienzo de {brand}. Ayuda a los creadores de vídeo a convertir diálogos cotidianos sosos y aburridos en escenas cómicas con preparación y remates inesperados.",
+        "No necesitas saber teoría de la comedia. En el cuadro de diálogo de la derecha del lienzo, envía los diálogos planos que hayas escrito, tus ideas de historia o una breve descripción del carácter de los personajes.",
+        "Cuando termines, aparecerán varias tarjetas en el lienzo. Incluyen las réplicas reescritas con indicaciones de acción y expresión, un desglose de los gags y una tabla que indica el orden de los gags."
+    ],
+    "example": {
+        "input": "Hemos escrito un diálogo sobre pedir dinero prestado: A le pide 1000 a B y B dice que no tiene. Nos parece soso y queremos convertirlo en un diálogo cómico; un personaje es fanfarrón y el otro, muy puntilloso.",
+        "output": "En el lienzo se generan varias tarjetas: una con las nuevas réplicas y acciones como taparse la cartera o poner los ojos en blanco, otra que desglosa la preparación y el giro, y otra con una tabla de ritmo que marca el orden de los gags."
+    },
+    "scenarios": [
+        "Ya tienes escritos los diálogos de una escena cotidiana, pero suenan como un texto explicativo seco y carecen de momentos divertidos.",
+        "Tienes ideas cómicas en la cabeza, pero no sabes cómo prepararlas ni cómo soltar un gag inesperado al final.",
+        "Has escrito varias escenas cómicas por separado y quieres unirlas en un corto completo con altibajos y ritmo coherente.",
+        "Los dos personajes hablan como si fueran la misma persona pensando en voz alta y no se distinguen sus personalidades ni el contraste entre ellos."
+    ],
+    "problems": [
+        {
+            "pain": "Las réplicas de los personajes son sosas y parecen recitadas; el público no percibe una situación divertida.",
+            "solve": "Convierte las explicaciones unidireccionales en réplicas interactivas con acciones y expresiones para que el diálogo parezca interpretarse en directo."
+        },
+        {
+            "pain": "Los gags que has pensado suenan forzados al contarlos y los demás no se ríen.",
+            "solve": "Ordena las réplicas siguiendo la pauta de preparar primero, subir la apuesta después y revelar el giro al final, para que los gags salgan con naturalidad."
+        },
+        {
+            "pain": "Tienes varias piezas cómicas, pero al juntarlas en un episodio parecen un collage y el ritmo se vuelve pesado.",
+            "solve": "Sigue la pauta de empezar con el segundo mejor gag, mantener un tramo central estable y cerrar con el mejor, y ordena el ritmo de aparición en el lienzo."
+        }
+    ],
+    "steps": [
+        "Haz clic en «Usar esta habilidad» en la biblioteca de habilidades para iniciar una nueva conversación en el lienzo.",
+        "Envía el borrador de diálogo que hayas escrito, tus ideas de trama o los rasgos de personalidad que quieras para los personajes.",
+        "Consulta las tarjetas de revisión de réplicas y la tabla de ritmo de gags que se generan en el lienzo.",
+        "Haz clic en las tarjetas para editar el texto directamente o dile al asistente en el cuadro de diálogo cómo quieres ajustar los gags.",
+        "Copia o descarga las tarjetas de réplicas y tablas que te convenzan para preparar el rodaje."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo convertir diálogos planos de un guion en réplicas cómicas?",
+            "a": "Envía directamente los diálogos planos al cuadro de diálogo y los reescribirá como tarjetas de diálogo con acciones siguiendo la pauta de preparar primero, subir la apuesta paso a paso y dar un giro inesperado al final. Junto a las réplicas incluirá indicaciones de acción y expresión de los personajes para transformar una explicación unidireccional en una escena en vivo con gags."
+        },
+        {
+            "q": "¿Qué hago si los gags que escribo suenan a lectura de un guion y no tienen fuerza visual?",
+            "a": "Dile al asistente en el cuadro de diálogo que convierta la narración en interpretación y añadirá a las réplicas indicaciones de acción, expresión y reacción de los personajes. Si sigues las indicaciones de las tarjetas al rodar o ensayar, podrás convertir una lectura unidireccional en una escena en vivo llena de vida."
+        },
+        {
+            "q": "¿Cómo repartir los gags en un episodio completo de un corto para que no decaiga?",
+            "a": "Se recomienda ordenar los gags empezando por el segundo mejor, con una transición estable y dejando el mejor para el cierre. Generará en el lienzo una tabla de tarjetas que indica cuándo debe aparecer cada gag (el remate cómico que se suelta tras la preparación), para evitar que se amontonen o que la segunda mitad se vuelva pesada."
+        },
+        {
+            "q": "¿Qué hago si las réplicas generadas no cumplen lo esperado o los gags son demasiado manidos?",
+            "a": "Puedes hacer clic en las tarjetas del lienzo y editar el texto a mano, o decirle al asistente en el cuadro de diálogo cómo cambiarlo. Por ejemplo, pídele un gag más cercano a la vida cotidiana o un cambio en la frecuencia de los gags, y las tarjetas del lienzo se volverán a generar según lo solicitado."
+        }
+    ],
+    "keywords": [
+        "reescritura cómica de guiones",
+        "cómo escribir diálogos cómicos",
+        "diálogos cómicos para cortos",
+        "cómo escribir gags cómicos",
+        "añadir humor a los diálogos de un vídeo",
+        "guion para vídeo cómico corto"
+    ]
+}

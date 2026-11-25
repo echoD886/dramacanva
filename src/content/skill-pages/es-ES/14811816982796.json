@@ -1,0 +1,67 @@
+{
+    "title": "Sinopsis a guion de serie corta: acción clara y diálogo real",
+    "metaDescription": "Para creadores de series cortas. Escribe tu historia o diálogo en {brand} y recibe tarjetas de guion con escenas, acciones y diálogos listos para rodar.",
+    "oneLiner": "Para quien empieza en series cortas: escribe tu historia y crea en el lienzo un guion con acción clara y diálogos reales.",
+    "intro": [
+        "Esta es la herramienta de {brand} para escribir guiones en el lienzo. Convierte una trama normal en un texto que los actores pueden interpretar y las cámaras pueden rodar, y también te ayuda a reescribir diálogos que suenan demasiado rígidos.",
+        "Solo necesitas una sinopsis, unas cuantas ideas de trama o un diálogo que no te convence. Aunque sea lenguaje coloquial y poco pulido, puedes enviarlo tal cual.",
+        "Al terminar, verás en el lienzo tarjetas de guion una por una. En ellas se indica con claridad dónde ocurre la escena, qué hace cada personaje y qué diálogos encajan con su personalidad."
+    ],
+    "example": {
+        "input": "Escribe una escena: el protagonista está muy nervioso y quiere confesarle su amor a la protagonista, pero no se atreve a decirlo directamente; están charlando en una cafetería. Describe acciones y diálogos concretos.",
+        "output": "Genera tarjetas de guion en el lienzo: indica interior de cafetería y hora; describe cómo el protagonista rompe una servilleta en tiras bajo la mesa; el diálogo no dice directamente «me gustas», sino que pregunta con titubeos si ella tiene planes para el fin de semana."
+    },
+    "scenarios": [
+        "Tienes una idea o un esquema de la trama y quieres convertirlo en un guion completo con acciones y diálogos.",
+        "Los diálogos de un guion ya escrito suenan demasiado rígidos o todos los personajes hablan igual, y quieres que resulten más naturales, como personas reales.",
+        "La trama avanza demasiado despacio, hay demasiados detalles innecesarios como entradas y saludos, y quieres eliminar la paja e ir directo al conflicto.",
+        "El guion describe demasiados pensamientos internos que la cámara no puede mostrar, y quieres convertir esos pensamientos en acciones visibles."
+    ],
+    "problems": [
+        {
+            "pain": "Los personajes hablan demasiado directo y dicen todo lo que piensan; suena a recitar un texto.",
+            "solve": "Te ayuda a reescribir los diálogos para que los personajes digan lo contrario, den rodeos o sustituyan palabras por acciones, y suenen como una conversación real."
+        },
+        {
+            "pain": "Todos hablan con el mismo tono; si tapas los nombres, no sabes quién está hablando.",
+            "solve": "Ajusta las muletillas, la longitud de las frases y el tono según la personalidad de cada personaje para que todos suenen distintos."
+        },
+        {
+            "pain": "El guion siempre cuenta lo que piensan los personajes, pero los actores y la cámara no pueden interpretarlo al grabar vídeo.",
+            "solve": "Convierte los pensamientos en conductas visibles; por ejemplo, transforma los nervios en manos temblorosas o en una servilleta rota, algo que se entienda en cuanto la cámara lo capta."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y abre el cuadro de diálogo a la derecha del lienzo.",
+        "Envía tu esquema de la historia, tus ideas de trama o los diálogos antiguos que quieras modificar.",
+        "Revisa las tarjetas de guion generadas en el lienzo, que incluyen escena, acción y diálogo.",
+        "Pide al asistente que ajuste lo necesario y vuelve a generar, o edita directamente las tarjetas a mano.",
+        "Copia o descarga el resultado y guarda el texto del guion para usarlo en el rodaje."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo convertir una historia normal en un guion de serie corta?",
+            "a": "La clave es dividir la historia en escenas concretas y transformar los pensamientos en acciones visibles. Primero elimina las transiciones sin conflicto, como entradas y saludos, y ve directo al acontecimiento central. Después, reescribe los diálogos con un tono cotidiano y natural para conseguir un guion fácil de rodar."
+        },
+        {
+            "q": "¿Qué hago si los diálogos del guion suenan falsos, como recitados?",
+            "a": "Puedes reescribirlos añadiendo segundas intenciones y evitando que los personajes digan directamente todo lo que piensan. Por ejemplo, cuando alguien está enfadado, puede decir lo contrario, cambiar de tema o mostrar sus emociones con acciones como romper papel bajo la mesa. Además, adapta la longitud de las frases y el tono a la personalidad de cada personaje para que suene a una conversación real."
+        },
+        {
+            "q": "¿Hay que indicar ángulos y posiciones de cámara al escribir el guion?",
+            "a": "No hace falta indicar posiciones ni ángulos de cámara; el guion solo debe dejar claro qué acciones ocurren y qué se dice. La colocación y los ángulos de cámara pertenecen a la fase de guion gráfico (dividir el vídeo en planos y decidir cómo rodarlos). Escribir demasiados ángulos por adelantado puede limitar el diseño del rodaje posterior."
+        },
+        {
+            "q": "¿Cómo saber si una escena debe eliminarse?",
+            "a": "Fíjate en si la escena tiene conflicto entre personajes y si cambia la relación o el estado de los personajes. Si solo están charlando y después no ocurre nada nuevo, puedes plantearte eliminarla o integrarla en otra escena. Conservar los fragmentos con conflicto y avance ayuda a que el ritmo de toda la serie corta sea más compacto."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un guion de serie corta",
+        "convertir una historia en guion",
+        "reescribir diálogos de guion",
+        "describir acciones en un guion",
+        "escribir guion con IA",
+        "generador de guiones para series cortas"
+    ]
+}

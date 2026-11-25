@@ -1,0 +1,52 @@
+{
+  "works": [
+    {
+      "rank": 1,
+      "templateUuid": "demo-film-1",
+      "title": "The Last Train",
+      "description": "Fictional example. Add your own artwork and project.",
+      "proposedBrandDisplayName": "Demo",
+      "proposedCategory": "叙事",
+      "requestedFirstScreenFixed": false,
+      "coverPath": "/demo/placeholder.svg",
+      "avatarPath": "",
+      "videoPath": null,
+      "originalAuthor": null,
+      "originalAuthorId": null,
+      "sourcePlatform": "LibTV",
+      "originalPublishAt": null
+    },
+    {
+      "rank": 2,
+      "templateUuid": "demo-film-2",
+      "title": "A Letter at Dawn",
+      "description": "Fictional example. Add your own artwork and project.",
+      "proposedBrandDisplayName": "Demo",
+      "proposedCategory": "叙事",
+      "requestedFirstScreenFixed": false,
+      "coverPath": "/demo/placeholder.svg",
+      "avatarPath": "",
+      "videoPath": null,
+      "originalAuthor": null,
+      "originalAuthorId": null,
+      "sourcePlatform": "LibTV",
+      "originalPublishAt": null
+    },
+    {
+      "rank": 3,
+      "templateUuid": "demo-film-3",
+      "title": "Across the City",
+      "description": "Fictional example. Add your own artwork and project.",
+      "proposedBrandDisplayName": "Demo",
+      "proposedCategory": "叙事",
+      "requestedFirstScreenFixed": false,
+      "coverPath": "/demo/placeholder.svg",
+      "avatarPath": "",
+      "videoPath": null,
+      "originalAuthor": null,
+      "originalAuthorId": null,
+      "sourcePlatform": "LibTV",
+      "originalPublishAt": null
+    }
+  ]
+}

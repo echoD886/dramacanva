@@ -1,0 +1,22 @@
+const modelDefaults = {
+    "modelDefaults.imageTitle": "기본 이미지 모델",
+    "modelDefaults.imageDescription": "이미지 생성, 이미지 편집 및 시각적 탐색",
+    "modelDefaults.videoTitle": "기본 비디오 모델",
+    "modelDefaults.videoDescription": "텍스트 및 이미지 기반 비디오 생성과 샷 확장",
+    "modelDefaults.textTitle": "기본 텍스트 모델",
+    "modelDefaults.textDescription": "프롬프트 재작성, 대본 및 구조화된 텍스트",
+    "modelDefaults.audioTitle": "기본 오디오 모델",
+    "modelDefaults.audioDescription": "음성, 음향 효과 및 음악 생성",
+    "modelDefaults.available": "{count}개 사용 가능",
+    "modelDefaults.unnamedChannel": "이름 없는 채널",
+    "modelDefaults.system": "시스템",
+    "modelDefaults.custom": "사용자 정의",
+    "modelDefaults.tokenPrice": "{price} / 100만 토큰",
+    "modelDefaults.secondPrice": "{price} / 초",
+    "modelDefaults.requestPrice": "{price} / 회",
+    "modelDefaults.noImage": "사용 가능한 이미지 모델이 없습니다",
+    "modelDefaults.noVideo": "사용 가능한 비디오 모델이 없습니다",
+    "modelDefaults.noText": "사용 가능한 텍스트 모델이 없습니다",
+    "modelDefaults.noAudio": "사용 가능한 오디오 모델이 없습니다",
+} as const;
+export default modelDefaults;

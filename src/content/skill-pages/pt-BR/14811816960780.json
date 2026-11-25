@@ -1,0 +1,66 @@
+{
+    "title": "Gere fotos, textos e vídeos de joias com 1 foto",
+    "metaDescription": "Para vendedores de joias online. Envie uma foto ou descrição e gere no canvas {brand} fotos com fundo branco, macros, fotos de uso, textos e vídeos curtos.",
+    "oneLiner": "Ajuda vendedores de joias a criar fotos de e-commerce, textos e vídeos com uma única imagem.",
+    "intro": [
+        "Um fluxo de criação de materiais de e-commerce feito para joias como anéis e colares. Com base no estilo da sua joia, ele cria no canvas um conjunto de fotos de produto, textos para publicação e vídeos de demonstração.",
+        "Você só precisa de uma foto real da joia ou de algumas frases descrevendo o material, a cor da gema e a aparência. Se não tiver foto do produto, também pode digitar os detalhes do design.",
+        "Depois de concluído, o canvas exibirá uma imagem principal com fundo branco puro, imagens macro de detalhes, fotos de modelo usando a joia, textos de venda em chinês e inglês e alguns vídeos de demonstração. Cada card pode ser ajustado ou baixado individualmente."
+    ],
+    "example": {
+        "input": "Envie uma foto de um anel de ouro 18K com esmeralda e escreva: crie um conjunto de fotos de produto para listagem na Amazon, textos de venda em inglês e um vídeo de demonstração de 10 segundos.",
+        "output": "No canvas, gere imagem principal com fundo branco puro, macro da gema, foto da mão da modelo usando o anel, foto da embalagem de presente, título e textos de venda em inglês e um clipe de 10 segundos mostrando o brilho do anel."
+    },
+    "scenarios": [
+        "Lançamento de anéis ou colares para listar em plataformas de e-commerce, precisando de um conjunto de fotos com fundo branco, fotos de uso e textos de produto.",
+        "Apenas uma foto de joia tirada com celular e a necessidade de criar rapidamente imagens de uso em pessoas reais e em cenas do dia a dia.",
+        "Uma loja faz uma promoção de presentes de fim de ano e precisa criar imagens de embalagens de presente premium e vídeos curtos de demonstração para divulgação.",
+        "Vários lançamentos de joias ao mesmo tempo, precisando comparar rapidamente no canvas as imagens e os efeitos dos vídeos de cada produto."
+    ],
+    "problems": [
+        {
+            "pain": "Joias refletem luz e mudam de cor com facilidade, e contratar um fotógrafo profissional para fotos de fundo branco e detalhes custa caro.",
+            "solve": "Identifica o material da joia e as características da gema e gera diretamente no canvas a imagem principal com fundo branco puro e imagens macro de detalhes em alta definição."
+        },
+        {
+            "pain": "Ao gerar imagens de modelo com software, o estilo da gema do anel ou colar muitas vezes fica distorcido ou alterado.",
+            "solve": "Durante a geração, os detalhes da gema e do metal são fixados e bloqueados, com alinhamento repetido das características do design para minimizar desvios na aparência."
+        },
+        {
+            "pain": "Há muitos materiais para listagem, e criar imagens, escrever textos de venda e fazer vídeos exige alternar entre vários softwares.",
+            "solve": "Cria de uma só vez, no mesmo canvas, imagem principal, fotos de uso, textos e vídeos de demonstração, facilitando a visualização e os ajustes em um só lugar."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie uma foto da joia ou descreva a aparência e o design na caixa de diálogo.",
+        "Confirme o material da joia e as especificações da plataforma e comece a gerar no canvas o conjunto de cards de material.",
+        "Veja os cards gerados de imagens com fundo branco, macros, fotos de modelo usando a joia, textos e vídeos curtos.",
+        "Baixe as imagens e os textos aprovados; os clipes de vídeo podem ser ordenados na linha do tempo de vídeo e depois exportados."
+    ],
+    "faq": [
+        {
+            "q": "Como usar IA para criar um conjunto completo de imagens e textos de e-commerce para joias?",
+            "a": "Abra esta habilidade no canvas do {brand}, envie uma foto da joia ou descreva a aparência e gere um conjunto de imagem principal com fundo branco, imagens macro, fotos de uso e textos. Depois de gerar, você pode revisar cada item; basta dizer ao assistente o que ajustar no que não gostou e baixar os materiais aprovados."
+        },
+        {
+            "q": "Como evitar que o design da gema fique distorcido ao gerar imagens de joias com IA?",
+            "a": "O sistema não garante que não haja nenhum desvio, mas bloqueia o material da joia, o corte da gema e a estrutura antes da geração para manter as características visuais o mais coerentes possível. Se os detalhes da gema em alguma cena ficarem diferentes, basta informar ao assistente na caixa de diálogo o que mudar e gerar novamente esse card."
+        },
+        {
+            "q": "Se eu tiver apenas uma ideia de design, sem foto real da joia, posso gerar imagens de e-commerce diretamente?",
+            "a": "Pode gerar diretamente. Descreva na caixa de diálogo o tipo de joia, o material do metal e a aparência da gema; o sistema primeiro criará uma imagem do design básico para você confirmar. Depois de confirmar que a aparência atende às expectativas, a plataforma continuará gerando o conjunto completo de imagem principal com fundo branco, fotos de uso em cena e textos de produto."
+        },
+        {
+            "q": "Os vídeos curtos de demonstração de joias gerados recebem narração e edição automáticas para virar um vídeo final?",
+            "a": "Não. Não há narração automática nem montagem direta do vídeo final; o {brand} gera no canvas vários clipes independentes de demonstração em movimento. Você pode arrastar esses clipes para a linha do tempo de vídeo do canvas, ordená-los e depois exportar; se precisar de música de fundo, poderá adicioná-la com uma ferramenta de edição após a exportação."
+        }
+    ],
+    "keywords": [
+        "geração de imagens de joias para e-commerce",
+        "foto principal de joia com fundo branco",
+        "modelo com joias gerada por IA",
+        "fotografia comercial de joias",
+        "textos de venda para joias",
+        "vídeos curtos de joias"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Roteiro de entrevista cômica: tema gera falas e storyboard",
+    "metaDescription": "Crie roteiros de entrevista cômica no {brand}: insira tema e personagens e a IA gera 3 a 4 falas humorísticas e exporta storyboard de câmera.",
+    "oneLiner": "Para iniciantes em shorts: insira um tema e monte no canvas falas de entrevista cômica e uma tabela de storyboard.",
+    "intro": [
+        "Esta é a skill de entrevista cômica do {brand}. Insira um tema e confirme os personagens; a IA escreve diálogos humorísticos no canvas e organiza a tabela de storyboard, ideal para criadores que querem fazer shorts com pets ou avatares digitais.",
+        "Você só precisa escolher um tema para conversar (como encontros ou trabalho) e definir a aparência dos personagens. A IA faz perguntas como numa conversa e ajuda a definir o contraste de personalidade e o estilo de humor.",
+        "Ao terminar, o canvas mostra o roteiro em texto e a tabela de storyboard (que divide o vídeo em cenas e indica o que filmar em cada uma). Ela traz falas curtas, movimentos de câmera e descrições de produção visual."
+    ],
+    "example": {
+        "input": "Quero fazer uma entrevista cômica com pets: um corgi apresentador entrevista um gato persa convidado, reclamando que o dono anda muito neurótico, no estilo de talk show americano e com efeitos de risada.",
+        "output": "O canvas gera um diálogo de perguntas e respostas bem-humorado e uma tabela com 5 cenas, indicando viradas rápidas de câmera, close-ups faciais, onde entram as risadas e descrições detalhadas da imagem."
+    },
+    "scenarios": [
+        "Quero fazer um short de conversa entre cães e gatos, com falas cômicas de contraste e um design de câmera de estúdio.",
+        "Criar um short de entrevista de reclamações sobre trabalho ou encontros, com roteiro humorístico de 3 a 4 trocas e reviravoltas.",
+        "Fazer diálogos cômicos com personagens virtuais, com orientações de ação como cortes rápidos de câmera e close-ups faciais.",
+        "Quando minhas piadas não ficam engraçadas o bastante, quero escrever falas na estrutura de criar suspense e dar uma reviravolta repentina."
+    ],
+    "problems": [
+        {
+            "pain": "As falas cômicas soam como leitura de texto, sem naturalidade de conversa e sem graça.",
+            "solve": "Cria frases curtas do dia a dia com a técnica de suspense seguido de reviravolta, mantendo cada fala em até 40 caracteres para ficar mais fácil de falar."
+        },
+        {
+            "pain": "As imagens das cenas são rígidas e os cortes sem graça, sem ritmo nem humor.",
+            "solve": "Inclui no storyboard recursos como aproximar de repente para mostrar expressões e girar a câmera rapidamente, deixando os cortes com mais impacto visual."
+        },
+        {
+            "pain": "Cortes de câmera frequentes demais ou cenas muito desconexas fazem a imagem do vídeo ficar distorcida com facilidade.",
+            "solve": "Em um short de 15 segundos, tente limitar os cortes a 5 ou 6 vezes, reduzindo grandes saltos para deixar a imagem mais estável."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de skills, clique em “Usar esta skill” e envie no chat à direita o tema da entrevista que você quer abordar.",
+        "Responda às perguntas da IA sobre aparência dos personagens, contraste de personalidade e estilo de humor para confirmar a direção criativa.",
+        "Veja no canvas o roteiro de perguntas e respostas e a tabela de storyboard gerados e edite as falas ou descrições conforme necessário.",
+        "Copie ou baixe o resultado e salve as falas e as descrições das cenas para usar."
+    ],
+    "faq": [
+        {
+            "q": "Como fazer a IA escrever falas engraçadas para um short de entrevista?",
+            "a": "Na conversa, defina uma personalidade contrastante para o personagem (por exemplo, forte por fora mas medroso) e crie uma reviravolta no final com algo cotidiano. A IA gera diálogos curtos e naturais com base nessa definição, mantendo cada fala em até 40 caracteres para um ritmo mais leve."
+        },
+        {
+            "q": "Como evitar que as imagens do vídeo de entrevista fiquem rígidas?",
+            "a": "Você pode incluir no planejamento de câmera ações como viradas rápidas e close-ups faciais. Esta skill indica na tabela quando aproximar de repente para capturar uma expressão de surpresa e quando cortar rapidamente para o outro personagem. Ela também tenta limitar os cortes em 15 segundos a 5 ou 6 vezes, evitando tremores e distorções na imagem."
+        },
+        {
+            "q": "Posso fazer uma entrevista cômica com pets, como cães e gatos, ou com personagens digitais?",
+            "a": "Sim, esta skill oferece suporte a pets, personagens digitais, pessoas reais e outros tipos de personagem. Basta explicar na conversa a aparência e o figurino do personagem, como um corgi de terno ou um gato de óculos, e a IA escreve falas humorísticas e descrições visuais que combinam com essa imagem."
+        },
+        {
+            "q": "Posso alterar as falas ou as instruções de câmera geradas se não gostar?",
+            "a": "Sim, você pode editar diretamente no canvas a qualquer momento. Depois que o cartão for gerado, edite o texto nele ou diga ao assistente no chat à direita qual frase não gostou e peça para reescrever."
+        }
+    ],
+    "keywords": [
+        "roteiro de entrevista cômica para shorts",
+        "IA para escrever diálogos engraçados",
+        "como fazer short de talk show com pets",
+        "gerador de falas engraçadas para shorts",
+        "roteiro de storyboard para entrevista em short",
+        "roteiro de entrevista cômica com personagem virtual"
+    ]
+}

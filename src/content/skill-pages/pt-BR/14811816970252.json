@@ -1,0 +1,67 @@
+{
+    "title": "Crie minisséries de romance: roteiro, personagens e vídeos",
+    "metaDescription": "Ideal para iniciantes em vídeo. Envie uma história ou trecho de romance e a IA gera roteiro, imagens de personagens e cenas e clipes de 15 s.",
+    "oneLiner": "Transforme romances ou ideias de história em roteiro, imagens de personagens e clipes de storyboard, passo a passo.",
+    "intro": [
+        "Este é um assistente de criação de vídeos para minisséries. Basta fornecer uma história ou romance e ele ajuda, passo a passo no canvas, a transformar o texto em roteiro, imagens e clipes curtos prontos para assistir.",
+        "Você não precisa entender de formatação profissional de roteiro. Só precisa preparar o texto da história que quer fazer, um trecho de romance ou até uma ideia simples de poucas frases e enviar diretamente à IA para começar.",
+        "Ao final, você recebe no canvas um roteiro padrão, imagens de referência dos personagens, uma tabela de storyboard (plano de filmagem dividido por planos) e vários vídeos de 15 segundos, que podem ser organizados e exportados como vídeo final."
+    ],
+    "example": {
+        "input": "Envie um trecho de 300 caracteres de uma história de investigação da antiguidade: um jovem policial vestido de azul-escuro examina pegadas suspeitas em um templo abandonado à noite.",
+        "output": "No canvas, você recebe um roteiro estruturado, uma imagem de corpo inteiro do policial, uma lista detalhada de planos de 15 segundos e vários clipes de vídeo em que ele procura pegadas com uma tocha."
+    },
+    "scenarios": [
+        "Ter um trecho de romance ou uma ideia e querer organizá-la rapidamente em um roteiro de minissérie com formato padronizado.",
+        "Querer dividir a história em planos, mas não saber quanto tempo cada plano deve durar nem quantas falas incluir.",
+        "Preocupar-se com o personagem mudar de aparência a cada vídeo e querer definir o visual antes de gerar as imagens.",
+        "Querer definir a ação visual de cada plano e gerar diretamente vários clipes contínuos de 15 segundos."
+    ],
+    "problems": [
+        {
+            "pain": "Transformar o romance diretamente em vídeo pode deixar partes da trama de fora, e as falas originais podem ser alteradas sem critério.",
+            "solve": "A ferramenta tenta preservar ao máximo as falas originais e a trama central; depois de dividir o roteiro, ela pede sua confirmação antes de continuar."
+        },
+        {
+            "pain": "O mesmo personagem costuma mudar de aparência entre planos, o que quebra a continuidade visual.",
+            "solve": "Primeiro são geradas imagens de referência do personagem em vários ângulos; na criação dos vídeos, essas referências são vinculadas para reduzir desvios no personagem."
+        },
+        {
+            "pain": "Gerar o vídeo inteiro de uma vez torna muito complicado corrigir se alguns segundos no meio não ficarem bons.",
+            "solve": "O conteúdo é dividido em cartões de clipes de 15 segundos, e o trecho insatisfeito pode ser gerado novamente separadamente."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie o texto da sua história ou ideia na caixa de diálogo à direita.",
+        "Confira o cartão de roteiro no canvas, edite as falas on-line e escolha o estilo visual que você quer.",
+        "Verifique as imagens de referência de personagens e cenários geradas; se alguma não agradar, peça ao assistente para gerá-la novamente em separado.",
+        "Confirme a tabela de storyboard e as descrições de ação de cada plano e deixe a IA gerar em lote vários clipes de 15 segundos.",
+        "Organize a ordem na linha do tempo de vídeo e exporte; você também pode baixar individualmente os cartões de vídeo que gostar."
+    ],
+    "faq": [
+        {
+            "q": "Como usar a IA para transformar um romance em minissérie?",
+            "a": "Depois de enviar o romance ao assistente, ele gera em sequência um roteiro padrão, imagens de referência dos personagens e vídeos de storyboard; por fim, basta organizar tudo na linha do tempo e exportar o vídeo final. No canvas do {brand}, falas e estilo podem ser alterados a qualquer momento, e cartões insatisfatórios também podem ser gerados novamente em separado."
+        },
+        {
+            "q": "Ao fazer vídeos de minissérie com IA, o que fazer se o personagem mudar de aparência?",
+            "a": "Antes de criar os vídeos, peça à IA para gerar imagens de referência da aparência dos personagens; nas gerações seguintes de vídeos de storyboard, as referências serão priorizadas para manter a aparência o mais coerente possível. Se algum plano específico apresentar alteração no personagem, troque a imagem de referência ou peça ao assistente para gerar novamente apenas esse plano."
+        },
+        {
+            "q": "Por que recomenda-se manter as falas de cada plano em até 40 caracteres?",
+            "a": "Isso serve para acompanhar a duração de cerca de 15 segundos de um clipe de vídeo e evitar que a imagem termine antes da fala. Mantendo a fala de cada plano entre 30 e 40 caracteres, o ritmo entre ação visual e fala tende a ficar mais natural. Em diálogos longos, o conteúdo é dividido automaticamente em vários planos consecutivos."
+        },
+        {
+            "q": "Se um trecho de vídeo gerado não agradar, é preciso refazer tudo?",
+            "a": "Não é preciso refazer tudo. No canvas, o roteiro, as imagens e cada vídeo são cartões independentes; basta gerar novamente em separado o trecho insatisfatório. Todo o restante já pronto é preservado integralmente, sem qualquer impacto."
+        }
+    ],
+    "keywords": [
+        "transformar romance em minissérie com IA",
+        "como fazer minissérie a partir de romance",
+        "roteiro de storyboard para minissérie",
+        "processo de criar minissérie com IA",
+        "geração de roteiro de minissérie",
+        "consistência de personagem em vídeo com IA"
+    ]
+}

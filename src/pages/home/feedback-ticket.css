@@ -1,0 +1,32 @@
+.sa-feedback-ticket-shell { position: fixed; right: max(20px, env(safe-area-inset-right)); bottom: max(20px, env(safe-area-inset-bottom)); z-index: 65; color: #f6ebd7; font-family: inherit; }
+.sa-feedback-ticket-launcher { position: relative; display: block; width: 76px; height: 76px; padding: 0; border: 0; background: transparent; color: inherit; cursor: pointer; filter: drop-shadow(0 2px 4px #0004); transform-origin: 50% 80%; transition: transform .3s ease, filter .3s ease; }
+.sa-feedback-ticket-launcher svg { display: block; width: 52px; height: 52px; margin: auto; }
+.sa-feedback-ticket-launcher:hover, .sa-feedback-ticket-launcher[aria-expanded="true"] { transform: rotate(-3deg) translateY(-3px); filter: drop-shadow(0 3px 6px #0006); }
+.sa-feedback-ticket-launcher:focus-visible { outline: 2px solid #f2cb86; outline-offset: 5px; border-radius: 8px; }
+.sa-feedback-ticket-launcher .ticket-light { transform-origin: 20px 31px; transition: transform .45s ease, opacity .45s ease; }
+.sa-feedback-ticket-launcher:hover .ticket-light { transform: scaleX(1.4); opacity: .9; }
+.sa-feedback-ticket-text { position: absolute; left: 50%; transform: translateX(-50%); bottom: 10px; padding: 1px 5px; border-radius: 4px; background: #151b20; white-space: nowrap; line-height: 14px; color: #f1d29f; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-align: center; pointer-events: none; }
+.sa-feedback-ticket-panel { position: absolute; right: 0; bottom: calc(100% + 16px); width: min(365px, calc(100vw - 32px)); max-height: min(650px, calc(100dvh - 130px)); overflow-y: auto; padding: 22px; border: 1px solid #745f47; border-radius: 18px; background: #151b20; box-shadow: 0 22px 55px #000b; animation: ticket-arrive .25s ease both; box-sizing: border-box; }
+.sa-feedback-ticket-panel::before { position: absolute; inset: 7px; border: 1px solid #a88454; border-radius: 12px; opacity: .4; content: ""; pointer-events: none; }
+.sa-feedback-ticket-panel header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.sa-feedback-ticket-kicker { color: #d3a875; font-size: 10px; font-weight: 700; letter-spacing: .18em; }
+.sa-feedback-ticket-panel header button { display: grid; place-items: center; width: 30px; height: 30px; border: 0; border-radius: 50%; background: #293039; color: #f6ebd7; cursor: pointer; }
+.sa-feedback-ticket-panel h2 { margin: 10px 0 20px; color: #f8f0df; font-family: "Songti SC", Georgia, serif; font-size: 23px; line-height: 1.25; }
+.sa-feedback-ticket-choices { display: grid; gap: 9px; }
+.sa-feedback-ticket-choices button, .sa-feedback-ticket-choices a { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 14px 16px; border: 1px solid #4c5050; border-radius: 9px; background: #20272b; color: #f6ebd7; font: inherit; font-weight: 600; text-decoration: none; text-align: left; cursor: pointer; transition: background .18s ease, border-color .18s ease, transform .18s ease; box-sizing: border-box; }
+.sa-feedback-ticket-choices button:hover, .sa-feedback-ticket-choices a:hover { background: #303638; border-color: #cba572; transform: translateX(3px); }
+.sa-feedback-ticket-choices span { color: #e3b985; }
+.sa-feedback-ticket-panel form { display: grid; gap: 12px; }
+.sa-feedback-ticket-panel form label { display: grid; gap: 6px; font-size: 13px; font-weight: 600; }
+.sa-feedback-ticket-panel input, .sa-feedback-ticket-panel textarea { width: 100%; padding: 10px 12px; border: 1px solid #586069; border-radius: 8px; background: #222a30; color: #fff; font: inherit; box-sizing: border-box; }
+.sa-feedback-ticket-panel textarea { resize: vertical; }
+.sa-feedback-ticket-panel input:focus, .sa-feedback-ticket-panel textarea:focus { outline: 2px solid #d4ad77; outline-offset: 2px; }
+.sa-feedback-ticket-panel form small { color: #abb3b5; line-height: 1.4; }
+.sa-feedback-ticket-panel form .sa-feedback-ticket-trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.sa-feedback-ticket-panel .sa-feedback-ticket-back { justify-self: start; padding: 0; border: 0; background: transparent; color: #dcb583; cursor: pointer; }
+.sa-feedback-ticket-panel .sa-feedback-ticket-submit { display: flex; justify-content: space-between; align-items: center; padding: 11px 14px; border: 0; border-radius: 8px; background: #d7b17a; color: #15191b; font-weight: 750; cursor: pointer; }
+.sa-feedback-ticket-panel .sa-feedback-ticket-submit:disabled { opacity: .6; cursor: wait; }
+.sa-feedback-ticket-panel .is-error { color: #ffaaa6; } .sa-feedback-ticket-panel .is-success { color: #a9e4ba; }
+@keyframes ticket-arrive { from { opacity: 0; transform: translateY(9px) scale(.98); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@media (max-width: 767px) { .sa-feedback-ticket-shell { right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); } .sa-feedback-ticket-panel { bottom: calc(100% + 8px); } }
+@media (prefers-reduced-motion: reduce) { .sa-feedback-ticket-shell *, .sa-feedback-ticket-shell *::before { animation: none !important; transition: none !important; } }

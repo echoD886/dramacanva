@@ -1,0 +1,70 @@
+Política de Uso Aceitável do DramaCanvas
+
+Última atualização: 30 de outubro de 2026
+
+Data de vigência: 30 de outubro de 2026
+
+Esta política explica o que é e o que não é permitido no DramaCanvas, bem como nossos processos de moderação, tratamento de violações e recebimento de denúncias. Esta política é parte integrante do Contrato do Usuário do DramaCanvas, e violá-la constitui violação do Contrato do Usuário.
+
+1. Escopo de Aplicação
+1.1 Esta política se aplica a todo o conteúdo inserido, enviado e gerado por você no DramaCanvas, incluindo prompts de texto, roteiros, imagens, vídeos e áudios.
+1.2 Esta política se aplica integralmente, independentemente de você acessar o DramaCanvas pela interface web, por agentes, por conectores MCP ou por APIs abertas.
+
+2. Conteúdos Proibidos
+2.1 É expressamente proibido gerar, enviar ou disseminar as seguintes seis categorias de conteúdo no DramaCanvas:
+- Conteúdo pornográfico e sexualmente explícito: nudez com finalidade sexual, descrições de atos sexuais ou representações visuais explícitas.
+- Violência e conteúdo sangrento: conteúdos que glamorizem ou incitem a violência no mundo real, promovam o terrorismo ou a violência em massa, ou busquem deliberadamente o gore e o sensacionalismo extremo. Cenas cinematográficas de ficção necessárias para a narrativa — como lutas, ação e suspense — são permitidas, desde que não tenham como alvo pessoas reais.
+- Discurso de ódio: conteúdos que discriminem, denigram ou incitem o ódio contra terceiros com base em raça, etnia, religião, gênero, orientação sexual, deficiência, idade ou nacionalidade.
+- Conteúdo que comprometa a segurança de crianças: qualquer conteúdo sexual ou de exploração envolvendo menores de idade, inclusive materiais gerados por IA. Temos tolerância zero em relação a isso.
+- Deepfakes e falsidade ideológica: substituir o rosto de uma pessoa real pelo de outra; transformar fotos de pessoas reais em conteúdo de nudez ou sexualizado; inserir duas pessoas reais juntas em cenas íntimas, como beijos ou abraços; fazer com que uma pessoa real aparente ter dito ou feito algo que nunca disse ou fez; e passar-se por outra pessoa, marca ou instituição. Nenhum desses deepfakes com pessoas reais é permitido, independentemente do consentimento das partes envolvidas.
+- Violação de direitos autorais e marcas registradas: uso não autorizado de obras protegidas por direitos autorais, personagens, marcas registradas ou logotipos pertencentes a terceiros.
+2.2 Conteúdos de tolerância zero: conteúdo sexual envolvendo menores de idade; promoção de terrorismo, extremismo ou violência em massa; instruções para fabricação de armas de destruição em massa; incitação ao genocídio ou ao ódio étnico; e deepfakes de pessoas reais. Ao identificar esse tipo de conteúdo, baniremos a conta imediatamente e poderemos reportar o caso às autoridades competentes, conforme exigido por lei.
+2.3 Outras condutas proibidas:
+- Criar desinformação ou conteúdos destinados a fraudes, golpes ou atos que induzam terceiros ao erro.
+- Utilizar fotos, voz ou dados pessoais de terceiros sem o devido consentimento.
+- Apresentar falsamente conteúdo gerado por IA como filmagem ou criação de pessoas reais com o intuito de enganar terceiros.
+- Gerar conteúdo em massa para fins de spam.
+- Tentar burlar nossos sistemas de moderação, como usar alterações ortográficas deliberadas, linguagem codificada ou prompts de "jailbreak" para evitar bloqueios.
+2.4 Upload de materiais e pessoas reais: você só pode fazer upload de fotos, vídeos e voz de si mesmo(a) ou de materiais sobre os quais possua a devida autorização do titular dos direitos. Mesmo com autorização, esses materiais não podem ser utilizados para os deepfakes proibidos no item 2.1.
+
+3. Nossos Processos de Moderação
+3.1 Moderação automatizada pré-geração: antes de cada solicitação de geração ser processada, nosso serviço de moderação automatizada analisa primeiro os prompts e as imagens de referência para bloquear conteúdo sexual envolvendo menores e conteúdo sexualmente explícito. Os prompts aprovados passam em seguida por um serviço de segurança fornecido pelo nosso parceiro de pagamentos, focado em bloquear conteúdo que coloque crianças em risco. As solicitações bloqueadas não são geradas e nenhum crédito é descontado.
+3.2 Sistemas de segurança nativos dos modelos: os modelos de terceiros que utilizamos contam com sistemas de segurança próprios, que recusam ou bloqueiam prompts, materiais de referência e resultados gerados que violem as regras.
+3.3 Revisão humana: denúncias de usuários e registros gerados pela moderação automatizada são revisados manualmente por nossa equipe de operações.
+3.4 Registros: mantemos registros de moderação e medidas aplicadas para fins de auditoria e aprimoramento das nossas regras de moderação. O texto original de prompts bloqueados não é armazenado.
+3.5 Suas criações geradas permanecem salvas, por padrão, apenas em sua própria conta e não são exibidas publicamente em nosso site. Conteúdos compartilhados por meio de links de compartilhamento permanecem integralmente sujeitos a esta política.
+
+4. Tratamento de Violações
+4.1 Dependendo da gravidade da violação, poderemos adotar uma ou mais das seguintes medidas:
+- Advertência por e-mail.
+- Remoção do conteúdo infrator ou desativação dos respectivos links de compartilhamento.
+- Restrição do acesso aos recursos de geração.
+- Suspensão da conta.
+- Banimento definitivo da conta.
+- Denúncia às autoridades competentes nos termos da lei em casos de crimes graves, como exploração sexual infantil.
+4.2 Para os conteúdos de tolerância zero listados no item 2.2, a confirmação da violação resultará no banimento imediato e definitivo da conta.
+4.3 Contas banidas por violação desta política não terão direito a reembolso de créditos adquiridos; quaisquer outras hipóteses serão tratadas conforme o Contrato do Usuário e a Política de Reembolso.
+
+5. Como Fazer uma Denúncia
+5.1 Caso identifique conteúdos que violem esta política ou acredite que alguém usou inteligência artificial para violar sua imagem, voz ou direitos autorais, envie um e-mail para support@dramacanva.com com o assunto "Denúncia", incluindo:
+- Link ou capturas de tela do conteúdo infrator.
+- Data e hora em que a violação foi identificada.
+- Descrição detalhada do problema.
+- Caso a denúncia envolva seus próprios direitos, documentos que comprovem a titularidade desses direitos.
+5.2 Trataremos as informações de quem denuncia com estrita confidencialidade. Denúncias comprovadamente maliciosas ou falsas também estarão sujeitas a sanções.
+5.3 As denúncias são tratadas com base no nível de gravidade, observando os seguintes prazos (primeira resposta / conclusão do caso):
+- Urgente (segurança infantil, terrorismo, deepfakes de pessoas reais): primeira resposta em até 24 horas; conclusão do caso em até 3 dias úteis.
+- Alta prioridade (pornografia, discurso de ódio, violação de sua própria imagem ou direitos autorais): primeira resposta em até 2 dias úteis; conclusão do caso em até 5 dias úteis.
+- Normal (outras infrações): primeira resposta em até 5 dias úteis; conclusão do caso em até 15 dias úteis.
+5.4 Caso o prazo de resolução ultrapasse os limites indicados acima, enviaremos um e-mail informando os motivos.
+
+6. Recursos
+6.1 Se você entender que seu conteúdo ou sua conta foi alvo de uma medida incorreta, poderá interpor um recurso enviando um e-mail para support@dramacanva.com no prazo de 14 dias após o recebimento da notificação, com o assunto "Recurso", explicando a situação e anexando as informações pertinentes.
+6.2 Os recursos são revisados por profissionais que não participaram da decisão original, e forneceremos uma resposta em até 7 dias úteis.
+
+7. Identificação de Conteúdo Gerado por IA
+7.1 Ao divulgar publicamente conteúdos gerados por inteligência artificial, você deve identificá-los como "Gerado por IA", conforme as regras da plataforma de publicação e as exigências da legislação local, sem ocultar a procedência do conteúdo.
+
+8. Atualizações desta Política e Fale Conosco
+8.1 Esta política poderá ser atualizada periodicamente. Alterações relevantes serão anunciadas com antecedência em nosso site, e as versões revisadas terão como referência a data de atualização indicada no topo desta página. O uso continuado do DramaCanvas após a entrada em vigor das alterações constituirá sua aceitação da política atualizada.
+8.2 Caso tenha dúvidas sobre esta política, entre em contato conosco pelo e-mail support@dramacanva.com.

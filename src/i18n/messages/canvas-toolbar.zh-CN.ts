@@ -1,0 +1,23 @@
+const messages = {
+    "canvasToolbar.move": "抓手工具",
+    "canvasToolbar.select": "区域选择",
+    "canvasToolbar.add": "添加节点",
+    "canvasToolbar.assets": "素材库",
+    "canvasToolbar.appearance": "画布外观",
+    "canvasToolbar.settings": "工具栏设置",
+    "canvasToolbar.deleteCount": "删除 {count} 个节点",
+    "canvasToolbar.delete": "删除选中节点",
+    "canvasToolbar.clear": "清空画布",
+    "canvasToolbar.appearanceHelp": "调整整个创作空间",
+    "canvasToolbar.imageInfo": "图片信息",
+    "canvasToolbar.settingsHelp": "拖动调整顺序，关闭不常用入口",
+    "canvasToolbar.closeSettings": "关闭工具栏设置",
+    "canvasToolbar.visible": "已显示 {visible}/{total}",
+    "canvasToolbar.resetAria": "恢复默认工具栏设置",
+    "canvasToolbar.reset": "恢复默认",
+    "canvasToolbar.order": "主工具栏顺序",
+    "canvasToolbar.drag": "拖动调整{label}顺序",
+    "canvasToolbar.hide": "隐藏{label}",
+    "canvasToolbar.show": "显示{label}",
+} as const;
+export default messages;

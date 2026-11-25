@@ -1,0 +1,26 @@
+const messages = {
+    "canvasFeedback.loading": "Cargando herramientas de vídeo",
+    "canvasFeedback.reading": "Leyendo los vídeos seleccionados",
+    "canvasFeedback.encoding": "Codificando el vídeo combinado",
+    "canvasFeedback.merge": "Combinar en un vídeo",
+    "canvasFeedback.agentSaved": "El agente actualizó el lienzo",
+    "canvasFeedback.undoCount": "{summary} · Se pueden deshacer los últimos {count} lotes",
+    "canvasFeedback.close": "Cerrar",
+    "canvasFeedback.view": "Ver estos cambios",
+    "canvasFeedback.undo": "Deshacer esta operación",
+    "canvasFeedback.partialRestore": "No se ha podido restaurar parte del contenido del asistente. Se ha abierto el lienzo con el proyecto guardado.",
+    "canvasFeedback.loadFailed": "No se ha podido cargar el lienzo. Vuelve a intentarlo.",
+    "canvasFeedback.newCanvasName": "Lienzo sin título {count}",
+    "canvasFeedback.createFailed": "No se ha podido crear el lienzo. Vuelve a intentarlo.",
+    "canvasFeedback.createdLocal": "Se ha creado el lienzo en este dispositivo, pero ha fallado la sincronización con la nube.",
+    "canvasFeedback.createdLocalDetail": "Se ha creado el lienzo en este dispositivo, pero ha fallado la sincronización con la nube: {detail}",
+    "canvasFeedback.deleteFailed": "No se ha podido eliminar el lienzo. Vuelve a intentarlo.",
+    "canvasFeedback.deleteFailedDetail": "No se ha podido eliminar el lienzo: {detail}",
+    "canvasFeedback.cleanupFailed": "Se ha eliminado el proyecto, pero no se han podido borrar algunos archivos de dibujo locales.",
+    "canvasFeedback.saveFailed": "No se ha podido guardar el lienzo. Vuelve a intentarlo.",
+    "canvasFeedback.saved": "Se ha guardado la disposición del lienzo",
+    "canvasFeedback.saveSyncFailed": "Se ha guardado la disposición del lienzo en este dispositivo, pero ha fallado la sincronización con la nube: {detail}",
+    "canvasFeedback.unknownError": "Error desconocido",
+} as const;
+
+export default messages;

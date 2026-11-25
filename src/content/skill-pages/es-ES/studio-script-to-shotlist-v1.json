@@ -1,0 +1,67 @@
+{
+    "title": "Guion a storyboard de cómic animado: organiza la historia",
+    "metaDescription": "Principiantes en cómic animado: escribe historia o diálogos en {brand} y la IA crea un storyboard numerado con imagen, acción, diálogo y plano por toma.",
+    "oneLiner": "Dale el texto de una historia y crea en el lienzo un storyboard con planos indicados para quienes empiezan a hacer vídeos.",
+    "intro": [
+        "Es una herramienta que te ayuda a crear storyboards. Un storyboard divide la historia en planos y especifica qué se muestra en cada uno. Está pensada para quienes empiezan con el cómic animado y no saben cómo dividir la historia en planos.",
+        "Solo tienes que preparar un texto normal de la historia, diálogos o un borrador, e incluir el título de la serie, el número de episodio y los nombres de los personajes que aparecen. Aunque las frases sean muy rudimentarias, puedes enviárselo tal cual.",
+        "La IA generará tarjetas de texto en el lienzo. Dentro, los planos aparecerán ordenados por número e indicarán el tamaño del plano, las acciones de los personajes, diálogos breves y efectos de sonido. Puedes leerlas directamente, editar el texto o copiarlas para usarlas."
+    ],
+    "example": {
+        "input": "Título de la serie: «Crónica de la cultivación», episodio 1. Personaje: Li Qing. Escenario: una cabaña de bambú deteriorada. Trama: en una noche de tormenta, Li Qing abre la puerta y descubre sobre la mesa una carta que brilla; se acerca sorprendido.",
+        "output": "En el lienzo se generan tarjetas de texto ordenadas: primero se muestra la información de personajes y escenarios; después, un storyboard numerado que indica el tamaño del plano, las acciones de abrir la puerta y mirar la carta, los efectos de tormenta con lluvia y la intensidad de las acciones."
+    },
+    "scenarios": [
+        "Tienes solo un fragmento de novela o un borrador de historia y quieres hacer un vídeo, pero no sabes qué imagen dibujar primero.",
+        "Ya tienes la historia y los diálogos escritos, pero no sabes cómo organizar la distancia de los planos ni los cambios de imagen.",
+        "Los diálogos que has escrito son demasiado largos y prolijos, y no sabes cómo resumirlos en frases breves adecuadas para el vídeo.",
+        "Antes de crear las imágenes tú mismo o encargarlas a alguien, quieres aclarar los personajes, la imagen y el sonido de cada escena."
+    ],
+    "problems": [
+        {
+            "pain": "Has escrito un buen fragmento de historia, pero no sabes si la imagen debe acercarse o alejarse de los personajes y no distingues un plano general de un primer plano.",
+            "solve": "La IA los divide en planos individuales y ordenados, e indica el tipo de plano (la distancia entre la cámara y los personajes) y una descripción concreta de la acción."
+        },
+        {
+            "pain": "Los diálogos de la historia son demasiado largos; en pantalla parecen un texto interminable y el público no termina de leerlos.",
+            "solve": "Los resume para que cada frase no supere los 20 caracteres y señala la emoción y el tono con que habla cada personaje."
+        },
+        {
+            "pain": "No sabes cómo debe ser la imagen para que parezca que hay movimiento, y no distingues un efecto sutil de un gran efecto especial.",
+            "solve": "Indica la intensidad del movimiento en cada plano y distingue si se trata de un leve movimiento del pelo, de personajes que caminan o de efectos especiales complejos."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el lienzo del proyecto.",
+        "Envía al cuadro de diálogo el título de la serie, el episodio, los nombres de los personajes y el contenido de la historia que quieres crear.",
+        "Espera a que la IA genere en el lienzo la configuración de personajes y las tarjetas de texto del storyboard ordenadas por número.",
+        "Revisa el contenido de las tarjetas del lienzo; puedes editar el texto directamente o pedir al asistente que ajuste los detalles.",
+        "Copia o descarga el resultado y úsalo como referencia escrita para preparar después los dibujos y las imágenes."
+    ],
+    "faq": [
+        {
+            "q": "¿Esta habilidad permite crear directamente un vídeo reproducible?",
+            "a": "No genera vídeos directamente. Principalmente organiza tu historia escrita en un storyboard estructurado para que tengas claro qué dibujar en cada escena. Cuando tengas el storyboard, podrás crear después las imágenes o los clips de vídeo."
+        },
+        {
+            "q": "¿Puedo usarla si nunca he escrito un guion y solo tengo una historia normal o una novela?",
+            "a": "Puedes usarla directamente. Solo tienes que enviar un relato cotidiano, un fragmento de novela o un diálogo e indicar los nombres de los personajes. La IA intentará conservar el sentido original y dividirlo en planos que se rodarían en orden."
+        },
+        {
+            "q": "¿Se eliminarán los diálogos demasiado largos de la historia?",
+            "a": "No se eliminan directamente; las frases demasiado largas se resumen automáticamente. Para que el vídeo tenga un ritmo más ágil, la IA comprime los diálogos a un máximo de 20 caracteres y conserva la emoción principal. Si hay que explicar mucho contexto, lo convierte en voz en off sobre la imagen."
+        },
+        {
+            "q": "¿Puedo modificar cada plano generado si no me convence?",
+            "a": "Puedes modificarlo en cualquier momento. Puedes editar directamente las tarjetas de texto en el lienzo o pedir al asistente en el cuadro de diálogo que reajuste un plano concreto. Cambiar una sola tarjeta no afecta al resto del contenido que ya hayas confirmado."
+        }
+    ],
+    "keywords": [
+        "cómo hacer un storyboard de cómic animado",
+        "convertir guion en storyboard",
+        "adaptar novela a cómic animado",
+        "plantilla storyboard cómic animado",
+        "dividir historia en planos",
+        "IA para escribir storyboard"
+    ]
+}

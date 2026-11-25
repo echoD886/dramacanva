@@ -1,0 +1,23 @@
+const messages = {
+    "systemUpdatePhase.idle": "等待检查",
+    "systemUpdatePhase.checking": "正在检查",
+    "systemUpdatePhase.ready": "可更新",
+    "systemUpdatePhase.no_update": "已是最新",
+    "systemUpdatePhase.preflight": "前置检查",
+    "systemUpdatePhase.backing_up": "正在备份",
+    "systemUpdatePhase.pulling": "拉取镜像",
+    "systemUpdatePhase.draining": "停止旧服务",
+    "systemUpdatePhase.migrating": "迁移数据库",
+    "systemUpdatePhase.switching": "切换版本",
+    "systemUpdatePhase.verifying": "健康验证",
+    "systemUpdatePhase.succeeded": "更新成功",
+    "systemUpdatePhase.rolling_back": "正在回退",
+    "systemUpdatePhase.rolled_back": "已回退",
+    "systemUpdatePhase.failed": "更新失败",
+    "systemUpdatePhase.manual_intervention": "需人工介入",
+    "systemUpdatePhase.waiting": "等待执行",
+    "systemUpdatePhase.passed": "通过",
+    "systemUpdatePhase.checkFailed": "失败",
+    "systemUpdatePhase.pending": "待执行",
+} as const;
+export default messages;

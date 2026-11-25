@@ -1,0 +1,23 @@
+const messages = {
+    "systemUpdatePhase.idle": "Awaiting check",
+    "systemUpdatePhase.checking": "Checking",
+    "systemUpdatePhase.ready": "Update available",
+    "systemUpdatePhase.no_update": "Up to date",
+    "systemUpdatePhase.preflight": "Preflight checks",
+    "systemUpdatePhase.backing_up": "Backing up",
+    "systemUpdatePhase.pulling": "Pulling image",
+    "systemUpdatePhase.draining": "Stopping old service",
+    "systemUpdatePhase.migrating": "Migrating database",
+    "systemUpdatePhase.switching": "Switching version",
+    "systemUpdatePhase.verifying": "Verifying health",
+    "systemUpdatePhase.succeeded": "Update succeeded",
+    "systemUpdatePhase.rolling_back": "Rolling back",
+    "systemUpdatePhase.rolled_back": "Rolled back",
+    "systemUpdatePhase.failed": "Update failed",
+    "systemUpdatePhase.manual_intervention": "Manual intervention required",
+    "systemUpdatePhase.waiting": "Awaiting execution",
+    "systemUpdatePhase.passed": "Passed",
+    "systemUpdatePhase.checkFailed": "Failed",
+    "systemUpdatePhase.pending": "Pending",
+} as const;
+export default messages;

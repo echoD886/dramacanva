@@ -1,0 +1,66 @@
+{
+    "title": "Local image edits: mark spots, change only what you specify",
+    "metaDescription": "Tweak small image details: mark spots on the {brand} canvas and add instructions. The original stays intact; a new image changes only what you specify.",
+    "oneLiner": "For anyone who wants local retouching: mark the spot and notes on the image, and get a new edited version.",
+    "intro": [
+        "This is a tool that helps you modify small details in an image. If a character's pose is wrong, you want to change a clothing color, or there is extra clutter in the background, you don't need to redraw the whole image. Just change the parts that need to be different.",
+        "You only need one image you want to edit. Open it on the canvas, place numbered points on the areas you want to change, and write one edit instruction for each point, such as \"change to a black jacket.\"",
+        "After you confirm, the canvas will generate a new edited image for you. The new image will not contain the marker dots, so the picture stays clean. The original image is fully preserved so you can compare it or download the new image."
+    ],
+    "example": {
+        "input": "Upload an image of a traditional-style inn, place point 1 on the table and write \"remove the modern water bottle,\" and place point 2 on the wall and write \"hang a wooden sword.\"",
+        "output": "A new image is generated on the canvas: the water bottle on the table is gone, a wooden sword has been added to the wall, the other characters and background stay as close to the original as possible, and the original image is still on the canvas."
+    },
+    "scenarios": [
+        "You want to fine-tune a drawn character's clothing color or hairstyle without changing the character's face and background.",
+        "There are out-of-place items in the scene, and you want to replace them with props that fit the time period.",
+        "A supporting character's pose is wrong, and you want to edit only that person without redoing the whole image.",
+        "You want to add a prop to a character's hand or replace text on a background sign."
+    ],
+    "problems": [
+        {
+            "pain": "If you only describe where to edit in text, AI can easily change the wrong area.",
+            "solve": "Mark numbered points directly on the image and write instructions to tell AI exactly which spot should change and how."
+        },
+        {
+            "pain": "There are two or three small flaws you want to fix, but regenerating changes the whole image.",
+            "solve": "You can mark multiple numbered points and write separate instructions for each one, generating a new image with several detail fixes at once."
+        },
+        {
+            "pain": "You're worried the original image will be overwritten or the marker dots will be drawn into the new image.",
+            "solve": "The original image stays on the canvas, and the generated new image shows only the edits without keeping the marker dots."
+        }
+    ],
+    "steps": [
+        "In the Skill Library, click \"Use this skill\" and upload or select the image you want to edit on the canvas.",
+        "Open the image annotation interface, place numbered points on the areas you want to change, and write clear edit instructions.",
+        "Confirm the marked points and instructions, then let the assistant start generating the edited image.",
+        "View the generated image on the canvas, compare the result, and download it once you're satisfied."
+    ],
+    "faq": [
+        {
+            "q": "Will the numbers and dots I mark on the image be drawn into the new image?",
+            "a": "They will not be drawn into the new image. The system automatically removes marker dots, numbers, and guide lines during generation, and the final result shows only the edits you requested. The newly generated image stays clean and tidy with no trace of the markings, so you can use it with confidence."
+        },
+        {
+            "q": "Will the original image be overwritten after I make edits?",
+            "a": "The original image will not be overwritten. After the edit is complete, the canvas generates a brand-new image beside it, and both your original image and the annotation record are fully preserved. You can compare the new image and the original on the canvas at any time, and download the new image directly once you're satisfied."
+        },
+        {
+            "q": "Can I mark several places to edit on one image at the same time?",
+            "a": "You can edit multiple places at the same time. You can mark multiple numbered points on the image in order and write different edit instructions for each point. After you confirm, the system processes all marked points at once and generates a new image, so you don't need to submit repeatedly in multiple rounds."
+        },
+        {
+            "q": "How can I use AI to edit only part of an image without changing the rest of the picture?",
+            "a": "Place numbered points on the areas that need edits and write clear instructions. The system regenerates only the marked areas and tries to keep the rest of the image unchanged. If you're not satisfied with a local detail after generation, you can fine-tune that point's text instructions and generate again."
+        }
+    ],
+    "keywords": [
+        "AI local image editing",
+        "edit image with markers",
+        "AI image edit keep background",
+        "local image replacement",
+        "edit image by location",
+        "AI photo editor remove objects"
+    ]
+}

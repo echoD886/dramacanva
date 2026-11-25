@@ -1,0 +1,67 @@
+{
+    "title": "Anuncios IA de snacks y belleza: storyboard 12 s",
+    "metaDescription": "Creadores y marcas de snacks, belleza y bebidas: con info o foto, la IA planifica 10 planos rápidos y genera clips; ordénalos y exporta el anuncio de 12 s.",
+    "oneLiner": "Introduce info de snacks y belleza: la IA crea para creadores el plan de planos y clips de un anuncio de 12 s.",
+    "intro": [
+        "Herramienta publicitaria para vendedores de snacks, belleza y bebidas: introduce los puntos de venta, divide el anuncio en 10 planos rápidos, añade acciones exageradas como abrir de un tirón o hacer que el relleno explote y planifica escenas de dibujos animados de colores vivos.",
+        "En el chat puedes indicar el nombre del producto, sus puntos de venta y el estilo deseado, y adjuntar una foto del producto. Si no tienes una foto, la IA también puede generar primero en el lienzo una imagen de referencia sobre fondo blanco.",
+        "Al terminar, recibirás en el lienzo una tabla de storyboard (que divide el vídeo en planos y detalla imagen y sonido) y 10 clips de vídeo; solo tienes que ordenarlos en la línea de tiempo y exportar el anuncio."
+    ],
+    "example": {
+        "input": "Gomitas rellenas de fresa, destaca la sensación de zumo al morder y que el relleno explote, con una paleta viva de rosa y verde y elementos de grafiti estadounidense, estilo alegre y ligero; adjunta una foto de las gomitas.",
+        "output": "En el lienzo se genera una tabla con 10 planos que detalla primeros planos y efectos de sonido de explosión de relleno; tras confirmar, se generan 10 tarjetas de clips de vídeo correspondientes."
+    },
+    "scenarios": [
+        "Lanzamiento de un nuevo snack; quieren un anuncio corto con imágenes impactantes como abrir el envase de un tirón o el relleno explotando.",
+        "Nuevos productos de maquillaje y cuidado de la piel; quieren un vídeo visual de colores vivos que combine imagen real y dibujo 2D a mano.",
+        "Promoción de bebidas frías o zumos; quieren destacar planos rápidos refrescantes y estimulantes como la bebida saliendo al abrir y el hielo salpicando.",
+        "Solo tienen una imagen del producto y quieren planificar rápido un anuncio de 10 planos y generar el vídeo."
+    ],
+    "problems": [
+        {
+            "pain": "La presentación normal del producto es demasiado sosa y cuesta retener a la gente en plataformas de vídeo corto.",
+            "solve": "Diseña 10 planos rápidos y añade desgarros, explosiones de relleno y grafitis vivos para que las acciones resulten exageradas y llamativas."
+        },
+        {
+            "pain": "Quieren un anuncio que combine dibujo a mano y grafiti con imagen real, pero no saben cómo organizar los planos.",
+            "solve": "Divide 12 s en 10 planos e indica detalles visuales y efectos de sonido; tras confirmar, genera directamente los clips correspondientes."
+        },
+        {
+            "pain": "No tienen una foto atractiva del producto y temen que las imágenes de la IA no se parezcan a su artículo.",
+            "solve": "Basta con subir una foto normal para que la IA reconozca el aspecto; si falta una imagen adecuada, la IA también puede generar primero una referencia sobre fondo blanco."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y abre el chat a la derecha del lienzo de {brand}.",
+        "Envía el nombre del producto, sus puntos de venta y el estilo deseado, y adjunta una foto del producto.",
+        "Revisa la tabla de planificación de 10 planos generada en el lienzo y confirma el diseño de imágenes y acciones.",
+        "Tras confirmar, pide a la IA que genere los clips de cada plano; puedes reintentar por separado los que no te convenzan.",
+        "Ordena los clips en la línea de tiempo y expórtalos para completar el anuncio de vídeo de 12 s."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo hacer con IA un vídeo corto de snacks y bebidas de colores vivos?",
+            "a": "En la parte derecha del lienzo de {brand}, introduce los puntos de venta y el estilo del producto y adjunta una foto; la IA generará primero una tabla de 10 planos y después los clips correspondientes. Por último, ordena esos clips en la línea de tiempo de vídeo y podrás exportar el anuncio de 12 s."
+        },
+        {
+            "q": "¿Puedo hacer un vídeo si solo tengo una foto normal hecha con el móvil?",
+            "a": "Sí. Envía la foto del producto en el chat y la IA reconocerá las características del envase para planificar los 10 planos y generar los clips. Si la foto tiene un fondo complejo o no tienes una imagen adecuada, la IA también puede ayudar a generar primero en el lienzo una imagen sobre fondo blanco como referencia."
+        },
+        {
+            "q": "¿Los vídeos generados incluyen locución o música de fondo?",
+            "a": "No incluyen locución ni música final; esta habilidad solo genera los clips de imagen y la IA no admite por ahora locución por separado. Pero en la tabla de storyboard detallará para cada plano sugerencias de efectos de sonido y el ritmo musical, para que añadas el audio tú mismo después de exportar el vídeo."
+        },
+        {
+            "q": "¿Puedo usar esta función para electrodomésticos, productos digitales o vídeos largos?",
+            "a": "No es adecuada: esta habilidad está diseñada específicamente para productos de consumo rápido como snacks, cosmética y bebidas, y no procesa otras categorías ni anuncios de vídeo largos. Se centra en acciones exageradas y rápidas de 12 s, como abrir el envase o el relleno explotando; para productos que no son de consumo rápido, se recomienda crear con el flujo habitual en el lienzo."
+        }
+    ],
+    "keywords": [
+        "anuncios de snacks con IA",
+        "cómo hacer un anuncio de 12 segundos",
+        "storyboard para anuncios de snacks",
+        "vídeos publicitarios de producto con IA",
+        "publicidad de belleza con IA",
+        "planos rápidos para vídeos cortos"
+    ]
+}

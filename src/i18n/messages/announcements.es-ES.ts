@@ -1,0 +1,20 @@
+const announcements = {
+    "announcements.title": "Avisos del sistema",
+    "announcements.loadFailure": "No se pudieron cargar los avisos",
+    "announcements.unread": "Avisos del sistema, sin leer: {count}",
+    "announcements.info": "Aviso de la plataforma",
+    "announcements.success": "Servicio restablecido",
+    "announcements.warning": "Aviso de servicio",
+    "announcements.critical": "Aviso importante",
+    "announcements.currentCount": "Avisos actuales: {count}",
+    "announcements.noCurrent": "No hay avisos activos",
+    "announcements.loading": "Cargando avisos",
+    "announcements.errorTitle": "No se pudieron cargar los avisos",
+    "announcements.empty": "No hay avisos del sistema",
+    "announcements.emptyHint": "Las novedades del servicio aparecerán aquí",
+    "announcements.pinned": "Fijado",
+    "announcements.imageAlt": "Imagen de {title}",
+    "announcements.justNow": "Ahora mismo",
+    "announcements.publishedTime": "{relative} · {date}",
+} as const;
+export default announcements;

@@ -1,0 +1,546 @@
+{
+  "comfyui-workflow": {
+    "zh-CN": {
+      "seo": {
+        "title": "ComfyUI 工作流导出 API 与短剧镜头制作教程",
+        "description": "掌握 ComfyUI 工作流制作短剧镜头的完整步骤：从导出 API 格式 JSON、排查显存与种子常见问题，到使用 ComfyUI Bridge 接入 DramaCanvas 画布，把参考素材与控制参数接入工作流节点，用自己的设备算力推进短剧镜头制作。",
+        "keywords": "comfyui 工作流, comfyui 教程, comfyui 视频, comfyui api, comfyui 云端, 短剧分镜, 镜头制作"
+      },
+      "h1": "用 ComfyUI 工作流制作短剧镜头：从导出 API JSON 到画布运行",
+      "faq": [
+        {
+          "q": "什么是 ComfyUI 工作流？普通保存的 JSON 和 API JSON 有什么区别？",
+          "a": "ComfyUI 工作流是由功能节点与连线构成的自动化生成流程。普通保存的 JSON 包含用于界面排布的坐标与折叠状态等 UI 数据；而 API 格式的 JSON 剔除了界面代码，仅保留计算图节点之间的连接关系与参数输入，是外部程序准确调用 ComfyUI 的标准格式。新版界面在顶部菜单 Workflow（部分版本叫 File）→ Export (API)；如果菜单里找不到，再到设置里打开 Dev Mode。"
+        },
+        {
+          "q": "制作短剧视频镜头时经常遇到显存报错，应该怎么解决？",
+          "a": "视频工作流通常需要较大显存，生成动态镜头时尤其吃显存。建议先降低单镜头帧数与画面分辨率，将长镜头切为短片段渲染；排查构图与动态时先用适中画质跑通流程，待节奏满意后，再在后段接入放大节点提升清晰度。"
+        },
+        {
+          "q": "在云端服务器部署 ComfyUI 和在本地运行相比有哪些取舍？",
+          "a": "在云端部署 ComfyUI 能摆脱本地电脑配置限制，适合长时间渲染或批量出图。但云端服务器需要创作者自行租用并按服务商自身的规则支付算力费用，同时模型和出图需要网络传输；而在本地调试工作流响应更快，改动反馈更加直接。"
+        },
+        {
+          "q": "在 DramaCanvas 中通过 ComfyUI Bridge 运行工作流会扣除平台积分吗？",
+          "a": "通过 ComfyUI Bridge 或 RunningHub 运行工作流，DramaCanvas 不扣积分；RunningHub 按自己的规则收费；ComfyUI 跑在自己电脑或自己租的服务器上，成本自负。"
+        },
+        {
+          "q": "运行 ComfyUI Bridge 需要把电脑端口暴露到公网吗？是否安全？",
+          "a": "不需要暴露内网端口。ComfyUI Bridge 由本地主动连接云端领取任务，不需要公网端口映射或内网穿透。生成的访问令牌在注册时只展示一次，且严格限定在个人账号下使用，可在设置面板中随时撤销使其立即失效。"
+        }
+      ]
+    },
+    "zh-HK": {
+      "seo": {
+        "title": "ComfyUI 工作流教學：短劇鏡頭與影片生成實戰",
+        "description": "這篇 ComfyUI 教學詳細拆解短劇鏡頭製作：由導出 API JSON 工作流、避開隨機種子與顯存陷阱，到在本機、區網或雲端伺服器運行。你亦能透過 DramaCanvas 的 ComfyUI Bridge 插件將工作流接入畫布，串接角色參考圖生成連貫的短劇影片。",
+        "keywords": "comfyui 工作流, comfyui 教學, comfyui 影片, comfyui api 導出, 短劇分鏡製作, comfyui bridge, ai 短劇影片"
+      },
+      "h1": "ComfyUI 工作流教學：由導出 API JSON 到畫布運行短劇鏡頭",
+      "faq": [
+        {
+          "q": "什麼是 ComfyUI 工作流？跟一般的 AI 繪圖介面有什麼不同？",
+          "a": "ComfyUI 工作流是將圖像或影片生成的步驟拆解為獨立的節點管線。一般繪圖介面通常只提供固定的文字提示詞欄位，而工作流讓創作者自由串接提示詞、角色參考圖、取樣演算法與放大外掛，能更精準控制鏡頭構圖與動作連貫度。"
+        },
+        {
+          "q": "在 ComfyUI 裡製作短劇鏡頭，該如何使用角色參考圖？",
+          "a": "常見做法是在工作流中加入參考圖載入節點，並連線至特徵提取或注意力引導模組。在輸入參考圖前，建議先裁切成符合短劇規格的 9:16 豎屏比例，有助於模型更穩定地捕捉主角外貌特徵，減少臉部拉伸走樣。"
+        },
+        {
+          "q": "可以在雲端伺服器運行 ComfyUI 嗎？建置上有何建議？",
+          "a": "可以。許多短劇團隊會租用具備獨立 GPU 的 Linux 雲端伺服器部署 ComfyUI。下載 Bridge 時，Linux 是原生程序、有多種架構可選，雲伺服器通常選 x64。Bridge 通信由本地主動連接雲端領取任務，不需要公網端口映射或內網穿透。"
+        },
+        {
+          "q": "運行工作流需要付費嗎？DramaCanvas 會扣除積分嗎？",
+          "a": "通過 ComfyUI Bridge 或 RunningHub 運行工作流，DramaCanvas 不扣積分；RunningHub 按自己的規則收費；ComfyUI 跑在自己電腦或自己租的伺服器上，成本自負。"
+        },
+        {
+          "q": "在 DramaCanvas 畫布裡找不到「工作流」節點是什麼原因？",
+          "a": "在添加節點選單的「工作流」裡添加工作流節點（RunningHub 和 ComfyUI 共用）；如果看不到這個入口，請在畫布頂欄切換到「專業模式」（若當前處於「簡潔模式」）。"
+        },
+        {
+          "q": "如果修改了 ComfyUI 的服務地址或工作流目錄，需要重新註冊 Bridge 嗎？",
+          "a": "不需要重新建立帳號，但需要在設定頁修改連線地址或目錄路徑。保存修改後，系統會生成新的啟動命令，複製該命令並在你的機器上重新啟動 Bridge 程式即可正常連線。"
+        }
+      ]
+    },
+    "zh-TW": {
+      "seo": {
+        "title": "ComfyUI 工作流教學：API 匯出與雲端運行短劇鏡頭",
+        "description": "掌握 ComfyUI 工作流製作短劇鏡頭的具體步驟，從正確匯出 API 格式 JSON，到評估本機與雲端伺服器的部署差異。內容涵蓋隨機種子、參考圖比例與顯存控制等常見實作細節，並說明如何在 DramaCanvas 中透過 Bridge 串接節點，在畫布上直接連線素材生成短劇影片與分鏡。",
+        "keywords": "comfyui 教學, comfyui 工作流, comfyui 影片, comfyui 雲端, 短劇分鏡, api 匯出, 節點配置"
+      },
+      "h1": "用 ComfyUI 工作流製作短劇鏡頭：從 API 匯出到雲端畫布實作教學",
+      "faq": [
+        {
+          "q": "ComfyUI 工作流是什麼？跟一般的生圖工具介面有何不同？",
+          "a": "一般生圖工具通常將參數固定在單一表單中，創作者只能輸入提示詞並調整少數滑桿。ComfyUI 工作流則是將模型載入、特徵提示、採樣計算與影像解碼等步驟拆解為相互連線的節點，讓你能針對短劇角色特徵、構圖控制與影片轉化進行更細緻的模組化調度。"
+        },
+        {
+          "q": "在 ComfyUI 製作短劇鏡頭時，該如何穩定傳入角色參考圖？",
+          "a": "通常會在工作流中加入載入影像節點，並連線至特徵提取外掛（例如 IP-Adapter 等節點），將主角面部或服裝特徵注入採樣流程。在 DramaCanvas 畫布中，連到節點上的參考圖片會按欄位配置自動填入工作流對應輸入（連到工作流節點並自動填入的支援參考圖片、參考視頻、參考音頻和蒙版）。"
+        },
+        {
+          "q": "電腦顯卡效能不足以跑影片工作流時，該如何在雲端伺服器運行 ComfyUI？",
+          "a": "你可以在雲端平台租用具備 GPU 的 Linux 伺服器，在主機上部署 ComfyUI 及所需模型。接著在該伺服器上下載 Linux 版本的 ComfyUI Bridge（Linux 是原生程式、有多種架構可選，雲端伺服器通常選 x64），執行啟動指令後即可將遠端算力串聯回你的 DramaCanvas 畫布進行運算。"
+        },
+        {
+          "q": "在雲端運行 ComfyUI 需要付費嗎？DramaCanvas 會額外收取費用嗎？",
+          "a": "透過 ComfyUI Bridge 或 RunningHub 運行工作流，DramaCanvas 不扣積分；RunningHub 按自己的規則收費；ComfyUI 跑在自己電腦或自己租的伺服器上，成本自負（例如本機電費或雲端伺服器租金）。"
+        },
+        {
+          "q": "架設與串接 ComfyUI 工作流需要具備程式碼開發能力嗎？",
+          "a": "不需要撰寫程式碼。ComfyUI 本身是以圖形化節點介面操作，而 DramaCanvas 的 Bridge 客戶端在 Windows 上是獨立程式；Linux 是原生程式、有多種架構可選（雲端伺服器通常選 x64），無須配置 Node.js 或 npm 環境，只需在終端機中貼上設定頁產生的指令即可啟動。"
+        },
+        {
+          "q": "為什麼將 ComfyUI 匯出的 API JSON 放入外掛後，執行時會報錯提示缺少節點？",
+          "a": "這通常是因為工作流中包含了自訂第三方節點（Custom Nodes），而運作該 Bridge 的 ComfyUI 環境中尚未安裝這些擴充套件。請檢查報錯訊息中提到的節點類別名稱，在該台 ComfyUI 主機的 custom_nodes 目錄中補齊對應的外掛後再重新執行。"
+        }
+      ]
+    },
+    "en-US": {
+      "seo": {
+        "title": "ComfyUI Workflow: Export API JSON for Video Storyboards",
+        "description": "Export your ComfyUI workflow as API JSON, handle seed and aspect ratio pitfalls, and run custom video nodes directly inside your DramaCanvas storyboard.",
+        "keywords": "comfyui workflow, comfyui cloud, comfyui api, comfyui video, comfyui storyboard, comfyui api json, self hosted comfyui"
+      },
+      "h1": "Turn Your ComfyUI Workflow into Reusable Short Drama Shots",
+      "faq": [
+        {
+          "q": "What is a workflow in ComfyUI and how does it differ from a prompt box?",
+          "a": "A ComfyUI workflow is a modular node graph that maps the computational pipeline of generative models—from checkpoint loading and conditioning to latent sampling and decoding. Unlike fixed prompt boxes, ComfyUI lets you inspect, rewire, and customize each stage of image and video synthesis. This flexibility helps creators build repeatable pipelines for multi-shot narrative continuity."
+        },
+        {
+          "q": "How do I use reference images in ComfyUI for short drama shots?",
+          "a": "Pass character reference images into conditioning nodes such as IP-Adapter or ControlNet before running the sampling step. Always match your reference image aspect ratio to your output format—such as 9:16 for vertical short dramas—to prevent unwanted distortion or facial stretching. If facial features drift across takes, adjust prompt emphasis, refine reference weights, or test an alternate clean portrait."
+        },
+        {
+          "q": "Can ComfyUI be self-hosted, and what hardware is needed for video production?",
+          "a": "Yes, ComfyUI can be self-hosted on your own hardware without external server dependencies. While static image generation can run on standard graphics cards, video workflows typically require substantial graphics memory to prevent out-of-memory errors during latent decoding."
+        },
+        {
+          "q": "How to run ComfyUI on cloud servers and what does it typically cost?",
+          "a": "You can run ComfyUI on cloud GPU providers by deploying an instance with a graphics card, setting up ComfyUI with your required models, and launching the server with listening flags enabled. Rental pricing depends on the provider and the selected GPU specifications, and you pay the cloud provider directly based on their billing rates."
+        },
+        {
+          "q": "Is cloud ComfyUI free, and does DramaCanvas charge fees for running workflows?",
+          "a": "DramaCanvas does not deduct credits for running workflows through ComfyUI Bridge or RunningHub. RunningHub charges separately according to its own pricing rules. For ComfyUI, whether you run it on your own local computer or rent a cloud server, you cover your own hardware and hosting costs."
+        },
+        {
+          "q": "Why does my exported API JSON fail or show missing inputs when executed externally?",
+          "a": "This issue typically occurs if the workflow was saved using standard 'Save' rather than 'Export (API)' (found in the top menu under Workflow, or File in some versions; if missing from the menu, enable Dev Mode in Settings), leaving behind visual UI data that API backends cannot process. It can also happen if custom nodes referenced in the JSON are missing from your ComfyUI setup or if input fields were renamed. Check your ComfyUI terminal console to identify missing node dependencies."
+        }
+      ]
+    },
+    "ja-JP": {
+      "seo": {
+        "title": "ComfyUIワークフローの使い方：API出力から短編ドラマへ",
+        "description": "ComfyUIで組んだ画像や動画の生成手順をAPI形式のJSONとして書き出し、絵コンテの画面上で直接動かせるようにまとめました。顔立ちの崩れを防ぐ設定や縦型構図での注意点を押さえながら、自前のパソコンやサーバーを使って納得のいくドラマのカットを仕上げられます。",
+        "keywords": "comfyui 使い方, comfyui ワークフロー, comfyui 動画, comfyui クラウド, comfyui api json, 自宅サーバー comfyui, 短編ドラマ 分鏡"
+      },
+      "h1": "ComfyUIワークフローを短編ドラマ作りに活用する：API JSON出力からキャンバス連携まで",
+      "faq": [
+        {
+          "q": "ComfyUIのワークフローとは何ですか？通常の画像生成ツールの入力画面と何が違いますか？",
+          "a": "ComfyUIのワークフローとは、モデルの読み込み、テキスト変換、ノイズ計算、画像の復元といった画像生成の各工程をノード同士の配線で組み立てた設計図です。文字を入力して生成ボタンを押すだけの一般的なツールと異なり、途中の計算プロセスに独自の参照画像や構図指定を細かく挟み込めるため、短編ドラマのように同じキャラクターや世界観を何度も揃えて制作する用途に適しています。"
+        },
+        {
+          "q": "短編ドラマのカット作りでキャラクターの参考画像を使うにはどうすればいいですか？",
+          "a": "ControlNetやIP-Adapterなどのノードをワークフロー内に配置し、人物の参照画像をサンプラーの入力に組み込んで生成します。このとき、参考画像のアスペクト比を完成カットと同じ9:16の縦型に整えておくことで、顔立ちや体型の不自然な歪みを防ぎやすくなります。カットごとに顔の特徴がぶれてしまう場合は、プロンプト内の強調表現を見直すか、正面を向いた鮮明な別のポートレート写真に差し替えて調整してください。"
+        },
+        {
+          "q": "自前のPC（セルフホスト）でComfyUIの動画生成を動かすにはどれくらいのスペックが必要ですか？",
+          "a": "静止画の絵コンテ作成であれば一般的なグラフィックボードでも動作しますが、動画ワークフローは通常、より大きなGPUメモリ（VRAM）を必要とします。動画生成モデルを動かす際にメモリ不足によるエラーを避けるには、余裕のあるGPUメモリを備えた環境が推奨されます。GPUメモリが不足気味の場合は、タイリング処理ノードを活用したり、まず低い解像度で動画を生成して後から段階的にアップスケールする構成にすると安定して動作します。"
+        },
+        {
+          "q": "ComfyUIをクラウドサーバーで動かすにはどうすればいいですか？費用はどのくらいかかりますか？",
+          "a": "GPUインスタンスを提供するクラウドサービスで仮想サーバーを契約し、NvidiaドライバとComfyUIをセットアップして起動します。動画ワークフローは通常、より大きなGPUメモリを必要とするため、処理負荷に応じた適切なサーバースペックを選択します。利用料金はクラウド事業者の料金体系に従い、マシンの稼働時間に応じた実費を各クラウド事業者へ直接支払う形になります。"
+        },
+        {
+          "q": "クラウドのComfyUIは無料ですか？DramaCanvasの利用料とどう関係しますか？",
+          "a": "ComfyUI BridgeまたはRunningHub経由でワークフローを実行する場合、DramaCanvasのポイントは消費されません。ComfyUIはご自身のパソコンや契約したサーバー上で動作させるため、ハードウェアやサーバーの運用コストは自己負担となります。また、RunningHubを利用する場合は、RunningHub独自の料金体系に従って直接支払う必要があります。"
+        },
+        {
+          "q": "書き出したAPI JSONを外部から実行しようとするとエラーが出るのはなぜですか？",
+          "a": "通常の「Save」ボタンで書き出したJSONファイルにはUI表示用の画面レイアウト情報が含まれており、外部実行用のAPIが正しく解釈できないことが主な原因です。新バージョンのUIでは、上部メニューの「Workflow」（一部バージョンでは「File」）から「Export (API)」を選択して書き出してください（メニューに見当たらない場合は、設定画面でDev Modeを有効にすると表示されます）。また、JSON内で指定されているカスタムノードが実行側のComfyUI環境にインストールされていない場合も停止するため、コンソールのエラー出力を確認して不足ノードを補ってください。"
+        }
+      ]
+    },
+    "ko-KR": {
+      "seo": {
+        "title": "ComfyUI 워크플로로 숏폼 드라마 컷 만들기: API JSON 가이드",
+        "description": "숏폼 드라마 제작을 위한 ComfyUI 사용법과 API JSON 내보내기 방법, 로컬과 클라우드 환경별 설정과 주의사항을 다룹니다. Bridge로 워크플로를 연동해 캔버스에서 컷을 생성하는 과정까지 정리했습니다.",
+        "keywords": "comfyui 사용법, comfyui 워크플로우, comfyui 워크플로, comfyui 영상, comfyui api json, 숏폼 드라마 ai, comfyui 브릿지, ai 콘티 제작"
+      },
+      "h1": "ComfyUI 워크플로로 숏폼 드라마 컷 만들기: API JSON 내보내기부터 캔버스 연동까지",
+      "faq": [
+        {
+          "q": "ComfyUI에서 워크플로우란 무엇인가요?",
+          "a": "모델 불러오기, 프롬프트 입력, 노이즈 샘플링, 이미지 디코딩 등 이미지 및 영상 생성에 필요한 모든 작업 과정을 노드 형태로 연결해 둔 파이프라인 구조를 뜻합니다. 한 번 짜 둔 워크플로는 파일로 저장해 두고 여러 장면에 동일하게 재사용할 수 있어 일관된 스타일의 숏폼 드라마 컷을 제작할 때 유용합니다."
+        },
+        {
+          "q": "드라마 컷 생성 시 인물 레퍼런스 이미지는 어떻게 활용하나요?",
+          "a": "Load Image 노드로 인물 사진을 불러온 뒤, 이를 IP-Adapter나 컨트롤넷(ControlNet) 노드의 참조 입력 핀에 연결하여 사용합니다. 모델이 텍스트 프롬프트뿐만 아니라 사진 속 얼굴 특징과 헤어스타일, 의상을 함께 참고하도록 구성하면 연속된 컷 사이에서 캐릭터의 외형을 안정적으로 유지하기 쉽습니다."
+        },
+        {
+          "q": "ComfyUI를 클라우드 환경에서 실행하려면 어떻게 하나요?",
+          "a": "RunPod, Vast.ai 등 클라우드 GPU 대여 서비스의 가상 머신에 ComfyUI를 설치하고 웹 포트를 열어 접속하는 방식으로 운영할 수 있습니다. 사내 데스크톱 사양이 부족하거나 대량의 고해상도 영상을 빠르게 렌더링해야 할 때 필요한 시간만큼만 연산 자원을 빌려 쓰는 방식이 일반적입니다."
+        },
+        {
+          "q": "클라우드 ComfyUI를 이용하는 데 드는 비용은 어느 정도인가요? 완전 무료인가요?",
+          "a": "ComfyUI Bridge나 RunningHub를 통해 워크플로를 실행할 때 DramaCanvas에서는 포인트를 차감하지 않습니다. RunningHub를 사용하는 경우 해당 플랫폼의 자체 규칙에 따라 요금이 부과되며, ComfyUI를 개인 컴퓨터나 직접 대여한 클라우드 서버에서 실행하는 경우 하드웨어 및 서버 비용만 자부담하면 됩니다."
+        },
+        {
+          "q": "ComfyUI는 개인 PC나 자체 서버에 직접 설치(Self-hosted)할 수 있나요?",
+          "a": "네, 공식 깃허브 저장소에서 포터블 패키지나 파이썬 환경을 내려받아 개인 PC나 로컬 서버에 직접 설치해 운영할 수 있습니다. 고성능 외장 그래픽카드가 장착된 시스템(비디오 워크플로는 일반적으로 비교적 큰 VRAM이 필요합니다)이라면 별도의 외부 구독료 없이 독립적인 생성 환경을 구축할 수 있습니다."
+        },
+        {
+          "q": "DramaCanvas Bridge를 연결하려면 공유기 포트포워딩을 열어야 하나요?",
+          "a": "외부에서 접속할 수 있도록 공유기 포트를 열 필요가 없습니다. Bridge는 로컬에서 능동적으로 클라우드에 연결하여 작업을 가져오므로, 공용 IP 포트 매핑이나 인트라넷 통과가 필요하지 않아 복잡한 네트워크 설정 없이도 로컬 ComfyUI를 캔버스에 연동할 수 있습니다."
+        }
+      ]
+    },
+    "es-ES": {
+      "seo": {
+        "title": "ComfyUI tutorial: exportar workflow API JSON a vídeo",
+        "description": "Aprende a exportar tu workflow de ComfyUI en formato API JSON, ajustar semillas y referencias para planos de series cortas y conectarlo a tu mesa de trabajo.",
+        "keywords": "comfyui tutorial, comfyui workflow, comfyui online, comfyui vídeo, exportar api json comfyui, comfyui series cortas, comfyui bridge"
+      },
+      "h1": "ComfyUI workflow para planos de series cortas: de la exportación API JSON a la ejecución en lienzo",
+      "faq": [
+        {
+          "q": "¿Qué es un workflow en ComfyUI y por qué conviene usarlo para vídeo?",
+          "a": "Un workflow en ComfyUI es un mapa estructurado de nodos que encadena modelos de difusión, procesadores de texto, imágenes de muestra y muestreadores para calcular fotogramas. En producciones de vídeo para series cortas resulta de gran utilidad porque permite controlar de forma precisa el tiro de cámara, la iluminación y la consistencia del vestuario, facilitando que los elementos visuales se mantengan más estables entre plano y plano."
+        },
+        {
+          "q": "¿Cómo se usan las imágenes de referencia para mantener la continuidad del personaje?",
+          "a": "En ComfyUI las imágenes de referencia se cargan en nodos específicos que transmiten los rasgos visuales a adaptadores de control o capas de estilo. Al conectar imágenes de referencia, vídeos de referencia, audios de referencia o máscaras al nodo de trabajo en DramaCanvas, estos se asignan automáticamente a las entradas correspondientes del flujo según los campos configurados, facilitando mantener la coherencia visual en cada corte del guion."
+        },
+        {
+          "q": "¿Cómo funciona ComfyUI en la nube y cómo se tarifican los costes?",
+          "a": "Consiste en desplegar el entorno en servidores remotos o recurrir a plataformas compatibles de flujos como RunningHub. Al ejecutar flujos de trabajo mediante ComfyUI Bridge o RunningHub, DramaCanvas no descuenta puntos. RunningHub factura según sus propias tarifas y reglas; si ejecutas ComfyUI en tu propio ordenador o en un servidor alquilado por ti, asumes tus propios costes."
+        },
+        {
+          "q": "¿ComfyUI es gratuito o tengo que pagar licencias para usarlo en mi ordenador?",
+          "a": "ComfyUI es una herramienta libre y de código abierto que puedes instalar en tu propio equipo sin abonar licencias de software. El único coste asociado radica en la electricidad y en la compra de la tarjeta gráfica, teniendo en cuenta que los flujos de trabajo de vídeo suelen requerir una gran cantidad de memoria de vídeo (VRAM)."
+        },
+        {
+          "q": "¿Necesito instalar Node.js, Python o compilar código para usar ComfyUI Bridge?",
+          "a": "No requiere instalar Node.js ni compilar código fuente en tu máquina. DramaCanvas facilita un programa independiente para Windows y un programa nativo para Linux con múltiples arquitecturas disponibles (los servidores en la nube suelen elegir x64), que se inician directamente desde la terminal mediante el comando generado en el panel de ajustes."
+        },
+        {
+          "q": "¿Qué ocurre si modifico la carpeta de mis flujos o la dirección de mi ComfyUI?",
+          "a": "Si trasladas la carpeta donde guardas tus archivos JSON de workflow o cambia la dirección de red donde atiende tu servidor de ComfyUI, basta con actualizar esos campos en la sección «ComfyUI Bridge» dentro de los ajustes de DramaCanvas, copiar la nueva orden de inicio y volver a lanzar la aplicación de enlace en tu equipo."
+        }
+      ]
+    },
+    "pt-BR": {
+      "seo": {
+        "title": "ComfyUI Tutorial: Workflow de Vídeo para Cenas",
+        "description": "Aprenda a exportar seu comfyui workflow em formato API, ajustar sementes e referências visuais e executar nós locais na tela de produção do DramaCanvas.",
+        "keywords": "comfyui tutorial, comfyui workflow, comfyui vídeo, comfyui online, drama visual, exportar api json, nós de vídeo"
+      },
+      "h1": "ComfyUI Tutorial: do Workflow em Formato API às Cenas de Vídeo no DramaCanvas",
+      "faq": [
+        {
+          "q": "O que é exatamente um workflow no ComfyUI?",
+          "a": "Trata-se de um conjunto de nós conectados visualmente que descreve cada etapa da geração, desde a leitura dos modelos até o refinamento final dos pixels. Essa organização em blocos permite entender onde cada parâmetro atua e reaproveitar a mesma lógica para manter a consistência de múltiplos planos de cena."
+        },
+        {
+          "q": "Como usar imagens de referência de personagens no ComfyUI?",
+          "a": "A imagem do personagem é carregada por um nó de entrada de mídia e conectada a adaptadores de controle ou condicionamentos de imagem no fluxo. Esse arranjo instrui o modelo a preservar traços fisionômicos, tipo de cabelo e figurino ao longo de diferentes tomadas do roteiro."
+        },
+        {
+          "q": "Vale a pena rodar o ComfyUI na nuvem ou no meu computador?",
+          "a": "Se o seu computador dispõe de uma GPU dedicada de boa capacidade (fluxos de trabalho de vídeo costumam exigir maior capacidade de memória de vídeo), utilizá-lo localmente elimina custos fixos de servidores. Caso trabalhe em um computador básico ou pretenda renderizar sequências de vídeo pesadas, utilizar um servidor em nuvem sob demanda permite produzir sem sobrecarregar seu próprio equipamento, arcando com os custos de uso diretamente junto ao provedor escolhido."
+        },
+        {
+          "q": "O DramaCanvas cobra pelas gerações feitas pelo ComfyUI Bridge ou RunningHub?",
+          "a": "Não. Ao executar fluxos de trabalho via ComfyUI Bridge ou RunningHub, o DramaCanvas não desconta pontos. O RunningHub é cobrado segundo suas próprias regras de tarifação; já o ComfyUI roda no seu próprio computador ou em um servidor contratado por você, sendo os custos computacionais de sua inteira responsabilidade."
+        },
+        {
+          "q": "Por que o salvamento padrão do ComfyUI não funciona no Bridge?",
+          "a": "O salvamento padrão guarda parâmetros de interface do usuário, como posições de caixas e níveis de zoom no navegador. O Bridge requer o formato obtido pela função Export (API), que reúne exclusivamente as instruções lógicas de processamento que o motor interno do ComfyUI precisa interpretar."
+        },
+        {
+          "q": "Posso usar nós customizados instalados no meu ComfyUI?",
+          "a": "Sim. Como a execução das tarefas é realizada diretamente na sua instalação do ComfyUI, todos os nós customizados, modelos e extensões já configurados no seu ambiente funcionarão normalmente quando acionados pelos nós de fluxo de trabalho do DramaCanvas."
+        }
+      ]
+    }
+  },
+  "runninghub": {
+    "zh-CN": {
+      "seo": {
+        "title": "RunningHub教程：API运行ComfyUI工作流做短剧",
+        "description": "通过 RunningHub 的 API 将 ComfyUI 工作流和 AI 应用接入 DramaCanvas 画布，在云端运行短剧所需的角色生图与视频镜头。你在设置中配置积分 Key、上传 Key 与字段映射后即可在工作流节点中调用。通过 RunningHub 或 ComfyUI Bridge 运行工作流，DramaCanvas 不扣积分；RunningHub 的费用按 RunningHub 自己的规则收取。",
+        "keywords": "runninghub,runninghub 教程,runninghub api,runninghub comfyui,短剧分镜,comfyui工作流,云端comfyui"
+      },
+      "h1": "RunningHub 教程：用 API 运行 ComfyUI 工作流与 AI 应用做短剧镜头",
+      "faq": [
+        {
+          "q": "什么是 ComfyUI 工作流？与普通单图生成有什么区别？",
+          "a": "ComfyUI 工作流是用节点和连线搭建的模块化图像与视频生成管线。相比单段提示词出图，工作流能把模型加载、角色参考和动态渲染细致固定下来，在短剧制作中更容易保持多镜头间人物与画风的一致。"
+        },
+        {
+          "q": "为什么使用参考图时必须配置企业级素材上传 Key？",
+          "a": "积分 API Key 仅用于验证身份与调度计算，无法上传二进制文件。短剧所需的参考图片、参考视频、参考音频或蒙版必须先通过企业级素材上传 Key 存入云端资产库，云端节点才能读取该素材进行渲染。"
+        },
+        {
+          "q": "在云端通过 RunningHub 运行 ComfyUI 需要多少费用？DramaCanvas 会收费吗？",
+          "a": "通过 RunningHub 或 ComfyUI Bridge 运行工作流，DramaCanvas 不扣积分；RunningHub 的费用按 RunningHub 自己的规则收取。DramaCanvas 仅作为操作界面，不收取任何运行费用。若积分不足，请求会失败，充值后再试。"
+        },
+        {
+          "q": "我可以不使用 RunningHub，自己在本地运行 ComfyUI 吗？",
+          "a": "可以。若本地电脑拥有性能足够的独立显卡，可在 DramaCanvas 「插件中心」启用 ComfyUI Bridge 插件，将本地服务连入画布工作流节点。通过 RunningHub 或 ComfyUI Bridge 运行工作流，DramaCanvas 都不扣积分，本地运行无需消耗 RunningHub 云端积分。"
+        },
+        {
+          "q": "为什么在短剧画布里找不到添加工作流节点的入口？",
+          "a": "工作流节点仅在「专业模式」下提供。如果添加节点菜单里没有「工作流」，只需在画布顶栏将「简洁模式」切换为「专业模式」即可看到该选项。"
+        },
+        {
+          "q": "运行短剧镜头时如果画面变形或动作走样，该如何微调？",
+          "a": "可以先在节点中点击骰子更换种子重试，或微调正向提示词中的景别与动作描述。若角色面部偏差，检查参考图是否已裁剪为对应画幅比例，或更换一张更清晰的主角参考图重新连线运行。"
+        }
+      ]
+    },
+    "zh-HK": {
+      "seo": {
+        "title": "RunningHub API 教學：雲端工作流製作短劇鏡頭",
+        "description": "這篇 RunningHub 教學示範如何透過 RunningHub API 在雲端調用 ComfyUI 工作流與 AI 應用。內容涵蓋 Workflow 與 WebApp 區別、兩組 API Key 權限分工、常見報錯排查，以及在 DramaCanvas 畫布串接素材生成短劇鏡頭的實操步驟。",
+        "keywords": "runninghub, runninghub 教學, runninghub api, comfyui 線上, comfyui 工作流, runninghub comfyui, 短劇分鏡製作, ai 短劇影片"
+      },
+      "h1": "RunningHub 教學：用 API 雲端運行 ComfyUI 工作流做短劇鏡頭",
+      "faq": [
+        {
+          "q": "ComfyUI 工作流是什麼？RunningHub 在雲端是如何運行它的？",
+          "a": "ComfyUI 工作流是將生成過程拆解為提示詞解析、模型載入、取樣降噪與解碼等模組的節點圖譜。RunningHub 在遠端伺服器上部署了這套節點環境，免去用戶自行安裝顯卡驅動與外掛依賴的繁瑣步驟。透過 RunningHub API 調用時，雲端伺服器會依序執行節點連線運算並傳回鏡頭成品。"
+        },
+        {
+          "q": "透過 RunningHub API 製作短劇鏡頭時，怎樣傳入角色參考圖？",
+          "a": "工作流內部需包含支援圖片輸入的節點，並在個人中心配置好企業級素材上傳 Key。這組密鑰會在工作流執行前，先將參考素材上傳至專用儲存庫。在 DramaCanvas 畫布上，只有連到節點上的參考圖片、參考影片、參考音訊和蒙版會按字段配置自動填入工作流輸入（需要上傳時走企業級素材上傳 Key），直接將畫布上的參考圖連線至節點即可。"
+        },
+        {
+          "q": "RunningHub 雲端運行 ComfyUI 怎樣收費？DramaCanvas 會額外收取費用嗎？",
+          "a": "透過 RunningHub 或 ComfyUI Bridge 運行工作流，DramaCanvas 不扣積分；RunningHub 的費用按 RunningHub 自己的規則收取。創作者可直接在 RunningHub 官網查看積分規則並自行充值。"
+        },
+        {
+          "q": "製作短劇鏡頭時，我應該選擇原生 Workflow 還是 AI 應用（WebApp）？",
+          "a": "若需微調 LoRA 權重、控制取樣步數或精確調節鏡頭運動姿態，選擇原生 Workflow 能獲得充分的控制空間。若只需固定風格的標準出圖，希望介面簡潔便於團隊成員批次產出，封裝好的 AI 應用更為省事。DramaCanvas 支援輸入 workflowId 或 webappId 調用這兩種模式。"
+        },
+        {
+          "q": "如果我有合適的顯示卡設備，可以不依賴 RunningHub 自己部署 ComfyUI 嗎？",
+          "a": "可以。若擁有配備較大顯存的獨立顯卡主機或私有伺服器，可以改用 DramaCanvas 內建的 ComfyUI Bridge 插件。Bridge 會將本機或自建伺服器上的 ComfyUI 服務連入畫布工作流節點，在本地完成運算，無需向第三方平台購買雲端積分。"
+        },
+        {
+          "q": "為什麼 RunningHub 帳號明明還有餘額，調用 API 生成鏡頭時卻提示餘額不足？",
+          "a": "最常見的原因是誤將企業級素材上傳 Key 貼進了積分 API Key 欄位，該密鑰僅用於傳輸檔案，無法發起運算。另一種可能是站點選擇錯誤，例如在中國站購買的積分無法在國際站調用。請核對密鑰配置與站點選項；若確實積分不足，請求會失敗，充值後再試。"
+        }
+      ]
+    },
+    "zh-TW": {
+      "seo": {
+        "title": "RunningHub 接進畫布教學：用 API 跑 ComfyUI 工作流做短劇",
+        "description": "學習將 RunningHub 雲端 ComfyUI 工作流與 AI 應用接進 DramaCanvas 畫布。本文詳細解析 RunningHub API 金鑰配置、素材上傳規格與欄位映射步驟，協助短劇創作者免去本機配置顯卡環境的負擔，在畫布中直接調度雲端工作流，順暢產出角色與場景連貫的短劇分鏡鏡頭。",
+        "keywords": "runninghub, runninghub 教學, runninghub api, comfyui 雲端, 短劇分鏡, 工作流節點, dramacanvas"
+      },
+      "h1": "RunningHub API 接進畫布教學：免裝顯卡跑 ComfyUI 工作流產出短劇鏡頭",
+      "faq": [
+        {
+          "q": "什麼是 ComfyUI 工作流？跟一般的 AI 生圖工具有什麼不同？",
+          "a": "ComfyUI 是一種基於節點架構的視覺化生成工具，創作者能自由組合模型載入、提示詞編碼、採樣器與後處理模組。相較於一般單一輸入框的生圖軟體，ComfyUI 能精確控制多張參考圖權重、分層局部重繪以及運鏡動態，因此在要求角色長相連貫與風格統一的短劇鏡頭製作中特別實用。"
+        },
+        {
+          "q": "使用雲端 RunningHub 跑工作流需要付費嗎？有完全免費的可能嗎？",
+          "a": "通過 RunningHub 或 ComfyUI Bridge 運行工作流，DramaCanvas 不扣積分；RunningHub 的費用按 RunningHub 自己的規則收取。創作者可依自身製作鏡頭的數量與頻率，直接在 RunningHub 平台充值與管理點數。"
+        },
+        {
+          "q": "製作短劇鏡頭時，要在 ComfyUI 工作流裡使用角色參考圖該怎麼傳遞？",
+          "a": "在 DramaCanvas 設定頁中先完成工作流欄位配置。回到畫布後，只有連到節點上的參考圖片、參考視頻、參考音訊和蒙版會按欄位配置自動填入工作流輸入（需要上傳時走企業級素材上傳 Key），系統會在觸發任務時將素材安全上傳至雲端素材庫並送入工作流輸入端。"
+        },
+        {
+          "q": "為什麼在 DramaCanvas 畫布的添加節點選單裡找不到「工作流」？",
+          "a": "這是因為畫布目前處於「簡潔模式」。請查看畫布頂部工具列，將模式切換為「專業模式」，此時展開添加節點選單，即可看到「工作流」並將其加入畫布中使用。"
+        },
+        {
+          "q": "可以在一個 DramaCanvas 專案中保存多個 RunningHub 工作流嗎？",
+          "a": "可以。在 DramaCanvas 的 RunningHub 設定頁中，你可以依據短劇分鏡需求分別建立多個條目，例如專門產出角色全身特寫的圖片工作流、生成環境空鏡的風景工作流，或是將分鏡靜態圖轉為動態片段的影片工作流。在畫布的工作流節點中，只需在下拉選單切換對應的工作流名稱即可。"
+        },
+        {
+          "q": "執行工作流時遇到提示「餘額不足」或任務失敗，該如何初步檢查？",
+          "a": "積分不足時，請求會失敗，充值後再試。若帳號內尚有積分卻出現錯誤提示，最常見的原因是金鑰填寫位置相反。請優先前往設定頁，檢查是否誤將「企業級素材上傳 Key」填入「積分 API Key」欄位，或金鑰前後帶有額外空白字符。其次請確認工作流項目已成功執行「拉取參數」，且各欄位皆已確實映射。"
+        }
+      ]
+    },
+    "en-US": {
+      "seo": {
+        "title": "RunningHub API: Run ComfyUI Workflows for Video Shots",
+        "description": "Run cloud ComfyUI setups on RunningHub via API without managing GPU hardware. Connect your parameters to generate consistent short drama images and video clips.",
+        "keywords": "runninghub, runninghub api, runninghub comfyui, runninghub workflow, cloud comfyui, comfyui api, ai video generation, runninghub webapp"
+      },
+      "h1": "Run RunningHub ComfyUI Workflows and WebApps via API",
+      "faq": [
+        {
+          "q": "What is a workflow in ComfyUI, and how does RunningHub run it?",
+          "a": "A ComfyUI workflow is a modular visual graph where individual nodes handle specific parts of the generation process, such as prompt encoding, model loading, sampling, and upscaling. RunningHub replicates this node environment in the cloud so you can run the same workflow structures without maintaining local GPUs or installing custom libraries. When you call a workflow through the RunningHub API, the cloud runner executes each node in sequence and returns the final media output."
+        },
+        {
+          "q": "How do I use character reference images through the RunningHub API?",
+          "a": "To use reference images, your RunningHub workflow must include an input node designed for image loading, such as an image upload or face reference node. You must also configure your Enterprise Asset Upload Key, which uploads the media file to RunningHub before the workflow runs. On the DramaCanvas board, connect a reference image to the Workflow node, and it will automatically populate the workflow input according to your field configuration (routed through the Enterprise Asset Upload Key when upload is required). Text cards or prompts cannot be connected into workflow inputs."
+        },
+        {
+          "q": "How much does cloud ComfyUI cost on RunningHub, and does DramaCanvas charge extra?",
+          "a": "Running workflows through RunningHub or ComfyUI Bridge does not deduct DramaCanvas credits. RunningHub charges fees according to its own rules. You can monitor your point balance and top up directly through your RunningHub account dashboard."
+        },
+        {
+          "q": "Should I use a raw RunningHub workflow or an AI web app (webapp)?",
+          "a": "Use a raw workflow when you need complete control over sampling steps, LoRA weights, camera trajectory models, and character consistency nodes for custom shot production. Choose an AI web app (webapp) when you want a streamlined interface with fixed inputs for repetitive generation tasks where underlying node configurations do not need adjustments. Both formats are supported in DramaCanvas by entering either the workflowId or webappId."
+        },
+        {
+          "q": "Can I self-host ComfyUI instead of using RunningHub?",
+          "a": "Yes. If you have a workstation or private server with sufficient graphics hardware, you can use the built-in ComfyUI Bridge plugin in DramaCanvas instead of RunningHub. The Bridge connects your local ComfyUI instance directly to the canvas Workflow node, allowing you to run your own API workflows locally without deducting DramaCanvas credits or purchasing third-party cloud compute points."
+        },
+        {
+          "q": "Why does my task fail with an insufficient balance error when I have points?",
+          "a": "This error most frequently happens when the Points API Key field contains your Enterprise Asset Upload Key, which cannot be used to pay for compute tasks. It can also occur if your account is registered on RunningHub's China site (runninghub.cn) but your settings are pointed to the International site (runninghub.ai), or vice versa. Double-check your key placement and regional domain setting to ensure requests reach the account holding your active points."
+        }
+      ]
+    },
+    "ja-JP": {
+      "seo": {
+        "title": "RunningHubの使い方とAPI連携：短劇カット生成",
+        "description": "RunningHubのワークフローやAIアプリをAPIで呼び出し、短編ドラマのカットを生成する手順を解説します。GPU環境なしで動かす仕組みから、2種類のAPIキーの使い分け、DramaCanvasの画布上で参考画像をつないで実行する具体的な流れまでまとめました。",
+        "keywords": "runninghub, runninghub 使い方, runninghub api, comfyui クラウド, ai 動画生成 ワークフロー, 短劇 分鏡, dramacanvas"
+      },
+      "h1": "RunningHubの使い方：APIでワークフローを呼び出し短劇カットを作る",
+      "faq": [
+        {
+          "q": "RunningHubの利用料金はDramaCanvas側でも請求されますか？",
+          "a": "いいえ、RunningHubまたはComfyUI Bridge経由でワークフローを実行する場合、DramaCanvas側でポイントが差し引かれることはありません。ワークフローの実行費用は、設定したAPIキーを通じてRunningHub自身のルールに従って請求・消費されます。"
+        },
+        {
+          "q": "クラウドでComfyUIワークフローを動かす場合、自前のパソコンにGPUは必要ですか？",
+          "a": "必要ありません。処理自体はRunningHub側のクラウドサーバー上で実行されるため、一般的なスペックのパソコンやブラウザ環境があれば短編ドラマのカット生成を実行できます。"
+        },
+        {
+          "q": "短編ドラマのキャラクターの顔や服装を揃えるために、参考画像を入力するにはどうすればよいですか？",
+          "a": "RunningHub設定で「企業向け素材アップロードキー」を登録し、ワークフローの画像入力ノードにフィールドマッピングを設定します。あとは画布上でキャラクターの設定画像などの参考画像をワークフローノードにつなぐと、フィールド設定に従って自動でクラウドへ渡されます（※ノードに接続して入力できるのは参考画像、参考動画、参考音声、マスクのみです）。"
+        },
+        {
+          "q": "ワークフローID（workflowId）とAIアプリID（webappId）のどちらを使えばよいですか？",
+          "a": "ノード構成や細かなサンプラー数値を自分で調整したい場合はワークフローIDを使用します。特定のスタイル生成など、あらかじめ入力欄が整理された公開アプリを利用したい場合はAIアプリIDを指定してください。"
+        },
+        {
+          "q": "画布のノード追加メニューに「ワークフロー」が表示されないのはなぜですか？",
+          "a": "画布の表示モードが「シンプルモード」になっている可能性があります。キャンバストップバーにある切り替えボタンから「プロフェッショナルモード」へ変更すると、ノード追加メニュー内に「ワークフロー」が表示されます。"
+        },
+        {
+          "q": "APIキーを保存したのにパラメータ取得でエラーが出る場合、何を確認すればよいですか？",
+          "a": "接続先サイト（中国版 runninghub.cn または国際版 runninghub.ai）の選択が、アカウントを作成したサイトと合っているか確認してください。また、入力したID（workflowId / webappId）の前後に不要な空白が含まれていないかもチェックしてください。なお、workflowIdを利用する場合は、事前にRunningHubのWeb画面上で該当のワークフローを手動で1度正常に実行（完走）させておくことが推奨されます。"
+        }
+      ]
+    },
+    "ko-KR": {
+      "seo": {
+        "title": "RunningHub 사용법과 API 연동: 드라마 컷 생성 가이드",
+        "description": "고사양 그래픽카드 없이 클라우드에서 ComfyUI 워크플로를 돌리는 RunningHub 사용법과 API 연동 순서를 정리했습니다. 워크플로 및 AI 웹앱 ID 확인부터 캔버스 노드 연결과 비용 구조까지 실전 위주로 다룹니다.",
+        "keywords": "runninghub, runninghub 사용법, runninghub api, comfyui 클라우드, comfyui 워크플로, 드라마 컷 생성, 숏폼 콘티"
+      },
+      "h1": "RunningHub API 연동 및 워크플로 사용법: 숏폼 드라마 컷 만들기",
+      "faq": [
+        {
+          "q": "RunningHub를 사용하려면 고사양 PC나 그래픽카드가 필요한가요?",
+          "a": "필요하지 않습니다. 모든 ComfyUI 연산과 모델 구동은 RunningHub의 원격 클라우드 GPU에서 처리되므로, 일반 휴대용 노트북이나 사무용 컴퓨터의 웹 브라우저에서도 문제없이 장면을 생성하고 결과를 확인할 수 있습니다."
+        },
+        {
+          "q": "포인트 API 키만 있고 소재 업로드 키가 없어도 실행할 수 있나요?",
+          "a": "텍스트 프롬프트 매개변수만 사용하는 기본 워크플로라면 포인트 API 키만으로도 실행할 수 있습니다. 다만 노드에 연결된 참조 이미지, 참조 비디오, 참조 오디오, 마스크를 워크플로 입력에 자동으로 채워 넣고 업로드하려면 기업용 소재 업로드 키가 반드시 필요합니다."
+        },
+        {
+          "q": "캔버스 노드 추가 메뉴에 '워크플로'가 보이지 않는 이유는 무엇인가요?",
+          "a": "캔버스 작업 모드가 '간단 모드'로 설정되어 있을 가능성이 높습니다. 캔버스 상단 메뉴 바에서 작업 모드를 '전문가 모드'로 전환하면 노드 추가 메뉴에 '워크플로' 항목이 정상적으로 나타납니다."
+        },
+        {
+          "q": "DramaCanvas에서 워크플로를 실행하면 서비스 포인트가 차감되나요?",
+          "a": "차감되지 않습니다. DramaCanvas에서 RunningHub 또는 ComfyUI Bridge를 통해 워크플로를 실행할 때 DramaCanvas 포인트는 차감되지 않습니다. RunningHub 이용 비용은 RunningHub 자체 규칙에 따라 사용자 본인의 RunningHub 계정에서 부과됩니다."
+        },
+        {
+          "q": "연속된 드라마 컷에서 주인공의 얼굴과 스타일을 동일하게 유지할 수 있나요?",
+          "a": "생성형 AI 특성상 완전한 일치를 보장할 수는 없지만, 노드에 캐릭터 원본 참조 이미지를 연결하고 프롬프트를 유지하면 인물 특성을 일관되게 유지하기가 수월해집니다. 결과가 만족스럽지 않다면 시드를 변경하거나 다른 구도의 참조 사진을 연결하여 다시 시도하는 방식을 권장합니다."
+        },
+        {
+          "q": "ComfyUI 워크플로 연동과 AI 웹앱(webapp) 연동 중 어떤 것을 써야 하나요?",
+          "a": "샘플러, 스텝 수, CFG 값 등 세부적인 매개변수를 직접 조율하며 정교한 드라마 컷을 만들고 싶다면 워크플로 연동이 적합합니다. 반면 복잡한 설정 없이 인물 사진과 간단한 지시문만 넣어 규격화된 컷을 생성하고 싶다면 간소화된 AI 웹앱을 연결하는 편이 편리합니다."
+        }
+      ]
+    },
+    "es-ES": {
+      "seo": {
+        "title": "RunningHub API: flujos ComfyUI para planos de drama",
+        "description": "Aprende a ejecutar flujos de ComfyUI en RunningHub mediante API sin tarjeta gráfica local. Conecta parámetros y genera planos consistentes en DramaCanvas.",
+        "keywords": "runninghub, runninghub api, runninghub comfyui, comfyui online, comfyui tutorial, flujos de trabajo comfyui, planos de ficción, comfyui en la nube"
+      },
+      "h1": "Ejecutar flujos de RunningHub ComfyUI y WebApps mediante API",
+      "faq": [
+        {
+          "q": "¿Qué es un workflow en ComfyUI y cómo lo ejecuta RunningHub?",
+          "a": "Un workflow en ComfyUI es un grafo modular donde cada nodo gestiona una fase del proceso, como cargar modelos, acondicionar texto o aplicar muestreadores. RunningHub recrea este entorno en servidores remotos para procesar flujos exigentes sin requerir tarjetas gráficas de gama alta en local. Al invocar el flujo mediante la API de RunningHub, el sistema ejecuta los nodos en la nube y devuelve el archivo resultante."
+        },
+        {
+          "q": "¿Cómo se utilizan imágenes de referencia mediante la API de RunningHub?",
+          "a": "El flujo en RunningHub debe disponer de la entrada correspondiente y requiere configurar la clave empresarial de subida de recursos para alojar los archivos en la nube cuando sea necesario subirlos. En el lienzo de DramaCanvas, solo las imágenes de referencia, vídeos de referencia, audios de referencia y máscaras conectados al nodo de flujo de trabajo se completan automáticamente en las entradas del flujo según la configuración de los campos. Las tarjetas de texto o las indicaciones no se conectan a las entradas del flujo de trabajo."
+        },
+        {
+          "q": "¿Cuánto cuesta usar ComfyUI en la nube con RunningHub y DramaCanvas cobra algo?",
+          "a": "Al ejecutar flujos de trabajo a través de RunningHub o ComfyUI Bridge, DramaCanvas no descuenta puntos. Las tarifas de RunningHub se cobran según las propias reglas de RunningHub. Si los puntos son insuficientes, la petición fallará; recarga antes de volver a intentarlo."
+        },
+        {
+          "q": "¿Cuándo conviene usar un flujo de trabajo (workflow) y cuándo una aplicación web (webapp)?",
+          "a": "Utiliza un flujo de trabajo cuando necesites calibrar parámetros específicos de muestreo, modelos LoRA, tiros de cámara o consistencia facial para planos concretos. Elige una aplicación web (webapp) si buscas un formulario simplificado con opciones cerradas para tareas habituales donde no se deba modificar la estructura de nodos. Ambos formatos son compatibles en DramaCanvas introduciendo su respectivo identificador."
+        },
+        {
+          "q": "¿Es posible autohospedar ComfyUI en lugar de depender de RunningHub en la nube?",
+          "a": "Sí, puedes autohospedar ComfyUI en un ordenador con tarjeta gráfica dedicada o en un servidor privado mediante el complemento ComfyUI Bridge en DramaCanvas. Esta opción conecta tu instalación local directamente con el lienzo para ejecutar archivos API JSON propios sin adquirir puntos en plataformas en la nube."
+        },
+        {
+          "q": "¿Por qué aparece un error de saldo insuficiente si aún tengo puntos disponibles?",
+          "a": "Este fallo se produce con frecuencia al pegar la clave empresarial de subida en la casilla de la clave API de puntos, ya que la primera no tiene autorización para iniciar cálculos. También ocurre si tu cuenta está registrada en el portal de China (runninghub.cn) pero has seleccionado el portal internacional (runninghub.ai) en los ajustes, o viceversa. Revisa la correspondencia de las claves y el dominio elegido."
+        }
+      ]
+    },
+    "pt-BR": {
+      "seo": {
+        "title": "RunningHub ComfyUI e API: Guia para Cenas Curtas",
+        "description": "Aprenda a rodar fluxos do ComfyUI na nuvem com a RunningHub API, mapear parâmetros e gerar cenas de séries curtas no DramaCanvas sem depender de GPU local.",
+        "keywords": "runninghub, runninghub api, runninghub comfyui, comfyui na nuvem, api comfyui, workflow comfyui, dramacanvas runninghub, gerar video ai"
+      },
+      "h1": "RunningHub API e ComfyUI: Como Rodar Workflows na Nuvem para Séries Curtas",
+      "faq": [
+        {
+          "q": "O que é um workflow no ComfyUI?",
+          "a": "Um workflow no ComfyUI é uma sequência visual de blocos interligados chamados nós, onde cada etapa cuida de uma tarefa específica como carregar modelos, processar prompts ou aplicar filtros. Essa estrutura permite montar pipelines personalizados para a geração de imagens, vídeos e áudios com controle detalhado sobre cada parâmetro da cena."
+        },
+        {
+          "q": "Como funcionam as imagens de referência no ComfyUI na nuvem?",
+          "a": "Para usar referências (como imagens de referência, vídeos de referência, áudios de referência ou máscaras) na nuvem da RunningHub, os arquivos precisam ser enviados por meio da Chave Corporativa de Upload de Recursos. No DramaCanvas, ao conectar essas mídias ao nó de fluxo de trabalho, os dados são preenchidos automaticamente nas entradas do fluxo conforme a configuração de campos."
+        },
+        {
+          "q": "Como rodar o ComfyUI na nuvem sem montar um servidor próprio?",
+          "a": "A alternativa mais prática é recorrer a plataformas prontas como a RunningHub, que disponibilizam o ComfyUI já instalado em servidores remotos com GPUs dedicadas. Você pode selecionar fluxos existentes ou carregar os seus próprios, disparando as gerações por meio da interface da plataforma ou via chamadas de API."
+        },
+        {
+          "q": "Rodar o ComfyUI na nuvem pela RunningHub é gratuito?",
+          "a": "Ao executar fluxos de trabalho por meio da RunningHub ou do ComfyUI Bridge, o DramaCanvas não desconta pontos. No entanto, o tempo de processamento é tarifado de acordo com as regras da própria RunningHub. Caso os pontos na RunningHub sejam insuficientes, a requisição falhará; recarregue seus pontos e tente novamente."
+        },
+        {
+          "q": "Posso usar meu próprio computador com ComfyUI em vez da RunningHub?",
+          "a": "Sim. Ao executar fluxos de trabalho por meio do ComfyUI Bridge ou da RunningHub, o DramaCanvas não desconta pontos. O plugin ComfyUI Bridge atende quem prefere rodar fluxos localmente na própria máquina ou em servidor dedicado, enquanto a nuvem da RunningHub elimina a necessidade de instalação e manutenção de placas de vídeo e drivers locais."
+        },
+        {
+          "q": "Por que o nó de fluxo de trabalho não aparece no menu da tela?",
+          "a": "O nó de fluxo de trabalho fica disponível apenas quando a tela de criação está configurada no Modo profissional. Se você estiver utilizando o Modo simples, basta clicar no seletor localizado na barra superior da tela para alternar para o Modo profissional e abrir a opção Fluxo de trabalho no menu de nós."
+        }
+      ]
+    }
+  }
+}

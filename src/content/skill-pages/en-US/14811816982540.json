@@ -1,0 +1,66 @@
+{
+    "title": "{brand} Worldbuilding: Story Rules & Scene Reference Images",
+    "metaDescription": "For creators writing stories or making videos: clarify world rules, catch logic gaps, and generate background setting text plus scene reference images.",
+    "oneLiner": "Enter a story idea to generate background setting cards and scene reference images on the canvas.",
+    "intro": [
+        "This is a creative tool for building story backgrounds. Whether you want to write sci-fi or fantasy, it starts with how people live and how society works to help you shape a believable story world.",
+        "You only need a few story ideas, core concepts, or reference images. If you already have old setting notes written, you can send them in directly and have it find contradictions.",
+        "When it's done, a full set of background setting cards appears on the canvas, spelling out environmental details and local customs, along with clear scene reference images to help you plot the story or create visuals."
+    ],
+    "example": {
+        "input": "I want to write a steam-powered town where it rains heavily year-round, people generate electricity by collecting rainwater, and the wealth gap is wide. I need a set of background settings and a street scene reference image.",
+        "output": "Multiple text cards are generated on the canvas, detailing drainage facilities, residential zones, and daily customs; it also generates a rainy-night street image filled with rusty pipes and flooded roads."
+    },
+    "scenarios": [
+        "When brainstorming a fictional story, you want to establish a believable set of social rules and everyday details.",
+        "When preparing to create visuals, you need to turn vague background ideas into concrete scene reference images.",
+        "When you're halfway through the setting and find contradictions, you want to spot gaps and fill in the missing pieces.",
+        "When the story outline is done, you need clear environment and background material for your team to reference."
+    ],
+    "problems": [
+        {
+            "pain": "Fictional backgrounds come out generic and lack memorable distinguishing features.",
+            "solve": "Derive food, clothing, housing, and transportation from one or two fundamental special rules so customs and environments feel vivid and unique."
+        },
+        {
+            "pain": "You focus only on making the setting cool, and character behavior and the environment often contradict each other.",
+            "solve": "Test the logic against ordinary people's daily needs, find implausible points, and suggest revisions."
+        },
+        {
+            "pain": "The background in your head is abstract, and you don't know how to draw concrete scene images.",
+            "solve": "Turn abstract settings into building materials, lighting, and signs of daily life, and draw scene reference images on the canvas."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill\" to open the {brand} creation canvas.",
+        "Enter your story ideas, core rules, or upload reference images.",
+        "Review the social rules, environmental details, and scene reference images generated on the canvas.",
+        "Check and edit the card content; you can download scene images you're happy with directly."
+    ],
+    "faq": [
+        {
+            "q": "Do I need to invent the entire history of the world to create worldbuilding for a story?",
+            "a": "No. You only need to define the scope your story touches. If the story takes place in a single town, you don't need to invent a thousand years of history for an entire continent. It will outline only the daily rules and environmental details you actually need, based on the story's scale."
+        },
+        {
+            "q": "How can I make a fictional story's background feel real and credible?",
+            "a": "The key is to look at how ordinary people live. First establish one or two fundamental rules, then work out how people eat, dress, earn money, and come into conflict. When everyday details make sense, readers will feel that the world is real."
+        },
+        {
+            "q": "How can I check my existing setting notes for gaps?",
+            "a": "You can send them directly to the assistant for a check. It will see whether settings contradict one another and whether everyday details are complete. If it finds anything implausible, it will point out the issue on the canvas and suggest revisions."
+        },
+        {
+            "q": "Can the generated scene images be used directly to make videos?",
+            "a": "It cannot generate video directly; it produces static scene reference images. These images show the scene's architectural style, lighting, and spatial appearance, so you can use them as visual references when planning shots or drawing visuals."
+        }
+    ],
+    "keywords": [
+        "story worldbuilding",
+        "how to write a fictional world in a novel",
+        "scene reference image generation",
+        "fictional world rules design",
+        "story setting bible",
+        "fix worldbuilding plot holes"
+    ]
+}

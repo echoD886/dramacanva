@@ -1,0 +1,67 @@
+{
+    "title": "Roteiro para storyboard: planos com câmera e duração",
+    "metaDescription": "Para criadores de vídeos: envie diálogos do roteiro, organize posições e olhares no canvas {brand} e gere um storyboard com câmera, enquadramento e duração.",
+    "oneLiner": "Envie diálogos do roteiro e receba um storyboard com câmera, enquadramento e duração.",
+    "intro": [
+        "Esta é uma ferramenta para planejar os enquadramentos: envie o diálogo do roteiro e ela organiza os planos e as posições de câmera no canvas, ideal para criadores de vídeo que não sabem onde colocar a câmera.",
+        "Basta enviar, no lado direito do canvas, o roteiro pronto, um diálogo entre duas pessoas ou descrever diretamente a cena que quer filmar. Não precisa conhecer termos técnicos de filmagem antes; basta contar sua história com clareza.",
+        "Ela gera no canvas cartões detalhados de storyboard, indicando o tamanho do enquadramento de cada plano, o ângulo de posicionamento da câmera, se o plano deve se mover e aproximadamente quantos segundos cada plano dura."
+    ],
+    "example": {
+        "input": "Os protagonistas, homem e mulher, têm uma conversa decisiva de término em um café. A protagonista propõe o término; o protagonista fica atordoado e depois questiona com emoção. Por favor, monte o storyboard.",
+        "output": "No canvas, é gerado um cartão de storyboard: começa por um plano médio para situar os dois, depois corta para um close para mostrar a emoção; indica a direção de cada um para evitar cortes desalinhados; especifica que a câmera fica fixa e a duração de cada plano."
+    },
+    "scenarios": [
+        "Quando você escreveu uma briga ou conversa entre duas pessoas, mas não sabe como cortar os planos e teme que o resultado confunda o espectador.",
+        "Quando o roteiro só tem falas e história, e você não sabe como dividi-lo em um storyboard com imagens de filmagem.",
+        "Quando você hesita entre aproximar ou afastar o enquadramento e não sabe se a câmera deve se mover.",
+        "Quando o roteiro está cheio de descrições psicológicas dos personagens e você não sabe como transformá-las em ações concretas dos atores."
+    ],
+    "problems": [
+        {
+            "pain": "Quando duas pessoas conversam de frente uma para a outra, os cortes podem confundir o espectador.",
+            "solve": "Defina as posições à esquerda e à direita na tela e a direção do olhar de cada um, mantendo a câmera do mesmo lado; assim, a troca de planos fica mais contínua e menos confusa."
+        },
+        {
+            "pain": "Ao escrever o storyboard, você não sabe a que distância colocar a câmera, e o vídeo pode ficar monótono ou sem foco.",
+            "solve": "Comece com um plano médio para situar a relação entre os personagens e depois alterne para closes nos momentos certos, indicando o enquadramento de cada plano."
+        },
+        {
+            "pain": "O roteiro está cheio de descrições psicológicas, e você não sabe como transformá-las em imagens concretas.",
+            "solve": "Remova adjetivos de estados internos invisíveis e converta a emoção em ações físicas visíveis, como deslocamento em cena, pausas e gestos."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para iniciar a criação do storyboard.",
+        "Envie seu trecho de roteiro, o texto do diálogo ou a descrição da cena que deseja filmar.",
+        "Veja a tabela de storyboard, o posicionamento da câmera e os cartões de planos gerados no canvas.",
+        "Diga ao assistente o que quer ajustar e refine a duração dos planos ou o tamanho do enquadramento.",
+        "Copie ou baixe o resultado em texto do storyboard para usar na filmagem ou na produção visual."
+    ],
+    "faq": [
+        {
+            "q": "Mesmo sem entender termos técnicos de posicionamento de câmera, dá para usar a ferramenta para escrever um storyboard?",
+            "a": "Sim. Basta enviar uma narração comum ou falas, e o sistema organiza uma tabela de storyboard com tamanho de enquadramento, posição de câmera e duração. Se algo não ficar claro, você pode continuar perguntando ao assistente no chat; ele explica em linguagem simples e faz as alterações."
+        },
+        {
+            "q": "Como evitar que o espectador se confunda com os cortes no diálogo entre duas pessoas?",
+            "a": "O ponto principal é manter a câmera sempre do mesmo lado da linha imaginária entre as duas pessoas. O sistema indica a posição à esquerda e à direita na tela e a direção do olhar de cada uma. Assim, quando os planos alternam, o olhar dos personagens permanece coerente e é possível evitar ao máximo que o espectador se confunda."
+        },
+        {
+            "q": "Ao planejar o storyboard, quando o plano deve se mover?",
+            "a": "Por padrão, o plano deve ficar o mais fixo possível; só se move quando for necessário acompanhar o deslocamento de um personagem ou mostrar uma ação importante. Mover a câmera sem motivo pode deixar a imagem tremida e dificultar a leitura do foco. Ao incluir um movimento de câmera, o assistente indica a razão narrativa específica."
+        },
+        {
+            "q": "Se o roteiro é cheio de descrições psicológicas, como transformá-lo em planos filmáveis?",
+            "a": "O essencial é converter a atividade mental em ações físicas visíveis. O assistente remove adjetivos abstratos e os reescreve como olhares, pausas ou deslocamentos concretos. Assim, a cena pode ser captada pela câmera e o público consegue entender o que os personagens sentem."
+        }
+    ],
+    "keywords": [
+        "como fazer storyboard",
+        "roteiro para storyboard",
+        "posicionamento de câmera vídeo",
+        "cortes de diálogo cinema",
+        "gerador de storyboard",
+        "tipos de planos e enquadramentos"
+    ]
+}

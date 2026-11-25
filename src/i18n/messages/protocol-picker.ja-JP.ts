@@ -1,0 +1,20 @@
+const protocolPicker = {
+    "protocolPicker.text": "テキスト",
+    "protocolPicker.textDescription": "対話と推論",
+    "protocolPicker.image": "画像",
+    "protocolPicker.imageDescription": "生成と編集",
+    "protocolPicker.video": "動画",
+    "protocolPicker.videoDescription": "生成と延長",
+    "protocolPicker.audio": "音声",
+    "protocolPicker.audioDescription": "音声と効果音",
+    "protocolPicker.capability": "モデル機能",
+    "protocolPicker.requestProtocol": "リクエストプロトコル",
+    "protocolPicker.async": "非同期ポーリング",
+    "protocolPicker.sync": "同期レスポンス",
+    "protocolPicker.configure": "機能とプロトコルを設定",
+    "protocolPicker.apply": "適用",
+    "protocolPicker.protocol": "プロトコル",
+    "protocolPicker.missing": "未インストールのプロトコル",
+    "protocolPicker.choice": "{capability} · {protocol}",
+} as const;
+export default protocolPicker;

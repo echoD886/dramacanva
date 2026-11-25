@@ -1,0 +1,400 @@
+[
+    {
+        "modelCode": "doubao-seed-2-pro",
+        "billingMode": "token",
+        "quotes": [
+            {
+                "credits": 0.00023513195625759416
+            }
+        ]
+    },
+    {
+        "modelCode": "gemini-3.8-flash",
+        "billingMode": "token",
+        "quotes": [
+            {
+                "credits": 0.00022061193666260656
+            }
+        ]
+    },
+    {
+        "modelCode": "gemini-omni-1.1-flash",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 13,
+                "resolution": "720p"
+            }
+        ]
+    },
+    {
+        "modelCode": "gpt-6-sol",
+        "billingMode": "token",
+        "quotes": [
+            {
+                "credits": 0.00021974418604651163
+            }
+        ]
+    },
+    {
+        "modelCode": "gpt-image-2",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 2,
+                "resolution": "1k",
+                "quality": "low"
+            },
+            {
+                "credits": 2,
+                "resolution": "1K",
+                "quality": "low"
+            },
+            {
+                "credits": 2,
+                "resolution": "2k",
+                "quality": "low"
+            },
+            {
+                "credits": 2,
+                "resolution": "4k",
+                "quality": "low"
+            }
+        ]
+    },
+    {
+        "modelCode": "gpt-image-2.5",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 2,
+                "resolution": "1k",
+                "quality": "auto"
+            },
+            {
+                "credits": 3,
+                "resolution": "2k",
+                "quality": "auto"
+            },
+            {
+                "credits": 4,
+                "resolution": "4k",
+                "quality": "auto"
+            }
+        ]
+    },
+    {
+        "modelCode": "gpt-image-2.6",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 2,
+                "resolution": "1k",
+                "quality": "medium"
+            },
+            {
+                "credits": 2,
+                "resolution": "1K",
+                "quality": "medium"
+            },
+            {
+                "credits": 3,
+                "resolution": "2k",
+                "quality": "medium"
+            },
+            {
+                "credits": 4,
+                "resolution": "4k",
+                "quality": "medium"
+            }
+        ]
+    },
+    {
+        "modelCode": "gpt-image-2.6-gif",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 2,
+                "resolution": "1k"
+            },
+            {
+                "credits": 2,
+                "resolution": "1K"
+            },
+            {
+                "credits": 2,
+                "resolution": "2k"
+            },
+            {
+                "credits": 2,
+                "resolution": "4k"
+            }
+        ]
+    },
+    {
+        "modelCode": "grok-video",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 6,
+                "resolution": "480p"
+            },
+            {
+                "credits": 10,
+                "resolution": "720p"
+            },
+            {
+                "credits": 16,
+                "resolution": "1080p"
+            }
+        ]
+    },
+    {
+        "modelCode": "kling-3",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 8,
+                "resolution": "720p"
+            },
+            {
+                "credits": 12,
+                "resolution": "720p"
+            },
+            {
+                "credits": 16,
+                "resolution": "1080p"
+            }
+        ]
+    },
+    {
+        "modelCode": "kling-3-turbo",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 11,
+                "resolution": "720p"
+            },
+            {
+                "credits": 22,
+                "resolution": "1080p"
+            }
+        ]
+    },
+    {
+        "modelCode": "kling-o3",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 12,
+                "resolution": "720p"
+            },
+            {
+                "credits": 17,
+                "resolution": "1080p"
+            }
+        ]
+    },
+    {
+        "modelCode": "midjourney-v7",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 4
+            }
+        ]
+    },
+    {
+        "modelCode": "minimax-h3",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 5,
+                "resolution": "480p"
+            },
+            {
+                "credits": 8,
+                "resolution": "768p"
+            },
+            {
+                "credits": 13,
+                "resolution": "1080p"
+            }
+        ]
+    },
+    {
+        "modelCode": "minimax-h3-max",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 5,
+                "resolution": "480p"
+            },
+            {
+                "credits": 8,
+                "resolution": "720p"
+            },
+            {
+                "credits": 8,
+                "resolution": "768p"
+            }
+        ]
+    },
+    {
+        "modelCode": "nano-banana-2",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 4
+            },
+            {
+                "credits": 4,
+                "resolution": "1k"
+            },
+            {
+                "credits": 5,
+                "resolution": "2k"
+            },
+            {
+                "credits": 6,
+                "resolution": "4k"
+            }
+        ]
+    },
+    {
+        "modelCode": "nano-banana-2.1",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 4,
+                "resolution": "1k"
+            },
+            {
+                "credits": 4,
+                "resolution": "1K"
+            },
+            {
+                "credits": 5,
+                "resolution": "2k"
+            },
+            {
+                "credits": 6,
+                "resolution": "4k"
+            }
+        ]
+    },
+    {
+        "modelCode": "nano-banana-pro",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 5,
+                "resolution": "1k"
+            },
+            {
+                "credits": 6,
+                "resolution": "2k"
+            },
+            {
+                "credits": 7,
+                "resolution": "4k"
+            }
+        ]
+    },
+    {
+        "modelCode": "seedance-2.0",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 10,
+                "resolution": "480p"
+            },
+            {
+                "credits": 20,
+                "resolution": "720p"
+            },
+            {
+                "credits": 50,
+                "resolution": "1080p"
+            }
+        ]
+    },
+    {
+        "modelCode": "seedance-2.0-fast",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 8,
+                "resolution": "480p"
+            },
+            {
+                "credits": 17,
+                "resolution": "720p"
+            }
+        ]
+    },
+    {
+        "modelCode": "seedance-2.0-mini",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 7,
+                "resolution": "480p"
+            },
+            {
+                "credits": 10,
+                "resolution": "720p"
+            }
+        ]
+    },
+    {
+        "modelCode": "seedance-2.5",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 14,
+                "resolution": "480p"
+            },
+            {
+                "credits": 30,
+                "resolution": "720p"
+            },
+            {
+                "credits": 74,
+                "resolution": "1080p"
+            }
+        ]
+    },
+    {
+        "modelCode": "veo-3-1",
+        "billingMode": "fixed_request",
+        "quotes": [
+            {
+                "credits": 16,
+                "resolution": "1080p"
+            },
+            {
+                "credits": 16,
+                "resolution": "720p"
+            }
+        ]
+    },
+    {
+        "modelCode": "wan-3",
+        "billingMode": "per_second",
+        "quotes": [
+            {
+                "credits": 6,
+                "resolution": "480p"
+            },
+            {
+                "credits": 12,
+                "resolution": "720p"
+            },
+            {
+                "credits": 24,
+                "resolution": "1080p"
+            }
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+{
+    "title": "Naming & positioning: name ideas, selling points, slogans",
+    "metaDescription": "For creators launching a new account or product: tell the assistant your idea in {brand} to get positioning, 3 name ideas, and slogan cards on the canvas.",
+    "oneLiner": "For new creators: share your idea, and get name ideas, positioning, and slogan cards on the canvas.",
+    "intro": [
+        "This is {brand}'s positioning and naming tool: tell the assistant your idea, and it will generate positioning analysis, name candidates, and slogan cards on the canvas to help a new account or product find its direction.",
+        "All you need is a few sentences about what you want to do, who you plan to make it for, or a few competitors you think are impressive. Even if your idea is still fuzzy, you can send it straight to the assistant.",
+        "The assistant will generate text cards on the canvas for you, including 3 easy-to-remember names with naming rationales, a clear positioning analysis, and a memorable promotional slogan."
+    ],
+    "example": {
+        "input": "I want to start a video account that teaches office workers to make quick fat-loss bento lunches. I don't know what to name it, and I don't know how to compete with the big creators who are already out there.",
+        "output": "The canvas generates several text cards: 3 name candidates such as “Ten-Minute Bento Diary” with reasons, an analysis showing how to focus on “no stove, microwave-fast” to avoid going head-to-head with complex chef-style creators, and a slogan: “Cooking for work without the hassle.”"
+    },
+    "scenarios": [
+        "You want to start a new video account or shop and don't know what name would be easy to remember.",
+        "You notice everyone else is making similar content and want to find what makes you different instead of competing head-on.",
+        "You have a long list of strengths, but when you write your bio it's too wordy and people can't remember it.",
+        "You see a niche getting popular and can't tell whether joining now is a good opportunity or too late."
+    ],
+    "problems": [
+        {
+            "pain": "You want to come up with a new name, but the ideas you have are either generic or likely to clash with someone else's.",
+            "solve": "Based on what makes a name easy to say and remember, it offers 3 name candidates and spells out the naming rationale for each so you can choose."
+        },
+        {
+            "pain": "Your competitors already include many big creators, and you don't know how to make yourself stand out.",
+            "solve": "It helps you sort out your target audience and strengths, compares them with competitors' strengths to find complementary qualities of your own, and helps you avoid direct head-on competition."
+        },
+        {
+            "pain": "You want to introduce your product or content, but you have so much to say that people can't grasp the main point.",
+            "solve": "It helps you cut unnecessary words, condense your core features into one easy-to-understand, memorable slogan, and generate it directly on the canvas."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to open the creative canvas.",
+        "Send your project idea, the audience you're targeting, or the competitors you want to reference.",
+        "Review the positioning analysis, name candidates, and promotional slogan cards the assistant generates on the canvas.",
+        "Edit them or tell the assistant to adjust the content again, then copy or download the result once you're satisfied."
+    ],
+    "faq": [
+        {
+            "q": "How do I name a new account so it's memorable without being cheesy?",
+            "a": "The key to a good name is that it's easy to pronounce, has a concrete meaning, and avoids words everyone is using. Tell the assistant your core idea, and it will give you 3 memorable names and the reasoning behind them. You can take your time choosing on the canvas, and if you're not satisfied, you can ask the assistant to adjust them at any time."
+        },
+        {
+            "q": "My competitors already include big creators. What can I do to avoid competing with them directly?",
+            "a": "You don't need to go head-to-head with big creators who are already out there. Instead, find the specific needs they aren't addressing. For example, if they emphasize complex expertise, you can be simple and practical, creating a complement. Send your intended direction to the assistant, and it will help you clarify how you differ from competitors on the canvas."
+        },
+        {
+            "q": "How do I write a promotional slogan that people remember after one sentence?",
+            "a": "When writing a slogan, cut out complicated adjectives and simply state what problem you can help people solve. Explain one specific benefit in plain language so people can remember it easily. The assistant will help you streamline the key points and generate short, memorable slogan cards on the canvas."
+        },
+        {
+            "q": "Can I use the AI-generated positioning and names as they are?",
+            "a": "You can use them as references for brainstorming, but they can't replace formal trademark checks or business decisions. If you plan to use a name for commercial registration, you should check the trademark situation yourself before finalizing it. You can edit, copy, or download and save any of the text cards on the canvas at any time."
+        }
+    ],
+    "keywords": [
+        "account name ideas",
+        "how to come up with a name",
+        "product naming",
+        "how to find your niche",
+        "how to write a slogan",
+        "how to write a tagline"
+    ]
+}

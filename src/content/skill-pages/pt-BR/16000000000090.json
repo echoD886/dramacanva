@@ -1,0 +1,66 @@
+{
+    "title": "Prompts para MiniMax H3 com menos troca de rosto",
+    "metaDescription": "Vídeos com MiniMax H3: envie história e imagem de referência ao AI e receba no canvas seis blocos de descrição e uma tabela para reduzir trocas de rosto.",
+    "oneLiner": "Envie a história e as imagens; no canvas, a IA gera uma descrição de vídeo que reduz trocas de rosto, ideal para quem está começando em vídeo.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda a escrever comandos de vídeo (prompts: o texto que diz à IA o que desenhar). Ao fazer vídeos com MiniMax H3, ela transforma ideias soltas em texto padronizado.",
+        "Você só precisa preparar a história e imagens de referência de personagens ou cenários. Não precisa entender termos técnicos: basta enviar, em linguagem simples, a cena desejada ao assistente de IA no lado direito do canvas.",
+        "Depois, aparecem três cartões no canvas: a descrição organizada em seis blocos, a tabela de correspondência entre personagens e imagens, e o estilo recomendado com justificativa. Você pode editar quando quiser ou copiar o texto diretamente."
+    ],
+    "example": {
+        "input": "Envie uma foto de uma menina de chapéu de palha e diga à IA: quero fazer uma animação 3D em que a menina corre no gramado caçando borboletas; ao trocar de câmera, não mude o rosto.",
+        "output": "O canvas gera três cartões: um conjunto de prompts em seis blocos conforme o padrão (incluindo ações e movimentos de câmera), uma tabela que vincula as características da menina à foto, e a justificativa para escolher o estilo de animação 3D."
+    },
+    "scenarios": [
+        "Ao escrever prompts para MiniMax H3, não sabe como dividir em blocos ou alinhar à linha do tempo.",
+        "Ao gerar várias cenas, o mesmo personagem muda de rosto ou de roupa quando muda o ângulo.",
+        "Ao juntar dois vídeos, as ações ficam desconexas e a imagem parece artificial; é preciso uma transição suave.",
+        "Quer fazer animação 3D, demonstração minimalista de produto ou stop motion em papel recortado e não sabe como escolher o estilo."
+    ],
+    "problems": [
+        {
+            "pain": "Os prompts de vídeo que você escreve sempre ficam fora do formato e a imagem gerada não coincide com o tempo.",
+            "solve": "Organiza o texto em seis blocos claros conforme o padrão oficial, para que cada parte corresponda bem ao progresso temporal."
+        },
+        {
+            "pain": "Ao gerar cenas contínuas, o protagonista muda de aparência ao mudar de ação, e os objetos também se deformam facilmente.",
+            "solve": "Ajuda a criar uma tabela de correspondência de imagens de referência, vinculando claramente a aparência dos personagens às imagens para reduzir ao máximo distorções."
+        },
+        {
+            "pain": "Nas trocas de cena, as ações não se conectam, a imagem salta e parece pouco natural.",
+            "solve": "Descreve nos prompts a ação de início e de fim de cada cena, ajudando os trechos anteriores e posteriores a se conectarem com mais fluidez."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir a caixa de diálogo no lado direito do canvas.",
+        "Envie sua ideia de história e faça upload de imagens de referência de personagens ou cenários.",
+        "Veja os cartões com a descrição em seis blocos e a tabela de vinculação de personagens gerados no canvas.",
+        "Ajuste o texto dos cartões e, quando estiver satisfeito, copie ou baixe o resultado."
+    ],
+    "faq": [
+        {
+            "q": "O que fazer quando o personagem de um vídeo de IA muda de rosto ao trocar de câmera?",
+            "a": "É possível reduzir as trocas de rosto vinculando imagens de referência. Esta habilidade organiza no canvas uma tabela de correspondência que relaciona as características de aparência do personagem a cada imagem de referência e as inclui na descrição. Assim, ao gerar cenas diferentes em sequência, é possível minimizar ao máximo mudanças de aparência e de estilo visual."
+        },
+        {
+            "q": "Como escrever a descrição de vídeo em seis blocos do MiniMax H3?",
+            "a": "Siga os requisitos oficiais e descreva em ordem seis partes: sujeito, ação, ambiente, movimento de câmera, iluminação e qualidade de imagem. Esta habilidade organiza no canvas os seis blocos padronizados conforme sua história e alinha a linha do tempo aos parágrafos. Você não precisa memorizar formatos complexos; basta usar o conteúdo organizado."
+        },
+        {
+            "q": "O que fazer se as ações não ficarem contínuas ao juntar dois trechos de vídeo?",
+            "a": "Ao escrever a descrição da cena, especifique a ação inicial dos planos anteriores e posteriores. Esta habilidade ajuda a organizar a trajetória de ação e a forma de transição entre cenas adjacentes, padronizando os estados de início e fim na descrição. Assim, ao juntar os dois vídeos gerados, é possível reduzir a desconexão das ações na imagem."
+        },
+        {
+            "q": "Não sei qual estilo visual é adequado para o curta; como escolher?",
+            "a": "Peça à IA para recomendar estilos de imagem disponíveis conforme o tema da sua história. A habilidade reúne estilos comuns como animação 3D, demonstração minimalista de produto e stop motion em papel recortado. A IA apresenta no canvas sugestões de estilo adequadas, com justificativas para facilitar sua escolha."
+        }
+    ],
+    "keywords": [
+        "prompts para MiniMax H3",
+        "troca de rosto em vídeo de IA ao mudar de cena",
+        "consistência de personagem em vídeo de IA",
+        "como escrever prompt em seis blocos",
+        "ações desconexas em vídeo de IA",
+        "como escolher estilo visual para vídeo de IA"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "Do enredo ao roteiro de curta: ações claras e falas naturais",
+    "metaDescription": "Para criadores de curtas ou vídeos. Insira sua história ou diálogo no {brand} e receba fichas com cenas, ações e falas, em um roteiro fácil de filmar.",
+    "oneLiner": "Para iniciantes em curtas: insira uma história e escreva no canvas um roteiro com ações claras e falas naturais.",
+    "intro": [
+        "Esta é a ferramenta do {brand} para escrever roteiros no canvas. Ela transforma uma história comum em um texto de roteiro que atores podem interpretar e a câmera pode filmar, e também ajuda a revisar falas rígidas demais.",
+        "Você só precisa de um resumo da história, algumas ideias de enredo ou um trecho de diálogo que não ficou bom. Mesmo que seja só uma linguagem simples e crua, pode enviar diretamente.",
+        "Depois, você recebe no canvas fichas de roteiro. Elas mostram claramente onde acontece a cena, que ações os personagens fazem e diálogos que combinam com a personalidade de cada um."
+    ],
+    "example": {
+        "input": "Escreva uma cena: o personagem masculino está muito nervoso e quer se declarar para a personagem feminina, mas não tem coragem de dizer diretamente; os dois conversam em um café. Escreva ações e diálogos concretos.",
+        "output": "Gerar fichas de roteiro no canvas: indicar interior do café e horário; escrever a ação do personagem masculino rasgando um guardanapo em tiras por baixo da mesa; o diálogo não diz diretamente 'eu gosto de você', mas pergunta, gaguejando, se a outra pessoa está livre no fim de semana."
+    },
+    "scenarios": [
+        "Ter uma ideia de história ou um esboço de enredo e querer transformá-lo em um roteiro completo com ações e falas.",
+        "Os diálogos de um roteiro pronto estão rígidos demais e os personagens falam todos do mesmo jeito; querer deixá-los mais naturais, como pessoas reais.",
+        "O enredo avança devagar demais, com detalhes desnecessários como entrar pela porta e cumprimentar; querer cortar a enrolação e ir direto ao conflito.",
+        "O roteiro tem pensamentos internos demais que a câmera não consegue filmar; querer transformar os sentimentos em ações visíveis."
+    ],
+    "problems": [
+        {
+            "pain": "Os personagens falam de forma direta demais e dizem tudo o que pensam, soando como uma lição decorada.",
+            "solve": "Ajuda a reescrever as falas para que os personagens usem ironia, rodeios ou ações no lugar das palavras, soando como uma conversa real."
+        },
+        {
+            "pain": "Todos falam com o mesmo tom; se cobrir os nomes dos personagens, não dá para saber quem está falando.",
+            "solve": "Ajusta hábitos de fala, frases longas ou curtas e tom conforme a personalidade de cada um, para que cada personagem soe diferente."
+        },
+        {
+            "pain": "O roteiro sempre descreve o que os personagens pensam, e nem o ator nem a câmera conseguem mostrar isso na gravação.",
+            "solve": "Transforma pensamentos internos em comportamentos visíveis, como mudar o nervosismo para mãos trêmulas ou rasgar um guardanapo; a câmera capta e o público entende."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em «Usar esta habilidade» e abra a caixa de diálogo no lado direito do canvas.",
+        "Envie seu esboço de história, suas ideias de enredo ou falas antigas que precisam ser revisadas.",
+        "Confira as fichas de roteiro geradas no canvas, com cenas, ações e diálogos.",
+        "Diga ao assistente quais ajustes deseja e gere novamente, ou edite diretamente as fichas manualmente.",
+        "Copie ou baixe o resultado e salve o texto do roteiro pronto para usar nas gravações seguintes."
+    ],
+    "faq": [
+        {
+            "q": "Como transformar uma história comum em roteiro de curta?",
+            "a": "O essencial é dividir a história em cenas concretas e transformar pensamentos internos em ações visíveis. Primeiro, corte passagens sem conflito, como entrar e cumprimentar, e vá direto ao acontecimento central. Depois, deixe as falas mais cotidianas e naturais para chegar a um roteiro fácil de filmar."
+        },
+        {
+            "q": "O que fazer quando as falas do roteiro soam falsas, como uma lição decorada?",
+            "a": "Você pode revisar criando subtexto, sem deixar que os personagens digam tudo o que pensam. Por exemplo, quando alguém está com raiva, pode falar o contrário, mudar de assunto ou mostrar por meio de ações, como rasgar papel por baixo da mesa. Além disso, diferencie o tamanho das falas e o tom conforme a personalidade de cada personagem; assim, vai soar como uma conversa real."
+        },
+        {
+            "q": "É preciso indicar ângulos de câmera e posições no roteiro?",
+            "a": "Não é preciso indicar posições de câmera nem ângulos de filmagem; o roteiro só precisa deixar claro quais ações acontecem e o que é dito. A posição e o ângulo das câmeras fazem parte da etapa de storyboard (dividir o vídeo em planos e definir como filmar). Escrever muitos ângulos com antecedência pode limitar as possibilidades de criação na filmagem."
+        },
+        {
+            "q": "Como saber se uma cena deve ser cortada?",
+            "a": "Veja se a cena tem conflito entre os personagens e se muda a relação ou o estado dos personagens. Se duas pessoas apenas conversam sem que nada novo aconteça depois, considere cortar a cena ou juntá-la a outra. Manter trechos com conflito e progressão deixa o ritmo do curta mais enxuto."
+        }
+    ],
+    "keywords": [
+        "como escrever roteiro de curta",
+        "transformar história em roteiro",
+        "revisar diálogos de roteiro",
+        "descrever ações no roteiro",
+        "IA para escrever roteiro",
+        "gerar roteiro de curta com IA"
+    ]
+}

@@ -1,0 +1,20 @@
+const messages = {
+    "creationEmpty.signal": "DramaCanvas · AI 영상 제작 작업 공간",
+    "creationEmpty.lead": "머릿속 장면을 ",
+    "creationEmpty.brand": "DramaCanvas으로 ",
+    "creationEmpty.finish": "영상으로 만드세요",
+    "creationEmpty.neon": "SC.01 · 비 오는 밤의 네온",
+    "creationEmpty.chase": "SC.02 · 골목 추격",
+    "creationEmpty.rooftop": "SC.03 · 옥상에서의 재회",
+    "creationEmpty.caption": "모든 프레임을 연출하세요",
+    "creationEmpty.first": "첫 샷 생성",
+    "creationEmpty.firstHint": "장면, 카메라 움직임과 조명을 설명하세요",
+    "creationEmpty.reference": "참조 이미지로 시작",
+    "creationEmpty.referenceHint": "스타일 참조 이미지를 업로드해 비슷한 이미지를 생성하세요",
+    "creationEmpty.story": "이야기 이어 쓰기",
+    "creationEmpty.storyHint": "AI와 줄거리, 캐릭터와 대사를 논의하세요",
+    "creationEmpty.skill": "스킬 활용",
+    "creationEmpty.skillHint": "@로 스토리보드, 음성 등 전문 스킬을 사용하세요",
+    "creationEmpty.shotPlaceholder": "SC.{id} · 이 샷, 이미지 또는 이야기를 작성하세요",
+} as const;
+export default messages;

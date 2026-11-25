@@ -1,0 +1,67 @@
+{
+    "title": "Organiza el arco de temporada y la trama del primer episodio",
+    "metaDescription": "Para creadores de series cortas: describe tu idea y genera el arco de temporada, el inicio del primer episodio y una tabla de personajes por episodio.",
+    "oneLiner": "Te ayuda a ordenar ideas sueltas en el esquema de toda la temporada y la planificación del primer episodio.",
+    "intro": [
+        "Es una herramienta de escritura que te ayuda a planificar historias de varios episodios en el lienzo de {brand}. Une ideas sueltas en una historia larga y completa para que no te bloquees a mitad de camino ni la trama se desvíe.",
+        "Solo tienes que preparar la idea central de la historia, el perfil del protagonista o algún fragmento ya escrito y enviarlo directamente al asistente de IA en el cuadro de diálogo de la derecha.",
+        "La IA generará en el lienzo una tarjeta con el esquema de toda la temporada, una propuesta de apertura para el primer episodio y una tarjeta de tabla que registra cómo evolucionan los personajes en cada episodio, para que puedas consultarla y modificarla en cualquier momento."
+    ],
+    "example": {
+        "input": "Quiero escribir una serie corta de 20 episodios ambientada en el mundo laboral urbano, sobre una persona en prácticas que es acusada injustamente y luego se reivindica. El personaje principal tiene un carácter fuerte y no sé cómo sentar las bases del conflicto en los primeros episodios.",
+        "output": "En el lienzo se generarán tres tarjetas: el esquema de toda la temporada con los giros de la trama principal, un diseño detallado del primer episodio con el conflicto inicial y una tabla de personajes que registra cómo cambia el estado de ánimo del protagonista en cada episodio."
+    },
+    "scenarios": [
+        "Has escrito los primeros episodios de una serie corta y no sabes cómo debe avanzar la trama; es fácil quedarse bloqueado.",
+        "El inicio del primer episodio es plano y no retiene al público; hace falta diseñar un conflicto inicial que atraiga.",
+        "Hay demasiadas líneas argumentales en la serie y, a medida que escribes, acabas olvidando alguna subtrama o a algún personaje secundario.",
+        "Te preocupa que el comportamiento del protagonista en la parte final no coincida con el de antes y que sus actos y palabras resulten incoherentes."
+    ],
+    "problems": [
+        {
+            "pain": "La historia se vuelve cada vez más plana hacia la mitad y no sabes qué debería ocurrir después.",
+            "solve": "Ordena en el lienzo las crisis y los puntos de giro principales episodio a episodio para que la trama siga avanzando y evitar que decaiga a mitad de camino."
+        },
+        {
+            "pain": "No sabes cómo abrir el primer episodio y el público lo abandona antes de terminarlo.",
+            "solve": "Define primero el objetivo del protagonista, plantea el conflicto central en el primer episodio y deja un gancho atractivo al final."
+        },
+        {
+            "pain": "El comportamiento de los personajes en episodios posteriores no coincide con el de antes y su personalidad pierde coherencia.",
+            "solve": "Genera una tabla de evolución de los personajes episodio a episodio, con sus pensamientos y motivaciones en cada uno, para poder consultarla en cualquier momento."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo de creación.",
+        "Introduce la premisa de tu historia, los antecedentes del protagonista o los fragmentos de trama que ya tengas pensados.",
+        "Consulta las tarjetas generadas en el lienzo con la planificación de toda la temporada y la tabla de evolución de los personajes.",
+        "Edita el texto de las tarjetas o indica al asistente en el cuadro de diálogo qué partes quieres ajustar.",
+        "Copia o descarga el resultado para guiar la escritura concreta de cada episodio posterior."
+    ],
+    "faq": [
+        {
+            "q": "¿Qué hago si me bloqueo a mitad de camino al escribir una serie corta de varios episodios?",
+            "a": "Antes de empezar a escribir, organiza en el lienzo la trama principal y las subtramas de toda la temporada, junto con los puntos de giro de cada episodio, y asegúrate de que en cada uno haya un conflicto central que resolver; así evitarás bloquearte a mitad de camino. El asistente de IA generará, a partir de tus ideas, una tarjeta con el esquema de toda la temporada que incluye los hitos clave para que cada episodio haga avanzar la historia. Cuando escribas el guion concreto, sigue esa tarjeta para que la trama no se vuelva lenta ni se desvíe a mitad de camino."
+        },
+        {
+            "q": "¿Cómo escribir un primer episodio de serie corta que enganche?",
+            "a": "El primer episodio debe establecer cuanto antes la motivación del protagonista y plantear rápidamente el conflicto central, además de dejar al final un gancho que anime al público a seguir viendo. El asistente de IA te generará una propuesta para el primer episodio que incluye el conflicto inicial y el gancho final, y deja claro qué quiere hacer el protagonista y qué obstáculos afronta. Puedes usar ese diseño como referencia para escribir directamente los hechos concretos y atrapar al público en los primeros minutos para que siga viendo."
+        },
+        {
+            "q": "¿Cómo evitar que los personajes resulten contradictorios a medida que avanza la historia?",
+            "a": "Usa una tabla de personajes por episodio para registrar su personalidad esencial y cómo cambia su estado de ánimo en cada uno; si la consultas mientras escribes, evitarás contradicciones en su carácter. El asistente de IA generará, según tu premisa, una tabla de caracterización de los personajes en la que se detallan las motivaciones y las variaciones anímicas del protagonista en cada episodio. Cuando escribas los episodios siguientes, consulta esa tabla en el lienzo para que sus actos y palabras no dejen de ser coherentes."
+        },
+        {
+            "q": "Si la historia tiene una trama principal y subtramas, ¿cómo evitar que se líe?",
+            "a": "Al preparar el esquema, indica con claridad el ritmo con el que aparecen la trama principal y las subtramas en cada episodio, y limita las subtramas a un máximo de dos para que la historia no se líe. El asistente de IA te ayudará a aclarar en qué punto avanza cada línea argumental en cada episodio y a reducir el riesgo de que una subtrama se olvide o se interrumpa más adelante. En el lienzo puedes ver de forma visual las tarjetas de distribución de cada línea argumental y comprobar que en cada episodio avanza al menos una de ellas."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un esquema de serie corta",
+        "ideas para escribir una serie corta",
+        "cómo empezar el primer episodio de una serie corta",
+        "plantilla de esquema de historia",
+        "tabla de personajes para guion",
+        "diseño de trama de una serie corta"
+    ]
+}

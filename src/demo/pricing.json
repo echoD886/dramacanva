@@ -1,0 +1,95 @@
+{
+  "version": "demo",
+  "plans": [
+    {
+      "key": "standard",
+      "monthly": {
+        "sku": "demo-standard",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "annual": {
+        "sku": "demo-standard-annual",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "nameKey": "pricing.standard",
+      "quarterly": {
+        "credits": 0
+      }
+    },
+    {
+      "key": "advanced",
+      "monthly": {
+        "sku": "demo-advanced",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "annual": {
+        "sku": "demo-advanced-annual",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "nameKey": "pricing.advanced",
+      "quarterly": {
+        "credits": 0
+      }
+    },
+    {
+      "key": "premium",
+      "monthly": {
+        "sku": "demo-premium",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "annual": {
+        "sku": "demo-premium-annual",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "nameKey": "pricing.premium",
+      "quarterly": {
+        "credits": 0
+      }
+    },
+    {
+      "key": "luxury",
+      "monthly": {
+        "sku": "demo-luxury",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "annual": {
+        "sku": "demo-luxury-annual",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "nameKey": "pricing.luxury",
+      "quarterly": {
+        "credits": 0
+      }
+    },
+    {
+      "key": "supreme",
+      "monthly": {
+        "sku": "demo-supreme",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "annual": {
+        "sku": "demo-supreme-annual",
+        "amountMinor": 0,
+        "credits": 0
+      },
+      "nameKey": "pricing.supreme",
+      "quarterly": {
+        "credits": 0
+      }
+    }
+  ],
+  "currency": "USD",
+  "byok": {
+    "amountMinor": 0,
+    "months": 3
+  }
+}

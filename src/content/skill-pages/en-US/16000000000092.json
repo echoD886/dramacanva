@@ -1,0 +1,66 @@
+{
+    "title": "AI Video Consistency: Lock Character Looks Across Shots",
+    "metaDescription": "For multi-shot AI video creators. Give {brand} ideas and reference images; it fixes character looks on canvas and returns a lock sheet and descriptions",
+    "oneLiner": "Give it reference images and needs; it creates a character lock sheet on the canvas to help creators keep looks consistent.",
+    "intro": [
+        "This is {brand}’s character lock tool: send it your story idea and reference images, and it creates a character lock sheet on the canvas to help you keep character looks and outfits consistent and smooth out your story pacing.",
+        "All you need is a story idea, the shots you want to make, and reference images of the characters. If you have an existing video you want to extend or revise, you can send that too.",
+        "When it’s done, you’ll get a character lock sheet on the canvas, a set of description prompts suited to the shot, and an action-and-duration plan. You can copy or edit them directly and use them to generate video."
+    ],
+    "example": {
+        "input": "I want to make a short film about two swordsmen facing off at an inn. I uploaded photos of the main and supporting characters and need to change two shots, but don’t let their faces change.",
+        "output": "A table card is generated on the canvas: it locks the facial and clothing features of both characters, gives a visual description prompt for each shot, and lays out action durations so you can copy and use them directly."
+    },
+    "scenarios": [
+        "When making a multi-shot video, the same character’s face changes or their clothes change after a cut.",
+        "You upload multiple character and prop reference images, and their features bleed into each other and interfere during generation.",
+        "The action in a shot feels cramped and unnatural, and the scene cuts away before the line is finished.",
+        "You want to extend a video or revise part of a shot but worry the new footage won’t match or that you’ll damage the original."
+    ],
+    "problems": [
+        {
+            "pain": "After a cut, the main character’s face, hairstyle, or clothes change and no longer match.",
+            "solve": "It creates a lock sheet on the canvas that fixes features such as facial look and clothing to reduce continuity errors when shots change."
+        },
+        {
+            "pain": "You upload several reference images, and character and prop features mix together and interfere during generation.",
+            "solve": "It binds each character and prop to its own identity and clearly states which features to keep and which not to inherit."
+        },
+        {
+            "pain": "Generated action feels squeezed together and unnatural; lines don’t finish, and the timing is out of order.",
+            "solve": "It helps calculate the time the action needs and the word count of the dialogue, orders events, and makes the pacing more relaxed and natural."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill,” then describe your needs in the chat panel on the right and upload reference images.",
+        "Review the character lock sheet, timing plan, and visual description prompt cards generated on the canvas.",
+        "Edit the text on the cards and fine-tune character appearance features or action durations to match your idea.",
+        "Copy or download the results and use the confirmed lock sheet and descriptions for later video generation."
+    ],
+    "faq": [
+        {
+            "q": "How do I keep characters from changing faces so often in multi-shot AI videos?",
+            "a": "Creating a character lock sheet and fixing core features can effectively reduce face changes when shots change. This skill helps you organize key details such as hairstyle and clothing into a table, so each character is bound to only one reference image and different images don’t interfere with each other. You can view and edit these features directly on the canvas, then make the video once you’re satisfied."
+        },
+        {
+            "q": "There are too many AI video modes and I don’t know which to choose. What should I do?",
+            "a": "Tell it your specific creative idea, and it will recommend a suitable mode based on task complexity. It will also provide a prompt structure matching that mode (the text description sent to the AI), saving you the trouble of looking up rules everywhere. You can edit these suggestions directly on the canvas cards and copy them when they look right."
+        },
+        {
+            "q": "What can I do if the action in an AI video feels too rushed and the lines can’t be finished?",
+            "a": "Calculating the time needed for the action and the word count of the dialogue before production can help smooth out the pacing. It will break the video into time segments on the canvas and check whether each action segment has enough time and whether the lines can be delivered, avoiding rushed cuts. You can fine-tune the action or cut dialogue based on the generated timing table to make the story flow more naturally."
+        },
+        {
+            "q": "I want to extend or revise an existing AI video. How can I avoid damaging the original?",
+            "a": "Clearly define the direction of the extension and make a “do not change” list to protect the main subject of the original. It will ask whether you want to add footage before or after and clearly mark which parts of the image must stay unchanged and which specific areas to modify. This helps preserve the original content as much as possible and keeps the AI from changing things it shouldn’t."
+        }
+    ],
+    "keywords": [
+        "AI video character consistency",
+        "AI video character face lock",
+        "multi-shot AI video character consistency",
+        "AI video action and dialogue pacing",
+        "AI video scene extension",
+        "AI video localized edits"
+    ]
+}

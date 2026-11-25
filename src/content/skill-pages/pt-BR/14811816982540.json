@@ -1,0 +1,66 @@
+{
+    "title": "{brand} Worldbuilding: organize as regras e gere cenas",
+    "metaDescription": "Para quem escreve histórias ou cria vídeos: defina as regras do mundo, encontre furos de lógica e gere textos de ambientação e imagens de cenário no canvas.",
+    "oneLiner": "Insira sua ideia de história e gere no canvas cartões de ambientação e imagens de referência de cenário.",
+    "intro": [
+        "É uma ferramenta de criação que ajuda a construir o pano de fundo de uma história. Seja ficção científica ou fantasia, ela parte de como as pessoas vivem e de como a sociedade funciona para montar um mundo coerente.",
+        "Basta ter algumas frases com a ideia da história, conceitos centrais ou imagens de referência. Se você já tem uma ambientação antiga escrita, também pode enviá-la para que a ferramenta encontre contradições.",
+        "Ao terminar, o canvas mostra um conjunto de cartões de ambientação com detalhes do ambiente e costumes locais, além de gerar imagens de referência de cenário para ajudar você a desenvolver o enredo ou criar as imagens."
+    ],
+    "example": {
+        "input": "Quero escrever sobre uma cidadezinha a vapor onde chove torrencialmente o ano todo, as pessoas geram eletricidade coletando água da chuva e há uma grande desigualdade social. Preciso de um conjunto de ambientação e uma imagem de referência de uma rua.",
+        "output": "O canvas gera vários cartões de texto detalhando o sistema de drenagem, as zonas residenciais e os costumes cotidianos; também gera uma imagem de rua à noite sob chuva, com canos enferrujados e água acumulada no chão."
+    },
+    "scenarios": [
+        "Ao conceber uma história fictícia, querer definir regras sociais e detalhes cotidianos coerentes.",
+        "Ao se preparar para produzir imagens, precisar transformar ideias vagas de ambientação em imagens de referência de cenário concretas.",
+        "Perceber contradições no meio da escrita da ambientação e querer encontrar furos e preencher as partes que faltam.",
+        "Ter o esboço da história pronto e precisar de um material claro sobre o ambiente e o contexto para a equipe consultar."
+    ],
+    "problems": [
+        {
+            "pain": "O mundo fictício fica genérico e sem características marcantes.",
+            "solve": "Partir de uma ou duas regras especiais fundamentais para deduzir alimentação, vestuário, moradia e transporte, tornando costumes e ambiente mais vivos e únicos."
+        },
+        {
+            "pain": "Focar só em uma ambientação impressionante e deixar ações dos personagens e o ambiente incoerentes.",
+            "solve": "Testar a lógica pelas necessidades da vida comum, identificar o que não faz sentido e sugerir ajustes."
+        },
+        {
+            "pain": "Ter uma ambientação abstrata na cabeça e não saber como desenhar imagens concretas de cenário.",
+            "solve": "Transformar a ambientação abstrata em materiais de construção, luz e sombra e sinais de uso cotidiano, desenhando imagens de referência de cenário no canvas."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas de criação do {brand}.",
+        "Insira sua ideia de história, as regras centrais ou envie imagens de referência.",
+        "Veja no canvas as regras sociais, os detalhes do ambiente e as imagens de referência de cenário geradas.",
+        "Revise e edite o conteúdo dos cartões; as imagens de cenário de que você gostar podem ser baixadas diretamente."
+    ],
+    "faq": [
+        {
+            "q": "Para criar a ambientação de uma história, é preciso inventar toda a história do mundo?",
+            "a": "Não. Basta definir o escopo que a história envolve. Se a história se passa só em uma cidade pequena, não é preciso inventar mil anos de história de um continente inteiro. A ferramenta organiza apenas as regras cotidianas e os detalhes de ambiente necessários, conforme o tamanho da história."
+        },
+        {
+            "q": "Como fazer a ambientação de uma história fictícia parecer realista e convincente?",
+            "a": "O segredo é observar como as pessoas comuns vivem. Defina primeiro uma ou duas regras fundamentais e depois deduza como as pessoas comem, se vestem, ganham dinheiro e entram em conflito. Quando os detalhes cotidianos fazem sentido, o leitor sente que o mundo é real."
+        },
+        {
+            "q": "Como verificar se a ambientação que já escrevi tem furos?",
+            "a": "Você pode enviá-la diretamente ao assistente para verificação. Ele analisa se as definições se contradizem e se os detalhes cotidianos estão completos. Se encontrar algo incoerente, aponta o problema no canvas e sugere ajustes."
+        },
+        {
+            "q": "As imagens de cenário geradas podem ser usadas diretamente em vídeos?",
+            "a": "Não é possível gerar vídeos diretamente; a ferramenta produz imagens estáticas de referência de cenário. Essas imagens mostram o estilo arquitetônico, a iluminação e a aparência espacial do cenário, servindo como referência visual ao planejar storyboards ou desenhar as cenas."
+        }
+    ],
+    "keywords": [
+        "worldbuilding para histórias",
+        "como criar um mundo fictício para livro",
+        "gerar imagens de referência de cenário",
+        "criação de regras de mundo fictício",
+        "guia de ambientação de história",
+        "corrigir furos na construção de mundo"
+    ]
+}

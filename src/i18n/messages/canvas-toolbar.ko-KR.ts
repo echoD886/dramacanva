@@ -1,0 +1,23 @@
+const messages = {
+    "canvasToolbar.move": "손 도구",
+    "canvasToolbar.select": "영역 선택",
+    "canvasToolbar.add": "노드 추가",
+    "canvasToolbar.assets": "에셋 라이브러리",
+    "canvasToolbar.appearance": "캔버스 모양",
+    "canvasToolbar.settings": "도구 모음 설정",
+    "canvasToolbar.deleteCount": "노드 {count}개 삭제",
+    "canvasToolbar.delete": "선택한 노드 삭제",
+    "canvasToolbar.clear": "캔버스 비우기",
+    "canvasToolbar.appearanceHelp": "전체 작업 공간 조정",
+    "canvasToolbar.imageInfo": "이미지 정보",
+    "canvasToolbar.settingsHelp": "드래그하여 순서를 바꾸고 자주 쓰지 않는 도구를 숨기세요",
+    "canvasToolbar.closeSettings": "도구 모음 설정 닫기",
+    "canvasToolbar.visible": "{visible}/{total}개 표시",
+    "canvasToolbar.resetAria": "기본 도구 모음 설정 복원",
+    "canvasToolbar.reset": "기본값 복원",
+    "canvasToolbar.order": "기본 도구 모음 순서",
+    "canvasToolbar.drag": "드래그하여 {label} 순서 변경",
+    "canvasToolbar.hide": "{label} 숨기기",
+    "canvasToolbar.show": "{label} 표시",
+} as const;
+export default messages;

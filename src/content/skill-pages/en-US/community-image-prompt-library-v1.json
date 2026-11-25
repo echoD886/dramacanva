@@ -1,0 +1,66 @@
+{
+    "title": "Write AI image prompts by use case, get varied styles",
+    "metaDescription": "For product images, posters, or illustrations, tell {brand} what you want to clarify details and style, then get usable image prompt cards and references.",
+    "oneLiner": "State your image requirements and get varied images and text on the {brand} canvas.",
+    "intro": [
+        "This is an assistant that helps you organize image prompt requirements. Depending on whether you're making a product image, poster, or illustration, it helps match the right composition and lighting so every image doesn't end up looking like the same dark cinematic shot.",
+        "You just need to explain in the chat what you want to draw and what it's for. If the image needs text, you can list it directly, or upload a reference image you like.",
+        "When it's done, you'll get organized image prompt text cards and directly generated reference images on the {brand} canvas. You can pick the cards you like to edit the text, or download the images to use."
+    ],
+    "example": {
+        "input": "I want to make an e-commerce hero image for a ceramic mug, pure white background, natural light, with the English words “Good Day” clearly written on the mug.",
+        "output": "The canvas will show description cards that specify the product material, lighting, and text placement, plus generated product photo cards, with the English text shown as clearly as possible on the mug."
+    },
+    "scenarios": [
+        "Making online store product images or product posters, wanting to highlight real materials and lighting, not a dark cinematic look.",
+        "Designing story characters or storyboard frames, needing composition and action defined and the main subject's features as consistent as possible.",
+        "Creating covers or promotional images that must include text, hoping the text in the image is clear and not garbled.",
+        "When unsure which art style to choose, wanting to see two or three visual directions that differ clearly in materials and composition."
+    ],
+    "problems": [
+        {
+            "pain": "No matter what image is generated, the AI automatically applies a dim cinematic color grade, so everything looks the same.",
+            "solve": "Choose different material and lighting combinations based on the specific use, such as product images or posters, to create clear visual differences."
+        },
+        {
+            "pain": "When you want to add text to a generated image, the AI's text often has missing strokes or turns into gibberish.",
+            "solve": "List the text to display character by character and leave layout space. If the current model can't render text, it will offer an alternative."
+        },
+        {
+            "pain": "When editing an existing image, the AI changes the character look or layout you were happy with.",
+            "solve": "Clearly state in the description the facial features, pose, or layout that must stay unchanged to reduce drift during edits."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to open the {brand} canvas.",
+        "Describe the image's purpose, the main subject you want, and any text that must be included; you can also upload a reference image.",
+        "Review the image prompt text cards generated on the canvas and the image cards created alongside them.",
+        "Choose the cards you're happy with and download the images, or edit the text cards and ask the assistant to regenerate."
+    ],
+    "faq": [
+        {
+            "q": "How should I write image requirements for AI?",
+            "a": "I recommend writing them in this order: purpose, main subject, setting, composition/camera angle, materials and lighting, and required text. Write any text that must appear character by character, and use specific material terms instead of vague phrases like “premium feel.” This helps the AI understand the image's focus and generate images that meet your expectations on the {brand} canvas."
+        },
+        {
+            "q": "Why do AI-generated images always look like the same dark cinematic blockbuster?",
+            "a": "This usually happens because the requirements lack specific medium and lighting constraints, so the system defaults to a dark lighting effect. You can specify a concrete format such as commercial photography, illustration, or 3D, and state the lighting you want. The assistant will offer candidate descriptions with clearly different compositions and materials based on your use case."
+        },
+        {
+            "q": "How can I get text to display correctly in AI-generated images?",
+            "a": "The most effective way is to put the text to display in quotation marks, character by character, and explain where the blank space for the text should be in the image. Whether the text appears fully depends on the image tool you're currently using. If the current tool has limited text rendering ability, you can generate an image with space reserved for layout on the canvas and add the text manually afterward."
+        },
+        {
+            "q": "When editing an existing image, how can I avoid the character or main subject changing?",
+            "a": "In the edit description, explicitly list the facial features, pose, or layout that must remain unchanged, and modify only local details. Try not to rewrite the entire description from scratch, as this minimizes subject drift. After editing the text card on the {brand} canvas, just tell the assistant to regenerate."
+        }
+    ],
+    "keywords": [
+        "how to write AI image prompts",
+        "AI image styles",
+        "AI product image creation",
+        "AI poster generation",
+        "how to add text to AI images",
+        "AI image keep character consistent"
+    ]
+}

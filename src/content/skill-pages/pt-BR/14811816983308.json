@@ -1,0 +1,66 @@
+{
+    "title": "Uma frase no canvas gera roteiro e storyboard de série curta",
+    "metaDescription": "Com uma ideia e imagens de referência, o canvas da {brand} gera esboço dos episódios, roteiro com falas, tabela de storyboard e descrições de cena.",
+    "oneLiner": "Para criadores de séries curtas: com uma frase e imagens de referência, gere no canvas roteiros de vários episódios e a tabela de storyboard.",
+    "intro": [
+        "Esta é uma ferramenta de criação que ajuda você a idealizar séries curtas em vários episódios no canvas. Ela divide a história em episódios contínuos, com altos e baixos, e deixa um gancho atraente no fim de cada episódio para a trama não ficar sem graça.",
+        "Você só precisa de uma frase com a ideia da história, do número de episódios desejado e de imagens de referência do protagonista ou do cenário. Se quiser mudar o rosto ou a roupa do personagem no meio do caminho, basta enviar uma nova imagem para atualizar tudo.",
+        "Ao terminar, o canvas gera o esboço dos episódios, o roteiro completo com falas e cards de tabela de storyboard (dividida em planos individuais) e de prompts (textos usados para criar as imagens)."
+    ],
+    "example": {
+        "input": "“Drama de romance urbano: uma estagiária salva sem querer um bilionário anônimo, 5 episódios, 1 minuto cada”, com upload de imagens de referência dos protagonistas e do escritório.",
+        "output": "No canvas serão gerados cards de ficha dos personagens, o esboço da trama dos 5 episódios, o roteiro de cada episódio com ações e falas, e cards de tabela de storyboard com enquadramentos e descrições."
+    },
+    "scenarios": [
+        "Quer gravar uma série curta em vários episódios, mas não sabe como criar reviravoltas atraentes em cada um deles.",
+        "Só tem uma ideia simples de história e não consegue escrever um roteiro de storyboard padrão com ângulos de câmera e falas.",
+        "Ao criar uma série de vídeos, teme que o protagonista apareça com roupa ou aparência diferente entre os episódios e isso gere erros de continuidade.",
+        "Acabou de escrever a história da série curta e não sabe como transformá-la em prompts de storyboard para criar as imagens."
+    ],
+    "problems": [
+        {
+            "pain": "Séries curtas seriadas costumam perder o fôlego, e os últimos episódios ficam sem graça, sem pontos de interesse.",
+            "solve": "Divide a série inteira em três fases — início, conflito e desfecho — e planeja o conflito e o gancho de cada episódio para manter o interesse da trama."
+        },
+        {
+            "pain": "Em vídeos com vários episódios, a roupa e a aparência do protagonista não batem de um episódio para outro, gerando erros de continuidade.",
+            "solve": "Registra as configurações de forma unificada com base nas imagens de referência que você envia e confere automaticamente antes de gerar cada novo episódio, avisando se houver conflito."
+        },
+        {
+            "pain": "Tem ideias na cabeça, mas não sabe dividir a história em um storyboard profissional de gravação.",
+            "solve": "Divide automaticamente a trama em uma tabela de storyboard com distância de plano, ações dos personagens e falas, exibida com clareza no canvas."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de skills, clique em «Usar esta skill» para abrir o chat no lado direito do canvas.",
+        "Digite sua ideia de história, o número de episódios e envie imagens de referência do protagonista ou do cenário.",
+        "Confira no canvas o esboço da história, o roteiro por episódio e a tabela de storyboard gerados.",
+        "Copie ou baixe os cards de roteiro e de prompts gerados para usar na produção seguinte."
+    ],
+    "faq": [
+        {
+            "q": "Como manter a aparência e o figurino dos personagens consistentes ao produzir uma série curta com vários episódios?",
+            "a": "Principalmente enviando imagens de referência antes, para conferência. Antes de gerar cada episódio, ele verifica personagens e figurino com base nas imagens que você forneceu e avisa para você confirmar caso encontre divergências. Se você trocar a imagem do personagem no meio do processo, os episódios seguintes também serão atualizados na medida do possível."
+        },
+        {
+            "q": "Tenho só uma frase com a ideia da história. Como expandir isso em um roteiro de série curta com vários episódios?",
+            "a": "Basta enviar a frase e o número de episódios desejado ao assistente de IA. Ele primeiro divide a história em um esboço com altos e baixos e depois completa episódio por episódio com ações e falas específicas. Todos os cards de texto gerados podem ser consultados e editados manualmente no canvas a qualquer momento."
+        },
+        {
+            "q": "Esta skill consegue produzir diretamente um vídeo final de série curta com dublagem?",
+            "a": "Não. Ela gera principalmente roteiros, tabelas de storyboard e descrições de cena; não faz dublagem nem monta o vídeo final automaticamente. Nos cards, as falas e sugestões de efeitos sonoros já ficam escritas para servir de referência na produção. Você pode copiar ou baixar o roteiro e os prompts gerados para usar na produção e na edição."
+        },
+        {
+            "q": "Se eu quiser trocar o rosto ou a roupa do protagonista no meio do caminho, preciso reescrever o roteiro do zero?",
+            "a": "Não precisa reescrever do zero: basta enviar a nova imagem no chat. Ao identificar a nova imagem, o sistema atualiza as informações do personagem e verifica automaticamente as configurações dos episódios seguintes. Se encontrar contradições, ele pede sua confirmação e, depois dela, continua gerando com a nova aparência."
+        }
+    ],
+    "keywords": [
+        "roteiro de série curta com IA",
+        "gerador de roteiro de série curta",
+        "storyboard para série curta",
+        "criar série curta com uma frase",
+        "esboço de série em vários episódios",
+        "prompts de cena para série curta"
+    ]
+}

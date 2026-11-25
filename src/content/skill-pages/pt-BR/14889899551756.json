@@ -1,0 +1,66 @@
+{
+    "title": "Entrada do protagonista: diagnóstico dos 30s e 2 versões",
+    "metaDescription": "Para quem faz vídeos curtos e microdramas. Diagnostica a entrada do protagonista nos 30s e gera 2 reescritas de até 150 caracteres com descrições visuais.",
+    "oneLiner": "Para autores de microdramas: envie a cena de entrada e receba no canvas um diagnóstico e duas versões reescritas.",
+    "intro": [
+        "Este é um fluxo criativo que ajuda autores de microdramas a revisar a cena de entrada do protagonista. Muitas pessoas escrevem com uma preparação longa demais e não conseguem prender o público nos primeiros segundos. Ele ajuda a encontrar os motivos pelos quais o personagem não está vívido o suficiente.",
+        "Você só precisa preparar uma descrição de personagem ou um rascunho recém-escrito da entrada nos primeiros 30 segundos. Mesmo que sejam poucas frases, pode enviar diretamente ao assistente de IA à direita.",
+        "A IA gera um cartão de diagnóstico no canvas, aponta os problemas do roteiro e oferece duas versões reescritas de até 150 caracteres, com descrições visuais, para você copiar e usar."
+    ],
+    "example": {
+        "input": "O protagonista é um assassino frio, de sobretudo preto, entra no prédio, os subordinados se curvam para ele, e ele se prepara para um confronto. Me ajude a deixar isso mais atrativo.",
+        "output": "Um cartão é gerado no canvas: aponta que a cena original carece de contraste; apresenta duas versões reescritas de até 150 caracteres (por exemplo, antes de entrar no prédio, ele tira um caracol da calçada e o coloca na grama, depois saca a arma); inclui uma descrição visual para vídeo."
+    },
+    "scenarios": [
+        "Escreveu a cena de entrada do protagonista de um microdrama e achou sem graça, como uma lista de ações, e teme que o público passe o dedo após poucos segundos.",
+        "Quer criar um vilão ou um personagem frio, mas não consegue imaginar detalhes de contraste que façam o público simpatizar rapidamente com ele.",
+        "O protagonista tem uma configuração forte ou trágica, mas no roteiro dos primeiros 30 segundos parece raso e sem conflito.",
+        "Depois de reescrever o roteiro, não sabe como extrair a ação de clímax em texto para gerar imagens de vídeo."
+    ],
+    "problems": [
+        {
+            "pain": "A entrada do protagonista do microdrama é sem graça e o público quer passar o dedo após poucos segundos.",
+            "solve": "Analisa o conteúdo dos primeiros 30 segundos, aponta problemas de personagem bidimensional e recomenda combinações de traços de personalidade adequadas para a reescrita."
+        },
+        {
+            "pain": "Sabe que o protagonista precisa ter contraste, mas não consegue imaginar detalhes de ação concretos.",
+            "solve": "Gera diretamente no canvas duas versões reescritas de até 150 caracteres, usando ações concretas para firmar rapidamente o perfil do personagem."
+        },
+        {
+            "pain": "A preparação da história é longa demais e os primeiros segundos não deixam claras as características do protagonista.",
+            "solve": "Ajuda a remover falas desnecessárias e explicações confusas, focando no conflito principal para que o protagonista chame atenção assim que aparecer."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para entrar no canvas de criação.",
+        "Insira a descrição do personagem ou o rascunho de entrada e envie ao assistente de IA no lado direito do canvas.",
+        "Veja o diagnóstico gerado pela IA no canvas e os dois cartões de roteiros reescritos.",
+        "Copie ou baixe o roteiro e a descrição visual que mais gostar; você também pode editar o texto diretamente no canvas."
+    ],
+    "faq": [
+        {
+            "q": "Como fazer o protagonista de um microdrama atrair o público assim que aparece?",
+            "a": "A forma mais direta é fazer o protagonista realizar, nos primeiros 30 segundos, uma ação que crie contraste e mostre traços fortes de personalidade. Apenas apresentar o contexto dificilmente prende a atenção; conflitos repentinos e pequenos gestos ajudam o público a criar empatia mais facilmente. Você pode enviar seu rascunho ao assistente de IA, que ajuda a encontrar os pontos sem graça e reescrever as ações."
+        },
+        {
+            "q": "Esta habilidade pode escrever o roteiro inteiro de um microdrama para mim?",
+            "a": "Não. Ela é específica para diagnosticar e refinar a entrada do personagem nos primeiros 30 segundos, não para escrever uma trama longa. Ela se concentra em cenas de ação de até 150 caracteres no início e ajuda a firmar rapidamente o protagonista. Se precisar de uma série completa, você pode continuar criando o restante manualmente no canvas."
+        },
+        {
+            "q": "E se eu não gostar do roteiro reescrito gerado?",
+            "a": "Você pode editar o texto diretamente no canvas ou continuar pedindo ajustes ao assistente de IA. A IA sempre oferece duas propostas com enfoques diferentes para você escolher. Se quiser tentar outros contrastes de personalidade, basta pedir ao assistente para gerar novamente."
+        },
+        {
+            "q": "Esta habilidade gera diretamente um vídeo pronto?",
+            "a": "Não gera vídeo; ela produz o texto do roteiro reescrito e descrições visuais. Você pode copiar essas descrições visuais para gerar imagens ou usá-las diretamente como roteiro de filmagem. Todos os resultados em texto podem ser copiados ou baixados e salvos livremente no canvas."
+        }
+    ],
+    "keywords": [
+        "como escrever roteiro de microdrama",
+        "apresentação do protagonista em microdrama",
+        "abertura de microdrama que prende atenção",
+        "reescrever roteiro de microdrama",
+        "construção de personagem para vídeos curtos",
+        "como escrever os primeiros 30 segundos de microdrama"
+    ]
+}

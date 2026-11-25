@@ -1,0 +1,66 @@
+{
+    "title": "Requisitos de IA por uso y varios estilos de imagen",
+    "metaDescription": "Para imágenes de producto, pósteres o ilustraciones: explica lo que quieres y {brand} define detalles, estilo y genera textos e imágenes de referencia.",
+    "oneLiner": "Explica lo que necesitas y crea en el lienzo de {brand} imágenes y textos en varios estilos.",
+    "intro": [
+        "Es un asistente que te ayuda a ordenar los requisitos de tus imágenes. Según si vas a hacer una imagen de producto, un póster o una ilustración, te propone composición e iluminación adecuadas para evitar que todo acabe con el mismo look oscuro de película.",
+        "Solo tienes que explicar en el chat qué quieres dibujar y para qué lo usarás; si la imagen debe incluir texto, puedes indicarlo directamente o subir una imagen de referencia que te guste.",
+        "Al terminar, en el lienzo de {brand} recibirás tarjetas de texto con los requisitos de imagen bien organizados y las imágenes de referencia generadas. Puedes elegir las tarjetas que te gusten para editar el texto o descargar las imágenes y usarlas directamente."
+    ],
+    "example": {
+        "input": "Quiero hacer una imagen principal de comercio electrónico para una taza de cerámica, con fondo blanco puro y luz natural, y que en la taza aparezcan claramente las palabras en inglés «Good Day».",
+        "output": "En el lienzo aparecerán tarjetas de descripción que especifican el material del producto, la iluminación y la posición del texto, junto con tarjetas de imagen del producto generadas, procurando que las palabras en inglés se vean claras en la taza."
+    },
+    "scenarios": [
+        "Crear imágenes de producto para una tienda online o pósteres de producto, destacando materiales y luces reales, sin el estilo oscuro de cine.",
+        "Diseñar personajes de una historia o viñetas de storyboard, definiendo composición y acciones, y manteniendo la coherencia de los rasgos del sujeto todo lo posible.",
+        "Crear portadas o imágenes promocionales que deben incluir texto, con la esperanza de que las letras de la imagen salgan claras y sin errores.",
+        "Cuando no sabes qué estilo elegir, ver dos o tres direcciones visuales claramente distintas en materiales y composición."
+    ],
+    "problems": [
+        {
+            "pain": "Sea cual sea la imagen, la IA aplica automáticamente un tono cinematográfico oscuro y todo parece igual.",
+            "solve": "Elegir combinaciones de materiales e iluminación según el uso concreto, como producto o póster, para marcar diferencias visuales."
+        },
+        {
+            "pain": "Al querer añadir texto a la imagen generada, la IA suele dibujar letras a las que les faltan trazos o que salen como garabatos.",
+            "solve": "Indicar el texto que debe aparecer carácter por carácter y reservar espacio de maquetación; si el modelo actual no sabe escribir, se ofrecerá una alternativa."
+        },
+        {
+            "pain": "Al modificar una imagen existente, la IA cambia por completo el aspecto del personaje o la maquetación que ya te gustaba.",
+            "solve": "Especificar claramente en la descripción el aspecto, la pose o la disposición que deben mantenerse para reducir desviaciones al editar."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo de {brand}.",
+        "Describe el uso de la imagen, el sujeto que quieres dibujar y el texto imprescindible; también puedes subir una imagen de referencia.",
+        "Revisa las tarjetas de texto con la descripción de la imagen generadas en el lienzo y las tarjetas de imagen creadas al mismo tiempo.",
+        "Elige las tarjetas que te gusten y descarga las imágenes, o edita las tarjetas de texto para que el asistente vuelva a generarlas."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo debería escribir los requisitos de imagen para la IA?",
+            "a": "Se recomienda seguir este orden: uso, sujeto de la imagen, escenario, composición y encuadre, materiales e iluminación, y texto obligatorio. Escribe carácter por carácter el texto que deba aparecer y usa nombres concretos de materiales en lugar de términos vagos como «sensación premium». Así la IA entenderá mejor el foco de la imagen y generará en el lienzo de {brand} imágenes acordes con lo esperado."
+        },
+        {
+            "q": "¿Por qué las imágenes generadas por IA siempre parecen el mismo tono oscuro cinematográfico?",
+            "a": "Normalmente se debe a que los requisitos para la IA no incluyen límites concretos de medio e iluminación, por lo que el sistema aplica por defecto efectos de luz oscuros. Puedes especificar en la descripción formas concretas como fotografía comercial, ilustración o 3D, e indicar el tipo de iluminación deseado. El asistente te ofrecerá propuestas de descripción con composiciones y materiales claramente distintos según tu uso para que elijas."
+        },
+        {
+            "q": "¿Cómo hacer que el texto se muestre correctamente en las imágenes generadas por IA?",
+            "a": "Lo más eficaz es poner entre comillas cada palabra que deba mostrarse y explicar dónde queda espacio libre para el texto en la imagen. Que el texto se vea completo depende de la herramienta de imagen que uses. Si la herramienta actual tiene poca capacidad para escribir, también puedes generar en el lienzo una imagen con espacio reservado para la maquetación y añadir el texto a mano después."
+        },
+        {
+            "q": "Al modificar una imagen existente, ¿cómo evitar que el personaje o el sujeto se deforme?",
+            "a": "Al editar la descripción, enumera claramente los rasgos faciales, la pose o la disposición que deben mantenerse y cambia solo detalles locales. Evita reescribir todo el texto desde cero; así se reducen las deformaciones del sujeto. Cuando hayas corregido la tarjeta de texto en el lienzo de {brand}, solo tienes que pedir al asistente que vuelva a generar."
+        }
+    ],
+    "keywords": [
+        "cómo escribir requisitos para IA de imágenes",
+        "estilos de imagen con IA",
+        "crear imágenes de producto con IA",
+        "generar pósteres con IA",
+        "añadir texto a imágenes con IA",
+        "mantener el rostro al editar con IA"
+    ]
+}

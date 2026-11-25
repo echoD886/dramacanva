@@ -1,0 +1,66 @@
+{
+    "title": "Sube fotos de ropa y crea looks reales para Xiaohongshu",
+    "metaDescription": "Para dueños de tiendas de ropa online y creadores de outfits. Sube una foto de la prenda extendida; la IA añade accesorios y escenas urbanas cotidianas y crea en el lienzo 5 fotos de looks reales para Xiaohongshu.",
+    "oneLiner": "Dale una foto de la prenda y genera en el lienzo looks reales para Xiaohongshu, ideal para tiendas de ropa.",
+    "intro": [
+        "Esta es una herramienta de imágenes de presentación para dueños de tiendas de ropa y creadores de contenido: sube fotos de prendas extendidas y confirma la combinación; en el lienzo se generan 5 fotos de looks que parecen capturas espontáneas de personas reales.",
+        "Solo necesitas preparar una foto de la prenda extendida o de una sola prenda. Si solo tienes una idea escrita, también puedes enviarle por texto el color, el modelo y el estilo de la prenda que prefieras.",
+        "Al terminar, obtendrás en el lienzo 5 imágenes de looks de personas reales en distintos escenarios. Las imágenes tienen formato 3:4, conservan los detalles reales de la prenda y la luz natural, y puedes descargarlas directamente para usarlas."
+    ],
+    "example": {
+        "input": "Sube una foto de un cárdigan de punto blanco extendido e introduce el texto: «Quiero un estilo coreano cotidiano, con una foto en la puerta de una cafetería».",
+        "output": "El lienzo primero muestra una propuesta de combinación para que la confirmes. Tras confirmarla, genera 5 imágenes: la modelo lleva el cárdigan con vaqueros y un bolso de lona, sostiene un vaso de café en la puerta de una cafetería y tiene una pose natural."
+    },
+    "scenarios": [
+        "Una tienda de ropa online solo dispone de fotos de prendas extendidas y quiere crear imágenes de la ropa puesta con un aspecto de vida real para publicarlas y mostrar los productos.",
+        "Solo tienes una prenda superior o un pantalón y quieres ver qué chaqueta y bolso podrían combinarse.",
+        "Quieres generar fotos de looks de modelo que parezcan tomadas al azar con el móvil, sin recurrir a imágenes rígidas de estudio.",
+        "Para una misma prenda, necesitas imágenes de looks en distintos escenarios cotidianos, como una cafetería o un callejón antiguo."
+    ],
+    "problems": [
+        {
+            "pain": "Las imágenes de modelos generadas por IA parecen maniquíes de plástico y, al publicarlas en redes sociales, no parecen publicadas por una persona real.",
+            "solve": "Simula la textura de una foto cotidiana hecha con el móvil, conserva detalles naturales de la piel y la luz del entorno para lograr un efecto de captura espontánea."
+        },
+        {
+            "pain": "Solo tienes una prenda y no sabes cómo combinarla; la imagen generada queda muy sosa.",
+            "solve": "Combina activamente sombreros, bolsos y chaquetas en capas según el estilo de la prenda; primero ofrece una propuesta para que la confirmes y después genera."
+        },
+        {
+            "pain": "Las poses de la modelo generada son rígidas y aparecen con las manos vacías, como en una sesión de estudio, sin sensación de vida cotidiana.",
+            "solve": "Incluye acciones naturales como sostener un café, mirar el móvil o ladear la cabeza, junto con escenarios urbanos e interiores cotidianos."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el lienzo de {brand}.",
+        "Sube una foto de la prenda extendida o una foto normal y describe brevemente el estilo que quieres.",
+        "Revisa las propuestas de combinación y escenario que muestra el lienzo, y confirma o ajusta los detalles.",
+        "Genera 5 imágenes de looks en distintos escenarios y descarga las que te gusten."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo hacer que las imágenes de looks generadas por IA parezcan fotos espontáneas de una persona real?",
+            "a": "La habilidad usa por defecto la textura de una foto hecha con el móvil, conserva las texturas naturales de la piel y la luz, y combina acciones cotidianas para lograr un efecto de captura espontánea. La imagen también integra de forma natural detalles del entorno de la calle y acciones como sostener un café; si quieres una atmósfera especial, también puedes pedir al asistente que cambie a una estética CCD o de película."
+        },
+        {
+            "q": "Si solo tengo una parte de arriba o una falda suelta, ¿se puede crear un look completo?",
+            "a": "Sí. A partir del estilo de esa prenda, la habilidad propone chaquetas, bolsos, sombreros y zapatos para formar un look completo por capas. El asistente primero muestra en el lienzo la propuesta completa para que la confirmes y, cuando estés conforme, empieza a generar las imágenes finales de la ropa puesta."
+        },
+        {
+            "q": "¿La IA puede deformar el diseño de la prenda o equivocarse en los detalles?",
+            "a": "Puede haber ligeras desviaciones, pero la habilidad intentará reproducir el corte, el color y los detalles clave de la prenda sin alterar el diseño original a la ligera. Se recomienda subir una foto nítida de la prenda bien extendida e indicar sus características principales; si no te convencen los detalles generados, puedes pedir al asistente en el lienzo que los modifique y vuelva a generar."
+        },
+        {
+            "q": "¿Las imágenes de looks generadas se pueden publicar directamente en Xiaohongshu?",
+            "a": "Sí. Las imágenes usan la proporción 3:4 estándar de Xiaohongshu y tienen buena calidad; cada vez se generan 5 fotos en distintos escenarios en el lienzo. Elige las que te gusten y descárgalas directamente para guardarlas en el móvil y publicarlas, sin necesidad de recortarlas ni ajustarlas de nuevo."
+        }
+    ],
+    "keywords": [
+        "generar looks para Xiaohongshu con IA",
+        "convertir foto de ropa plana en look puesto",
+        "fotos de outfits reales con IA",
+        "combinar prendas y accesorios",
+        "generar fotos de outfits diarios para Xiaohongshu",
+        "crear fotos de ropa puesta con IA"
+    ]
+}

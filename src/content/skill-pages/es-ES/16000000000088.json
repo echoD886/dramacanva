@@ -1,0 +1,66 @@
+{
+    "title": "Ritmo de edición de vídeo: cortes y transiciones",
+    "metaDescription": "Para edición de vídeo: envía un diálogo o una trama y la IA marcará en el lienzo cortes, orden de dos líneas y transiciones en una tarjeta de planificación.",
+    "oneLiner": "Introduce un diálogo o una trama y genera en el lienzo un plan de cortes y transiciones para principiantes.",
+    "intro": [
+        "Esta es una herramienta de planificación del ritmo de {brand} pensada para quienes empiezan a editar. Introduce un diálogo o una trama y la IA generará en el lienzo un plan de cortes y transiciones que ayuda con diálogos monótonos, tramas múltiples confusas y cambios de escena bruscos.",
+        "Solo tienes que preparar un guion de diálogo o una breve descripción de la trama. Si tienes preferencias de ritmo especiales, como un ritmo más rápido o una forma concreta de cambiar de escena, también puedes decírselo directamente.",
+        "Cuando termines, recibirás en el lienzo una tarjeta de planificación de edición. En ella se indicará claramente cuándo cambia cada plano, a qué expresión del oyente cortar cuando habla una persona y en qué punto se alternan las dos líneas argumentales."
+    ],
+    "example": {
+        "input": "Un fragmento de guion de una negociación que acaba en discusión; siento que cada uno habla por su lado y resulta monótono. Ayúdame a decidir cómo cortar los planos.",
+        "output": "El lienzo genera una tarjeta con el plan de edición: marca los puntos de corte según las pausas del diálogo y los altibajos emocionales, y sugiere que, cuando una de las partes suelte una amenaza, se corte al plano silencioso de la reacción de la otra apretando el puño."
+    },
+    "scenarios": [
+        "Una conversación larga entre dos personas queda monótona y se quieren incluir expresiones del oyente y detalles concretos para dar más vida al ritmo.",
+        "Dos personajes actúan a la vez en lugares distintos y hay que organizar el orden en que se alternan las dos líneas narrativas.",
+        "La trama cambia a una escena nueva o salta en el tiempo y se busca una conexión visual natural para evitar transiciones bruscas.",
+        "No se quieren escribir diálogos largos y se prefiere unir dos planos de detalle para transmitir la soledad interior del personaje."
+    ],
+    "problems": [
+        {
+            "pain": "En un diálogo entre dos personas, los planos saltan de un lado a otro de forma mecánica y la escena resulta tan monótona como una lista leída.",
+            "solve": "Planificar los cortes según las pausas al hablar y los giros emocionales, e intercalar planos de la expresión de quien escucha."
+        },
+        {
+            "pain": "Al editar varias líneas argumentales se salta de una a otra sin orden y el público no entiende cómo se relacionan.",
+            "solve": "De forma predeterminada, planificar como máximo dos líneas paralelas y alternarlas en momentos de acción o clímax emocional para mantener clara la estructura."
+        },
+        {
+            "pain": "Los cambios de escena dependen de cortes secos y bruscos, o de efectos añadidos sin criterio que hacen que la imagen parezca barata.",
+            "solve": "Priorizar transiciones coherentes basadas en acciones o miradas que conectan los planos y, cuando sea necesario, indicar cuándo hacer un fundido de entrada y salida."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y envía tu solicitud de edición a la IA en el panel derecho.",
+        "Envía un guion de diálogo o un resumen de la historia e indícale el ritmo, más rápido o más lento, o tus preferencias de transición.",
+        "Consulta la tarjeta de planificación generada en el lienzo y revisa los puntos de corte de cada plano y las recomendaciones de transición.",
+        "Copia o descarga el resultado y usa los puntos de corte y el orden del plan como referencia para editar tu vídeo."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo editar un vídeo en el que dos personas no paran de hablar para que no resulte aburrido?",
+            "a": "En las pausas de las réplicas clave o en los cambios emocionales, introduce el plano silencioso de la reacción de quien escucha para romper la monotonía del intercambio. La IA marcará los puntos de corte en el lienzo según los altibajos del diálogo, te ayudará a ordenar el ritmo y mostrará la interacción emocional entre los personajes."
+        },
+        {
+            "q": "¿Cómo hacer que una transición a una nueva escena parezca natural?",
+            "a": "Prioriza transiciones naturales que conecten mediante acciones o miradas y evita en lo posible los efectos de transición bruscos. Cuando la trama avance mucho en el tiempo o cambie radicalmente de lugar, plantéate un fundido a negro y luego a imagen. La IA indicará en la tarjeta del plan los momentos adecuados."
+        },
+        {
+            "q": "¿Cómo editar dos acciones que ocurren al mismo tiempo en lugares distintos?",
+            "a": "Utiliza un montaje alterno de las dos líneas y cambia de una a otra en el momento en que se produce una acción o la emoción llega a su punto álgido. La plataforma planifica por defecto como máximo dos líneas argumentales paralelas para evitar que el público se confunda; la IA marcará en el lienzo los puntos concretos de alternancia."
+        },
+        {
+            "q": "Cuando no hay diálogo, ¿cómo hacer que el público perciba la tristeza o la soledad del personaje?",
+            "a": "Puedes encadenar dos planos de detalle relacionados para que el público interprete la emoción por sí mismo. Por ejemplo, tras el rostro del personaje con la mirada perdida, mostrar inmediatamente unas hojas que caen al otro lado de la ventana; sin diálogo también se puede transmitir la melancolía. La IA te propondrá este tipo de combinaciones de planos en el lienzo."
+        }
+    ],
+    "keywords": [
+        "cómo editar escenas de diálogo",
+        "cómo hacer transiciones de vídeo",
+        "ritmo de edición de vídeo",
+        "montaje alterno de dos historias",
+        "técnicas de cambio de plano",
+        "tutorial de edición de series cortas"
+    ]
+}

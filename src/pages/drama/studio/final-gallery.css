@@ -1,0 +1,365 @@
+.final-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 24px;
+    padding: 32px;
+    overflow: auto;
+    align-items: start;
+    align-content: start;
+    grid-auto-rows: max-content;
+    flex: 1;
+    min-height: 0;
+}
+.final-episode-card {
+    text-align: start;
+    cursor: pointer;
+    color: var(--foreground);
+    width: 100%;
+}
+.episode-poster {
+    display: flex;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    flex-shrink: 0;
+    background: var(--surface-card);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.episode-poster video,
+.episode-poster img,
+.episode-poster .cached-resource-image-shell {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.episode-poster video {
+    position: absolute;
+    inset: 0;
+}
+.episode-poster:has(img) video {
+    opacity: 0;
+}
+.final-episode-card:hover .episode-poster video {
+    opacity: 1;
+}
+.final-episode-card .project-case-body {
+    gap: 10px;
+    width: 100%;
+}
+.final-episode-card .project-case-body > span {
+    color: var(--muted-foreground);
+    font-size: var(--fs-caption);
+}
+.final-gallery-empty {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 48px;
+    text-align: center;
+}
+.drama-final-count {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 2;
+    background: var(--background);
+    color: var(--foreground);
+}
+.drama-premiere.is-immersive {
+    position: fixed;
+    inset: 0;
+    height: 100dvh;
+    z-index: var(--z-modal-overlay);
+}
+.drama-premiere .watch-back {
+    position: absolute;
+    left: 32px;
+    top: 12px;
+    z-index: 9;
+    color: inherit;
+    font-size: var(--fs-caption);
+}
+.drama-premiere .watch-panel {
+    position: absolute;
+    z-index: 8;
+    right: 32px;
+    top: 100px;
+    bottom: 32px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    gap: 16px;
+    font-size: var(--fs-caption);
+}
+.drama-premiere.is-compact .watch-panel {
+    position: relative;
+    inset: auto;
+    width: auto;
+    grid-column: 3;
+    grid-row: 1 / 3;
+}
+.watch-queue-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.watch-queue-heading > span,
+.watch-episode small {
+    color: var(--final-muted);
+}
+.watch-tabs,
+.watch-options {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+.watch-tabs button {
+    padding-block: 8px;
+    border-bottom: 1px solid transparent;
+}
+.watch-tabs button[aria-selected="true"] {
+    border-color: currentColor;
+}
+.watch-options label {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+.drama-premiere .watch-options [role="switch"] {
+    border-radius: var(--final-pill);
+    background: var(--final-glass);
+    border: 1px solid var(--final-muted);
+}
+.drama-premiere .watch-options [role="switch"][aria-checked="true"] {
+    background: var(--final-muted);
+}
+.drama-premiere .watch-options .sc-switch-thumb {
+    background: var(--final-muted);
+    left: 2px;
+    transform: none;
+    translate: 0 -50%;
+}
+.drama-premiere .watch-options [aria-checked="true"] .sc-switch-thumb {
+    background: var(--final-glass);
+    left: 16px;
+}
+.watch-episodes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+    min-height: 0;
+    scrollbar-width: thin;
+}
+.watch-episode {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    text-align: start;
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: var(--radius-md);
+}
+.watch-episode[aria-current="true"] {
+    border-color: var(--final-muted);
+    background: var(--final-glass);
+}
+.watch-episode.is-watched:not([aria-current]) {
+    opacity: 0.65;
+}
+.watch-episode > span:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+.watch-episode strong {
+    font-weight: 500;
+    overflow-wrap: anywhere;
+}
+.watch-episode small {
+    font-size: var(--fs-label);
+}
+.watch-episode small:empty {
+    display: none;
+}
+.watch-episodes.is-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-content: start;
+}
+.watch-episodes.is-grid .watch-episode {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 62px;
+}
+.drama-premiere .watch-panel .ll-detail-rail-shell {
+    position: relative;
+    inset: auto;
+    height: auto;
+    min-height: 0;
+    flex: 1;
+    padding: 0;
+    background: none;
+}
+.drama-premiere .watch-panel .ll-detail-rail {
+    height: 100%;
+    flex-direction: column;
+    overflow-y: auto;
+    overflow-x: hidden;
+    touch-action: pan-y;
+}
+.drama-premiere .watch-panel .ll-detail-rail-item {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr);
+    align-items: center;
+    width: 100%;
+    height: auto;
+    min-height: 84px;
+    flex: 0 0 auto;
+}
+.drama-premiere .watch-panel .ll-detail-rail-item em {
+    position: static;
+    white-space: normal;
+    padding: 10px;
+}
+.drama-premiere .watch-panel .ll-detail-rail-item > .cached-resource-image-shell {
+    height: auto;
+    aspect-ratio: var(--final-ratio);
+}
+.drama-premiere .watch-panel .ll-detail-rail-arrow {
+    display: none;
+}
+.drama-premiere.is-wide .final-screen {
+    right: 340px;
+}
+.drama-premiere.is-wide .final-info {
+    right: 340px;
+}
+.drama-premiere .final-screen {
+    container-type: size;
+}
+.watch-video-frame {
+    position: absolute;
+    width: min(100cqw, calc(100cqh * var(--final-ratio)));
+    height: min(100cqh, calc(100cqw / var(--final-ratio)));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.watch-countdown {
+    position: absolute;
+    z-index: 9;
+    right: 12px;
+    bottom: 80px;
+    display: flex;
+    align-items: center;
+    max-width: calc(100% - 24px);
+    gap: 12px;
+    padding: 18px;
+    border: 1px solid var(--final-line);
+    border-radius: var(--radius-lg);
+    background: var(--final-glass);
+    font-size: var(--fs-caption);
+}
+.watch-countdown .episode-poster {
+    width: 44px;
+    max-height: 72px;
+}
+.watch-countdown-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+.watch-countdown button {
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media (max-width: 700px) {
+    .final-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        padding: 16px;
+    }
+    .final-episode-card .project-case-body {
+        padding: 12px;
+    }
+    .final-episode-card .project-case-body strong {
+        white-space: normal;
+        font-size: var(--fs-caption);
+    }
+    .drama-premiere.ll-detail-stage {
+        height: auto;
+        min-height: 0;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 48px 16px 24px;
+        gap: 18px;
+    }
+    .drama-premiere.is-immersive {
+        height: 100dvh;
+    }
+    .drama-premiere .final-screen,
+    .drama-premiere.is-compact .final-screen,
+    .drama-premiere.is-wide .final-screen {
+        position: relative;
+        inset: auto;
+        flex: 0 0 auto;
+        height: min(52dvh, 550px);
+        width: 100%;
+        order: 0;
+    }
+    .drama-premiere .final-info,
+    .drama-premiere.is-compact .final-info,
+    .drama-premiere.is-wide .final-info {
+        position: relative;
+        inset: auto;
+        order: 1;
+        gap: 8px;
+    }
+    .drama-premiere .final-hook,
+    .drama-premiere.is-compact .final-hook {
+        display: block;
+    }
+    .drama-premiere .ll-detail-actions,
+    .drama-premiere.is-compact .ll-detail-actions {
+        position: relative;
+        inset: auto;
+        order: 2;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    .drama-premiere .watch-panel,
+    .drama-premiere.is-compact .watch-panel {
+        position: relative;
+        inset: auto;
+        width: 100%;
+        order: 3;
+        min-height: 240px;
+        flex-shrink: 0;
+    }
+    .drama-premiere .watch-panel .ll-detail-rail {
+        max-height: 450px;
+    }
+    .drama-premiere .watch-back {
+        left: 16px;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .final-episode-card,
+    .final-episode-card img {
+        transition: none;
+        transform: none;
+    }
+}

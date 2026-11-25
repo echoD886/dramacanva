@@ -1,0 +1,66 @@
+{
+    "title": "Unify your short drama's visual style and storyboard images",
+    "metaDescription": "For short drama and video creators: send a script; it sets color and character look rules on the canvas, writes shot prompts, and makes images.",
+    "oneLiner": "Enter a script, set the short drama style and character looks on the canvas, and generate image requirements.",
+    "intro": [
+        "For short drama creators: send your script or story, and it helps unify color tone and lighting on the canvas, keep character looks as consistent as possible, and avoid jarring style changes between shots.",
+        "You only need a story script or character setup. If you don't have any existing images, you can just send a text story; it will first suggest several different visual directions for you to choose from.",
+        "When done, you'll get a full set of style rules, a character look rules table, image prompts for each shot (the instructions you send to AI to generate visuals), and a checklist for verifying visual details on the canvas."
+    ],
+    "example": {
+        "input": "Enter a modern workplace short drama script, specifying that the lead is a short-haired female office worker with black-framed glasses, and that the visuals should overall lean cool-toned, clean, and bright.",
+        "output": "The canvas will generate a character look rules table, a cool-tone visual setting card, and image requirements for the first 3 shots, and it will also flag the detail that the lead changes clothes in shot 2."
+    },
+    "scenarios": [
+        "The script is just written, and you haven't decided whether the visuals should feel live-action, 2D anime, or ink-wash style.",
+        "When generating multiple images, the same lead's face, hairstyle, or clothes keep changing from one image to the next.",
+        "You don't know how to write image requirements for each shot or how to describe the visuals to AI.",
+        "After shot images are generated, you need to check whether lighting, weather, and character details create continuity errors across images."
+    ],
+    "problems": [
+        {
+            "pain": "The visual style breaks between shots: one shot is realistic and the next turns into anime.",
+            "solve": "First set color, composition, and lighting rules on the canvas so every shot is generated to the same standard."
+        },
+        {
+            "pain": "The same character gets a different face from shot to shot, and clothes and hairstyle often don't match.",
+            "solve": "Create a character appearance rules table that defines hairstyle, clothing, and props, and keep character features as consistent as possible when generating images."
+        },
+        {
+            "pain": "You don't know how to write image descriptions, and the results from your own wording are always inconsistent.",
+            "solve": "Break the image into subject, scene, composition, and lighting, and generate standardized prompts (image instructions) on the canvas."
+        }
+    ],
+    "steps": [
+        "In the skill library, click Use this skill, then send your script or story in the chat box on the right.",
+        "Review the visual style rules card and character look rules table generated on the canvas.",
+        "Generate shot-by-shot image prompts (the instructions sent to AI) and visual reference images.",
+        "Use the checklist to tell the assistant what to revise, and when you're satisfied, download the images from the canvas."
+    ],
+    "faq": [
+        {
+            "q": "How can I keep the AI character looking consistent across shots?",
+            "a": "Absolute consistency can't be guaranteed, but defining appearance features before generation helps keep things as coherent as possible. The tool first lists the character's hairstyle, clothing, and carried props, and each shot only changes action and angle. If a few shots go off-model, use the checklist to tell the assistant what to revise, then regenerate that shot."
+        },
+        {
+            "q": "Can I use this skill without existing character images or reference images?",
+            "a": "Yes. You can use it with just a text story. The tool will first recommend two or three visual styles based on your story type and organize text-based rules on the canvas. You can upload images later whenever you have ones you like."
+        },
+        {
+            "q": "Can this skill directly create a fully edited video?",
+            "a": "No. It mainly helps you plan the visual style and generate storyboard images. It does not automatically edit the footage into a finished video or add voiceover on its own. If you need to assemble a video, you can arrange the order yourself on the canvas's video timeline and then export it."
+        },
+        {
+            "q": "Do I need to generate images for every shot in a short drama?",
+            "a": "Not every shot needs an image. Usually, you only need representative images for establishing wide shots, key plot turns, and important actions; transitional shots can be planned in text. This can save you a lot of time testing image generation."
+        }
+    ],
+    "keywords": [
+        "how to storyboard a short drama",
+        "AI video character consistency",
+        "short drama visual style consistency",
+        "storyboard image prompts",
+        "AI short drama character inconsistency",
+        "short drama keyframe creation"
+    ]
+}

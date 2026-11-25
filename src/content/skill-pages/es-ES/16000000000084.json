@@ -1,0 +1,66 @@
+{
+    "title": "Convierte ideas sueltas en un esquema completo con giros",
+    "metaDescription": "Para guionistas de historias o dramas cortos: comparte ideas sueltas, confirma el rumbo y la IA crea tarjetas de esquema con inicio, giros y final.",
+    "oneLiner": "Introduce ideas sueltas y organiza en el lienzo un esquema completo con inicio, giros y final.",
+    "intro": [
+        "Es una herramienta que te ayuda a ordenar el marco de tu historia. Cuando solo tienes ideas sueltas en la cabeza y no sabes cómo unirlas en una historia completa, te ayuda a aclarar la trama de principio a fin.",
+        "Solo tienes que preparar tu idea inicial, una idea aproximada de los personajes o un borrador atascado a medias, y enviarlo directamente al asistente de IA en el chat del lado derecho del lienzo.",
+        "La IA generará en el lienzo tarjetas de esquema en texto que detallan con claridad el origen de la historia, los giros clave, las opciones del clímax y el final; puedes verlas, modificarlas o copiarlas directamente."
+    ],
+    "example": {
+        "input": "Quiero escribir un cortometraje: un repartidor encuentra una mochila llena de dinero, el dueño es una persona sospechosa y quiere devolver el dinero, pero su familia necesita dinero urgentemente; no sé cómo seguir con la historia.",
+        "output": "La IA generará en el lienzo una tarjeta de esquema que divide la trama en la ruptura de la vida inicial, la crisis por devolver el dinero y las múltiples decisiones a mitad de camino, y un clímax y final coherentes."
+    },
+    "scenarios": [
+        "Solo tienes en mente un personaje o una idea inicial divertida y no sabes cómo continuar.",
+        "Te atascas a mitad de la historia, la trama es plana como una lista de sucesos y no sabes qué pasará en la siguiente escena.",
+        "Llegas al final y no sabes cerrarlo, o el giro final resulta demasiado brusco y poco creíble.",
+        "Terminas el borrador pero sientes que le falta algo y quieres comprobar si los momentos clave tienen sentido."
+    ],
+    "problems": [
+        {
+            "pain": "Solo tienes una idea inicial y no sabes cómo convertirla en una historia completa.",
+            "solve": "Te ayuda a ordenar el suceso que rompe la calma del protagonista y a plasmar en el lienzo un esquema con una cadena causal coherente."
+        },
+        {
+            "pain": "A mitad de la trama todo se vuelve plano y el protagonista pasa por escenas sin rumbo, como si solo se narraran los hechos.",
+            "solve": "Detecta los conflictos, diseña para el protagonista un giro clave que cambie su situación y completa en el lienzo la evolución de la trama."
+        },
+        {
+            "pain": "El final queda soso, o el giro de la trama es tan forzado que no se entiende.",
+            "solve": "Deduce el conflicto del clímax a partir de las causas y efectos previos, revisa la coherencia entre planteamiento y desenlace y ofrece sugerencias razonables para mejorar el final."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y empieza a crear en el lienzo de {brand}.",
+        "Envía la inspiración de tu historia, la configuración de los personajes o el borrador que tengas a medias.",
+        "Consulta las tarjetas de esquema que la IA genera en el lienzo con el origen, los giros y el final.",
+        "Ajusta los detalles de la trama que no te convenzan y, al final, copia el texto o descarga el resultado del esquema."
+    ],
+    "faq": [
+        {
+            "q": "¿Qué hago si me atasco a mitad de la historia y no sé cómo continuar?",
+            "a": "Puedes plantearle al protagonista un problema imposible de esquivar que le obligue a tomar una decisión activa. Muchas historias se vuelven planas en su parte central porque el protagonista no se enfrenta a un obstáculo real. Piensa en lo que más teme que ocurra y haz que cada decisión suya genere un nuevo problema; así la historia avanzará de forma natural."
+        },
+        {
+            "q": "¿Cómo lograr que el final de la historia resulte coherente y no brusco?",
+            "a": "El giro del final debe estar preparado en la primera mitad de la historia y no surgir de la nada. Comprueba que el desenlace sea consecuencia del carácter del protagonista y de sus decisiones anteriores, y no de una coincidencia o un accidente caído del cielo. Si aclaras las causas y los efectos, el público sentirá que es sorprendente pero lógico."
+        },
+        {
+            "q": "Si solo tengo una idea vaga, ¿puede la IA ayudarme a convertirla en un esquema?",
+            "a": "Sí. Basta con que expliques quién es el protagonista y qué le ocurre. La IA seguirá las pautas clásicas de la narrativa y completará en el lienzo el suceso inicial, el desarrollo intermedio y el clímax con el final. Puedes seguir eligiendo y modificando el rumbo que prefieras en las tarjetas de esquema generadas."
+        },
+        {
+            "q": "¿Cómo saber si mi idea de historia merece la pena desarrollarse?",
+            "a": "Fíjate sobre todo en si el suceso inicial rompe la calma del protagonista y le impide volver fácilmente a su situación anterior. Si tras el problema puede regresar a como estaba en cualquier momento, la historia suele costar alargarla. Si el protagonista se ve obligado a seguir adelante y el precio que debe pagar aumenta, la idea merece desarrollarse."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un esquema de historia",
+        "qué hacer si te atascas a mitad de una historia",
+        "organizar el esquema de un guion",
+        "diseñar giros de trama",
+        "cómo escribir el final de un guion",
+        "ideas para dramas cortos"
+    ]
+}

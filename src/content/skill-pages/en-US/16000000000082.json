@@ -1,0 +1,67 @@
+{
+    "title": "Write Sitcom & Comedy Shorts: Map Conflict and Jokes",
+    "metaDescription": "For comedy shorts or family sitcoms. Enter characters and everyday conflicts, confirm with the assistant, then map contrasts, a strong opening, and jokes.",
+    "oneLiner": "Enter characters and everyday conflicts to generate a joke-filled sitcom script outline on the canvas.",
+    "intro": [
+        "This is a tool to help you design funny short-story plots. It doesn't rely on forcing in internet memes; instead, it draws laughs naturally from friction between character personalities and small everyday misunderstandings.",
+        "You only need to prepare a few character identities (like a boastful dad and a sensible kid) and one recent everyday hassle they're dealing with, then send them directly to the AI on the right side of the canvas.",
+        "The AI generates complete script cards on the canvas, including a strong opening hook, conflicts at each stage, and where the jokes land, so you can review them directly, revise dialogue, or copy them for use."
+    ],
+    "example": {
+        "input": "I want to shoot a two-minute family short: a stingy dad tries to secretly buy a fishing rod, gets caught red-handed by his elementary-school son, and the two start covering for each other.",
+        "output": "Three-act script cards are generated on the canvas: including an opening hook line, joke placement around Dad making excuses and embarrassing himself, and a warm ending where the whole family reconciles; you can copy and edit them directly."
+    },
+    "scenarios": [
+        "You want to write a funny family or workplace short but feel the jokes are too pieced together and the story doesn't flow.",
+        "You've set up two characters, but as soon as they start talking the dialogue falls flat, and you don't know how to make the contrast obvious.",
+        "You worry that the conflict in a comedy video will be too intense and seem like arguing; you want a story that's funny and ends with warmth.",
+        "You're making a serialized short-video series and want the characters to have fixed catchphrases and clear personality hooks people remember."
+    ],
+    "problems": [
+        {
+            "pain": "Comedy shorts rely entirely on stale memes found online, and the plot feels pieced together and scattered.",
+            "solve": "Helps you organize a complete story arc and place the jokes in personality differences and everyday friction, instead of forcing in memes."
+        },
+        {
+            "pain": "The characters' personalities are too ordinary for viewers to remember, and after a few lines they have nothing to say.",
+            "solve": "Maps the personality contrasts and partner interaction patterns between characters, designs signature catchphrases, and helps the two trade lines naturally."
+        },
+        {
+            "pain": "The conflict in the story is written too sharply, like an argument or venting, and viewers are put off.",
+            "solve": "Uses mild everyday misunderstandings as the conflict points, keeping the comic friction while bringing back warmth between the characters at the end."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use this skill” to enter the {brand} canvas.",
+        "Describe your character setup and a small everyday conflict, and send it to the AI assistant.",
+        "Review the cards generated on the canvas and check the opening dialogue and joke placement.",
+        "Tell the assistant to revise dialogue details, or ask it to regenerate parts you're not happy with.",
+        "Copy or download the script text from the cards for later shooting and rehearsal."
+    ],
+    "faq": [
+        {
+            "q": "I've never written a script. Can I use this to write a comedy short?",
+            "a": "Yes. You don't need to know professional script format. Just enter the characters' identities and how they usually get on each other's nerves, and the AI will lay out an outline on the canvas in the order of opening, conflict, and ending. You can follow the joke and dialogue ideas to write a complete little story."
+        },
+        {
+            "q": "How can I make the dialogue between two people in a short funnier and more contrast-driven?",
+            "a": "The key is to create a mismatch in their personalities or status—for example, one loves to talk big but always messes up, while the other seems obedient but often punctures the truth. This tool helps you design their interaction pattern and signature catchphrases so they can trade lines and set up jokes smoothly."
+        },
+        {
+            "q": "Can the generated script be turned directly into a video?",
+            "a": "It can't directly generate a finished video; this tool produces text script outline cards. After you revise the dialogue on the canvas to your satisfaction, you can copy it out for live-action rehearsal or use it as visual prompts in other video generation tools."
+        },
+        {
+            "q": "Big conflicts tend to look like arguing. How do I write it warm and funny?",
+            "a": "Focus the conflict on small everyday matters rather than real opposing interests. The tool designs a warm twist at the end of the script so that even if the characters won't give in to each other verbally, they still understand each other in the end, letting the comedy end warmly amid the laughs."
+        }
+    ],
+    "keywords": [
+        "how to write a sitcom script",
+        "comedy short script",
+        "how to write funny dialogue for videos",
+        "sitcom character contrast",
+        "two-person comedy short dialogue",
+        "how to design jokes for short videos"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Monte prompts de vídeo de IA com câmera e ação precisas",
+    "metaDescription": "Para quem não sabe descrever cenas à IA. Digite a ideia no chat; o assistente organiza sujeito, câmera e ação e cria um card com prompt estruturado.",
+    "oneLiner": "Digite uma ideia de cena como vier à cabeça e gere, na tela, um card de texto com prompt padronizado.",
+    "intro": [
+        "Esta é uma habilidade de organização de prompts (textos que dizem à IA como gerar a cena) para criadores de vídeo. Digite uma ideia de cena aproximada e ela gera, na tela, um card de texto com sujeito, movimento de câmera e ação organizados.",
+        "Você só precisa ter uma ideia de cena anotada de qualquer jeito, como uma pessoa correndo na chuva. Se tiver uma foto de personagem ou composição para usar como referência, também pode enviá-la ao chat e explicar para que serve.",
+        "Ao terminar, um card de texto com layout claro será gerado na tela. Ele traz ações divididas em blocos e termos de câmera padronizados; você pode copiar diretamente ou editar manualmente quando quiser."
+    ],
+    "example": {
+        "input": "Quero fazer uma cena noturna de cidade cyberpunk, com a câmera avançando lentamente do alto em direção a uma garota de capa de chuva segurando um guarda-chuva luminoso.",
+        "output": "Gerar na tela um card de texto com prompt, detalhando em blocos ordenados o personagem principal, a rua em noite de chuva, o movimento de câmera de push-in e a atmosfera de luz e sombra, além de indicar os termos de enquadramento adequados."
+    },
+    "scenarios": [
+        "Você tem a cena na cabeça, mas não sabe como escrever e quer transformar linguagem casual em um prompt de IA padronizado.",
+        "Quer fazer a câmera avançar, se afastar ou girar ao redor, mas não sabe quais termos de câmera usar para explicar isso à IA.",
+        "Você enviou uma imagem de referência, mas ela não foi usada, e precisa deixar claro para a IA que a imagem serve apenas como referência de aparência.",
+        "Em vídeos com mais de 10 segundos, o meio costuma se perder, então é preciso dividir ações e movimentos de câmera por segundos."
+    ],
+    "problems": [
+        {
+            "pain": "Você escreve um texto longo para a IA e o vídeo gerado fica com ações confusas e a cena tende a se perder.",
+            "solve": "Divida a descrição em módulos como sujeito, ação e câmera, organizados por ordem de importância, para deixar a lógica mais clara."
+        },
+        {
+            "pain": "Você quer um push-in ou uma câmera girando ao redor, mas a IA não entende a linguagem cotidiana que você escreveu.",
+            "solve": "Oferece um vocabulário de movimentos de câmera comuns e substitui a linguagem cotidiana por termos padrão, reduzindo ao máximo movimentos erráticos de câmera."
+        },
+        {
+            "pain": "Você envia imagens de referência, mas a IA tende a ignorá-las ou usá-las no lugar errado ao gerar o vídeo.",
+            "solve": "Ajuda a especificar no texto para que serve cada imagem, por exemplo controlar apenas a aparência do personagem ou servir somente como referência de composição."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e digite a ideia de cena no chat à direita.",
+        "Envie imagens de referência (se houver) e explique se servem como referência de aparência ou de composição.",
+        "Veja o card de texto gerado na tela e ajuste manualmente os detalhes conforme necessário.",
+        "Copie ou baixe o texto do prompt organizado para usar na geração do vídeo depois."
+    ],
+    "faq": [
+        {
+            "q": "Como escrever um prompt de vídeo de IA para a cena não ficar confusa?",
+            "a": "O ideal é separar sujeito, ação, cenário e movimento de câmera em blocos. Escreva primeiro o personagem principal, depois o ambiente e a direção da câmera, em ordem de importância; assim a IA tem menos chance de se confundir. Esta habilidade já organiza tudo nesse formato para você."
+        },
+        {
+            "q": "Enviei uma imagem de referência; por que a IA sempre usa errado?",
+            "a": "Como o uso não foi limitado com clareza, a IA tende a misturar tudo o que está na imagem de referência com a cena. É preciso deixar explícito na entrada se ela serve apenas para controlar a aparência do personagem ou somente como referência de composição ou do primeiro quadro. A habilidade ajuda a especificar o uso de cada imagem de forma padronizada e evita confusão da IA."
+        },
+        {
+            "q": "Como pedir à IA para a câmera avançar ou se afastar?",
+            "a": "Use diretamente termos padronizados como push-in, pull-out ou câmera girando ao redor. Evite linguagem cotidiana vaga; assim o movimento da câmera fica mais estável. A habilidade já inclui os termos de câmera mais usados e faz a substituição automaticamente."
+        },
+        {
+            "q": "O que fazer quando a cena tende a se perder no meio de vídeos mais longos?",
+            "a": "Você pode escrever o prompt dividindo por segundos. Separe o vídeo em primeiros segundos, meio e final, e descreva as ações e mudanças de câmera de cada trecho. Esse uso de blocos torna as transições mais naturais e reduz a chance de a cena se perder no meio."
+        }
+    ],
+    "keywords": [
+        "prompt de vídeo com IA",
+        "como escrever movimento de câmera em vídeo de IA",
+        "modelo de prompt para gerar vídeo",
+        "vídeo de IA cena se perde",
+        "como usar imagem de referência em vídeo de IA",
+        "prompt em blocos para vídeo longo"
+    ]
+}

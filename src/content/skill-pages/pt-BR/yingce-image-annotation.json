@@ -1,0 +1,66 @@
+{
+    "title": "Edição local: marque no local e altere só o detalhe",
+    "metaDescription": "Para ajustar detalhes de uma imagem: marque no canvas do {brand} onde mudar e escreva o pedido. A original é preservada e a nova altera só o indicado.",
+    "oneLiner": "Para quem quer editar detalhes: marque o local e o pedido na imagem e gere uma nova versão corrigida.",
+    "intro": [
+        "Esta é uma ferramenta para alterar detalhes locais de uma imagem. Se a pose de um personagem estiver errada, você quiser trocar a cor da roupa ou houver objetos indesejados no fundo, não precisa redesenhar a imagem inteira: altere apenas o que precisa mudar.",
+        "Você só precisa de uma imagem para editar. Abra-a no canvas, coloque pontos numerados nos locais que quer mudar e escreva uma instrução para cada ponto, por exemplo, “trocar por uma jaqueta preta”.",
+        "Depois de confirmar, o canvas gera uma nova imagem com as alterações. Os pontos de marcação não aparecem na nova imagem, que fica limpa. A imagem original é preservada por completo, para você comparar ou baixar a nova imagem."
+    ],
+    "example": {
+        "input": "Envie uma imagem de uma estalagem antiga, marque o ponto 1 na mesa e escreva “remover a garrafa de água mineral moderna”; marque o ponto 2 na parede e escreva “pendurar uma espada de madeira”.",
+        "output": "O canvas gera uma nova imagem: a garrafa de água mineral sobre a mesa desaparece, uma espada de madeira aparece na parede e os demais personagens e o fundo são mantidos o mais próximo possível do original; a imagem original também continua no canvas."
+    },
+    "scenarios": [
+        "Ajustar levemente a cor da roupa ou o penteado de um personagem já desenhado, sem mudar o rosto nem o fundo.",
+        "Há objetos fora de contexto na cena e você quer trocá-los por adereços coerentes com a época.",
+        "A pose de um personagem secundário está errada e você quer alterar só essa pessoa, sem refazer a imagem inteira.",
+        "Adicionar um objeto na mão do personagem ou substituir o texto de uma placa no fundo."
+    ],
+    "problems": [
+        {
+            "pain": "Descrever só com texto onde alterar a imagem faz a IA errar o local com facilidade.",
+            "solve": "Marque pontos numerados diretamente na imagem e escreva o que deve ser feito em cada local para indicar com precisão à IA onde e como alterar."
+        },
+        {
+            "pain": "Há dois ou três pequenos defeitos para corrigir, mas, ao gerar de novo, a imagem inteira muda.",
+            "solve": "É possível marcar vários pontos numerados e escrever instruções separadas para cada um, gerando de uma vez uma nova imagem com vários detalhes corrigidos."
+        },
+        {
+            "pain": "Medo de a imagem original ser substituída ou de os pontos de marcação aparecerem na nova imagem.",
+            "solve": "A imagem original permanece no canvas, e a nova imagem mostra apenas as alterações, sem os pontos de marcação."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” e envie ou selecione no canvas a imagem que deseja alterar.",
+        "Abra a interface de marcação da imagem, coloque pontos numerados nos locais que quer mudar e escreva instruções claras de alteração.",
+        "Confirme os pontos e as instruções marcados e peça ao assistente para gerar a nova imagem com as alterações.",
+        "Veja a nova imagem gerada no canvas e, depois de comparar e aprovar o resultado, baixe a imagem."
+    ],
+    "faq": [
+        {
+            "q": "Os números e pontos marcados na imagem aparecem na nova imagem?",
+            "a": "Não. Ao gerar, o sistema remove automaticamente os pontos de marcação, a numeração e as linhas auxiliares, e o resultado final mostra apenas as alterações solicitadas. A nova imagem fica limpa e sem vestígios das marcações, para você usar sem preocupação."
+        },
+        {
+            "q": "A imagem original é substituída após a alteração?",
+            "a": "Não. Após a alteração, o canvas gera uma imagem totalmente nova ao lado, e sua imagem original e o registro das marcações são preservados por completo. Você pode comparar os detalhes da nova imagem com a original no canvas quando quiser e baixar a nova imagem depois de aprovar."
+        },
+        {
+            "q": "É possível marcar vários locais para alterar na mesma imagem ao mesmo tempo?",
+            "a": "Sim. Você pode marcar vários pontos numerados em ordem na imagem e escrever instruções diferentes para cada ponto. Após a confirmação, o sistema processa todos os pontos de uma vez e gera a nova imagem, sem precisar enviar várias vezes."
+        },
+        {
+            "q": "Como usar a IA para alterar só uma parte da imagem sem mudar o restante?",
+            "a": "Coloque pontos numerados nos locais que precisam de alteração e escreva instruções claras. O sistema vai regenerar apenas as áreas marcadas e tentará manter o restante da imagem igual. Se não gostar de algum detalhe local após a geração, ajuste o texto daquele ponto e gere novamente."
+        }
+    ],
+    "keywords": [
+        "edição local de imagem com IA",
+        "editar imagem com marcações",
+        "editar imagem com IA mantendo o fundo",
+        "substituição local em imagem",
+        "editar imagem por posição",
+        "remover objetos com IA"
+    ]
+}

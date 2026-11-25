@@ -1,0 +1,67 @@
+{
+    "title": "3D Chinese Animation Transformation Video from One Image",
+    "metaDescription": "For Chinese animation-style character transformations. Upload a character image and pick a theme; AI lists design sheets, then makes 360-degree clips.",
+    "oneLiner": "Batch-create 3D Chinese animation-style 360-degree rotating transformation videos from one character image and a theme.",
+    "intro": [
+        "This is a skill for making character transformation animations. You don’t need to draw complex poses yourself; AI makes your character change into new outfits while spinning at high speed in 360 degrees, creating a transformation scene similar to 3D Chinese animation.",
+        "You only need to prepare one clear character image and choose a theme (such as the twelve zodiac signs or the five elements). If you don’t have an image ready, you can also describe the character’s appearance in text and have AI first draw a base image on the canvas.",
+        "When it’s done, you’ll first get a detailed transformation design sheet on the canvas. Once you’re satisfied, AI will generate transformation video cards one by one, each with rotation and a freeze-frame close-up, for you to view and download."
+    ],
+    "example": {
+        "input": "Upload an image of an ancient swordsman, select the faction as “Eastern Five Elements,” set the theme to “Shelter,” and set the personality as “calm, decisive.”",
+        "output": "The canvas first shows transformation design sheets for five members: metal, wood, water, fire, and earth; after confirmation, it generates five separate video clips showing the swordsman throwing a magical artifact and changing into Five Elements mecha armor during a 360-degree rotation, with freeze-frame dialogue lines."
+    },
+    "scenarios": [
+        "When you want to make a set of short Chinese animation transformation videos for original anime characters themed around the twelve zodiac signs or Chinese zodiac animals.",
+        "When making a series of short dramas and need to batch-design cool outfit-change highlight shots for characters with different personalities.",
+        "When a game character gets a holiday update and you want to make an animation clip where old clothes reassemble into new armor during rotation.",
+        "When you only have one character illustration and want a low-cost way to test how the character moves and create a 360-degree transformation effect."
+    ],
+    "problems": [
+        {
+            "pain": "When you write transformation descriptions yourself, the video often just changes clothes stiffly and lacks rotating and lighting dynamics.",
+            "solve": "Break it into three camera moves: first throw a magical artifact that bursts open, then spin at high speed for 360 degrees while changing outfits, and finally freeze on a close-up to show the new look."
+        },
+        {
+            "pain": "Generating video from text alone can distort the character, and facial features often don’t match before and after the transformation.",
+            "solve": "Use your character image as the reference for the video, preserving the original character’s facial features as much as possible while rotating and changing outfits."
+        },
+        {
+            "pain": "Wanting to make a full set of twelve zodiac sign transformations, but thinking up each character’s look one by one takes too much time.",
+            "solve": "List transformation design sheets for every member of the group on the canvas at once; after you confirm and revise them, generate the videos one by one."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill” to enter the canvas and start creating.",
+        "Upload a character image and choose the faction and theme style you want to create.",
+        "Review the design sheets for the whole group generated on the canvas and fine-tune the text details as needed.",
+        "Have AI start generating videos, then view or regenerate clips one by one on the canvas.",
+        "Drag the finished video clips onto the timeline, arrange them in order, and export after confirming."
+    ],
+    "faq": [
+        {
+            "q": "Can I make a transformation video directly without an existing character image?",
+            "a": "Not directly, but you can have AI draw a base image first. In the chat, describe the character’s appearance in text and have AI draw the character image on the canvas first; once you’re satisfied, use that image as the reference to continue generating the transformation video."
+        },
+        {
+            "q": "Can the character’s appearance stay consistent before and after the transformation?",
+            "a": "Absolute consistency isn’t guaranteed, but the system will try to keep facial features coherent. AI uses your character image as a reference and only changes the clothes and accessories during rotation; if you’re not happy with a clip, you can regenerate it separately."
+        },
+        {
+            "q": "Will the generated transformation videos include background music and voiceover?",
+            "a": "They won’t include background music or voiceover. The skill generates silent video clips with no subtitles. You can arrange the clips on the canvas timeline, export them, and then add your own music and voiceover."
+        },
+        {
+            "q": "Can I generate transformations for all twelve zodiac signs or the full set of Chinese zodiac animals at once?",
+            "a": "You can make them in batches. After you select the twelve zodiac signs or Chinese zodiac animals, AI will first list a transformation design sheet for every member of the group on the canvas. Once you confirm the details, AI will generate a separate transformation video clip for each member."
+        }
+    ],
+    "keywords": [
+        "AI transformation video",
+        "3D Chinese animation transformation effects",
+        "character rotating transformation",
+        "one image transformation video",
+        "zodiac sign transformation video",
+        "character outfit change effects video"
+    ]
+}

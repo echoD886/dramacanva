@@ -1,0 +1,20 @@
+const protocolPicker = {
+    "protocolPicker.text": "텍스트",
+    "protocolPicker.textDescription": "대화 및 추론",
+    "protocolPicker.image": "이미지",
+    "protocolPicker.imageDescription": "생성 및 편집",
+    "protocolPicker.video": "비디오",
+    "protocolPicker.videoDescription": "생성 및 연장",
+    "protocolPicker.audio": "오디오",
+    "protocolPicker.audioDescription": "음성 및 효과음",
+    "protocolPicker.capability": "모델 기능",
+    "protocolPicker.requestProtocol": "요청 프로토콜",
+    "protocolPicker.async": "비동기 폴링",
+    "protocolPicker.sync": "동기 응답",
+    "protocolPicker.configure": "기능 및 프로토콜 설정",
+    "protocolPicker.apply": "적용",
+    "protocolPicker.protocol": "프로토콜",
+    "protocolPicker.missing": "설치되지 않은 프로토콜",
+    "protocolPicker.choice": "{capability} · {protocol}",
+} as const;
+export default protocolPicker;

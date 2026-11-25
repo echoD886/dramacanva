@@ -1,0 +1,66 @@
+{
+    "title": "Audite pontos de atrito e crie momentos marcantes",
+    "metaDescription": "Para criadores de conteúdo, cursos, eventos ou lojas. Envie seu processo; a IA audita atritos no canvas e gera momento marcante + checklist de etapas.",
+    "oneLiner": "Envie um rascunho de processo e a IA audita atritos no canvas e cria momentos marcantes para criadores.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda a organizar a experiência do seu conteúdo, evento ou loja. Se você acha que as pessoas assistem e não lembram, ou participam e não ficam com nenhuma impressão, ela ajuda a encontrar os motivos da falta de impacto e a corrigir.",
+        "Você não precisa entender de teoria de design. Basta reunir seus textos atuais, roteiro de curso, etapas de atendimento ou descrição do espaço e enviar ao assistente de IA da {brand}.",
+        "A IA gera cartões de texto no canvas, com auditoria de pontos de atrito, um destaque marcante bem concentrado e a divisão de funções e ordem de operação da equipe. Você pode editar ou baixar quando quiser."
+    ],
+    "example": {
+        "input": "Tenho uma padaria artesanal e os clientes dão uma volta e vão embora, sem nada memorável. Me ajude a organizar a experiência na loja e criar um diferencial marcante.",
+        "output": "No canvas serão gerados cartões: lista de obstáculos e sugestões de corte da entrada ao caixa, um momento marcante com pão quente saindo do forno para degustação, além de falas dos atendentes e ordem de recepção."
+    },
+    "scenarios": [
+        "Conteúdos ou vídeos sem graça, que o público vê e esquece, sem pontos altos memoráveis.",
+        "Cursos online ou eventos presenciais longos demais, em que os alunos se distraem ou desistem no meio.",
+        "Abrir uma loja ou montar um evento e querer organizar o trajeto dos clientes para atrair recorrência.",
+        "Cadastro, formulário ou passos de operação complexos demais, fazendo o usuário desistir em alguma etapa."
+    ],
+    "problems": [
+        {
+            "pain": "Conteúdo ou evento feito com cuidado, mas ninguém lembra depois.",
+            "solve": "Ajuda a remover itens dispersantes e concentrar esforços em um detalhe marcante que fica na memória."
+        },
+        {
+            "pain": "Processo longo e formulário complicado fazem o usuário perder a paciência e sair no meio.",
+            "solve": "Primeiro identifica os pontos que travam o usuário e lista no canvas as etapas enxugadas, ajudando a simplificar o fluxo."
+        },
+        {
+            "pain": "Cada pessoa da equipe trabalha com um padrão diferente, e a qualidade do serviço varia.",
+            "solve": "Troca slogans abstratos por uma ordem clara de operações e orientações de comportamento, gerando um checklist para todos seguirem."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o chat à direita do canvas.",
+        "Envie seu roteiro atual, fluxo de atendimento ou apresentação da loja e explique sua dúvida à IA.",
+        "Veja os cartões gerados no canvas e confira a análise de atritos, o ponto alto marcante e as sugestões de ordem da equipe.",
+        "Ajuste e confirme os cartões de texto no canvas; quando estiver satisfeito, copie ou baixe o resultado."
+    ],
+    "faq": [
+        {
+            "q": "Meus vídeos ou textos ficam sem graça. Como esta habilidade pode melhorar isso?",
+            "a": "Ela primeiro ajuda a identificar o que é excesso para cortar e desenha no canvas um momento alto memorável. A IA lista em cartões os trechos prolixos que podem ser removidos e os detalhes que vale manter, para você ajustar comparando."
+        },
+        {
+            "q": "Os usuários costumam sair no meio da operação ou do formulário. Como resolver?",
+            "a": "O foco é simplificar e encontrar atritos: envie o fluxo atual ao assistente, e ele identifica etapas complicadas que travam o usuário e propõe uma versão enxuta. A IA marca no canvas os passos desnecessários e ajuda a reduzir o processo ao mínimo."
+        },
+        {
+            "q": "É possível desenhar vários diferenciais marcantes de uma vez?",
+            "a": "Não. Por padrão, o sistema desenha apenas um diferencial marcante por vez, pois concentrar-se em uma experiência-chave é o que faz as pessoas lembrarem. Muitos diferenciais dispersam a atenção; se houver vários cenários, pergunte ao assistente em lotes."
+        },
+        {
+            "q": "A equipe sempre executa o atendimento fora do padrão. Como melhorar?",
+            "a": "É preciso transformar exigências verbais abstratas em uma ordem concreta de ações e uma lista de comportamentos, para todos terem o mesmo padrão. Envie o fluxo de atendimento ao assistente; a IA lista orientações no canvas para facilitar a aplicação."
+        }
+    ],
+    "keywords": [
+        "pontos de atrito na experiência",
+        "design de momentos marcantes",
+        "como simplificar processos longos",
+        "como reduzir abandono de usuários",
+        "conteúdo sem diferencial",
+        "otimização de fluxo de atendimento"
+    ]
+}

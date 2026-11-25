@@ -1,0 +1,170 @@
+.dc-dock,
+.canvas-agent-launcher {
+    --dc-size: min(132px, calc(100dvh - 60px));
+}
+.dc-dock.dc-dock-compact {
+    --dc-size: 40px;
+}
+.dc-dock-compact .dc-trigger {
+    width: 40px;
+    height: 40px;
+    pointer-events: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    background: var(--secondary);
+}
+.dc-dock-compact .dc-name {
+    display: none;
+}
+.dc-dock-compact .dc-portrait .dc-sprite {
+    width: 40px;
+    height: 40px;
+}
+.canvas-agent-launcher {
+    --dc-size: min(158px, calc(100dvh - 60px));
+}
+.dc-trigger,
+.canvas-agent-launcher {
+    pointer-events: none;
+    touch-action: none;
+    user-select: none;
+}
+.dc-portrait {
+    position: relative;
+    display: inline-grid;
+    justify-items: center;
+    gap: 1px;
+    max-width: var(--dc-size);
+    vertical-align: bottom;
+    user-select: none;
+}
+.dc-name,
+.dc-sprite::after {
+    pointer-events: auto;
+    cursor: grab;
+}
+.dc-sprite::after {
+    content: "";
+    position: absolute;
+    inset: 0 18%;
+}
+.dc-sprite {
+    position: relative;
+    display: block;
+    width: var(--dc-size);
+    height: var(--dc-size);
+}
+.dc-portrait .dc-sprite:not([data-scene="working"]) {
+    width: calc(var(--dc-size) * 0.57);
+}
+.dc-portrait .dc-sprite:not([data-scene="working"])::after {
+    inset: 0;
+}
+.dc-sprite video {
+    position: absolute;
+    inset: 0;
+    visibility: hidden;
+}
+.dc-sprite video, .dc-sprite img {
+    object-fit: contain;
+    object-position: center bottom;
+    display: block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    transform-origin: center bottom;
+}
+/* Align the padded wake clip with the idle pose while keeping raised hands in frame. */
+.dc-portrait .dc-sprite[data-scene="waking"] :is(video, img) {
+    transform: translateY(5.5%) scale(1.14);
+}
+.dc-name {
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    padding: 2px 3px;
+    border: 1px solid #29221b19;
+    border-radius: 999px;
+    background: #fffffff2;
+    color: #494541;
+    font:
+        680 10px/14px system-ui,
+        sans-serif;
+}
+.dc-name > span {
+    display: inline-block;
+    max-width: 100%;
+}
+.dc-dock {
+    pointer-events: none;
+    --dc-edge: 20px;
+    --dc-bottom: max(var(--dc-edge), env(safe-area-inset-bottom));
+    position: fixed;
+    --dc-right: calc(max(var(--dc-edge), env(safe-area-inset-right)) + var(--dc-offset, 0px));
+    right: var(--dc-user-right, var(--dc-right));
+    bottom: var(--dc-user-bottom, var(--dc-bottom));
+    z-index: 64;
+}
+body:has(.sa-feedback-ticket-launcher) .dc-dock {
+    --dc-bottom: calc(max(var(--dc-edge), env(safe-area-inset-bottom)) + 76px + 8px);
+}
+body:has(.sa-feedback-ticket-panel) .dc-dock {
+    display: none;
+}
+.dc-trigger {
+    display: block;
+    border: 0;
+    border-radius: 14px;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.dc-trigger:focus-visible {
+    outline: 2px solid #aa7500;
+    outline-offset: 3px;
+}
+.dc-sign-in {
+    pointer-events: auto;
+    position: fixed;
+    inset: auto;
+    margin: 0;
+    padding: 0;
+    min-width: 144px;
+    border: 1px solid #e9dfc8;
+    border-radius: 15px;
+    color: #32291e;
+    background: #fffdf7;
+    box-shadow: 0 6px 24px #34260e1a;
+}
+.dc-sign-in strong {
+    display: block;
+    margin: 0;
+    color: #78500b;
+    font-size: 11px;
+}
+.dc-sign-in a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 12px 16px;
+    border-radius: inherit;
+    font-size: 13px;
+    color: inherit;
+    text-decoration: none;
+}
+.dc-sign-in a:is(:hover, :focus-visible) {
+    background: #fff1ca;
+}
+@media (max-width: 767px) {
+    .dc-dock {
+        --dc-edge: 12px;
+    }
+    .dc-dock,
+    .canvas-agent-launcher {
+        --dc-size: min(132px, calc(100dvh - 60px));
+    }
+}
+
+.agent-panel-header .dc-sprite { --dc-size: 44px; flex: none; pointer-events: none; }
+.agent-panel-header .dc-sprite::after { content: none; }

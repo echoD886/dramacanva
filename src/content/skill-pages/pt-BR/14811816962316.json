@@ -1,0 +1,67 @@
+{
+    "title": "Envie fotos de roupa e modelo e gere vídeo de prova virtual",
+    "metaDescription": "Para lojas de roupa e criadores de conteúdo de moda: no {brand}, envie fotos da roupa e da modelo e gere um vídeo de prova de 15 s para baixar ou exportar.",
+    "oneLiner": "Com fotos da roupa e da modelo, crie no canvas um vídeo de prova de 15 segundos.",
+    "intro": [
+        "Este é um fluxo para criar vídeos de prova virtual no canvas. Sem estúdio com pessoas reais, a IA simula o processo real de uma criadora de conteúdo pegando a roupa em um quarto comum, vestindo e mostrando o caimento.",
+        "Você só precisa preparar uma imagem de referência da modelo e uma foto da roupa estendida ou pendurada. Envie ao assistente de IA no lado direito do canvas e, se quiser, explique também o cenário desejado.",
+        "A IA primeiro escreve uma descrição dos movimentos para você confirmar; depois que aprovar, gera no canvas um card de vídeo vertical de prova virtual de 15 segundos. Você pode baixar direto ou organizar na linha do tempo do vídeo e exportar."
+    ],
+    "example": {
+        "input": "Envie uma foto de suéter estendido em fundo branco e uma foto de modelo asiática em pé, e envie: “Faça um vídeo de prova de 15 segundos mostrando o caimento do suéter em um quarto com luz natural”",
+        "output": "No canvas, primeiro aparecem cards com a descrição de 5 etapas de movimento; após a confirmação, é gerado um card de vídeo vertical de 15 segundos, no qual a modelo segura o suéter, veste e mostra a peça sorrindo enquanto ajeita a roupa."
+    },
+    "scenarios": [
+        "Nova roupa sendo cadastrada na loja online, com apenas a foto estendida em mãos, e vontade de ver rapidamente como fica no corpo da modelo.",
+        "Criador de conteúdo de moda planeja combinações de lançamentos e quer mostrar vários looks sem montar estúdio e gravar sempre.",
+        "Vitrine de moda para e-commerce internacional precisa de vídeos verticais com sensação natural do dia a dia para publicar nas redes sociais.",
+        "Só há fotos estáticas da peça de mostruário e a pessoa quer ver antes os movimentos de andar e posar com a roupa no corpo."
+    ],
+    "problems": [
+        {
+            "pain": "Contratar modelos para fotos e alugar estúdio custa caro; fotografar uma coleção de mostruário leva quase um dia inteiro.",
+            "solve": "Envie a foto da modelo e a foto da roupa estendida; depois de confirmar os movimentos, gere o vídeo de prova virtual, sem precisar de locação nem modelo para ver o caimento no corpo."
+        },
+        {
+            "pain": "É difícil escrever boas descrições de produção, e o caimento da roupa gerado costuma deformar ou sair diferente.",
+            "solve": "A IA divide automaticamente as etapas de movimento, desde pegar a roupa e vestir até posar, e mostra para você confirmar antes de gerar."
+        },
+        {
+            "pain": "Muitos vídeos de IA parecem anúncios rígidos e sem a naturalidade do dia a dia de uma criadora experimentando roupa.",
+            "solve": "Usa perspectiva de celular na mão e luz natural para simular o processo real de prova de roupa de uma criadora, com aparência mais próxima e natural."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas e a caixa de diálogo.",
+        "Envie a foto da modelo e a foto da roupa estendida e mande sua ideia de cenário ou combinação.",
+        "Veja e confirme a descrição dos movimentos no canvas; se precisar mudar, ajuste diretamente.",
+        "Aguarde a IA gerar o card de vídeo no canvas e clique para visualizar o resultado da prova virtual.",
+        "Organize a ordem na linha do tempo do vídeo e exporte, ou baixe direto o vídeo individual."
+    ],
+    "faq": [
+        {
+            "q": "O que preciso preparar para fazer um vídeo de prova de roupa?",
+            "a": "Você precisa de uma foto da modelo e uma foto da roupa estendida ou pendurada. A IA lê as características das duas imagens e simula o fluxo de movimentos de uma criadora provando a roupa. Se faltar alguma imagem, a IA também avisa na caixa de diálogo para você completar."
+        },
+        {
+            "q": "Qual é a duração típica do vídeo de prova gerado?",
+            "a": "Por padrão, é gerado um vídeo vertical de 15 segundos. A imagem mostra, em ordem, pegar a roupa, vestir, ajustar o caimento e posar no final. Se precisar de uma apresentação mais longa, você pode colocar vários vídeos na linha do tempo do canvas, organizar e exportar."
+        },
+        {
+            "q": "Como alterar o resultado da prova virtual se não gostar?",
+            "a": "Você pode mudar a descrição dos movimentos e gerar de novo a qualquer momento. Antes de gerar o vídeo, a IA mostra as etapas de movimento para você ajustar os detalhes diretamente. Cada vídeo gerado fica salvo no canvas, para comparar e escolher a versão que mais gostou."
+        },
+        {
+            "q": "É possível montar automaticamente vários vídeos de prova em um filme final e adicionar narração?",
+            "a": "Não é possível montar automaticamente o filme final nem adicionar narração separada. A IA gera para você cards de vídeos de prova de 15 segundos cada. Você pode organizar a ordem na linha do tempo de vídeo do canvas e exportar o filme final."
+        }
+    ],
+    "keywords": [
+        "vídeo de prova virtual com IA",
+        "como fazer vídeo de modelo experimentando roupa",
+        "gerar vídeo de roupa no corpo",
+        "criação de vídeo de moda para e-commerce",
+        "vídeo de troca de roupa com IA",
+        "vídeo de prova a partir de foto de roupa estendida"
+    ]
+}

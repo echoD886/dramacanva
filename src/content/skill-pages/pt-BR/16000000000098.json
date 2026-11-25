@@ -1,0 +1,66 @@
+{
+    "title": "Roteiros de vendas com comparação de preço e chamada final",
+    "metaDescription": "Para criadores de vídeo e vendedores: insira diferenciais e preço e gere no canvas comparações, combos e textos de pedido, com roteiro pronto para usar.",
+    "oneLiner": "Dê os diferenciais do produto e receba no canvas comparações de preço e textos de pedido para vender.",
+    "intro": [
+        "Esta é uma ferramenta para criar seu roteiro de vendas. Ela organiza os pontos fortes do produto em argumentos fáceis de aceitar e ensina como falar de preço e comparar com similares para o público não ficar em dúvida.",
+        "Você só precisa ter em mãos as características do produto, o preço e o combo que quer destacar. Se não souber como falar, pode enviar a apresentação que você costuma usar.",
+        "A IA gera no canvas um conjunto de cards de texto: abertura que prende a atenção, comparação de preços coerente, sugestão de combos e o texto final com a chamada para o pedido."
+    ],
+    "example": {
+        "input": "Vendo garrafas térmicas artesanais a 129 reais a unidade. As pessoas acham caro e ficam pesquisando modelos de dezenas de reais para comparar. Como falar no vídeo?",
+        "output": "No canvas é gerado um conjunto de cards de texto: primeiro a comparação do processo de alta qualidade que explica o custo, depois opções com o produto principal e o de comparação, e por fim o texto com a orientação clara para o pedido."
+    },
+    "scenarios": [
+        "Quando o público acha o produto caro e fica pesquisando similares mais baratos para comparar.",
+        "Quando você cria vários combos, mas os compradores quase sempre escolhem só o mais barato.",
+        "Quando o vídeo fala de vários diferenciais do produto e o comprador continua em dúvida sem comprar.",
+        "Quando o vídeo é assistido até o fim mas ninguém compra, e você não sabe como conduzir o público ao pedido no final."
+    ],
+    "problems": [
+        {
+            "pain": "O público assiste ao vídeo de vendas, mas acha o preço alto e vai pesquisar similares mais baratos.",
+            "solve": "Ensina a comparar com similares de alto padrão e a detalhar os custos do processo de produção, reduzindo a busca por comparação de preço."
+        },
+        {
+            "pain": "A loja tem vários combos, mas os clientes quase sempre escolhem apenas o mais barato.",
+            "solve": "Cria três opções de combo, usando uma opção um pouco inferior como contraste para o cliente escolher mais facilmente o produto principal."
+        },
+        {
+            "pain": "O vídeo mostra muitos diferenciais, mas o comprador não confia e demora a comprar.",
+            "solve": "Ensina a admitir primeiro um pequeno defeito ou uma dificuldade de produção, criando confiança real e afastando a desconfiança do comprador."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em «Usar esta habilidade» e insira as informações do produto no campo de diálogo do canvas.",
+        "Veja os cards de texto gerados no canvas, incluindo a comparação de preços e a condução ao pedido.",
+        "Edite o que não gostou ou peça à IA para gerar de novo apenas uma parte no campo de diálogo.",
+        "Copie ou baixe o resultado final e use direto no seu roteiro de vídeo."
+    ],
+    "faq": [
+        {
+            "q": "Como escrever o roteiro de um vídeo de vendas para facilitar a compra?",
+            "a": "Primeiro apresente uma comparação de preços confiável e, no final, dê uma instrução clara de compra. Não empilhe todos os pontos fortes de uma vez: use referências de qualidade que o público conhece para valorizar o produto. No fim, peça apenas uma ação concreta, o que reduz o abandono por indecisão."
+        },
+        {
+            "q": "Ao montar combos, como fazer o público preferir o produto principal?",
+            "a": "Recomendo criar três opções e incluir uma um pouco inferior como contraste. Por exemplo: uma versão básica, o produto principal e uma versão mais cara com preço parecido mas menos benefícios. Esse contraste destaca o bom custo-benefício do principal e ajuda o comprador a decidir mais rápido."
+        },
+        {
+            "q": "Como falar de preço no vídeo sem que o público ache caro?",
+            "a": "Você pode usar como referência um similar de alta qualidade reconhecido no mercado, sem inventar preço original. Explicar com sinceridade o acabamento real e os custos das etapas também torna o preço mais convincente. Ao deixar claro o valor insubstituível, diminui a busca por similares mais baratos."
+        },
+        {
+            "q": "Os roteiros gerados no {brand} podem virar vídeo diretamente?",
+            "a": "Não dá para virar vídeo diretamente, mas você pode continuar no canvas adicionando imagens ao texto ou gerando trechos de vídeo. Os trechos gerados ficam salvos no canvas como cards, e você pode organizá-los na linha do tempo do vídeo e exportar. Observe que a IA não monta automaticamente vários trechos em um vídeo final: é preciso ordenar você mesmo na linha do tempo."
+        }
+    ],
+    "keywords": [
+        "como escrever roteiro de vídeo de vendas",
+        "como falar de preço em vídeo de vendas",
+        "roteiro para vídeo de vendas",
+        "como precificar combos de produtos",
+        "como aumentar conversão em vídeo de vendas",
+        "vídeo de vendas sem compras o que fazer"
+    ]
+}

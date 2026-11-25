@@ -1,0 +1,66 @@
+{
+    "title": "Crea guiones de microdrama y revisa diálogos y ritmo",
+    "metaDescription": "Introduce una idea y genera en el lienzo de {brand} guiones de microdrama con varios episodios, diálogos naturales, extensión y revisión de incoherencias.",
+    "oneLiner": "Dale una idea de historia y crea en el lienzo guiones de microdrama por episodios bien estructurados; ideal para principiantes.",
+    "intro": [
+        "Es una herramienta de creación que te ayuda a escribir microdramas en el lienzo. Divide la escritura compleja de guiones en pasos fijos, te ayuda a controlar el ritmo narrativo de cada episodio y hace que los diálogos suenen como los diría una persona real.",
+        "Solo necesitas preparar una breve idea de historia. Puedes indicar quién es el protagonista, cuántos episodios quieres o pedir un estilo concreto de diálogo; lo que no tengas claro, lo definirá primero según los estándares del sector.",
+        "Al terminar, tendrás en el lienzo un conjunto de tarjetas de texto: el esquema general de la historia, los criterios de extensión y ritmo por episodio, el guion con diálogos naturales y una ficha de continuidad para evitar incoherencias argumentales."
+    ],
+    "example": {
+        "input": "Quiero escribir un microdrama urbano de venganza en el ámbito laboral: la protagonista vuelve a la empresa como supervisora; necesito el esquema de 20 episodios y el guion de los 3 primeros, con diálogos que suenen a discusión real entre personas.",
+        "output": "Se generan varias tarjetas de texto en el lienzo: incluyen el esquema de 20 episodios, la planificación de extensión para episodios de 90-120 segundos, los diálogos naturales de los 3 primeros episodios y una ficha de continuidad que registra las relaciones entre personajes y los objetos de atrezo."
+    },
+    "scenarios": [
+        "Tienes solo una idea y quieres convertirla en un esquema completo de microdrama que avance a lo largo de 20 a 30 episodios.",
+        "Tus diálogos suenan demasiado leídos y necesitas convertirlos en conversaciones cotidianas más naturales, con idas y venidas.",
+        "Al escribir varios episodios seguidos es fácil confundir el planteamiento y temes que el estado de los personajes o los objetos contradiga lo anterior.",
+        "No tienes clara la duración de cada episodio y necesitas comprobar la extensión y los puntos de corte según el criterio de 90 a 120 segundos."
+    ],
+    "problems": [
+        {
+            "pain": "La historia se atasca pasados los veinte episodios y la trama se vuelve lenta y plana.",
+            "solve": "Te ayuda a dividir la trama por etapas, resolver un conflicto principal en 20-30 episodios y pasar sin problemas a una nueva crisis."
+        },
+        {
+            "pain": "Los diálogos de los personajes suenan rígidos, como si leyeran un libro, y todos hablan con un tono parecido.",
+            "solve": "Elimina explicaciones forzadas, divide las frases largas y escritas en intervenciones breves de ida y vuelta y añade pequeños hábitos de habla a cada personaje."
+        },
+        {
+            "pain": "Más adelante olvidas detalles establecidos antes y eso provoca incoherencias con los objetos y los personajes.",
+            "solve": "Crea en el lienzo una ficha de continuidad; antes de escribir contenido nuevo, contrasta los objetos y el estado de los personajes, y actualízala al terminar."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el cuadro de diálogo del lienzo de {brand}.",
+        "Envía tu idea de historia; puedes adjuntar el número total de episodios que deseas, tus preferencias de estilo o la duración por episodio.",
+        "Consulta en el lienzo las tarjetas de texto con el esquema general, las especificaciones por episodio y el guion, y edítalas directamente en línea.",
+        "Pide que se vuelvan a generar las partes que necesites ajustar y, cuando estés conforme, copia o descarga el resultado del guion."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo hacer que los diálogos de un microdrama suenen como los diría una persona real?",
+            "a": "La clave es eliminar las explicaciones moralizantes innecesarias, dividir las frases largas y escritas en intervenciones breves de ida y vuelta y añadir a los personajes acciones y hábitos de habla naturales. Al generar el guion, la IA diagnostica automáticamente los diálogos con estas reglas, procura acortar las frases y marcar las acciones para reducir la sensación mecánica de lectura de un texto."
+        },
+        {
+            "q": "¿Cuántas palabras conviene escribir por episodio de un microdrama y cuánto debería durar una vez rodado?",
+            "a": "Normalmente se recomienda que cada episodio de un microdrama dure entre 90 y 120 segundos; para microdramas de imagen real se aconsejan de 350 a 500 palabras por episodio, y para microdramas animados, de 260 a 400. Al planificar las especificaciones de cada episodio, esta habilidad aplica automáticamente estos criterios para ajustar la extensión y los puntos de corte, y evitar contenido demasiado largo o una trama lenta."
+        },
+        {
+            "q": "¿Cómo evitar incoherencias argumentales al escribir decenas de episodios seguidos?",
+            "a": "El método clave es consultar antes de escribir cada episodio la ficha de continuidad —estado de los personajes, objetos y pistas planteadas—, confirmar que no hay conflictos y actualizarla al terminar. La IA mantiene esta ficha de continuidad en el lienzo: antes de escribir cada episodio contrasta lo establecido previamente para evitar, en la medida de lo posible, contradicciones y fallos con los objetos."
+        },
+        {
+            "q": "En un microdrama, tras veinte o treinta episodios el público suele abandonar; ¿cómo mantener su interés?",
+            "a": "La clave es resolver por completo un conflicto principal en 20-30 episodios y presentar de inmediato una nueva crisis, manteniendo además un altibajo emocional cada 30 segundos por episodio. Esta habilidad planifica desde la fase de esquema ese ritmo de avance por etapas para que la trama no se vuelva plana ni lenta en su parte media y final."
+        }
+    ],
+    "keywords": [
+        "escritura de guiones de microdrama",
+        "cuántas palabras por episodio de microdrama",
+        "quitar el estilo de IA a un guion de microdrama",
+        "formato de guion de microdrama",
+        "esquema de guion de microdrama",
+        "cómo escribir diálogos de microdrama"
+    ]
+}

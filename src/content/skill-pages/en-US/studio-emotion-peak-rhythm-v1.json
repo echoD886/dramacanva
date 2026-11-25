@@ -1,0 +1,66 @@
+{
+    "title": "Dynamic comic script pacing: refine arcs and twists",
+    "metaDescription": "For dynamic comic creators with flat stories. Send your script and get twist and climax timing, rewrite options, and a checklist on the canvas.",
+    "oneLiner": "Enter your script, and it generates twist revision plans on the canvas, ideal for dynamic comic creators.",
+    "intro": [
+        "This is a tool on the {brand} canvas that helps dynamic comic creators revise scripts. Enter your story text, and it generates twist and pacing plans on the canvas, ideal if you feel the plot is flat.",
+        "You only need your existing story text. On the right side of the canvas, tell the AI the character names, where the story takes place, the specific plot, and how many minutes you want the video to be.",
+        "The AI generates text cards on the canvas, including second-by-second pacing suggestions, twist plot designs, and a review checklist, so you can revise against them or copy and use them directly."
+    ],
+    "example": {
+        "input": "Script \"Comeback,\" Episode 1, set in an office. The protagonist Xiao Li has his credit stolen by his supervisor and is mocked in public. He wants it made into a 3-minute video.",
+        "output": "It generates text cards on the canvas: it suggests showing 90 seconds of setup where he is wronged, then from 90 to 120 seconds having the protagonist pull out a voice recorder and strike back for a satisfying face-slap moment; it marks the intensity of on-screen action and includes a review checklist."
+    },
+    "scenarios": [
+        "You've finished writing a short drama story, but it feels like a plain account of events, and you want to add compelling twists.",
+        "The protagonist's sudden turnaround feels stiff, so you need to design setbacks and setup to make the counterattack more satisfying.",
+        "When making a 3- to 5-minute video, you want to check whether there are any dull stretches longer than 60 seconds.",
+        "The script only uses dialogue to state victory; you want to design action and prop details to make the turnaround more impactful."
+    ],
+    "problems": [
+        {
+            "pain": "The plot feels flat, and viewers want to swipe away after a few dozen seconds.",
+            "solve": "It helps break down the story and place a small setback every 45 seconds, trying to avoid dull stretches longer than 60 seconds."
+        },
+        {
+            "pain": "The protagonist suddenly turns things around and wins, which feels fake and abrupt, and it isn't satisfying enough to watch.",
+            "solve": "It suggests setting up 20 to 60 seconds of being wronged before the turnaround, so the later counterattack feels more logical and more cathartic."
+        },
+        {
+            "pain": "It's intense fighting from beginning to end, and viewers get visually fatigued after watching for a while.",
+            "solve": "It plans one core climax with two to three small twists and leaves 3 to 5 seconds after conflict for viewers to emotionally reset."
+        }
+    ],
+    "steps": [
+        "Click \"Use This Skill\" in the skills library to open the creative canvas.",
+        "Send the AI your story script, character profiles, and desired duration.",
+        "Review the pacing timeline and plot revision plan generated on the canvas.",
+        "Copy or download the revision suggestions, or ask the AI to readjust specific sections."
+    ],
+    "faq": [
+        {
+            "q": "How do you control pacing in dynamic comics (comic videos)?",
+            "a": "The key to pacing is \"build pressure first, then release\": set up the protagonist being wronged in the first 90 seconds, then hit the counterattack climax at 90 to 120 seconds. After intense conflict, you can also leave 3 to 5 seconds without dialogue as a buffer so viewers can process the emotion."
+        },
+        {
+            "q": "What if the plot twist is too abrupt and feels like sudden cheating?",
+            "a": "Before the counterattack, show the villain being arrogant or the protagonist suffering setbacks for 20 to 30 seconds, and plant key evidence and other details in advance. That way the later comeback feels reasonable and satisfying."
+        },
+        {
+            "q": "How do you keep the plot from getting boring so viewers don't swipe away halfway through?",
+            "a": "Place a small setback or minor argument about every 45 seconds and try to avoid flat stretches with no hook for more than 60 seconds. You can also weave dialogue conflict, action fights, and inner turmoil through the episode to make the story richer and tighter."
+        },
+        {
+            "q": "For a 3- to 5-minute episode, how many twist climaxes should you include?",
+            "a": "Usually one core major climax and two to three small twists are recommended. Try not to have more than three intense visual climaxes, to avoid overstimulating viewers and causing fatigue. Present the core twist with close-up shots, while secondary plot points can use moderate action."
+        }
+    ],
+    "keywords": [
+        "how to write a dynamic comic script",
+        "how to control story pacing",
+        "how to design short drama twists",
+        "dynamic comic satisfying moments",
+        "what to do if script feels flat",
+        "how to write a story climax"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Upload flat-lay clothes, make Xiaohongshu outfit photos",
+    "metaDescription": "For clothing shops and outfit bloggers. Upload a flat-lay; AI adds accessories and street scenes to create 5 candid Xiaohongshu outfit photos on canvas.",
+    "oneLiner": "Give it a clothing photo and it creates Xiaohongshu everyday outfit images on the canvas, great for clothing shop owners.",
+    "intro": [
+        "This is a display-image tool for clothing shop owners and bloggers: upload a flat-lay clothing photo and confirm the styling, then generate 5 outfit photos on the canvas that look like candid shots taken by a real person.",
+        "You only need a flat-lay or single-item photo of the clothing. If you only have a text idea, you can also type the clothing color, style, and the look you want directly to it.",
+        "When it is done, you will get 5 everyday outfit photos in different scenes on the canvas. The images use a 3:4 ratio, keep the clothing's real details and natural lighting, and can be downloaded for direct use."
+    ],
+    "example": {
+        "input": "Upload a flat-lay photo of a white knit cardigan and type: \"I want a Korean-style everyday look, photographed outside a cafe.\"",
+        "output": "The canvas first gives styling suggestions for you to confirm. After confirmation, it generates 5 images: the model wears the cardigan with jeans and a canvas bag, holds a coffee cup outside a street-side cafe, and poses naturally."
+    },
+    "scenarios": [
+        "An online clothing shop only has flat-lay clothing photos and wants realistic, lived-in on-body images for posts.",
+        "You only have one top or pair of pants and want to see what jacket and bag could go with it.",
+        "You want model outfit photos that look like casual phone snapshots, not stiff studio shots.",
+        "You need outfit photos of the same clothing in different everyday settings, such as a coffee shop or an old street."
+    ],
+    "problems": [
+        {
+            "pain": "AI-generated model photos look like plastic mannequins and do not feel like a real person sharing on social media.",
+            "solve": "Simulates the look of casual everyday phone snapshots, keeping natural skin details and environmental lighting for a candid feel."
+        },
+        {
+            "pain": "You only have one clothing item and do not know how to style it, so the generated image looks plain.",
+            "solve": "Proactively pairs hats, bags, and layered jackets based on the clothing's style, then gives you a plan to confirm before generating."
+        },
+        {
+            "pain": "The generated model poses stiffly with empty hands, like a studio setup, and lacks a lived-in feel.",
+            "solve": "Sets up natural actions like holding coffee, looking at a phone, or tilting the head, paired with street and indoor everyday scenes."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill\" to open the {brand} canvas.",
+        "Upload a flat-lay clothing photo or regular photo and briefly describe the style you want.",
+        "Review the styling and scene suggestions on the canvas, then confirm or adjust the details.",
+        "Generate 5 outfit photos in different scenes and download the ones you like."
+    ],
+    "faq": [
+        {
+            "q": "How can I make AI outfit photos look like casual real-person snapshots?",
+            "a": "The skill uses a phone-snapshot look by default, keeping natural skin texture and lighting and using everyday actions to create a candid feel. The image also naturally includes street clutter and actions like holding coffee; if you want a special mood, you can also tell the assistant to switch to a CCD or film look."
+        },
+        {
+            "q": "If I only have one top or one dress, can it create a complete outfit?",
+            "a": "Yes. Based on the item's style, the skill proactively pairs jackets, bags, hats, and shoes to create a complete layered outfit. The assistant will first show you the full styling plan on the canvas for confirmation, and after you are happy with it, it will start generating the final on-body outfit photos."
+        },
+        {
+            "q": "Will the AI change the clothing style or get details wrong?",
+            "a": "There may be slight deviations, but the skill will try to preserve the clothing's cut, color, and key details and will not arbitrarily change the original design. It is recommended to upload clear, flat single-item photos and describe the key features; if you are not satisfied with the generated details, you can tell the assistant on the canvas to revise them and generate again."
+        },
+        {
+            "q": "Can the generated outfit photos be posted directly on Xiaohongshu?",
+            "a": "Yes. The images all use Xiaohongshu's standard 3:4 ratio and are clear, and the canvas generates 5 photos in different scenes at once. You can download the ones you like directly, save them to your phone, and post them without cropping or adjusting again."
+        }
+    ],
+    "keywords": [
+        "Xiaohongshu outfit photo AI generator",
+        "flat lay clothes to model try-on",
+        "AI everyday outfit photos",
+        "clothing item outfit pairing",
+        "Xiaohongshu daily outfit image generator",
+        "AI clothing on-body photo maker"
+    ]
+}

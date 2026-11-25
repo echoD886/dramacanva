@@ -1,0 +1,66 @@
+{
+    "title": "Captura de App: vídeo real de recomendación (10 s) y guion",
+    "metaDescription": "Para creadores de apps que promocionan con vídeos cortos. Sube una captura, confirma los argumentos y genera vídeo real de recomendación de 10 s y guion.",
+    "oneLiner": "Da una captura del software y genera un vídeo real de recomendación de 10 s y un guion gráfico",
+    "intro": [
+        "Es una herramienta que convierte las capturas de tu software en vídeos promocionales. Simula a una persona normal recomendando desde casa con el móvil en la mano y lo monta en un vídeo vertical de 10 s.",
+        "Solo tienes que preparar una captura de la interfaz del software y escribir el nombre, el público objetivo y las funciones clave. No hace falta escribir el guion de rodaje ni salir tú en cámara.",
+        "Al terminar, tendrás en el lienzo una tabla de storyboard (el vídeo dividido en planos, con lo que se rueda en cada uno), un texto de descripción visual y un clip de vídeo de 10 s para descargar."
+    ],
+    "example": {
+        "input": "Sube una captura de la pantalla de inicio de una app de contabilidad e introduce: «Gestor de cuentas, para trabajadores de oficina; los argumentos de venta son registrar cuentas en un segundo e informe mensual automático de ingresos y gastos».",
+        "output": "En el lienzo obtendrás una tarjeta de storyboard de 10 s en tres partes, una tarjeta de texto con la descripción visual y una tarjeta de vídeo de 10 s con una persona real mostrando la interfaz en el móvil."
+    },
+    "scenarios": [
+        "Una app móvil recién lanzada con la que quieres hacer un vídeo de recomendación con persona real y publicarlo en redes sociales para promocionarla.",
+        "Solo tienes unas cuantas imágenes estáticas de la interfaz y no sabes cómo escribir un guion oral atractivo para un vídeo corto.",
+        "Quieres hacer un vídeo con la pantalla del móvil, pero cuando lo generas con IA la interfaz se deforma o se mueve sin control."
+    ],
+    "problems": [
+        {
+            "pain": "Solo tienes capturas de la interfaz y no sabes cómo escribir un guion de recomendación natural para un vídeo corto.",
+            "solve": "Genera un guion de storyboard de 10 s a partir de la captura y las funciones, con un tono de conversación cotidiana para la apertura, la demostración y la recomendación."
+        },
+        {
+            "pain": "Al hacer con IA un vídeo con el móvil en pantalla, la interfaz del software se desplaza o se deforma a menudo.",
+            "solve": "En la descripción visual se pide que la pantalla permanezca quieta y que los dedos solo toquen sin deslizar, para mantener la captura original nítida y sin desviaciones."
+        },
+        {
+            "pain": "Los anuncios promocionales normales resultan demasiado rígidos y la gente pasa de largo; además, no tienes tiempo ni equipo para salir tú en cámara.",
+            "solve": "Se plantea una escena doméstica en la que una persona real recomienda mirando a cámara; consigues cercanía sin tener que aparecer tú."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad», sube la captura del software en el cuadro de diálogo de la derecha y escribe los argumentos de venta.",
+        "Revisa la tarjeta de storyboard de 10 s generada en el lienzo; puedes modificar el guion o las indicaciones de acción si hace falta.",
+        "Indica al asistente que confirme el storyboard y se genere en el lienzo la tarjeta de descripción visual del vídeo.",
+        "Pide al asistente que genere el vídeo, reprodúcelo en la tarjeta del lienzo para previsualizarlo y vuelve a generarlo si no te convence.",
+        "Arrastra los clips de vídeo generados a la línea de tiempo de vídeo del lienzo, ordénalos y exporta el vídeo."
+    ],
+    "faq": [
+        {
+            "q": "¿De verdad se puede hacer un vídeo de recomendación con persona real solo con una captura de una app móvil?",
+            "a": "Sí. Solo tienes que subir la captura e indicar los argumentos de las funciones; {brand} planificará el contenido de 10 s y generará la tarjeta de vídeo, mostrando automáticamente tu captura en la pantalla del móvil."
+        },
+        {
+            "q": "¿La interfaz del software se mueve o se deforma al generar el vídeo?",
+            "a": "No se mueve sin control: el sistema intentará mantener la captura fija y nítida. La descripción visual limitará la mano a toques ligeros sin deslizar, lo que reduce bastante la deformación o el desplazamiento accidental de la interfaz."
+        },
+        {
+            "q": "Si no me gustan la persona o la escena generadas, ¿puedo cambiarlas?",
+            "a": "Puedes modificarlas en cualquier momento. Por defecto, la escena es doméstica y la persona es una mujer joven; puedes cambiar a mano el aspecto de la persona o la descripción de la escena en la tarjeta de texto del lienzo y volver a generar el vídeo."
+        },
+        {
+            "q": "¿Esta herramienta sirve para hacer vídeos largos de varios minutos o comparar varias apps?",
+            "a": "No, solo hace promociones de 10 s de una única app. Usa un ritmo fijo en tres partes de 10 s (enganche al principio, demostración en medio y llamada a la acción al final) y no admite vídeos largos ni comparaciones entre varios productos."
+        }
+    ],
+    "keywords": [
+        "vídeo corto con captura de app",
+        "crear vídeo promocional de app",
+        "vídeo de recomendación con persona real IA",
+        "vídeo de recomendación de app móvil",
+        "generar guion para vídeo corto de 10 segundos",
+        "IA para generar storyboard de vídeo"
+    ]
+}

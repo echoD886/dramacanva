@@ -1,0 +1,66 @@
+{
+    "title": "Modelos de vídeo IA: elige según tu escena y prompts",
+    "metaDescription": "Para principiantes: describe tu idea y la IA recomendará 2 o 3 herramientas, explicará diferencias visuales y creará tarjetas de prompts en el lienzo.",
+    "oneLiner": "Describe tu idea de escena: recomienda herramientas IA adecuadas, explica diferencias y genera tarjetas de prompts.",
+    "intro": [
+        "Este asistente te ayuda a elegir herramientas de generación con IA. Cada herramienta destaca en tipos de imágenes distintos; según las características de la escena que quieras crear, te recomendará las dos o tres direcciones de herramienta más adecuadas.",
+        "Solo tienes que describir con tus palabras el plano que quieres hacer, por ejemplo, el aspecto de los personajes, la amplitud del movimiento o el estilo visual; también puedes subir directamente una imagen de referencia que te guste.",
+        "Al terminar, recibirás tarjetas en el lienzo: incluyen los motivos de la recomendación y las diferencias visuales, además de prompts (texto que describe la imagen para la IA) adaptados a las reglas de la herramienta correspondiente."
+    ],
+    "example": {
+        "input": "“Quiero hacer un cortometraje de wuxia antiguo; necesito un primer plano del protagonista atacando rápido con la espada en una pelea, pero no sé qué modelo usar para generarlo.”",
+        "output": "La IA genera tarjetas de texto en el lienzo, recomienda dos herramientas especializadas en movimientos amplios y combate, explica las diferencias visuales e incluye prompts normalizados ya redactados."
+    },
+    "scenarios": [
+        "Tienes varias herramientas de IA y no sabes cuál elegir ni qué estilos visuales domina cada una.",
+        "Quieres generar acciones concretas, como peleas rápidas o diálogos nítidos, y no sabes qué herramienta encaja mejor.",
+        "Ya has escrito el prompt visual, pero no conoces el formato oficial exigido por una herramienta concreta.",
+        "Cuando la herramienta no puede cumplir lo que pides, necesitas sugerencias claras de sustitución y ajustes."
+    ],
+    "problems": [
+        {
+            "pain": "Hay demasiadas herramientas de IA en la plataforma, no conoces sus particularidades y probar a ciegas hace perder tiempo.",
+            "solve": "Te recomienda dos o tres direcciones adecuadas según tu necesidad visual y explica en lenguaje sencillo las diferencias visuales y los motivos de elección."
+        },
+        {
+            "pain": "Cada herramienta tiene sus propias reglas de redacción; usar plantillas genéricas puede arruinar la imagen.",
+            "solve": "Organiza el prompt visual según las reglas oficiales de la herramienta correspondiente, completa los campos obligatorios y logra generaciones más ajustadas a lo esperado."
+        },
+        {
+            "pain": "La herramienta no puede hacer la idea visual que propones y te quedas bloqueado sin saber cómo seguir.",
+            "solve": "Te indica claramente dónde está el problema y qué falta, y ofrece sugerencias prácticas de modificación y alternativas."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y escribe tu idea visual en el cuadro de diálogo de la derecha.",
+        "Describe los requisitos del plano o sube una imagen de referencia, por ejemplo, la acción o el estilo visual que quieres.",
+        "Consulta en el lienzo las herramientas recomendadas y la explicación de diferencias, elige la opción que prefieras o usa la recomendación predeterminada.",
+        "Copia o descarga la tarjeta de prompt normalizado generada; si necesitas ajustes, modifica el contenido y vuelve a generar."
+    ],
+    "faq": [
+        {
+            "q": "Al hacer vídeo con IA, ¿cómo sé qué herramienta elegir?",
+            "a": "La elección depende sobre todo de cómo quieres el movimiento, la textura de los personajes o el estilo visual. Al introducir tu idea, el sistema recomendará dos o tres direcciones adecuadas y explicará las diferencias. Si no te decides, usará automáticamente la herramienta predeterminada más segura y generará las tarjetas en el lienzo."
+        },
+        {
+            "q": "¿Por qué al cambiar de herramienta empeora el resultado del prompt que ya tenía escrito?",
+            "a": "Porque cada herramienta tiene sus propias reglas oficiales de formato y campos obligatorios; aplicar una plantilla genérica puede omitir requisitos clave y volver el resultado inestable. Esta habilidad organiza el prompt según los requisitos oficiales de la herramienta correspondiente y completa los campos obligatorios para ajustar más la generación a lo esperado."
+        },
+        {
+            "q": "La IA me ha dado varias opciones de herramienta y no sé cuál elegir. ¿Qué hago?",
+            "a": "Puedes decírselo directamente al asistente o no responder: el sistema elegirá automáticamente la herramienta predeterminada más segura y generará el resultado en el lienzo. Al generarlo, te indicará en una frase qué opción ha elegido, así no tendrás que preocuparte por equivocarte."
+        },
+        {
+            "q": "¿Y si la IA no puede hacer la imagen que quiero?",
+            "a": "El sistema te dirá claramente dónde se bloquea y qué condiciones faltan, y dará alternativas en el lienzo; solo tienes que modificar los requisitos visuales siguiendo las indicaciones. Nunca intentará a ciegas ni fallará sin avisar: cada paso tiene instrucciones claras."
+        }
+    ],
+    "keywords": [
+        "cómo elegir modelo de vídeo IA",
+        "qué herramienta IA usar para vídeo",
+        "mejores modelos de vídeo IA",
+        "diferencias entre modelos de imagen IA",
+        "cómo escribir prompts para vídeo IA",
+        "cómo describir escenas para IA"
+    ]
+}

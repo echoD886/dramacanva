@@ -1,0 +1,20 @@
+const protocolPicker = {
+    "protocolPicker.text": "Texto",
+    "protocolPicker.textDescription": "Chat y razonamiento",
+    "protocolPicker.image": "Imagen",
+    "protocolPicker.imageDescription": "Generación y edición",
+    "protocolPicker.video": "Vídeo",
+    "protocolPicker.videoDescription": "Generación y extensión de planos",
+    "protocolPicker.audio": "Audio",
+    "protocolPicker.audioDescription": "Voz y efectos de sonido",
+    "protocolPicker.capability": "Capacidad del modelo",
+    "protocolPicker.requestProtocol": "Protocolo de solicitud",
+    "protocolPicker.async": "Sondeo asíncrono",
+    "protocolPicker.sync": "Respuesta síncrona",
+    "protocolPicker.configure": "Configura capacidades y protocolos",
+    "protocolPicker.apply": "Aplicar",
+    "protocolPicker.protocol": "Protocolo",
+    "protocolPicker.missing": "Protocolo no instalado",
+    "protocolPicker.choice": "{capability} · {protocol}",
+} as const;
+export default protocolPicker;

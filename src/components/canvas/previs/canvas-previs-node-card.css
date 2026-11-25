@@ -1,0 +1,94 @@
+.previs-node-card {
+    display: flex;
+    height: 100%;
+    min-height: 0;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-3) 0;
+}
+.previs-node-card-header,
+.previs-node-card-footer,
+.previs-node-card-kicker,
+.previs-node-card-duration {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    font-size: var(--fs-label);
+}
+.previs-node-card-header {
+    justify-content: space-between;
+}
+.previs-node-card-kicker {
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+.previs-node-card-mark {
+    display: inline-flex;
+}
+.previs-node-card-duration {
+    font-variant-numeric: tabular-nums;
+}
+.previs-node-stage {
+    flex: 1;
+    min-height: 0;
+    display: grid;
+    place-items: center;
+    container-type: size;
+}
+.previs-node-preview {
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border: 1px solid;
+    border-radius: var(--r-md);
+    cursor: pointer;
+}
+.previs-node-preview:disabled {
+    cursor: default;
+}
+.previs-node-preview:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}
+.previs-node-preview-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.previs-node-preview-cta {
+    position: absolute;
+    inset-inline: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2);
+    font-size: var(--fs-label);
+    opacity: 0;
+}
+.previs-node-preview:hover .previs-node-preview-cta,
+.previs-node-preview:focus-visible .previs-node-preview-cta,
+.previs-node-preview:disabled .previs-node-preview-cta {
+    opacity: 1;
+}
+.previs-node-plan {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
+    background-image: radial-gradient(color-mix(in srgb, currentColor 18%, transparent) 1px, transparent 1px);
+    background-size: var(--space-4) var(--space-4);
+}
+.previs-node-plan rect {
+    opacity: 0.45;
+}
+.previs-node-card-footer {
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    padding-block: var(--space-1);
+}

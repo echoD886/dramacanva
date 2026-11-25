@@ -1,0 +1,66 @@
+{
+    "title": "Vídeos e roteiros de vendas no TikTok com produto e pessoa",
+    "metaDescription": "Para criadores e iniciantes em e-commerce. Informe produto e pessoa, gere no canvas um roteiro de 15 a 30 s e receba clipes de vendas em estilo casual.",
+    "oneLiner": "Para vendedores de e-commerce: informe o produto e a pessoa e crie no canvas um vídeo de vendas com estilo natural.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda você a criar vídeos curtos de vendas de 15 a 30 segundos no canvas do {brand}. O conteúdo parece um registro cotidiano feito por uma pessoa comum com o celular, sem parecer um anúncio de vendas forçado.",
+        "Basta descrever na caixa de diálogo os diferenciais do produto, a aparência e o estilo de roupa da pessoa em cena, e enviar imagens relevantes do produto ou da pessoa. Se tiver ideias sobre o clima do vídeo, também pode informar.",
+        "Ao terminar, você receberá no canvas um roteiro de storyboard com os tempos definidos (dividindo o vídeo em cenas e indicando o que cada uma mostra) e cards dos clipes de vídeo gerados, para ajustar quando quiser."
+    ],
+    "example": {
+        "input": "Uma jovem experimenta no quarto uma camiseta branca com estrelas e botas vermelhas de pelúcia, tem uma personalidade animada e quer um clima cotidiano e divertido, como se uma amiga entrasse e interrompesse a cena. Anexar foto da roupa.",
+        "output": "No canvas, são gerados cards de storyboard com tempo, falas e ações (por exemplo, a jovem falando para a câmera frontal e a amiga entrando em cena e sendo empurrada), além dos cards dos clipes de vídeo curtos correspondentes."
+    },
+    "scenarios": [
+        "Trabalha com moda ou beleza em mercados internacionais e precisa de vídeos de looks do dia a dia, como uma conversa entre amigos ou uma selfie casual.",
+        "Para divulgar produtos práticos que resolvem dores evidentes, é preciso usar um jeito de falar de alta energia para prender o público rapidamente.",
+        "Para vender itens curiosos ou brinquedos diferenciados, é preciso aproximar bastante a câmera para mostrar materiais e detalhes.",
+        "Você tem fotos do produto e ideias para a pessoa em cena e quer organizar rapidamente os storyboards no canvas e gerar amostras."
+    ],
+    "problems": [
+        {
+            "pain": "As falas do vídeo ficam parecidas demais com um anúncio de vendas, e o público passa o dedo depois de dois segundos.",
+            "solve": "Ele cria aberturas e diálogos cotidianos com estilo de vídeo casual de celular, transforma funções em ações de uso e reduz a sensação de algo forçado."
+        },
+        {
+            "pain": "Você não sabe como filmar produtos diferentes e os roteiros sempre saem com uma estrutura parecida.",
+            "solve": "Ele adapta a abordagem a categorias como utilidades, moda e beleza e brinquedos curiosos, criando ações e enquadramentos específicos."
+        },
+        {
+            "pain": "Você já tem o roteiro, mas não sabe como dividi-lo em cenas nem escrever as descrições para gerar o vídeo.",
+            "solve": "Ele divide o roteiro em cenas com segundos, posição de câmera e ações indicados; após a confirmação, gera no canvas os clipes de vídeo correspondentes."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir a caixa de diálogo no lado direito do canvas.",
+        "Envie os diferenciais do produto e as características da pessoa em cena, além de imagens de referência do produto ou da pessoa.",
+        "Veja os cards de storyboard de 15 a 30 segundos gerados no canvas e ajuste falas ou ações conforme necessário.",
+        "Depois de confirmar o storyboard, gere os cards de vídeo, organize-os na linha do tempo de vídeo e exporte."
+    ],
+    "faq": [
+        {
+            "q": "Como usar IA para criar vídeos curtos de vendas no TikTok?",
+            "a": "Insira na caixa de diálogo os diferenciais do produto e as características da pessoa em cena, envie imagens de referência; o sistema divide o roteiro em storyboards e gera cards de clipes de vídeo. Quando estiver satisfeito com o storyboard, arraste cada vídeo gerado para a linha do tempo, organize a ordem e exporte o vídeo curto completo."
+        },
+        {
+            "q": "Os vídeos de vendas gerados podem ficar parecidos demais com um anúncio?",
+            "a": "Normalmente não. Ele cria storyboards com um ponto de vista cotidiano, como um vídeo casual feito com o celular, e transforma os diferenciais do produto em diálogos diários e ações de uso. Depois de gerar, você pode editar falas e ações no canvas a qualquer momento; se alguma cena não ficar boa, basta gerá-la novamente."
+        },
+        {
+            "q": "Só tenho fotos do produto. É possível criar um vídeo de vendas?",
+            "a": "Sim. Basta enviar fotos do produto e acrescentar os diferenciais e a aparência da pessoa; o sistema divide o storyboard e gera os clipes de vídeo correspondentes. Depois de gerar, se não gostar de algumas cenas, você pode editar separadamente a descrição daquela cena no canvas e gerá-la novamente."
+        },
+        {
+            "q": "A IA monta automaticamente os vídeos gerados em um vídeo final?",
+            "a": "Não, ela não faz a edição e a montagem automaticamente. O sistema gera no canvas cards de clipes de vídeo independentes; você precisa organizá-los na linha do tempo e só então exportar o vídeo final. Esse formato facilita substituir cenas indesejadas ou mudar a ordem a qualquer momento, dando mais flexibilidade para controlar o ritmo geral do vídeo."
+        }
+    ],
+    "keywords": [
+        "criação de vídeos de vendas no TikTok",
+        "vídeo curto de vendas com IA",
+        "como fazer roteiro de vídeo de vendas",
+        "storyboard para vídeo de e-commerce",
+        "vídeo de vendas para comércio exterior",
+        "vídeo casual de vendas com celular"
+    ]
+}

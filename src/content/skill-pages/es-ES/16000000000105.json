@@ -1,0 +1,67 @@
+{
+    "title": "Anuncios de vídeo corto: guion y storyboard con referencias",
+    "metaDescription": "Para negocios y creadores: sube capturas de referencia o fotos; la IA estructura la idea, ajusta el guion a la duración y crea storyboard en el lienzo.",
+    "oneLiner": "Para quienes empiezan con vídeo: introduce el producto y un vídeo de referencia y genera storyboard y guion de locución en el lienzo.",
+    "intro": [
+        "Este es el flujo de {brand} para ayudarte a planificar anuncios en vídeo. Está pensado para quien quiere hacer vídeos de venta pero no sabe escribir guiones, y permite desglosar vídeos que otros han hecho bien para convertirlos en tu propia idea de anuncio.",
+        "Solo tienes que preparar los puntos de venta y las fotos de tu producto, o enviar algunas capturas del anuncio en vídeo que quieras tomar como referencia. Envíalo directamente en el chat de la derecha e indica a la IA cuántos segundos quieres que dure el anuncio.",
+        "La IA generará en el lienzo tarjetas con el guion de locución, la tabla de storyboard (dividiendo el vídeo en planos y detallando qué se graba en cada uno), y las imágenes y fragmentos de vídeo correspondientes a cada plano, para que puedas modificarlos y descargarlos."
+    ],
+    "example": {
+        "input": "Quiero hacer un anuncio de 15 segundos para un termo. Estas son la foto y los puntos de venta del termo: conserva la temperatura durante 24 horas y no tiene fugas. Además, adjunto una captura de un vídeo muy vendido de un producto similar.",
+        "output": "En el lienzo aparecen una tarjeta con un texto de locución de poco más de 30 palabras que se lee justo a tiempo, una tarjeta de storyboard dividida en 5 planos, y la imagen y el fragmento de vídeo del termo correspondientes a cada plano."
+    },
+    "scenarios": [
+        "Ves que un anuncio similar de otra marca está muy bien hecho y quieres inspirarte en el ritmo de sus planos, pero no sabes cómo desglosarlo ni analizarlo.",
+        "El guion de 15 segundos que escribes siempre se pasa de tiempo y no llegas a decirlo entero; necesitas controlar con precisión el número de palabras según el tiempo de habla.",
+        "Los tres primeros segundos del vídeo hacen que la gente siga pasando y no se te ocurre un inicio que capte la atención.",
+        "Te preocupa que las imágenes de vídeo generadas se deformen y prefieres revisar primero imágenes fijas para confirmar los detalles."
+    ],
+    "problems": [
+        {
+            "pain": "Quieres inspirarte en buenos anuncios de otras personas, pero no sabes cómo desglosarlos para aprender.",
+            "solve": "Envía capturas del vídeo de referencia a la IA: te ayudará a ordenar los planos y, con tu producto, escribirá nuevas tarjetas de guion."
+        },
+        {
+            "pain": "El guion de 15 segundos te queda demasiado largo: al locutarlo hay que hablar muy rápido o ni siquiera da tiempo.",
+            "solve": "Calcula el número de palabras a 2 o 3 por segundo y ajusta el guion de 15 segundos a entre 30 y 40 palabras para evitar un ritmo demasiado rápido."
+        },
+        {
+            "pain": "En los vídeos generados, los materiales del producto cambian o su aspecto se deforma con facilidad.",
+            "solve": "Primero define en el lienzo los rasgos de apariencia y genera las imágenes del storyboard una a una para que las confirmes; cuando estén bien, genera los fragmentos de vídeo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el chat de la derecha.",
+        "Sube fotos del producto, puntos de venta o capturas del vídeo de referencia y envíalos a la IA.",
+        "Revisa y modifica las tarjetas generadas con el guion de locución y la descripción de los planos.",
+        "Pide al asistente que genere las imágenes de storyboard y los fragmentos de vídeo correspondientes.",
+        "Ordénalos en la línea de tiempo del vídeo y exporta."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo convierto un vídeo bien hecho de otra persona en un guion propio?",
+            "a": "Envía al asistente capturas del vídeo de referencia y los puntos de venta de tu producto: conservará la estructura del original y creará nuevas tarjetas de guion adaptadas a tu producto. Puedes modificar el texto directamente en el lienzo y después generar las imágenes de cada plano."
+        },
+        {
+            "q": "¿Cuántas palabras debe tener el guion de un anuncio de vídeo corto para no decirlo con prisas?",
+            "a": "Para un vídeo corto, lo más adecuado es calcular de 2 a 3 palabras por segundo; en un anuncio de 15 segundos conviene no pasar de 30 a 40 palabras. Si supera las 45 palabras, la locución irá demasiado deprisa o incluso se pasará de tiempo; el asistente calcula el número de palabras según la duración al escribir el guion."
+        },
+        {
+            "q": "¿Cómo escribir el inicio de un vídeo para retener a la gente?",
+            "a": "Puedes empezar con una pregunta, una idea contraintuitiva o mostrando directamente el resultado. Envía a la IA los puntos de venta de tu producto y escribirá varias propuestas de texto para los tres primeros segundos desde distintos enfoques. En el lienzo puedes elegir la que más te guste y generar un vídeo para probar su efecto."
+        },
+        {
+            "q": "¿Qué hago si el aspecto del producto se deforma al generar el vídeo?",
+            "a": "Puedes generar primero imágenes fijas del storyboard para comprobar el aspecto; si un plano sale deformado, basta con cambiar la descripción y volver a generar ese plano. Antes de generar, describe el material, el tamaño real y los detalles del producto para ayudar a reducir deformaciones."
+        }
+    ],
+    "keywords": [
+        "crear anuncios de vídeo corto",
+        "cómo escribir un guion de vídeo",
+        "generar storyboard",
+        "palabras por segundo guion vídeo",
+        "gancho primeros 3 segundos anuncio",
+        "analizar vídeo de referencia"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Write MiniMax H3 prompts to reduce face changes across shots",
+    "metaDescription": "MiniMax H3 users can send story and reference images to get six-part shot descriptions and a binding table on the canvas to cut face changes between shots.",
+    "oneLiner": "Give it a story and images, and it generates video descriptions on the canvas that reduce face changes—great for video beginners.",
+    "intro": [
+        "This is a tool that helps you write video instructions (prompts: text that tells AI what to draw). When making videos with MiniMax H3, it turns rough ideas into standardized text.",
+        "You only need to prepare the story plot and reference images of characters or scenes. No need to know technical terms—just send the visuals you want to the AI assistant on the right side of the canvas in plain language.",
+        "When it's done, three cards appear on the canvas: a standardized six-part shot description, a character-to-image mapping table, and recommended styles with reasons. You can edit them anytime or copy the text directly."
+    ],
+    "example": {
+        "input": "Upload a photo of a little girl wearing a straw hat and tell the AI: I want to make a 3D animation of a little girl running on the grass catching butterflies, and I don't want her face to change between shots.",
+        "output": "Three cards are generated on the canvas: a standardized six-part shot description (including actions and camera movement), a table that binds the little girl's features to the photo, and the reasons for choosing the 3D animation style."
+    },
+    "scenarios": [
+        "You're writing MiniMax H3 prompts and don't know how to divide sections or align them with the timeline.",
+        "When generating multiple shots, the same character's face changes or clothes look off from a different angle.",
+        "When two video clips are joined, the motion feels disconnected or the visuals look stiff, and you need a smooth transition.",
+        "You want to make 3D animation, minimalist product showcases, or paper-cut stop motion, but don't know how to choose a style."
+    ],
+    "problems": [
+        {
+            "pain": "Your self-written video descriptions are always in the wrong format, and the generated visuals don't match the timing.",
+            "solve": "Organizes them into clear six-part text according to official guidelines, so each section matches the timeline."
+        },
+        {
+            "pain": "When generating continuous shots, the main character's appearance changes with each new action, and props also tend to deform.",
+            "solve": "Helps you build a reference image mapping table that clearly binds character appearance to images, minimizing appearance drift."
+        },
+        {
+            "pain": "When shots switch, the actions don't connect, the visuals jump around, and it looks unnatural.",
+            "solve": "Specifies the starting and ending action of each shot in the description, helping adjacent clips connect more smoothly."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill\" to open the chat box on the right side of the canvas.",
+        "Send your story idea and upload reference images of characters or scenes.",
+        "Review the generated six-part description cards and character binding table on the canvas.",
+        "Fine-tune the text in the cards, then copy or download the result when you're satisfied."
+    ],
+    "faq": [
+        {
+            "q": "What should I do if AI video characters change faces when the shot changes?",
+            "a": "You can minimize face changes by binding reference images. This skill organizes a mapping table on the canvas that matches each character's appearance features to reference images and writes them into the description. This helps minimize appearance drift and style changes when generating different shots in sequence."
+        },
+        {
+            "q": "How do I write MiniMax H3 six-part video descriptions?",
+            "a": "Follow the official requirements and clearly describe six parts in order: subject, action, environment, camera movement, lighting, and image quality. This skill arranges standardized six-part text on the canvas based on your story and aligns the timeline with each section. You don't need to memorize complex formats—just use the organized content."
+        },
+        {
+            "q": "What should I do if actions aren't continuous when two video clips are joined?",
+            "a": "You can specify the starting actions of the before-and-after shots in the visual description. This skill helps you map out the action paths and transition methods between adjacent shots and standardize the start and end states in the description. This reduces disconnected motion when the two generated clips are joined."
+        },
+        {
+            "q": "How do I choose a visual style if I don't know what suits my short video?",
+            "a": "You can ask the AI to recommend built-in visual styles based on your story theme. The skill includes common styles such as 3D animation, minimalist product showcases, and paper-cut stop motion. The AI will suggest suitable styles on the canvas and include reasons to help you choose."
+        }
+    ],
+    "keywords": [
+        "MiniMax H3 prompts",
+        "AI video face changes between shots",
+        "AI video character consistency",
+        "how to write six-part prompts",
+        "AI video motion continuity",
+        "how to choose AI video visual style"
+    ]
+}

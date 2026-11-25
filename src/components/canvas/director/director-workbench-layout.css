@@ -1,0 +1,936 @@
+[data-canvas-director-workbench].director-workbench-layout {
+    display: grid;
+    grid-template-rows: var(--pd-topbar) minmax(0, 1fr) clamp(var(--pd-bottom-min), 22vh, var(--pd-bottom-max));
+    grid-template-columns: minmax(0, 1fr);
+}
+
+[data-canvas-director-workbench].director-workbench-layout[data-maximized="true"][data-dynamic-rehearsal="true"][data-layout-mode="columns"] {
+    grid-template-rows: var(--pd-topbar) minmax(0, 1fr) clamp(184px, 29.4vh, 280px);
+
+    & .director-workbench-body {
+        grid-template-columns: 0 var(--pd-library-width) minmax(0, 1fr) var(--pd-context-width);
+    }
+    & .director-workbench-body[data-scene-open="true"] {
+        --pd-library-width: 248px;
+    }
+    & .director-workbench-body[data-inspector-open="true"] {
+        --pd-context-width: 300px;
+    }
+    & .director-workbench-tools {
+        grid-area: 1 / 3;
+        position: absolute;
+        inset: 12px auto auto 12px;
+        z-index: 8;
+        max-height: calc(100% - 32px);
+        gap: 1px;
+        padding: 4px;
+        border: 1px solid var(--pd-b0);
+        border-radius: 10px;
+    }
+    & .director-workbench-tools button {
+        width: 30px;
+        height: 31px;
+    }
+    & .director-workbench-tools svg {
+        width: 16px;
+        height: 16px;
+    }
+    & .pv-viewport-area:not(.has-plan) .director-plan-pane {
+        display: none;
+    }
+    & .director-editor-pane {
+        inset: 0;
+    }
+    & .director-shot-context {
+        inset: 6px auto auto 60px;
+        border-radius: 5px;
+    }
+    & .director-workbench-timeline {
+        grid-template-rows: 38px minmax(0, 1fr) 48px;
+    }
+    & .director-workbench-segments {
+        grid-row: 3;
+        padding: 3px 8px;
+    }
+    & .director-workbench-timeline-detail {
+        grid-row: 2;
+    }
+    & .director-workbench-player {
+        grid-row: 1;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 3px 12px;
+    }
+    & .director-workbench-player-controls {
+        order: -1;
+    }
+    & .director-workbench-player-track {
+        flex: 1;
+    }
+    & .director-camera-pip:not(.is-collapsed) .director-camera-pip__header {
+        position: absolute;
+        inset: 8px 8px auto;
+        z-index: 2;
+        justify-content: space-between;
+        gap: 4px;
+        border: 0;
+        background: transparent;
+    }
+    & .director-camera-pip__title,
+    & .director-camera-pip__actions {
+        flex: 0 1 auto;
+        padding: 2px 5px;
+        border-radius: 5px;
+        background: var(--pd-s1);
+    }
+}
+
+@container director-window (min-width: 1500px) {
+    .director-workbench-layout[data-maximized="true"][data-dynamic-rehearsal="true"] .director-mode-switch {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.director-workbench-layout .director-desk-header {
+    height: var(--pd-topbar);
+    min-height: 0;
+    padding: 0 10px;
+    gap: 8px;
+    border-bottom: 1px solid var(--pd-b0);
+    background: var(--pd-s1);
+    cursor: grab;
+    touch-action: none;
+}
+.director-workbench-title-group {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    min-width: 0;
+}
+.director-workbench-layout .director-desk-header .director-desk-scene-title {
+    width: clamp(100px, 13cqw, 188px);
+    min-width: 80px;
+    max-width: 188px;
+    padding-inline: 4px;
+}
+.director-workbench-layout .director-desk-save {
+    max-width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.director-workbench-layout .director-desk-save.is-danger {
+    flex-shrink: 0;
+}
+.director-workbench-layout .director-mode-switch {
+    flex-shrink: 0;
+    margin-inline: auto;
+}
+.director-workbench-layout .director-desk-actions {
+    gap: 4px;
+}
+.director-workbench-layout .director-desk-header .director-workbench-done {
+    color: var(--pd-done-text);
+    background: var(--pd-done-bg);
+    border: 1px solid var(--pd-done-bg);
+    min-width: 56px;
+}
+.director-workbench-layout .director-assist-panel {
+    position: absolute;
+    inset: var(--pd-topbar) 0 auto var(--pd-toolrail);
+    z-index: 35;
+    box-shadow: var(--pd-shadow-raised);
+}
+
+[data-canvas-director-workbench].director-workbench-layout .director-workbench-body {
+    --pd-library-width: 0px;
+    --pd-context-width: minmax(var(--pd-inspector-min), var(--pd-inspector-max));
+    display: grid;
+    grid-template-columns: var(--pd-toolrail) var(--pd-library-width) minmax(0, 1fr) var(--pd-context-width);
+    grid-template-rows: minmax(0, 1fr);
+    position: relative;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+}
+.director-workbench-layout .director-workbench-body[data-scene-open="true"] {
+    --pd-library-width: var(--pd-drawer);
+}
+.director-workbench-layout[data-layout-mode="drawer"] .director-workbench-body,
+.director-workbench-layout .director-workbench-body[data-inspector-open="false"] {
+    --pd-context-width: 0px;
+}
+.director-workbench-tools {
+    grid-area: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    overflow-y: auto;
+    padding: 12px 4px;
+    background: var(--pd-s1);
+    border-right: 1px solid var(--pd-b0);
+}
+.director-workbench-tools button {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: var(--pd-r-md);
+    color: var(--pd-t1);
+    background: transparent;
+}
+.director-workbench-tools svg {
+    width: 20px;
+    height: 20px;
+}
+.director-workbench-tools button:hover,
+.director-workbench-tools button[aria-pressed="true"],
+.director-workbench-tools button[aria-expanded="true"] {
+    color: var(--pd-t0);
+    background: var(--pd-s3);
+}
+.director-workbench-tools button:focus-visible,
+.director-workbench-player button:focus-visible,
+.director-workbench-segment:focus-visible {
+    outline: 2px solid var(--pd-a0);
+    outline-offset: -2px;
+}
+
+.director-actor-preset-card {
+    padding: 6px;
+    text-align: left;
+}
+.director-actor-preset-card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    border-radius: 6px;
+    background: #111;
+}
+.director-actor-preset-card span {
+    display: block;
+    padding: 6px 2px 2px;
+    font-size: 11px;
+}
+
+.director-context-objects {
+    display: grid;
+    gap: 8px;
+    align-content: start;
+    flex: 0 0 auto;
+    max-height: 42%;
+    overflow: auto;
+    padding: 12px;
+    border-bottom: 1px solid var(--pd-b0);
+    font-size: 12px;
+}
+.director-context-objects input {
+    min-height: 32px;
+    padding-inline: 10px;
+    border-radius: 8px;
+    background: var(--pd-s2);
+}
+.director-context-objects summary {
+    cursor: pointer;
+    padding: 4px 0;
+}
+.director-context-objects summary small {
+    float: right;
+}
+.director-context-objects button {
+    display: block;
+    width: 100%;
+    padding: 5px 16px;
+    text-align: left;
+    color: var(--pd-t1);
+}
+.director-context-objects button[aria-pressed="true"] {
+    background: var(--pd-s2);
+    color: var(--pd-t0);
+}
+
+[data-canvas-director-workbench].director-workbench-layout .pv-panel {
+    position: relative;
+    inset: auto;
+    width: auto;
+    min-width: 0;
+    min-height: 0;
+    border: 0;
+    border-radius: 0;
+    background: var(--pd-s1);
+    color: var(--pd-t0);
+    backdrop-filter: none;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.director-workbench-layout .pv-panel--left {
+    grid-area: 1 / 2;
+}
+.director-workbench-layout .pv-panel--right {
+    grid-area: 1 / 4;
+}
+.director-workbench-layout .director-workbench-body[data-scene-open="false"] > .pv-panel--left,
+.director-workbench-layout .director-workbench-body[data-inspector-open="false"] > .pv-panel--right {
+    display: none;
+}
+[data-canvas-director-workbench].director-workbench-layout[data-layout-mode="drawer"] .pv-panel--right {
+    position: absolute;
+    grid-area: auto;
+    inset: 0 0 0 auto;
+    width: var(--pd-inspector-max);
+    max-width: calc(100% - var(--pd-toolrail));
+    z-index: 30;
+    border-left: 1px solid var(--pd-b0);
+    box-shadow: var(--pd-shadow-floating);
+}
+[data-canvas-director-workbench].director-workbench-layout .pv-viewport-area {
+    grid-area: 1 / 3;
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+    border-radius: 0;
+    display: block;
+}
+.director-workbench-layout .director-editor-pane {
+    inset: 28px 0 0;
+}
+.director-workbench-layout .has-plan .director-lens-pane {
+    inset: 28px 12px 64px;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.director-workbench-layout .has-plan .director-shot-stage {
+    width: min(100%, calc((100cqh - 100px) * var(--director-shot-aspect)));
+    max-height: calc(100cqh - 100px);
+}
+.director-workbench-layout .has-plan .director-plan-pane {
+    inset: auto auto 72px 12px;
+    width: min(280px, 38%);
+    height: 30%;
+    z-index: 3;
+}
+.director-workbench-layout .director-viewport-notice.is-corner {
+    top: 36px;
+    right: 12px;
+}
+.director-workbench-layout .director-shot-context {
+    position: absolute;
+    inset: 0 0 auto;
+    z-index: 3;
+    height: 28px;
+    padding-inline: 10px;
+}
+.director-workbench-layout .pv-canvas-dock {
+    grid-area: 1 / 3;
+    position: relative;
+    left: auto;
+    bottom: 10px;
+    transform: none;
+    justify-self: center;
+    align-self: end;
+    max-width: calc(100% - 20px);
+}
+
+.director-workbench-layout .canvas-floating-dock {
+    grid-area: 1 / 3;
+    position: relative;
+    justify-self: center;
+    align-self: end;
+    max-width: calc(100% - 20px);
+    z-index: 4;
+}
+
+.director-workbench-timeline {
+    display: grid;
+    grid-template-rows: 52px minmax(0, 1fr) 56px;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+    border-top: 1px solid var(--pd-b0);
+    background: var(--pd-s1);
+}
+.director-workbench-segments {
+    display: flex;
+    gap: 0;
+    padding: 8px 12px;
+    min-width: 0;
+    overflow: hidden;
+}
+.director-workbench-segment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+    padding: 0;
+    border: 0;
+    border-radius: var(--pd-r-sm);
+    box-shadow: inset 0 0 0 1px var(--pd-b0);
+    background: var(--pd-s0);
+    text-align: left;
+    overflow: hidden;
+}
+.director-workbench-segment[aria-pressed="true"] {
+    box-shadow: inset 0 0 0 2px var(--pd-t0);
+}
+.director-workbench-segment strong,
+.director-workbench-segment small {
+    display: block;
+    width: 100%;
+    padding-inline: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.director-workbench-segment small {
+    color: var(--pd-t1);
+    font-variant-numeric: tabular-nums;
+}
+.director-workbench-timeline-detail {
+    overflow: auto;
+    min-height: 0;
+}
+.director-workbench-timeline-detail .director-overview-timeline {
+    border: 0;
+}
+.director-workbench-player {
+    display: grid;
+    grid-template-rows: 14px 30px;
+    gap: 2px;
+    min-width: 0;
+    padding: 4px 12px;
+    border-top: 1px solid var(--pd-b0);
+    color: var(--pd-t0);
+    background: var(--pd-s1);
+}
+.director-workbench-player-track {
+    position: relative;
+    min-width: 0;
+}
+.director-workbench-player-segments {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    pointer-events: none;
+}
+.director-workbench-player-segments i {
+    min-width: 0;
+    box-shadow: inset -1px 0 0 var(--pd-t1);
+}
+.director-workbench-player-segments i:last-child {
+    box-shadow: none;
+}
+.director-workbench-player-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 0;
+}
+.director-workbench-player button {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 30px;
+    flex-shrink: 0;
+    border: 1px solid var(--pd-b0);
+    border-radius: var(--pd-r-sm);
+    background: var(--pd-s0);
+}
+.director-workbench-player button[aria-pressed="true"] {
+    background: var(--pd-s3);
+}
+.director-workbench-player button:disabled {
+    color: var(--pd-t3);
+}
+.director-workbench-player input {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 14px;
+    margin: 0;
+    accent-color: var(--pd-t0);
+}
+.director-workbench-player span {
+    color: var(--pd-t1);
+    font-size: var(--pd-ts-xs);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+@container director-window (max-width: 1099px) {
+    .director-workbench-layout .director-desk-header {
+        gap: 4px;
+    }
+    .director-workbench-layout .director-desk-header .director-mode-switch {
+        padding: 2px;
+    }
+    .director-workbench-layout .director-desk-header .director-mode-switch-button {
+        padding-inline: 8px;
+    }
+    .director-workbench-layout .director-desk-actions > button {
+        flex-shrink: 0;
+    }
+    .director-workbench-layout .director-desk-save:not(.is-danger):not(.is-busy) {
+        max-width: 65px;
+    }
+}
+
+.director-segment-settings {
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+}
+.director-segment-settings label {
+    display: grid;
+    gap: 8px;
+    min-width: 0;
+}
+.director-segment-settings .ant-select,
+.director-segment-settings .ant-input-number {
+    width: 100%;
+}
+.director-settings-note {
+    color: var(--pd-t1);
+    font-size: var(--pd-ts-xs);
+    line-height: 1.6;
+}
+.director-actor-frame {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 12px;
+    padding: 16px;
+    border-bottom: 1px solid var(--pd-b0);
+}
+.director-actor-frame dt {
+    color: var(--pd-t1);
+}
+.director-actor-frame dd {
+    margin: 0;
+    overflow-wrap: anywhere;
+    font-variant-numeric: tabular-nums;
+}
+
+.director-library-search {
+    width: 100%;
+    min-height: 36px;
+    padding: 0 12px;
+    border-radius: 8px;
+    color: var(--pd-t0);
+    background: var(--pd-s2);
+    border: 1px solid var(--pd-b0);
+}
+.director-object-line {
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+}
+.director-context-objects .director-object-eye {
+    width: 28px;
+    flex: none;
+    padding: 6px;
+}
+.director-workbench-layout[data-dynamic-rehearsal="true"] .director-sequencer {
+    --director-sequencer-row-height: 34px;
+    --director-sequencer-label-width: 180px;
+}
+.director-workbench-layout[data-dynamic-rehearsal="true"] .director-sequencer-ruler {
+    touch-action: none;
+    cursor: col-resize;
+}
+.director-workbench-layout[data-dynamic-rehearsal="true"] .director-sequencer-key:not(.is-selected) {
+    width: 6px;
+    height: 6px;
+    border-radius: 0;
+    background: #969696 !important;
+}
+
+.director-workbench-layout .director-sequencer-track {
+    background-image: repeating-linear-gradient(to right, var(--director-sequencer-grid) 0 1px, transparent 1px var(--director-tick-width));
+}
+
+.director-library-tabs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-inline: -6px;
+    border-bottom: 1px solid var(--pd-b0);
+}
+.director-library-tabs button {
+    display: grid;
+    place-items: center;
+    height: 42px;
+    color: var(--pd-t2);
+    border-bottom: 2px solid transparent;
+}
+.director-library-tabs button[aria-pressed="true"] {
+    color: var(--pd-t0);
+    border-bottom-color: currentColor;
+}
+.director-studio-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.director-preset-options summary {
+    padding: 5px 2px;
+    font-size: 12px;
+    color: var(--pd-t1);
+    cursor: pointer;
+}
+.director-studio-controls {
+    padding: 12px;
+    border-bottom: 1px solid var(--pd-b0);
+    font-size: 12px;
+}
+.director-studio-controls strong {
+    display: block;
+    padding-bottom: 8px;
+}
+.director-studio-field input[type="color"] {
+    width: 42px;
+    height: 26px;
+}
+.director-workbench-layout[data-dynamic-rehearsal="true"] .director-workbench-timeline .director-sequencer-row[data-overview="true"] {
+    display: none;
+}
+
+.director-workbench-segment:has(.director-shot-poster) {
+    position: relative;
+    padding-inline-start: 68px;
+}
+.director-shot-poster {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 64px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.director-shot-strip-label {
+    display: none;
+}
+@container director-window (min-width: 1100px) {
+    .director-workbench-layout[data-dynamic-rehearsal="true"] .director-shot-strip-label {
+        display: flex;
+        align-items: center;
+        flex: 0 0 172px;
+        font-size: 12px;
+        color: var(--pd-t1);
+    }
+}
+
+.director-axis-controls {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    z-index: 6;
+    display: grid;
+    gap: 4px;
+    font-size: 11px;
+}
+.director-axis-controls > * {
+    background: var(--pd-s1);
+    color: var(--pd-t0);
+    border: 1px solid var(--pd-b0);
+    padding: 6px;
+    border-radius: 8px;
+}
+.director-axis-controls div {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+}
+.director-axis-controls div button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #f38282;
+    color: #171717;
+}
+.director-axis-controls div button:nth-child(2) {
+    background: #74ddae;
+}
+.director-axis-controls div button:nth-child(3) {
+    background: #92acff;
+}
+.director-axis-controls button[aria-pressed="true"] {
+    outline: 2px solid currentColor;
+}
+.director-context-objects summary svg {
+    display: inline;
+    margin-inline: 4px;
+    vertical-align: middle;
+}
+.director-studio-field input[type="number"] {
+    width: 52px;
+    margin-left: auto;
+    padding: 3px 6px;
+    background: var(--pd-s2);
+}
+@container director-window (min-width: 1350px) {
+    .director-desk-header {
+        position: relative;
+    }
+    .director-workbench-layout .director-desk-header .director-mode-switch {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+.director-camera-pip__title select {
+    max-width: 120px;
+    min-width: 0;
+    background: var(--pd-s1);
+    color: var(--pd-t0);
+    font-size: 11px;
+}
+.director-view-picker {
+    display: inline-flex;
+    gap: 2px;
+    padding: 3px;
+    border-radius: 9px;
+    background: var(--pd-s1);
+    border: 1px solid var(--pd-b0);
+    color: var(--pd-t0);
+}
+.director-view-picker button {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 8px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.director-transport-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-inline-end: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+@container director-window (max-width: 760px) {
+    .director-transport-title {
+        display: none;
+    }
+}
+
+.director-axis-controls section {
+    width: 92px;
+    display: grid;
+    justify-items: center;
+    padding: 3px;
+    border-radius: 18px;
+}
+.director-axis-controls svg {
+    width: 78px;
+    height: 68px;
+    overflow: visible;
+}
+.director-axis-controls text {
+    font-size: 10px;
+    fill: #111;
+    cursor: pointer;
+}
+.director-axis-controls section span {
+    font: 10px monospace;
+    margin-bottom: 3px;
+}
+.director-axis-controls > button {
+    min-height: 32px;
+}
+.director-pip-shot-picker {
+    position: relative;
+    white-space: nowrap;
+    padding: 3px;
+    font-size: 11px;
+}
+.director-pip-shot-picker select {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.director-pip-shot-picker:focus-within {
+    outline: 1px solid currentColor;
+}
+.director-camera-pip:not(:hover):not(:focus-within) .director-camera-pip__actions button:not(:last-child),
+.director-camera-pip:not(:hover):not(:focus-within) .director-camera-pip__focal,
+.director-camera-pip:not(:hover):not(:focus-within) .director-camera-pip__screen > div {
+    opacity: 0;
+}
+.director-studio-preset {
+    display: grid;
+    gap: 6px;
+    padding: 8px;
+    color: var(--pd-t1);
+}
+.director-studio-preset select,
+.director-studio-field output {
+    background: var(--pd-s2);
+    color: var(--pd-t0);
+    padding: 7px;
+    border-radius: 5px;
+}
+.director-studio-field output {
+    margin-left: auto;
+    font: 11px monospace;
+}
+.director-studio-field input[type="checkbox"] {
+    appearance: none;
+    width: 26px;
+    height: 15px;
+    background: #535353;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.director-studio-field input[type="checkbox"]::before {
+    content: "";
+    display: block;
+    margin: 2px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #aaa;
+}
+.director-studio-field input[type="checkbox"]:checked {
+    background: #eee;
+}
+.director-studio-field input[type="checkbox"]:checked::before {
+    background: #202020;
+    transform: translateX(11px);
+}
+.director-shot-strip-label button {
+    margin-inline-start: auto;
+}
+.director-time-zoom input {
+    width: 90px;
+}
+@container director-window (min-width:1100px) {
+    .director-workbench-timeline:not([data-edit-tools]) .director-sequencer > header {
+        display: none;
+    }
+    .director-workbench-timeline:not([data-edit-tools]) .director-sequencer-body {
+        height: 100%;
+    }
+    .director-workbench-layout[data-dynamic-rehearsal="true"] .director-workbench-timeline-detail .director-sequencer {
+        height: 100% !important;
+        min-height: 0 !important;
+    }
+    .director-workbench-layout .director-sequencer-global-playhead {
+        top: 0;
+        z-index: 3;
+    }
+    .director-workbench-layout .director-sequencer-global-playhead > i {
+        background: #fff;
+    }
+    .director-workbench-layout .director-sequencer-global-playhead > i:before {
+        content: "";
+        position: absolute;
+        left: -2px;
+        top: 0;
+        width: 5px;
+        height: 24px;
+        border-radius: 3px;
+        background: #fff;
+    }
+    .director-workbench-layout .director-workbench-segment {
+        border-radius: 3px;
+    }
+}
+
+.director-transport-settings {
+    display: flex;
+    align-items: center;
+}
+.director-sequencer-ruler::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6px;
+    pointer-events: none;
+    background: repeating-linear-gradient(to right, var(--director-sequencer-grid) 0 1px, transparent 1px calc(var(--director-tick-width) / 5));
+}
+.director-camera-pip:not(:hover):not(:focus-within) .director-camera-pip__actions button:not(:last-child) {
+    width: 0;
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+@container director-window (max-width:760px) {
+    .director-time-zoom input {
+        width: 40px;
+    }
+    .director-time-zoom {
+        gap: 0;
+    }
+}
+.director-workbench-player button.director-transport-title {
+    width: auto;
+    display: inline-flex;
+    padding: 0 8px;
+    border: 0;
+    background: transparent;
+}
+@container director-window (min-width:1100px) {
+    .director-workbench-layout[data-maximized="true"][data-dynamic-rehearsal="true"] .director-workbench-player-track {
+        flex: 0 1 140px;
+    }
+    .director-transport-settings {
+        margin-inline-start: auto;
+    }
+    .director-workbench-player .director-time-zoom input {
+        width: 90px;
+    }
+    .director-workbench-player .director-time-zoom button {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+.director-transport-settings {
+    gap: 12px;
+}
+.director-camera-pip:not(:hover):not(:focus-within) .director-camera-pip__focal {
+    width: 0;
+    overflow: hidden;
+}
+
+.director-axis-controls [role="button"] {
+    cursor: pointer;
+}
+.director-context-objects > strong,
+.director-studio-controls > strong {
+    font-size: 14px;
+}
+.director-studio-field output {
+    order: 1;
+    margin-left: 0;
+    min-width: 65px;
+}
+.director-studio-field input[type="color"] {
+    margin-left: auto;
+    margin-right: 6px;
+}

@@ -1,0 +1,66 @@
+{
+    "title": "Optimiza tus prompts de IA con plantillas estables",
+    "metaDescription": "Para quienes usan IA y reciben respuestas desviadas o formatos incorrectos. En el lienzo crea una tarjeta de prompt reutilizable con reglas y avisos.",
+    "oneLiner": "Escribe tus instrucciones habituales y genera en el lienzo una tarjeta de prompt reutilizable.",
+    "intro": [
+        "Esta herramienta te ayuda a optimizar prompts (las instrucciones que envías a la IA). Si sientes que la IA responde de forma irregular cuando le pides algo, te ayuda a ordenar tus requisitos en una plantilla clara.",
+        "Solo tienes que preparar las instrucciones que sueles encontrar poco útiles, el resultado que quieres que logre la IA o el formato de salida que necesitas, y escribirlas directamente en el cuadro de diálogo.",
+        "Al terminar, obtendrás en el lienzo una tarjeta de texto con el rol definido, las restricciones de formato y los casos en que suele fallar; podrás copiarla y guardarla para reutilizarla la próxima vez."
+    ],
+    "example": {
+        "input": "«Quiero que la IA me ayude a escribir guiones para vídeos cortos, pero a menudo no respeta el formato de tabla que le pido y, a las pocas frases, se va del tema. ¿Puedes mejorarlo?»",
+        "output": "En el lienzo se genera una tarjeta de texto con el prompt: incluye un tono y un personaje fijos, la especificación de los campos de la tabla, restricciones para evitar relleno y recordatorios para no olvidar el contexto en conversaciones largas."
+    },
+    "scenarios": [
+        "Cuando la IA genera contenido y las respuestas varían, y quieres una plantilla de instrucciones fija.",
+        "Cuando la conversación se alarga, la IA tiende a olvidar el rol y el contexto definidos al principio.",
+        "Cuando la IA responde con demasiada verborrea o no respeta la tabla indicada y necesitas limitar el estilo de salida.",
+        "Cuando quieres conservar las formulaciones que te han funcionado para reutilizarlas después."
+    ],
+    "problems": [
+        {
+            "pain": "Cada vez que envías instrucciones a la IA lo haces a ojo; hoy funcionan y mañana no.",
+            "solve": "Te ayuda a estructurar un marco de instrucciones fijo y señala los límites donde suele fallar para facilitar el diagnóstico."
+        },
+        {
+            "pain": "En cuanto la conversación se alarga un poco, la IA olvida el rol y los requisitos definidos al principio.",
+            "solve": "Separa los requisitos clave y las prohibiciones en reglas fijas y te sugiere citarlas al principio para reducir los olvidos en conversaciones largas."
+        },
+        {
+            "pain": "La IA a menudo no obedece, da párrafos llenos de fórmulas y no respeta el formato de tabla indicado.",
+            "solve": "Añade reglas de formato y prohibiciones explícitas para limitar en lo posible la extensión y el formato de las respuestas de la IA."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y abre el cuadro de diálogo a la derecha del lienzo.",
+        "Describe tu necesidad de creación y envía las instrucciones que suelas encontrar poco útiles.",
+        "Revisa la tarjeta de prompt generada en el lienzo; puedes editar el texto directamente.",
+        "Copia o descarga el prompt de la tarjeta y guárdalo como plantilla para reutilizarlo más adelante."
+    ],
+    "faq": [
+        {
+            "q": "¿Por qué, cuando pido algo a la IA, la calidad de las respuestas varía tanto?",
+            "a": "Suele ocurrir porque las instrucciones son demasiado vagas o carecen de límites concretos. Puedes separar por niveles el rol, los requisitos de formato y las prohibiciones para reducir la improvisación. Después de generar la tarjeta en el lienzo, también puedes anotar las versiones que funcionan y mejorarlas poco a poco."
+        },
+        {
+            "q": "¿Cómo evito que la IA olvide requisitos anteriores en conversaciones largas?",
+            "a": "Separa el tono y las prohibiciones clave y vuelve a citarlos antes de los momentos importantes de la conversación. Intenta no mezclar todos los ajustes en un párrafo largo; explicarlos por niveles ayuda a que la IA mantenga la memoria y se desvíe menos."
+        },
+        {
+            "q": "¿Qué hago si la IA responde con demasiada verborrea y no respeta el formato de tabla?",
+            "a": "Indica al final de la petición, por separado, el formato de salida y el límite de palabras. Especifica qué columnas debe tener la tabla y añade límites como «no incluyas relleno innecesario». Una vez generada la tarjeta en el lienzo, también puedes modificar los detalles a mano cuando quieras."
+        },
+        {
+            "q": "¿Cómo creo una plantilla de prompt que pueda reutilizar?",
+            "a": "Escribe por separado el contenido que cambia a menudo y las reglas fijas. Por ejemplo, deja la necesidad concreta como contenido que sustituirás cada vez y fija las reglas de formato y tono. La próxima vez solo tendrás que cambiar el contenido y será más fácil obtener respuestas estables."
+        }
+    ],
+    "keywords": [
+        "optimización de prompts",
+        "plantillas de prompts para IA",
+        "resultados inestables con IA",
+        "IA se desvía al responder",
+        "cómo escribir prompts",
+        "cómo definir el rol de la IA"
+    ]
+}

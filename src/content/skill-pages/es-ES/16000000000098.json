@@ -1,0 +1,66 @@
+{
+    "title": "Guion de ventas: compara precios y guía la compra",
+    "metaDescription": "Para creadores y vendedores en vídeo. Introduce ventajas y precios y genera en el lienzo comparativas, packs y un guion de cierre listo para usar.",
+    "oneLiner": "Dale las ventajas del producto y crea en el lienzo comparativas de precio y textos para cerrar la venta.",
+    "intro": [
+        "Es una herramienta para diseñar discursos de venta. Convierte las ventajas del producto en mensajes fáciles de aceptar para el público y te enseña a hablar del precio y a compararlo con productos similares para que el público deje de dudar.",
+        "Solo tienes que preparar las características del producto, su precio y el pack que quieres destacar. Si no sabes cómo decirlo, también puedes enviarle tu presentación habitual.",
+        "La IA generará en el lienzo una serie de tarjetas de texto con una apertura que atraiga, una comparativa de precios razonable, sugerencias de packs y un cierre con indicaciones concretas para comprar."
+    ],
+    "example": {
+        "input": "Vendo termos artesanales a 129 yuanes. La gente suele pensar que son caros y busca modelos baratos de unas decenas de yuanes para comparar. ¿Cómo lo explico en un guion oral?",
+        "output": "En el lienzo se genera un conjunto de tarjetas de texto: primero compara el proceso de alta calidad para explicar el coste, luego ofrece una estructura de opciones con el modelo destacado y un modelo de comparación y, por último, da un cierre claro con instrucciones para comprar."
+    },
+    "scenarios": [
+        "Cuando el público cree que el producto es caro y busca versiones más baratas para comparar.",
+        "Cuando tienes varios packs de producto, pero casi todos los compradores eligen solo el más barato.",
+        "Cuando el guion oral menciona muchas ventajas, pero el comprador sigue dudando y no realiza el pedido.",
+        "Cuando el vídeo se ve hasta el final pero nadie compra y no sabes cómo cerrar para que el público haga el pedido."
+    ],
+    "problems": [
+        {
+            "pain": "El público ve el vídeo de venta, pero sigue pensando que es caro y busca versiones más baratas.",
+            "solve": "Te enseña a comparar con referencias similares de alta calidad y a explicar los detalles de coste del proceso de fabricación para reducir las comparaciones de precio."
+        },
+        {
+            "pain": "La tienda ofrece varios packs, pero los clientes casi siempre compran solo el más barato.",
+            "solve": "Diseña tres opciones de pack y usa una opción un poco inferior como contraste para que al cliente le resulte más fácil elegir el pack destacado."
+        },
+        {
+            "pain": "El vídeo presenta muchas ventajas del producto, pero el comprador desconfía y no termina de hacer el pedido.",
+            "solve": "Te enseña a mencionar con sinceridad un pequeño inconveniente o una dificultad de fabricación para generar confianza real y disipar los recelos del comprador."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, haz clic en «Usar esta habilidad» e introduce la información del producto en el chat del lienzo.",
+        "Revisa las tarjetas de texto generadas en el lienzo, incluidas la comparativa de precios y la guía para hacer el pedido.",
+        "Modifica lo que no te convenza o pide a la IA en el chat que vuelva a generar una parte.",
+        "Copia o descarga el resultado final y úsalo directamente en tu guion oral."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo escribir un guion oral de ventas que ayude a cerrar más pedidos?",
+            "a": "Da primero al público una comparativa de precios creíble y termina con una instrucción clara para hacer el pedido. No amontones todas las ventajas; usa referencias de calidad que el público conozca para poner en valor el producto. Al final, pide al espectador solo una acción concreta, así se reducen las dudas que llevan a abandonar la compra."
+        },
+        {
+            "q": "Al crear packs de un producto, ¿cómo hacer que más gente compre el pack destacado?",
+            "a": "Se recomienda ofrecer tres opciones e incluir una opción algo inferior como contraste. Por ejemplo, un modelo básico, el modelo destacado y una opción más cara con un precio similar pero menos ventajas incluidas. Esta comparación resalta la buena relación calidad-precio del modelo destacado y ayuda al comprador a decidir antes."
+        },
+        {
+            "q": "¿Cómo hablar del precio en un vídeo sin que el público lo perciba como caro?",
+            "a": "Puedes tomar como referencia productos similares de alta calidad reconocidos en el mercado, sin inventar un precio original. Explicar con sinceridad la fabricación real y el coste de los procesos de tu producto también hace que el precio resulte más convincente. Si dejas claro su valor difícil de sustituir, el público buscará menos versiones baratas."
+        },
+        {
+            "q": "¿El guion oral generado en {brand} se puede convertir directamente en vídeo?",
+            "a": "No se puede convertir directamente en vídeo, pero puedes seguir añadiendo imágenes al texto o generando fragmentos de vídeo en el lienzo. Los fragmentos generados se guardan como tarjetas en el lienzo; puedes ordenarlos en la línea de tiempo del vídeo y exportarlos. Ten en cuenta que la IA no monta automáticamente varios fragmentos en un vídeo final: tendrás que ordenarlos tú en la línea de tiempo."
+        }
+    ],
+    "keywords": [
+        "guion para vídeos de venta",
+        "cómo hablar de precio en vídeos de venta",
+        "guion de ventas para vídeo",
+        "cómo poner precio a packs de productos",
+        "cómo aumentar pedidos con vídeos de venta",
+        "qué hacer si nadie compra en vídeos de venta"
+    ]
+}

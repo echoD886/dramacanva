@@ -1,0 +1,66 @@
+{
+    "title": "Video Editing Rhythm: Dialogue Cuts & Transitions",
+    "metaDescription": "For new editors: send dialogue or story; AI marks cuts, two-line order, and transition timing on canvas, then creates an editing plan card.",
+    "oneLiner": "Enter dialogue or plot, and AI maps out shot cuts and transitions for beginners on the canvas.",
+    "intro": [
+        "This is {brand}'s rhythm planning tool designed for editing beginners. Enter dialogue or story, and AI generates shot changes and transition plans on the canvas to solve dull dialogue, confusing multiple storylines, and abrupt scene changes.",
+        "All you need is a dialogue script or a simple plot description. If you have specific pacing preferences, such as wanting a faster rhythm or a particular transition style, you can tell it directly.",
+        "When it's done, you'll get an editing plan card on the canvas. It clearly marks when each shot should cut, when to cut to the listener's expression while the other person speaks, and at which points the two storylines alternate."
+    ],
+    "example": {
+        "input": "A script excerpt of two people arguing in a negotiation. It feels like they're each talking past each other and it's dull. Help me design how to cut the shots.",
+        "output": "The canvas generates an editing plan card: it marks cut points based on line pauses and emotional shifts, and suggests cutting to the other person's silent fist-clenching reaction shot when one side makes a harsh threat."
+    },
+    "scenarios": [
+        "A long two-person conversation looks dull; you want to add listener reactions and specific details to make the pacing more lively.",
+        "Two characters act at the same time in different locations; you need to arrange the order in which the two storylines alternate.",
+        "The story switches to a new scene or jumps across time; you want natural visual connections to avoid harsh cuts.",
+        "You don't want long dialogue; you want to splice two detail shots together to convey a character's inner loneliness."
+    ],
+    "problems": [
+        {
+            "pain": "The shot keeps cutting mechanically back and forth between two people talking, making the scene dull and list-like.",
+            "solve": "Plan cut points around pauses and emotional shifts, and insert reaction shots of the listener in between."
+        },
+        {
+            "pain": "When editing multiple storylines, the cuts jump around so much that viewers can't follow what happens first or how they connect.",
+            "solve": "By default, plan no more than two parallel storylines, switching at action or emotional peaks to keep the thread clear."
+        },
+        {
+            "pain": "Scene changes rely entirely on harsh cuts, or random effects make the footage look cheap.",
+            "solve": "Prefer continuous transitions through matching action or eyelines, and when necessary, specify when to fade out and fade in."
+        }
+    ],
+    "steps": [
+        "In the skill library, click \"Use this skill,\" then send your editing request to the AI on the right.",
+        "Send a dialogue script or story outline and tell it your preferred pacing or transition style.",
+        "Review the plan card generated on the canvas and confirm each shot's cut points and transition suggestions.",
+        "Copy or download the result and use the cut points and order in the plan as a reference to edit your video."
+    ],
+    "faq": [
+        {
+            "q": "How do I edit a video where two people keep talking so it isn't boring?",
+            "a": "Cut to the listener's silent reaction shot at key line pauses or emotional changes to break the monotony of back-and-forth talking. AI marks cut points on the canvas based on the dialogue's rises and falls, helping you smooth out the conversation's rhythm and show the emotional interplay between characters."
+        },
+        {
+            "q": "How can I make scene transitions look natural?",
+            "a": "Favor natural transitions connected by action or eyelines and use abrupt transition effects as little as possible. When the story jumps a long period of time or changes location drastically, consider a fade-to-black and fade-in transition. AI will spell out the right timing in the plan card."
+        },
+        {
+            "q": "How should I edit events happening at the same time in different places with two characters?",
+            "a": "Use a two-line alternating narrative and switch at moments of action or emotional climax. The platform plans at most two parallel storylines by default to keep viewers from getting confused; AI marks the specific alternating cut points on the canvas."
+        },
+        {
+            "q": "Without dialogue, how can I show that a character is sad or lonely?",
+            "a": "You can connect two related detail shots so viewers feel the emotion for themselves. For example, cut from a character staring blankly to leaves falling outside the window; no dialogue is needed to convey loneliness. AI will suggest this kind of image pairing on the canvas."
+        }
+    ],
+    "keywords": [
+        "how to edit dialogue scenes",
+        "how to do video transitions",
+        "video editing pacing",
+        "how to edit dual storylines",
+        "shot transition techniques",
+        "short drama editing tutorial"
+    ]
+}

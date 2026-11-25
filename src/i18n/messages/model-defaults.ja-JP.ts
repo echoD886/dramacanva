@@ -1,0 +1,22 @@
+const modelDefaults = {
+    "modelDefaults.imageTitle": "デフォルト画像モデル",
+    "modelDefaults.imageDescription": "画像生成・画像編集・ビジュアル探索",
+    "modelDefaults.videoTitle": "デフォルト動画モデル",
+    "modelDefaults.videoDescription": "テキストから動画・画像から動画・ショットの延長",
+    "modelDefaults.textTitle": "デフォルトテキストモデル",
+    "modelDefaults.textDescription": "プロンプト推敲・台本・構造化テキスト",
+    "modelDefaults.audioTitle": "デフォルト音声モデル",
+    "modelDefaults.audioDescription": "音声・効果音・音楽生成",
+    "modelDefaults.available": "{count} 件利用可能",
+    "modelDefaults.unnamedChannel": "名称未設定のチャンネル",
+    "modelDefaults.system": "システム",
+    "modelDefaults.custom": "カスタム",
+    "modelDefaults.tokenPrice": "{price} / 100万トークン",
+    "modelDefaults.secondPrice": "{price} / 秒",
+    "modelDefaults.requestPrice": "{price} / 回",
+    "modelDefaults.noImage": "利用可能な画像モデルがありません",
+    "modelDefaults.noVideo": "利用可能な動画モデルがありません",
+    "modelDefaults.noText": "利用可能なテキストモデルがありません",
+    "modelDefaults.noAudio": "利用可能な音声モデルがありません",
+} as const;
+export default modelDefaults;

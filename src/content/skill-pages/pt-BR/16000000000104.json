@@ -1,0 +1,67 @@
+{
+    "title": "Escreva anúncios como histórias de marca em 8 etapas",
+    "metaDescription": "Para criadores que só elogiam o produto. Informe produto e público: a IA cria história, plano em 8 etapas e lista de necessidades e cards para roteiro.",
+    "oneLiner": "Insira as informações do produto e gere no canvas um roteiro de história de marca com conflito, sem soar artificial.",
+    "intro": [
+        "Esta é uma ferramenta de planejamento para escrever histórias de marca. Ela não usa autoelogio forçado; transforma os pontos fortes do produto em uma história real, com reviravoltas, que resolve dificuldades do usuário.",
+        "Você só precisa preparar uma breve apresentação do produto, para quem quer vendê-lo e quais problemas o usuário costuma enfrentar. Mesmo que nunca tenha escrito um roteiro de narrativa, pode usar direto.",
+        "A IA gera no canvas três grupos de cards de texto: a linha completa da história de marca, um plano de avanço em oito etapas e uma lista de conteúdos de necessidades que ajuda a resolver os problemas do usuário."
+    ],
+    "example": {
+        "input": "Fazemos teclados mecânicos silenciosos para escritório e queremos criar uma história de divulgação para programadores que costumam fazer hora extra, sem ficar só recitando especificações de hardware.",
+        "output": "No canvas, são gerados três cards de texto: começa pelo conflito do protagonista que digita tarde da noite e atrapalha a família, desenvolve as reviravoltas da história em oito etapas e lista conteúdos de necessidades para resolver as dores."
+    },
+    "scenarios": [
+        "Ao promover um produto novo, só sabe listar os pontos de venda no vídeo, e o público passa direto.",
+        "Ao escrever o roteiro de um filme publicitário, o enredo é linear demais, parece um relatório, e ninguém lembra depois de assistir.",
+        "O anúncio repete a mesma funcionalidade e soa prolixo; não se sabe como criar reviravoltas.",
+        "Não se sabe se deve vender o produto logo de cara ou primeiro ajudar o usuário a resolver dúvidas práticas."
+    ],
+    "problems": [
+        {
+            "pain": "O anúncio parece manual de produto, só recita especificações, e o público acha entediante e passa direto.",
+            "solve": "Ajuda a reescrever o autoelogio como uma história que resolve dificuldades, para o público primeiro se identificar e depois ver naturalmente o valor do produto."
+        },
+        {
+            "pain": "A história de divulgação fica sem graça, o protagonista tem tudo a favor, e o público não lembra dela depois.",
+            "solve": "Organiza as relações de causa e efeito em oito etapas, adicionando obstáculos reais e pontos de virada para dar mais altos e baixos ao enredo."
+        },
+        {
+            "pain": "Não se sabe se deve vender logo de início ou primeiro oferecer conteúdo útil ao público.",
+            "solve": "Gera uma lista de conteúdos de necessidades que ajuda a explicar primeiro as dores do usuário e dar insights, para depois conduzir a ação de forma natural."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir o canvas do {brand}.",
+        "Insira as informações do produto, o público-alvo e os pontos de venda que deseja comunicar.",
+        "Veja os cards gerados no canvas: linha da história, plano de avanço e lista de conteúdos de necessidades.",
+        "Clique nos cards para editar o texto ou diga ao assistente na caixa de diálogo como ajustar os detalhes.",
+        "Copie ou baixe os cards de resultado e use-os diretamente como roteiro do vídeo de divulgação."
+    ],
+    "faq": [
+        {
+            "q": "Por que as pessoas sempre acham que o anúncio que fizemos parece publicidade forçada?",
+            "a": "Principalmente porque só há autoelogio aos pontos de venda. É melhor adotar a perspectiva do usuário: mostrar primeiro as dificuldades reais e as reviravoltas e então apresentar o produto. A habilidade ajuda a organizar a lista de conteúdos de necessidades e a linha da história, para o público se identificar primeiro e sentir menos rejeição."
+        },
+        {
+            "q": "Como funciona, na prática, o avanço das oito etapas do marketing de história?",
+            "a": "Ele segue a ordem de estabelecer a necessidade do público, adicionar obstáculos reais e reviravoltas e, por fim, conduzir à ação, passando naturalmente da dificuldade do usuário para o produto. A IA gera no canvas cards com o plano de avanço e a linha da história, organizando a lógica de causa e efeito, para você clicar e ajustar quando quiser."
+        },
+        {
+            "q": "E se a história ficar sem graça, parecendo um relatório?",
+            "a": "A solução é adicionar obstáculos reais e pontos de virada ao protagonista, quebrar a causalidade fácil demais e dar altos e baixos ao enredo. A habilidade ajuda a diagnosticar o enredo atual, incluir resistências externas e conflitos internos, para o público se identificar emocionalmente com mais facilidade."
+        },
+        {
+            "q": "Ao divulgar um produto novo, é melhor apresentar as funcionalidades primeiro ou contar uma história primeiro?",
+            "a": "Recomenda-se primeiro usar uma história para apresentar as dificuldades do usuário e estabelecer a necessidade, evitando que o público passe direto por causa da venda direta; depois que houver identificação, apresente as funcionalidades do produto. A habilidade primeiro gera uma lista de conteúdos de necessidades para responder dúvidas, ajuda o usuário a criar entendimento e então conduz a ação de forma natural."
+        }
+    ],
+    "keywords": [
+        "como escrever uma história de marca",
+        "anúncio de produto muito forçado o que fazer",
+        "roteiro de vídeo de divulgação",
+        "etapas do storytelling para vendas",
+        "como escrever roteiro de vídeo sem ser chato",
+        "como transformar anúncio em história"
+    ]
+}

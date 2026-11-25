@@ -1,0 +1,20 @@
+const messages = {
+    "creationEmpty.signal": "DramaCanvas · Espacio de creación audiovisual con IA",
+    "creationEmpty.lead": "La escena que imaginas, ",
+    "creationEmpty.brand": "deja que DramaCanvas ",
+    "creationEmpty.finish": "la haga realidad",
+    "creationEmpty.neon": "SC.01 · Neón bajo la lluvia",
+    "creationEmpty.chase": "SC.02 · Persecución en el callejón",
+    "creationEmpty.rooftop": "SC.03 · Reencuentro en la azotea",
+    "creationEmpty.caption": "Dirige cada fotograma",
+    "creationEmpty.first": "Crear tu primer plano",
+    "creationEmpty.firstHint": "Describe la escena, el movimiento de cámara y la iluminación",
+    "creationEmpty.reference": "Empezar con una imagen de referencia",
+    "creationEmpty.referenceHint": "Sube una referencia de estilo para crear imágenes similares",
+    "creationEmpty.story": "Continuar tu historia",
+    "creationEmpty.storyHint": "Habla con la IA sobre trama, personajes y diálogos",
+    "creationEmpty.skill": "Añadir habilidades",
+    "creationEmpty.skillHint": "Usa @ para acceder a habilidades como guion gráfico y voz",
+    "creationEmpty.shotPlaceholder": "SC.{id} · Describe este plano, imagen o historia",
+} as const;
+export default messages;

@@ -1,0 +1,67 @@
+{
+    "title": "Crie vídeo a partir de referência: ação em 15s",
+    "metaDescription": "Para quem quer um curta sem saber descrever a cena. Envie referência e ação; a IA extrai luz e cor e gera três clipes para montar um vídeo de 15s.",
+    "oneLiner": "Envie uma referência e escreva uma ação em uma frase para criar um curta de 15s no mesmo estilo.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda você a criar vídeos seguindo o estilo de uma imagem. Se você gosta da luz e da cor de uma imagem, ela pode levar essa qualidade visual para o seu vídeo.",
+        "Você só precisa de duas coisas: uma imagem de referência com a textura visual que você gosta e uma frase dizendo claramente qual ação a pessoa ou o objeto da cena deve fazer.",
+        "A IA gera no canvas uma tabela de storyboard (descrição do movimento dividido em três etapas) e cria os três clipes de vídeo correspondentes, para você montar um curta de 15s."
+    ],
+    "example": {
+        "input": "Envie uma captura de tela de uma cena noturna de rua com neon na chuva e digite: “Um detetive de impermeável acende um cigarro sob o poste e olha para cima, para a chuva”.",
+        "output": "No canvas, serão gerados o cartão de tons frios azuis e quentes amarelos extraídos, além das descrições textuais de três planos — close, acender o cigarro e olhar para cima — e três clipes curtos gerados a partir dessas descrições."
+    },
+    "scenarios": [
+        "Ver uma captura de tela de filme com uma paleta bonita e querer fazer um vídeo curto com a mesma qualidade visual.",
+        "Achar que suas próprias descrições de vídeo deixam a imagem acinzentada e sem textura, e querer adicionar detalhes reais de luz e sombra.",
+        "Ter apenas uma ideia simples de ação e não saber como dividi-la em planos coerentes e bonitos.",
+        "Precisar fazer um curta com vários planos seguidos e querer manter a paleta e a iluminação consistentes do começo ao fim."
+    ],
+    "problems": [
+        {
+            "pain": "Gostar da qualidade cinematográfica da referência, mas não conseguir escrever aquele efeito de luz e cor.",
+            "solve": "A IA analisa o estilo de luz e cor da imagem de referência e o organiza automaticamente em uma descrição de estilo incluída nos planos."
+        },
+        {
+            "pain": "Os vídeos gerados por IA muitas vezes têm movimentos rígidos e imagem artificial, parecendo modelos de plástico de baixa qualidade.",
+            "solve": "A descrição da cena inclui ativamente detalhes como gotas d'água, reflexos e poeira fina, para deixar a imagem mais realista e natural."
+        },
+        {
+            "pain": "Ter só uma ideia simples de ação e não saber como dividi-la em um vídeo curto coerente e agradável de assistir.",
+            "solve": "A ação é dividida automaticamente em três partes: um close inicial, a ação principal e uma pausa com olhar fixo, formando planos coerentes."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir a interface de chat no lado direito do canvas.",
+        "Envie uma imagem de referência do estilo que você gosta e digite uma frase descrevendo a ação.",
+        "Veja a análise de estilo e as descrições dos três planos gerados no canvas; você pode editá-las conforme quiser.",
+        "Peça ao assistente para gerar os cartões dos três clipes de vídeo correspondentes; se não gostar, gere novamente.",
+        "Organize a ordem na linha do tempo de vídeo e exporte o vídeo completo de 15s."
+    ],
+    "faq": [
+        {
+            "q": "Sem uma imagem de referência, dá para digitar um texto e gerar esse tipo de vídeo com cara de cinema?",
+            "a": "Não, este recurso depende obrigatoriamente de uma imagem de referência para extrair o estilo. Se você não tiver uma imagem pronta, recomendamos escolher ou gerar no canvas uma imagem satisfatória e usá-la como referência."
+        },
+        {
+            "q": "Como fazer três clipes com o mesmo estilo usando uma única imagem?",
+            "a": "Envie a referência e a ação; a IA analisa automaticamente a luz e a paleta da imagem e as inclui nos três planos, buscando manter o estilo coerente. Se algum plano ficar com textura diferente, ajuste a descrição textual desse plano no canvas e gere novamente."
+        },
+        {
+            "q": "Como escrever um pedido de ação em uma frase para ter um bom resultado?",
+            "a": "Basta dizer claramente quem faz qual ação e em que lugar, por exemplo: “Um boxeador treina socos em um beco em uma noite de chuva”. A IA complementa automaticamente closes de detalhes, o processo da ação e o plano final, sem você precisar planejar uma divisão complexa de planos com antecedência."
+        },
+        {
+            "q": "E se o vídeo gerado parecer falso, como plástico?",
+            "a": "Você pode editar diretamente no canvas a descrição textual desse plano, adicionar detalhes de luz ou material e gerar novamente. O sistema já inclui por padrão detalhes como poeira fina e gotas d'água para reduzir a aparência de plástico; se ainda não ficar satisfatório, tente outra imagem de referência com luz e sombra mais nítidas."
+        }
+    ],
+    "keywords": [
+        "vídeo a partir de imagem de referência",
+        "vídeo de IA com cara de cinema",
+        "criar vídeo com estilo de imagem",
+        "como fazer vídeo curto de 15 segundos",
+        "storyboard para vídeo com IA",
+        "remover aparência plástica de vídeo de IA"
+    ]
+}

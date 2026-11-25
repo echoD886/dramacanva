@@ -1,0 +1,66 @@
+{
+    "title": "Divide tu historia en planos y crea vídeo coherente con IA",
+    "metaDescription": "Para principiantes en microdramas y vídeos cortos. Envía una historia y la IA crea una tabla de planos y descripciones, y genera imágenes y clips.",
+    "oneLiner": "Introduce una historia, ordena planos coherentes en el lienzo y genera clips; ideal para principiantes.",
+    "intro": [
+        "Es como un asistente que entiende de fotografía. Envía un relato escrito y en el lienzo dividirá la historia en una tabla de planos coherente, indicará cómo rodar cada plano y anotará la descripción visual.",
+        "Solo tienes que preparar un texto, como un fragmento de novela, un esquema de la historia o unas líneas de trama; si tienes imágenes de referencia de personajes que te gusten, también puedes enviarlas.",
+        "Al terminar, tendrás en el lienzo una tabla de organización de planos, una imagen de referencia para cada plano y varias tarjetas de vídeo generadas, que podrás descargar directamente o ordenar y exportar."
+    ],
+    "example": {
+        "input": "Una historia de detectives: en una noche de lluvia, el detective empuja la puerta de una librería antigua y descubre en el suelo una carta abierta; tras la cortina, de repente, se vislumbra una silueta.",
+        "output": "En el lienzo se generarán tarjetas con la tabla de planos ya dividida, indicando un primer plano de la puerta al abrirse, un primer plano de la carta y un plano general de la sombra, junto con la descripción visual de cada plano y tarjetas de vídeo corto generadas."
+    },
+    "scenarios": [
+        "Tienes una novela o una historia y no sabes cómo dividirla en imágenes concretas para hacer un vídeo.",
+        "Los movimientos en los vídeos hechos con IA se vuelven confusos y quieres que la acción principal de cada plano sea más clara y precisa.",
+        "Al unir varios planos de vídeo, la luz cambia y el estilo se rompe; quieres unificar el tono y la sensación visual.",
+        "Ya tienes algunas imágenes de personajes que te gustan y quieres organizar los siguientes planos a partir de esas imágenes."
+    ],
+    "problems": [
+        {
+            "pain": "La historia tiene miles de palabras y no sabes cómo convertirla en imágenes adecuadas para un vídeo corto.",
+            "solve": "Te ayuda a organizar una tabla de planos en el lienzo, indicando si cada imagen es un plano general o un primer plano, cómo se mueven los personajes y cómo se mueve la cámara."
+        },
+        {
+            "pain": "En un mismo texto quieres que el personaje haga demasiados movimientos y el vídeo generado por IA suele salir caótico.",
+            "solve": "Divide las acciones complejas en planos cortos, cada uno centrado en una sola acción principal, para que la generación de imágenes sea más estable."
+        },
+        {
+            "pain": "Al unir varios planos, la apariencia de los personajes y la luz cambian y no encajan.",
+            "solve": "Primero te ayuda a definir en el lienzo la iluminación y el estilo visual de todo el conjunto de planos y procura mantener la misma configuración visual en cada plano."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y envía tu historia o imágenes de referencia en el cuadro de chat de la derecha.",
+        "Revisa las tarjetas de la tabla de planos generadas en el lienzo y confirma la distancia y la acción de cada plano.",
+        "Dile al asistente cómo cambiar las descripciones de texto que no te convenzan y pídele que genere una imagen o un clip de vídeo individual.",
+        "Arrastra los clips de vídeo que te gusten a la línea de tiempo del lienzo, ordénalos y exporta el vídeo final."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo dividir una novela o una historia en planos de vídeo?",
+            "a": "Envía el texto al asistente de IA y dividirá la trama en una tabla de planos (convertirá el vídeo en planos individuales e indicará qué se graba en cada uno), señalando el tipo de plano y la acción. Puedes consultar la descripción visual de cada plano en el lienzo y decirle al asistente que la modifique cuando algo no te convenza."
+        },
+        {
+            "q": "¿Por qué los movimientos de los vídeos hechos con IA suelen ser confusos o romperse?",
+            "a": "Se debe sobre todo a que se le dan demasiadas instrucciones de movimiento a la IA de una vez. Esta habilidad intenta separar las acciones para que cada plano tenga solo una acción principal, y así la imagen suele ser mucho más estable. Si un plano no te convence, dile al asistente que ajuste la descripción y vuelve a generarlo."
+        },
+        {
+            "q": "¿Cómo conseguir que los personajes sean iguales en varios planos de vídeo consecutivos?",
+            "a": "No se puede garantizar que sean idénticos, pero si subes de antemano una imagen de referencia del personaje, ayudarás a mantener la apariencia del personaje coherente. La IA priorizará el aspecto y la ropa de esa imagen de referencia al organizar los planos. Si el personaje se deforma en algún plano, dile al asistente que modifique la descripción de ese plano y vuelve a generarlo."
+        },
+        {
+            "q": "¿La IA montará automáticamente todos los planos en un vídeo completo?",
+            "a": "No los unirá automáticamente; generará clips de vídeo independientes en el lienzo. Puedes arrastrar los clips que te gusten a la línea de tiempo del vídeo, ordenarlos y, cuando lo compruebes, exportar el vídeo final. Así puedes ajustar libremente el orden de cada imagen."
+        }
+    ],
+    "keywords": [
+        "storyboard con IA para vídeos",
+        "pasar una historia a storyboard",
+        "vídeos de IA con movimientos confusos",
+        "storyboard para microdramas",
+        "crear vídeos coherentes con IA",
+        "hacer vídeos con IA para principiantes"
+    ]
+}

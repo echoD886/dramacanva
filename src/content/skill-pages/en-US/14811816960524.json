@@ -1,0 +1,67 @@
+{
+    "title": "Make a 15-second video from a reference image and one action",
+    "metaDescription": "Want a 15-sec short but don’t know how to describe visuals? Upload a reference image and one-line action; AI extracts lighting/color to make three clips.",
+    "oneLiner": "Upload a reference image and write a one-line action to make a 15-second short in the same style.",
+    "intro": [
+        "This is a tool that helps you make videos in the style of an image. If you like the lighting and color grading of a certain image, it can help bring that visual feel into your own video.",
+        "You only need two things: a reference image with a visual texture you like, plus one sentence clearly stating what the people or objects in the shot should do.",
+        "AI will generate a storyboard on the canvas (breaking the action into a three-step shot description) and create the corresponding three video clips so you can assemble a 15-second short."
+    ],
+    "example": {
+        "input": "Upload a movie still of a neon street scene on a rainy night, and enter: “A detective in a trench coat lights a cigarette under a streetlamp and looks up at the rain.”",
+        "output": "On the canvas, it will generate an extracted cool blue and warm yellow color palette card, plus text descriptions for three shots—close-up, lighting the cigarette, and looking up—and three short video clips generated from those descriptions."
+    },
+    "scenarios": [
+        "You see a movie still with a great color tone and want to make a short video with the same visual feel.",
+        "Your own video descriptions always look washed out and lack texture, so you want to add realistic lighting and shadow details.",
+        "You only have a simple idea for an action and don’t know how to break it down into coherent, good-looking shots.",
+        "You need a short video with several consecutive shots and want the color tone and lighting to stay consistent from shot to shot."
+    ],
+    "problems": [
+        {
+            "pain": "You love the cinematic feel of a reference image, but you can’t write descriptions that capture that lighting and color grading.",
+            "solve": "AI analyzes the lighting and color style of the reference image and automatically turns it into style notes included in the shots."
+        },
+        {
+            "pain": "AI-generated videos often have stiff motion and fake-looking visuals, like a cheap plastic model.",
+            "solve": "It proactively adds details such as water droplets, reflections, and fine dust to the scene descriptions to make the visuals look real and natural."
+        },
+        {
+            "pain": "You only have a simple action idea and don’t know how to break it into coherent, watchable short video shots.",
+            "solve": "It automatically breaks the action into three parts—an opening close-up, the main action, and a lingering gaze—and turns them into coherent shots."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use This Skill” to open the chat interface on the right side of the canvas.",
+        "Upload a style reference image you like and enter a one-sentence action description.",
+        "Review the style analysis and three shot descriptions generated on the canvas; you can edit them as needed.",
+        "Ask the assistant to generate the corresponding three video clip cards; if you’re not satisfied, you can regenerate them.",
+        "Arrange them in order on the video timeline and export the full 15-second video."
+    ],
+    "faq": [
+        {
+            "q": "Can I generate this kind of cinematic video directly from text without a reference image?",
+            "a": "No. This feature requires a reference image to extract the style. If you don’t have an image ready, we recommend choosing or generating a visual you like on the canvas first, then using it as the reference image."
+        },
+        {
+            "q": "How do I use one image to make three clips in the same style?",
+            "a": "Upload a reference image and enter an action. AI will automatically analyze the image’s lighting and color tone and write them into the three shots, keeping the style as consistent as possible. If one shot’s texture is off, you can fine-tune that shot’s text description on the canvas and regenerate it."
+        },
+        {
+            "q": "What’s the best way to write a one-sentence action request?",
+            "a": "Just clearly state who is doing what action and where, for example, “A boxer practices throwing punches in a rainy-night alley.” AI will automatically add detailed close-ups, the action sequence, and a closing shot; you don’t need to plan a complex shot breakdown in advance."
+        },
+        {
+            "q": "What should I do if the generated video looks fake or plastic?",
+            "a": "You can edit that shot’s text description directly on the canvas, add lighting or material details, and regenerate it. By default, the system adds details such as dust and water droplets during generation to reduce the plastic look as much as possible. If you’re still not satisfied, you can also try again with a reference image that has clearer lighting."
+        }
+    ],
+    "keywords": [
+        "reference image to video",
+        "AI video cinematic look",
+        "make video in image style",
+        "15-second short video",
+        "video shot storyboard",
+        "remove AI video plastic look"
+    ]
+}

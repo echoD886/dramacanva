@@ -1,0 +1,20 @@
+const announcements = {
+    "announcements.title": "System announcements",
+    "announcements.loadFailure": "Unable to load announcements",
+    "announcements.unread": "System announcements, unread: {count}",
+    "announcements.info": "Platform notice",
+    "announcements.success": "Service restored",
+    "announcements.warning": "Service notice",
+    "announcements.critical": "Important notice",
+    "announcements.currentCount": "Current announcements: {count}",
+    "announcements.noCurrent": "No active announcements",
+    "announcements.loading": "Loading announcements",
+    "announcements.errorTitle": "Announcements could not be loaded",
+    "announcements.empty": "No system announcements",
+    "announcements.emptyHint": "New service updates will appear here",
+    "announcements.pinned": "Pinned",
+    "announcements.imageAlt": "Image for {title}",
+    "announcements.justNow": "Just now",
+    "announcements.publishedTime": "{relative} · {date}",
+} as const;
+export default announcements;

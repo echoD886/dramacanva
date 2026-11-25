@@ -1,0 +1,66 @@
+{
+    "title": "Comedy Interview Script: Topic to Dialogue & Shot List",
+    "metaDescription": "Short-form video creators: enter a topic and characters in {brand}; AI writes 3–4 rounds of funny dialogue and a shot list with camera moves.",
+    "oneLiner": "For short-video beginners: enter a topic and create funny interview lines and a shot table on the canvas.",
+    "intro": [
+        "This is {brand}'s comedy interview skill. Enter a topic and confirm characters, and AI writes humorous dialogue on the canvas and lays out the shot list—great for creators making pet or digital human shorts.",
+        "You just need to prepare a topic you want to talk about (like dating or workplace) and pick character looks. AI asks questions like a conversation and helps you set the characters' personality contrasts and comedy style.",
+        "When done, the canvas shows a text script and storyboard table (breaking the video into individual shots and noting what each shot captures). It marks short lines, camera actions, and visual production descriptions."
+    ],
+    "example": {
+        "input": "I want to make a pet comedy interview: a corgi host interviews a Persian cat guest, complaining about how neurotic their owner has been lately. American talk show style, with laugh track sound effects.",
+        "output": "The canvas generates a humorous Q&A script and a 5-shot table that marks quick camera turns, facial close-ups, where laughter appears, and detailed visual descriptions."
+    },
+    "scenarios": [
+        "Want to make cat-and-dog pet dialogue shorts and need funny contrast lines and studio shot design.",
+        "Making workplace or dating roast interview shorts, need 3–4 rounds of humorous twist scripts.",
+        "Using virtual characters for comedy dialogue, need camera action guidance like quick cuts and facial close-ups.",
+        "Usually write jokes that aren't funny enough and want to write lines using a setup and suspense leading to a sudden twist."
+    ],
+    "problems": [
+        {
+            "pain": "Funny lines sound like reading a textbook—missing the feel of everyday conversation and the punchlines.",
+            "solve": "Create slice-of-life short lines using a suspense-then-twist method, keeping each line under 40 characters so it reads more smoothly."
+        },
+        {
+            "pain": "The shots look stiff, cuts are flat, and the video lacks rhythm and humor.",
+            "solve": "Add sudden zooms for expressions and quick camera pans to the shot table so cuts have more visual impact."
+        },
+        {
+            "pain": "Cuts are too frequent or scenes jump too much, so the final footage can easily look distorted.",
+            "solve": "For a 15-second short, keep cuts to 5–6 or fewer where possible and reduce big jumps to keep the footage more stable."
+        }
+    ],
+    "steps": [
+        "Click “Use this skill” in the skill library, then send the interview topic you want to discuss in the chat box on the right.",
+        "Answer AI's questions about character appearance, personality contrast, and comedy style to confirm the creative direction.",
+        "Review the Q&A script and shot table generated on the canvas, and edit any lines or descriptions as needed.",
+        "Copy or download the results to save the lines and shot visual descriptions for use."
+    ],
+    "faq": [
+        {
+            "q": "How can I get AI to write funny interview short-video lines?",
+            "a": "When chatting, set up contrasting character traits (like tough on the outside but timid inside) and use everyday minor events to create a twist at the end. AI will generate slice-of-life short dialogue based on this setup and keep each line under 40 characters for a brisker pace."
+        },
+        {
+            "q": "How do I keep the interview video from looking stiff?",
+            "a": "You can add actions like quick turns and facial close-ups to the shot plan. This skill marks in the table when to suddenly zoom in for a surprised expression and when to quickly cut to the other person. It also tries to keep cuts in a 15-second clip to 5–6 or fewer to prevent shaky or distorted footage."
+        },
+        {
+            "q": "Can I use cats, dogs, pets, or digital humans for a comedy interview?",
+            "a": "Yes. This skill supports pets, digital humans, real people, and other character types. Just describe the character's look and outfit in chat—like a corgi in a suit or a cat wearing glasses—and AI will write humorous lines and visual descriptions that fit that image."
+        },
+        {
+            "q": "Can I edit the generated lines or shot descriptions if I'm not satisfied?",
+            "a": "You can edit them directly on the canvas at any time. After the card is generated, you can edit the text directly or tell the assistant in the chat box on the right which line you're unhappy with and ask it to rewrite it."
+        }
+    ],
+    "keywords": [
+        "comedy interview short video script",
+        "AI funny dialogue generator",
+        "how to make a pet talk show video",
+        "funny short video script generator",
+        "interview video storyboard template",
+        "virtual human comedy interview script"
+    ]
+}

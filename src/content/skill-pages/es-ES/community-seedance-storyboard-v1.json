@@ -1,0 +1,66 @@
+{
+    "title": "Storyboard de vídeo con IA: planifica cada segundo",
+    "metaDescription": "Para principiantes en vídeo con IA que no saben describir planos. Idea o referencia: genera tarjetas de storyboard por segundos con imagen, acción y audio.",
+    "oneLiner": "Divide la historia por segundos y detalla el movimiento de cámara, la acción de los personajes y el sonido de cada plano.",
+    "intro": [
+        "Esta herramienta te ayuda a planificar los planos de un vídeo en un lienzo. Convierte tu idea de historia en una tabla de storyboard planificada por segundos (divide el vídeo en planos y especifica qué se filma y cómo se mueve cada uno).",
+        "Solo tienes que contar la historia como hablas normalmente. Si tienes imágenes de personajes, escenarios o vídeos de referencia que te gusten, también puedes enviarlos para que sirvan de referencia visual.",
+        "Generará tarjetas de texto en el lienzo, indicando qué grabar en cada tramo de 4 a 15 segundos, cómo se mueve la cámara y qué sonido acompaña. Puedes editar el texto en cualquier momento y, cuando estés satisfecho, copiarlo o descargarlo."
+    ],
+    "example": {
+        "input": "Quiero hacer un anuncio de café de 15 segundos, con imágenes de café caliente vertiéndose en una taza y un primer plano de los granos de café; quiero un ambiente relajado y cálido.",
+        "output": "En el lienzo se generarán tarjetas de storyboard de 15 segundos: de 0 a 3 s, macro del café vertiéndose; de 3 a 6 s, la cámara rodea la taza; de 6 a 10 s, la cámara se acerca a los granos de café, especificando una iluminación cálida y música jazz relajada."
+    },
+    "scenarios": [
+        "Cuando ya tienes un relato corto o un diálogo, pero no sabes cómo dividir el texto en planos de vídeo.",
+        "Cuando quieres hacer un vídeo de presentación de producto y necesitas planificar primeros planos de detalles y movimientos de cámara desde distintos ángulos.",
+        "Cuando has generado un vídeo y te gusta mucho, y quieres seguir rodando a partir de la acción y el estilo visual del anterior.",
+        "Cuando ya dispones de imágenes de personajes o paisajes y quieres que la IA conciba los planos siguiendo su aspecto."
+    ],
+    "problems": [
+        {
+            "pain": "Tienes una historia en la cabeza, pero no sabes cómo convertirla en instrucciones de plano para hacer un vídeo.",
+            "solve": "Descompone la historia por segundos y redacta por ti el tamaño de plano, el movimiento de cámara y el sonido de cada plano."
+        },
+        {
+            "pain": "Al hacer vídeos, te preocupa que los personajes no mantengan el mismo aspecto entre planos.",
+            "solve": "Puedes enviar imágenes de referencia del personaje; las vinculará en las descripciones de los planos para mantener la apariencia lo más coherente posible."
+        },
+        {
+            "pain": "Cuando has rodado un plano que queda bien, no sabes cómo seguir escribiendo a partir del anterior.",
+            "solve": "Si aportas un vídeo existente, puede continuar el tono de color y la acción del protagonista del vídeo original y escribir la descripción de los planos de continuación que enlacen con la siguiente parte."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir el chat a la derecha del lienzo.",
+        "Envía tu idea de historia y, si tienes imágenes o vídeos de referencia, envíalos también.",
+        "Revisa las tarjetas de planos generadas por segundos en el lienzo y modifica el texto que necesites.",
+        "Copia o descarga el resultado de los textos de storyboard que te satisfaga."
+    ],
+    "faq": [
+        {
+            "q": "No sé usar términos profesionales de rodaje, ¿puedo utilizar esta habilidad?",
+            "a": "Sí. Solo tienes que contar tu idea de historia y el ambiente visual con palabras sencillas; la herramienta lo organizará en descripciones de planos que incluyen tamaño de plano, movimiento de cámara y acciones. Puedes modificar las tarjetas de texto generadas en cualquier momento y, cuando estés satisfecho, copiarlas o descargarlas para usarlas."
+        },
+        {
+            "q": "¿Cómo consigo que los personajes del vídeo no cambien de aspecto?",
+            "a": "Sube al chat imágenes del aspecto del personaje como referencia; se citarán en las descripciones del storyboard para mantener, en la medida de lo posible, una apariencia coherente entre planos. Si algún plano sale con un aspecto distinto, basta con modificar la descripción y volver a generarlo; ten en cuenta que por ahora no se admiten materiales faciales de personas reales fotorrealistas."
+        },
+        {
+            "q": "He hecho un fragmento de vídeo y quiero seguir rodando hacia delante, ¿qué hago?",
+            "a": "Envía directamente al asistente el vídeo anterior e indica la trama que sigue; continuará el tono de color y la acción de los personajes del vídeo original y escribirá descripciones de planos de continuación que enlacen de forma fluida. También puedes pedir detalles que quieras cambiar; ajustará las descripciones posteriores manteniendo la coherencia visual."
+        },
+        {
+            "q": "Quiero tomar como referencia el movimiento de cámara de un vídeo de otra persona, ¿puedo usarlo directamente?",
+            "a": "Sí. Puedes subir al asistente un vídeo de referencia de 15 segundos o menos; extraerá el movimiento de cámara y el ritmo de las acciones y los incluirá en la nueva descripción del storyboard. Así, sin tener que investigar por tu cuenta términos complejos de rodaje, podrás reutilizar directamente los movimientos de cámara del vídeo de referencia."
+        }
+    ],
+    "keywords": [
+        "cómo hacer un storyboard de vídeo con IA",
+        "cómo hacer un storyboard de vídeo",
+        "prompts de planos para vídeo con IA",
+        "generar tabla de storyboard de vídeo",
+        "convertir una historia en vídeo corto",
+        "continuar un vídeo con IA"
+    ]
+}

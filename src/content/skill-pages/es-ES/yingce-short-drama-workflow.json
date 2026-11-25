@@ -1,0 +1,67 @@
+{
+    "title": "Convierte novelas en guion, storyboard y clips de microdrama",
+    "metaDescription": "Para creadores que quieren convertir novelas en microdramas: organiza guion, storyboards con personajes coherentes y clips, y expórtalos desde el lienzo.",
+    "oneLiner": "Convierte tu novela en guion, personajes visuales y varios clips de vídeo.",
+    "intro": [
+        "Es una herramienta de adaptación para creadores de microdramas: introduce el texto de la novela en el lienzo de {brand} y te ayuda a ordenar historias largas y dividirlas en diálogos, imágenes de storyboard y clips de vídeo para el microdrama.",
+        "Solo necesitas preparar capítulos de la novela, un esquema de la historia o un fragmento de texto. Súbelo al chat e indica el estilo visual que quieres (por ejemplo, imagen real o animación) y la relación de aspecto.",
+        "Recibirás un guion de microdrama, fichas de personaje con una apariencia coherente, una tabla de storyboard (que divide el vídeo en planos y detalla qué se rueda) y clips de vídeo. Puedes modificarlo todo en el lienzo y ordenarlo en la línea de tiempo para exportarlo."
+    ],
+    "example": {
+        "input": "Sube el primer capítulo de una novela de suspense y deja el mensaje: «Conviértelo en un microdrama vertical de 9:16, con estilo realista de personas reales, y genera los clips de vídeo de los tres primeros planos».",
+        "output": "En el lienzo se generan el guion del capítulo, la ficha de apariencia del protagonista, tres tarjetas de plano con acciones y diálogos indicados, y los tres clips de vídeo correspondientes para que los revises y ajustes."
+    },
+    "scenarios": [
+        "Cuando tienes una novela web por entregas o un relato corto y quieres probar a convertirlo en vídeo de microdrama.",
+        "Cuando quieres dividir una novela larga en un guion, pero no sabes cómo escribir los planos y las acciones.",
+        "Cuando al crear varios vídeos te preocupa que el protagonista no tenga el mismo aspecto y quieres fijar su imagen de antemano.",
+        "Cuando ya tienes una idea de historia y quieres generar rápidamente imágenes de storyboard y clips cortos."
+    ],
+    "problems": [
+        {
+            "pain": "La novela tiene demasiado texto y diálogos muy densos, y no sabes cómo convertirla en un guion para rodar.",
+            "solve": "Te ayuda a ordenar personajes y acontecimientos y a dividirlos en un guion de storyboard con diálogos, acciones y posición de cámara indicados."
+        },
+        {
+            "pain": "Al crear varios vídeos, el aspecto y la ropa del protagonista cambian en cada plano.",
+            "solve": "Antes de crear, se generan y fijan varias vistas del personaje para usarlas como referencia en los planos siguientes y mantener la apariencia lo más coherente posible."
+        },
+        {
+            "pain": "Te preocupa que la adaptación elimine pistas importantes o invente tramas y altere la historia.",
+            "solve": "Se intenta conservar la trama y los diálogos originales; si hay que comprimir o hay contradicciones, se te presentan primero las propuestas para que las confirmes."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y sube el texto de tu novela o un fragmento de la historia.",
+        "Revisa el guion y las fichas de personaje generados, modifica el texto y confirma la apariencia de los personajes.",
+        "Pide al asistente que genere la tabla de storyboard y las tarjetas de imagen, y confirma el orden de los planos y los detalles de las acciones.",
+        "Genera los clips de vídeo de cada plano y revísalos o vuelve a generarlos en el lienzo cuando quieras.",
+        "Ordena en la línea de tiempo los clips que te convenzan y expórtalos en orden para obtener el vídeo final."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo convertir una novela en un vídeo de microdrama?",
+            "a": "Sube la novela al chat y confirma el estilo visual; la herramienta generará automáticamente el guion, las imágenes de storyboard y los clips de vídeo. Cuando estés conforme, ordena los clips en la línea de tiempo y expórtalos."
+        },
+        {
+            "q": "¿El aspecto del protagonista cambiará entre los vídeos generados?",
+            "a": "No se puede garantizar que no cambie en absoluto, pero el sistema intentará mantener la apariencia del personaje lo más coherente posible. Antes de generar, se fijará una imagen de referencia del personaje que se usará en los planos siguientes; si algún plano sale mal, basta con modificar las indicaciones y volver a generarlo."
+        },
+        {
+            "q": "¿Se eliminarán o modificarán las pistas clave y los diálogos clásicos de la obra original?",
+            "a": "No se modificarán por iniciativa propia. Se intentará conservar los diálogos y las tramas importantes; si el texto es demasiado largo y hay que comprimirlo, primero se te mostrarán las propuestas de cambio para consultarte."
+        },
+        {
+            "q": "¿El vídeo resultante se puede exportar directamente con voces?",
+            "a": "Por ahora no se puede generar directamente un vídeo final con voces completas. La herramienta genera clips de vídeo de cada imagen; tendrás que ordenarlos en la línea de tiempo, añadir tú mismo las voces y después exportar."
+        }
+    ],
+    "keywords": [
+        "adaptar novela a microdrama",
+        "crear microdramas con IA",
+        "storyboard para microdramas",
+        "novela a vídeo",
+        "adaptación de guion para microdramas",
+        "generar vídeos de microdramas"
+    ]
+}

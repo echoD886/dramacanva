@@ -1,0 +1,66 @@
+{
+    "title": "Write Funny Short-Video Bits & Dialogue with Crosstalk",
+    "metaDescription": "For funny short videos or everyday rants: enter mishaps or a persona; AI arranges setups and twists on the canvas and generates punchline dialogue cards.",
+    "oneLiner": "Enter everyday mishaps or rants, and AI generates humorous dialogue cards for short-video creators on the canvas.",
+    "intro": [
+        "Enter the everyday mishaps you want to rant about, and AI will borrow crosstalk’s setup-and-reversal techniques to generate punchline dialogue text cards for short-video creators on the canvas, turning flat stories into fun bits.",
+        "You don’t need to understand crosstalk. Just type the thing you want to rant about, your funny experience, or the character traits you have in mind into the chat box on the right side of the canvas and send it directly to the AI assistant.",
+        "When you’re done, you’ll get a set of text cards on the canvas. They include organized joke pacing, character dialogue, and a surprise twist ending; you can copy them directly or edit them as needed."
+    ],
+    "example": {
+        "input": "I’m all thumbs and want to make a funny video about a baking fail. Help me write a self-deprecating dialogue.",
+        "output": "Generate text cards on the canvas, including three straight-faced bragging lines, a final reversal line about burning the bake, and notes marking where the punchlines land."
+    },
+    "scenarios": [
+        "You’re worried no one will watch the start of your short video and want to hook viewers with one unexpected honest line.",
+        "You’re filming a daily-life rant and don’t want it to read like a boring list of events; you want a twist on the last line.",
+        "When writing promotional copy for a product, you don’t want to praise it stiffly; you want to use self-deprecation to bring it in naturally.",
+        "When creating a funny short skit, you want to design multiple escalating setups and reveal the joke at the end."
+    ],
+    "problems": [
+        {
+            "pain": "The bits you think are funny get posted, and no one laughs.",
+            "solve": "Helps you check whether the setup before the punchline is strong enough and places the punchline at a reasonable closing point."
+        },
+        {
+            "pain": "The first line of your short video is too flat, and viewers swipe away after a second or two.",
+            "solve": "Designs an opening line that says an unexpected truth or uses deadpan self-deprecation, so you can grab attention without shouting."
+        },
+        {
+            "pain": "Your rants or voiceover scripts sound too written and stiff, lacking everyday life.",
+            "solve": "Turns them into neighborly, chatty, colloquial rambling, adds everyday details, and closes with a humorous line."
+        }
+    ],
+    "steps": [
+        "In the skills library, click “Use this skill” to enter the creation canvas.",
+        "Enter the funny topic, character traits, or everyday mishaps you want to film.",
+        "Review the joke pacing, setup dialogue, and punchline cards generated on the canvas.",
+        "Copy or download the results, and tell the assistant how to revise any cards you’re not happy with."
+    ],
+    "faq": [
+        {
+            "q": "Why doesn’t anyone laugh at a bit I think is funny?",
+            "a": "It’s often because the setup isn’t strong enough or the punchline leaks out too early. Crosstalk often uses “three setups, fourth payoff” (break expectations three times in a row, then land the punchline on the fourth); without that gap, it’s hard for the audience to laugh. In {brand}, AI helps you tighten the layers of setup and save the punchline for the right moment."
+        },
+        {
+            "q": "How do I use crosstalk techniques to write a short-video opening?",
+            "a": "You can say an unexpected truth with a deadpan attitude to quickly break the audience’s expectations. For example, admit a small flaw through self-deprecation; you can be intriguing without shouting. Just enter your persona in the {brand} canvas, and AI will help you come up with this kind of unconventional opening dialogue."
+        },
+        {
+            "q": "What should I do if my funny video lines sound fake, like a machine wrote them?",
+            "a": "Replace written-out big ideas with neighborly, chatty, colloquial rambling. Add specific everyday details like grocery shopping, cooking, and working overtime, then close with a humorous twist. You can send your existing copy to AI in the canvas and have it reorganize the lines in natural, everyday spoken language."
+        },
+        {
+            "q": "Can you directly edit the final video or record voiceover separately for me?",
+            "a": "No. It mainly generates comedy scripts and dialogue text cards. AI cannot automatically edit a final video, record separate voiceover, or search the web and publish to platforms. You can copy the lines from the canvas and use them as a shooting script or voiceover copy."
+        }
+    ],
+    "keywords": [
+        "how to write a funny short video script",
+        "funny short video caption ideas",
+        "how to write a funny short video hook",
+        "short skit dialogue writing",
+        "self-deprecating funny bits",
+        "short video rant ideas"
+    ]
+}

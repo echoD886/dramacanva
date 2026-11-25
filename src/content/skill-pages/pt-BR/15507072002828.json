@@ -1,0 +1,67 @@
+{
+    "title": "Criação de rosto com IA: traços detalhados e sem repetição",
+    "metaDescription": "Para criadores de vídeos curtos e iniciantes: escolha formato e vibe do rosto ou envie referência; a IA detalha traços e gera retratos realistas sem clones.",
+    "oneLiner": "Informe o formato do rosto e a vibe desejados; ele gera no canvas cards de retrato de personagem sem rostos repetidos.",
+    "intro": [
+        "Esta é uma ferramenta para ajudar você a criar a aparência de personagens originais. Ela transforma sensações vagas, como estilo felino ou ar distante, em detalhes concretos de formato do rosto, olhos e nariz, evitando rostos falsos de influencer sempre iguais.",
+        "Defina a impressão geral da pessoa, como idade, frieza ou doçura; você também pode enviar uma imagem de referência de rosto, e a IA usa apenas a estrutura óssea (o relevo tridimensional do rosto), sem copiar a pessoa real.",
+        "Ao terminar, você recebe duas coisas no canvas: um card de texto com uma descrição detalhada dos traços e um card de retrato do personagem com textura de pele realista, condizente com a configuração."
+    ],
+    "example": {
+        "input": "Quero criar uma vilã de cerca de 20 anos, de ar frio e distante, rosto estreito e alongado, olhos finos e compridos, com um olhar levemente intimidador, e sem rosto plástico de influencer.",
+        "output": "No canvas, será gerado um card organizado com termos de descrição dos traços (incluindo detalhes como olhos fundos e cantos da boca retos) e um retrato de meio corpo da vilã, preservando poros minúsculos e iluminação natural."
+    },
+    "scenarios": [
+        "Ao preparar personagens para séries curtas, querer transformar uma vibe abstrata, como estilo raposa ou ar distante, em uma aparência concreta.",
+        "Depois de escrever a ficha de personagem do roteiro, precisar gerar no canvas um avatar frontal ou foto de personagem que combine com a personalidade.",
+        "Ter uma imagem de referência de maquiagem/figurino ou traços de que gosta e querer usar a estrutura óssea e a vibe como referência para gerar um personagem original.",
+        "Ao criar imagens de personagem, querer remover o aspecto plástico do retoque excessivo e adicionar poros e textura reais."
+    ],
+    "problems": [
+        {
+            "pain": "Ao escrever apenas “estilo felino” ou “rosto sofisticado”, a IA gera sempre os mesmos rostos de influencer com queixo pontudo.",
+            "solve": "Divida o estilo em formato do rosto, formato dos olhos, nariz e volume facial para gerar uma descrição clara da estrutura do rosto."
+        },
+        {
+            "pain": "A pele das pessoas geradas fica lisa como a de uma boneca de plástico, sem a textura de uma câmera real.",
+            "solve": "Inclua nas instruções de geração textura de pele natural, poros sutis e iluminação natural, reduzindo o efeito de filtro de beleza excessivo."
+        },
+        {
+            "pain": "Querer usar a essência de algumas fotos como referência, mas temer violar o direito de imagem de pessoas reais ou copiar o rosto diretamente.",
+            "solve": "Extraia apenas as proporções dos traços e a vibe da estrutura óssea da foto, evitando a identidade específica da pessoa, e gere novamente um rosto de personagem original."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de skills, clique em “Usar esta skill” para abrir a caixa de criação no lado direito do canvas.",
+        "Escolha o tipo de fisionomia, a idade e a vibe; você também pode enviar uma imagem de referência facial ou de maquiagem/figurino.",
+        "Preencha o formulário de traços e selecione ou ajuste formato do rosto, formato dos olhos, nariz e volume facial.",
+        "Confira o card de descrição dos traços e a imagem do personagem gerados no canvas e verifique os detalhes da aparência.",
+        "Ajuste o conteúdo do card de texto e gere novamente, ou baixe diretamente o card de imagem do personagem que gostar."
+    ],
+    "faq": [
+        {
+            "q": "Como evitar que a IA crie rostos de influencer sempre iguais?",
+            "a": "Divida estilos abstratos, como estilo felino ou ar distante, em formato do rosto, formato dos olhos, nariz e detalhes reais de pele; assim, evita rostos de influencer sempre iguais. O assistente orienta você a preencher o formulário e escolher cada característica, deixando os traços do personagem bem definidos e minimizando rostos repetidos."
+        },
+        {
+            "q": "E se a pele da pessoa gerada parecer plástico, muito artificial?",
+            "a": "Ao gerar, a skill acrescenta automaticamente textura de câmera natural, poros visíveis e pequenas assimetrias, reduzindo o aspecto plástico do retoque excessivo. Se ainda não gostar da imagem, você pode pedir ao assistente no chat para adicionar microexpressões ou editar a descrição do card e gerar novamente."
+        },
+        {
+            "q": "Posso enviar a foto de uma pessoa real e criar um rosto de personagem igual?",
+            "a": "Não é possível criar diretamente uma cópia idêntica da pessoa real, mas você pode enviar a foto para usar como referência das proporções dos traços e da vibe de maquiagem e gerar um personagem totalmente original. O assistente extrai a estrutura óssea da referência e recria a descrição, evitando a identidade de celebridades ou pessoas reais específicas, preservando a essência da aparência e protegendo o direito de imagem."
+        },
+        {
+            "q": "Como modifico os traços do personagem gerado se eu não gostar?",
+            "a": "Você pode editar o card de texto diretamente no canvas ou dizer ao assistente no chat exatamente o que ajustar, por exemplo, deixar o nariz mais arredondado ou aumentar a distância entre os olhos. O assistente atualiza o card de descrição dos traços e gera a imagem novamente; cada card no canvas pode ser editado e gerado de novo individualmente."
+        }
+    ],
+    "keywords": [
+        "gerador de rosto com IA",
+        "gerar personagens para séries curtas",
+        "design de formato de rosto de personagem com IA",
+        "criar personagem sem rosto de influencer",
+        "textura de pele realista com IA",
+        "definir aparência de personagem com IA"
+    ]
+}

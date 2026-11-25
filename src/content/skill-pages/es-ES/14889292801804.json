@@ -1,0 +1,67 @@
+{
+    "title": "Transformación 3D estilo donghua con giro de 360°",
+    "metaDescription": "Ideal para animar la transformación de un personaje donghua: sube una imagen, elige un tema y la IA crea fichas y clips con giro 360°.",
+    "oneLiner": "Con una imagen de personaje y un tema, crea por lotes vídeos de transformación 3D estilo donghua con giro de 360°.",
+    "intro": [
+        "Esta habilidad sirve para crear animaciones de transformación de personajes. No necesitas dibujar movimientos complejos: la IA hará que tu personaje se ponga un nuevo atuendo mientras gira a gran velocidad 360°, creando una escena de transformación similar al donghua 3D.",
+        "Solo tienes que preparar una imagen nítida del personaje y elegir un tema (por ejemplo, los doce signos del zodiaco o los cinco elementos). Si no tienes una imagen lista, también puedes describir el aspecto por texto y dejar que la IA dibuje primero una imagen base en el lienzo.",
+        "Al terminar, recibirás primero en el lienzo una ficha detallada de la transformación. Cuando la confirmes, la IA generará una a una tarjetas de vídeo de transformación con giro y primeros planos congelados para que las consultes y descargues."
+    ],
+    "example": {
+        "input": "Sube una imagen de un antiguo guerrero, elige el bando «Cinco Elementos Orientales», el tema «Refugio» y la personalidad «sereno, decidido».",
+        "output": "En el lienzo aparecen primero las fichas de transformación de los 5 miembros: metal, madera, agua, fuego y tierra; tras confirmar, se generan 5 clips de vídeo independientes que muestran al guerrero lanzando un objeto ritual y cambiando a una armadura mecánica de los cinco elementos mientras gira 360°, con una frase congelada."
+    },
+    "scenarios": [
+        "Cuando quieres crear una serie de vídeos cortos de transformación estilo donghua con los doce signos del zodiaco o los signos del zodiaco chino para un personaje de animación original.",
+        "Cuando preparas una serie de cortos y necesitas diseñar por lotes llamativos planos de cambio de vestuario para personajes con personalidades distintas.",
+        "Cuando un personaje de videojuego se actualiza con motivo de una festividad y quieres crear un clip animado en el que su ropa antigua se reorganiza durante un giro hasta formar una nueva armadura.",
+        "Cuando solo tienes una ilustración del personaje y quieres probar a bajo coste cómo se mueve y consigue un efecto de transformación con giro de 360°."
+    ],
+    "problems": [
+        {
+            "pain": "Si escribes tú mismo la descripción de la transformación, el vídeo suele limitarse a un cambio de ropa rígido y carece de giro y efectos de luz dinámicos.",
+            "solve": "Se divide en tres movimientos de cámara: primero lanza un objeto mágico que estalla, después gira a toda velocidad 360° mientras cambia de ropa y, por último, un primer plano congelado muestra el nuevo aspecto."
+        },
+        {
+            "pain": "Al generar vídeos solo con texto, el personaje tiende a deformarse y los rasgos faciales suelen no coincidir antes y después de la transformación.",
+            "solve": "El vídeo se basa en la imagen de personaje que proporciones y, al girar y cambiar de ropa, intenta conservar en la medida de lo posible los rasgos faciales del personaje original."
+        },
+        {
+            "pain": "Si quieres crear la transformación de todo el conjunto de los doce signos del zodiaco, idear uno por uno cómo se transforma cada miembro lleva demasiado tiempo.",
+            "solve": "En el lienzo se muestran de una vez las fichas de transformación de todos los miembros del grupo y, después de que confirmes o ajustes los cambios, se generan los vídeos uno a uno."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el lienzo y empezar a crear.",
+        "Sube una imagen del personaje y elige el bando y el estilo temático que quieres crear.",
+        "Revisa las fichas de configuración de todos los miembros del grupo generadas en el lienzo y ajusta los detalles del texto según necesites.",
+        "Pide a la IA que empiece a generar los vídeos y revisa o vuelve a generar cada clip en el lienzo.",
+        "Arrastra los clips de vídeo terminados a la línea de tiempo, ordénalos y expórtalos cuando lo confirmes."
+    ],
+    "faq": [
+        {
+            "q": "¿Se puede crear directamente un vídeo de transformación sin tener una imagen del personaje?",
+            "a": "No se puede hacer directamente, pero puedes pedir primero a la IA que te dibuje una imagen base. En la conversación, describe el aspecto con texto para que la IA dibuje la imagen del personaje en el lienzo; cuando te convenza, usa esa imagen como base para seguir generando el vídeo de transformación."
+        },
+        {
+            "q": "¿Se mantiene el aspecto del personaje antes y después de la transformación?",
+            "a": "No se puede garantizar una coincidencia absoluta, pero el sistema intentará mantener la coherencia de los rasgos faciales. La IA se basará en la imagen de personaje que proporciones y solo cambiará la ropa y los accesorios durante el giro; si algún clip no te convence, también puedes volver a generarlo por separado."
+        },
+        {
+            "q": "¿El vídeo de transformación generado incluye música de fondo y voces?",
+            "a": "No incluye música de fondo ni voces. La habilidad genera clips de vídeo solo con imagen, sin sonido ni subtítulos. Puedes ordenar los clips en la línea de tiempo del lienzo y exportarlos, y después añadir la música y las voces que prefieras."
+        },
+        {
+            "q": "¿Se pueden generar de una vez las transformaciones de los doce signos del zodiaco o de todo el conjunto de signos del zodiaco chino?",
+            "a": "Se pueden crear por lotes. Después de elegir los doce signos del zodiaco o los signos del zodiaco chino, la IA mostrará primero en el lienzo las fichas de transformación de cada miembro del grupo. Cuando confirmes los detalles, la IA generará un clip de vídeo de transformación independiente para cada miembro."
+        }
+    ],
+    "keywords": [
+        "vídeo de transformación con IA",
+        "efecto de transformación 3D de animación china",
+        "transformación de personaje con giro 360",
+        "hacer vídeo de transformación con una imagen",
+        "vídeo de transformación de signos zodiacales",
+        "vídeo de cambio de vestuario con efectos"
+    ]
+}

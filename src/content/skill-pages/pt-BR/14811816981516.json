@@ -1,0 +1,66 @@
+{
+    "title": "Colorir line arts em lote usando uma referência",
+    "metaDescription": "Para criadores de mangá ou animação: envie várias line arts em preto e branco e uma referência colorida para gerar imagens com cores unificadas para baixar.",
+    "oneLiner": "Para criadores de arte: envie line arts e uma referência e gere imagens coloridas em lote no canvas.",
+    "intro": [
+        "Esta é uma ferramenta que ajuda a colorir line arts em preto e branco. Quando você já tem várias line arts prontas, ela pode usar a paleta de uma mesma imagem colorida para unificar a coloração no canvas.",
+        "Você só precisa preparar duas coisas: algumas line arts em preto e branco já desenhadas e uma imagem de referência com o estilo de cor desejado. Se houver exigências de cores específicas, como mudar a cor do cabelo, também pode informar antes.",
+        "Depois de confirmar os requisitos, o canvas gera automaticamente cards de imagens coloridas. Ele tenta preservar ao máximo os traços originais, e cada imagem pode ser vista, ajustada ou baixada individualmente."
+    ],
+    "example": {
+        "input": "Foram enviadas 4 line arts de personagens de anime em movimento e 1 ilustração de pôr do sol como referência, com o comentário: “Manter as roupas brancas e reforçar a luz quente do pôr do sol.”",
+        "output": "O canvas gera 4 cards de imagens coloridas em alta definição. As imagens mantêm o contorno dos traços originais, recebem o tom de luz quente do entardecer da referência e as roupas aparecem em branco conforme solicitado."
+    },
+    "scenarios": [
+        "Você desenhou várias line arts de animação em sequência e quer colorir todas de forma uniforme para ver o resultado geral.",
+        "O rascunho em preto e branco do mangá ficou pronto e você quer colorir rapidamente várias páginas em lote seguindo o design do protagonista.",
+        "Você fez alguns esboços de poses do mesmo personagem e quer usar uma imagem colorida para unificar toda a iluminação, sombras e tom de pele.",
+        "Você desenhou um conjunto de imagens em preto e branco e gostou da paleta de uma ilustração específica; quer aplicar esse esquema de cores."
+    ],
+    "problems": [
+        {
+            "pain": "Colorir manualmente várias artes em preto e branco, uma por uma, leva muito tempo, e as cores ficam facilmente inconsistentes entre as imagens.",
+            "solve": "Use uma imagem colorida como referência para unificar a seleção de cores e gerar imagens coloridas em lote no canvas, economizando o tempo de procurar e aplicar cor em cada uma."
+        },
+        {
+            "pain": "Preocupação de que a coloração danifique os traços originais, deforme o rosto dos personagens ou perca detalhes.",
+            "solve": "Ao colorir, a ferramenta tenta preservar ao máximo os traços e o design do personagem do original, mantendo os contornos nítidos e reduzindo deformações de forma."
+        },
+        {
+            "pain": "Depois da geração em lote, se uma ou duas imagens não ficarem boas, você teme ter de refazer tudo do zero.",
+            "solve": "Cada imagem no canvas é um card independente; se alguma não agradar, basta pedir o ajuste e gerá-la novamente, sem afetar as outras."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade”, entre no canvas e abra a caixa de diálogo.",
+        "Envie várias line arts em preto e branco e uma imagem de referência colorida, e diga suas ideias adicionais de cores.",
+        "Revise a lista de materiais e requisitos organizada pelo assistente e, se estiver tudo certo, inicie a geração em lote.",
+        "Veja as imagens coloridas no canvas, ajuste individualmente as que não gostou e baixe as imagens quando estiver satisfeito."
+    ],
+    "faq": [
+        {
+            "q": "Como colorir em lote várias line arts de mangá em preto e branco?",
+            "a": "Envie várias line arts e uma imagem de referência colorida, e o assistente fará a coloração em lote de acordo com as cores da referência. Antes de gerar, ele confirma com você se há exigências específicas, como a cor de uma determinada parte. Depois da geração, todas as imagens coloridas aparecem diretamente no canvas para facilitar a comparação."
+        },
+        {
+            "q": "Depois de colorir, os traços originais ficam borrados ou deformados?",
+            "a": "Normalmente não. Esta ferramenta tenta preservar ao máximo os contornos e a aparência dos personagens do original durante a coloração. Se alguns traços de uma imagem específica não estiverem nítidos o suficiente, você pode pedir ajustes no chat e gerar novamente apenas aquela imagem."
+        },
+        {
+            "q": "E se eu não gostar de uma das imagens coloridas geradas em lote?",
+            "a": "Você pode modificar apenas aquela imagem, sem precisar gerar todas de novo. Basta selecionar no canvas o card da imagem que não gostou e dizer ao assistente no chat como quer alterá-la; depois, é só gerar novamente."
+        },
+        {
+            "q": "Que tipo de imagem colorida devo usar como referência?",
+            "a": "Basta fornecer uma ilustração colorida, um print de animação ou uma imagem colorida do personagem com cores bem definidas. A ferramenta usa principalmente a paleta, o claro-escuro e a textura geral como referência. Quanto mais clara a sensação de luz da imagem, mais uniforme será o estilo das várias imagens coloridas."
+        }
+    ],
+    "keywords": [
+        "coloração em lote de line art",
+        "colorir line art de mangá",
+        "colorir line art com IA",
+        "colorir line art preto e branco",
+        "colorir com imagem de referência",
+        "coloração de line art de animação"
+    ]
+}

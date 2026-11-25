@@ -1,0 +1,66 @@
+{
+    "title": "Genera set de fotos, textos y vídeo de joyas con una imagen",
+    "metaDescription": "Joyería online: con una foto o descripción, en el lienzo de {brand} crea imagen principal sobre fondo blanco, macro, foto con modelo, textos y vídeo corto.",
+    "oneLiner": "Ayuda a vendedores de joyas a crear con una sola imagen un set de fotos de producto, textos y vídeo corto de presentación.",
+    "intro": [
+        "Este es un flujo de creación de materiales de comercio electrónico diseñado para joyas como anillos y collares. A partir del diseño de tu joya, crea en el lienzo un set de fotos de producto, textos para publicar y vídeos dinámicos de presentación.",
+        "Solo necesitas una foto real de la joya o unas frases para describir su material, el color de las gemas y su aspecto. Si no tienes una foto del producto, también puedes describir directamente los detalles del diseño escribiendo.",
+        "Cuando termines, en el lienzo aparecerán una imagen principal sobre fondo blanco puro, fotos macro de detalles, fotos de una modelo llevando la joya, textos de venta en chino e inglés y varios vídeos de presentación. Cada tarjeta se puede ajustar o descargar por separado."
+    ],
+    "example": {
+        "input": "Sube una foto de un anillo de oro de 18 quilates con esmeralda y escribe: prepara un set de fotos de producto, textos de venta en inglés y un vídeo de presentación de 10 segundos para publicar en Amazon.",
+        "output": "En el lienzo se generan una imagen principal sobre fondo blanco, una macro de la gema, una foto de la mano de una modelo con el anillo, una foto del estuche de regalo, título y argumentos de venta en inglés, y un fragmento de vídeo de 10 segundos que muestra el brillo del anillo."
+    },
+    "scenarios": [
+        "Preparar el lanzamiento de un nuevo anillo o collar en una plataforma de comercio electrónico y necesitar un set completo de fotos sobre fondo blanco, fotos con modelo y textos de producto.",
+        "Tener solo una foto de la joya hecha con el móvil y querer crear rápidamente imágenes realistas con modelo y escenas de uso cotidiano.",
+        "Preparar una campaña de regalos de temporada en la tienda y necesitar imágenes de estuches de alta gama y vídeos cortos de presentación para la promoción.",
+        "Lanzar varias novedades de joyería a la vez y necesitar comparar rápidamente en el lienzo las imágenes y los vídeos de cada producto."
+    ],
+    "problems": [
+        {
+            "pain": "Las joyas reflejan mucho y cambian de color con facilidad, y contratar a un fotógrafo profesional para fotos sobre fondo blanco y de detalles es demasiado caro.",
+            "solve": "Reconoce los materiales de la joya y las características de las gemas, y genera directamente en el lienzo la imagen principal sobre fondo blanco puro y macros de detalles de alta resolución."
+        },
+        {
+            "pain": "Al generar fotos con modelo con software, el diseño de las gemas del anillo o del collar suele deformarse o cambiar.",
+            "solve": "Durante la generación se fijan y bloquean los detalles de las gemas y del metal, y se alinean repetidamente las características del diseño para reducir al máximo las variaciones de aspecto."
+        },
+        {
+            "pain": "Hay demasiados materiales para publicar y crear fotos, redactar textos de venta y hacer vídeos obliga a saltar entre varias aplicaciones.",
+            "solve": "Permite crear de una vez en el mismo lienzo la imagen principal, las fotos con modelo, los textos y el vídeo de presentación, y revisarlos y modificarlos todos juntos."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y sube una foto de la joya o describe su aspecto y diseño en el cuadro de diálogo.",
+        "Confirma el material de la joya y las especificaciones de la plataforma, y empieza a generar en el lienzo el set de tarjetas de material.",
+        "Revisa las tarjetas generadas de fondo blanco, macro, modelo llevando la joya, textos y vídeo corto.",
+        "Descarga las imágenes y los textos que te convenzan; los fragmentos de vídeo se pueden ordenar en la línea de tiempo y exportar después."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo crear un set completo de imágenes y textos de comercio electrónico para joyas con IA?",
+            "a": "Abre esta habilidad en el lienzo de {brand}, sube una foto de la joya o describe su aspecto y podrás generar un set de imagen principal sobre fondo blanco, macro, foto con modelo y textos. Cuando termine, revísalos uno a uno, pide al asistente que ajuste lo que no te convenza y descarga los materiales que sí."
+        },
+        {
+            "q": "Al generar imágenes de joyas con IA, ¿cómo evitar que el diseño de las gemas se deforme o cambie?",
+            "a": "El sistema no puede garantizar que no haya ninguna variación, pero antes de generar bloquea el material de la joya, el tallado de las gemas y la estructura para mantener la coherencia del aspecto todo lo posible. Si los detalles de las gemas no son correctos en alguna imagen, indica al asistente en el cuadro de diálogo qué cambiar y vuelve a generar esa tarjeta."
+        },
+        {
+            "q": "Si solo tengo una idea de diseño y no una foto real de la joya, ¿puedo generar directamente imágenes para comercio electrónico?",
+            "a": "Sí, puedes generarlas directamente. Describe en el cuadro de diálogo el tipo de joya, el material del metal y el aspecto de las gemas, y el sistema generará primero una imagen del diseño básico para que la confirmes. Cuando confirmes que el aspecto es el esperado, la plataforma generará después el set completo de imagen principal sobre fondo blanco, imágenes con modelo en escena y textos de producto."
+        },
+        {
+            "q": "¿Los vídeos cortos de presentación de joyas generados se doblan y se montan automáticamente en una pieza final?",
+            "a": "No se añade voz ni se compone automáticamente el vídeo final. {brand} genera en el lienzo varios fragmentos independientes de vídeo dinámico de presentación. Puedes arrastrarlos a la línea de tiempo de vídeo del lienzo, ordenarlos y exportarlos después; si necesitas música de fondo, puedes añadirla con una herramienta de edición tras la exportación."
+        }
+    ],
+    "keywords": [
+        "crear imágenes de joyas para tienda online",
+        "fotos de joyas sobre fondo blanco",
+        "joyas con modelo IA",
+        "fotografía de producto para joyería",
+        "textos de venta para joyería online",
+        "vídeos de presentación de joyas"
+    ]
+}

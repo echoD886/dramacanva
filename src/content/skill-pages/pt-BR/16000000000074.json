@@ -1,0 +1,67 @@
+{
+    "title": "Reescreva roteiros de comédia com diálogos engraçados",
+    "metaDescription": "Para quem quer fazer esquetes cômicos e acha o roteiro sem graça. Envie diálogos simples e receba no canvas falas com ações e tabela de ritmo das piadas.",
+    "oneLiner": "Envie diálogos sem graça e gere no canvas falas engraçadas com indicações de ação e uma tabela de ritmo.",
+    "intro": [
+        "Esta é uma ferramenta de reescrita de comédia no canvas do {brand}. Ela ajuda criadores de vídeo a transformar diálogos cotidianos secos e sem graça em cenas cômicas com preparação e piadas inesperadas.",
+        "Você não precisa entender de teoria da comédia. No campo de chat à direita do canvas, envie seus diálogos sem graça, ideias de história ou uma descrição simples do temperamento dos personagens.",
+        "Ao terminar, aparecem alguns cards no canvas. Eles incluem falas reescritas com ações e expressões, a decomposição das piadas e uma tabela que indica a ordem dos pontos de humor."
+    ],
+    "example": {
+        "input": "Escrevemos um diálogo sobre empréstimo: A pede mil reais emprestados a B, e B diz que não tem dinheiro. Parece água, quero transformar em diálogo engraçado; um personagem adora se gabar e o outro leva tudo ao pé da letra.",
+        "output": "No canvas, são gerados vários cards: um com novas falas e ações como segurar a carteira e revirar os olhos, outro que detalha a preparação e a reviravolta, e mais um com uma tabela de ritmo que indica a ordem das piadas."
+    },
+    "scenarios": [
+        "Você escreveu o diálogo de uma cena do dia a dia, mas ele parece um texto explicativo seco, sem cenas engraçadas.",
+        "Você tem ideias engraçadas na cabeça, mas não sabe como preparar a piada e revelar uma surpresa no final.",
+        "Você escreveu várias piadas engraçadas separadas e quer encaixá-las em um episódio curto completo, com altos e baixos bem ligados.",
+        "Dois personagens conversam como se a mesma pessoa estivesse falando sozinha; as personalidades não têm diferenças nem contraste."
+    ],
+    "problems": [
+        {
+            "pain": "As falas dos personagens soam decoradas, como se estivessem recitando, e o público não sente a situação como algo divertido.",
+            "solve": "Transforme a explicação em um diálogo interativo com ações e expressões, para que a conversa pareça ser encenada ao vivo."
+        },
+        {
+            "pain": "A piada que você pensou sai dura quando é contada, e ninguém acha graça.",
+            "solve": "Organize as falas seguindo a lógica de preparação, escalada e revelação final da reviravolta, para a piada surgir naturalmente."
+        },
+        {
+            "pain": "Você junta vários trechos engraçados, mas o episódio parece colado e o ritmo fica morno.",
+            "solve": "No canvas, organize a ordem de entrada seguindo a regra de abrir com a segunda melhor piada, manter o meio estável e terminar com a melhor."
+        }
+    ],
+    "steps": [
+        "Clique em “Usar esta habilidade” na biblioteca de habilidades para iniciar uma nova conversa no canvas.",
+        "Envie o rascunho de diálogo que você escreveu, a ideia de enredo ou as personalidades desejadas dos personagens.",
+        "Confira os cards de revisão de falas e a tabela de ritmo das piadas gerados no canvas.",
+        "Clique nos cards para editar o texto diretamente ou diga ao assistente no chat como ajustar as piadas.",
+        "Copie ou baixe os cards de falas e tabelas que você gostou para usar na preparação da gravação."
+    ],
+    "faq": [
+        {
+            "q": "Como transformar diálogos sem graça de um roteiro em falas engraçadas?",
+            "a": "Basta enviar o diálogo sem graça no chat. A ferramenta reescreve o texto como cards de falas com ações, seguindo a lógica de preparação, escalada e reviravolta inesperada no final. Ao lado das falas, também inclui indicações de ações e expressões dos personagens, transformando a explicação em uma cena engraçada."
+        },
+        {
+            "q": "As piadas que escrevi parecem leitura de texto e não têm apelo visual. O que fazer?",
+            "a": "Diga ao assistente no chat para transformar a narração em atuação. Ele adicionará às falas indicações de ações, expressões e reações dos personagens. Ao gravar ou ensaiar seguindo as indicações dos cards, a leitura monótona vira uma cena viva."
+        },
+        {
+            "q": "Como distribuir as piadas ao longo de um episódio curto para não perder o ritmo?",
+            "a": "Recomenda-se abrir com a segunda melhor piada, fazer uma transição estável e deixar a melhor piada para o final. A ferramenta gera no canvas uma tabela de cards indicando quando cada piada (o ponto de humor revelado após a preparação) deve aparecer, evitando piadas aglomeradas ou uma segunda metade morna."
+        },
+        {
+            "q": "E se as falas geradas não atenderem às expectativas ou as piadas forem velhas?",
+            "a": "Você pode clicar nos cards no canvas para editar o texto manualmente ou dizer ao assistente no chat como mudar. Por exemplo, peça uma piada mais próxima do dia a dia ou um ajuste na frequência do humor, e os cards no canvas serão gerados novamente conforme o pedido."
+        }
+    ],
+    "keywords": [
+        "reescrever roteiro de comédia",
+        "como escrever falas engraçadas",
+        "diálogo engraçado para esquetes",
+        "como criar piadas para comédia",
+        "adicionar humor em roteiro de vídeo",
+        "roteiro de vídeo curto de comédia"
+    ]
+}

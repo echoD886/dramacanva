@@ -1,0 +1,177 @@
+import { AnimatePresence, motion } from "motion/react";
+import { useEffect, useRef, useState, type RefObject } from "react";
+import { Compass, Eye, EyeOff, Focus, HelpCircle, LayoutTemplate, Minus, Plus } from "lucide-react";
+
+import { FloatingDock, type FloatingDockEntry } from "@/components/ui/aceternity/floating-dock";
+import { aceternityMotion } from "@/lib/aceternity-motion";
+import { canvasDockStyle } from "@/lib/canvas/canvas-aceternity-style";
+import { canvasThemes } from "@/lib/canvas-theme";
+import { subscribeCanvasViewportPreview } from "@/lib/canvas/canvas-live-viewport";
+import { useActiveTheme } from "@/stores/canvas/use-canvas-theme-store";
+import { useI18n } from "@/i18n/use-i18n";
+
+type CanvasZoomControlsProps = {
+    scale: number;
+    onScaleChange: (scale: number) => void;
+    onFitContent: () => void;
+    onAutoArrange?: () => void;
+    isMiniMapOpen: boolean;
+    onToggleMiniMap: () => void;
+    onOpenShortcuts: () => void;
+    hideNodeConnections?: boolean;
+    onHideNodeConnectionsChange?: (hidden: boolean) => void;
+    containerRef?: RefObject<HTMLDivElement | null>;
+};
+
+const QUICK_ZOOM_LEVELS = [0.25, 0.5, 1, 2] as const;
+
+export function CanvasZoomControls({ scale, onScaleChange, onFitContent, onAutoArrange, isMiniMapOpen, onToggleMiniMap, onOpenShortcuts, containerRef, hideNodeConnections = false, onHideNodeConnectionsChange }: CanvasZoomControlsProps) {
+    const theme = canvasThemes[useActiveTheme()];
+    const { t } = useI18n();
+    const rootRef = useRef<HTMLDivElement>(null);
+    const liveScaleRef = useRef(scale);
+    const rangeRef = useRef<HTMLInputElement>(null);
+    const dockLabelRef = useRef<HTMLSpanElement>(null);
+    const panelLabelRef = useRef<HTMLSpanElement>(null);
+    const [precisionOpen, setPrecisionOpen] = useState(false);
+
+    useEffect(() => updateScaleDisplay(scale), [scale]);
+
+    useEffect(() => {
+        const container = containerRef?.current;
+        if (!container) return;
+        return subscribeCanvasViewportPreview(container, (viewport) => updateScaleDisplay(viewport.k));
+    }, [containerRef]);
+
+    useEffect(() => {
+        if (!precisionOpen) return;
+        const close = (event: PointerEvent) => {
+            if (event.target instanceof Node && !rootRef.current?.contains(event.target)) setPrecisionOpen(false);
+        };
+        const closeOnEscape = (event: KeyboardEvent) => {
+            if (event.key === "Escape") setPrecisionOpen(false);
+        };
+        document.addEventListener("pointerdown", close, true);
+        document.addEventListener("keydown", closeOnEscape);
+        return () => {
+            document.removeEventListener("pointerdown", close, true);
+            document.removeEventListener("keydown", closeOnEscape);
+        };
+    }, [precisionOpen]);
+
+    function updateScaleDisplay(nextScale: number) {
+        liveScaleRef.current = nextScale;
+        const percent = String(Math.round(nextScale * 100));
+        // 平移时缩放值不变，但预览通知每 32ms 一次。textContent 赋值即使相同也会替换文本节点，
+        // 触发整棵工作区的样式失效与布局（外层有 :has() 规则），所以只在数值变化时写 DOM。
+        if (rangeRef.current && rangeRef.current.value !== percent) rangeRef.current.value = percent;
+        if (dockLabelRef.current && dockLabelRef.current.textContent !== percent) dockLabelRef.current.textContent = percent;
+        if (panelLabelRef.current && panelLabelRef.current.textContent !== `${percent}%`) panelLabelRef.current.textContent = `${percent}%`;
+    }
+
+    function commitScale(nextScale: number) {
+        const clampedScale = Math.min(2, Math.max(0.05, nextScale));
+        updateScaleDisplay(clampedScale);
+        onScaleChange(clampedScale);
+    }
+
+    const items: FloatingDockEntry[] = [
+        { id: "zoom-minimap", label: isMiniMapOpen ? t("canvasExtra.zoomControls.closeMiniMap") : t("canvasExtra.zoomControls.openMiniMap"), icon: <Compass />, active: isMiniMapOpen, onClick: onToggleMiniMap },
+        { id: "zoom-fit", label: t("canvasExtra.zoomControls.fit"), icon: <Focus />, onClick: onFitContent },
+        ...(onAutoArrange ? [{ id: "zoom-auto-arrange", label: t("canvasExtra.zoomControls.autoArrange"), icon: <LayoutTemplate />, onClick: onAutoArrange }] : []),
+        { kind: "separator", id: "zoom-separator" },
+        ...(onHideNodeConnectionsChange
+            ? [
+                  {
+                      id: "zoom-hide-node-connections",
+                      label: t(hideNodeConnections ? "canvasAgentEntry.showConnections" : "canvasAgentEntry.hideConnections"),
+                      icon: hideNodeConnections ? <EyeOff /> : <Eye />,
+                      active: hideNodeConnections,
+                      onClick: () => onHideNodeConnectionsChange(!hideNodeConnections),
+                  },
+              ]
+            : []),
+        { id: "zoom-out", label: t("canvasExtra.zoomControls.zoomOut"), icon: <Minus />, onClick: () => commitScale(liveScaleRef.current - 0.1) },
+        {
+            id: "zoom-precision",
+            label: t("canvasExtra.zoomControls.precision"),
+            wide: true,
+            quiet: true,
+            icon: (
+                <span className="inline-flex h-full items-center justify-center whitespace-nowrap text-[var(--fs-caption)] font-semibold leading-none tabular-nums">
+                    <span ref={dockLabelRef}>{Math.round(scale * 100)}</span>
+                    <span className="ml-px text-[var(--fs-micro)] font-medium leading-none opacity-50">%</span>
+                </span>
+            ),
+            active: precisionOpen,
+            onClick: () => setPrecisionOpen((value) => !value),
+        },
+        { id: "zoom-in", label: t("canvasExtra.zoomControls.zoomIn"), icon: <Plus />, onClick: () => commitScale(liveScaleRef.current + 0.1) },
+        { kind: "separator", id: "help-separator" },
+        { id: "zoom-shortcuts", label: t("canvasExtra.zoomControls.shortcuts"), icon: <HelpCircle />, onClick: onOpenShortcuts },
+    ];
+
+    return (
+        <div ref={rootRef} data-canvas-no-zoom className="relative z-[var(--z-toolbar)]" onMouseDown={(event) => event.stopPropagation()} onPointerDown={(event) => event.stopPropagation()} onWheel={(event) => event.stopPropagation()}>
+            <AnimatePresence>
+                {precisionOpen ? (
+                    <motion.div
+                        initial={{ opacity: 0, y: 14, scale: 0.92 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: 9, scale: 0.96 }}
+                        transition={aceternityMotion.spring.panel}
+                        className="aceternity-floating-panel absolute bottom-[var(--canvas-dock-popover-offset)] left-0 w-[220px] overflow-hidden rounded-[var(--panel-radius)] border p-2.5 backdrop-blur-2xl"
+                        style={{ background: theme.spatial.elevated, borderColor: theme.toolbar.border, color: theme.node.text, boxShadow: `0 28px 80px ${theme.spatial.shadow}` }}
+                    >
+                        <div className="absolute inset-x-10 top-0 h-px" style={{ background: `linear-gradient(90deg, transparent, ${theme.spatial.glowStrong}, transparent)` }} />
+                        <div className="flex items-center justify-between gap-3">
+                            <span>
+                                <span className="block text-[var(--fs-tiny)] font-semibold">{t("canvasExtra.zoomControls.scaleTitle")}</span>
+                                <span className="mt-0.5 block text-[var(--fs-micro)]" style={{ color: theme.node.muted }}>
+                                    {t("canvasExtra.zoomControls.scaleHelp")}
+                                </span>
+                            </span>
+                            <span
+                                ref={panelLabelRef}
+                                className="rounded-full border px-2 py-0.5 text-[var(--fs-tiny)] font-semibold tabular-nums"
+                                style={{ background: theme.spatial.surface, borderColor: theme.toolbar.border, color: theme.accent.primary }}
+                            >
+                                {Math.round(scale * 100)}%
+                            </span>
+                        </div>
+                        <input
+                            ref={rangeRef}
+                            type="range"
+                            min="5"
+                            max="200"
+                            step="1"
+                            defaultValue={Math.round(scale * 100)}
+                            className="aceternity-zoom-range mt-3 h-4 w-full"
+                            style={{ accentColor: theme.accent.primary }}
+                            onChange={(event) => commitScale(Number(event.target.value) / 100)}
+                            aria-label={t("canvasExtra.zoomControls.precisionAria")}
+                        />
+                        <div className="mt-2.5 grid grid-cols-4 gap-1">
+                            {QUICK_ZOOM_LEVELS.map((level) => (
+                                <motion.button
+                                    key={level}
+                                    type="button"
+                                    whileHover={{ y: -1 }}
+                                    whileTap={{ scale: 0.95 }}
+                                    transition={aceternityMotion.spring.dock}
+                                    className="h-7 rounded-[var(--dock-item-radius)] border text-[var(--fs-micro)] font-semibold tabular-nums outline-none focus-visible:ring-2"
+                                    style={{ background: theme.spatial.surface, borderColor: theme.toolbar.border, color: theme.node.muted }}
+                                    onClick={() => commitScale(level)}
+                                >
+                                    {Math.round(level * 100)}%
+                                </motion.button>
+                            ))}
+                        </div>
+                    </motion.div>
+                ) : null}
+            </AnimatePresence>
+
+            <FloatingDock canvasChrome items={items} className="canvas-floating-dock" style={canvasDockStyle(theme)} ariaLabel={t("canvasExtra.zoomControls.aria")} />
+        </div>
+    );
+}

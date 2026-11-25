@@ -1,0 +1,26 @@
+const messages = {
+    "canvasFeedback.loading": "動画ツールを読み込み中",
+    "canvasFeedback.reading": "選択した動画を読み込み中",
+    "canvasFeedback.encoding": "結合した動画をエンコード中",
+    "canvasFeedback.merge": "動画に結合",
+    "canvasFeedback.agentSaved": "Agent がキャンバスを更新しました",
+    "canvasFeedback.undoCount": "{summary} · 最新の {count} バッチを元に戻せます",
+    "canvasFeedback.close": "閉じる",
+    "canvasFeedback.view": "今回の変更を表示",
+    "canvasFeedback.undo": "今回の操作を元に戻す",
+    "canvasFeedback.partialRestore": "アシスタントの一部の素材を復元できませんでした。保存済みのプロジェクトでキャンバスを開きました。",
+    "canvasFeedback.loadFailed": "キャンバスを読み込めませんでした。もう一度お試しください。",
+    "canvasFeedback.newCanvasName": "名称未設定のキャンバス {count}",
+    "canvasFeedback.createFailed": "キャンバスを作成できませんでした。もう一度お試しください。",
+    "canvasFeedback.createdLocal": "キャンバスをローカルに作成しましたが、クラウド同期に失敗しました。",
+    "canvasFeedback.createdLocalDetail": "キャンバスをローカルに作成しましたが、クラウド同期に失敗しました：{detail}",
+    "canvasFeedback.deleteFailed": "キャンバスを削除できませんでした。もう一度お試しください。",
+    "canvasFeedback.deleteFailedDetail": "キャンバスを削除できませんでした：{detail}",
+    "canvasFeedback.cleanupFailed": "プロジェクトは削除されましたが、一部のローカル描画ファイルを削除できませんでした。",
+    "canvasFeedback.saveFailed": "キャンバスを保存できませんでした。もう一度お試しください。",
+    "canvasFeedback.saved": "キャンバスの配置を保存しました",
+    "canvasFeedback.saveSyncFailed": "キャンバスの配置をローカルに保存しましたが、クラウド同期に失敗しました：{detail}",
+    "canvasFeedback.unknownError": "不明なエラー",
+} as const;
+
+export default messages;

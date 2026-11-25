@@ -1,0 +1,66 @@
+{
+    "title": "Diseño de personajes con IA: perfil, vistas y expresiones",
+    "metaDescription": "Para creadores que no dibujan. Describe tu personaje y la IA definirá su carácter y generará vistas frontal, lateral y trasera, y expresiones coherentes.",
+    "oneLiner": "Introduce una idea de personaje y genera en el lienzo un análisis de su carácter y las vistas; ideal para principiantes en vídeo.",
+    "intro": [
+        "Este es el flujo de diseño de personajes en el lienzo de {brand}. Funciona como un director de arte profesional: convierte una idea vaga de personaje en un personaje concreto, con carácter y apariencia.",
+        "Solo necesitas una idea sencilla del personaje, como su profesión, su temperamento o una escena. Aunque solo tengas una noción aproximada, puedes enviársela directamente a la IA en el cuadro de diálogo de la derecha.",
+        "La IA generará en el lienzo una ficha de texto, vistas de tres ángulos (cuerpo completo de frente, de perfil y de espaldas) y una hoja de expresiones. Todo se muestra sobre fondo blanco para que puedas consultarlo o descargarlo en cualquier momento."
+    ],
+    "example": {
+        "input": "Quiero diseñar a un alguacil de la antigua China, serio y reservado, que en realidad tiene una herida en el brazo derecho y, en privado, es muy sensible; siempre lleva consigo un viejo sable desgastado.",
+        "output": "En el lienzo se genera una tarjeta de texto que detalla su carácter y sus gestos, además de varias imágenes sobre fondo blanco: una figura de cuerpo entero de pie, vistas de frente, perfil y espaldas, y una hoja de expresiones de alegría, ira, tristeza y felicidad."
+    },
+    "scenarios": [
+        "Estás preparando una historia o un vídeo y necesitas definir el temperamento y los rasgos físicos de los protagonistas.",
+        "Solo tienes una sensación vaga del personaje y quieres ver distintas variantes de aspecto para elegir la imagen adecuada.",
+        "El personaje cambia de cara una y otra vez y necesitas vistas de frente, perfil y espaldas, y hojas de expresiones como referencia para producciones posteriores.",
+        "Un personaje ya existente te parece plano y poco creíble; quieres que la IA detecte los problemas y proponga mejoras."
+    ],
+    "problems": [
+        {
+            "pain": "Has imaginado al personaje con un montón de adjetivos, pero al final parece un transeúnte y el público no lo recuerda.",
+            "solve": "La IA extrae dos o tres gestos característicos o prendas distintivas y convierte su carácter en detalles visibles."
+        },
+        {
+            "pain": "Los personajes generados por IA cambian de cara en cada imagen, y la ropa y el aspecto no son coherentes.",
+            "solve": "Genera en el lienzo vistas de frente, perfil y espaldas sobre fondo blanco, con el peinado y la ropa bien definidos, para usarlas como referencia de coherencia en lo sucesivo."
+        },
+        {
+            "pain": "Las expresiones del personaje son rígidas y forzadas; por defecto, la IA dibuja siempre la misma sonrisa falsa.",
+            "solve": "Genera una hoja de expresiones de varios paneles según la personalidad del personaje, con pequeños matices emocionales para evitar rostros repetitivos."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, haz clic en «Usar esta habilidad» y envía tu idea de personaje en el cuadro de diálogo de la derecha.",
+        "Revisa la tarjeta de texto del lienzo y confirma el carácter, los gestos habituales y los detalles físicos del personaje.",
+        "Genera una imagen de cuerpo entero sobre fondo blanco, vistas de frente, perfil y espaldas, y expresiones de alegría, ira, tristeza, etc.",
+        "Elige la configuración que te convenza; puedes volver a generarla en el lienzo cuando quieras y, si te gusta, descargar las imágenes directamente."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo hago que el personaje creado por la IA no parezca genérico y sea más reconocible?",
+            "a": "La clave está en fijar para el personaje dos o tres rasgos distintivos visibles, en lugar de limitarte a escribir «guapo» o «atractivo». La IA te ayudará a diseñar gestos habituales, objetos personales o pequeñas marcas exclusivas. Si mantienes esos detalles fijos, el personaje no tenderá a verse igual que todos los demás al generar imágenes."
+        },
+        {
+            "q": "¿Por qué cambia de cara el personaje generado por la IA en cada imagen?",
+            "a": "Se debe a la falta de un conjunto fijo de imágenes de referencia del aspecto. Puedes generar primero en el lienzo vistas de frente, perfil y espaldas para fijar el peinado, los rasgos faciales y la ropa. Al generar nuevas imágenes con este conjunto como referencia, el aspecto del personaje será mucho más estable."
+        },
+        {
+            "q": "¿Por qué las hojas de diseño del personaje tienen fondo blanco? ¿No pueden llevar fondo?",
+            "a": "No llevan fondo porque el fondo blanco sirve para eliminar interferencias del entorno y mostrar con claridad el peinado, la ropa y los detalles de los accesorios del personaje. El fondo blanco puro permite comprobar con precisión cada rasgo de la apariencia; una vez fijado el aspecto, será más adecuado añadir el fondo al crear imágenes en escenarios concretos."
+        },
+        {
+            "q": "¿Puedo crear las vistas de frente, perfil y espaldas de un personaje aunque no sepa dibujar?",
+            "a": "Sí, no necesitas ninguna base de dibujo. Basta con describir con palabras sencillas la profesión y el aspecto del personaje, y la IA dibujará en el lienzo imágenes de referencia desde tres ángulos sobre fondo blanco. Si algún detalle no te convence, dile al asistente cómo cambiarlo y podrás volver a generarlas; cuando estés satisfecho, descarga las imágenes directamente."
+        }
+    ],
+    "keywords": [
+        "diseño de personajes con IA",
+        "vistas de personaje",
+        "ficha de personaje",
+        "consistencia de personajes con IA",
+        "hoja de expresiones",
+        "ilustración de personajes para novela"
+    ]
+}

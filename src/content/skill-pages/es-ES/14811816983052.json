@@ -1,0 +1,67 @@
+{
+    "title": "De la idea al esquema: personajes y trama",
+    "metaDescription": "Para creadores de vídeos o microseries. Introduce una idea o borrador y genera en el lienzo personajes claros, esquema escena por escena y mejoras.",
+    "oneLiner": "Dale una idea y ordena en el lienzo los personajes y el esquema completo de tu historia para vídeo.",
+    "intro": [
+        "Es una herramienta de texto que te ayuda a pulir el esqueleto de tu historia. Tanto si quieres grabar una microserie como un vídeo corto, te ayuda a convertir ideas sueltas en una historia coherente.",
+        "Solo necesitas una idea de una frase, una breve trama o un borrador sin terminar. Indica para quién es y si prefieres que tire a comedia o a emotiva.",
+        "Generará varias tarjetas en el lienzo: un resumen de la historia en una frase, una lista de rasgos de protagonistas y secundarios, y una tabla de desarrollo de la trama en orden, para que luego escribas el guion."
+    ],
+    "example": {
+        "input": "Quiero escribir un corto de humor de 3 minutos: un perro policía que teme la oscuridad debe superar su miedo en su primer turno de noche y atrapar al ladrón que roba pienso para perros.",
+        "output": "En el lienzo aparecerán tarjetas con los rasgos y objetivos del perro policía y del ladrón, además de una tabla de desarrollo de la trama ordenada que detalla qué ocurre en cada escena y dónde están los golpes de humor."
+    },
+    "scenarios": [
+        "Se te ocurre de repente una idea nueva y quieres ordenar rápidamente un esquema completo de la historia.",
+        "La historia se te ha quedado a medias y la trama no avanza; no sabes qué debería pasar después.",
+        "Crees que el protagonista es demasiado corriente y no atrae; quieres rediseñar un personaje que guste.",
+        "Al terminar la historia sientes que algo no encaja y quieres comprobar si hay fallos lógicos o un final flojo."
+    ],
+    "problems": [
+        {
+            "pain": "Tienes una idea en la cabeza, pero no sabes escribirla ni qué definir primero en la historia.",
+            "solve": "Te ayuda a aclarar para quién es la historia, resumirla en una frase y generar en el lienzo los elementos centrales."
+        },
+        {
+            "pain": "La parte central es plana y lenta, el protagonista actúa sin motivo y la trama parece una lista de sucesos.",
+            "solve": "Te ayuda a revisar las relaciones causa-efecto y a dar a cada giro dificultades y picos emocionales coherentes para que la trama no deje de avanzar."
+        },
+        {
+            "pain": "Al terminar la historia sientes que algo es raro o que el final puede fallar, pero no encuentras el error concreto.",
+            "solve": "Comprueba si se han resuelto todas las preguntas planteadas antes, detecta los puntos donde la trama no fluye y ofrece sugerencias de mejora."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para entrar en el lienzo de creación.",
+        "Introduce tu idea de historia o envía directamente un borrador sin terminar.",
+        "Consulta en el lienzo los elementos de la historia, los rasgos de los personajes y la tabla de orden de la trama.",
+        "Modifica el contenido de las tarjetas del lienzo o sigue enviando mensajes para que ajuste la trama.",
+        "Copia o descarga el resultado para usarlo cuando quieras en la escritura del guion y el rodaje."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo usar la IA para convertir ideas sueltas en un esquema completo de historia?",
+            "a": "Solo tienes que introducir tu idea y para quién va dirigida en el lado derecho del lienzo de {brand}; la IA ordenará el núcleo de la historia paso a paso. En el lienzo generará, en orden, una sinopsis de una frase, los rasgos de los personajes y tarjetas con las fases de la trama. Puedes editar las tarjetas directamente hasta que queden a tu gusto."
+        },
+        {
+            "q": "La historia se ha quedado a medias o la trama es plana, ¿cómo la cambio?",
+            "a": "Envía el borrador que tengas y te ayudará a revisar dónde la trama es plana y los motivos de los personajes no encajan. Señalará qué parte carece de conflicto y dará sugerencias concretas para modificar la trama. Puedes usar esas sugerencias para reordenar el desarrollo de la historia en el lienzo."
+        },
+        {
+            "q": "¿Qué hago si siento que el protagonista no se sostiene y no resulta atractivo?",
+            "a": "Puedes pedirle que vuelva a definir los rasgos que hacen que el protagonista caiga bien y despierte ternura. Ayudará al personaje a encontrar deseos internos concretos y defectos de carácter, y hará una lista de personajes en el lienzo. Así el personaje tendrá más personalidad y el público se identificará más con él."
+        },
+        {
+            "q": "¿Puede esta habilidad generar directamente un vídeo completo con diálogos?",
+            "a": "No; por ahora solo se encarga de la fase de planificación de la historia y genera esquemas de texto y tarjetas de personajes. No crea clips de vídeo ni voces en off por sí sola, ni escribe diálogos palabra por palabra. Puedes descargar las tarjetas del esquema ya organizadas y continuar con la escritura del guion o el rodaje."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un esquema de historia",
+        "escribir historias con IA",
+        "esquema para serie corta",
+        "bloqueo creativo al escribir una historia",
+        "cómo crear personajes",
+        "cómo corregir agujeros de guion"
+    ]
+}

@@ -1,0 +1,20 @@
+const messages = {
+    "creationEmpty.signal": "DramaCanvas · AI filmmaking workspace",
+    "creationEmpty.lead": "The scene in your mind, ",
+    "creationEmpty.brand": "let DramaCanvas ",
+    "creationEmpty.finish": "bring it to life",
+    "creationEmpty.neon": "SC.01 · Neon in the rain",
+    "creationEmpty.chase": "SC.02 · Alley chase",
+    "creationEmpty.rooftop": "SC.03 · Rooftop reunion",
+    "creationEmpty.caption": "Direct every frame",
+    "creationEmpty.first": "Create your first shot",
+    "creationEmpty.firstHint": "Describe the scene, camera movement and lighting",
+    "creationEmpty.reference": "Start with a reference image",
+    "creationEmpty.referenceHint": "Upload a style reference to create matching images",
+    "creationEmpty.story": "Continue your story",
+    "creationEmpty.storyHint": "Discuss plot, characters and dialogue with AI",
+    "creationEmpty.skill": "Add skills",
+    "creationEmpty.skillHint": "Use @ to access skills such as storyboarding and voiceover",
+    "creationEmpty.shotPlaceholder": "SC.{id} · Describe this shot, image or story",
+} as const;
+export default messages;

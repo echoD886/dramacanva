@@ -1,0 +1,67 @@
+{
+    "title": "Crie vídeos engraçados de 15s com reviravoltas do cotidiano",
+    "metaDescription": "Para criadores de humor. Digite uma situação cotidiana, como pagar a conta, e a plataforma gera cards de 15s com reviravoltas exageradas e clipes.",
+    "oneLiner": "Digite pequenas situações do cotidiano e crie cards de vídeo de 15s com reviravoltas exageradas para criadores de vídeos engraçados.",
+    "intro": [
+        "Este é um fluxo de criação de vídeos engraçados. Ele trata pequenas tarefas do dia a dia como acontecimentos enormes: os primeiros 4 segundos são calmos, o meio é extremamente exagerado e o final revela uma pequena verdade engraçada, criando 15 segundos de conteúdo com grande contraste.",
+        "No chat à direita do canvas, envie ao assistente de IA uma pequena cena cotidiana, como disputar quem paga a conta com um amigo, digitar no escritório ou se declarar em um dia de chuva. Não é preciso escrever um roteiro longo.",
+        "A IA gera no canvas cards de descrição de cenas de 15 segundos, detalhando ações e efeitos sonoros segundo a segundo; você também pode pedir que ela gere cards de trechos de vídeo correspondentes e vê-los, editá-los ou baixá-los diretamente no canvas."
+    ],
+    "example": {
+        "input": "Dois amigos terminam de comer em um restaurante e disputam quem paga a conta no caixa.",
+        "output": "No canvas, será gerado um card de descrição de cena de 15 segundos: nos primeiros 4 segundos, os dois sorriem e pegam o celular; nos 7 segundos do meio, o cenário muda como se mestres estivessem duelando; nos últimos 3 segundos, descobrem que estão tentando escanear o código de pagamento um do outro. Também é possível gerar um card de vídeo de 15 segundos."
+    },
+    "scenarios": [
+        "Quer filmar pequenas situações cotidianas, como amigos disputando quem paga a conta ou disputando espaço no elevador, e precisa de reviravoltas engraçadas para prender a audiência.",
+        "Ao idealizar um vídeo curto de humor de 15 segundos, trava porque a história é comum demais e não consegue imaginar um final engraçado.",
+        "Você tem apenas uma pequena ideia do cotidiano na cabeça e não sabe como expandi-la em cenas concretas de vídeo.",
+        "Quer criar trechos de vídeos curtos exagerados e engraçados e precisa transformar pequenos detalhes em contrastes dignos de fim do mundo."
+    ],
+    "problems": [
+        {
+            "pain": "Pequenas situações do dia a dia ficam sem graça no vídeo, e o público passa o dedo depois de alguns segundos.",
+            "solve": "Divida a situação em preparação inicial, um meio apocalíptico e uma reviravolta no final, usando contraste exagerado para manter as pessoas assistindo."
+        },
+        {
+            "pain": "Você quer fazer vídeos engraçados, mas o final sempre tem uma expressão comum e sem piada.",
+            "solve": "O final traz uma pequena verdade inesperada que quebra a grandiosidade da cena, em vez de enrolar com expressões vazias, criando o humor de forma natural."
+        },
+        {
+            "pain": "Não sabe descrever a cena para a IA, e o vídeo gerado fica linear e sem graça.",
+            "solve": "Descreva imagem, ações e efeitos sonoros segundo a segundo para a IA entender melhor a transição do silêncio à explosão da cena."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para entrar no canvas do {brand}.",
+        "Digite a pequena cena cotidiana que você quer filmar e envie ao assistente de IA no chat à direita.",
+        "Veja o card de descrição de cena de 15 segundos no canvas e ajuste os detalhes do texto conforme necessário.",
+        "Gere o card de trecho de vídeo de 15 segundos correspondente e visualize ou ajuste no canvas.",
+        "Organize os trechos de vídeo aprovados na linha do tempo de vídeo e exporte."
+    ],
+    "faq": [
+        {
+            "q": "Como transformar pequenas situações do cotidiano em vídeos engraçados com reviravolta?",
+            "a": "Envie uma pequena cena cotidiana ao assistente de IA no chat. Ele vai gerar um card de descrição de cena de 15 segundos com preparação inicial, meio extremamente exagerado e reviravolta no final. Se quiser um vídeo, peça também para gerar cards de trechos de vídeo, organize-os na linha do tempo e exporte."
+        },
+        {
+            "q": "O que fazer se as cenas geradas não ficarem exageradas o suficiente?",
+            "a": "Você pode editar diretamente a descrição das ações no card de texto do canvas ou pedir ao assistente de IA para gerar novamente. Escreva mais ações físicas concretas; por exemplo, em vez de “com raiva”, use “bater no teclado com força suficiente para estilhaçar um copo”. Assim, a IA consegue criar cenas exageradas com mais precisão."
+        },
+        {
+            "q": "Como escrever a reviravolta final de um vídeo engraçado sem ficar constrangedor?",
+            "a": "O final precisa revelar uma pequena verdade que explique o comportamento exagerado anterior, em vez de mostrar apenas uma expressão de surpresa. Por exemplo, antes eles disputam quem paga a conta como se fossem deuses lutando; no final, descobrem que escanearam o código de pagamento um do outro. Usar detalhes reais da vida para quebrar a tensão costuma funcionar bem."
+        },
+        {
+            "q": "Esta habilidade consegue gerar diretamente um vídeo longo e completo já editado?",
+            "a": "Não. Ela gera principalmente trechos de vídeo individuais de 15 segundos. Se quiser um vídeo final mais longo, coloque vários trechos gerados na linha do tempo do canvas, organize a ordem e depois exporte."
+        }
+    ],
+    "keywords": [
+        "vídeo engraçado de 15 segundos",
+        "reviravolta em vídeo curto de humor",
+        "vídeos engraçados do cotidiano",
+        "roteiro de vídeo curto com reviravolta",
+        "geração de vídeo engraçado com IA",
+        "roteiro exagerado para vídeo curto"
+    ]
+}

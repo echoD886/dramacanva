@@ -1,0 +1,831 @@
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent as ReactKeyboardEvent, type PointerEvent as ReactPointerEvent, type ReactNode } from "react";
+import { Alert, App, Button, Dropdown, Input, Popover, Tag, Typography } from "antd";
+import { Bubble, Sender, type BubbleItemType } from "@ant-design/x";
+import { ArrowUp, Check, ChevronDown, FileText, Image as ImageIcon, LoaderCircle, Music2, Sparkles, UserRound, Video, X } from "lucide-react";
+
+import { useI18n } from "@/i18n/use-i18n";
+import { localizedCanvasReferenceTitle } from "@/i18n/canvas-reference-label";
+import type { MessageKey } from "@/i18n/messages";
+
+import { ModelPicker } from "@/components/model-picker";
+import type { CanvasResourceReference } from "@/lib/canvas/canvas-resource-references";
+import type { PromptOptimizationMode, PromptOptimizationResult, PromptOptimizerProvider } from "@/lib/plugins/plugin-types";
+import type { AiConfig } from "@/stores/use-config-store";
+
+type CanvasPromptOptimizerDrawerProps = {
+    open: boolean;
+    children: ReactNode;
+    prompt: string;
+    generationMode: "image" | "video";
+    targetModel: string;
+    targetProtocol?: string;
+    config: AiConfig;
+    optimizerModel: string;
+    references: CanvasResourceReference[];
+    provider: PromptOptimizerProvider | null;
+    onClose: () => void;
+    onApply: (prompt: string) => void;
+};
+
+const modeOptions: Array<{ label: MessageKey; value: PromptOptimizationMode }> = [
+    { label: "promptOptimizer.expand", value: "expand" },
+    { label: "promptOptimizer.refine", value: "refine" },
+    { label: "promptOptimizer.style", value: "style" },
+    { label: "promptOptimizer.model", value: "model-adapt" },
+    { label: "promptOptimizer.reference", value: "reference" },
+];
+
+const modeDescriptions: Record<PromptOptimizationMode, MessageKey> = {
+    expand: "promptOptimizer.expandHelp",
+    refine: "promptOptimizer.refineHelp",
+    style: "promptOptimizer.styleHelp",
+    "model-adapt": "promptOptimizer.modelHelp",
+    reference: "promptOptimizer.referenceHelp",
+};
+
+type PanelSize = { width: number; height: number };
+type PanelOffset = { x: number; y: number };
+type PanelPosition = { left: number; top: number };
+type ResizeEdges = { top?: boolean; right?: boolean; bottom?: boolean; left?: boolean };
+
+const PANEL_MARGIN = 12;
+const PANEL_MIN_WIDTH = 300;
+const PANEL_MIN_HEIGHT = 360;
+const PANEL_MAX_WIDTH = 760;
+const PANEL_MAX_HEIGHT = 780;
+
+function clampPanelValue(value: number, min: number, max: number) {
+    return Math.min(Math.max(value, min), Math.max(min, max));
+}
+
+function getPanelResizeBounds() {
+    const viewportWidth = typeof window === "undefined" ? 1024 : window.innerWidth;
+    const viewportHeight = typeof window === "undefined" ? 768 : window.innerHeight;
+    const maxWidth = Math.min(PANEL_MAX_WIDTH, Math.max(0, viewportWidth - PANEL_MARGIN * 2));
+    const maxHeight = Math.min(PANEL_MAX_HEIGHT, Math.max(0, viewportHeight - PANEL_MARGIN * 2));
+    return {
+        minWidth: Math.min(PANEL_MIN_WIDTH, maxWidth),
+        maxWidth,
+        minHeight: Math.min(PANEL_MIN_HEIGHT, maxHeight),
+        maxHeight,
+    };
+}
+
+function getInitialPanelSize(): PanelSize {
+    const bounds = getPanelResizeBounds();
+    return {
+        width: clampPanelValue(420, bounds.minWidth, bounds.maxWidth),
+        height: clampPanelValue(620, bounds.minHeight, bounds.maxHeight),
+    };
+}
+
+function getInitialPanelPosition(panelSize: PanelSize): PanelPosition {
+    if (typeof window === "undefined") return { left: PANEL_MARGIN, top: PANEL_MARGIN };
+
+    const anchor = [...document.querySelectorAll<HTMLElement>(".canvas-node-composer, .creation-chat-composer")]
+        .map((element) => ({ element, rect: element.getBoundingClientRect() }))
+        .find(({ element, rect }) => rect.width > 0 && rect.height > 0 && getComputedStyle(element).visibility !== "hidden");
+
+    if (!anchor) return { left: PANEL_MARGIN, top: PANEL_MARGIN };
+
+    const { rect } = anchor;
+    const left = clampPanelValue(rect.left + (rect.width - panelSize.width) / 2, PANEL_MARGIN, window.innerWidth - PANEL_MARGIN - panelSize.width);
+    const aboveTop = rect.top - panelSize.height - PANEL_MARGIN;
+    const belowTop = rect.bottom + PANEL_MARGIN;
+    const hasRoomBelow = belowTop + panelSize.height <= window.innerHeight - PANEL_MARGIN;
+    const top = aboveTop >= PANEL_MARGIN ? aboveTop : hasRoomBelow ? belowTop : aboveTop;
+
+    return {
+        left,
+        top: clampPanelValue(top, PANEL_MARGIN, window.innerHeight - PANEL_MARGIN - panelSize.height),
+    };
+}
+
+export function CanvasPromptOptimizerDrawer({ open, children, prompt, generationMode, targetModel, targetProtocol, config, optimizerModel, references, provider, onClose, onApply }: CanvasPromptOptimizerDrawerProps) {
+    const { t, number } = useI18n();
+    const { message } = App.useApp();
+    const abortRef = useRef<AbortController | null>(null);
+    const chatRef = useRef<HTMLDivElement | null>(null);
+    const contentRef = useRef<HTMLDivElement | null>(null);
+    const [mode, setMode] = useState<PromptOptimizationMode>("expand");
+    const [activeOptimizerModel, setActiveOptimizerModel] = useState("");
+    const [draftPrompt, setDraftPrompt] = useState(prompt);
+    const [submittedPrompt, setSubmittedPrompt] = useState("");
+    const [selectedReferenceIds, setSelectedReferenceIds] = useState<string[]>([]);
+    const [result, setResult] = useState<PromptOptimizationResult | null>(null);
+    const [selectedPrompt, setSelectedPrompt] = useState("");
+    const [working, setWorking] = useState(false);
+    const [error, setError] = useState("");
+    const [streaming, setStreaming] = useState(false);
+    const [panelSize, setPanelSize] = useState<PanelSize>(getInitialPanelSize);
+    const [panelOffset, setPanelOffset] = useState<PanelOffset>({ x: 0, y: 0 });
+    const [panelInteracting, setPanelInteracting] = useState(false);
+    const panelOffsetRef = useRef(panelOffset);
+    const panelPositionRef = useRef<PanelPosition | null>(null);
+    const wasOpenRef = useRef(false);
+    const interactionCleanupRef = useRef<(() => void) | null>(null);
+    panelOffsetRef.current = panelOffset;
+
+    const activeReferences = useMemo(() => references.filter((reference) => reference.active), [references]);
+    const selectedReferences = useMemo(() => activeReferences.filter((reference) => selectedReferenceIds.includes(reference.id)), [activeReferences, selectedReferenceIds]);
+    const optimizationReferences = mode === "reference" ? selectedReferences : activeReferences;
+    const referenceCount = mode === "reference" ? selectedReferences.length : activeReferences.length;
+    const textContext = useMemo(
+        () => optimizationReferences.filter((reference) => (reference.kind === "text" || reference.kind === "character") && reference.text?.trim()).map((reference) => ({ title: reference.title || reference.label, text: reference.text!.trim() })),
+        [optimizationReferences],
+    );
+    const imageContext = useMemo(
+        () =>
+            optimizationReferences
+                .filter((reference) => (reference.kind === "image" || reference.kind === "character") && reference.previewUrl && /^(data:|https?:\/\/)/i.test(reference.previewUrl))
+                .map((reference) => ({ title: reference.title || reference.label, url: reference.previewUrl! })),
+        [optimizationReferences],
+    );
+
+    useEffect(() => {
+        if (!open) return;
+        abortRef.current?.abort();
+        setDraftPrompt(prompt);
+        setSubmittedPrompt(prompt.trim());
+        setActiveOptimizerModel(optimizerModel);
+        setSelectedReferenceIds(references.filter((reference) => reference.active).map((reference) => reference.id));
+        setResult(null);
+        setSelectedPrompt("");
+        setError("");
+        setWorking(false);
+        setStreaming(false);
+    }, [open, optimizerModel, prompt]);
+
+    useLayoutEffect(() => {
+        if (open && !wasOpenRef.current) {
+            panelPositionRef.current = null;
+            const initialPosition = getInitialPanelPosition(panelSize);
+            panelPositionRef.current = initialPosition;
+            const initialOffset = { x: initialPosition.left, y: initialPosition.top };
+            panelOffsetRef.current = initialOffset;
+            setPanelOffset(initialOffset);
+        }
+        wasOpenRef.current = open;
+    }, [open, panelSize]);
+
+    useEffect(
+        () => () => {
+            abortRef.current?.abort();
+            interactionCleanupRef.current?.();
+        },
+        [],
+    );
+
+    useEffect(() => {
+        if (open) return;
+        interactionCleanupRef.current?.();
+    }, [open]);
+
+    const syncPanelPositionToViewport = useCallback(() => {
+        const popoverRoot = contentRef.current?.closest<HTMLElement>(".canvas-prompt-optimizer-popover");
+        if (!popoverRoot) return;
+
+        const rect = popoverRoot.getBoundingClientRect();
+        const currentOffset = panelOffsetRef.current;
+        const baseLeft = rect.left - currentOffset.x;
+        const baseTop = rect.top - currentOffset.y;
+        const currentPosition = panelPositionRef.current ?? { left: rect.left, top: rect.top };
+        const nextPosition = {
+            left: clampPanelValue(currentPosition.left, PANEL_MARGIN, window.innerWidth - PANEL_MARGIN - rect.width),
+            top: clampPanelValue(currentPosition.top, PANEL_MARGIN, window.innerHeight - PANEL_MARGIN - rect.height),
+        };
+        panelPositionRef.current = nextPosition;
+        const nextOffset = {
+            x: nextPosition.left - baseLeft,
+            y: nextPosition.top - baseTop,
+        };
+
+        setPanelOffset((current) => {
+            panelOffsetRef.current = nextOffset;
+            return nextOffset.x === current.x && nextOffset.y === current.y ? current : nextOffset;
+        });
+    }, []);
+
+    useEffect(() => {
+        if (!open) return;
+        const handleViewportResize = () => {
+            const bounds = getPanelResizeBounds();
+            setPanelSize((current) => ({
+                width: clampPanelValue(current.width, bounds.minWidth, bounds.maxWidth),
+                height: clampPanelValue(current.height, bounds.minHeight, bounds.maxHeight),
+            }));
+            requestAnimationFrame(syncPanelPositionToViewport);
+        };
+        window.addEventListener("resize", handleViewportResize);
+        return () => window.removeEventListener("resize", handleViewportResize);
+    }, [open, syncPanelPositionToViewport]);
+
+    useEffect(() => {
+        if (!open || panelInteracting) return;
+        let frame = requestAnimationFrame(() => {
+            frame = requestAnimationFrame(syncPanelPositionToViewport);
+        });
+        return () => cancelAnimationFrame(frame);
+    }, [open, panelInteracting, panelSize.height, panelSize.width, syncPanelPositionToViewport]);
+
+    useEffect(() => {
+        if (!open) return;
+        const frame = requestAnimationFrame(() => {
+            const scrollBox = chatRef.current?.querySelector<HTMLElement>(".ant-bubble-list-scroll-box");
+            if (scrollBox) scrollBox.scrollTop = scrollBox.scrollHeight;
+        });
+        return () => cancelAnimationFrame(frame);
+    }, [open, submittedPrompt, working, result, error]);
+
+    const beginPanelInteraction = (event: ReactPointerEvent<HTMLElement>, kind: "drag" | "resize", edges: ResizeEdges = {}) => {
+        if (event.button !== 0) return;
+        const popoverRoot = event.currentTarget.closest<HTMLElement>(".canvas-prompt-optimizer-popover");
+        if (!popoverRoot) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+        interactionCleanupRef.current?.();
+
+        const startX = event.clientX;
+        const startY = event.clientY;
+        const startSize = panelSize;
+        const startRect = popoverRoot.getBoundingClientRect();
+        const startPosition = panelPositionRef.current ?? { left: startRect.left, top: startRect.top };
+        panelPositionRef.current = startPosition;
+        const basePosition = {
+            left: startRect.left - panelOffsetRef.current.x,
+            top: startRect.top - panelOffsetRef.current.y,
+        };
+        const interactionTarget = event.currentTarget;
+        const pointerId = event.pointerId;
+        const previousUserSelect = document.body.style.userSelect;
+        const previousCursor = document.body.style.cursor;
+        const horizontalResize = Boolean(edges.left || edges.right);
+        const verticalResize = Boolean(edges.top || edges.bottom);
+        const cursor = kind === "drag" ? "grabbing" : horizontalResize && verticalResize ? (edges.top === edges.left ? "nwse-resize" : "nesw-resize") : horizontalResize ? "ew-resize" : "ns-resize";
+
+        let frameId: number | null = null;
+        let pendingPosition: PanelPosition | null = null;
+        let pendingSize: PanelSize | null = null;
+        let latestSize = startSize;
+
+        const commitPanelLayout = (position: PanelPosition, size?: PanelSize) => {
+            const nextOffset = {
+                x: position.left - basePosition.left,
+                y: position.top - basePosition.top,
+            };
+            panelPositionRef.current = position;
+            panelOffsetRef.current = nextOffset;
+            popoverRoot.style.setProperty("translate", `${nextOffset.x}px ${nextOffset.y}px`);
+            if (size) {
+                latestSize = size;
+                popoverRoot.style.setProperty("--canvas-prompt-optimizer-width", `${size.width}px`);
+                popoverRoot.style.setProperty("--canvas-prompt-optimizer-height", `${size.height}px`);
+            }
+        };
+
+        const flushPendingLayout = () => {
+            if (frameId !== null) {
+                cancelAnimationFrame(frameId);
+                frameId = null;
+            }
+            if (!pendingPosition && !pendingSize) return;
+            const nextPosition = pendingPosition ?? panelPositionRef.current ?? startPosition;
+            const nextSize = pendingSize;
+            pendingPosition = null;
+            pendingSize = null;
+            commitPanelLayout(nextPosition, nextSize || undefined);
+        };
+
+        const schedulePanelLayout = (position: PanelPosition, size?: PanelSize) => {
+            pendingPosition = position;
+            pendingSize = size || pendingSize;
+            if (frameId !== null) return;
+            frameId = requestAnimationFrame(() => {
+                frameId = null;
+                if (!pendingPosition && !pendingSize) return;
+                const nextPosition = pendingPosition ?? panelPositionRef.current ?? startPosition;
+                const nextSize = pendingSize;
+                pendingPosition = null;
+                pendingSize = null;
+                commitPanelLayout(nextPosition, nextSize || undefined);
+            });
+        };
+
+        document.body.style.userSelect = "none";
+        document.body.style.cursor = cursor;
+        try {
+            interactionTarget.setPointerCapture(pointerId);
+        } catch {
+            // 某些浏览器在指针已被外层捕获时会拒绝重复捕获，窗口级监听仍可继续完成拖动。
+        }
+        setPanelInteracting(true);
+
+        const handleMove = (moveEvent: PointerEvent) => {
+            if (moveEvent.pointerId !== pointerId) return;
+            moveEvent.preventDefault();
+            const deltaX = moveEvent.clientX - startX;
+            const deltaY = moveEvent.clientY - startY;
+
+            if (kind === "drag") {
+                schedulePanelLayout({
+                    left: clampPanelValue(startPosition.left + deltaX, PANEL_MARGIN, window.innerWidth - PANEL_MARGIN - startRect.width),
+                    top: clampPanelValue(startPosition.top + deltaY, PANEL_MARGIN, window.innerHeight - PANEL_MARGIN - startRect.height),
+                });
+                return;
+            }
+
+            const bounds = getPanelResizeBounds();
+            let nextWidth = startSize.width;
+            let nextHeight = startSize.height;
+
+            if (edges.right) {
+                nextWidth = clampPanelValue(startSize.width + deltaX, bounds.minWidth, Math.min(bounds.maxWidth, window.innerWidth - PANEL_MARGIN - startPosition.left));
+            }
+            if (edges.left) {
+                nextWidth = clampPanelValue(startSize.width - deltaX, bounds.minWidth, Math.min(bounds.maxWidth, startPosition.left + startSize.width - PANEL_MARGIN));
+            }
+            if (edges.bottom) {
+                nextHeight = clampPanelValue(startSize.height + deltaY, bounds.minHeight, Math.min(bounds.maxHeight, window.innerHeight - PANEL_MARGIN - startPosition.top));
+            }
+            if (edges.top) {
+                nextHeight = clampPanelValue(startSize.height - deltaY, bounds.minHeight, Math.min(bounds.maxHeight, startPosition.top + startSize.height - PANEL_MARGIN));
+            }
+
+            const nextPosition = {
+                left: clampPanelValue(edges.left ? startPosition.left + startSize.width - nextWidth : startPosition.left, PANEL_MARGIN, window.innerWidth - PANEL_MARGIN - nextWidth),
+                top: clampPanelValue(edges.top ? startPosition.top + startSize.height - nextHeight : startPosition.top, PANEL_MARGIN, window.innerHeight - PANEL_MARGIN - nextHeight),
+            };
+            schedulePanelLayout(nextPosition, { width: nextWidth, height: nextHeight });
+        };
+
+        const cleanup = () => {
+            window.removeEventListener("pointermove", handleMove);
+            window.removeEventListener("pointerup", cleanup);
+            window.removeEventListener("pointercancel", cleanup);
+            flushPendingLayout();
+            try {
+                if (interactionTarget.hasPointerCapture(pointerId)) interactionTarget.releasePointerCapture(pointerId);
+            } catch {
+                // 指针已由浏览器释放时无需再次释放。
+            }
+            document.body.style.userSelect = previousUserSelect;
+            document.body.style.cursor = previousCursor;
+            setPanelOffset((current) => {
+                const next = panelOffsetRef.current;
+                return current.x === next.x && current.y === next.y ? current : { ...next };
+            });
+            if (kind === "resize") setPanelSize(latestSize);
+            setPanelInteracting(false);
+            if (interactionCleanupRef.current === cleanup) interactionCleanupRef.current = null;
+        };
+
+        interactionCleanupRef.current = cleanup;
+        window.addEventListener("pointermove", handleMove, { passive: false });
+        window.addEventListener("pointerup", cleanup);
+        window.addEventListener("pointercancel", cleanup);
+    };
+
+    const nudgePanel = (deltaX: number, deltaY: number) => {
+        const popoverRoot = contentRef.current?.closest<HTMLElement>(".canvas-prompt-optimizer-popover");
+        if (!popoverRoot) {
+            setPanelOffset((current) => ({ x: current.x + deltaX, y: current.y + deltaY }));
+            return;
+        }
+
+        const rect = popoverRoot.getBoundingClientRect();
+        const currentPosition = panelPositionRef.current ?? { left: rect.left, top: rect.top };
+        const currentOffset = panelOffsetRef.current;
+        const baseLeft = rect.left - currentOffset.x;
+        const baseTop = rect.top - currentOffset.y;
+        const nextPosition = {
+            left: clampPanelValue(currentPosition.left + deltaX, PANEL_MARGIN, window.innerWidth - PANEL_MARGIN - rect.width),
+            top: clampPanelValue(currentPosition.top + deltaY, PANEL_MARGIN, window.innerHeight - PANEL_MARGIN - rect.height),
+        };
+        const nextOffset = {
+            x: nextPosition.left - baseLeft,
+            y: nextPosition.top - baseTop,
+        };
+        panelPositionRef.current = nextPosition;
+        panelOffsetRef.current = nextOffset;
+        setPanelOffset(nextOffset);
+    };
+
+    const handlePanelMoveKeyDown = (event: ReactKeyboardEvent<HTMLDivElement>) => {
+        const step = event.shiftKey ? 48 : 16;
+        if (event.key === "ArrowLeft") nudgePanel(-step, 0);
+        else if (event.key === "ArrowRight") nudgePanel(step, 0);
+        else if (event.key === "ArrowUp") nudgePanel(0, -step);
+        else if (event.key === "ArrowDown") nudgePanel(0, step);
+        else return;
+        event.preventDefault();
+    };
+
+    const runOptimization = async (requestedPrompt = draftPrompt) => {
+        const promptValue = requestedPrompt.trim();
+        if (!provider || working || !promptValue || (mode === "reference" && !selectedReferences.length)) return;
+        const controller = new AbortController();
+        abortRef.current?.abort();
+        abortRef.current = controller;
+        setWorking(true);
+        setStreaming(false);
+        setError("");
+        setSubmittedPrompt(promptValue);
+        setDraftPrompt("");
+        setResult(null);
+        setSelectedPrompt("");
+        try {
+            const optimized = await provider.optimize(
+                {
+                    prompt: promptValue,
+                    mode,
+                    generationMode,
+                    targetModel,
+                    targetProtocol,
+                    optimizerModel: activeOptimizerModel || undefined,
+                    context: { texts: textContext, images: imageContext },
+                },
+                {
+                    signal: controller.signal,
+                    onDelta: () => setStreaming(true),
+                },
+            );
+            if (controller.signal.aborted) return;
+            setResult(optimized);
+            setSelectedPrompt(optimized.optimizedPrompt);
+        } catch (reason) {
+            if (controller.signal.aborted) return;
+            setDraftPrompt(promptValue);
+            setError(reason instanceof Error ? reason.message : "promptOptimizer.error");
+        } finally {
+            if (!controller.signal.aborted) {
+                setWorking(false);
+                setStreaming(false);
+            }
+        }
+    };
+
+    const applyPrompt = () => {
+        const value = selectedPrompt.trim();
+        if (!value) return;
+        onApply(value);
+        onClose();
+        message.success(t("promptOptimizer.applied"));
+    };
+
+    const modeMenuItems = modeOptions.map((option) => ({
+        key: option.value,
+        label: (
+            <span className="canvas-prompt-optimizer-mode-option">
+                <span>{t(option.label)}</span>
+                <small>{t(modeDescriptions[option.value])}</small>
+            </span>
+        ),
+    }));
+
+    const bubbleItems: BubbleItemType[] = [
+        {
+            key: "assistant-intro",
+            role: "ai",
+            content: (
+                <div className="canvas-prompt-optimizer-bubble is-assistant-bubble">
+                    <div className="canvas-prompt-optimizer-message-meta">
+                        <span>{t("promptOptimizer.assistant")}</span>
+                        <span>{t("promptOptimizer.currentMode", { mode: t(modeOptions.find((option) => option.value === mode)?.label || modeOptions[0].label) })}</span>
+                    </div>
+                    <p>{t(modeDescriptions[mode])}</p>
+                    {mode === "reference" ? (
+                        <ReferenceSelection
+                            references={activeReferences}
+                            selectedReferences={selectedReferences}
+                            onToggle={(referenceId) => setSelectedReferenceIds((current) => (current.includes(referenceId) ? current.filter((id) => id !== referenceId) : [...current, referenceId]))}
+                        />
+                    ) : activeReferences.length ? (
+                        <div className="canvas-prompt-optimizer-chat-reference">
+                            <span>{t("promptOptimizer.usingReferences")}</span>
+                            <div className="flex min-w-0 flex-wrap gap-1.5">
+                                {activeReferences.map((reference) => (
+                                    <Tag key={reference.id}>{localizedCanvasReferenceTitle(reference, t)}</Tag>
+                                ))}
+                            </div>
+                        </div>
+                    ) : null}
+                </div>
+            ),
+        },
+    ];
+
+    if (submittedPrompt) {
+        bubbleItems.push({
+            key: "user-prompt",
+            role: "user",
+            content: (
+                <div className="canvas-prompt-optimizer-user-content">
+                    <div className="canvas-prompt-optimizer-message-meta">
+                        <span>{t("promptOptimizer.you")}</span>
+                        <span>{t("promptOptimizer.characters", { count: number(submittedPrompt.length) })}</span>
+                    </div>
+                    <div className="canvas-prompt-optimizer-bubble is-user-bubble">{submittedPrompt}</div>
+                </div>
+            ),
+        });
+    }
+
+    if (working) {
+        bubbleItems.push({
+            key: "working",
+            role: "ai",
+            content: (
+                <div className="canvas-prompt-optimizer-bubble is-assistant-bubble is-working" role="status">
+                    <LoaderCircle className="size-3.5 animate-spin motion-reduce:animate-none" />
+                    <span>{streaming ? t("promptOptimizer.receiving") : t("promptOptimizer.organizing")}</span>
+                </div>
+            ),
+        });
+    }
+
+    if (error) {
+        bubbleItems.push({
+            key: "error",
+            role: "system",
+            content: <Alert className="canvas-prompt-optimizer-alert" type="error" showIcon message={t("promptOptimizer.failed")} description={error === "promptOptimizer.error" ? t("promptOptimizer.error") : error} />,
+        });
+    }
+
+    if (result) {
+        bubbleItems.push({
+            key: "result",
+            role: "ai",
+            content: (
+                <div className="canvas-prompt-optimizer-bubble is-assistant-bubble is-result-bubble">
+                    <div className="canvas-prompt-optimizer-message-meta">
+                        <span>{t("promptOptimizer.assistant")}</span>
+                        {result.modelProfile ? (
+                            <Tag color="blue" bordered={false}>
+                                {t("promptOptimizer.adapted", { model: result.modelProfile.label })}
+                            </Tag>
+                        ) : null}
+                    </div>
+                    <div className="canvas-prompt-optimizer-result-heading">
+                        <span>{t("promptOptimizer.suggestion")}</span>
+                        <Button type="primary" size="small" icon={<Check className="size-3.5" />} onClick={applyPrompt} disabled={!selectedPrompt.trim()} aria-label={t("promptOptimizer.applyAria")}>
+                            {t("promptOptimizer.apply")}
+                        </Button>
+                    </div>
+                    <Input.TextArea
+                        className="canvas-prompt-optimizer-textarea canvas-prompt-optimizer-result-textarea"
+                        value={selectedPrompt}
+                        onChange={(event) => setSelectedPrompt(event.target.value)}
+                        autoSize={{ minRows: 4, maxRows: 10 }}
+                        aria-label={t("promptOptimizer.optimized")}
+                    />
+
+                    {result.negativePrompt ? (
+                        <div className="canvas-prompt-optimizer-chat-detail">
+                            <span>{t("promptOptimizer.avoid")}</span>
+                            <p>{result.negativePrompt}</p>
+                        </div>
+                    ) : null}
+                    {result.changes.length ? <ResultList title={t("promptOptimizer.changes")} items={result.changes} /> : null}
+                    {result.assumptions.length ? <ResultList title={t("promptOptimizer.assumptions")} items={result.assumptions} warning /> : null}
+
+                    {result.variants.length ? (
+                        <div className="canvas-prompt-optimizer-subsection">
+                            <div className="canvas-prompt-optimizer-field-label">
+                                <span>{t("promptOptimizer.variants")}</span>
+                            </div>
+                            <div className="space-y-2">
+                                {result.variants.map((variant) => {
+                                    const selected = selectedPrompt === variant.prompt;
+                                    return (
+                                        <button
+                                            key={`${variant.label}-${variant.prompt}`}
+                                            type="button"
+                                            className={`canvas-prompt-optimizer-variant ${selected ? "is-selected" : ""}`}
+                                            onClick={() => setSelectedPrompt(variant.prompt)}
+                                            aria-pressed={selected}
+                                        >
+                                            <span className="mb-1 flex items-center gap-1.5 text-[var(--fs-micro)] font-medium text-foreground/72">
+                                                {selected ? <Check className="size-3.5 text-primary" /> : null}
+                                                {variant.label}
+                                            </span>
+                                            <span className="line-clamp-3 text-[var(--fs-body)] leading-5 text-foreground/70">{variant.prompt}</span>
+                                        </button>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    ) : null}
+                </div>
+            ),
+        });
+    }
+
+    const popoverRootStyle = {
+        "--canvas-prompt-optimizer-width": `${panelSize.width}px`,
+        "--canvas-prompt-optimizer-height": `${panelSize.height}px`,
+        translate: `${panelOffset.x}px ${panelOffset.y}px`,
+    } as CSSProperties;
+
+    const content = open && (
+        <div ref={contentRef} className={`canvas-prompt-optimizer-panel${panelInteracting ? " is-interacting" : ""}`} data-canvas-no-zoom>
+            <div
+                className="canvas-prompt-optimizer-header"
+                onPointerDown={(event) => {
+                    if ((event.target as Element | null)?.closest("button")) return;
+                    beginPanelInteraction(event, "drag");
+                }}
+            >
+                <div className="canvas-prompt-optimizer-header-main canvas-prompt-optimizer-drag-region" role="button" tabIndex={0} aria-label={t("promptOptimizer.move")} title={t("promptOptimizer.moveHelp")} onKeyDown={handlePanelMoveKeyDown}>
+                    <span className="canvas-prompt-optimizer-icon">
+                        <Sparkles className="size-4" aria-hidden="true" />
+                    </span>
+                    <div className="canvas-prompt-optimizer-header-title">
+                        <div className="canvas-prompt-optimizer-header-title-row">
+                            <Typography.Text strong>{t("promptOptimizer.title")}</Typography.Text>
+                            <span className="canvas-prompt-optimizer-mode-badge">{t(generationMode === "image" ? "creationComposer.image" : "creationComposer.video")}</span>
+                            <span className="canvas-prompt-optimizer-context" title={targetModel || t("promptOptimizer.unconfigured")}>
+                                · {targetModel || t("promptOptimizer.unconfigured")}
+                                {referenceCount ? ` · ${t("promptOptimizer.referenceCount", { count: number(referenceCount) })}` : ""}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" className="canvas-prompt-optimizer-close" onPointerDown={(event) => event.stopPropagation()} onClick={onClose} aria-label={t("promptOptimizer.close")}>
+                    <X className="size-4" aria-hidden="true" />
+                </button>
+            </div>
+
+            <div ref={chatRef} className="canvas-prompt-optimizer-chat-shell">
+                <Bubble.List
+                    className="canvas-prompt-optimizer-chat thin-scrollbar"
+                    items={bubbleItems}
+                    autoScroll={false}
+                    aria-live="polite"
+                    role={{
+                        ai: {
+                            placement: "start",
+                            variant: "borderless",
+                            avatar: (
+                                <span className="canvas-prompt-optimizer-message-avatar">
+                                    <Sparkles className="size-3.5" aria-hidden="true" />
+                                </span>
+                            ),
+                        },
+                        user: { placement: "end", variant: "borderless" },
+                        system: { placement: "start", variant: "borderless" },
+                    }}
+                />
+            </div>
+
+            <div className="canvas-prompt-optimizer-composer">
+                <Sender
+                    className="canvas-prompt-optimizer-sender"
+                    value={draftPrompt}
+                    onChange={(value) => setDraftPrompt(value)}
+                    onSubmit={(value) => void runOptimization(value)}
+                    placeholder={t("promptOptimizer.placeholder")}
+                    autoSize={{ minRows: 2, maxRows: 6 }}
+                    disabled={working}
+                    suffix={false}
+                    submitType="enter"
+                    footer={
+                        <div className="canvas-prompt-optimizer-composer-toolbar">
+                            <div className="canvas-prompt-optimizer-composer-leading">
+                                <Dropdown
+                                    trigger={["click"]}
+                                    placement="topLeft"
+                                    classNames={{ root: "canvas-prompt-optimizer-mode-dropdown" }}
+                                    menu={{
+                                        items: modeMenuItems,
+                                        selectedKeys: [mode],
+                                        onClick: ({ key }) => setMode(key as PromptOptimizationMode),
+                                    }}
+                                >
+                                    <button type="button" className="canvas-prompt-optimizer-mode-trigger" aria-label={t("promptOptimizer.chooseMode")} aria-haspopup="menu">
+                                        <span>{t(modeOptions.find((option) => option.value === mode)?.label || modeOptions[0].label)}</span>
+                                        <ChevronDown className="size-3" aria-hidden="true" />
+                                    </button>
+                                </Dropdown>
+                            </div>
+                            <div className="flex min-w-0 items-center gap-2">
+                                <ModelPicker
+                                    config={config}
+                                    value={activeOptimizerModel}
+                                    onChange={setActiveOptimizerModel}
+                                    capability="text"
+                                    placeholder={t("promptOptimizer.chooseModel")}
+                                    showSelectedPrice={false}
+                                    variant="creation"
+                                    className="canvas-prompt-optimizer-model-picker"
+                                    popoverClassName="canvas-prompt-optimizer-model-popover"
+                                />
+                                <button
+                                    type="button"
+                                    className="canvas-prompt-optimizer-send"
+                                    onClick={() => void runOptimization()}
+                                    disabled={!provider || working || !draftPrompt.trim() || (mode === "reference" && !selectedReferences.length)}
+                                    aria-label={working ? t("promptOptimizer.working") : t("promptOptimizer.send")}
+                                >
+                                    {working ? <LoaderCircle className="size-3.5 animate-spin motion-reduce:animate-none" /> : <ArrowUp className="size-4" strokeWidth={2.35} aria-hidden="true" />}
+                                </button>
+                            </div>
+                        </div>
+                    }
+                    aria-label={t("promptOptimizer.inputAria")}
+                />
+            </div>
+
+            <div className="canvas-prompt-optimizer-resize-handle is-edge-top" aria-hidden="true" onPointerDown={(event) => beginPanelInteraction(event, "resize", { top: true })} />
+            <div className="canvas-prompt-optimizer-resize-handle is-edge-right" aria-hidden="true" onPointerDown={(event) => beginPanelInteraction(event, "resize", { right: true })} />
+            <div className="canvas-prompt-optimizer-resize-handle is-edge-bottom" aria-hidden="true" onPointerDown={(event) => beginPanelInteraction(event, "resize", { bottom: true })} />
+            <div className="canvas-prompt-optimizer-resize-handle is-edge-left" aria-hidden="true" onPointerDown={(event) => beginPanelInteraction(event, "resize", { left: true })} />
+            <div className="canvas-prompt-optimizer-resize-handle is-corner-top-left" aria-hidden="true" onPointerDown={(event) => beginPanelInteraction(event, "resize", { top: true, left: true })} />
+            <div className="canvas-prompt-optimizer-resize-handle is-corner-top-right" aria-hidden="true" onPointerDown={(event) => beginPanelInteraction(event, "resize", { top: true, right: true })} />
+            <div className="canvas-prompt-optimizer-resize-handle is-corner-bottom-left" aria-hidden="true" onPointerDown={(event) => beginPanelInteraction(event, "resize", { bottom: true, left: true })} />
+        </div>
+    );
+
+    return (
+        <Popover
+            open={open}
+            onOpenChange={(nextOpen) => {
+                if (!nextOpen) onClose();
+            }}
+            trigger={[]}
+            placement="top"
+            arrow={false}
+            autoAdjustOverflow
+            motion={{ motionName: "" }}
+            styles={{ root: popoverRootStyle }}
+            content={content}
+            classNames={{ root: "canvas-prompt-optimizer-popover", container: "canvas-prompt-optimizer-popover-surface", content: "canvas-prompt-optimizer-popover-content" }}
+        >
+            {children}
+        </Popover>
+    );
+}
+
+function ResultList({ title, items, warning = false }: { title: string; items: string[]; warning?: boolean }) {
+    return (
+        <div className="canvas-prompt-optimizer-subsection">
+            <div className="canvas-prompt-optimizer-field-label">
+                <span>{title}</span>
+            </div>
+            <ul className={`canvas-prompt-optimizer-list ${warning ? "is-warning" : ""}`}>
+                {items.map((item) => (
+                    <li key={item} className="list-disc pl-1 marker:text-foreground/35">
+                        {item}
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
+}
+
+function ReferenceSelection({ references, selectedReferences, onToggle }: { references: CanvasResourceReference[]; selectedReferences: CanvasResourceReference[]; onToggle: (referenceId: string) => void }) {
+    const { t, number } = useI18n();
+    return (
+        <div className="canvas-prompt-optimizer-reference-selection">
+            <div className="canvas-prompt-optimizer-reference-heading">
+                <span>{t("promptOptimizer.references")}</span>
+                <span>{references.length ? t("promptOptimizer.selected", { selected: number(selectedReferences.length), total: number(references.length) }) : t("promptOptimizer.noReferences")}</span>
+            </div>
+            {references.length ? (
+                <div className="canvas-prompt-optimizer-reference-list" role="group" aria-label={t("promptOptimizer.referencesAria")}>
+                    {references.map((reference) => {
+                        const selected = selectedReferences.some((item) => item.id === reference.id);
+                        return (
+                            <button
+                                key={reference.id}
+                                type="button"
+                                className={`canvas-prompt-optimizer-reference-chip ${selected ? "is-selected" : ""}`}
+                                aria-pressed={selected}
+                                onClick={() => onToggle(reference.id)}
+                                title={t(selected ? "promptOptimizer.unselect" : "promptOptimizer.select", { name: localizedCanvasReferenceTitle(reference, t) })}
+                            >
+                                <ReferencePreview reference={reference} />
+                                <span className="canvas-prompt-optimizer-reference-chip-label">{localizedCanvasReferenceTitle(reference, t)}</span>
+                                {selected ? <Check className="size-3.5" aria-hidden="true" /> : null}
+                            </button>
+                        );
+                    })}
+                </div>
+            ) : (
+                <p className="canvas-prompt-optimizer-reference-empty">{t("promptOptimizer.addReferences")}</p>
+            )}
+        </div>
+    );
+}
+
+function ReferencePreview({ reference }: { reference: CanvasResourceReference }) {
+    if ((reference.kind === "image" || reference.kind === "character") && reference.previewUrl) {
+        return <img className="canvas-prompt-optimizer-reference-chip-preview" src={reference.previewUrl} alt="" />;
+    }
+    const Icon = reference.kind === "text" ? FileText : reference.kind === "video" ? Video : reference.kind === "audio" ? Music2 : reference.kind === "character" ? UserRound : ImageIcon;
+    return (
+        <span className="canvas-prompt-optimizer-reference-chip-icon">
+            <Icon className="size-3.5" aria-hidden="true" />
+        </span>
+    );
+}

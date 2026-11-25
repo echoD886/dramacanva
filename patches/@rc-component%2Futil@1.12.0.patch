@@ -1,0 +1,98 @@
+diff --git a/es/getScrollBarSize.js b/es/getScrollBarSize.js
+index d7ef1cfba22abfa7a05c02f324281eb029f60eea..ec924baa7e7025de99f7ae6b8712d9cdbcc9a8f1 100644
+--- a/es/getScrollBarSize.js
++++ b/es/getScrollBarSize.js
+@@ -1,6 +1,7 @@
+ /* eslint-disable no-param-reassign */
+ import { removeCSS, updateCSS } from "./Dom/dynamicCSS";
+ let cached;
++const targetSizes = new Map();
+ function measureScrollbarSize(ele) {
+   const randomId = `rc-scrollbar-measure-${Math.random().toString(36).substring(7)}`;
+   const measureEle = document.createElement('div');
+@@ -76,5 +77,11 @@ export function getTargetScrollBarSize(target) {
+       height: 0
+     };
+   }
+-  return measureScrollbarSize(target);
++  // The measurement clones only these styles. Reuse that result instead of
++  // inserting a temporary stylesheet and invalidating the entire document.
++  const style = getComputedStyle(target);
++  const pseudo = getComputedStyle(target, '::-webkit-scrollbar');
++  const key = JSON.stringify([style.scrollbarColor, style.scrollbarWidth, pseudo.width, pseudo.height, window.devicePixelRatio]);
++  if (!targetSizes.has(key)) targetSizes.set(key, measureScrollbarSize(target));
++  return targetSizes.get(key);
+ }
+diff --git a/es/Dom/focus.js b/es/Dom/focus.js
+--- a/es/Dom/focus.js
++++ b/es/Dom/focus.js
+@@ -129,13 +129,14 @@ function onWindowKeyDown(e) {
+     } = document;
+     const lastElement = getLastElement();
+     const focusableList = getFocusNodeList(lastElement);
++    const first = focusableList[0];
+     const last = focusableList[focusableList.length - 1];
+-    if (e.shiftKey && activeElement === focusableList[0]) {
+-      // Tab backward on first focusable element
+-      lastFocusElement = last;
+-    } else if (!e.shiftKey && activeElement === last) {
+-      // Tab forward on last focusable element
+-      lastFocusElement = focusableList[0];
++    const boundary = e.shiftKey ? first : last;
++    if (activeElement === boundary) {
++      // Tabbing out of the document would never dispatch focusin.
++      e.preventDefault();
++      const next = e.shiftKey ? last : first;
++      next.focus({ preventScroll: true });
+     }
+   }
+ }
+diff --git a/lib/Dom/focus.js b/lib/Dom/focus.js
+--- a/lib/Dom/focus.js
++++ b/lib/Dom/focus.js
+@@ -139,13 +139,14 @@ function onWindowKeyDown(e) {
+     } = document;
+     const lastElement = getLastElement();
+     const focusableList = getFocusNodeList(lastElement);
++    const first = focusableList[0];
+     const last = focusableList[focusableList.length - 1];
+-    if (e.shiftKey && activeElement === focusableList[0]) {
+-      // Tab backward on first focusable element
+-      lastFocusElement = last;
+-    } else if (!e.shiftKey && activeElement === last) {
+-      // Tab forward on last focusable element
+-      lastFocusElement = focusableList[0];
++    const boundary = e.shiftKey ? first : last;
++    if (activeElement === boundary) {
++      // Tabbing out of the document would never dispatch focusin.
++      e.preventDefault();
++      const next = e.shiftKey ? last : first;
++      next.focus({ preventScroll: true });
+     }
+   }
+ }
+diff --git a/lib/getScrollBarSize.js b/lib/getScrollBarSize.js
+index ccf03ac7c2e3d7d73fcfaaa210a3234d91e6ceec..ff6ab89371a56370d8f2adee99746befb842407c 100644
+--- a/lib/getScrollBarSize.js
++++ b/lib/getScrollBarSize.js
+@@ -9,6 +9,7 @@ var _dynamicCSS = require("./Dom/dynamicCSS");
+ /* eslint-disable no-param-reassign */
+ 
+ let cached;
++const targetSizes = new Map();
+ function measureScrollbarSize(ele) {
+   const randomId = `rc-scrollbar-measure-${Math.random().toString(36).substring(7)}`;
+   const measureEle = document.createElement('div');
+@@ -84,5 +85,11 @@ function getTargetScrollBarSize(target) {
+       height: 0
+     };
+   }
+-  return measureScrollbarSize(target);
++  // The measurement clones only these styles. Reuse that result instead of
++  // inserting a temporary stylesheet and invalidating the entire document.
++  const style = getComputedStyle(target);
++  const pseudo = getComputedStyle(target, '::-webkit-scrollbar');
++  const key = JSON.stringify([style.scrollbarColor, style.scrollbarWidth, pseudo.width, pseudo.height, window.devicePixelRatio]);
++  if (!targetSizes.has(key)) targetSizes.set(key, measureScrollbarSize(target));
++  return targetSizes.get(key);
+ }

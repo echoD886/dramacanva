@@ -1,0 +1,22 @@
+const messages = {
+    "canvasPresets.characterName": "Character sheet",
+    "canvasPresets.characterDescription": "Front, side, back, and expression references for a consistent character",
+    "canvasPresets.angleName": "Multiple camera angles",
+    "canvasPresets.angleDescription": "Create continuous camera angle changes around the same subject",
+    "canvasPresets.nextName": "Develop the next shot",
+    "canvasPresets.nextDescription": "Develop actions and shot transitions around the current frame",
+    "canvasPresets.beatsName": "Shot sequence",
+    "canvasPresets.beatsDescription": "Break a short story into a sequence of shots ready to generate",
+    "canvasPresets.lightName": "Cinematic lighting",
+    "canvasPresets.lightDescription": "Preserve the content while improving realistic lighting, depth, and integration",
+    "canvasPresets.videoName": "Refine video prompt",
+    "canvasPresets.videoDescription": "Organize shots into chronological instructions the model can follow",
+    "canvasPresets.added": "Added skill",
+    "canvasPresets.search": "Search presets or added skills",
+    "canvasPresets.skill": "Skill",
+    "canvasPresets.preset": "Preset",
+    "canvasPresets.empty": "No matching presets",
+    "canvasPresets.templates": "Prompt templates",
+    "canvasPresets.open": "Open prompt presets",
+} as const;
+export default messages;

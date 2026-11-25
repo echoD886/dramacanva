@@ -1,0 +1,66 @@
+{
+    "title": "Pick the right image style and build clean AI image prompts",
+    "metaDescription": "For creators whose AI images miss the mark or who need prompt help. Share an idea in chat for styles, six-part prompts, and a pitfall checklist on {brand}.",
+    "oneLiner": "Give it an idea: it organizes style and prompt cards on the canvas, great for images that keep missing the mark.",
+    "intro": [
+        "This is an assistant tool that helps you sort out drawing requirements. Many people's AI images go off track mostly because the instructions sent to the AI are too bare-bones and omit layout, style, or typography details.",
+        "You don't need to know complex terminology. Just tell it on the right side of the {brand} canvas, in your normal speaking tone, what theme you want to draw and where it will be used; you can also attach reference images.",
+        "When done, the canvas shows recommended styles, prompt cards split into six sections such as subject, composition, and style, plus a checklist to prevent garbled text."
+    ],
+    "example": {
+        "input": "I want to make a 16:9 coffee explainer infographic, with coffee beans on the left and brewing steps on the right. The image should look clean and professional.",
+        "output": "The canvas generates two to three recommended styles, organized six-section prompt cards (including notes on white space and preventing text from covering the subject), and a checklist for checking text overlap and crowded layout."
+    },
+    "scenarios": [
+        "When images keep missing the mark in a certain style and you need to fill in detailed composition and lighting requirements.",
+        "When you want multiple different objects in one image and worry their colors and features will blend together.",
+        "When making an explainer poster or chart and worry about garbled text or content getting crammed together.",
+        "When you only have a vague drawing idea and don't know which visual style to choose."
+    ],
+    "problems": [
+        {
+            "pain": "Writing your own requirements easily misses key points, so the AI improvises and the result doesn't match what you want.",
+            "solve": "Break the requirements into six parts—subject, composition, style, text, aspect ratio, and constraints—and fill in the key details all at once."
+        },
+        {
+            "pain": "When making explainer posters or charts, generated text often overlaps or turns into garbled characters, and the layout feels too crowded.",
+            "solve": "Add notes in the cards about reserving white space and keeping text clear of the subject, plus a dedicated checklist to help you avoid common flaws."
+        },
+        {
+            "pain": "When you want several different objects in one image, the generated image often has colors bleeding or elements blending together.",
+            "solve": "Help you set one clear main style and describe each object's position and features separately to reduce elements interfering with each other."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use this skill,” then send your drawing idea in the chat panel on the right.",
+        "Review the two or three style options recommended on the canvas and choose the best fit.",
+        "Check the six-section prompt cards generated on the canvas and adjust the details as needed.",
+        "Confirm the organized requirements and checklist are correct, then copy or download the results when satisfied."
+    ],
+    "faq": [
+        {
+            "q": "What if I don't know which style to choose for the image?",
+            "a": "Just describe how you'll use the image and your idea in the chat, and let it recommend two or three close style options first. You don't need to figure out every visual detail upfront—compare the overall color and composition direction on the canvas, then pick your favorite."
+        },
+        {
+            "q": "What if my AI images keep missing the mark and not matching expectations?",
+            "a": "Use this skill to break your idea into six sections and fill in the subject, layout, and style details to reduce misses. Images often go off track because the instructions sent to the AI lack clear composition, color, or lighting constraints. Check and fine-tune the generated prompt cards on the {brand} canvas, then copy the complete result to generate images when satisfied."
+        },
+        {
+            "q": "What if the text on a generated poster or chart turns into garbled characters?",
+            "a": "Reduce the number of information blocks in a single image and specify in the cards that blank areas should be reserved and text must not cover the subject. This usually happens because too much content is packed into one image or the text area sits too close to the main subject. You can edit the relevant text cards on the {brand} canvas and adjust the result step by step."
+        },
+        {
+            "q": "How can I keep colors from blending when I want several different objects in one image?",
+            "a": "The key is to keep only one main style in the prompt and describe each object's position and features separately. Don't mix descriptions of multiple objects into one sentence; draw clear boundaries wherever possible. This skill helps you sort out the requirements for different subjects on the canvas and avoid interference."
+        }
+    ],
+    "keywords": [
+        "AI image prompts",
+        "AI image style not matching",
+        "AI art style recommendations",
+        "fix garbled text in AI images",
+        "how to write image prompts",
+        "poster layout prompts"
+    ]
+}

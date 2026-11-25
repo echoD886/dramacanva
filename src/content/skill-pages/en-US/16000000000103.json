@@ -1,0 +1,66 @@
+{
+    "title": "AI Prompt Optimization: Make Weak Instructions Reliable",
+    "metaDescription": "For AI creators dealing with off-track answers or messy formatting. Send your needs to get a reusable prompt card with rules and notes.",
+    "oneLiner": "Enter the instructions you normally jot down, and get a reusable prompt card on the canvas.",
+    "intro": [
+        "This is a tool that helps you optimize prompts (the requests and instructions you send to AI). If AI’s answers feel inconsistent when you give it tasks, it can turn your requirements into a clear, structured template.",
+        "Just prepare the requests that usually don’t work well, the results you want from AI, or the output format you want, and type them into the chat box.",
+        "When it’s done, you’ll get a text card on the canvas with the assigned role, formatting constraints, and cases where it may break down. You can copy and save it to reuse next time."
+    ],
+    "example": {
+        "input": "“I want AI to help me write short-video scripts, but it often ignores the table format in my prompts and goes off-topic after a couple of lines. Help me revise this.”",
+        "output": "A prompt text card is generated on the canvas: it includes a fixed persona and tone, table field specifications, constraints against filler, and reminders to prevent forgetting in long conversations."
+    },
+    "scenarios": [
+        "You want a fixed instruction template because AI responses are inconsistent when generating content.",
+        "AI tends to forget earlier settings and background requirements as the conversation gets longer.",
+        "AI answers are too wordy or don’t follow the specified table layout, so you need to constrain the output style.",
+        "You want to save effective prompting methods you’ve tried so you can reuse them later."
+    ],
+    "problems": [
+        {
+            "pain": "Every time you send AI instructions, it’s purely by feel—what works today may not work tomorrow.",
+            "solve": "It organizes a fixed instruction framework for you and marks the boundaries where it may fail, making it easier to troubleshoot."
+        },
+        {
+            "pain": "Once the conversation gets a bit long, AI forgets the persona and requirements set at the beginning.",
+            "solve": "It breaks core requirements and restrictions into fixed rules and prompts you to reference them upfront, reducing forgetting in long conversations."
+        },
+        {
+            "pain": "AI often doesn’t follow instructions, gives long generic responses, and ignores the required table format.",
+            "solve": "It adds clear formatting rules and restrictions to constrain the length and format of AI output as much as possible."
+        }
+    ],
+    "steps": [
+        "In the skill library, click “Use This Skill” to open the chat box on the right side of the canvas.",
+        "Describe your creative needs and send the instructions that usually don’t work well.",
+        "Review the prompt card generated on the canvas; you can edit the text directly.",
+        "Copy or download the prompt from the card and keep it as a template for repeated use."
+    ],
+    "faq": [
+        {
+            "q": "Why are AI’s answers inconsistent every time I give it requirements?",
+            "a": "It’s usually because the instructions are too vague or lack specific constraints. You can clearly separate the role, formatting requirements, and restrictions into layers to reduce improvisation. After generating a card on the canvas, you can also note the versions that work well and refine them over time."
+        },
+        {
+            "q": "How can I keep AI from forgetting earlier requirements in a long conversation?",
+            "a": "List tone requirements and core restrictions separately, and reference them again before key exchanges. Try not to mix all settings into one long block; layered instructions can help AI stay on track and reduce drift."
+        },
+        {
+            "q": "What should I do if AI answers are often too wordy and don’t follow the table layout?",
+            "a": "Write the output format and word limit separately at the end of your requirements. Clearly list which columns the table needs and add restrictions such as “no filler.” After generating the card on the canvas, you can also manually edit details at any time."
+        },
+        {
+            "q": "How do I create a reusable prompt template?",
+            "a": "Write frequently changing content separately from fixed rules. For example, make the specific request the part you replace each time, and keep formatting and tone rules fixed. Next time, you only need to replace the content, making it easier to get consistent answers."
+        }
+    ],
+    "keywords": [
+        "prompt optimization",
+        "AI prompt template",
+        "inconsistent prompt results",
+        "AI answers off track",
+        "how to write prompts",
+        "how to write AI character persona"
+    ]
+}

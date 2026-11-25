@@ -1,0 +1,64 @@
+diff --git a/es6/util/DOMUtils.js b/es6/util/DOMUtils.js
+index 683f911744b18351e1e593da946bd937d8bf93f4..d36f9b824b1c5f910cf84e6a9ec831b05f0b6f8b 100644
+--- a/es6/util/DOMUtils.js
++++ b/es6/util/DOMUtils.js
+@@ -21,6 +21,7 @@ var SPAN_STYLE = {
+   whiteSpace: 'pre'
+ };
+ var MEASUREMENT_SPAN_ID = 'recharts_measurement_span';
++var measurementHost;
+ function createCacheKey(text, style) {
+   // Simple string concatenation for better performance than JSON.stringify
+   var fontSize = style.fontSize || '';
+@@ -40,12 +41,17 @@ function createCacheKey(text, style) {
+  */
+ var measureTextWithDOM = (text, style) => {
+   try {
+-    var measurementSpan = document.getElementById(MEASUREMENT_SPAN_ID);
++    var measurementSpan = measurementHost && measurementHost.shadowRoot.getElementById(MEASUREMENT_SPAN_ID);
+     if (!measurementSpan) {
+       measurementSpan = document.createElement('span');
+       measurementSpan.setAttribute('id', MEASUREMENT_SPAN_ID);
+       measurementSpan.setAttribute('aria-hidden', 'true');
+-      document.body.appendChild(measurementSpan);
++      // Keep inherited typography, but isolate repeated text/style mutations
++      // from document selectors and layout. This host is never visible.
++      measurementHost = document.createElement('div');
++      Object.assign(measurementHost.style, { position: 'absolute', top: '-20000px', left: '0', contain: 'layout style paint', pointerEvents: 'none' });
++      measurementHost.attachShadow({ mode: 'open' }).appendChild(measurementSpan);
++      document.body.appendChild(measurementHost);
+     }
+ 
+     // Apply styles directly without unnecessary object creation
+diff --git a/lib/util/DOMUtils.js b/lib/util/DOMUtils.js
+index 5d8fd38960fdee94d61e1d62929f1f398dd8a052..c27d69dd0f621aa0891560ec4460b0337c905e58 100644
+--- a/lib/util/DOMUtils.js
++++ b/lib/util/DOMUtils.js
+@@ -27,6 +27,7 @@ var SPAN_STYLE = {
+   whiteSpace: 'pre'
+ };
+ var MEASUREMENT_SPAN_ID = 'recharts_measurement_span';
++var measurementHost;
+ function createCacheKey(text, style) {
+   // Simple string concatenation for better performance than JSON.stringify
+   var fontSize = style.fontSize || '';
+@@ -46,12 +47,17 @@ function createCacheKey(text, style) {
+  */
+ var measureTextWithDOM = (text, style) => {
+   try {
+-    var measurementSpan = document.getElementById(MEASUREMENT_SPAN_ID);
++    var measurementSpan = measurementHost && measurementHost.shadowRoot.getElementById(MEASUREMENT_SPAN_ID);
+     if (!measurementSpan) {
+       measurementSpan = document.createElement('span');
+       measurementSpan.setAttribute('id', MEASUREMENT_SPAN_ID);
+       measurementSpan.setAttribute('aria-hidden', 'true');
+-      document.body.appendChild(measurementSpan);
++      // Keep inherited typography, but isolate repeated text/style mutations
++      // from document selectors and layout. This host is never visible.
++      measurementHost = document.createElement('div');
++      Object.assign(measurementHost.style, { position: 'absolute', top: '-20000px', left: '0', contain: 'layout style paint', pointerEvents: 'none' });
++      measurementHost.attachShadow({ mode: 'open' }).appendChild(measurementSpan);
++      document.body.appendChild(measurementHost);
+     }
+ 
+     // Apply styles directly without unnecessary object creation

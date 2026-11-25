@@ -1,0 +1,66 @@
+{
+    "title": "Decisão de tema e plano: critérios e falhas potenciais",
+    "metaDescription": "Para criadores indecisos sobre tema e plano. Insira ideias e dúvidas; a IA analisa critérios, a objeção mais forte e as condições de falha, e gera cards.",
+    "oneLiner": "Ferramenta de texto que gera no canvas a análise e os contra-argumentos de um plano ou tema.",
+    "intro": [
+        "É uma ferramenta para organizar as ideias antes de tomar uma decisão. Quando você não tem certeza se um tema ou plano é bom, ela ajuda a analisar por vários ângulos, evitando concluir só por intuição.",
+        "Basta escrever no chat à direita o tema que pretende abordar, a ideia central e o que você já sabe da situação real. Se a equipe tiver opiniões divergentes, inclua também os pontos de discordância.",
+        "A IA gera no canvas alguns cards de texto com a análise dedutiva, a objeção mais forte e em que condições essa conclusão deixa de valer. Você pode copiar ou baixar diretamente."
+    ],
+    "example": {
+        "input": "Quero gravar uma série de vídeos curtos de humor sobre o ambiente de trabalho, voltada a jovens recém-formados, mas temo que haja conteúdo demais do mesmo tipo e ninguém assista; não sei se devo fazer.",
+        "output": "No canvas serão gerados alguns cards de texto: eles listam ângulos de reflexão adequados e a análise dedutiva, apontam a objeção mais forte ligada à concorrência por conteúdo semelhante e indicam em que condições a conclusão deixa de valer."
+    },
+    "scenarios": [
+        "Quando você tem alguns temas de vídeo em mente, mas não consegue decidir e precisa verificar por diferentes ângulos qual é mais confiável.",
+        "Quando a equipe de criação discute sem chegar a um acordo, cada um defende seu ponto e é preciso organizar objetivamente os argumentos de cada lado.",
+        "Quando você está muito satisfeito com a própria ideia, até de forma um pouco cega, e quer procurar ativamente falhas potenciais e contra-argumentos.",
+        "Quando você produz conteúdo há muito tempo sem bons resultados e quer sair das fórmulas antigas e buscar um novo ponto de diferenciação."
+    ],
+    "problems": [
+        {
+            "pain": "Escolher o tema por intuição e só perceber, depois de publicar sem repercussão, que a ideia já tinha falhas desde o início.",
+            "solve": "Gerar no canvas cards de análise sob vários ângulos e simular o processo de decisão ajuda você a perceber antes o que deixou passar."
+        },
+        {
+            "pain": "Nas discussões de equipe sobre um plano, cada um insiste na própria opinião, e a decisão acaba ficando com quem fala mais alto.",
+            "solve": "Dividir as opiniões de cada lado em cards de texto, listando argumentos e inferências, permite que todos discutam racionalmente com base no que está escrito."
+        },
+        {
+            "pain": "Sentir que o próprio plano não tem defeitos e não ter ninguém por perto disposto a apontar opiniões contrárias.",
+            "solve": "A ferramenta lista ativamente a objeção mais forte e as condições de falha, ajudando você a enxergar os riscos potenciais com objetividade."
+        }
+    ],
+    "steps": [
+        "No acervo de habilidades, clique em «Usar esta habilidade» para abrir a interface de criação no canvas.",
+        "Envie sua proposta de tema, suas principais preocupações ou a discordância da equipe e acrescente os fatos conhecidos.",
+        "Veja os cards de análise gerados no canvas e leia o processo de dedução e a objeção mais forte.",
+        "Copie ou baixe o resultado; você também pode editar o texto no canvas ou pedir ao assistente para refazer a análise."
+    ],
+    "faq": [
+        {
+            "q": "Como usar esta habilidade para verificar se um tema de vídeo é confiável?",
+            "a": "Envie o tema e as preocupações no chat à direita; a IA vai deduzir os critérios no canvas e listar a objeção mais forte, ajudando você a verificar falhas de lógica. Use os cards de texto gerados para avaliar o risco, edite o texto diretamente no canvas ou peça ao assistente para ajustar o rumo e refazer a análise."
+        },
+        {
+            "q": "Por que o resultado da análise sempre inclui uma “objeção” específica?",
+            "a": "Isso serve para evitar otimismo cego e pontos cegos de raciocínio. A habilidade, por padrão, encontra a objeção mais forte e as condições de falha, ajudando você a ver os riscos potenciais com antecedência. Saber em que condições o plano deixa de valer permite se preparar antes de investir de fato na produção ou ajustar o rumo a tempo."
+        },
+        {
+            "q": "Como esta ferramenta pode nos ajudar quando a equipe discorda sobre o plano?",
+            "a": "Ela transforma os pontos de vista em disputa, os fatos conhecidos e os argumentos em cards de texto claros, para a equipe discutir racionalmente com base em fatos objetivos. No canvas do {brand}, é possível comparar visualmente o processo de dedução e os contra-argumentos; assim, em vez de discutir por impulso, todos chegam mais facilmente a um consenso sobre o plano."
+        },
+        {
+            "q": "As recomendações de decisão apresentadas no canvas podem ser seguidas diretamente?",
+            "a": "Não podem ser seguidas diretamente. Elas servem principalmente para ajudar a organizar a lógica e revisar falhas por conta própria, e a análise dedutiva apresentada não substitui testes reais nem experiência. Recomendamos considerar os recursos reais disponíveis, o custo de produção e o retorno da equipe, ajustar e aprimorar no canvas e só então tomar a decisão final de criação."
+        }
+    ],
+    "keywords": [
+        "avaliação de pauta",
+        "análise de ideia de conteúdo",
+        "lógica de pauta para vídeo",
+        "teste de viabilidade de projeto",
+        "discordância sobre plano em equipe",
+        "encontrar falhas na pauta"
+    ]
+}

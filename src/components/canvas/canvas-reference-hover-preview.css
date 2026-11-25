@@ -1,0 +1,65 @@
+.canvas-reference-hover-preview {
+    position: fixed;
+    z-index: var(--z-dialog-popover);
+    max-width: calc(100vw - var(--space-4));
+    overflow: hidden;
+    border: 1px solid;
+    border-radius: var(--r-xl);
+    opacity: 0;
+    transition: opacity 120ms ease;
+}
+
+.canvas-reference-hover-preview[data-visible="true"] {
+    opacity: 1;
+}
+
+.canvas-reference-hover-media {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: var(--muted);
+}
+
+.canvas-reference-hover-frame {
+    position: relative;
+}
+
+.canvas-reference-hover-skeleton {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: var(--muted);
+}
+
+.canvas-reference-hover-fallback {
+    display: flex;
+    height: min(var(--space-24), var(--canvas-reference-preview-available-height));
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    background: var(--muted);
+}
+
+.canvas-reference-hover-fallback svg {
+    width: var(--space-8);
+    height: var(--space-8);
+}
+
+.canvas-reference-hover-name {
+    overflow: hidden;
+    padding: var(--space-2) var(--space-3);
+    font-size: var(--fs-caption);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.canvas-reference-hover-preview audio {
+    display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .canvas-reference-hover-preview {
+        transition: none;
+    }
+}

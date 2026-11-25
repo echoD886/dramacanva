@@ -1,0 +1,67 @@
+{
+    "title": "Polir prosa: transforme rascunho em detalhes reais | {brand}",
+    "metaDescription": "Evite texto vazio: envie o rascunho ao {brand}; o assistente troca termos abstratos por detalhes reais e exporta versão com marcações e ajustes.",
+    "oneLiner": "Insira o rascunho do artigo e gere na tela uma nova versão de prosa com detalhes reais e uma lista de ajustes.",
+    "intro": [
+        "Esta é uma ferramenta de escrita que ajuda a revisar seus textos. Quando você sente que sua prosa ou ensaio está vago demais, com palavras grandiosas demais, ela troca os termos abstratos por detalhes concretos da vida real.",
+        "Basta preparar um rascunho de artigo já escrito ou alguns trechos da vida que registraram sua inspiração. Se quiser manter um ponto de vista ou limite de palavras, também pode dizer isso diretamente ao assistente.",
+        "Depois da revisão, você recebe três coisas na tela: uma nova versão da prosa com os detalhes das alterações marcados, uma explicação da estrutura do texto e uma lista concreta de ajustes de vocabulário."
+    ],
+    "example": {
+        "input": "Ajude-me a revisar este ensaio: “Vovô era uma pessoa muito econômica, vivia de forma bem simples, sofreu muito na vida, mas continuou otimista e gentil.”",
+        "output": "Gere na tela a versão revisada, trocando “muito econômica” por “sempre guardava cupons de racionamento antigos e sapatos de pano com a sola gasta”; também gere a explicação da estrutura do texto e a lista de ajustes de palavras."
+    },
+    "scenarios": [
+        "Ao escrever prosa ou ensaio, sentir que o texto inteiro é feito de palavras grandiosas e carece de detalhes reais da vida.",
+        "Escrever diálogos de personagens diretos demais, como se apenas explicassem o enredo, deixando a leitura sem graça, rígida e sem textura.",
+        "Descrever cenas do cotidiano como uma lista de tarefas, sem capturar os detalhes que geram identificação.",
+        "Ao descrever paisagens ou ambientes, empilhar adjetivos demais e querer enxugar o texto, deixando algo para o leitor sentir depois."
+    ],
+    "problems": [
+        {
+            "pain": "O texto é só adjetivos, e o leitor termina achando falso, sem imagens mentais.",
+            "solve": "Ajuda a identificar adjetivos vagos, trocá-los por marcas concretas da vida e indicar o motivo das mudanças."
+        },
+        {
+            "pain": "Os diálogos são diretos demais, cada fala explica o enredo e soa rígida.",
+            "solve": "Reduz frases que concluem de forma direta e as troca por falas com hesitação e ações, deixando os personagens mais vivos."
+        },
+        {
+            "pain": "Escrever pequenos acontecimentos do cotidiano como um relatório, sem captar detalhes que comovem.",
+            "solve": "Seleciona detalhes com textura real, ajuda a definir prioridades e a criar um ritmo com altos e baixos."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir a caixa de diálogo do canvas.",
+        "Envie o rascunho do seu artigo; se quiser, acrescente exigências de número de palavras ou ponto de vista narrativo.",
+        "Veja na tela a nova versão revisada, a explicação da estrutura e a lista de ajustes.",
+        "Edite o texto no cartão ou peça ao assistente para refazer o polimento dos trechos que não o agradaram.",
+        "Copie ou baixe o texto revisado e use-o diretamente em seus trabalhos."
+    ],
+    "faq": [
+        {
+            "q": "Como evitar que a prosa fique vaga e grandiosa?",
+            "a": "Use detalhes concretos e visíveis da vida no lugar de palavras abstratas: primeiro remova adjetivos desnecessários e depois acrescente marcas reais do cotidiano. Por exemplo, troque “muito triste” por um gesto de abaixar a cabeça em silêncio; o assistente identifica termos vagos e faz as substituições na tela."
+        },
+        {
+            "q": "Os diálogos dos personagens estão rígidos, como se estivessem explicando o enredo. O que fazer?",
+            "a": "Reduza conclusões que explicam o enredo diretamente e troque por perguntas e respostas com ações e subtexto. Envie o rascunho do diálogo ao assistente; ele remove frases explicativas e rígidas e deixa os personagens expressarem emoções de forma natural pela interação."
+        },
+        {
+            "q": "Meus ensaios do cotidiano parecem sempre um relatório. Como revisar?",
+            "a": "Aprenda a deixar espaço no texto e escolher os detalhes principais, mantendo apenas aquilo que mostra marcas da vida, sem narrar todos os passos de forma plana. Envie o ensaio ao assistente; ele organiza a estrutura do texto e cria um ritmo de leitura com altos e baixos."
+        },
+        {
+            "q": "Que materiais preciso preparar antes de usar?",
+            "a": "Basta preparar um rascunho de artigo já escrito ou alguns trechos da vida que registram inspirações. Se tiver um ponto de vista ou limite de extensão específico, também pode dizer isso diretamente ao assistente na caixa de diálogo."
+        }
+    ],
+    "keywords": [
+        "polir prosa",
+        "revisão de texto",
+        "escrever sem cara de IA",
+        "como escrever ensaio com detalhes",
+        "revisar diálogos de personagens",
+        "como escrever com imagens vívidas"
+    ]
+}

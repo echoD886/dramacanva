@@ -1,0 +1,66 @@
+{
+    "title": "Envie foto da roupa e gere looks para o Xiaohongshu",
+    "metaDescription": "Para lojas de roupa e criadores de looks: envie a peça, a IA combina acessórios e cenário e gera 5 fotos casuais de look para o Xiaohongshu.",
+    "oneLiner": "Envie a foto da roupa e gere na tela looks para o Xiaohongshu; ideal para lojas de roupa.",
+    "intro": [
+        "É uma ferramenta de imagens para lojas de roupa e criadores de conteúdo: envie a foto da peça disposta plana, confirme a combinação e gere na tela 5 fotos de look como se fossem cliques espontâneos de alguém real.",
+        "Você só precisa de uma foto da roupa disposta plana ou de uma peça avulsa. Se tiver apenas uma ideia por escrito, também pode enviar por texto a cor, o corte e o estilo que gosta.",
+        "Ao final, você recebe na tela 5 fotos de look em cenários diferentes. As imagens usam proporção 3:4, mantêm detalhes reais da roupa e luz natural, e podem ser baixadas para uso."
+    ],
+    "example": {
+        "input": "Envie uma foto de um cardigã de tricô branco disposto sobre uma superfície e digite: “Quero um estilo coreano para o dia a dia, com foto na porta de uma cafeteria”.",
+        "output": "A tela primeiro mostra sugestões de combinação para você confirmar. Depois de confirmar, gera 5 imagens: a modelo veste o cardigã, com calça jeans e bolsa de lona, segurando um copo de café em uma cafeteria na rua, com pose natural."
+    },
+    "scenarios": [
+        "Lojas de roupa têm apenas fotos da peça disposta plana e querem imagens vestidas com aparência de vida real para publicar.",
+        "Ter apenas uma blusa ou calça avulsa e querer ver com que jaqueta e bolsa combinar.",
+        "Querer gerar fotos de look de modelo como se fossem cliques feitos com o celular, sem imagens rígidas de estúdio.",
+        "Precisar da mesma roupa em fotos de look em cenários cotidianos diferentes, como cafeteria e rua antiga."
+    ],
+    "problems": [
+        {
+            "pain": "As imagens de modelo geradas por IA parecem manequins de plástico e, nas redes sociais, não parecem um compartilhamento de pessoa real.",
+            "solve": "Simula a textura de fotos casuais feitas com celular, preservando detalhes naturais da pele e a luz do ambiente para criar sensação de clique espontâneo."
+        },
+        {
+            "pain": "Ter só uma peça de roupa, não saber como combinar e gerar uma imagem muito monótona.",
+            "solve": "Combina ativamente chapéus, bolsas e sobreposições de jaquetas de acordo com o estilo da roupa; primeiro apresenta a proposta para confirmação e depois gera."
+        },
+        {
+            "pain": "As poses da modelo gerada ficam rígidas, paradas de mãos vazias, como ensaio de estúdio, e falta cotidiano.",
+            "solve": "Propõe ações naturais como segurar café, olhar o celular e inclinar a cabeça, combinando com cenários de rua e interiores cotidianos."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para abrir a tela do {brand}.",
+        "Envie uma foto da roupa disposta plana ou uma foto da peça e descreva brevemente o estilo que você quer.",
+        "Veja as sugestões de combinação e cenário na tela e confirme ou ajuste os detalhes.",
+        "Gere 5 fotos de look em cenários diferentes e baixe as que você gostar."
+    ],
+    "faq": [
+        {
+            "q": "Como fazer as imagens de look geradas por IA parecerem cliques espontâneos de uma pessoa real?",
+            "a": "A habilidade usa por padrão uma textura de foto feita com celular, preserva texturas naturais da pele e a luz e combina ações cotidianas para dar sensação de clique espontâneo. A imagem também inclui naturalmente elementos de rua e ações como segurar café; se quiser um clima especial, você pode pedir ao assistente para alternar para textura CCD ou de filme."
+        },
+        {
+            "q": "Tenho só uma blusa ou um vestido avulso; é possível criar um look completo?",
+            "a": "Sim. A habilidade combina ativamente jaquetas, bolsas, chapéus e sapatos de acordo com o estilo da peça, formando um look completo em camadas. O assistente primeiro mostra na tela a proposta completa para você confirmar e, depois que aprovar, começa a gerar as imagens finais da roupa vestida."
+        },
+        {
+            "q": "A IA pode deformar a modelagem da roupa ou errar detalhes?",
+            "a": "Pode haver pequenos desvios, mas a habilidade tenta ao máximo reproduzir o caimento, a cor e os detalhes principais da roupa, sem alterar o design original de forma arbitrária. Recomendamos enviar uma foto nítida e plana da peça e indicar as características principais; se não gostar dos detalhes gerados, você pode pedir ao assistente na tela para modificar e gerar novamente."
+        },
+        {
+            "q": "As imagens de look geradas podem ser publicadas diretamente no Xiaohongshu?",
+            "a": "Sim. As imagens usam o padrão 3:4 do Xiaohongshu e têm alta nitidez; a cada vez, 5 fotos de cenários diferentes são geradas na tela. Escolha as que gostar e baixe diretamente para salvar no celular e publicar, sem precisar cortar ou ajustar de novo."
+        }
+    ],
+    "keywords": [
+        "gerador de look com IA para Xiaohongshu",
+        "transformar foto de roupa em look vestido",
+        "foto de look casual com IA",
+        "combinação de peças de roupa com IA",
+        "gerar look diário para Xiaohongshu",
+        "criar foto de roupa vestida com IA"
+    ]
+}

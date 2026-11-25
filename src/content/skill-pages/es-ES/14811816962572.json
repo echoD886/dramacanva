@@ -1,0 +1,67 @@
+{
+    "title": "Sube una foto de ropa y genera 5 looks de modelo",
+    "metaDescription": "Para tiendas de ropa online: sube una foto y la IA crea 5 imágenes de modelo en estudio con peinado, accesorios y estilos distintos, descargables.",
+    "oneLiner": "Sube una foto de una prenda y crea en el lienzo 5 imágenes de modelo con looks distintos para vender ropa.",
+    "intro": [
+        "Es una herramienta para que los vendedores de ropa creen imágenes de presentación. A partir de la prenda que vendes, diseña 5 estilos de outfit y propuestas de sesión de estudio para distintos perfiles de cliente, de modo que la misma prenda muestre 5 efectos distintos puesta.",
+        "Solo necesitas preparar una foto clara de la prenda extendida o una foto real. Si no tienes imagen, también puedes escribir directamente en el chat indicando el modelo, el color y el tejido de la prenda.",
+        "Al terminar, obtendrás en el lienzo 5 imágenes verticales de modelo en formato 3:4 con fondo limpio, con peinado y accesorios combinados. Puedes ajustar por separado lo que no te convenza y volver a generarlo, o descargarlas directamente para usarlas."
+    ],
+    "example": {
+        "input": "Sube una foto de una camisa blanca de lino holgada extendida y escribe: quiero ver combinaciones distintas para ir a la oficina, estilo casual francés y aire de vacaciones.",
+        "output": "En el lienzo se mostrarán primero 5 propuestas de estilismo para que las confirmes; tras confirmarlas, se generarán 5 imágenes verticales 3:4 de la modelo con la prenda puesta, que muestran distintos estilos, como pantalón de traje y accesorios para la oficina o sombrero de paja para vacaciones, y podrás descargarlas directamente."
+    },
+    "scenarios": [
+        "Cuando solo tienes la foto de la prenda extendida o colgada y quieres crear imágenes de modelo con la prenda puesta para la tienda online a bajo coste.",
+        "Cuando el lanzamiento de una nueva prenda tiene plazos ajustados, no llegas a reservar estudio y modelo, y necesitas imágenes cuanto antes para probar el producto.",
+        "Cuando quieres vender la misma prenda a compradores con gustos distintos y necesitas mostrar varios estilos de outfit.",
+        "Cuando no tienes presupuesto para fotografía comercial y quieres crear una serie de imágenes de estudio con luz limpia y una textura realista del tejido."
+    ],
+    "problems": [
+        {
+            "pain": "Contratar modelos comerciales y un estudio supone un gasto y un plazo elevados; la nueva prenda no llega a tiempo para las fotos.",
+            "solve": "Sube una foto de la prenda y genera directamente 5 imágenes verticales 3:4 de modelo en estudio, lo que reduce el gasto inicial de buscar modelo y alquilar estudio."
+        },
+        {
+            "pain": "Las imágenes de modelo creadas con IA suelen parecer maniquíes y la textura del tejido no resulta real.",
+            "solve": "Simula la iluminación de un estudio profesional y conserva el detalle real del tejido de la prenda para acercarse todo lo posible a la textura de una foto real y reducir la sensación de maniquí de plástico."
+        },
+        {
+            "pain": "La prenda solo tiene una forma de llevarse y resulta demasiado monótona; no sabes cómo combinar accesorios y peinado.",
+            "solve": "La IA analiza el estilo de la prenda y propone peinados y accesorios específicos para 5 tipos de cliente; primero muestra las propuestas para que las confirmes."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» y empieza a crear desde el chat del lado derecho del lienzo.",
+        "Sube una foto de la prenda extendida o escribe una descripción del color y las características del tejido.",
+        "Revisa las 5 propuestas de estilismo que enumera la IA y confírmalas o pide ajustes.",
+        "Comprueba las 5 imágenes de modelo generadas en el lienzo y di al asistente qué quieres cambiar para volver a generarlas.",
+        "Elige las imágenes de modelo que te convenzan, consulta el detalle y descarga las imágenes."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo puedo convertir con IA la foto de una prenda extendida en una imagen de modelo con la prenda puesta?",
+            "a": "Sube la foto de la prenda extendida en el lienzo de {brand} y, tras confirmar la propuesta de estilismo con el asistente, podrás generar 5 imágenes de modelo en estudio. El sistema analiza automáticamente el estilo y el tejido de la prenda para combinarlos con peinado y accesorios. Si algún detalle no te convence, indica al asistente los cambios y vuelve a generar."
+        },
+        {
+            "q": "¿Puedo usarlo solo con una descripción de texto, sin foto real de la prenda?",
+            "a": "Puedes generar directamente a partir de una descripción de texto. Escribe en el chat la categoría, el color, el corte y las características del tejido de la prenda, y también obtendrás 5 imágenes de modelo con distintos looks. Aun así, si facilitas una foto de referencia nítida del producto, los detalles se parecerán más al original."
+        },
+        {
+            "q": "¿Puedo modificar el aspecto, el peinado o la pose de la modelo generada si no me convencen?",
+            "a": "Puedes modificarlos y volver a generar cuando quieras. Antes de generar las imágenes, puedes ajustar la propuesta de estilismo y pose. Una vez creadas, también puedes indicar al asistente los cambios que quieres y regenerar solo la imagen que no te convenza."
+        },
+        {
+            "q": "¿Las imágenes de modelo se pueden usar directamente como imagen principal de la tienda online?",
+            "a": "Puedes usarlas directamente como imagen principal o imágenes de la ficha de producto. De forma predeterminada, las imágenes usan el formato vertical 3:4 habitual en comercio electrónico y un fondo de estudio limpio, con el sujeto centrado y los detalles nítidos. Cuando termines, elige las que te gusten y descárgalas."
+        }
+    ],
+    "keywords": [
+        "pasar foto de ropa a modelo",
+        "modelos con IA para ropa",
+        "crear fotos de modelo para tienda online",
+        "probar ropa en modelo virtual",
+        "fotos de estudio de ropa online",
+        "imágenes de modelo IA con ropa puesta"
+    ]
+}

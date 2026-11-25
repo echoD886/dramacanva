@@ -1,0 +1,273 @@
+/* Pricing-only liquid glass. The layout, billing values and FAQ rows stay intact. */
+:root:has(.libtv-pricing-page) .ll-home-campaign {
+    background: #080c10;
+}
+:root:has(.libtv-pricing-page) .ll-home-campaign-inner {
+    border: 1px solid rgba(255,255,255,.4);
+    background: linear-gradient(112deg, rgba(81,99,113,.44), rgba(41,50,62,.65) 51%, rgba(100,83,82,.38));
+    box-shadow: inset 0 1px 1px rgba(255,255,255,.52), inset 0 -1px rgba(255,255,255,.1), 0 10px 26px rgba(0,0,0,.22);
+    -webkit-backdrop-filter: blur(28px) saturate(145%);
+    backdrop-filter: blur(28px) saturate(145%);
+}
+:root:has(.libtv-pricing-page) .ll-home-countdown {
+    border: 1px solid rgba(255,255,255,.25);
+    background: rgba(255,255,255,.13);
+    box-shadow: inset 0 1px rgba(255,255,255,.22);
+}
+:root:has(.libtv-pricing-page) .ll-home-campaign-inner > a {
+    color: #102534;
+    background: rgba(255,255,255,.9);
+    box-shadow: inset 0 1px rgba(255,255,255,.9), 0 3px 12px rgba(0,0,0,.13);
+}
+.libtv-pricing-page {
+    --pricing-glass-fill: linear-gradient(138deg, rgba(255,255,255,.18), rgba(218,233,242,.075) 42%, rgba(255,255,255,.095) 100%);
+    --pricing-glass-rim: rgba(255,255,255,.48);
+    --pricing-glass-shadow: inset 0 2px 1px rgba(255,255,255,.54), inset 0 -1px rgba(255,255,255,.1), 0 22px 56px rgba(0,0,0,.27), 0 3px 9px rgba(0,0,0,.09);
+    background-color: #080c10;
+    background-image:
+        radial-gradient(ellipse 48% 17% at 42% 17%, rgba(72,141,177,.15), transparent 80%),
+        radial-gradient(ellipse 40% 18% at 81% 41%, rgba(153,108,123,.1), transparent 82%),
+        radial-gradient(ellipse 52% 20% at 28% 70%, rgba(76,138,164,.12), transparent 82%);
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan-carousel { position: relative; isolation: isolate; }
+.libtv-pricing-page:not(.is-byok) .libtv-plan-rail { position: relative; z-index: 1; }
+.libtv-pricing-page:not(.is-byok) .libtv-plan-carousel::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    inset: -12% -5%;
+    pointer-events: none;
+    opacity: 1;
+    background:
+        radial-gradient(ellipse 23% 45% at 12% 54%, rgba(68,161,204,.29), transparent 88%),
+        radial-gradient(ellipse 20% 46% at 49% 43%, rgba(138,118,186,.22), transparent 88%),
+        radial-gradient(ellipse 25% 40% at 83% 64%, rgba(222,130,94,.21), transparent 88%),
+        url("/libtv-pricing/seedance-promo-source.webp") center / cover no-repeat;
+    -webkit-mask-image: radial-gradient(ellipse 75% 48% at 55% 55%, #000 12%, transparent 95%);
+    mask-image: radial-gradient(ellipse 75% 48% at 55% 55%, #000 12%, transparent 95%);
+}
+.libtv-pricing-page :is(
+    .libtv-cycle-switch, .libtv-credit-store, .sa-value-controls,
+    .sa-pricing-reference-group, .libtv-generation-scroll, .libtv-enterprise-strip,
+    .sa-credit-pack, .sa-credit-custom, .sa-credit-custom-total,
+    .sa-credit-membership-distinction, .sa-byok-master, .sa-byok-offer,
+    .sa-byok-pillars article, .sa-byok-calculator, .sa-byok-comparison article,
+    .sa-byok-protocols span, .sa-byok-outcomes article,
+    .libtv-plan--byok .libtv-plan-hero, .libtv-byok-modal,
+    .libtv-pricing-notice > div
++) {
+    border: 1px solid var(--pricing-glass-rim);
+    background: var(--pricing-glass-fill);
+    box-shadow: var(--pricing-glass-shadow);
+    -webkit-backdrop-filter: blur(32px) saturate(135%);
+    backdrop-filter: blur(32px) saturate(135%);
+}
+.libtv-pricing-page :is(.sa-value-controls, .sa-pricing-reference-group, .libtv-generation-scroll, .libtv-enterprise-strip, .sa-credit-pack, .sa-credit-custom, .sa-byok-master, .sa-byok-offer) { border-radius: 26px; }
+.libtv-pricing-page:not(.is-byok) .libtv-plan {
+    border: 1px solid var(--pricing-glass-rim);
+    background: var(--pricing-glass-fill);
+    box-shadow: var(--pricing-glass-shadow);
+    -webkit-backdrop-filter: blur(32px) saturate(135%);
+    backdrop-filter: blur(32px) saturate(135%);
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    border-radius: 32px;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    border-radius: inherit;
+    background: linear-gradient(112deg, rgba(255,255,255,.14), transparent 30%, transparent 68%, rgba(255,255,255,.06)),
+        radial-gradient(ellipse 88% 31% at 26% 0%, rgba(255,255,255,.11), transparent 85%);
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan > * { position: relative; z-index: 1; }
+.libtv-pricing-page:not(.is-byok) .libtv-plan::after {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    z-index: 2;
+    border-radius: inherit;
+    pointer-events: none;
+    box-shadow: inset 2px 2px 1px rgba(255,255,255,.5), inset -2px -2px 1px rgba(255,255,255,.19), inset 0 0 0 1px rgba(255,255,255,.08);
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan-hero,
+.libtv-pricing-page:not(.is-byok) .libtv-plan-benefits {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan--luxury {
+    border-color: rgba(171,226,245,.64);
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan--supreme {
+    border-color: rgba(255,207,171,.64);
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan-banner {
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,.22);
+    border-radius: 31px 31px 0 0;
+    color: #fff;
+    /* Keep the plan signal readable through the glass: Luxury is cyan and
+       Supreme is gold. A low-alpha neutral wash makes both disappear into
+       the card surface on dark displays. */
+    background: linear-gradient(116deg, rgba(77, 209, 248, .64), rgba(42, 137, 207, .42));
+    box-shadow: inset 0 1px rgba(255,255,255,.58), inset 0 -1px rgba(255,255,255,.12), 0 10px 24px rgba(30, 179, 228, .12);
+    -webkit-backdrop-filter: blur(20px) saturate(145%);
+    backdrop-filter: blur(20px) saturate(145%);
+}
+.libtv-pricing-page:not(.is-byok) .libtv-plan--supreme .libtv-plan-banner {
+    background: linear-gradient(116deg, rgba(255, 213, 103, .66), rgba(235, 135, 57, .44));
+    box-shadow: inset 0 1px rgba(255,255,255,.58), inset 0 -1px rgba(255,255,255,.13), 0 10px 24px rgba(235, 160, 54, .13);
+}
+.libtv-pricing-page.is-team:not(.is-byok) .libtv-plan--supreme .libtv-plan-banner {
+    background: linear-gradient(116deg, rgba(91, 143, 255, .62), rgba(54, 88, 198, .42));
+    box-shadow: inset 0 1px rgba(255,255,255,.56), inset 0 -1px rgba(255,255,255,.12), 0 10px 24px rgba(54, 104, 227, .13);
+}
+.libtv-pricing-page .libtv-cycle-switch button.is-active {
+    background: rgba(255,255,255,.14);
+    box-shadow: inset 0 1px rgba(255,255,255,.48), inset 0 -1px rgba(255,255,255,.11), 0 5px 15px rgba(0,0,0,.13);
+}
+.libtv-pricing-page .libtv-cycle-switch button .libtv-cycle-discount {
+    display: inline-block;
+    padding: 3px 8px;
+    border: 1px solid rgba(255,177,113,.32);
+    border-radius: 999px;
+    color: #ffc697;
+    background: rgba(255,144,68,.1);
+    font-weight: 720;
+    white-space: nowrap;
+}
+.libtv-pricing-page .libtv-plan-name-row > span {
+    border: 1px solid rgba(105,219,255,.34);
+    border-radius: 999px;
+    background: rgba(42,167,210,.12);
+    color: #85dcf7;
+    box-shadow: inset 0 1px rgba(255,255,255,.12);
+}
+.libtv-pricing-page .libtv-plan--supreme .libtv-plan-name-row > span {
+    border-color: rgba(255,160,106,.34);
+    color: #ffb686;
+    background: rgba(255,111,50,.12);
+}
+.libtv-pricing-page .sa-offer-original s { color: #adb9c3; text-decoration-color: #adb9c3; }
+.libtv-pricing-page .sa-plan-monthly-equivalent {
+    margin: 0 0 3px;
+    color: #d5e5ed;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .01em;
+}
+.libtv-pricing-page :is(.libtv-campaign-box, .libtv-credit-options, .sa-credit-custom-total, .sa-promo-facts span) {
+    border: 1px solid rgba(255,255,255,.13);
+    background: rgba(255,255,255,.055);
+    box-shadow: inset 0 1px rgba(255,255,255,.1);
+}
+.libtv-pricing-page .libtv-generation-scroll { background: rgba(255,255,255,.035); box-shadow: none; }
+.libtv-pricing-page .libtv-generation-table :is(thead th, .libtv-table-section th) { background: rgba(255,255,255,.07); }
+.libtv-pricing-page .libtv-faq {
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+.libtv-pricing-page .libtv-promo-banner {
+    border-color: rgba(255,255,255,.3);
+    box-shadow: inset 0 1px rgba(255,255,255,.36), 0 14px 36px rgba(0,0,0,.15);
+    color: #fff;
+}
+.libtv-pricing-page .libtv-promo-banner :is(.sa-annual-copy, .sa-annual-copy *, .sa-annual-countdown, .sa-annual-countdown *) { color: #fff; }
+
+:root:not(.dark) .libtv-pricing-page {
+    --pricing-glass-fill: linear-gradient(145deg, rgba(255,255,255,.56), rgba(255,255,255,.24) 53%, rgba(255,255,255,.36));
+    --pricing-glass-rim: rgba(255,255,255,.92);
+    --pricing-glass-shadow: inset 0 2px 1px rgba(255,255,255,.98), inset 0 -1px rgba(255,255,255,.52), 0 18px 45px rgba(28,52,72,.13), 0 3px 9px rgba(28,52,72,.05);
+    background-color: #eef3f7;
+    background-image:
+        radial-gradient(ellipse 48% 17% at 42% 17%, rgba(124,191,215,.35), transparent 80%),
+        radial-gradient(ellipse 40% 18% at 81% 41%, rgba(231,173,143,.24), transparent 82%),
+        radial-gradient(ellipse 52% 20% at 28% 70%, rgba(124,188,205,.22), transparent 82%);
+}
+:root:not(.dark):has(.libtv-pricing-page) .ll-home-campaign { background: #eef3f7; }
+:root:not(.dark):has(.libtv-pricing-page) .ll-home-campaign-inner {
+    border-color: rgba(255,255,255,.94);
+    color: #193244;
+    background: linear-gradient(112deg, rgba(255,255,255,.78), rgba(215,233,242,.58) 51%, rgba(255,231,214,.58));
+    box-shadow: inset 0 1px 1px #fff, inset 0 -1px rgba(255,255,255,.65), 0 9px 25px rgba(32,60,77,.13);
+}
+:root:not(.dark):has(.libtv-pricing-page) .ll-home-countdown {
+    border-color: rgba(255,255,255,.7);
+    color: #284255;
+    background: rgba(255,255,255,.45);
+}
+:root:not(.dark):has(.libtv-pricing-page) .ll-home-campaign-inner > a {
+    color: #163348;
+    background: rgba(255,255,255,.82);
+}
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan-carousel::before { opacity: .63; }
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan {
+    border-color: var(--pricing-glass-rim);
+    background: var(--pricing-glass-fill);
+}
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan--luxury {
+    border-color: rgba(194,232,245,.94);
+}
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan--supreme {
+    border-color: rgba(255,213,189,.94);
+}
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan-banner {
+    color: #16435a;
+    background: linear-gradient(116deg, rgba(98, 209, 243, .58), rgba(173, 232, 248, .42));
+}
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan--supreme .libtv-plan-banner {
+    color: #57270c;
+    background: linear-gradient(116deg, rgba(255, 220, 117, .6), rgba(251, 181, 112, .43));
+}
+:root:not(.dark) .libtv-pricing-page.is-team:not(.is-byok) .libtv-plan--supreme .libtv-plan-banner {
+    color: #102f78;
+    background: linear-gradient(116deg, rgba(123, 165, 255, .58), rgba(183, 205, 255, .42));
+}
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan-hero,
+:root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan-benefits {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+:root:not(.dark) .libtv-pricing-page .libtv-cycle-switch button.is-active { background: rgba(255,255,255,.38); }
+:root:not(.dark) .libtv-pricing-page .libtv-cycle-switch button .libtv-cycle-discount { color: #a14c20; background: rgba(255,143,65,.1); }
+:root:not(.dark) .libtv-pricing-page .libtv-plan-name-row > span { color: #006d91; }
+:root:not(.dark) .libtv-pricing-page .libtv-plan--supreme .libtv-plan-name-row > span { color: #994209; }
+:root:not(.dark) .libtv-pricing-page .sa-offer-original s { color: #677380; text-decoration-color: #677380; }
+:root:not(.dark) .libtv-pricing-page .sa-plan-monthly-equivalent { color: #365362; }
+:root:not(.dark) .libtv-pricing-page :is(.libtv-campaign-box, .libtv-credit-options, .sa-credit-custom-total, .sa-promo-facts span) {
+    border-color: rgba(255,255,255,.65);
+    background: rgba(255,255,255,.28);
+}
+:root:not(.dark) .libtv-pricing-page .libtv-generation-scroll { background: rgba(255,255,255,.24); }
+:root:not(.dark) .libtv-pricing-page .libtv-generation-table :is(thead th, .libtv-table-section th) { background: rgba(255,255,255,.34); }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    .libtv-pricing-page:not(.is-byok) .libtv-plan,
+    .libtv-pricing-page :is(.libtv-cycle-switch, .sa-value-controls, .sa-pricing-reference-group, .libtv-generation-scroll, .libtv-enterprise-strip, .sa-credit-pack, .sa-credit-custom, .sa-byok-master, .sa-byok-offer) { background: rgba(37,44,52,.92); }
+    :root:not(.dark) .libtv-pricing-page:not(.is-byok) .libtv-plan,
+    :root:not(.dark) .libtv-pricing-page :is(.libtv-cycle-switch, .sa-value-controls, .sa-pricing-reference-group, .libtv-generation-scroll, .libtv-enterprise-strip, .sa-credit-pack, .sa-credit-custom, .sa-byok-master, .sa-byok-offer) { background: rgba(255,255,255,.92); }
+}
+@media (max-width: 760px) { .libtv-pricing-page .libtv-cycle-switch button .libtv-cycle-discount { margin: 4px 0 0; } }
+
+/* One control beneath the rail reveals the remaining details across every plan. */
+.libtv-pricing-page:not(.is-byok) .sa-plan-detail-disclosure { display: none; }
+.libtv-pricing-page:not(.is-byok).benefits-expanded .sa-plan-detail-disclosure { display: block; }
+.libtv-pricing-page:not(.is-byok) .libtv-plan-benefits { display: block; }
+.libtv-pricing-page:not(.is-byok):not(.benefits-expanded) .libtv-campaign-list li:nth-child(n+3),
+.libtv-pricing-page:not(.is-byok):not(.benefits-expanded) .libtv-standard-benefits li:nth-child(n+3),
+.libtv-pricing-page:not(.is-byok):not(.benefits-expanded) .libtv-team-benefits section:nth-child(n+2),
+.libtv-pricing-page:not(.is-byok):not(.benefits-expanded) .libtv-team-benefits section:first-child li:nth-child(n+3),
+.libtv-pricing-page:not(.is-byok):not(.benefits-expanded) .sa-model-benefits { display: none; }

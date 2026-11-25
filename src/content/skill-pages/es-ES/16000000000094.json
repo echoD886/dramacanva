@@ -1,0 +1,67 @@
+{
+    "title": "De guion a storyboard: planos con cámara y duración",
+    "metaDescription": "Para vídeo: envía diálogos, ordena posiciones y miradas en el lienzo de {brand} y crea un storyboard con posición de cámara, encuadre y duración.",
+    "oneLiner": "Introduce los diálogos del guion y obtén un storyboard con posición de cámara, tamaño de plano y duración.",
+    "intro": [
+        "Esta herramienta te ayuda a planificar los planos: envía el diálogo del guion y colocará planos y posiciones de cámara en el lienzo; ideal para creadores de vídeo que no saben dónde poner la cámara.",
+        "Solo tienes que enviar el guion ya escrito, un diálogo entre dos personas o describir directamente la escena que quieres rodar en la parte derecha del lienzo. No necesitas conocer antes términos profesionales de rodaje; basta con contar bien tu historia.",
+        "Generará en el lienzo tarjetas detalladas de storyboard, con el tamaño de plano, el ángulo de colocación de la cámara, si el plano debe moverse y cuántos segundos dura aproximadamente cada plano."
+    ],
+    "example": {
+        "input": "El chico y la chica tienen una conversación decisiva en una cafetería para romper: ella propone la ruptura, él se queda atónito y luego, alterado, le pregunta. Ayúdame a ordenar el storyboard.",
+        "output": "En el lienzo se genera una tarjeta de storyboard: empieza por un plano medio para situar a los dos, luego corta a un primer plano para ver la emoción; indica hacia dónde mira cada uno para evitar que los cortes rompan la continuidad; especifica que la cámara se mantiene fija y la duración de cada plano."
+    },
+    "scenarios": [
+        "Cuando ya has escrito una discusión o una conversación entre dos y no sabes cómo cortar los planos, y te preocupa que el montaje confunda al público.",
+        "Cuando el guion solo tiene diálogos y una historia, y no sabes cómo desglosarlo en un storyboard con imágenes de rodaje.",
+        "Cuando dudas entre acercar o alejar la imagen y no sabes si la cámara debe moverse.",
+        "Cuando el guion está lleno de descripciones psicológicas y no sabes cómo convertirlas en acciones concretas de los actores."
+    ],
+    "problems": [
+        {
+            "pain": "Cuando dos personas hablan cara a cara, los cortes de un lado a otro pueden marear al espectador.",
+            "solve": "Aclara la posición izquierda/derecha de cada personaje en pantalla y la dirección de su mirada, y mantiene la cámara en el mismo lado del eje para que los cambios de plano sean más coherentes y no mareen."
+        },
+        {
+            "pain": "Al escribir el storyboard no sabes a qué distancia colocar la cámara y el resultado queda plano o sin foco de atención.",
+            "solve": "Empieza con un plano medio para presentar la relación entre los personajes y cambia a primeros planos cuando convenga ver detalles; indica el encuadre de cada plano."
+        },
+        {
+            "pain": "El guion está lleno de descripciones psicológicas y no sabes cómo llevarlas a imágenes concretas.",
+            "solve": "Elimina los adjetivos de estados internos que no se ven y convierte las emociones en acciones físicas visibles: desplazamientos, pausas y gestos."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para activar la creación de storyboards.",
+        "Envía tu fragmento de guion, el texto de los diálogos o la descripción de la escena que quieres rodar.",
+        "Consulta la tabla de storyboard, la colocación de cámara y las tarjetas de planos generadas en el lienzo.",
+        "Indica al asistente tus cambios y ajusta la duración de los planos o el tamaño del encuadre.",
+        "Copia o descarga el texto del storyboard para usarlo en el rodaje o en la creación de imágenes."
+    ],
+    "faq": [
+        {
+            "q": "¿Puedo escribir un storyboard sin conocer términos profesionales de cámara?",
+            "a": "Sí. Basta con enviar una narración normal o los diálogos; el sistema te preparará una tabla de storyboard con tamaño de plano, posición de cámara y duración. Si algo no lo entiendes, puedes seguir preguntando al asistente en el chat: te lo explicará con palabras sencillas y lo modificará."
+        },
+        {
+            "q": "¿Cómo evitar que el público se maree al cambiar de plano en un diálogo entre dos personas?",
+            "a": "La clave es mantener la cámara siempre en el mismo lado del eje que une a los dos personajes; el sistema indicará su posición izquierda/derecha en pantalla y la dirección de su mirada. Así, al alternar planos, las miradas mantienen continuidad y se evita en lo posible que el espectador se maree."
+        },
+        {
+            "q": "Al planificar un storyboard, ¿cuándo debe moverse la cámara?",
+            "a": "Por defecto, el plano debe mantenerse fijo el mayor tiempo posible; solo se mueve cuando hay que seguir el desplazamiento de un personaje o mostrar una acción clave. Mover la cámara sin motivo puede hacer que la imagen tiemble y que se pierda el foco; cuando el asistente añade un movimiento de cámara, indica el motivo narrativo concreto."
+        },
+        {
+            "q": "El guion está lleno de descripciones psicológicas, ¿cómo convertirlas en planos rodables?",
+            "a": "La clave es transformar la psicología en acciones físicas visibles; el asistente elimina los adjetivos abstractos y los reescribe como miradas, pausas o desplazamientos concretos. Así la cámara puede captar la imagen y el público puede entender lo que siente el personaje."
+        }
+    ],
+    "keywords": [
+        "cómo hacer un storyboard",
+        "pasar guion a storyboard",
+        "colocación de cámara en vídeo",
+        "evitar mareo al cambiar de plano",
+        "generador de storyboard",
+        "elegir tamaño de plano"
+    ]
+}

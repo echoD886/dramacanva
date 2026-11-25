@@ -1,0 +1,66 @@
+{
+    "title": "Jewelry redesign: sketches/old pieces, new designs | {brand}",
+    "metaDescription": "For jewelry designers and fans. Upload a sketch or photo to {brand}, answer a few questions, and AI keeps the original structure while creating new designs.",
+    "oneLiner": "For jewelry creators: upload a sketch or photo of an old piece and generate multiple redesigns on the canvas.",
+    "intro": [
+        "This is a jewelry redesign helper. You don't need to know complex drawing commands—just answer a few multiple-choice questions, and AI will try to preserve the original structure while helping you explore new patterns and materials.",
+        "Just prepare a hand-drawn sketch, a photo of an existing piece, or a simple typed description of your idea. When AI asks how much to keep and what elements to add, just check the options you like.",
+        "When you're done, the canvas will generate 4 redesign concepts in different styles, each with design notes. You can compare them side by side on the canvas and download the ones you like."
+    ],
+    "example": {
+        "input": "Upload a photo of a plain silver band ring and check these options: keep the original outline, add a vine-and-leaf motif, and choose mother-of-pearl and small diamonds as materials.",
+        "output": "The canvas generates 4 ring design concepts in different styles—some with carved details on the band, some with mother-of-pearl set at the top. Each image includes notes on the changes and can be downloaded directly."
+    },
+    "scenarios": [
+        "You have a best-selling jewelry piece and want to keep its shape while quickly developing several new series with different patterns.",
+        "You only have a hand-drawn sketch or an early idea and want to see how it would look in gold or colored gemstones.",
+        "When creating custom proposals for clients, you need several design concepts in different styles for them to choose from.",
+        "You want to incorporate Eastern cloud motifs or plants into an existing pendant and see how to make the design more cohesive and attractive."
+    ],
+    "problems": [
+        {
+            "pain": "You want to redesign an older jewelry style but can't draw a design sketch.",
+            "solve": "Upload a photo of the old piece and choose the patterns you want to change; AI will try to preserve the original structure and generate new design concepts."
+        },
+        {
+            "pain": "You don't know how to write complex English AI image prompts and are never satisfied after many tries.",
+            "solve": "The whole process uses multiple-choice questions—check the level of preservation, style, and materials you want without writing complex prompts."
+        },
+        {
+            "pain": "Each run produces only one design image, making side-by-side comparison hard and final decisions difficult.",
+            "solve": "Generate 4 design concepts in different directions, each with notes, laid out on the canvas at once so you can compare them visually and pick your favorites."
+        }
+    ],
+    "steps": [
+        "In the skills library, click 'Use This Skill,' then upload a jewelry photo or sketch in the chat panel on the right.",
+        "Complete the multiple-choice questions that appear: check how much to preserve, the target materials, and the pattern themes you like.",
+        "Review the 4 redesign concepts generated on the canvas and compare their appearance and change notes side by side.",
+        "Choose a design card you like and download the image directly, or tell the assistant to keep adjusting the details."
+    ],
+    "faq": [
+        {
+            "q": "Can I turn a hand-drawn sketch directly into a realistic jewelry render?",
+            "a": "Yes. Upload the sketch to the canvas and select materials and gemstones; AI will use the sketch outline as a reference to generate multiple design concepts with the matching look. Each generated image includes notes on the changes, and you can download the ones you like."
+        },
+        {
+            "q": "Will AI redesign damage the original jewelry structure and make it unwearable?",
+            "a": "Usually not. Before designing, AI tries to lock in structural elements that make the piece wearable, such as the ring band and clasps, and by default mainly adjusts surface patterns and small decorative details. If you want a major look change, you can also set the evolution strength to 'reshape' in the multiple-choice questions."
+        },
+        {
+            "q": "How many different design options can I generate at once?",
+            "a": "By default, the canvas lays out 4 design concepts in different directions at once, and you can change this to 8 in the multiple-choice questions. Each concept includes structural notes and reasons for the changes, so you can compare and choose side by side."
+        },
+        {
+            "q": "Can the generated design images be turned directly into short jewelry showcase videos?",
+            "a": "You can generate showcase clips. If you need a complete video, arrange the generated clips in order on the canvas video timeline and export. After choosing the design cards you like, just tell the assistant in the chat to generate showcase video clips."
+        }
+    ],
+    "keywords": [
+        "jewelry redesign",
+        "AI jewelry design",
+        "sketch to jewelry design",
+        "jewelry restyling",
+        "jewelry design render",
+        "jewelry material swap"
+    ]
+}

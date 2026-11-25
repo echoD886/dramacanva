@@ -1,0 +1,66 @@
+{
+    "title": "Crie vídeos de gato dançando em fundo verde para recortar",
+    "metaDescription": "Para vídeos engraçados e memes: informe a raça e a dança, e a IA gera no canvas um vídeo de gato dançando em fundo verde para baixar e recortar.",
+    "oneLiner": "Dê a raça e o movimento do gato e gere no canvas um vídeo de dança em fundo verde fácil de recortar.",
+    "intro": [
+        "Ferramenta de material para criadores de vídeos engraçados: escolha a raça do gato e o movimento de dança para gerar no canvas um clipe de dança com câmera fixa, corpo inteiro e fundo totalmente verde.",
+        "Você só precisa preencher um formulário simples e escolher a raça do gato, o estilo de dança, a proporção da imagem e a definição. Se tiver uma dança que quer imitar, também pode enviar um vídeo de referência.",
+        "Ao terminar, um card de vídeo aparece no canvas. É um clipe de dança em fundo verde puro com até 15 segundos, que você pode baixar diretamente ou colocar na linha do tempo do canvas para organizar a ordem e exportar."
+    ],
+    "example": {
+        "input": "Escolha um gato laranja, dança engraçada de rebolado para os lados, 5 segundos, vertical, qualidade retrô granulada antiga e desfocada, sem música de fundo.",
+        "output": "O canvas gera um card de vídeo: um gato laranja inteiro centralizado dançando para os lados, fundo chroma key verde liso e ruído retrô, pronto para recorte direto."
+    },
+    "scenarios": [
+        "Ao criar vídeos curtos de humor, precisa de uma cena de gato dançando com fundo limpo como inserto engraçado.",
+        "Não consegue filmar um gato de uma raça específica e quer escolher um British Shorthair ou um gato laranja para fazer movimentos específicos.",
+        "Tem um vídeo de passos de dança viral e quer que o gatinho imite os movimentos do vídeo dançando.",
+        "Ao criar memes engraçados retrô, precisa de um clipe de gato com textura antiga desfocada e granulação de pixels."
+    ],
+    "problems": [
+        {
+            "pain": "Os vídeos de gato dançando encontrados na internet têm fundos bagunçados, dificultando recortar o gato de forma limpa.",
+            "solve": "Gere um fundo verde liso, sem luzes e sombras extras, com o gato inteiro centralizado, para facilitar o recorte."
+        },
+        {
+            "pain": "Quer usar um gato de raça específica no vídeo, mas filmar você mesmo é difícil e não encontra na internet.",
+            "solve": "Escolha a raça e o movimento de dança diretamente no formulário e gere automaticamente um vídeo correspondente de corpo inteiro em um único trecho."
+        },
+        {
+            "pain": "Você gostou de uma dança engraçada viral, mas não encontra material pronto de um gato fazendo esse movimento.",
+            "solve": "Envie o vídeo de dança e a IA usa os movimentos corporais do vídeo como referência para gerar a cena do gato dançando."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de skills, clique em «Usar esta skill» para entrar na página do canvas do {brand}.",
+        "Preencha o formulário de parâmetros que aparece e selecione a raça do gato, o movimento ou envie um vídeo de referência.",
+        "Depois de confirmar o envio, aguarde o canvas gerar o card de vídeo do gato dançando em fundo verde.",
+        "Baixe o clipe ou arraste-o para a linha do tempo do vídeo, organize a ordem e exporte."
+    ],
+    "faq": [
+        {
+            "q": "Como criar um vídeo de gato dançando com fundo verde puro, fácil de recortar?",
+            "a": "Selecione a raça do gato e a dança no formulário e envie. O sistema gera automaticamente um fundo chroma key verde liso, sem luzes e sombras bagunçadas, e um trecho de dança com câmera fixa. O gato aparece sempre centralizado por inteiro; após baixar o vídeo, importe-o no editor e use chroma key para recortar o gato facilmente."
+        },
+        {
+            "q": "Posso fazer o gato imitar os meus próprios movimentos de dança?",
+            "a": "Sim. Envie no formulário um vídeo de dança que você quer usar como referência, e o sistema tentará imitar os movimentos corporais do vídeo para gerar a cena do gato dançando. Recomendamos enviar um vídeo de uma pessoa só, com movimentos bem visíveis e corpo inteiro; se o vídeo de referência tiver mais de 15 segundos, corte antes de enviar."
+        },
+        {
+            "q": "O vídeo gerado do gato dançando tem som ou música?",
+            "a": "Você pode escolher. Ao preencher o formulário, marque se quer ou não música de fundo, e o sistema gera o vídeo conforme a sua escolha. Se escolher sem música, o vídeo ficará silencioso, para você combinar livremente os efeitos sonoros e a trilha que quiser no seu editor depois de baixar."
+        },
+        {
+            "q": "Como criar aquele visual antigo e desfocado de gato engraçado?",
+            "a": "No estilo de qualidade do formulário, marque «Retrô vintage desfocado»; o vídeo gerado virá com ruído de alta compressão e granulação envelhecida típicos dos primeiros memes da internet. Esse visual é ótimo para memes engraçados e piadas retrô; se quiser uma imagem normal e nítida, basta selecionar «Nítido em alta definição» no formulário."
+        }
+    ],
+    "keywords": [
+        "gato dançando chroma key",
+        "como fazer vídeo de gato dançando com IA",
+        "vídeo de gato dançando fundo verde",
+        "criar vídeo de gato dançando",
+        "IA de gato imitando dança",
+        "clipe engraçado de gato chroma key"
+    ]
+}

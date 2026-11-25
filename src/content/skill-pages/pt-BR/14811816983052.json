@@ -1,0 +1,67 @@
+{
+    "title": "Transforme inspiração em roteiro, com personagens e trama",
+    "metaDescription": "Para criadores de vídeos ou séries curtas. Insira uma ideia ou história inacabada e gere fichas de personagens, roteiro cena a cena e sugestões de ajustes.",
+    "oneLiner": "Dê uma ideia e organize no canvas personagens e o roteiro completo para criadores de vídeo.",
+    "intro": [
+        "É uma ferramenta de texto que ajuda a lapidar a estrutura da história. Se você quer fazer uma série curta ou um vídeo curto, ela conecta ideias soltas em uma história coerente.",
+        "Você só precisa de uma ideia de uma frase, um trecho curto de enredo ou um rascunho incompleto. Basta dizer para quem é, e se prefere algo mais engraçado ou emocionante.",
+        "Ela gera alguns cartões no canvas, incluindo um resumo da história em uma frase, uma lista de características dos protagonistas e coadjuvantes, e uma tabela de desenvolvimento do enredo em ordem, para facilitar a escrita do roteiro depois."
+    ],
+    "example": {
+        "input": "Quero escrever um curta de comédia de 3 minutos: um cão policial com medo do escuro faz seu primeiro turno noturno e precisa superar o medo para pegar o ladrão de ração.",
+        "output": "No canvas aparecem cartões com características e objetivos do cão policial e do ladrão, além de uma tabela de desenvolvimento do enredo em ordem, explicando o que acontece em cada cena e quais são os pontos de humor."
+    },
+    "scenarios": [
+        "Uma nova ideia surge de repente e você quer organizar rapidamente um roteiro completo.",
+        "A história travou na metade, o enredo não avança e você não sabe o que deve acontecer em seguida.",
+        "Você acha o protagonista comum demais e sem apelo, e quer redesenhar personagens de quem o público goste.",
+        "Depois de terminar a história, você sente que algo está errado e quer verificar furos de lógica ou um final fraco."
+    ],
+    "problems": [
+        {
+            "pain": "Você tem uma ideia na cabeça, mas não consegue escrever e não sabe o que definir primeiro na história.",
+            "solve": "Ajuda a esclarecer para quem a história é e a resumir a premissa em uma frase, gerando as definições centrais no canvas."
+        },
+        {
+            "pain": "O meio da história fica morno e arrastado, o protagonista age sem motivo e o enredo vira uma lista de acontecimentos.",
+            "solve": "Ajuda a revisar as relações de causa e efeito, dando a cada virada dificuldades e picos emocionais coerentes para manter o enredo em movimento."
+        },
+        {
+            "pain": "Ao terminar, a história parece estranha ou tende a terminar mal, mas você não encontra o erro específico.",
+            "solve": "Verifica se todas as perguntas plantadas antes foram respondidas, encontra pontos em que o enredo não flui e oferece sugestões de revisão."
+        }
+    ],
+    "steps": [
+        "Na biblioteca de habilidades, clique em “Usar esta habilidade” para entrar no canvas de criação.",
+        "Digite sua ideia de história ou envie diretamente um rascunho inacabado.",
+        "Veja no canvas as definições da história, as características dos personagens e a tabela de ordem do enredo.",
+        "Edite o conteúdo dos cartões no canvas ou continue enviando mensagens para ajustar o enredo.",
+        "Copie ou baixe o resultado para usar quando quiser na escrita do roteiro e nas gravações."
+    ],
+    "faq": [
+        {
+            "q": "Como usar a IA para transformar ideias soltas em um esboço completo de história?",
+            "a": "Basta inserir sua ideia no lado direito do canvas do {brand} e indicar para quem você pretende fazer o vídeo; a IA organiza o núcleo da história em ordem. Ela gera, no canvas, um resumo em uma frase, características dos personagens e cartões de enredo por etapas. Você pode editar diretamente nos cartões até ficar satisfeito."
+        },
+        {
+            "q": "A história travou no meio ou o enredo está morno; como revisar?",
+            "a": "Envie o rascunho pronto para ela, e ela ajudará a verificar pontos em que o enredo está morno e as motivações dos personagens não fluem. Ela indica qual trecho falta conflito e dá sugestões específicas de ajuste no enredo. Você pode usar as sugestões para mudar a ordem dos acontecimentos no canvas."
+        },
+        {
+            "q": "Acha que o protagonista não convence ou não é atraente o bastante? O que fazer?",
+            "a": "Você pode pedir que ela reorganize as qualidades do protagonista que o tornam querido e comovente. Ela ajuda o personagem a encontrar desejos internos e defeitos de personalidade específicos e lista os personagens no canvas. Assim, o papel fica com mais personalidade e o público se identifica mais."
+        },
+        {
+            "q": "Esta habilidade pode gerar diretamente um vídeo completo com falas?",
+            "a": "Não. No momento, ela cuida apenas da etapa de planejamento da história e gera um esboço em texto e cartões de personagens. Não gera automaticamente trechos de vídeo nem faz dublagem separada, e também não escreve falas palavra por palavra. Você pode baixar os cartões do esboço organizado e continuar a escrita do roteiro ou a gravação do vídeo."
+        }
+    ],
+    "keywords": [
+        "como escrever um esboço de história",
+        "IA para escrever histórias",
+        "roteiro de série curta",
+        "bloqueio criativo ao escrever história",
+        "como criar personagens",
+        "como corrigir furos no roteiro"
+    ]
+}

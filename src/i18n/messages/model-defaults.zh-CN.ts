@@ -1,0 +1,22 @@
+const modelDefaults = {
+    "modelDefaults.imageTitle": "默认生图模型",
+    "modelDefaults.imageDescription": "图片生成、图像编辑与视觉探索",
+    "modelDefaults.videoTitle": "默认视频模型",
+    "modelDefaults.videoDescription": "文生视频、图生视频与镜头延展",
+    "modelDefaults.textTitle": "默认文本模型",
+    "modelDefaults.textDescription": "提示词改写、脚本与结构化文本",
+    "modelDefaults.audioTitle": "默认音频模型",
+    "modelDefaults.audioDescription": "语音、音效与音乐生成",
+    "modelDefaults.available": "{count} 个可用",
+    "modelDefaults.unnamedChannel": "未命名渠道",
+    "modelDefaults.system": "系统",
+    "modelDefaults.custom": "自定义",
+    "modelDefaults.tokenPrice": "{price} /百万 Token",
+    "modelDefaults.secondPrice": "{price} /秒",
+    "modelDefaults.requestPrice": "{price} /次",
+    "modelDefaults.noImage": "暂无可用的图片模型",
+    "modelDefaults.noVideo": "暂无可用的视频模型",
+    "modelDefaults.noText": "暂无可用的文本模型",
+    "modelDefaults.noAudio": "暂无可用的音频模型",
+} as const;
+export default modelDefaults;

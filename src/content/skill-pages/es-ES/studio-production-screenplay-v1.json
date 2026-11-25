@@ -1,0 +1,67 @@
+{
+    "title": "Guion de cómic animado: acciones y diálogos",
+    "metaDescription": "Para autores y principiantes en vídeo que quieran crear cómics animados. Envía sinopsis y personajes; genera en el lienzo un guion con acciones, labios y luz.",
+    "oneLiner": "Introduce la sinopsis y genera en el lienzo un guion de cómic animado con acciones y diálogos para principiantes.",
+    "intro": [
+        "Este es un asistente de escritura de guiones. Puede ampliar tu sinopsis en un guion de texto apto para cómic animado (vídeo de cómic en movimiento), sin que tengas que pensar en cómo dividir los planos.",
+        "Solo tienes que preparar un esquema de la historia o un fragmento de novela, y rellenar los nombres de los personajes, una breve descripción física y el lugar donde ocurre. Si tienes pensado un número de episodios o una duración objetivo, también puedes enviárselo.",
+        "Al terminar, obtendrás en el lienzo tarjetas de texto con el guion detallado. Especifican las acciones de los personajes, el movimiento de labios, la iluminación de la escena y las indicaciones de efectos de sonido, para facilitar el dibujo o la producción posterior."
+    ],
+    "example": {
+        "input": "Guion «Noche de niebla», episodio 1: el protagonista, Lin Che, de 22 años, camisa blanca y gafas de montura negra, se encuentra de noche junto al río bajo una farola con la protagonista femenina; discuten. Duración aproximada: 3 minutos.",
+        "output": "En el lienzo se genera una tarjeta de texto: incluye el encabezado de escena [EXTERIOR - RIBERA DEL RÍO - NOCHE CERRADA (luz cálida de farola)], las acciones de Lin Che apretando el puño y caminando rápido, diálogos en frases cortas con movimiento de labios medio y una indicación de viento lejano."
+    },
+    "scenarios": [
+        "Tienes un relato corto o una sinopsis y quieres convertirlo en un vídeo corto de cómic animado de 3 a 5 minutos.",
+        "Al escribir una novela hay demasiadas descripciones psicológicas y no sabes cómo convertirlas en acciones visibles en pantalla.",
+        "Tus diálogos son demasiado largos y literarios; a los personajes les suenan raros y no encajan con el movimiento de labios.",
+        "Vas a preparar un vídeo de cómic animado, pero no sabes cómo indicar claramente en el guion la iluminación de la escena y los efectos de sonido."
+    ],
+    "problems": [
+        {
+            "pain": "La novela está llena de monólogos internos y no sabes cómo mostrarlos en pantalla.",
+            "solve": "Convierte la actividad mental en expresiones y microacciones concretas; por ejemplo, transforma la tristeza en ojos enrojecidos y comisuras de la boca hacia abajo."
+        },
+        {
+            "pain": "En el guion hay demasiados efectos de lucha y eso puede disparar el coste de las imágenes posteriores.",
+            "solve": "Te ayuda a distinguir microacciones de efectos intensos; intenta limitar las luchas a un máximo de 3 por episodio para controlar el presupuesto de producción."
+        },
+        {
+            "pain": "Los diálogos de los personajes son demasiado largos y literarios; suenan como una lectura en voz alta y tampoco encajan bien con el movimiento de labios.",
+            "solve": "Transforma las frases largas en frases cortas y coloquiales, intenta que cada frase no supere los 10 caracteres y marca el movimiento de labios pequeño, medio o grande para poder cotejarlo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, pulsa «Usar esta habilidad» para abrir la interfaz de creación de guiones.",
+        "Envía la sinopsis, los rasgos principales de los personajes y la información de la escena de este episodio.",
+        "Revisa las tarjetas de guion generadas en el lienzo y comprueba la escena, las acciones y los diálogos.",
+        "Haz clic en las tarjetas para modificar directamente los detalles del texto o pide al asistente que reescriba los fragmentos que no te convenzan.",
+        "Copia o descarga el resultado de texto del guion para usarlo en la creación de imágenes posterior."
+    ],
+    "faq": [
+        {
+            "q": "¿Qué es un guion de cómic animado? ¿En qué se diferencia de un guion normal?",
+            "a": "Un guion de cómic animado es un guion pensado específicamente para producir vídeos de cómic. A diferencia de un guion normal, indica con detalle la amplitud de los movimientos, las expresiones de los personajes y la iluminación. Un guion normal se centra en el diálogo, mientras que el de cómic animado especifica niveles de movimiento, como microacciones o grandes efectos, para que el dibujante o el postproductor vean de un vistazo cómo debe moverse todo."
+        },
+        {
+            "q": "Solo tengo un relato de unos cientos de palabras, ¿también se puede generar un guion?",
+            "a": "Sí, puedes generarlo. Envía el fragmento de la novela y la información de los personajes al asistente, y podrá ampliar la trama en un guion con escenas, acciones y diálogos. Si a la historia le faltan datos imprescindibles, como el perfil de los personajes o el lugar donde ocurre, el asistente te avisará antes de empezar para que los completes."
+        },
+        {
+            "q": "¿Qué significan los niveles de acción y el movimiento de labios indicados en el guion?",
+            "a": "Los niveles de acción sirven para distinguir microacciones de grandes efectos y así controlar el coste de producción; el movimiento de labios indica cuánto se abre la boca al hablar para ajustar el doblaje. Por ejemplo, un leve movimiento del pelo se marca como microacción y una pelea como acción intensa; en los diálogos, según el número de caracteres, se indica movimiento de labios pequeño, medio o grande para facilitar la grabación de voz."
+        },
+        {
+            "q": "¿Cuánto suele durar el guion generado? ¿Para vídeos de cuántos minutos sirve?",
+            "a": "Por defecto, cada episodio está pensado para un vídeo corto de 3 a 5 minutos; el guion generado suele tener entre 800 y 1200 caracteres y un ritmo compacto. Aproximadamente cada medio minuto se diseña un cambio emocional o un punto de interés de acción; una vez generado, también puedes modificar libremente el número de caracteres en las tarjetas del lienzo."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un guion de cómic animado",
+        "adaptar novela a cómic animado",
+        "crear guion de cómic animado",
+        "IA para escribir guion de cómic animado",
+        "diálogos y storyboard para cómic animado",
+        "cómo indicar acciones en un guion de cómic animado"
+    ]
+}

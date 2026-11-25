@@ -1,0 +1,23 @@
+const messages = {
+    "systemUpdatePhase.idle": "확인 대기",
+    "systemUpdatePhase.checking": "확인 중",
+    "systemUpdatePhase.ready": "업데이트 가능",
+    "systemUpdatePhase.no_update": "최신 상태",
+    "systemUpdatePhase.preflight": "사전 확인",
+    "systemUpdatePhase.backing_up": "백업 중",
+    "systemUpdatePhase.pulling": "이미지 가져오는 중",
+    "systemUpdatePhase.draining": "이전 서비스 중지 중",
+    "systemUpdatePhase.migrating": "데이터베이스 마이그레이션 중",
+    "systemUpdatePhase.switching": "버전 전환 중",
+    "systemUpdatePhase.verifying": "상태 검증 중",
+    "systemUpdatePhase.succeeded": "업데이트 성공",
+    "systemUpdatePhase.rolling_back": "롤백 중",
+    "systemUpdatePhase.rolled_back": "롤백 완료",
+    "systemUpdatePhase.failed": "업데이트 실패",
+    "systemUpdatePhase.manual_intervention": "수동 조치 필요",
+    "systemUpdatePhase.waiting": "실행 대기",
+    "systemUpdatePhase.passed": "통과",
+    "systemUpdatePhase.checkFailed": "실패",
+    "systemUpdatePhase.pending": "대기 중",
+} as const;
+export default messages;

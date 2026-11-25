@@ -1,0 +1,9 @@
+.sa-rolling-value { position: relative; display: inline-block; font: inherit; font-variant-numeric: proportional-nums; white-space: nowrap; vertical-align: baseline; }
+.sa-rolling-readable { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.sa-rolling-value .sa-rolling-visual { display: inline-flex; align-items: baseline; font: inherit; line-height: 1.15; }
+.sa-rolling-value .sa-rolling-digit { display: inline-block; position: relative; overflow: hidden; height: 1.15em; line-height: 1.15; vertical-align: baseline; }
+.sa-rolling-value .sa-rolling-sizer { visibility: hidden; display: inline-block; line-height: 1.15; }
+.sa-rolling-value .sa-rolling-track { position: absolute; top: 0; left: -0.15em; right: -0.15em; text-align: center; display: flex; flex-direction: column; line-height: 1.15; transition: transform 640ms cubic-bezier(.16,.9,.2,1) var(--sa-roll-delay, 0ms); }
+.sa-rolling-value .sa-rolling-track > span { display: block; flex: 0 0 1.15em; height: 1.15em; line-height: 1.15em; margin: 0; padding: 0; font-family: inherit; font-size: inherit; font-weight: inherit; }
+.sa-rolling-symbol { display: inline-block; white-space: pre; }
+@media (prefers-reduced-motion: reduce) { .sa-rolling-value .sa-rolling-track { transition: none; } }

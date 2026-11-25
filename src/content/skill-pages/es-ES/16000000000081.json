@@ -1,0 +1,66 @@
+{
+    "title": "Idea a esquema, inicio y personajes de serie corta",
+    "metaDescription": "Para creadores de series cortas: envía una idea en el lienzo de {brand}; crea esquema de episodios, apertura de 30 s y fichas de personajes detalladas.",
+    "oneLiner": "Convierte una idea de una frase en un esquema de episodios, un diálogo inicial y una lista de personajes.",
+    "intro": [
+        "Esta es una habilidad de escritura de {brand} para creadores de series cortas. Envía al asistente una idea de historia en una frase y este organizará en el lienzo el esquema de episodios, los diálogos e imágenes de apertura de los primeros 30 segundos, y fichas de personajes.",
+        "Solo necesitas una inspiración para la historia, una idea aproximada de quién es el protagonista o una experiencia cotidiana que tengas a mano. Si tienes requisitos de número de episodios o de duración por episodio, también puedes enviárselos.",
+        "Cuando termine, en el lienzo aparecerán tarjetas ordenadas de texto y tablas con el esquema de cada episodio, el primer diálogo y la imagen de los primeros 30 segundos que atrapan al público, y una lista de personajes con una personalidad marcada."
+    ],
+    "example": {
+        "input": "Quiero escribir una serie corta urbana: un mecánico honesto descubre por casualidad que el dueño del coche de lujo que suele venir al taller es, en realidad, su hermano menor, del que se separó hace años. Planeo rodar 20 episodios de 2 minutos cada uno.",
+        "output": "El lienzo genera una tabla de episodios y tarjetas de texto: incluye el plano y el diálogo de los primeros 30 segundos en los que el protagonista, al limpiar un coche, encuentra un objeto simbólico; la ficha de personajes del mecánico y su hermano; el resumen de la trama de los 20 episodios y puntos de corte sugeridos para el pago."
+    },
+    "scenarios": [
+        "Tienes una buena idea de historia en mente, pero no sabes cómo dividirla en un esquema de episodios de uno o dos minutos.",
+        "Al empezar el guion siempre quieres explicar el contexto, y no sabes cómo hacer que el primer plano y el diálogo de los primeros 30 segundos atrapen.",
+        "Tus personajes no tienen una personalidad marcada, sus diálogos parecen de la misma persona y no resultan memorables.",
+        "No sabes en qué punto de suspense detener la trama para que el público quiera pagar por ver el siguiente episodio."
+    ],
+    "problems": [
+        {
+            "pain": "Al principio siempre dedicas tiempo a explicar el contexto y el público pierde la paciencia y pasa de largo a los pocos segundos.",
+            "solve": "Te da directamente el primer plano y la primera frase de diálogo de los primeros 30 segundos, para poner el conflicto ante los ojos y atraer al público desde el inicio."
+        },
+        {
+            "pain": "Los personajes tienen una personalidad difusa, parecen de cartón, sus diálogos son siempre iguales y el público no recuerda quién es quién.",
+            "solve": "Asocia a cada personaje un apodo característico, un gesto distintivo y una frase representativa, y dota de vida a los personajes mediante pequeños detalles cotidianos."
+        },
+        {
+            "pain": "No sabes dónde conviene cortar cada episodio y los finales son tan sosos que no retienen a nadie.",
+            "solve": "Coloca el punto de pausa en el momento de máxima emoción, justo cuando la respuesta está a punto de revelarse, para que el público no pueda evitar querer seguir viendo."
+        }
+    ],
+    "steps": [
+        "En la biblioteca de habilidades, haz clic en «Usar esta habilidad» para abrir el cuadro de diálogo a la derecha del lienzo.",
+        "Envía tu inspiración para la historia, el número de episodios previsto o el material que ya tengas.",
+        "Consulta la tabla del esquema de episodios, los diálogos de apertura y las fichas de personajes generadas en el lienzo.",
+        "Ajusta los detalles de texto que no te convenzan y después copia o descarga el resultado directamente."
+    ],
+    "faq": [
+        {
+            "q": "¿Cómo se escribe el inicio de una serie corta para atrapar en los primeros segundos?",
+            "a": "Muestra directamente el conflicto y la crisis, sin explicar el contexto con calma. El asistente diseñará para ti el primer plano y la primera frase de diálogo de los primeros 30 segundos, y hará que el personaje aparezca desde el principio con una crisis encima. Deja las razones del contexto para revelarlas poco a poco más adelante en la trama."
+        },
+        {
+            "q": "¿Dónde conviene cortar cada episodio de una serie corta para que el público quiera ver el siguiente?",
+            "a": "En el instante en que el suspense acaba de llegar a su punto máximo y la respuesta está a punto de revelarse. Por ejemplo, termina de repente en el momento exacto en que se descubre un secreto, sin esperar a que se calmen las emociones. Así el público siente una fuerte curiosidad y no puede evitar ver el siguiente episodio."
+        },
+        {
+            "q": "¿Cómo crear personajes de serie corta con una personalidad marcada y memorables?",
+            "a": "La forma más práctica es asociar a cada personaje un apodo, un gesto característico y una frase que repita a menudo. Por ejemplo, sustituye una larga descripción abstracta de su carácter por una costumbre cotidiana peculiar. En cuanto el personaje habla o se mueve, al público le resulta más fácil recordar quién es."
+        },
+        {
+            "q": "¿Puedo escribir una serie corta si solo tengo una experiencia cotidiana normal?",
+            "a": "Sí, el asistente puede ayudarte a extraer de ahí una idea de historia con conflicto. Encontrará la tensión psicológica de esos pequeños detalles cotidianos y la convertirá en una trama con giros. Tú solo tienes que aportar detalles reales y él ampliará el marco de episodios."
+        }
+    ],
+    "keywords": [
+        "cómo escribir un guion de serie corta",
+        "esquema de episodios para serie corta",
+        "cómo empezar una serie corta",
+        "personajes de serie corta",
+        "ideas para series cortas",
+        "plantilla de esquema para serie corta"
+    ]
+}
