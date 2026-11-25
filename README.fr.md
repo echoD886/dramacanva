@@ -68,6 +68,32 @@ L’anglais est la langue par défaut. Le README existe aussi en chinois, franç
 
 Le code comprend des outils pour les titres, descriptions, URL canoniques, variantes linguistiques et données structurées des compétences, FAQ et procédures. L’aperçu local est en **noindex**. Le prérendu, la soumission des sitemaps et les outils de mesure du site hébergé ne sont pas inclus. Consultez les [notes SEO](docs/seo.md) avant un déploiement.
 
+## Questions fréquentes
+
+### Comment transformer un roman ou un scénario en série courte avec l’IA ?
+
+Commencez par une scène : identifiez les personnages, l’action et les dialogues, puis préparez les plans avant de générer les médias. DramaCanvas réunit projets, storyboards et outils de génération d’images et de vidéos. Le [guide de création de séries courtes](https://dramacanva.com/blog/ai-short-drama-workflow) présente le parcours sur le service en ligne.
+
+### Comment garder des personnages cohérents d’un plan à l’autre ?
+
+Définissez des images de référence et réutilisez-les pour les différents plans. Conservez les indications d’apparence, de vêtements et de décor sur le canevas. Vérifiez chaque résultat : les références orientent la génération, mais la cohérence dépend aussi du modèle et de vos choix.
+
+### Peut-on créer une vidéo IA à partir d’une seule photo ?
+
+Le catalogue en ligne de [modèles vidéo IA](https://dramacanva.com/ai-video-templates) propose des créations à partir de photos. Choisissez un modèle, vérifiez les éléments requis et importez une photo adaptée. Ce dépôt inclut les interfaces, mais pas le service de génération ni les médias originaux des modèles.
+
+### Est-ce un générateur complet de séries courtes IA à héberger soi-même ?
+
+Vous pouvez exécuter et adapter le frontend. La génération, les comptes, la facturation et le stockage cloud nécessitent votre backend. Suivez le démarrage rapide pour explorer les interfaces, ou [essayez le produit en ligne](https://dramacanva.com/) pour utiliser le parcours connecté.
+
+### Où trouver du code React pour un storyboard IA ou un canevas infini ?
+
+Consultez [`src/pages/canvas`](src/pages/canvas), [`src/components/canvas`](src/components/canvas) et [`src/pages/drama`](src/pages/drama). Ils contiennent les interfaces de canevas, de nœuds et de création d’histoires sélectionnées pour cette version. Le [guide API](docs/api.md) précise le périmètre d’intégration.
+
+### Le dépôt donne-t-il accès à des projets privés ou à des clés API ?
+
+Non. Il utilise des exemples fictifs et des réponses de démonstration isolées. Il ne contient ni export de comptes de production ni historique du dépôt privé. Utilisez vos données et votre backend, et ne publiez pas de clés ou de médias privés dans les issues.
+
 ## Organisation du projet
 
 Les pages se trouvent dans `src/pages/`, les composants partagés dans `src/components/`, le contenu public dans `src/content/` et les traductions dans `src/i18n/`. `src/services/api/` contient les contrats et clients API ; `src/demo/` fournit les données isolées. `public/` contient le logo et l’image de remplacement, et `docs/` les guides d’intégration et de référencement.

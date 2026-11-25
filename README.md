@@ -68,6 +68,32 @@ English is the default. This README is also available in Chinese, French and Jap
 
 The source includes page-title and description helpers, canonical and language-alternate helpers, and structured data for skill descriptions, FAQs and how-to steps. These are useful when adapting a multilingual site for search engines. The local preview is **noindex**; this release does not include the hosted site's prerendering, sitemap submission or analytics setup. See [SEO notes](docs/seo.md) before deploying your own version.
 
+## Frequently asked questions
+
+### How do I turn a novel or script into an AI short drama?
+
+Start with one scene: identify its characters, action and dialogue, then plan the shots before generating media. DramaCanvas brings project planning, storyboards and image/video tools into one workspace. The [AI short-drama workflow guide](https://dramacanva.com/blog/ai-short-drama-workflow) walks through the process on the hosted product.
+
+### How can I keep AI characters consistent across shots?
+
+Establish character references and reuse them when planning and generating each shot. Keep appearance, clothing and scene notes together on the canvas. Review each result before continuing: reference images help guide generation, but consistency still depends on the model and your choices.
+
+### Can I make an AI video from a single photo?
+
+The hosted [AI Video Templates](https://dramacanva.com/ai-video-templates) page offers photo-based video workflows. Choose a template, check its required inputs and upload a suitable photo. This repository includes the template interfaces; it does not include the generation service or the original template media.
+
+### Is this an open-source AI short-drama generator I can self-host?
+
+You can run and adapt the frontend. It is not a complete self-hosted generator: model execution, accounts, billing and cloud storage require your own backend. Follow [Quick start](#quick-start) to explore locally, or [try the hosted product](https://dramacanva.com/) for the connected workflow.
+
+### Where can I find React code for an AI storyboard or infinite canvas?
+
+See [`src/pages/canvas`](src/pages/canvas), [`src/components/canvas`](src/components/canvas) and [`src/pages/drama`](src/pages/drama). These contain the selected canvas, node and story-creation interfaces. The [API guide](docs/api.md) explains the integration boundary.
+
+### Does cloning this repository give me access to private projects or API keys?
+
+No. The release uses fictional showcase records and isolated demo responses. It contains no production account export or private repository history. Bring your own data and backend; do not put credentials or private media in public issues.
+
 ## Project structure
 
 ```text
