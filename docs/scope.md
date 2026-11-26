@@ -6,7 +6,7 @@ Included: selected home, short-drama, canvas, skill, video-template, asset-libra
 
 Excluded: Product Studio and About pages, admin pages and admin API actions, backend source, provider credentials, production environment files, database dumps, account records, original media libraries, real showcase project exports, operational scripts, private issues, pull requests and prior commit history.
 
-The logo was supplied for this release. The README cover was generated for it. Other artwork is represented by a local placeholder. Example showcase records are fictional, and empty library responses contain no user data.
+The logo was supplied for this release. The README cover was generated for it. The README screenshots in `docs/assets/screenshots/` were taken from the hosted product, with account details cropped out. Other artwork is represented by a local placeholder. Example showcase records are fictional, and empty library responses contain no user data.
 
 ## Runtime boundary
 

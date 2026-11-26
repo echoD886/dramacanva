@@ -1,18 +1,33 @@
-<p align="center"><img src="public/brand/logo.png" width="76" alt="Logo DramaCanvas" /></p>
+<div align="center">
+
+<img src="public/brand/logo.png" width="72" alt="Logo DramaCanvas" />
 
 # DramaCanvas
 
-**Une interface open source pour la création de films avec l’IA, les séries courtes et la narration visuelle.**
+**Une interface open source pour le cinéma, les séries courtes et la narration visuelle avec l’IA.**
 
-[Essayer DramaCanvas](https://dramacanva.com/) · [Intégration API](docs/api.md) · [Périmètre du dépôt](docs/scope.md)
+[Essayer en ligne](https://dramacanva.com/) · [Démarrage rapide](#démarrage-rapide) · [Connecter votre backend](#connecter-votre-backend) · [Guide de l’API](docs/api.md) · [Périmètre de publication](docs/scope.md)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · Français · [日本語](README.ja.md)
 
-![DramaCanvas — Du récit à l’écran](docs/assets/cover.png)
+![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite 8](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
 
-DramaCanvas réunit la préparation d’histoires, un canevas infini et des compétences créatives réutilisables dans un même espace de travail. Ce dépôt partage une sélection de pages et de composants du produit pour étudier leur fonctionnement, créer vos propres outils ou connecter votre backend.
+</div>
 
-**Il s’agit d’un aperçu du frontend, pas du service hébergé complet.** La version locale utilise des données de démonstration isolées. Elle ne fournit ni génération réelle par IA, ni comptes cloud, ni paiements, ni stockage serveur. Le produit complet est accessible sur [dramacanva.com](https://dramacanva.com/).
+![DramaCanvas — De l’histoire à l’écran](docs/assets/cover.png)
+
+Une série courte réalisée avec l’IA part d’un scénario, puis se décline en personnages, plans de storyboard, prompts, images de référence et dizaines de séquences générées. Au-delà de quelques plans, tout cela finit éparpillé entre des dossiers et des historiques de discussion.
+
+DramaCanvas rassemble ce matériel au même endroit. Des pages guidées mènent de l’histoire au storyboard, et un canevas infini place côte à côte prompts, références de personnages et médias générés pour comparer et réorganiser les plans.
+
+Ce dépôt contient l’interface : une sélection de pages, de composants, de styles et de contrats d’API typés issus du produit. Vous pouvez l’étudier, réutiliser le canevas ou les parcours de création dans votre propre outil, ou y connecter votre backend.
+
+> [!NOTE]
+> **Il s’agit d’un aperçu de l’interface, pas du service hébergé complet.** Il fonctionne avec des données de démonstration isolées. La génération par IA, les comptes en ligne, les paiements et le stockage côté serveur ne sont pas inclus. Pour le parcours complet, rendez-vous sur [dramacanva.com](https://dramacanva.com/).
 
 ## Que peut-on faire sur DramaCanvas ?
 
@@ -20,16 +35,31 @@ Sur [dramacanva.com](https://dramacanva.com/), vous pouvez développer une histo
 
 **[Ouvrir l’espace de création en ligne →](https://dramacanva.com/)**
 
+
+## Captures d’écran
+
+Ces captures proviennent du produit en ligne. L’aperçu local utilise des données de démonstration : les listes et la bibliothèque sont donc presque vides au départ.
+
+<p align="center">
+  <img src="docs/assets/screenshots/home-en.webp" alt="Accueil de DramaCanvas : nouveau canevas, accès aux modèles et zone de saisie pour générer une vidéo" width="100%" />
+  <br /><sub><b>Accueil</b> : ouvrir un nouveau canevas, choisir un modèle ou un outil, ou décrire une idée pour générer une vidéo.</sub>
+</p>
+
+<p align="center">
+  <img src="docs/assets/screenshots/asset-library-zh.webp" alt="Bibliothèque de médias de DramaCanvas avec dossiers de projets, médias non classés et corbeille" width="100%" />
+  <br /><sub><b>Bibliothèque de médias</b> (interface en chinois) : médias générés ou importés, classés par projet.</sub>
+</p>
+
 ## À découvrir
 
-| Espace | Contenu disponible |
-| --- | --- |
-| Accueil | Mise en page, points d’entrée créatifs et exemples fictifs |
-| Séries courtes | Navigation des projets et interface de création d’histoires |
-| Canevas | Espace visuel, composants de nœuds et code d’édition |
-| Compétences | Catalogue multilingue et pages de présentation |
-| Modèles vidéo | Navigation et formulaires de paramètres de génération |
-| Outils | Boîte à outils, interface de bibliothèque de médias et pages publiques sélectionnées |
+| Espace | Contenu disponible | Code source |
+| :--- | :--- | :--- |
+| **Canevas infini** | Espace visuel, composants de nœuds et code d’édition | [`src/pages/canvas`](src/pages/canvas), [`src/components/canvas`](src/components/canvas) |
+| **Séries courtes** | Navigation des projets et passage de l’histoire au storyboard | [`src/pages/drama`](src/pages/drama) |
+| **Accueil** | Mise en page, points d’entrée créatifs et exemples fictifs | [`src/pages/home`](src/pages/home) |
+| **Compétences** | Catalogue multilingue et pages de présentation | [`src/pages/skills`](src/pages/skills), [`src/pages/public-skills`](src/pages/public-skills) |
+| **Modèles vidéo** | Navigation et formulaires de paramètres de génération | [`src/pages/ai-video-templates`](src/pages/ai-video-templates) |
+| **Bibliothèque** | Interface de bibliothèque, boîte à outils et pages publiques sélectionnées | [`src/pages/assets`](src/pages/assets) |
 
 Les médias originaux et les projets réels ne sont pas distribués. Certaines pages restent vides en l’absence de données serveur. Product Studio et la page À propos sont exclus de cette version.
 
