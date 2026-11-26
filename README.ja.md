@@ -1,18 +1,33 @@
-<p align="center"><img src="public/brand/logo.png" width="76" alt="DramaCanvas ロゴ" /></p>
+<div align="center">
+
+<img src="public/brand/logo.png" width="72" alt="DramaCanvas ロゴ" />
 
 # DramaCanvas
 
 **AI 映像制作、ショートドラマ、ビジュアルストーリーテリングのためのオープンソース・フロントエンド。**
 
-[オンラインで試す](https://dramacanva.com/) · [API 連携](docs/api.md) · [公開範囲](docs/scope.md)
+[オンラインで試す](https://dramacanva.com/) · [ローカルで起動する](#ローカルで起動する) · [バックエンドとの連携](#独自のバックエンドとの連携) · [API ガイド](docs/api.md) · [公開範囲](docs/scope.md)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [Français](README.fr.md) · 日本語
 
-![DramaCanvas — 物語を映像へ](docs/assets/cover.png)
+![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite 8](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
 
-DramaCanvas は、物語の企画、無限キャンバス、再利用できる制作スキルを一つのワークスペースにまとめたツールです。このリポジトリでは、製品の一部のページとコンポーネントを公開しています。実装の学習、独自の制作ツールの開発、自分のバックエンドとの連携に活用できます。
+</div>
 
-**これはフロントエンドのプレビュー版であり、オンラインサービス全体ではありません。** ローカル版は隔離されたデモデータを使用します。実際の AI 生成、クラウドアカウント、決済、サーバーストレージは含まれません。製品全体は [dramacanva.com](https://dramacanva.com/) でお試しください。
+![DramaCanvas — 物語からスクリーンへ](docs/assets/cover.png)
+
+AI でショートドラマを作るときは、脚本から登場人物、絵コンテのカット、プロンプト、参考画像を用意し、何十本もの動画クリップを生成します。カットが増えるにつれて、素材はフォルダーやチャット履歴のあちこちに散らばっていきます。
+
+DramaCanvas はそれらを一か所にまとめます。ステップごとの画面で物語から絵コンテまで進められ、無限キャンバスではプロンプト、人物の参考画像、生成結果を並べて比較し、カットの順番を入れ替えられます。
+
+このリポジトリで公開しているのはフロントエンドです。製品の一部のページ、コンポーネント、スタイル、型付きの API 定義を含みます。実装の参考にしたり、キャンバスや制作フローを自分のツールに取り込んだり、独自のバックエンドにつないだりできます。
+
+> [!NOTE]
+> **これはフロントエンドのプレビュー版で、オンラインサービス全体ではありません。** ローカルでは隔離されたデモデータで動作し、実際の AI 生成、クラウドアカウント、決済、サーバー側の保存機能は含まれません。すべての機能は [dramacanva.com](https://dramacanva.com/) で利用できます。
 
 ## DramaCanvas でできること
 
@@ -20,16 +35,31 @@ DramaCanvas は、物語の企画、無限キャンバス、再利用できる�
 
 **[オンラインの制作ワークスペースを開く →](https://dramacanva.com/)**
 
+
+## スクリーンショット
+
+以下はオンライン版の画面です。ローカルのプレビューはデモデータで動くため、一覧や素材ライブラリはほとんど空の状態から始まります。
+
+<p align="center">
+  <img src="docs/assets/screenshots/home-en.webp" alt="DramaCanvas のホーム画面：新規キャンバス、モデルへの入口、動画生成の入力欄" width="100%" />
+  <br /><sub><b>ホーム</b>：新しいキャンバスを開く、モデルやツールを選ぶ、またはアイデアを入力して動画を生成します。</sub>
+</p>
+
+<p align="center">
+  <img src="docs/assets/screenshots/asset-library-zh.webp" alt="DramaCanvas の素材ライブラリ：プロジェクトフォルダー、未整理の素材、ごみ箱" width="100%" />
+  <br /><sub><b>素材ライブラリ</b>（中国語表示）：生成・アップロードした素材をプロジェクトごとに整理します。</sub>
+</p>
+
 ## 公開している内容
 
-| 画面 | 確認できる内容 |
-| --- | --- |
-| ホーム | レイアウト、制作の入口、架空の作品例 |
-| ショートドラマ | プロジェクトのナビゲーションと物語の制作画面 |
-| キャンバス | ビジュアル作業領域、ノード部品、編集コード |
-| スキル | 多言語のスキル一覧と詳細ページ |
-| 動画テンプレート | テンプレートの閲覧と生成パラメーターの入力画面 |
-| 制作ツール | ツールボックス、素材ライブラリの画面、一部の公開ページ |
+| 画面 | 確認できる内容 | ソースコード |
+| :--- | :--- | :--- |
+| **無限キャンバス** | ビジュアルワークスペース、ノードコンポーネント、編集用コード | [`src/pages/canvas`](src/pages/canvas)、[`src/components/canvas`](src/components/canvas) |
+| **ショートドラマ** | プロジェクトの移動と、物語から絵コンテまでの制作画面 | [`src/pages/drama`](src/pages/drama) |
+| **ホーム** | レイアウト、制作の入口、架空の作品例 | [`src/pages/home`](src/pages/home) |
+| **スキル** | 多言語のスキル一覧と詳細ページ | [`src/pages/skills`](src/pages/skills)、[`src/pages/public-skills`](src/pages/public-skills) |
+| **動画テンプレート** | テンプレートの閲覧と生成パラメーターの入力画面 | [`src/pages/ai-video-templates`](src/pages/ai-video-templates) |
+| **素材ライブラリ** | 素材ライブラリの画面、ツールボックス、一部の公開ページ | [`src/pages/assets`](src/pages/assets) |
 
 元の素材や実際の作品データは配布しません。サーバーデータを必要とする画面には空の状態が表示されます。商品生成ページと「私たちについて」のページは公開対象外です。
 

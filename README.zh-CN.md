@@ -1,18 +1,33 @@
-<p align="center"><img src="public/brand/logo.png" width="76" alt="DramaCanvas Logo" /></p>
+<div align="center">
+
+<img src="public/brand/logo.png" width="72" alt="DramaCanvas Logo" />
 
 # DramaCanvas
 
 **面向 AI 影视、短剧与视觉叙事的开源前端。**
 
-[在线体验](https://dramacanva.com/) · [接口说明](docs/api.md) · [公开范围](docs/scope.md)
+[在线体验](https://dramacanva.com/) · [本地运行](#本地运行) · [接入自己的服务](#接入自己的服务) · [接口说明](docs/api.md) · [公开范围](docs/scope.md)
 
 [English](README.md) · 简体中文 · [Français](README.fr.md) · [日本語](README.ja.md)
 
+![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite 8](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS 4](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green)
+
+</div>
+
 ![DramaCanvas — 从故事到银幕](docs/assets/cover.png)
 
-DramaCanvas 将故事创作、无限画布和可复用的创作技能放进同一个工作台。本仓库公开部分页面和组件，方便你了解实现、开发自己的创作工具，或接入自己的后端。
+做一部 AI 短剧，要从剧本出发，拆出角色、分镜、提示词、参考图，再生成几十段视频。镜头一多，这些素材就散落在各个文件夹和聊天记录里，很难对上号。
 
-**这里是前端预览版，不包含完整线上服务。** 本地运行使用隔离的演示数据，不提供真实 AI 生成、云端账号、支付或服务端存储。完整产品请访问 [dramacanva.com](https://dramacanva.com/)。
+DramaCanvas 把它们放进同一个工作台：分步页面带你从故事走到分镜，无限画布把提示词、角色参考和生成结果并排摆开，方便对比和调整镜头顺序。
+
+本仓库公开的是前端部分：产品中的部分页面、组件、样式和带类型的接口定义。你可以拿来研究实现、把画布或创作流程用进自己的工具，或者接上自己的后端。
+
+> [!NOTE]
+> **这里是前端预览版，不包含完整线上服务。** 本地运行使用隔离的演示数据，不提供真实 AI 生成、云端账号、支付或服务端存储。完整产品请访问 [dramacanva.com](https://dramacanva.com/)。
 
 ## 网站能做什么？
 
@@ -20,16 +35,31 @@ DramaCanvas 将故事创作、无限画布和可复用的创作技能放进同�
 
 **[进入在线创作工作台 →](https://dramacanva.com/)**
 
+
+## 界面截图
+
+以下截图来自线上产品。本地预览使用演示数据，列表和素材库大多是空的。
+
+<p align="center">
+  <img src="docs/assets/screenshots/home-zh.webp" alt="DramaCanvas 首页：新建画布、模型入口和视频生成输入框" width="100%" />
+  <br /><sub><b>首页</b>：新建画布、选择模型或工具，或者直接输入创意生成视频。</sub>
+</p>
+
+<p align="center">
+  <img src="docs/assets/screenshots/asset-library-zh.webp" alt="DramaCanvas 素材库：项目文件夹、未归档素材和回收站" width="100%" />
+  <br /><sub><b>素材库</b>：生成和上传的素材按项目归档。</sub>
+</p>
+
 ## 包含哪些内容
 
-| 页面 | 可以查看的内容 |
-| --- | --- |
-| 首页 | 页面布局、创作入口与虚构展示案例 |
-| 短剧创作 | 项目导航、故事创作界面 |
-| 画布 | 可视化工作区、节点组件与编辑代码 |
-| 技能库 | 多语言技能目录、详情页与相关组件 |
-| AI 视频模板 | 模板浏览与生成参数界面 |
-| 内容工具 | 工具箱、素材库界面与部分公开页面 |
+| 页面 | 可以查看的内容 | 源码位置 |
+| :--- | :--- | :--- |
+| **无限画布** | 可视化工作区、节点组件与编辑代码 | [`src/pages/canvas`](src/pages/canvas)、[`src/components/canvas`](src/components/canvas) |
+| **短剧创作** | 项目导航、从故事到分镜的创作界面 | [`src/pages/drama`](src/pages/drama) |
+| **首页** | 页面布局、创作入口与虚构展示案例 | [`src/pages/home`](src/pages/home) |
+| **技能库** | 多语言技能目录与详情页 | [`src/pages/skills`](src/pages/skills)、[`src/pages/public-skills`](src/pages/public-skills) |
+| **AI 视频模板** | 模板浏览与生成参数界面 | [`src/pages/ai-video-templates`](src/pages/ai-video-templates) |
+| **素材库** | 素材库界面、工具箱与部分公开页面 | [`src/pages/assets`](src/pages/assets) |
 
 原始素材、真实作品记录不随代码发布。依赖后端数据的部分页面保留空状态。商品生成和关于我们不在本次公开范围内。
 
